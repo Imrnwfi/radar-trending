@@ -31,6 +31,42 @@
    "app": {
     "name": "Jabatan Imigresen Malaysia",
     "url": "https://www.imi.gov.my"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Belum jumpa tutorial Bahasa Melayu untuk renew 10 tahun secara online sejak 2 Nov. Video yang ada masih versi lama 5 tahun.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "cara renew pasport online 2026",
+     "pasport 10 tahun online",
+     "myonline passport 10 tahun",
+     "harga pasport 10 tahun",
+     "renew passport malaysia online"
+    ],
+    "tags": [
+     "renew pasport",
+     "pasport 10 tahun",
+     "myonline passport",
+     "imigresen malaysia",
+     "passport malaysia",
+     "tutorial pasport",
+     "pasport online",
+     "rm350"
+    ],
+    "hashtags": [
+     "#pasport10tahun",
+     "#renewpasport",
+     "#imigresen",
+     "#tipsmalaysia",
+     "#tutorialmalaysia"
+    ],
+    "thumbs": [
+     "PASPORT 10 TAHUN",
+     "RENEW GUNA PHONE",
+     "JIMAT RM50"
+    ]
    }
   },
   {
@@ -63,6 +99,42 @@
    "app": {
     "name": "Portal MySTR (HASiL)",
     "url": "https://bantuantunai.hasil.gov.my"
+   },
+   "competition": {
+    "level": "sesak",
+    "note": "Banyak tutorial kemas kini STR 2027 dah keluar sejak Okt. Pilih sudut lain seperti rayuan, kesilapan biasa atau semak status.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "cara kemaskini str 2027",
+     "str 2027 fasa 1",
+     "mystr login",
+     "semak status str 2027",
+     "rayuan str 2027"
+    ],
+    "tags": [
+     "str 2027",
+     "sumbangan tunai rahmah",
+     "mystr",
+     "kemaskini str",
+     "bantuan kerajaan",
+     "str fasa 1",
+     "hasil",
+     "bantuan tunai"
+    ],
+    "hashtags": [
+     "#str2027",
+     "#bantuankerajaan",
+     "#sumbangantunairahmah",
+     "#mystr",
+     "#bantuantunai"
+    ],
+    "thumbs": [
+     "STR TAK LULUS?",
+     "WAJIB KEMAS KINI",
+     "SEBELUM TUTUP!"
+    ]
    }
   },
   {
@@ -94,6 +166,42 @@
    "app": {
     "name": "Portal SARA",
     "url": "https://www.sara.gov.my"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "sara madani 2027",
+     "sara rm100 2027",
+     "siapa layak sara 2027",
+     "semak baki sara mykad",
+     "sara pasar tani"
+    ],
+    "tags": [
+     "sara 2027",
+     "sara madani",
+     "sumbangan asas rahmah",
+     "mykad",
+     "bajet 2027",
+     "rm100",
+     "bantuan kerajaan",
+     "sara pasar tani"
+    ],
+    "hashtags": [
+     "#sara2027",
+     "#saramadani",
+     "#bajet2027",
+     "#mykad",
+     "#bantuankerajaan"
+    ],
+    "thumbs": [
+     "RM200 MASUK MYKAD",
+     "SIAPA LAYAK?",
+     "SARA 2027"
+    ]
    }
   },
   {
@@ -102,7 +210,7 @@
    "status": "naik",
    "score": 86,
    "title": "Coursera percuma 3 bulan + langganan AI percuma melalui Rakyat Digital",
-   "why": "Kementerian Digital beri 100,000 lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID, siapa cepat dia dapat). Rakyat berumur 18 hingga 30 yang habiskan 5 modul (AI Safety, CyberSAFE, Generative AI, Agentic AI, Cloud) layak dapat akses aplikasi AI percuma 3 bulan.",
+   "why": "Kementerian Digital beri lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID). Kumpulan pertama 25,000 lesen dah penuh, dan pendaftar baru kini masuk senarai menunggu untuk kumpulan kedua. Rakyat berumur 18 hingga 30 yang habiskan 5 modul layak dapat akses aplikasi AI percuma 3 bulan.",
    "angle": "Tutorial daftar dari kosong: MyDigital ID, portal Rakyat Digital, claim Coursera, dan siapkan modul AI. Tajuk 'percuma' biasanya tarik klik tinggi.",
    "ideas": [
     "Coursera PERCUMA 3 Bulan Guna MyDigital ID: Cara Claim",
@@ -119,12 +227,52 @@
     {
      "name": "RinggitPlus",
      "url": "https://ringgitplus.com/en/blog/personal-finance-news/rakyat-digital-portal-offers-free-coursera-and-ai-access.html"
+    },
+    {
+     "name": "YouTube (hantaran komuniti)",
+     "url": "https://www.youtube.com/post/UgkxeYlAvpPJm84ui3igHzHqT_ntoJH1EA0N"
     }
    ],
    "icon": "learn",
    "app": {
     "name": "Portal Rakyat Digital",
     "url": "https://www.rakyatdigital.gov.my"
+   },
+   "competition": {
+    "level": "sederhana",
+    "note": "Ada beberapa Shorts dan berita, tapi tutorial penuh dalam Bahasa Melayu masih sedikit.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "coursera percuma malaysia",
+     "rakyat digital coursera",
+     "ai untuk rakyat percuma",
+     "global learning pass",
+     "daftar rakyat digital"
+    ],
+    "tags": [
+     "coursera percuma",
+     "rakyat digital",
+     "mydigital id",
+     "ai percuma",
+     "kursus online percuma",
+     "sijil percuma",
+     "global learning pass",
+     "belajar ai"
+    ],
+    "hashtags": [
+     "#coursera",
+     "#rakyatdigital",
+     "#aipercuma",
+     "#kursusonline",
+     "#belajarai"
+    ],
+    "thumbs": [
+     "COURSERA PERCUMA",
+     "AI FREE 3 BULAN",
+     "SIJIL PERCUMA"
+    ]
    }
   },
   {
@@ -156,6 +304,42 @@
    "app": {
     "name": "MyTax (LHDN)",
     "url": "https://mytax.hasil.gov.my"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Liputan kebanyakannya berita atau dalam Bahasa Cina. Belum ada video BM yang kira cukai dengan contoh gaji.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "pelepasan cukai 2027",
+     "bajet 2027 cukai",
+     "kira cukai pendapatan 2027",
+     "pelepasan cukai rm12000",
+     "kadar cukai 2027"
+    ],
+    "tags": [
+     "bajet 2027",
+     "cukai pendapatan",
+     "pelepasan cukai",
+     "lhdn",
+     "mytax",
+     "tax relief 2027",
+     "kira cukai",
+     "belanjawan 2027"
+    ],
+    "hashtags": [
+     "#bajet2027",
+     "#cukaipendapatan",
+     "#lhdn",
+     "#tipskewangan",
+     "#belanjawan2027"
+    ],
+    "thumbs": [
+     "CUKAI TURUN!",
+     "GAJI RM5K JIMAT?",
+     "RM12,000 RELIEF"
+    ]
    }
   },
   {
@@ -187,6 +371,42 @@
    "app": {
     "name": "BNM Sahkan",
     "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "sms saman pdrm scam",
+     "mybayar palsu",
+     "scam saman rm150",
+     "cara semak link palsu",
+     "bnm sahkan"
+    ],
+    "tags": [
+     "scam malaysia",
+     "saman pdrm",
+     "mybayar",
+     "penipuan online",
+     "sms palsu",
+     "mycert",
+     "bnm sahkan",
+     "scam alert"
+    ],
+    "hashtags": [
+     "#scammalaysia",
+     "#awasscam",
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
+    ],
+    "thumbs": [
+     "JANGAN KLIK!",
+     "SAMAN PALSU RM150",
+     "SCAM TERBARU"
+    ]
    }
   },
   {
@@ -218,6 +438,42 @@
    "app": {
     "name": "TNG eWallet GOfinance",
     "url": "https://www.tngdigital.com.my/gofinance/investment/"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Yang ada hanyalah berita dan tutorial Webull dalam bahasa Inggeris. Belum ada tutorial BM beli saham melalui TNG.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "beli saham guna touch n go",
+     "gofinance webull",
+     "cara beli saham apple malaysia",
+     "saham us tng ewallet",
+     "webull malaysia tutorial"
+    ],
+    "tags": [
+     "tng ewallet",
+     "gofinance",
+     "webull malaysia",
+     "beli saham",
+     "saham apple",
+     "pelaburan",
+     "saham us",
+     "touch n go"
+    ],
+    "hashtags": [
+     "#tngewallet",
+     "#gofinance",
+     "#belisaham",
+     "#pelaburan",
+     "#webullmalaysia"
+    ],
+    "thumbs": [
+     "BELI SAHAM APPLE",
+     "GUNA TOUCH N GO",
+     "RM30 FREE?"
+    ]
    }
   },
   {
@@ -245,6 +501,42 @@
    "app": {
     "name": "MyGOV Malaysia",
     "url": "https://www.malaysia.gov.my"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Video ganti MyKad yang ada guna sistem JPN lama. Belum ada tutorial melalui app MyGOV.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "ganti mykad mygov",
+     "ic hilang cara ganti",
+     "mygov malaysia app",
+     "mydigital id mygov",
+     "ganti ic rosak online"
+    ],
+    "tags": [
+     "mygov",
+     "mykad",
+     "ganti ic",
+     "ic hilang",
+     "jpn",
+     "mydigital id",
+     "urusan kerajaan",
+     "app kerajaan"
+    ],
+    "hashtags": [
+     "#mygov",
+     "#mykad",
+     "#ichilang",
+     "#mydigitalid",
+     "#tutorialmalaysia"
+    ],
+    "thumbs": [
+     "IC HILANG?",
+     "GANTI GUNA PHONE",
+     "TAK PERLU BERATUR"
+    ]
    }
   },
   {
@@ -271,6 +563,42 @@
    "icon": "shop",
    "app": {
     "name": "App TikTok Shop (App Store / Google Play)"
+   },
+   "competition": {
+    "level": "tinggi",
+    "note": "Hanya ada Shorts bahasa Inggeris tentang app ni. Belum ada review atau tutorial BM.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "app tiktok shop",
+     "tiktok shop app malaysia",
+     "beza tiktok shop dan tiktok",
+     "baucar tiktok shop",
+     "tiktok shop 12.12"
+    ],
+    "tags": [
+     "tiktok shop",
+     "tiktok shop app",
+     "shopping online",
+     "baucar",
+     "12.12",
+     "review app",
+     "tips belanja",
+     "shopee vs tiktok"
+    ],
+    "hashtags": [
+     "#tiktokshop",
+     "#tiktokshopmalaysia",
+     "#1212sale",
+     "#tipsbelanja",
+     "#reviewapp"
+    ],
+    "thumbs": [
+     "APP BARU TIKTOK!",
+     "LEBIH MURAH?",
+     "SHOPEE VS TIKTOK"
+    ]
    }
   },
   {
@@ -294,7 +622,43 @@
      "url": "https://www.nst.com.my/amp/business/economy/2026/10/1552298/2027-budget-more-cash-bigger-tax-breaks-other-great-goodies"
     }
    ],
-   "icon": "salary"
+   "icon": "salary",
+   "competition": {
+    "level": "sederhana",
+    "note": "Banyak klip berita dan penerangan Bajet. Video bajet peribadi untuk gaji RM2,000 masih kurang.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "gaji minimum rm2000",
+     "gaji minimum 2027",
+     "bajet gaji rm2000",
+     "kaedah 50 30 20 malaysia",
+     "gaji naik 2027"
+    ],
+    "tags": [
+     "gaji minimum",
+     "rm2000",
+     "bajet 2027",
+     "bajet peribadi",
+     "urus duit",
+     "50 30 20",
+     "gaji",
+     "tips kewangan"
+    ],
+    "hashtags": [
+     "#gajiminimum",
+     "#bajet2027",
+     "#urusduit",
+     "#tipskewangan",
+     "#gaji"
+    ],
+    "thumbs": [
+     "GAJI RM2,000",
+     "CUKUP KE?",
+     "BAJET 50/30/20"
+    ]
+   }
   },
   {
    "id": "tuju-vs-waze",
@@ -324,6 +688,42 @@
    "icon": "map",
    "app": {
     "name": "App Tuju"
+   },
+   "competition": {
+    "level": "sederhana",
+    "note": "Ada berita dan Shorts media, tapi uji pandu penuh dalam BM masih sedikit.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "app tuju review",
+     "tuju vs waze",
+     "cara guna app tuju",
+     "waze diharamkan",
+     "app navigasi malaysia"
+    ],
+    "tags": [
+     "tuju",
+     "waze",
+     "app navigasi",
+     "lembaga lebuhraya",
+     "review app",
+     "google maps",
+     "tuju vs waze",
+     "app malaysia"
+    ],
+    "hashtags": [
+     "#tuju",
+     "#waze",
+     "#appmalaysia",
+     "#reviewapp",
+     "#navigasi"
+    ],
+    "thumbs": [
+     "TUJU VS WAZE",
+     "SAYA UJI SENDIRI",
+     "BOLEH PAKAI KE?"
+    ]
    }
   },
   {
@@ -354,6 +754,42 @@
    "icon": "gold",
    "app": {
     "name": "Pos ArRahnu"
+   },
+   "competition": {
+    "level": "sederhana",
+    "note": "Ada video pelancaran Gold-i dan beberapa Shorts. Video perbandingan spread dan kos masih kurang.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "simpan emas rm10",
+     "pos arrahnu gold-i",
+     "harga emas hari ini",
+     "emas digital malaysia",
+     "cara simpan emas"
+    ],
+    "tags": [
+     "emas",
+     "simpan emas",
+     "gold-i",
+     "pos arrahnu",
+     "harga emas",
+     "emas digital",
+     "pelaburan emas",
+     "patuh syariah"
+    ],
+    "hashtags": [
+     "#simpanemas",
+     "#hargaemas",
+     "#emasdigital",
+     "#posarrahnu",
+     "#tipskewangan"
+    ],
+    "thumbs": [
+     "EMAS RM10",
+     "MASIH BERBALOI?",
+     "EMAS DIGITAL"
+    ]
    }
   },
   {
@@ -381,6 +817,42 @@
    "app": {
     "name": "TNG eWallet",
     "url": "https://www.tngdigital.com.my"
+   },
+   "competition": {
+    "level": "sederhana",
+    "note": "Banyak tutorial pindah duit TNG ke ShopeePay, tapi belum ramai tunjuk bayar order Shopee terus guna TNG.",
+    "checked": "13 Nov 2026"
+   },
+   "seo": {
+    "keywords": [
+     "bayar shopee guna tng",
+     "shopee duitnow qr",
+     "tng ewallet shopee",
+     "tips 12.12 shopee",
+     "cashback ewallet 12.12"
+    ],
+    "tags": [
+     "shopee",
+     "tng ewallet",
+     "duitnow qr",
+     "12.12",
+     "cashback",
+     "baucar shopee",
+     "tips belanja",
+     "touch n go"
+    ],
+    "hashtags": [
+     "#shopee",
+     "#tngewallet",
+     "#1212",
+     "#tipsbelanja",
+     "#cashback"
+    ],
+    "thumbs": [
+     "BAYAR SHOPEE GUNA TNG",
+     "12.12 JIMAT",
+     "CASHBACK!"
+    ]
    }
   }
  ],

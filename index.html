@@ -79,6 +79,14 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .ico.app{background:var(--tint-a);color:var(--ink-a)}
 .sub{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px}
 .note{font-size:13px;color:var(--muted)}
+.opp{display:inline-block;margin-top:4px;font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px}
+.opp.tinggi{background:color-mix(in srgb,var(--steady) 16%,transparent);color:var(--steady)}
+.opp.sederhana{background:color-mix(in srgb,var(--rise) 16%,transparent);color:var(--rise)}
+.opp.sesak{background:color-mix(in srgb,var(--hot) 14%,transparent);color:var(--hot)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--paper)}
+.seo{display:flex;flex-direction:column;gap:10px;border-top:1px dashed var(--line);padding-top:12px}
+.seohead{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .more{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
 .banner{font-size:14px;color:var(--rise)}
@@ -204,7 +212,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     return `<div class="item${done ? " done" : ""}">
       <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}</span>
+        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${oppChip(i) ? `<span class="sub">${oppChip(i)}</span>` : ""}</span>
         <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
@@ -212,8 +220,10 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
         <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}</div>
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
+        ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
         ${appHtml(i)}
         ${ideas.length ? `<div><div class="lbl">Idea tajuk video (${ideas.length})</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+        ${seoHtml(i)}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
         <div class="acts">
           <button class="btn pri" data-prompt="${id}">Salin prompt skrip video</button>
@@ -289,6 +299,20 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
         </div>
       </div>`;
     }).join("") + `<div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
+  }
+  const OPP = { tinggi:"Peluang tinggi", sederhana:"Peluang sederhana", sesak:"Dah sesak" };
+  function oppChip(i){ const c = i.competition; return c && OPP[c.level] ? `<span class="opp ${c.level}">${OPP[c.level]}</span>` : ""; }
+  function seoHtml(i){
+    const s = i.seo; if(!s) return "";
+    const arr = k => Array.isArray(s[k]) ? s[k] : [];
+    const kw = arr("keywords"), tags = arr("tags"), hs = arr("hashtags"), th = arr("thumbs");
+    const block = (label, list, joiner, chips) => list.length ? `<div><div class="seohead"><span class="lbl">${label}</span><button class="mini" data-copy="${esc(list.join(joiner))}">Salin semua</button></div>${chips ? `<div class="chips">${list.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}</div>` : "";
+    return `<div class="seo"><div class="lbl" style="color:var(--ink)">Pakej SEO</div>
+      ${block("Kata kunci carian", kw, "\n", true)}
+      ${block("Tag YouTube", tags, ", ", true)}
+      ${block("Hashtag TikTok / Shorts", hs, " ", true)}
+      ${th.length ? `<div><div class="lbl">Teks thumbnail</div><ul class="ideas">${th.map(t => `<li><span><b>${esc(t)}</b></span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+    </div>`;
   }
   function appHtml(i){
     const a = i.app; if(!a || !a.name) return "";
