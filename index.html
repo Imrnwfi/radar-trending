@@ -75,9 +75,23 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .more{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
 .banner{font-size:14px;color:var(--rise)}
-.cal{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-.cal .d{font-size:13px;font-weight:700;color:var(--accent)}
-.cal .n{font-size:14px;color:var(--muted)}
+.tl{display:flex;flex-direction:column;gap:18px}
+.mon{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.ev{list-style:none;margin:0;padding:0 0 0 18px;border-left:2px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.ev li{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.ev li::before{content:"";position:absolute;left:-26px;top:16px;width:10px;height:10px;border-radius:50%;background:var(--paper);border:2px solid var(--accent)}
+.ev li.soon{border-color:var(--hot)} .ev li.soon::before{border-color:var(--hot);background:var(--hot)}
+.ev li.past{opacity:.5}
+.evtop{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.evd{font-size:13px;font-weight:700;color:var(--accent)}
+.cd{font-size:13px;font-weight:700;border-radius:999px;padding:2px 10px;background:var(--line);color:var(--ink);font-variant-numeric:tabular-nums}
+.soon .cd{background:var(--hot);color:#fff}
+.evl{font-weight:700;line-height:1.3}
+.evn{font-size:14px;color:var(--muted)}
+.up{font-size:13px;display:flex;align-items:center;gap:6px;color:var(--ink-k)}
+.up.late{color:var(--hot);font-weight:700}
+.up svg{width:15px;height:15px}
+.go{align-self:flex-start;border:0;background:transparent;color:var(--accent);padding:0;font-size:14px;font-weight:700}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
@@ -153,7 +167,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     $("legend").hidden = isCal;
     if(isCal){
       const up = Array.isArray(d.upcoming) ? d.upcoming : [];
-      $("list").innerHTML = up.length ? `<div class="item" style="padding:14px"><ul class="cal">${up.map(u => `<li><div class="d">${esc(u.date)}</div><div><b>${esc(u.label)}</b></div>${u.note ? `<div class="n">${esc(u.note)}</div>` : ""}</li>`).join("")}</ul></div>` : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`;
+      $("list").innerHTML = up.length ? timelineHtml(up) : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`;
       return;
     }
     let list = items().filter(i => state.filter === "semua" || i.cat === state.filter);
@@ -189,6 +203,48 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     </div>`;
   }
 
+  const BULAN = ["JAN","FEB","MAC","APR","MEI","JUN","JUL","OGO","SEP","OKT","NOV","DIS"];
+  const BLN = ["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"];
+  function todayMY(){ const s = new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kuala_Lumpur"}); return new Date(s + "T00:00:00Z"); }
+  function parseD(s){ return /^\d{4}-\d{2}-\d{2}$/.test(s || "") ? new Date(s + "T00:00:00Z") : null; }
+  function days(a,b){ return Math.round((b - a) / 86400000); }
+  function cdText(n, approx){
+    if(n < 0) return "Dah lepas";
+    if(n === 0) return "Hari ini";
+    if(n === 1) return "Esok";
+    if(n < 60) return (approx ? "± " : "") + n + " hari lagi";
+    return (approx ? "± " : "") + Math.round(n / 30) + " bulan lagi";
+  }
+  const UP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>';
+  function timelineHtml(up){
+    const t = todayMY();
+    const rows = up.map(u => ({ u, w: parseD(u.when) }))
+      .filter(r => !r.w || days(t, r.w) >= -1)
+      .sort((a,b) => (a.w ? a.w.getTime() : Infinity) - (b.w ? b.w.getTime() : Infinity));
+    const groups = [];
+    rows.forEach(r => {
+      const key = r.w ? BULAN[r.w.getUTCMonth()] + " " + r.w.getUTCFullYear() : "TARIKH BELUM PASTI";
+      let g = groups[groups.length - 1]; if(!g || g.key !== key){ g = { key, rows: [] }; groups.push(g); } g.rows.push(r);
+    });
+    const topicIds = new Set(items().map(i => i.id));
+    return `<div class="tl">${groups.map(g => `<section><h2 class="mon">${esc(g.key)}</h2><ul class="ev">${g.rows.map(({u, w}) => {
+      const n = w ? days(t, w) : null;
+      const soon = n !== null && n >= 0 && n <= 7;
+      let upHtml = "";
+      if(w && n >= 0){
+        const lead = Math.max(1, Math.min(60, Number(u.lead) || 7));
+        const ub = new Date(w.getTime() - lead * 86400000), m = days(t, ub);
+        upHtml = m <= 0 ? `<div class="up late">${UP}Upload video sekarang</div>`
+          : `<div class="up">${UP}Upload sebelum ${ub.getUTCDate()} ${BLN[ub.getUTCMonth()]}${u.approx ? " (anggaran)" : ""}</div>`;
+      }
+      return `<li class="${soon ? "soon" : ""}${n !== null && n < 0 ? " past" : ""}">
+        <div class="evtop"><span class="evd">${esc(u.date)}</span>${n !== null ? `<span class="cd">${cdText(n, u.approx)}</span>` : ""}</div>
+        <div class="evl">${esc(u.label)}</div>
+        ${u.note ? `<div class="evn">${esc(u.note)}</div>` : ""}
+        ${upHtml}
+        ${u.topic && topicIds.has(u.topic) ? `<button class="go" data-goto="${esc(u.topic)}">Lihat topik &amp; idea tajuk →</button>` : ""}
+      </li>`; }).join("")}</ul></section>`).join("")}</div>`;
+  }
   function appHtml(i){
     const a = i.app; if(!a || !a.name) return "";
     const u = safeUrl(a.url); const cls = i.cat === "tutorial" ? "tutorial" : "";
@@ -226,6 +282,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(b.dataset.toggle){ const id = b.dataset.toggle; state.open[id] = !state.open[id];
       b.setAttribute("aria-expanded", String(state.open[id])); const d = $("d-" + id); if(d) d.hidden = !state.open[id]; }
     else if(b.dataset.copy != null){ copy(b.dataset.copy, b); }
+    else if(b.dataset.goto){ const id = b.dataset.goto; state.filter = "semua"; state.open[id] = true;
+      document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", String(t.dataset.f === "semua"))); render();
+      const el = $("d-" + id); if(el) el.parentElement.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
     else if(b.dataset.prompt){ const it = items().find(x => x.id === b.dataset.prompt); if(it) copy(buildPrompt(it), b); }
     else if(b.dataset.done){ const id = b.dataset.done; if(state.done[id]) delete state.done[id]; else state.done[id] = 1; saveDone(); render(); }
   });

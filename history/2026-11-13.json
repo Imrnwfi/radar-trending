@@ -387,30 +387,52 @@
  "upcoming": [
   {
    "date": "Hujung Nov 2026",
+   "when": "2026-11-30",
+   "approx": true,
+   "lead": 7,
+   "topic": "str-2027-kemas-kini",
    "label": "Tempoh kemas kini STR 2027 Fasa 1 dijangka tamat",
-   "note": "Tertakluk pindaan LHDN. Bagus untuk video peringatan minggu depan."
+   "note": "Tertakluk pindaan LHDN."
   },
   {
    "date": "12 Dis 2026",
+   "when": "2026-12-12",
+   "lead": 5,
+   "topic": "tng-bayar-shopee",
    "label": "Jualan 12.12",
    "note": "Tips belanja, baucar dan cashback e-wallet."
   },
   {
    "date": "31 Dis 2026",
-   "label": "Promosi TNG eWallet di Shopee tamat; SARA untuk Semua 2026 sah hingga tarikh ini",
+   "when": "2026-12-31",
+   "lead": 10,
+   "topic": "sara-madani-2027",
+   "label": "SARA untuk Semua 2026 dan promosi TNG di Shopee tamat",
    "note": "Video 'guna baki sebelum luput'."
   },
   {
    "date": "Mac 2027",
+   "when": "2027-03-01",
+   "approx": true,
+   "lead": 14,
+   "topic": "sara-madani-2027",
    "label": "RM100 SARA MADANI pertama (sebelum Aidilfitri)",
    "note": "Tarikh tepat belum diumumkan."
   },
   {
    "date": "Jun 2027",
+   "when": "2027-06-01",
+   "approx": true,
+   "lead": 14,
+   "topic": "gaji-minimum-2000",
    "label": "Gaji minimum RM2,000 berkuat kuasa"
   },
   {
    "date": "Ogos 2027",
+   "when": "2027-08-31",
+   "approx": true,
+   "lead": 14,
+   "topic": "sara-madani-2027",
    "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)"
   }
  ]
