@@ -67,6 +67,17 @@
      "RENEW GUNA PHONE",
      "JIMAT RM50"
     ]
+   },
+   "script": {
+    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
+    "points": [
+     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
+     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
+     "Bawah 18 tahun masih 5 tahun sahaja.",
+     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
+     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
+    ],
+    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain."
    }
   },
   {
@@ -135,6 +146,17 @@
      "WAJIB KEMAS KINI",
      "SEBELUM TUTUP!"
     ]
+   },
+   "script": {
+    "hook": "Kalau korang tak kemas kini STR sejak 2024, permohonan 2027 korang mungkin tak dipertimbangkan. Jom semak dalam 5 minit.",
+    "points": [
+     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
+     "Tempoh kemas kini untuk Fasa 1 ialah Oktober hingga November 2026, tertakluk pindaan.",
+     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
+     "Tunjuk langkah di bantuantunai.hasil.gov.my: log masuk, kemas kini, hantar.",
+     "Amaran: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
+    ],
+    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1."
    }
   },
   {
@@ -202,6 +224,17 @@
      "SIAPA LAYAK?",
      "SARA 2027"
     ]
+   },
+   "script": {
+    "hook": "Bajet 2027 bagi RM100 SARA dua kali kepada rakyat 18 tahun ke atas. Korang layak ke? Jom tengok.",
+    "points": [
+     "Bukan penerima STR yang berumur 18 tahun ke atas dapat RM100 SARA MADANI dua kali.",
+     "Bayaran pertama sebelum Aidilfitri, kedua sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan.",
+     "Penerima STR dapat SARA sehingga RM150 sebulan, atau RM1,800 setahun.",
+     "SARA kini boleh guna di 216 pasar tani FAMA untuk barang basah.",
+     "Tunjuk cara semak baki SARA dalam MyKad."
+    ],
+    "cta": "Simpan video ni dan share dalam group family. Subscribe, aku update bila tarikh bayaran diumumkan."
    }
   },
   {

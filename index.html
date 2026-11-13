@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar Trending Imran Wafi</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#16181d">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Radar">
 <meta name="description" content="Topik trending tutorial app dan kewangan untuk channel Imran Wafi">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,6 +85,16 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .ico.app{background:var(--tint-a);color:var(--ink-a)}
 .sub{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px}
 .note{font-size:13px;color:var(--muted)}
+.search{position:relative}
+.search input{width:100%;font:inherit;font-size:15px;padding:10px 36px 10px 38px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted)}
+.search button{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:transparent;color:var(--muted);font-size:18px;padding:4px 8px}
+.grp{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin:6px 0 0}
+.delta{font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;display:block;text-align:right}
+.delta.up{color:var(--steady)} .delta.down{color:var(--hot)}
+.newb{font-size:11px;font-weight:700;color:#fff;background:var(--accent);border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:2px}
+.script{background:var(--paper);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.script ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px}
 .opp{display:inline-block;margin-top:4px;font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px}
 .opp.tinggi{background:color-mix(in srgb,var(--steady) 16%,transparent);color:var(--steady)}
 .opp.sederhana{background:color-mix(in srgb,var(--rise) 16%,transparent);color:var(--rise)}
@@ -129,6 +145,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     <button class="tab" aria-pressed="false" data-f="app">App popular</button>
   </div>
 
+  <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="text" inputmode="search" enterkeyhint="search" placeholder="Cari topik atau app, cth: TNG, STR, emas" aria-label="Cari topik atau app" autocomplete="off"><button id="qx" aria-label="Kosongkan carian" hidden>×</button></div>
   <div class="segs" id="segs" hidden role="group" aria-label="Kategori app"></div>
   <div class="banner" id="banner"></div>
   <div class="list" id="list"></div>
@@ -145,13 +162,14 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     <span id="histWrap" hidden><label for="histSel">Senarai </label><select id="histSel"><option value="latest">Terkini</option></select></span>
   </div>
 
+  <div class="note" id="offline" hidden>Tiada internet. Anda sedang lihat senarai terakhir yang disimpan.</div>
   <footer>Dikemas kini automatik setiap pagi. Skor ialah anggaran Claude berdasarkan berapa baru isu itu, berapa ramai terkesan dan kesesuaian dengan niche. Semak fakta di sumber rasmi sebelum rakam.</footer>
 </div>
 
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { seg:"bank", data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
+  const state = { q:"", seg:"bank", data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
   const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
   const RANK = { panas:0, naik:1, stabil:2 };
   const FIRE = '<svg class="fire" viewBox="0 0 24 24" aria-label="Topik hangat" role="img"><path fill="currentColor" d="M12.5 2c.6 3.2-1.2 5-2.8 6.8C8.2 10.4 7 12 7 14.5 7 18 9.3 21 12.5 21S18 18.4 18 15c0-2.6-1.3-4.2-2.2-5.4-.3 1.5-1 2.6-2 3 .6-3.4-.2-7.4-1.3-10.6z"/><path fill="var(--panel)" opacity=".55" d="M12.6 12.5c-.9 1.3-2.1 2.3-2.1 4.1 0 1.6 1 2.9 2.2 2.9 1.3 0 2.3-1.1 2.3-2.7 0-1.5-.8-2.4-1.5-3.2-.2.7-.5 1.1-.9 1.3.2-.9.2-1.6 0-2.4z"/></svg>';
@@ -185,6 +203,16 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   function render(){
     const d = state.data; if(!d) return;
     $("meta").textContent = (d.updated_label ? "Dikemas kini " + d.updated_label : "") + " · tekan tajuk untuk butiran";
+    const q = state.q.trim().toLowerCase();
+    if(q){
+      const hit = o => JSON.stringify([o.title, o.name, o.what, o.why, o.angle, o.ideas, o.app && o.app.name, o.seo && o.seo.keywords]).toLowerCase().includes(q);
+      const ti = items().filter(hit), ap = (Array.isArray(d.apps) ? d.apps : []).filter(hit);
+      $("legend").hidden = true; $("segs").hidden = true;
+      $("list").innerHTML = (ti.length || ap.length)
+        ? (ti.length ? `<h2 class="grp">TOPIK (${ti.length})</h2>` + ti.map(itemHtml).join("") : "") + (ap.length ? `<h2 class="grp">APP (${ap.length})</h2>` + ap.map(appRow).join("") : "")
+        : `<div class="empty">Tiada topik atau app untuk "${esc(state.q.trim())}".</div>`;
+      return;
+    }
     const isCal = state.filter === "tarikh", isApp = state.filter === "app";
     $("legend").hidden = isCal || isApp;
     $("segs").hidden = !isApp;
@@ -212,8 +240,8 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     return `<div class="item${done ? " done" : ""}">
       <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${oppChip(i) ? `<span class="sub">${oppChip(i)}</span>` : ""}</span>
-        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span>
+        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${oppChip(i) ? `<span class="sub">${oppChip(i)}</span>` : ""}</span>
+        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
       <div class="detail" id="d-${id}"${open ? "" : " hidden"}>
@@ -221,6 +249,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
         ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
+        ${scriptHtml(i)}
         ${appHtml(i)}
         ${ideas.length ? `<div><div class="lbl">Idea tajuk video (${ideas.length})</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
         ${seoHtml(i)}
@@ -278,9 +307,41 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   const SEGS = [["bank","Bank","bank"],["kerajaan","Kerajaan","gov"],["ewallet","E-wallet","wallet"],["shopping","Shopping","shop"],["makanan","Makanan & minuman","food"],["syariah","Simpanan & pelaburan Syariah","syariah"]];
   function appsHtml(){
     const apps = (state.data && Array.isArray(state.data.apps)) ? state.data.apps.filter(a => a.seg === state.seg) : [];
-    const segIcon = (SEGS.find(s => s[0] === state.seg) || [])[2];
     if(!apps.length) return `<div class="empty">Tiada app untuk kategori ini lagi.</div>`;
-    return apps.map(a => {
+    return apps.map(appRow).join("") + `<div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
+  }
+  function deltaHtml(i){
+    if(typeof i.prev_score !== "number") return "";
+    const d = Math.round((Number(i.score) || 0) - i.prev_score);
+    if(!d) return "";
+    return `<span class="delta ${d > 0 ? "up" : "down"}" aria-label="${d > 0 ? "naik" : "turun"} ${Math.abs(d)}">${d > 0 ? "↑" : "↓"}${Math.abs(d)}</span>`;
+  }
+  function scriptHtml(i){
+    const s = i.script; if(!s || !s.hook) return "";
+    const pts = Array.isArray(s.points) ? s.points : [];
+    const plain = "HOOK:\n" + s.hook + "\n\nISI:\n" + pts.map((p,n) => (n+1) + ". " + p).join("\n") + (s.cta ? "\n\nPENUTUP:\n" + s.cta : "");
+    return `<div class="script"><div class="seohead"><span class="lbl" style="color:var(--ink)">Skrip ringkas</span><button class="mini" data-copy="${esc(plain)}">Salin skrip</button></div>
+      <div><div class="lbl">Hook</div><p>${esc(s.hook)}</p></div>
+      ${pts.length ? `<div><div class="lbl">Isi</div><ol>${pts.map(p => `<li>${esc(p)}</li>`).join("")}</ol></div>` : ""}
+      ${s.cta ? `<div><div class="lbl">Penutup</div><p>${esc(s.cta)}</p></div>` : ""}
+    </div>`;
+  }
+  const OPP = { tinggi:"Peluang tinggi", sederhana:"Peluang sederhana", sesak:"Dah sesak" };
+  function oppChip(i){ const c = i.competition; return c && OPP[c.level] ? `<span class="opp ${c.level}">${OPP[c.level]}</span>` : ""; }
+  function seoHtml(i){
+    const s = i.seo; if(!s) return "";
+    const arr = k => Array.isArray(s[k]) ? s[k] : [];
+    const kw = arr("keywords"), tags = arr("tags"), hs = arr("hashtags"), th = arr("thumbs");
+    const block = (label, list, joiner, chips) => list.length ? `<div><div class="seohead"><span class="lbl">${label}</span><button class="mini" data-copy="${esc(list.join(joiner))}">Salin semua</button></div>${chips ? `<div class="chips">${list.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}</div>` : "";
+    return `<div class="seo"><div class="lbl" style="color:var(--ink)">Pakej SEO</div>
+      ${block("Kata kunci carian", kw, "\n", true)}
+      ${block("Tag YouTube", tags, ", ", true)}
+      ${block("Hashtag TikTok / Shorts", hs, " ", true)}
+      ${th.length ? `<div><div class="lbl">Teks thumbnail</div><ul class="ideas">${th.map(t => `<li><span><b>${esc(t)}</b></span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+    </div>`;
+  }
+  function appRow(a){
+    const segIcon = (SEGS.find(s => s[0] === a.seg) || [])[2];
       const key = "app-" + a.id, id = esc(key), open = !!state.open[key];
       const u = safeUrl(a.url);
       const srcs = (Array.isArray(a.sources) ? a.sources : []).map(s => { const x = safeUrl(s.url); return x ? `<a href="${esc(x)}" target="_blank" rel="noopener">${esc(s.name || "Sumber")}</a>` : ""; }).join("");
@@ -298,21 +359,6 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
           ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
         </div>
       </div>`;
-    }).join("") + `<div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
-  }
-  const OPP = { tinggi:"Peluang tinggi", sederhana:"Peluang sederhana", sesak:"Dah sesak" };
-  function oppChip(i){ const c = i.competition; return c && OPP[c.level] ? `<span class="opp ${c.level}">${OPP[c.level]}</span>` : ""; }
-  function seoHtml(i){
-    const s = i.seo; if(!s) return "";
-    const arr = k => Array.isArray(s[k]) ? s[k] : [];
-    const kw = arr("keywords"), tags = arr("tags"), hs = arr("hashtags"), th = arr("thumbs");
-    const block = (label, list, joiner, chips) => list.length ? `<div><div class="seohead"><span class="lbl">${label}</span><button class="mini" data-copy="${esc(list.join(joiner))}">Salin semua</button></div>${chips ? `<div class="chips">${list.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}</div>` : "";
-    return `<div class="seo"><div class="lbl" style="color:var(--ink)">Pakej SEO</div>
-      ${block("Kata kunci carian", kw, "\n", true)}
-      ${block("Tag YouTube", tags, ", ", true)}
-      ${block("Hashtag TikTok / Shorts", hs, " ", true)}
-      ${th.length ? `<div><div class="lbl">Teks thumbnail</div><ul class="ideas">${th.map(t => `<li><span><b>${esc(t)}</b></span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
-    </div>`;
   }
   function appHtml(i){
     const a = i.app; if(!a || !a.name) return "";
@@ -358,6 +404,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(b.dataset.prompt){ const it = items().find(x => x.id === b.dataset.prompt); if(it) copy(buildPrompt(it), b); }
     else if(b.dataset.done){ const id = b.dataset.done; if(state.done[id]) delete state.done[id]; else state.done[id] = 1; saveDone(); render(); }
   });
+  let qT = null;
+  $("q").addEventListener("input", e => { $("qx").hidden = !e.target.value; clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+  $("qx").addEventListener("click", () => { $("q").value = ""; $("qx").hidden = true; state.q = ""; render(); $("q").focus(); });
   $("hideDone").addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
 
   async function getJson(p){ const r = await fetch(p + "?t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
@@ -370,6 +419,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   });
 
   $("lgFire").innerHTML = FIRE + "Panas (paling atas)";
+  if("serviceWorker" in navigator){ window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); }); }
+  const net = () => { $("offline").hidden = navigator.onLine; };
+  window.addEventListener("online", net); window.addEventListener("offline", net); net();
   (async function start(){
     try{ const s = JSON.parse(localStorage.getItem("rt-done") || "{}"); if(s && typeof s === "object") state.done = s; }catch(e){}
     try{ state.latest = state.data = await getJson("data.json"); render(); }
