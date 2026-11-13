@@ -1,94 +1,22 @@
 {
- "date": "2026-11-13",
- "updated_label": "13 Nov 2026, 11 malam",
+ "date": "2026-11-14",
+ "updated_label": "14 Nov 2026, 1 pagi",
  "items": [
   {
-   "id": "pasport-10-tahun-online",
-   "cat": "tutorial",
-   "status": "panas",
-   "score": 96,
-   "title": "Renew pasport 10 tahun kini boleh online",
-   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
-   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
-   "ideas": [
-    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
-    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
-    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
-    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
-    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
-    }
-   ],
-   "icon": "passport",
-   "app": {
-    "name": "Jabatan Imigresen Malaysia",
-    "url": "https://www.imi.gov.my"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Belum jumpa tutorial Bahasa Melayu untuk renew 10 tahun secara online sejak 2 Nov. Video yang ada masih versi lama 5 tahun.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "cara renew pasport online 2026",
-     "pasport 10 tahun online",
-     "myonline passport 10 tahun",
-     "harga pasport 10 tahun",
-     "renew passport malaysia online"
-    ],
-    "tags": [
-     "renew pasport",
-     "pasport 10 tahun",
-     "myonline passport",
-     "imigresen malaysia",
-     "passport malaysia",
-     "tutorial pasport",
-     "pasport online",
-     "rm350"
-    ],
-    "hashtags": [
-     "#pasport10tahun",
-     "#renewpasport",
-     "#imigresen",
-     "#tipsmalaysia",
-     "#tutorialmalaysia"
-    ],
-    "thumbs": [
-     "PASPORT 10 TAHUN",
-     "RENEW GUNA PHONE",
-     "JIMAT RM50"
-    ]
-   },
-   "script": {
-    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
-    "points": [
-     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
-     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
-     "Bawah 18 tahun masih 5 tahun sahaja.",
-     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
-     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
-    ],
-    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain."
-   }
-  },
-  {
-   "id": "str-2027-kemas-kini",
-   "cat": "kewangan",
-   "status": "panas",
-   "score": 95,
-   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
-   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
-   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026. Tempoh kemas kini untuk kelayakan Fasa 1 ialah Oktober hingga November 2026 (tertakluk pindaan). Penerima yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026 wajib kemas kini.",
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
+   "app": {
+    "name": "Portal MySTR (HASiL)",
+    "url": "https://bantuantunai.hasil.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "sesak",
+    "note": "Banyak tutorial kemas kini STR 2027 dah keluar sejak Okt. Pilih sudut lain seperti rayuan, kesilapan biasa atau semak status."
+   },
+   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
+   "icon": "aid",
+   "id": "str-2027-kemas-kini",
    "ideas": [
     "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
     "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
@@ -96,27 +24,27 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "sources": [
-    {
-     "name": "RinggitPlus (BM)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
-    },
-    {
-     "name": "RinggitPlus (EN)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
-    }
-   ],
-   "icon": "aid",
-   "app": {
-    "name": "Portal MySTR (HASiL)",
-    "url": "https://bantuantunai.hasil.gov.my"
-   },
-   "competition": {
-    "level": "sesak",
-    "note": "Banyak tutorial kemas kini STR 2027 dah keluar sejak Okt. Pilih sudut lain seperti rayuan, kesilapan biasa atau semak status.",
-    "checked": "13 Nov 2026"
+   "prev_score": 97,
+   "score": 97,
+   "script": {
+    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
+    "hook": "Kalau korang tak kemas kini STR sejak 2024, permohonan 2027 korang mungkin tak dipertimbangkan. Jom semak dalam 5 minit.",
+    "points": [
+     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
+     "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
+     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
+     "Info semasa: STR 2026 Fasa 4 dibayar mulai 4 Nov, dan penerima baharu atau rayuan lulus dapat bayaran mulai 16 Nov 2026.",
+     "Tunjuk langkah di bantuantunai.hasil.gov.my, dan ingat: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
+    ]
    },
    "seo": {
+    "hashtags": [
+     "#str2027",
+     "#bantuankerajaan",
+     "#sumbangantunairahmah",
+     "#mystr",
+     "#bantuantunai"
+    ],
     "keywords": [
      "cara kemaskini str 2027",
      "str 2027 fasa 1",
@@ -134,39 +62,123 @@
      "hasil",
      "bantuan tunai"
     ],
-    "hashtags": [
-     "#str2027",
-     "#bantuankerajaan",
-     "#sumbangantunairahmah",
-     "#mystr",
-     "#bantuantunai"
-    ],
     "thumbs": [
      "STR TAK LULUS?",
      "WAJIB KEMAS KINI",
      "SEBELUM TUTUP!"
     ]
    },
-   "script": {
-    "hook": "Kalau korang tak kemas kini STR sejak 2024, permohonan 2027 korang mungkin tak dipertimbangkan. Jom semak dalam 5 minit.",
-    "points": [
-     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
-     "Tempoh kemas kini untuk Fasa 1 ialah Oktober hingga November 2026, tertakluk pindaan.",
-     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
-     "Tunjuk langkah di bantuantunai.hasil.gov.my: log masuk, kemas kini, hantar.",
-     "Amaran: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
-    ],
-    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1."
-   }
+   "sources": [
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    },
+    {
+     "name": "RinggitPlus (EN)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
+    },
+    {
+     "name": "Malay Mail (4 Nov 2026)",
+     "url": "https://malaymail.com/news/malaysia/2026/11/04/over-five-million-malaysians-to-receive-rm11b-str-aid-from-today-says-anwar/242001"
+    }
+   ],
+   "status": "panas",
+   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
+   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 ialah hingga November 2026 (tertakluk pindaan). Pada masa sama, STR 2026 Fasa 4 (RM1.1 bilion, lebih 5 juta penerima) dibayar mulai 4 Nov, dan penerima baharu serta rayuan yang lulus akan terima bayaran mulai 16 November."
   },
   {
-   "id": "sara-madani-2027",
-   "cat": "kewangan",
+   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
+   "app": {
+    "name": "Jabatan Imigresen Malaysia",
+    "url": "https://www.imi.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Belum jumpa tutorial Bahasa Melayu untuk renew 10 tahun secara online sejak 2 Nov. Video yang ada masih versi lama 5 tahun."
+   },
+   "icon": "passport",
+   "id": "pasport-10-tahun-online",
+   "ideas": [
+    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
+    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
+    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
+    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
+    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
+   ],
+   "prev_score": 93,
+   "score": 93,
+   "script": {
+    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
+    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
+    "points": [
+     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
+     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
+     "Bawah 18 tahun masih 5 tahun sahaja.",
+     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
+     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#pasport10tahun",
+     "#renewpasport",
+     "#imigresen",
+     "#tipsmalaysia",
+     "#tutorialmalaysia"
+    ],
+    "keywords": [
+     "cara renew pasport online 2026",
+     "pasport 10 tahun online",
+     "myonline passport 10 tahun",
+     "harga pasport 10 tahun",
+     "renew passport malaysia online"
+    ],
+    "tags": [
+     "renew pasport",
+     "pasport 10 tahun",
+     "myonline passport",
+     "imigresen malaysia",
+     "passport malaysia",
+     "tutorial pasport",
+     "pasport online",
+     "rm350"
+    ],
+    "thumbs": [
+     "PASPORT 10 TAHUN",
+     "RENEW GUNA PHONE",
+     "JIMAT RM50"
+    ]
+   },
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
+    }
+   ],
    "status": "panas",
-   "score": 90,
-   "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
-   "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA.",
+   "title": "Renew pasport 10 tahun kini boleh online",
+   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
+  },
+  {
    "angle": "Penjelasan siapa dapat berapa, bila masuk, dan tutorial semak baki SARA di MyKad. Jangan janji tarikh tepat kerana kerajaan belum umum.",
+   "app": {
+    "name": "Portal SARA",
+    "url": "https://www.sara.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027."
+   },
+   "icon": "card",
+   "id": "sara-madani-2027",
    "ideas": [
     "RM200 SARA 2027 Masuk MyKad: Siapa Layak & Bila?",
     "SARA Kini Boleh Guna di Pasar Tani: Cara Guna",
@@ -174,27 +186,27 @@
     "Cara Semak Baki SARA Dalam MyKad",
     "Barang Apa Boleh Beli Guna SARA? Senarai Penuh"
    ],
-   "sources": [
-    {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"
-    },
-    {
-     "name": "Bernama",
-     "url": "https://bernama.com/en/news.php?id=2621951"
-    }
-   ],
-   "icon": "card",
-   "app": {
-    "name": "Portal SARA",
-    "url": "https://www.sara.gov.my"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027.",
-    "checked": "13 Nov 2026"
+   "prev_score": 87,
+   "score": 87,
+   "script": {
+    "cta": "Simpan video ni dan share dalam group family. Subscribe, aku update bila tarikh bayaran diumumkan.",
+    "hook": "Bajet 2027 bagi RM100 SARA dua kali kepada rakyat 18 tahun ke atas. Korang layak ke? Jom tengok.",
+    "points": [
+     "Bukan penerima STR yang berumur 18 tahun ke atas dapat RM100 SARA MADANI dua kali.",
+     "Bayaran pertama sebelum Aidilfitri, kedua sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan.",
+     "Penerima STR dapat SARA sehingga RM150 sebulan, atau RM1,800 setahun.",
+     "SARA kini boleh guna di 216 pasar tani FAMA untuk barang basah.",
+     "Tunjuk cara semak baki SARA dalam MyKad."
+    ]
    },
    "seo": {
+    "hashtags": [
+     "#sara2027",
+     "#saramadani",
+     "#bajet2027",
+     "#mykad",
+     "#bantuankerajaan"
+    ],
     "keywords": [
      "sara madani 2027",
      "sara rm100 2027",
@@ -212,177 +224,40 @@
      "bantuan kerajaan",
      "sara pasar tani"
     ],
-    "hashtags": [
-     "#sara2027",
-     "#saramadani",
-     "#bajet2027",
-     "#mykad",
-     "#bantuankerajaan"
-    ],
     "thumbs": [
      "RM200 MASUK MYKAD",
      "SIAPA LAYAK?",
      "SARA 2027"
     ]
    },
-   "script": {
-    "hook": "Bajet 2027 bagi RM100 SARA dua kali kepada rakyat 18 tahun ke atas. Korang layak ke? Jom tengok.",
-    "points": [
-     "Bukan penerima STR yang berumur 18 tahun ke atas dapat RM100 SARA MADANI dua kali.",
-     "Bayaran pertama sebelum Aidilfitri, kedua sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan.",
-     "Penerima STR dapat SARA sehingga RM150 sebulan, atau RM1,800 setahun.",
-     "SARA kini boleh guna di 216 pasar tani FAMA untuk barang basah.",
-     "Tunjuk cara semak baki SARA dalam MyKad."
-    ],
-    "cta": "Simpan video ni dan share dalam group family. Subscribe, aku update bila tarikh bayaran diumumkan."
-   }
-  },
-  {
-   "id": "rakyat-digital-coursera-ai",
-   "cat": "tutorial",
-   "status": "naik",
-   "score": 86,
-   "title": "Coursera percuma 3 bulan + langganan AI percuma melalui Rakyat Digital",
-   "why": "Kementerian Digital beri lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID). Kumpulan pertama 25,000 lesen dah penuh, dan pendaftar baru kini masuk senarai menunggu untuk kumpulan kedua. Rakyat berumur 18 hingga 30 yang habiskan 5 modul layak dapat akses aplikasi AI percuma 3 bulan.",
-   "angle": "Tutorial daftar dari kosong: MyDigital ID, portal Rakyat Digital, claim Coursera, dan siapkan modul AI. Tajuk 'percuma' biasanya tarik klik tinggi.",
-   "ideas": [
-    "Coursera PERCUMA 3 Bulan Guna MyDigital ID: Cara Claim",
-    "AI Percuma Untuk Umur 18–30: Tutorial Rakyat Digital",
-    "5 Kursus Coursera Paling Berbaloi Untuk Cari Duit Online",
-    "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
-    "Cara Daftar MyDigital ID Dari Kosong (2026)"
-   ],
    "sources": [
     {
      "name": "SoyaCincau",
-     "url": "https://soyacincau.com/2026/10/12/over-12000-malaysians-have-claimed-free-coursera-courses-via-rakyat-digital-heres-how-to-get-yours/"
+     "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"
     },
     {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/rakyat-digital-portal-offers-free-coursera-and-ai-access.html"
-    },
-    {
-     "name": "YouTube (hantaran komuniti)",
-     "url": "https://www.youtube.com/post/UgkxeYlAvpPJm84ui3igHzHqT_ntoJH1EA0N"
+     "name": "Bernama",
+     "url": "https://bernama.com/en/news.php?id=2621951"
     }
    ],
-   "icon": "learn",
-   "app": {
-    "name": "Portal Rakyat Digital",
-    "url": "https://www.rakyatdigital.gov.my"
-   },
-   "competition": {
-    "level": "sederhana",
-    "note": "Ada beberapa Shorts dan berita, tapi tutorial penuh dalam Bahasa Melayu masih sedikit.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "coursera percuma malaysia",
-     "rakyat digital coursera",
-     "ai untuk rakyat percuma",
-     "global learning pass",
-     "daftar rakyat digital"
-    ],
-    "tags": [
-     "coursera percuma",
-     "rakyat digital",
-     "mydigital id",
-     "ai percuma",
-     "kursus online percuma",
-     "sijil percuma",
-     "global learning pass",
-     "belajar ai"
-    ],
-    "hashtags": [
-     "#coursera",
-     "#rakyatdigital",
-     "#aipercuma",
-     "#kursusonline",
-     "#belajarai"
-    ],
-    "thumbs": [
-     "COURSERA PERCUMA",
-     "AI FREE 3 BULAN",
-     "SIJIL PERCUMA"
-    ]
-   }
-  },
-  {
-   "id": "cukai-bajet-2027",
-   "cat": "kewangan",
-   "status": "naik",
-   "score": 85,
-   "title": "Bajet 2027: pelepasan cukai individu naik ke RM12,000",
-   "why": "Pelepasan cukai individu dinaikkan dari RM9,000 ke RM12,000 dan kadar cukai diturunkan bagi kumpulan pendapatan tertentu. Kerajaan anggar kira-kira 5 juta pembayar cukai dapat tambahan pendapatan boleh guna sehingga RM1,600.",
-   "angle": "Video 'kira dengan contoh': gaji RM4,000, RM6,000, RM8,000. Penonton suka tahu angka sendiri. Sebut ini cadangan Bajet dan berkuat kuasa untuk tahun taksiran berkaitan.",
-   "ideas": [
-    "Gaji RM5,000? Ini Anggaran Cukai Anda Jimat Tahun 2027",
-    "Bajet 2027: Perubahan Cukai Yang Terus Masuk Poket",
-    "Pelepasan Cukai RM12,000: Apa Maksudnya Untuk Anda?",
-    "Kira Cukai Sendiri Guna Telefon: Tutorial Mudah",
-    "Siapa Untung Paling Banyak Dari Bajet 2027?"
-   ],
-   "sources": [
-    {
-     "name": "theSun",
-     "url": "https://thesun.my/?p=686681"
-    },
-    {
-     "name": "NST",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/10/1551482/2027-budget-govt-raises-personal-tax-relief-rm12000-cuts-tax-rates-m40"
-    }
-   ],
-   "icon": "tax",
-   "app": {
-    "name": "MyTax (LHDN)",
-    "url": "https://mytax.hasil.gov.my"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Liputan kebanyakannya berita atau dalam Bahasa Cina. Belum ada video BM yang kira cukai dengan contoh gaji.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "pelepasan cukai 2027",
-     "bajet 2027 cukai",
-     "kira cukai pendapatan 2027",
-     "pelepasan cukai rm12000",
-     "kadar cukai 2027"
-    ],
-    "tags": [
-     "bajet 2027",
-     "cukai pendapatan",
-     "pelepasan cukai",
-     "lhdn",
-     "mytax",
-     "tax relief 2027",
-     "kira cukai",
-     "belanjawan 2027"
-    ],
-    "hashtags": [
-     "#bajet2027",
-     "#cukaipendapatan",
-     "#lhdn",
-     "#tipskewangan",
-     "#belanjawan2027"
-    ],
-    "thumbs": [
-     "CUKAI TURUN!",
-     "GAJI RM5K JIMAT?",
-     "RM12,000 RELIEF"
-    ]
-   }
-  },
-  {
-   "id": "scam-saman-pdrm-mybayar",
-   "cat": "kewangan",
    "status": "panas",
-   "score": 82,
-   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
-   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP. Pada hari yang sama BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan.",
+   "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
+   "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA."
+  },
+  {
    "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama."
+   },
+   "icon": "shield",
+   "id": "scam-saman-pdrm-mybayar",
    "ideas": [
     "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
     "Cara Semak Link Palsu Dalam 10 Saat",
@@ -390,27 +265,16 @@
     "Cara Semak Saman Sebenar (Bukan Dari SMS)",
     "5 Scam Paling Banyak Hujung Tahun 2026"
    ],
-   "sources": [
-    {
-     "name": "ProductNation",
-     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
-    }
-   ],
-   "icon": "shield",
-   "app": {
-    "name": "BNM Sahkan",
-    "url": "https://www.bnm.gov.my/sahkan"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama.",
-    "checked": "13 Nov 2026"
-   },
+   "prev_score": 79,
+   "score": 79,
    "seo": {
+    "hashtags": [
+     "#scammalaysia",
+     "#awasscam",
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
+    ],
     "keywords": [
      "sms saman pdrm scam",
      "mybayar palsu",
@@ -428,95 +292,384 @@
      "bnm sahkan",
      "scam alert"
     ],
-    "hashtags": [
-     "#scammalaysia",
-     "#awasscam",
-     "#samanpdrm",
-     "#penipuanonline",
-     "#mybayar"
-    ],
     "thumbs": [
      "JANGAN KLIK!",
      "SAMAN PALSU RM150",
      "SCAM TERBARU"
     ]
-   }
-  },
-  {
-   "id": "tng-gofinance-saham",
-   "cat": "kewangan",
-   "status": "naik",
-   "score": 80,
-   "title": "Beli saham global terus dari TNG eWallet (GOfinance + Webull)",
-   "why": "Sejak 30 September, pengguna TNG eWallet boleh buka akaun Webull Malaysia melalui GOfinance dan isi dana terus dari baki e-wallet. Pengguna baru yang layak dapat saham pecahan Apple bernilai RM30. GOfinance kini ada lebih 5 juta pelabur dengan RM3.57 bilion pelaburan diproses.",
-   "angle": "Tutorial buka akaun dan beli saham pertama dalam app yang semua orang dah ada. Wajib sebut risiko pelaburan dan baca terma promosi.",
-   "ideas": [
-    "Cara Beli Saham Apple Guna Touch 'n Go (Tutorial Penuh)",
-    "GOfinance TNG: Pelaburan Mana Sesuai Untuk Pemula?",
-    "Dapat Saham Apple RM30 Percuma? Ini Syaratnya",
-    "Saya Labur RM100 Dalam Saham US Guna TNG",
-    "Risiko Beli Saham Dalam E-Wallet: Wajib Tahu"
-   ],
+   },
    "sources": [
     {
-     "name": "The Edge",
-     "url": "https://theedgemalaysia.com/node/819954"
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
     },
     {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/?p=452454"
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
     }
    ],
-   "icon": "chart",
-   "app": {
-    "name": "TNG eWallet GOfinance",
-    "url": "https://www.tngdigital.com.my/gofinance/investment/"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Yang ada hanyalah berita dan tutorial Webull dalam bahasa Inggeris. Belum ada tutorial BM beli saham melalui TNG.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "beli saham guna touch n go",
-     "gofinance webull",
-     "cara beli saham apple malaysia",
-     "saham us tng ewallet",
-     "webull malaysia tutorial"
-    ],
-    "tags": [
-     "tng ewallet",
-     "gofinance",
-     "webull malaysia",
-     "beli saham",
-     "saham apple",
-     "pelaburan",
-     "saham us",
-     "touch n go"
-    ],
-    "hashtags": [
-     "#tngewallet",
-     "#gofinance",
-     "#belisaham",
-     "#pelaburan",
-     "#webullmalaysia"
-    ],
-    "thumbs": [
-     "BELI SAHAM APPLE",
-     "GUNA TOUCH N GO",
-     "RM30 FREE?"
-    ]
-   }
+   "status": "panas",
+   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
+   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP. Pada hari yang sama BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan."
   },
   {
-   "id": "mygov-ganti-mykad",
+   "angle": "Tutorial daftar dari kosong: MyDigital ID, portal Rakyat Digital, claim Coursera, dan siapkan modul AI. Tajuk 'percuma' biasanya tarik klik tinggi.",
+   "app": {
+    "name": "Portal Rakyat Digital",
+    "url": "https://www.rakyatdigital.gov.my"
+   },
    "cat": "tutorial",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa Shorts dan berita, tapi tutorial penuh dalam Bahasa Melayu masih sedikit."
+   },
+   "icon": "learn",
+   "id": "rakyat-digital-coursera-ai",
+   "ideas": [
+    "Coursera PERCUMA 3 Bulan Guna MyDigital ID: Cara Claim",
+    "AI Percuma Untuk Umur 18–30: Tutorial Rakyat Digital",
+    "5 Kursus Coursera Paling Berbaloi Untuk Cari Duit Online",
+    "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
+    "Cara Daftar MyDigital ID Dari Kosong (2026)"
+   ],
+   "prev_score": 85,
+   "score": 85,
+   "seo": {
+    "hashtags": [
+     "#coursera",
+     "#rakyatdigital",
+     "#aipercuma",
+     "#kursusonline",
+     "#belajarai"
+    ],
+    "keywords": [
+     "coursera percuma malaysia",
+     "rakyat digital coursera",
+     "ai untuk rakyat percuma",
+     "global learning pass",
+     "daftar rakyat digital"
+    ],
+    "tags": [
+     "coursera percuma",
+     "rakyat digital",
+     "mydigital id",
+     "ai percuma",
+     "kursus online percuma",
+     "sijil percuma",
+     "global learning pass",
+     "belajar ai"
+    ],
+    "thumbs": [
+     "COURSERA PERCUMA",
+     "AI FREE 3 BULAN",
+     "SIJIL PERCUMA"
+    ]
+   },
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/10/12/over-12000-malaysians-have-claimed-free-coursera-courses-via-rakyat-digital-heres-how-to-get-yours/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/rakyat-digital-portal-offers-free-coursera-and-ai-access.html"
+    },
+    {
+     "name": "ProductNation (Belanjawan 2027)",
+     "url": "https://productnation.co/my-bm/28754/belanjawan-2027-langganan-ai-percuma-chatgpt-malaysia-YFMA/"
+    },
+    {
+     "name": "Malay Mail (6 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/06/free-ai-tax-breaks-and-business-grants-in-budget-2027-how-malaysians-stand-to-benefit/241696"
+    }
+   ],
    "status": "naik",
-   "score": 78,
-   "title": "Ganti MyKad (hilang/rosak) terus dalam app MyGOV",
-   "why": "Rakyat Malaysia kini boleh mohon penggantian MyKad, termasuk kad rosak dan hilang, melalui app MyGOV. Perlu MyDigital ID untuk log masuk, kemudian pergi ke Services, Birth & Personal Identification.",
+   "title": "Coursera percuma 3 bulan + langganan AI percuma melalui Rakyat Digital",
+   "why": "Kementerian Digital beri lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID), dan kumpulan pertama 25,000 lesen dah penuh. Program AI Untuk Rakyat beri 100,000 rakyat berumur 18–30 akses app AI percuma 3 bulan selepas lulus 6 modul (penyedia: YTL AI Labs, Alibaba, Google). Ringkasan Malay Mail 6 Nov 2026 sahkan Bajet 2027 tambah 100,000 tempat lagi termasuk ChatGPT, tapi tarikh permohonan belum diumumkan."
+  },
+  {
+   "angle": "Video 'kira dengan contoh': gaji RM4,000, RM6,000, RM8,000. Penonton suka tahu angka sendiri. Sebut ini cadangan Bajet dan berkuat kuasa untuk tahun taksiran berkaitan.",
+   "app": {
+    "name": "MyTax (LHDN)",
+    "url": "https://mytax.hasil.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Liputan kebanyakannya berita atau dalam Bahasa Cina. Belum ada video BM yang kira cukai dengan contoh gaji."
+   },
+   "icon": "tax",
+   "id": "cukai-bajet-2027",
+   "ideas": [
+    "Gaji RM5,000? Ini Anggaran Cukai Anda Jimat Tahun 2027",
+    "Bajet 2027: Perubahan Cukai Yang Terus Masuk Poket",
+    "Pelepasan Cukai RM12,000: Apa Maksudnya Untuk Anda?",
+    "Kira Cukai Sendiri Guna Telefon: Tutorial Mudah",
+    "Siapa Untung Paling Banyak Dari Bajet 2027?"
+   ],
+   "prev_score": 83,
+   "score": 83,
+   "seo": {
+    "hashtags": [
+     "#bajet2027",
+     "#cukaipendapatan",
+     "#lhdn",
+     "#tipskewangan",
+     "#belanjawan2027"
+    ],
+    "keywords": [
+     "pelepasan cukai 2027",
+     "bajet 2027 cukai",
+     "kira cukai pendapatan 2027",
+     "pelepasan cukai rm12000",
+     "kadar cukai 2027"
+    ],
+    "tags": [
+     "bajet 2027",
+     "cukai pendapatan",
+     "pelepasan cukai",
+     "lhdn",
+     "mytax",
+     "tax relief 2027",
+     "kira cukai",
+     "belanjawan 2027"
+    ],
+    "thumbs": [
+     "CUKAI TURUN!",
+     "GAJI RM5K JIMAT?",
+     "RM12,000 RELIEF"
+    ]
+   },
+   "sources": [
+    {
+     "name": "theSun",
+     "url": "https://thesun.my/?p=686681"
+    },
+    {
+     "name": "NST",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/10/1551482/2027-budget-govt-raises-personal-tax-relief-rm12000-cuts-tax-rates-m40"
+    }
+   ],
+   "status": "naik",
+   "title": "Bajet 2027: pelepasan cukai individu naik ke RM12,000",
+   "why": "Pelepasan cukai individu dinaikkan dari RM9,000 ke RM12,000 dan kadar cukai diturunkan bagi kumpulan pendapatan tertentu. Kerajaan anggar kira-kira 5 juta pembayar cukai dapat tambahan pendapatan boleh guna sehingga RM1,600."
+  },
+  {
+   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, passkey) dan tanda-tanda telefon dijangkiti. Sesuai dikongsi dalam group keluarga.",
+   "app": {
+    "name": "WhatsApp (Tetapan > Storan dan data)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "14 Nov 2026",
+    "level": "tinggi",
+    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
+   },
+   "icon": "shield",
+   "id": "whatsapp-malware-apk",
+   "ideas": [
+    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
+    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
+    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
+    "5 Tanda Telefon Korang Dah Kena Malware",
+    "Akaun WhatsApp Kena Ambil Alih? Buat Ni Segera"
+   ],
+   "prev_score": 80,
+   "score": 80,
+   "seo": {
+    "hashtags": [
+     "#whatsapp",
+     "#awasscam",
+     "#scamapk",
+     "#keselamatansiber",
+     "#tipswhatsapp"
+    ],
+    "keywords": [
+     "malware whatsapp",
+     "cara elak whatsapp kena hack",
+     "matikan muat turun automatik whatsapp",
+     "fail apk whatsapp scam",
+     "pengesahan dua langkah whatsapp"
+    ],
+    "tags": [
+     "whatsapp",
+     "malware",
+     "scam apk",
+     "keselamatan telefon",
+     "whatsapp hack",
+     "tips whatsapp",
+     "scam malaysia",
+     "otp"
+    ],
+    "thumbs": [
+     "JANGAN BUKA FAIL NI",
+     "WHATSAPP KENA HACK?",
+     "OFF SETTING NI!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Vibes (8 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
+    }
+   ],
+   "status": "naik",
+   "title": "Amaran malware WhatsApp: fail APK palsu boleh curi OTP dan akaun bank",
+   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware. Malware ini boleh curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan; CyberSecurity Malaysia juga dah keluarkan amaran fail mencurigakan."
+  },
+  {
+   "angle": "Tutorial langkah demi langkah dalam MAE (menu Apply > Investment > ASNB Account) dan banding dengan app myASNB. Ingatkan penonton: ini pelaburan unit amanah, nilai dan dividen tidak dijamin.",
+   "app": {
+    "name": "MAE by Maybank",
+    "url": "https://www.maybank2u.com.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "14 Nov 2026",
+    "level": "tinggi",
+    "note": "Video sedia ada kebanyakannya tentang link ASNB ke MAE atau buka akaun di app myASNB. Tutorial buka akaun baharu terus dalam MAE belum ada."
+   },
+   "deadline": "Cashback RM3/RM5 hingga 31 Jan 2027",
+   "icon": "chart",
+   "id": "mae-asnb",
+   "ideas": [
+    "Buka Akaun ASNB Dalam MAE: Tutorial 3 Minit",
+    "Labur ASB RM10 Guna MAE: Cara Paling Mudah",
+    "MAE vs App myASNB: Mana Lebih Senang?",
+    "Cashback RM5 Buka ASNB: Cara Claim Sebelum Habis",
+    "Top Up ASB Bulanan Dalam MAE: Tips Disiplin"
+   ],
+   "prev_score": 79,
+   "score": 79,
+   "seo": {
+    "hashtags": [
+     "#asnb",
+     "#asb",
+     "#mae",
+     "#maybank",
+     "#tipskewangan"
+    ],
+    "keywords": [
+     "buka akaun asnb mae",
+     "cara labur asb guna mae",
+     "asnb maybank app",
+     "top up asb mae",
+     "cashback asnb mae"
+    ],
+    "tags": [
+     "asnb",
+     "asb",
+     "mae",
+     "maybank",
+     "buka akaun asnb",
+     "pelaburan rm10",
+     "unit amanah",
+     "tips kewangan"
+    ],
+    "thumbs": [
+     "ASNB DALAM MAE",
+     "LABUR RM10 JE",
+     "CASHBACK RM5"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Lowyat.NET (4 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
+    },
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/akaun-asnb-kini-boleh-dibuka-dalam-mae.html"
+    }
+   ],
+   "status": "naik",
+   "title": "Buka akaun ASNB terus dalam app MAE dari RM10",
+   "why": "Sejak 4 November 2026, pelabur kali pertama boleh buka akaun ASNB terus dalam app MAE, dan pelabur sedia ada boleh top up atau langgan dana baharu di situ. Pelaburan bermula RM10, untuk rakyat Malaysia 18 tahun ke atas (dana ASB untuk Bumiputera sahaja). Ada cashback RM3 atau RM5 untuk 15,000 pelabur baharu terawal hingga 31 Januari 2027."
+  },
+  {
+   "angle": "Video praktikal: lakonan semula panggilan scam 'pegawai BNM', tunjuk kenapa jangan pasang app atau tap kad pada telefon, dan cara semak di BNM Sahkan. Boleh sambung dengan item malware WhatsApp.",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "14 Nov 2026",
+    "level": "tinggi",
+    "note": "Hampir tiada video Bahasa Melayu terkini tentang app 'BNM Mobile Security' palsu atau scam tap kad NFC. Sudut demo dan cara semak masih kosong."
+   },
+   "icon": "shield",
+   "id": "scam-bnm-laman-palsu",
+   "ideas": [
+    "Scam Tap Kad Bank Pada Phone: Jangan Buat!",
+    "App 'BNM Mobile Security' Palsu: Ini Cara Ia Curi",
+    "Cara Semak Laman Web Palsu Guna BNM Sahkan",
+    "Pegawai BNM Call Korang? Ini Tanda Scam",
+    "Matikan NFC? Cara Lindungi Kad Bank Korang"
+   ],
+   "prev_score": 79,
+   "score": 79,
+   "seo": {
+    "hashtags": [
+     "#scam",
+     "#banknegara",
+     "#scamnfc",
+     "#awasscam",
+     "#keselamatansiber"
+    ],
+    "keywords": [
+     "bnm mobile security palsu",
+     "scam tap kad nfc",
+     "scam bank negara",
+     "bnm sahkan",
+     "app palsu bank"
+    ],
+    "tags": [
+     "scam",
+     "bank negara",
+     "bnm sahkan",
+     "scam nfc",
+     "app palsu",
+     "mycert",
+     "keselamatan siber",
+     "tips scam"
+    ],
+    "thumbs": [
+     "JANGAN TAP KAD!",
+     "APP BNM PALSU",
+     "SEMAK DULU"
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Star (5 Nov 2026)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
+    },
+    {
+     "name": "The Vibes (6 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    }
+   ],
+   "status": "naik",
+   "title": "Amaran BNM & MyCERT: laman dan app 'Bank Negara' palsu curi data kad",
+   "why": "Pada 6 November 2026, BNM beri amaran tentang scammer yang menyamar BNM melalui laman web dan app palsu untuk curi maklumat perbankan. MyCERT pula (nasihat 4 Nov) kesan app Android palsu 'BNM Mobile Security': mangsa ditelefon 'pegawai BNM/polis', disuruh pasang app, kemudian diminta tap kad bank pada telefon supaya data kad dicuri melalui NFC untuk transaksi tanpa sentuh atau keluar duit ATM. Ia boleh baca kad MyDebit, Visa, Mastercard, Amex dan JCB dari bank Malaysia."
+  },
+  {
    "angle": "Tutorial dari pasang MyGOV dan MyDigital ID hingga hantar permohonan. Boleh jadi siri 'urusan kerajaan guna telefon'.",
+   "app": {
+    "name": "MyGOV Malaysia",
+    "url": "https://www.malaysia.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Video ganti MyKad yang ada guna sistem JPN lama. Belum ada tutorial melalui app MyGOV."
+   },
+   "icon": "id",
+   "id": "mygov-ganti-mykad",
    "ideas": [
     "Cara Ganti IC Hilang Guna App MyGOV",
     "Setup MyDigital ID + MyGOV Dari Kosong",
@@ -524,23 +677,16 @@
     "IC Rosak? Tak Perlu Beratur Lagi di JPN",
     "App MyGOV: Semua Fungsi Dalam 10 Minit"
    ],
-   "sources": [
-    {
-     "name": "Lowyat.NET",
-     "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
-    }
-   ],
-   "icon": "id",
-   "app": {
-    "name": "MyGOV Malaysia",
-    "url": "https://www.malaysia.gov.my"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Video ganti MyKad yang ada guna sistem JPN lama. Belum ada tutorial melalui app MyGOV.",
-    "checked": "13 Nov 2026"
-   },
+   "prev_score": 78,
+   "score": 78,
    "seo": {
+    "hashtags": [
+     "#mygov",
+     "#mykad",
+     "#ichilang",
+     "#mydigitalid",
+     "#tutorialmalaysia"
+    ],
     "keywords": [
      "ganti mykad mygov",
      "ic hilang cara ganti",
@@ -558,28 +704,179 @@
      "urusan kerajaan",
      "app kerajaan"
     ],
-    "hashtags": [
-     "#mygov",
-     "#mykad",
-     "#ichilang",
-     "#mydigitalid",
-     "#tutorialmalaysia"
-    ],
     "thumbs": [
      "IC HILANG?",
      "GANTI GUNA PHONE",
      "TAK PERLU BERATUR"
     ]
-   }
+   },
+   "sources": [
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
+    },
+    {
+     "name": "SoyaCincau (20 Okt 2026)",
+     "url": "https://soyacincau.com/2026/10/20/mygov-now-lets-you-renew-your-mykad-online-but-not-after-office-hours/amp/"
+    },
+    {
+     "name": "The Star (23 Okt 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/10/23/more-services-to-be-added-to-mygov-app"
+    }
+   ],
+   "status": "naik",
+   "title": "Ganti MyKad (hilang/rosak) terus dalam app MyGOV",
+   "why": "Rakyat Malaysia kini boleh mohon penggantian MyKad, termasuk kad rosak dan hilang, melalui app MyGOV dengan log masuk MyDigital ID (Services, Birth & Personal Identification). SoyaCincau (20 Okt) melaporkan permohonan ini tidak boleh dibuat di luar waktu pejabat. Setakat 8 Okt, app MyGOV ada 3.2 juta muat turun dan 62 perkhidmatan."
   },
   {
-   "id": "tiktok-shop-app",
-   "cat": "tutorial",
+   "angle": "Tutorial buka akaun dan beli saham pertama dalam app yang semua orang dah ada. Wajib sebut risiko pelaburan dan baca terma promosi.",
+   "app": {
+    "name": "TNG eWallet GOfinance",
+    "url": "https://www.tngdigital.com.my/gofinance/investment/"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Yang ada hanyalah berita dan tutorial Webull dalam bahasa Inggeris. Belum ada tutorial BM beli saham melalui TNG."
+   },
+   "icon": "chart",
+   "id": "tng-gofinance-saham",
+   "ideas": [
+    "Cara Beli Saham Apple Guna Touch 'n Go (Tutorial Penuh)",
+    "GOfinance TNG: Pelaburan Mana Sesuai Untuk Pemula?",
+    "Dapat Saham Apple RM30 Percuma? Ini Syaratnya",
+    "Saya Labur RM100 Dalam Saham US Guna TNG",
+    "Risiko Beli Saham Dalam E-Wallet: Wajib Tahu"
+   ],
+   "prev_score": 75,
+   "score": 75,
+   "seo": {
+    "hashtags": [
+     "#tngewallet",
+     "#gofinance",
+     "#belisaham",
+     "#pelaburan",
+     "#webullmalaysia"
+    ],
+    "keywords": [
+     "beli saham guna touch n go",
+     "gofinance webull",
+     "cara beli saham apple malaysia",
+     "saham us tng ewallet",
+     "webull malaysia tutorial"
+    ],
+    "tags": [
+     "tng ewallet",
+     "gofinance",
+     "webull malaysia",
+     "beli saham",
+     "saham apple",
+     "pelaburan",
+     "saham us",
+     "touch n go"
+    ],
+    "thumbs": [
+     "BELI SAHAM APPLE",
+     "GUNA TOUCH N GO",
+     "RM30 FREE?"
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Edge",
+     "url": "https://theedgemalaysia.com/node/819954"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=452454"
+    }
+   ],
    "status": "naik",
-   "score": 72,
-   "title": "TikTok Shop kini ada app sendiri di Malaysia",
-   "why": "App TikTok Shop rasmi tersenarai di App Store Malaysia dan Google Play, dengan tarikh keluaran pertama 27 Oktober 2026, kira-kira dua minggu sebelum 11.11. TikTok belum buat pengumuman rasmi di Malaysia setakat 6 November.",
+   "title": "Beli saham global terus dari TNG eWallet (GOfinance + Webull)",
+   "why": "Sejak 30 September, pengguna TNG eWallet boleh buka akaun Webull Malaysia melalui GOfinance dan isi dana terus dari baki e-wallet. Pengguna baru yang layak dapat saham pecahan Apple bernilai RM30. GOfinance kini ada lebih 5 juta pelabur dengan RM3.57 bilion pelaburan diproses."
+  },
+  {
+   "angle": "Tutorial cuti sekolah: cara tempah kereta di Jepun/Korea guna TNG tanpa download app lain, dan gabung dengan Travel eSIM serta bayar QR luar negara.",
+   "app": {
+    "name": "TNG eWallet",
+    "url": "https://www.tngdigital.com.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "14 Nov 2026",
+    "level": "tinggi",
+    "note": "Video TNG luar negara sedia ada fokus pada transfer duit dan bayar QR. Tutorial tempah e-hailing luar negara dalam Bahasa Melayu belum ada."
+   },
+   "icon": "map",
+   "id": "tng-teksi-luar-negara",
+   "ideas": [
+    "Pergi Jepun? Tempah Teksi Guna TNG eWallet",
+    "Tak Perlu Download Grab Korea: Guna TNG Je",
+    "5 Fungsi TNG Wajib Sebelum Travel Luar Negara",
+    "Tambang Teksi Luar Negara Dalam Ringgit: Cara Guna",
+    "TNG vs Kad Debit: Mana Jimat Masa Travel?"
+   ],
+   "prev_score": 74,
+   "score": 74,
+   "seo": {
+    "hashtags": [
+     "#tngewallet",
+     "#travelmurah",
+     "#cutisekolah",
+     "#tipstravel",
+     "#touchngo"
+    ],
+    "keywords": [
+     "tng ewallet teksi luar negara",
+     "cara tempah grab jepun",
+     "tng ewallet travel",
+     "e-hailing luar negara tng",
+     "tng alipay plus"
+    ],
+    "tags": [
+     "tng ewallet",
+     "touch n go",
+     "travel luar negara",
+     "e-hailing",
+     "jepun",
+     "korea",
+     "alipay+",
+     "tips travel"
+    ],
+    "thumbs": [
+     "TEKSI JEPUN GUNA TNG",
+     "TAK PAYAH APP LAIN",
+     "BAYAR RINGGIT"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Lowyat.NET (5 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
+    },
+    {
+     "name": "RinggitPlus (Travel eSIM)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/tng-ewallet-launches-travel-esim-for-seamless-roaming-across-149-countries.html"
+    }
+   ],
+   "status": "naik",
+   "title": "Tempah teksi/e-hailing luar negara terus dalam TNG eWallet",
+   "why": "Pada 5 November 2026, TNG eWallet lancar tempahan dan bayaran e-hailing di luar negara melalui Alipay+, meliputi 47 negara dan lebih 12,000 bandar. Rakan termasuk DiDi (China), GO (Jepun), Kakao T (Korea), Bolt (EU) dan Lyft (AS/Kanada), dengan tambang ditunjuk awal dan ditolak dalam ringgit."
+  },
+  {
    "angle": "Review dan tutorial: beza dengan app TikTok biasa, cara cari baucar, dan tips beli selamat untuk 12.12.",
+   "app": {
+    "name": "App TikTok Shop (App Store / Google Play)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Hanya ada Shorts bahasa Inggeris tentang app ni. Belum ada review atau tutorial BM."
+   },
+   "icon": "shop",
+   "id": "tiktok-shop-app",
    "ideas": [
     "App TikTok Shop Baru: Apa Beza Dengan TikTok Biasa?",
     "Cara Cari Baucar Dalam App TikTok Shop",
@@ -587,22 +884,16 @@
     "Cara Elak Barang Tiruan di TikTok Shop",
     "Tips Belanja 12.12 Supaya Tak Overbudget"
    ],
-   "sources": [
-    {
-     "name": "ProductNation",
-     "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
-    }
-   ],
-   "icon": "shop",
-   "app": {
-    "name": "App TikTok Shop (App Store / Google Play)"
-   },
-   "competition": {
-    "level": "tinggi",
-    "note": "Hanya ada Shorts bahasa Inggeris tentang app ni. Belum ada review atau tutorial BM.",
-    "checked": "13 Nov 2026"
-   },
+   "prev_score": 67,
+   "score": 67,
    "seo": {
+    "hashtags": [
+     "#tiktokshop",
+     "#tiktokshopmalaysia",
+     "#1212sale",
+     "#tipsbelanja",
+     "#reviewapp"
+    ],
     "keywords": [
      "app tiktok shop",
      "tiktok shop app malaysia",
@@ -620,219 +911,36 @@
      "tips belanja",
      "shopee vs tiktok"
     ],
-    "hashtags": [
-     "#tiktokshop",
-     "#tiktokshopmalaysia",
-     "#1212sale",
-     "#tipsbelanja",
-     "#reviewapp"
-    ],
     "thumbs": [
      "APP BARU TIKTOK!",
      "LEBIH MURAH?",
      "SHOPEE VS TIKTOK"
     ]
-   }
-  },
-  {
-   "id": "gaji-minimum-2000",
-   "cat": "kewangan",
-   "status": "stabil",
-   "score": 70,
-   "title": "Gaji minimum naik ke RM2,000 mulai Jun 2027",
-   "why": "Bajet 2027 umum gaji minimum dinaikkan dari RM1,700 ke RM2,000 sebulan, berkuat kuasa Jun 2027.",
-   "angle": "Video bajet peribadi: cara rancang guna kenaikan gaji supaya tak hilang begitu sahaja. Topik ini akan naik semula menjelang Jun 2027.",
-   "ideas": [
-    "Gaji Minimum RM2,000: Bila Mula & Siapa Dapat?",
-    "Gaji Naik RM300: Cara Bajet Supaya Tak Habis Macam Tu Je",
-    "Bajet Gaji RM2,000 Sebulan: Cukup Ke?",
-    "Kaedah 50/30/20 Untuk Gaji RM2,000",
-    "Gaji Minimum Naik: Apa Kesan Pada Harga Barang?"
-   ],
+   },
    "sources": [
     {
-     "name": "NST",
-     "url": "https://www.nst.com.my/amp/business/economy/2026/10/1552298/2027-budget-more-cash-bigger-tax-breaks-other-great-goodies"
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
     }
    ],
-   "icon": "salary",
-   "competition": {
-    "level": "sederhana",
-    "note": "Banyak klip berita dan penerangan Bajet. Video bajet peribadi untuk gaji RM2,000 masih kurang.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "gaji minimum rm2000",
-     "gaji minimum 2027",
-     "bajet gaji rm2000",
-     "kaedah 50 30 20 malaysia",
-     "gaji naik 2027"
-    ],
-    "tags": [
-     "gaji minimum",
-     "rm2000",
-     "bajet 2027",
-     "bajet peribadi",
-     "urus duit",
-     "50 30 20",
-     "gaji",
-     "tips kewangan"
-    ],
-    "hashtags": [
-     "#gajiminimum",
-     "#bajet2027",
-     "#urusduit",
-     "#tipskewangan",
-     "#gaji"
-    ],
-    "thumbs": [
-     "GAJI RM2,000",
-     "CUKUP KE?",
-     "BAJET 50/30/20"
-    ]
-   }
-  },
-  {
-   "id": "tuju-vs-waze",
-   "cat": "tutorial",
-   "status": "naik",
-   "score": 68,
-   "title": "App Tuju vs Waze selepas larangan untuk penjawat awam",
-   "why": "Kerajaan larang penjawat awam guna Waze (21 Okt). App tempatan Tuju kemudian matikan fungsi navigasi selepas kritikan ramai (22 Okt), dan pada 2 Nov dilaporkan sudah baiki navigasi di Android.",
-   "angle": "Uji pandu sebenar Tuju vs Waze dan tutorial setup Tuju. Topik ada unsur kontroversi, jadi kekalkan nada neutral dan berpandukan fakta.",
-   "ideas": [
-    "Saya Uji App Tuju vs Waze: Mana Lagi Tepat?",
-    "Penjawat Awam Tak Boleh Guna Waze: Ini Alternatifnya",
-    "Cara Setup App Tuju (Tutorial Penuh)",
-    "3 App Navigasi Selain Waze Yang Berbaloi",
-    "Tuju Dah Pulih? Review Jujur Selepas Kemas Kini"
-   ],
-   "sources": [
-    {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/?p=452454"
-    },
-    {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/?p=447893"
-    }
-   ],
-   "icon": "map",
-   "app": {
-    "name": "App Tuju"
-   },
-   "competition": {
-    "level": "sederhana",
-    "note": "Ada berita dan Shorts media, tapi uji pandu penuh dalam BM masih sedikit.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "app tuju review",
-     "tuju vs waze",
-     "cara guna app tuju",
-     "waze diharamkan",
-     "app navigasi malaysia"
-    ],
-    "tags": [
-     "tuju",
-     "waze",
-     "app navigasi",
-     "lembaga lebuhraya",
-     "review app",
-     "google maps",
-     "tuju vs waze",
-     "app malaysia"
-    ],
-    "hashtags": [
-     "#tuju",
-     "#waze",
-     "#appmalaysia",
-     "#reviewapp",
-     "#navigasi"
-    ],
-    "thumbs": [
-     "TUJU VS WAZE",
-     "SAYA UJI SENDIRI",
-     "BOLEH PAKAI KE?"
-    ]
-   }
-  },
-  {
-   "id": "emas-4100",
-   "cat": "kewangan",
    "status": "stabil",
-   "score": 65,
-   "title": "Harga emas sekitar US$4,100 seauns: masih berbaloi beli?",
-   "why": "Harga emas fizikal ditetapkan pada US$4,112.85 seauns di LBMA pada 5 November 2026. Emas kekal topik carian tinggi, dan pilihan beli kecil-kecilan seperti Pos ArRahnu Gold-i dari RM10 sedang dibincangkan.",
-   "angle": "Tutorial simpan emas dengan modal kecil dan cara banding harga jual-beli (spread). Elak ramal harga, fokus pada cara.",
-   "ideas": [
-    "Emas Dah US$4,100: Masih Berbaloi Beli?",
-    "Simpan Emas Dari RM10: Cara Guna Pos ArRahnu Gold-i",
-    "Emas Fizikal vs Emas Digital: Mana Lebih Selamat?",
-    "Cara Kira Untung Rugi Simpan Emas (Spread)",
-    "Gaji RM2,500: Patut Simpan Emas Berapa Sebulan?"
-   ],
-   "sources": [
-    {
-     "name": "Bernama",
-     "url": "https://bernama.com/bm/news.php?id=2631077"
-    },
-    {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/?p=447370"
-    }
-   ],
-   "icon": "gold",
-   "app": {
-    "name": "Pos ArRahnu"
-   },
-   "competition": {
-    "level": "sederhana",
-    "note": "Ada video pelancaran Gold-i dan beberapa Shorts. Video perbandingan spread dan kos masih kurang.",
-    "checked": "13 Nov 2026"
-   },
-   "seo": {
-    "keywords": [
-     "simpan emas rm10",
-     "pos arrahnu gold-i",
-     "harga emas hari ini",
-     "emas digital malaysia",
-     "cara simpan emas"
-    ],
-    "tags": [
-     "emas",
-     "simpan emas",
-     "gold-i",
-     "pos arrahnu",
-     "harga emas",
-     "emas digital",
-     "pelaburan emas",
-     "patuh syariah"
-    ],
-    "hashtags": [
-     "#simpanemas",
-     "#hargaemas",
-     "#emasdigital",
-     "#posarrahnu",
-     "#tipskewangan"
-    ],
-    "thumbs": [
-     "EMAS RM10",
-     "MASIH BERBALOI?",
-     "EMAS DIGITAL"
-    ]
-   }
+   "title": "TikTok Shop kini ada app sendiri di Malaysia",
+   "why": "App TikTok Shop rasmi tersenarai di App Store Malaysia dan Google Play, dengan tarikh keluaran pertama 27 Oktober 2026, kira-kira dua minggu sebelum 11.11. TikTok belum buat pengumuman rasmi di Malaysia setakat 6 November."
   },
   {
-   "id": "tng-bayar-shopee",
-   "cat": "kewangan",
-   "status": "stabil",
-   "score": 60,
-   "title": "Bayar Shopee guna TNG eWallet (DuitNow QR) menjelang 12.12",
-   "why": "Pengguna Shopee kini boleh bayar dengan TNG eWallet melalui DuitNow QR sejak 11 Ogos 2026, dengan tempoh promosi disenaraikan hingga 31 Disember 2026. Sesuai dengan musim jualan 12.12.",
    "angle": "Video tips jimat 12.12: susun cashback e-wallet, baucar dan kaedah bayar.",
+   "app": {
+    "name": "TNG eWallet",
+    "url": "https://www.tngdigital.com.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "sederhana",
+    "note": "Banyak tutorial pindah duit TNG ke ShopeePay, tapi belum ramai tunjuk bayar order Shopee terus guna TNG."
+   },
+   "icon": "cart",
+   "id": "tng-bayar-shopee",
    "ideas": [
     "Cara Bayar Shopee Guna Touch 'n Go (DuitNow QR)",
     "Tips Jimat 12.12: Susun Baucar + Cashback E-Wallet",
@@ -840,23 +948,16 @@
     "Checkout Shopee Paling Murah: Langkah Demi Langkah",
     "Jangan Bayar Harga Penuh Masa 12.12: 5 Tips"
    ],
-   "sources": [
-    {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/online-shopping/you-can-now-pay-for-your-shopee-orders-with-tng-ewallet.html"
-    }
-   ],
-   "icon": "cart",
-   "app": {
-    "name": "TNG eWallet",
-    "url": "https://www.tngdigital.com.my"
-   },
-   "competition": {
-    "level": "sederhana",
-    "note": "Banyak tutorial pindah duit TNG ke ShopeePay, tapi belum ramai tunjuk bayar order Shopee terus guna TNG.",
-    "checked": "13 Nov 2026"
-   },
+   "prev_score": 67,
+   "score": 67,
    "seo": {
+    "hashtags": [
+     "#shopee",
+     "#tngewallet",
+     "#1212",
+     "#tipsbelanja",
+     "#cashback"
+    ],
     "keywords": [
      "bayar shopee guna tng",
      "shopee duitnow qr",
@@ -874,87 +975,180 @@
      "tips belanja",
      "touch n go"
     ],
-    "hashtags": [
-     "#shopee",
-     "#tngewallet",
-     "#1212",
-     "#tipsbelanja",
-     "#cashback"
-    ],
     "thumbs": [
      "BAYAR SHOPEE GUNA TNG",
      "12.12 JIMAT",
      "CASHBACK!"
     ]
-   }
+   },
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/online-shopping/you-can-now-pay-for-your-shopee-orders-with-tng-ewallet.html"
+    },
+    {
+     "name": "Malay Mail (Shopee 11.11, 2 Nov 2026)",
+     "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/11/02/shopee-1111-big-sale-turns-up-the-excitement-on-shopee-live-with-daily-livestreams-rm11-million-in-vouchers-and-mega-savings/498528"
+    }
+   ],
+   "status": "stabil",
+   "title": "Bayar Shopee guna TNG eWallet (DuitNow QR) menjelang 12.12",
+   "why": "Pengguna Shopee kini boleh bayar dengan TNG eWallet melalui DuitNow QR sejak 11 Ogos 2026, dengan tempoh promosi disenaraikan hingga 31 Disember 2026. Sesuai dengan musim jualan 12.12."
+  },
+  {
+   "angle": "Tutorial simpan emas dengan modal kecil dan cara banding harga jual-beli (spread). Elak ramal harga, fokus pada cara.",
+   "app": {
+    "name": "Pos ArRahnu"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada video pelancaran Gold-i dan beberapa Shorts. Video perbandingan spread dan kos masih kurang."
+   },
+   "icon": "gold",
+   "id": "emas-4100",
+   "ideas": [
+    "Emas Dah US$4,100: Masih Berbaloi Beli?",
+    "Simpan Emas Dari RM10: Cara Guna Pos ArRahnu Gold-i",
+    "Emas Fizikal vs Emas Digital: Mana Lebih Selamat?",
+    "Cara Kira Untung Rugi Simpan Emas (Spread)",
+    "Gaji RM2,500: Patut Simpan Emas Berapa Sebulan?"
+   ],
+   "prev_score": 63,
+   "score": 63,
+   "seo": {
+    "hashtags": [
+     "#simpanemas",
+     "#hargaemas",
+     "#emasdigital",
+     "#posarrahnu",
+     "#tipskewangan"
+    ],
+    "keywords": [
+     "simpan emas rm10",
+     "pos arrahnu gold-i",
+     "harga emas hari ini",
+     "emas digital malaysia",
+     "cara simpan emas"
+    ],
+    "tags": [
+     "emas",
+     "simpan emas",
+     "gold-i",
+     "pos arrahnu",
+     "harga emas",
+     "emas digital",
+     "pelaburan emas",
+     "patuh syariah"
+    ],
+    "thumbs": [
+     "EMAS RM10",
+     "MASIH BERBALOI?",
+     "EMAS DIGITAL"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Bernama (7 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2631223"
+    },
+    {
+     "name": "Bernama",
+     "url": "https://bernama.com/bm/news.php?id=2631077"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=447370"
+    }
+   ],
+   "status": "stabil",
+   "title": "Harga emas sekitar US$4,100 seauns: masih berbaloi beli?",
+   "why": "Harga emas fizikal LBMA ialah US$4,112.85 seauns pada 5 November 2026, dan niaga hadapan Disember naik ke US$4,103.20 minggu lalu (Bernama, 7 Nov). Penganalisis jangka emas bergerak antara US$3,975 dan US$4,175 seauns, bergantung pada harga minyak dan pasaran saham."
   }
  ],
  "upcoming": [
   {
-   "date": "Hujung Nov 2026",
-   "when": "2026-11-30",
-   "approx": true,
-   "lead": 7,
+   "date": "16 Nov 2026",
+   "label": "Bayaran STR Fasa 4 untuk penerima baharu & rayuan lulus",
+   "lead": 5,
+   "note": "Video 'semak status STR' sesuai dikeluarkan sebelum tarikh ini.",
    "topic": "str-2027-kemas-kini",
+   "when": "2026-11-16"
+  },
+  {
+   "approx": true,
+   "date": "Hujung Nov 2026",
    "label": "Tempoh kemas kini STR 2027 Fasa 1 dijangka tamat",
-   "note": "Tertakluk pindaan LHDN."
+   "lead": 7,
+   "note": "Tertakluk pindaan LHDN.",
+   "topic": "str-2027-kemas-kini",
+   "when": "2026-11-30"
   },
   {
    "date": "12 Dis 2026",
-   "when": "2026-12-12",
-   "lead": 5,
-   "topic": "tng-bayar-shopee",
    "label": "Jualan 12.12",
-   "note": "Tips belanja, baucar dan cashback e-wallet."
+   "lead": 5,
+   "note": "Tips belanja, baucar dan cashback e-wallet.",
+   "topic": "tng-bayar-shopee",
+   "when": "2026-12-12"
   },
   {
    "date": "31 Dis 2026",
-   "when": "2026-12-31",
-   "lead": 10,
-   "topic": "sara-madani-2027",
    "label": "SARA untuk Semua 2026 dan promosi TNG di Shopee tamat",
-   "note": "Video 'guna baki sebelum luput'."
+   "lead": 10,
+   "note": "Video 'guna baki sebelum luput'.",
+   "topic": "sara-madani-2027",
+   "when": "2026-12-31"
   },
   {
+   "date": "31 Jan 2027",
+   "label": "Promosi cashback buka akaun ASNB dalam MAE tamat",
+   "lead": 10,
+   "note": "Terhad 15,000 pelabur baharu terawal.",
+   "topic": "mae-asnb",
+   "when": "2027-01-31"
+  },
+  {
+   "approx": true,
    "date": "Mac 2027",
-   "when": "2027-03-01",
-   "approx": true,
-   "lead": 14,
-   "topic": "sara-madani-2027",
    "label": "RM100 SARA MADANI pertama (sebelum Aidilfitri)",
-   "note": "Tarikh tepat belum diumumkan."
-  },
-  {
-   "date": "Jun 2027",
-   "when": "2027-06-01",
-   "approx": true,
    "lead": 14,
-   "topic": "gaji-minimum-2000",
-   "label": "Gaji minimum RM2,000 berkuat kuasa"
+   "note": "Tarikh tepat belum diumumkan.",
+   "topic": "sara-madani-2027",
+   "when": "2027-03-01"
   },
   {
-   "date": "Ogos 2027",
-   "when": "2027-08-31",
    "approx": true,
+   "date": "Jun 2027",
+   "label": "Gaji minimum RM2,000 berkuat kuasa",
+   "lead": 14,
+   "when": "2027-06-01"
+  },
+  {
+   "approx": true,
+   "date": "Ogos 2027",
+   "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)",
    "lead": 14,
    "topic": "sara-madani-2027",
-   "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)"
+   "when": "2027-08-31"
   }
  ],
  "apps": [
   {
    "id": "mae",
-   "seg": "bank",
-   "name": "MAE by Maybank",
-   "what": "App perbankan dan e-wallet Maybank untuk pindahan, bayar QR dan simpanan.",
-   "why": "Maybank kata MAE ada 10.7 juta pengguna dan memegang 48% volum transaksi perbankan mudah alih di Malaysia. Pada 28 Okt 2026, pengguna MAE boleh bayar guna QR di lapan negara luar.",
    "ideas": [
+    "Buka Akaun ASNB Dalam MAE: Tutorial Penuh",
     "Cara Bayar QR Guna MAE di Luar Negara",
-    "10 Fungsi Tersembunyi MAE Yang Ramai Tak Tahu",
-    "Buka Akaun ASNB Dalam MAE: Tutorial Penuh"
+    "10 Fungsi Tersembunyi MAE Yang Ramai Tak Tahu"
    ],
-   "url": "https://www.maybank2u.com.my",
+   "name": "MAE by Maybank",
+   "seg": "bank",
    "sources": [
+    {
+     "name": "Lowyat.NET (4 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
+    },
     {
      "name": "Fintech News Malaysia",
      "url": "https://fintechnews.my/54827/digital-banking-news-malaysia/maybank-rm4-trillion-digital-transactions/"
@@ -963,19 +1157,20 @@
      "name": "Fintech News Malaysia",
      "url": "https://fintechnews.my/58467/digital-banking-news-malaysia/gxbank-users/"
     }
-   ]
+   ],
+   "url": "https://www.maybank2u.com.my",
+   "what": "App perbankan dan e-wallet Maybank untuk pindahan, bayar QR dan simpanan.",
+   "why": "Maybank kata MAE ada 10.7 juta pengguna dan memegang 48% volum transaksi perbankan mudah alih di Malaysia. Mulai 4 Nov 2026, pelabur baharu boleh buka akaun ASNB terus dalam MAE dari RM10, dengan cashback RM3/RM5 untuk 15,000 terawal hingga 31 Jan 2027."
   },
   {
    "id": "ryt-bank",
-   "seg": "bank",
-   "name": "Ryt Bank",
-   "what": "Bank digital dengan pembantu AI (Ryt AI) dalam app.",
-   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan pernah jadi app paling banyak dimuat turun di Malaysia pada Feb 2026. Sejak Okt 2026 ia sokong Apple Pay.",
    "ideas": [
     "Ryt Bank Review Jujur Selepas Setahun",
     "Cara Buka Akaun Ryt Bank Dalam 5 Minit",
     "Ryt Bank vs GXBank: Mana Lebih Berbaloi?"
    ],
+   "name": "Ryt Bank",
+   "seg": "bank",
    "sources": [
     {
      "name": "SoyaCincau",
@@ -985,19 +1180,19 @@
      "name": "RinggitPlus",
      "url": "https://ringgitplus.com/en/blog/bank-news/ryt-bank-becomes-malaysias-most-downloaded-app.html"
     }
-   ]
+   ],
+   "what": "Bank digital dengan pembantu AI (Ryt AI) dalam app.",
+   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan pernah jadi app paling banyak dimuat turun di Malaysia pada Feb 2026. Sejak Okt 2026 ia sokong Apple Pay."
   },
   {
    "id": "gxbank",
-   "seg": "bank",
-   "name": "GXBank",
-   "what": "Bank digital dengan Saving Pockets dan pembiayaan FlexiCredit.",
-   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026. Penggunanya cipta 1.3 juta Savings dan Bonus Pockets pada 2025, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet.",
    "ideas": [
     "Cara Guna Saving Pockets GXBank Untuk Simpan Duit",
     "GXBank FlexiCredit: Berbaloi Atau Perangkap Hutang?",
     "Bank Digital Selamat Ke? Ini Jawapannya"
    ],
+   "name": "GXBank",
+   "seg": "bank",
    "sources": [
     {
      "name": "Fintech News Malaysia",
@@ -1007,19 +1202,19 @@
      "name": "SoyaCincau",
      "url": "https://soyacincau.com/?p=447370"
     }
-   ]
+   ],
+   "what": "Bank digital dengan Saving Pockets dan pembiayaan FlexiCredit.",
+   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026. Penggunanya cipta 1.3 juta Savings dan Bonus Pockets pada 2025, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet."
   },
   {
    "id": "mydigital-id",
-   "seg": "kerajaan",
-   "name": "MyDigital ID",
-   "what": "Identiti digital rasmi untuk log masuk ke app dan portal kerajaan.",
-   "why": "Setakat 30 Jun 2026, 12 juta rakyat Malaysia sudah mendaftar dan 114 perkhidmatan kerajaan disepadukan, termasuk MyJPJ, MyPTPTN dan MyBayar PDRM.",
    "ideas": [
     "Cara Daftar MyDigital ID Dari Kosong",
     "MyDigital ID Tamat Tempoh? Cara Renew",
     "Semua App Kerajaan Yang Guna MyDigital ID"
    ],
+   "name": "MyDigital ID",
+   "seg": "kerajaan",
    "sources": [
     {
      "name": "Malay Mail",
@@ -1029,21 +1224,24 @@
      "name": "The Edge",
      "url": "https://theedgemalaysia.com/node/809844"
     }
-   ]
+   ],
+   "what": "Identiti digital rasmi untuk log masuk ke app dan portal kerajaan.",
+   "why": "Setakat 30 Jun 2026, 12 juta rakyat Malaysia sudah mendaftar dan 114 perkhidmatan kerajaan disepadukan, termasuk MyJPJ, MyPTPTN dan MyBayar PDRM."
   },
   {
    "id": "mygov",
-   "seg": "kerajaan",
-   "name": "MyGOV Malaysia",
-   "what": "Satu app untuk banyak urusan kerajaan, log masuk guna MyDigital ID.",
-   "why": "MyGOV mencatat lebih 2.2 juta pengguna (Jun 2026) dan menggabungkan 51 perkhidmatan dari 19 agensi. Ia kini ada AI agen (beta) dan boleh mohon ganti MyKad terus dalam app.",
    "ideas": [
     "App MyGOV: Semua Fungsi Dalam 10 Minit",
     "Cara Ganti IC Hilang Guna MyGOV",
-    "Saya Cuba AI Dalam App MyGOV"
+    "62 Servis Kerajaan Dalam 1 App: Yang Berguna"
    ],
-   "url": "https://www.mygov.gov.my",
+   "name": "MyGOV Malaysia",
+   "seg": "kerajaan",
    "sources": [
+    {
+     "name": "The Star (23 Okt 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/10/23/more-services-to-be-added-to-mygov-app"
+    },
     {
      "name": "Berita RTM",
      "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/mygov-catat-2-2-juta-pengguna-bakal-tawar-strim-piala-dunia-2026/"
@@ -1052,40 +1250,44 @@
      "name": "Lowyat.NET",
      "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
     }
-   ]
+   ],
+   "url": "https://www.mygov.gov.my",
+   "what": "Satu app untuk banyak urusan kerajaan, log masuk guna MyDigital ID.",
+   "why": "Setakat 8 Okt 2026, app MyGOV ada 3.2 juta muat turun, 3 juta pengguna aktif dan 62 perkhidmatan dari 22 agensi (The Star, 23 Okt). Kerajaan rancang tambah TanyaKerajaan (bantuan AI), MyAppointment dan MyPersona, dan app ini kini boleh mohon ganti MyKad."
   },
   {
    "id": "mystr",
-   "seg": "kerajaan",
-   "name": "MySTR (Portal STR)",
-   "what": "Portal rasmi HASiL untuk mohon, kemas kini dan semak status STR.",
-   "why": "Permohonan dan kemas kini STR 2027 dibuka online sejak 15 Okt 2026, dan tempoh kemas kini untuk Fasa 1 ialah hingga November 2026.",
    "ideas": [
     "Cara Kemas Kini STR 2027 Langkah Demi Langkah",
     "Semak Status STR Dalam 2 Minit",
     "Kenapa STR Anda Tak Lulus? 5 Sebab Biasa"
    ],
-   "url": "https://bantuantunai.hasil.gov.my",
+   "name": "MySTR (Portal STR)",
+   "seg": "kerajaan",
    "sources": [
     {
      "name": "RinggitPlus",
      "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
     }
-   ]
+   ],
+   "url": "https://bantuantunai.hasil.gov.my",
+   "what": "Portal rasmi HASiL untuk mohon, kemas kini dan semak status STR.",
+   "why": "Permohonan dan kemas kini STR 2027 dibuka online sejak 15 Okt 2026, dan tempoh kemas kini untuk Fasa 1 ialah hingga November 2026."
   },
   {
    "id": "tng",
-   "seg": "ewallet",
-   "name": "TNG eWallet",
-   "what": "E-wallet utama Malaysia untuk tol, parkir, bayar QR, bil dan pelaburan GOfinance.",
-   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal yang paling dominan. TNG Digital melaporkan lebih 27 juta pengguna disahkan.",
    "ideas": [
+    "Tempah Teksi Luar Negara Guna TNG: Tutorial",
     "Fungsi Baru TNG eWallet Yang Ramai Tak Perasan",
-    "Cara Dapat Cashback Maksimum Guna TNG",
     "GOfinance TNG: Labur, Pinjam, Insurans Dalam Satu App"
    ],
-   "url": "https://www.tngdigital.com.my",
+   "name": "TNG eWallet",
+   "seg": "ewallet",
    "sources": [
+    {
+     "name": "Lowyat.NET (5 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
+    },
     {
      "name": "Ipsos",
      "url": "https://www.ipsos.com/en-my/node/1081286"
@@ -1094,19 +1296,20 @@
      "name": "TechNode Global",
      "url": "https://technode.global/2026/08/26/tng-digital-gxbank-flexicredit-cashloan/"
     }
-   ]
+   ],
+   "url": "https://www.tngdigital.com.my",
+   "what": "E-wallet utama Malaysia untuk tol, parkir, bayar QR, bil dan pelaburan GOfinance.",
+   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal paling dominan dengan lebih 27 juta pengguna disahkan. Pada 5 Nov 2026, TNG lancar tempahan e-hailing luar negara di 47 negara melalui Alipay+ (DiDi, GO, Kakao T, Bolt, Lyft)."
   },
   {
    "id": "shopeepay",
-   "seg": "ewallet",
-   "name": "ShopeePay",
-   "what": "E-wallet dalam app Shopee, sesuai untuk susun baucar dan Shopee Coins.",
-   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000. Ia juga pilihan utama untuk susun baucar semasa jualan 11.11 dan 12.12.",
    "ideas": [
     "Cara Susun Baucar ShopeePay Untuk 12.12",
     "ShopeePay Money+ Had RM30,000: Apa Maksudnya?",
     "ShopeePay vs TNG: Mana Lebih Jimat Untuk Shopping?"
    ],
+   "name": "ShopeePay",
+   "seg": "ewallet",
    "sources": [
     {
      "name": "Fintech News Malaysia",
@@ -1116,19 +1319,19 @@
      "name": "Malaysia4U",
      "url": "https://malaysia4u.com/ewallet-guide"
     }
-   ]
+   ],
+   "what": "E-wallet dalam app Shopee, sesuai untuk susun baucar dan Shopee Coins.",
+   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000. Ia juga pilihan utama untuk susun baucar semasa jualan 11.11 dan 12.12."
   },
   {
    "id": "boost",
-   "seg": "ewallet",
-   "name": "Boost",
-   "what": "E-wallet milik Axiata yang terkenal dengan cashback dan bayar bil.",
-   "why": "Boost dikenali sebagai e-wallet pilihan pemburu cashback dan bayar bil. Pada Sept 2026, Boost bekerjasama dengan Tencent Cloud untuk ciri AI dan rancangan super app.",
    "ideas": [
     "Boost vs TNG: Mana Lebih Banyak Cashback?",
     "Cara Bayar Bil Guna Boost Supaya Dapat Ganjaran",
     "Perlu Ke Ada Dua E-Wallet? Ini Jawapannya"
    ],
+   "name": "Boost",
+   "seg": "ewallet",
    "sources": [
     {
      "name": "ACE Money Transfer",
@@ -1138,37 +1341,41 @@
      "name": "Fintech News Malaysia",
      "url": "https://fintechnews.my/44893/e-wallets-malaysia/tng-ewallets-new-gofinance-hub-offers-one-stop-shop-for-financial-services/"
     }
-   ]
+   ],
+   "what": "E-wallet milik Axiata yang terkenal dengan cashback dan bayar bil.",
+   "why": "Boost dikenali sebagai e-wallet pilihan pemburu cashback dan bayar bil. Pada Sept 2026, Boost bekerjasama dengan Tencent Cloud untuk ciri AI dan rancangan super app."
   },
   {
    "id": "shopee",
-   "seg": "shopping",
-   "name": "Shopee",
-   "what": "Platform e-dagang terbesar di Malaysia, siap dengan ShopeePay, SPayLater dan ShopeeFood.",
-   "why": "Kajian Vodus 2026 dapati 83% responden pernah membeli di Shopee, naik dari 74% pada 2025.",
    "ideas": [
     "Cara Checkout Shopee Paling Murah (12.12)",
-    "Shopee Mall vs Kedai Biasa: Elak Barang Tiruan",
+    "Baucar Livestream Shopee: Cara Rebut 60% Off",
     "10 Trik Shopee Coins Yang Ramai Tak Tahu"
    ],
+   "name": "Shopee",
+   "seg": "shopping",
    "sources": [
     {
      "name": "Vodus",
      "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    },
+    {
+     "name": "Malay Mail (2 Nov 2026)",
+     "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/11/02/shopee-1111-big-sale-turns-up-the-excitement-on-shopee-live-with-daily-livestreams-rm11-million-in-vouchers-and-mega-savings/498528"
     }
-   ]
+   ],
+   "what": "Platform e-dagang terbesar di Malaysia, siap dengan ShopeePay, SPayLater dan ShopeeFood.",
+   "why": "Kajian Vodus 2026 dapati 83% responden pernah membeli di Shopee, naik dari 74% pada 2025. Jualan 11.11 (2–12 Nov 2026) datang dengan RM11 juta baucar dan livestream harian, dan tumpuan kini beralih ke 12.12."
   },
   {
    "id": "tiktok-shop",
-   "seg": "shopping",
-   "name": "TikTok Shop",
-   "what": "Belanja terus dari video dan live TikTok, kini dengan app sendiri.",
-   "why": "Penggunaan TikTok Shop naik dari 53% ke 64% responden (Vodus 2026), dan penggunanya membeli purata 28 kali setahun, sedikit lebih kerap dari Shopee. App TikTok Shop sendiri keluar pada 27 Okt 2026.",
    "ideas": [
     "Kenapa Ramai Beralih ke TikTok Shop?",
     "Cara Beli Selamat Masa Live TikTok Shop",
     "Shopee vs TikTok Shop: Saya Banding Harga Sebenar"
    ],
+   "name": "TikTok Shop",
+   "seg": "shopping",
    "sources": [
     {
      "name": "Vodus",
@@ -1178,37 +1385,37 @@
      "name": "ProductNation",
      "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
     }
-   ]
+   ],
+   "what": "Belanja terus dari video dan live TikTok, kini dengan app sendiri.",
+   "why": "Penggunaan TikTok Shop naik dari 53% ke 64% responden (Vodus 2026), dan penggunanya membeli purata 28 kali setahun, sedikit lebih kerap dari Shopee. App TikTok Shop sendiri keluar pada 27 Okt 2026."
   },
   {
    "id": "lazada",
-   "seg": "shopping",
-   "name": "Lazada",
-   "what": "Platform e-dagang dengan LazMall untuk barangan jenama.",
-   "why": "Lazada kekal platform ketiga terbesar dengan 42% responden pernah membeli (naik dari 39%). Ia popular untuk barangan berjenama melalui LazMall.",
    "ideas": [
     "Bila Patut Beli di Lazada, Bukan Shopee?",
     "LazMall: Cara Pastikan Barang Original",
     "Tips Baucar Lazada Untuk Jualan Hujung Tahun"
    ],
+   "name": "Lazada",
+   "seg": "shopping",
    "sources": [
     {
      "name": "Vodus",
      "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
     }
-   ]
+   ],
+   "what": "Platform e-dagang dengan LazMall untuk barangan jenama.",
+   "why": "Lazada kekal platform ketiga terbesar dengan 42% responden pernah membeli (naik dari 39%). Ia popular untuk barangan berjenama melalui LazMall."
   },
   {
    "id": "grabfood",
-   "seg": "makanan",
-   "name": "GrabFood (app Grab)",
-   "what": "Penghantaran makanan dalam app Grab, dengan langganan GrabUnlimited.",
-   "why": "GrabFood dianggap peneraju pasaran penghantaran makanan di Malaysia dengan liputan paling luas, termasuk Malaysia Timur, dan ada penapis halal yang jelas.",
    "ideas": [
     "Cara Jimat Order GrabFood Setiap Bulan",
     "GrabUnlimited Berbaloi Ke? Saya Kira",
     "GrabFood vs foodpanda vs ShopeeFood: Mana Murah?"
    ],
+   "name": "GrabFood (app Grab)",
+   "seg": "makanan",
    "sources": [
     {
      "name": "Klikit",
@@ -1218,37 +1425,37 @@
      "name": "Eats365",
      "url": "https://www.eats365pos.com/my/blog/post/top-food-delivery-malaysia"
     }
-   ]
+   ],
+   "what": "Penghantaran makanan dalam app Grab, dengan langganan GrabUnlimited.",
+   "why": "GrabFood dianggap peneraju pasaran penghantaran makanan di Malaysia dengan liputan paling luas, termasuk Malaysia Timur, dan ada penapis halal yang jelas."
   },
   {
    "id": "foodpanda",
-   "seg": "makanan",
-   "name": "foodpanda",
-   "what": "Penghantaran makanan dan barang runcit melalui pandamart.",
-   "why": "foodpanda kekal pilihan kedua dengan pelanggan setia langganan pandapro, dan pandamart untuk barang dapur.",
    "ideas": [
     "pandapro Berbaloi Ke Untuk Keluarga?",
     "Cara Beli Barang Dapur Guna pandamart",
     "Trik Baucar foodpanda Yang Jarang Orang Guna"
    ],
+   "name": "foodpanda",
+   "seg": "makanan",
    "sources": [
     {
      "name": "Klikit",
      "url": "https://klikit.io/en/resources/comparisons/delivery-platforms-comparison-malaysia"
     }
-   ]
+   ],
+   "what": "Penghantaran makanan dan barang runcit melalui pandamart.",
+   "why": "foodpanda kekal pilihan kedua dengan pelanggan setia langganan pandapro, dan pandamart untuk barang dapur."
   },
   {
    "id": "zus",
-   "seg": "makanan",
-   "name": "ZUS Coffee",
-   "what": "App rangkaian kopi terbesar Malaysia untuk pickup, delivery dan ganjaran ahli.",
-   "why": "ZUS kini rangkaian kopi terbesar di Malaysia dengan kira-kira 800 cawangan, dan app Android-nya melepasi 4.7 juta pemasangan. Promosi ZUSday Buy 3 Free 1 setiap Selasa hanya melalui app.",
    "ideas": [
     "Cara Minum ZUS Paling Murah (Promo Selasa)",
     "Semua Kod Promo ZUS Yang Masih Boleh Guna",
     "App Kopi Mana Paling Jimat? Saya Banding"
    ],
+   "name": "ZUS Coffee",
+   "seg": "makanan",
    "sources": [
     {
      "name": "Malaysia4U",
@@ -1258,20 +1465,19 @@
      "name": "AppGoblin",
      "url": "https://appgoblin.info/apps/com.coffee.love_coffee"
     }
-   ]
+   ],
+   "what": "App rangkaian kopi terbesar Malaysia untuk pickup, delivery dan ganjaran ahli.",
+   "why": "ZUS kini rangkaian kopi terbesar di Malaysia dengan kira-kira 800 cawangan, dan app Android-nya melepasi 4.7 juta pemasangan. Promosi ZUSday Buy 3 Free 1 setiap Selasa hanya melalui app."
   },
   {
    "id": "myasnb",
-   "seg": "syariah",
-   "name": "myASNB",
-   "what": "App rasmi ASNB untuk melabur dalam ASB, ASM dan dana lain dari kira-kira RM10.",
-   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar. Kempen Unlock ASM 3 berjalan hingga 31 Dis. Semak status Syariah setiap dana di laman ASNB.",
    "ideas": [
     "Cara Semak Dividen ASB Dalam App myASNB",
     "myASNB Satu Peranti Sahaja: Apa Perlu Buat?",
     "Cara Pilih Zakat Khultah Untuk ASB"
    ],
-   "url": "https://www.myasnb.com.my",
+   "name": "myASNB",
+   "seg": "syariah",
    "sources": [
     {
      "name": "RinggitPlus",
@@ -1280,39 +1486,43 @@
     {
      "name": "The Vibes",
      "url": "https://www.thevibes.com/index.php/articles/business/127771/asnb-asm-3-payout-hits-7-year-high-at-5-sen-with-rm1.01b-to-unit-holders"
+    },
+    {
+     "name": "Lowyat.NET (4 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
     }
-   ]
+   ],
+   "url": "https://www.myasnb.com.my",
+   "what": "App rasmi ASNB untuk melabur dalam ASB, ASM dan dana lain dari kira-kira RM10.",
+   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar, dan sejak 4 Nov akaun ASNB juga boleh dibuka melalui MAE. Semak status Syariah setiap dana di laman ASNB, dan ingat nilai pelaburan boleh turun."
   },
   {
    "id": "thijari",
-   "seg": "syariah",
-   "name": "THiJARI (Tabung Haji)",
-   "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
-   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Ramai pengguna mengadu masalah log masuk, jadi tutorial penyelesaian amat dicari.",
    "ideas": [
     "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
     "THiJARI Asyik Log Keluar? Cara Atasi",
     "Simpan Untuk Haji: Berapa Perlu Sebulan?"
    ],
+   "name": "THiJARI (Tabung Haji)",
+   "seg": "syariah",
    "sources": [
     {
      "name": "MWM",
      "url": "https://mwm.ai/ja/apps/tabung-haji/1497670808"
     }
-   ]
+   ],
+   "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Ramai pengguna mengadu masalah log masuk, jadi tutorial penyelesaian amat dicari."
   },
   {
    "id": "wahed",
-   "seg": "syariah",
-   "name": "Wahed",
-   "what": "Pengurus pelaburan digital 100% patuh Syariah, berlesen Suruhanjaya Sekuriti.",
-   "why": "Setiap pegangan ditapis oleh lembaga penasihat Syariah sendiri dan pendapatan tidak patuh dibersihkan. Tetapi ia bukan bank, jadi tiada perlindungan PIDM dan nilai pelaburan boleh turun.",
    "ideas": [
     "Labur Patuh Syariah Dengan Modal Kecil: Wahed",
     "Wahed vs ASNB: Mana Sesuai Untuk Anda?",
     "Patuh Syariah Tak Bermaksud Pasti Untung"
    ],
-   "url": "https://www.wahed.com/my",
+   "name": "Wahed",
+   "seg": "syariah",
    "sources": [
     {
      "name": "Malaysia4U",
@@ -1322,19 +1532,20 @@
      "name": "Wahed",
      "url": "https://www.wahed.com/my/legal"
     }
-   ]
+   ],
+   "url": "https://www.wahed.com/my",
+   "what": "Pengurus pelaburan digital 100% patuh Syariah, berlesen Suruhanjaya Sekuriti.",
+   "why": "Setiap pegangan ditapis oleh lembaga penasihat Syariah sendiri dan pendapatan tidak patuh dibersihkan. Tetapi ia bukan bank, jadi tiada perlindungan PIDM dan nilai pelaburan boleh turun."
   },
   {
    "id": "versa",
-   "seg": "syariah",
-   "name": "Versa (Cash-i)",
-   "what": "App simpan dan labur dengan pilihan Cash-i patuh Syariah yang mudah ditunaikan.",
-   "why": "Versa berlesen Suruhanjaya Sekuriti dan berkhidmat kepada hampir 300,000 pengguna pada 2026. Versa Cash-i ialah versi patuh Syariah untuk wang kecemasan.",
    "ideas": [
     "Simpan Duit Kecemasan Patuh Syariah Guna Versa",
     "Versa Cash-i vs Simpanan Bank Biasa",
-    "Cara Mula Guna Versa Dari RM100"
+    "Semak Lesen App Pelaburan Sebelum Simpan Duit"
    ],
+   "name": "Versa (Cash-i)",
+   "seg": "syariah",
    "sources": [
     {
      "name": "Malaysia4U",
@@ -1343,8 +1554,14 @@
     {
      "name": "Malaysia4U",
      "url": "https://malaysia4u.com/review/versa"
+    },
+    {
+     "name": "Malay Mail (6 Nov 2026)",
+     "url": "https://malaymail.com/news/life/2026/11/06/as-1111-approaches-versa-survey-shows-96pc-of-malaysians-fear-mobile-scams-and-hacks/242211"
     }
-   ]
+   ],
+   "what": "App simpan dan labur dengan pilihan Cash-i patuh Syariah yang mudah ditunaikan.",
+   "why": "Versa berlesen Suruhanjaya Sekuriti dan berkhidmat kepada hampir 300,000 pengguna pada 2026; Versa Cash-i ialah versi patuh Syariah untuk wang kecemasan. Pada 6 Nov 2026, Versa kongsi tinjauan penggunanya: hanya kira-kira 4% yakin telefon mereka selamat daripada scam, dan 78% pernah berdepan scam dalam dua tahun. Nilai pelaburan boleh turun."
   }
  ]
 }
