@@ -1,241 +1,417 @@
 {
-  "date": "2026-11-13",
-  "updated_label": "13 Nov 2026, 11 malam",
-  "items": [
+ "date": "2026-11-13",
+ "updated_label": "13 Nov 2026, 11 malam",
+ "items": [
+  {
+   "id": "pasport-10-tahun-online",
+   "cat": "tutorial",
+   "status": "panas",
+   "score": 96,
+   "title": "Renew pasport 10 tahun kini boleh online",
+   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
+   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
+   "ideas": [
+    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
+    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
+    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
+    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
+    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
+   ],
+   "sources": [
     {
-      "id": "pasport-10-tahun-online",
-      "cat": "tutorial",
-      "status": "panas",
-      "score": 96,
-      "title": "Renew pasport 10 tahun kini boleh online",
-      "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
-      "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
-      "ideas": [
-        "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
-        "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
-        "Gambar Pasport Online Kena Reject? Buat Macam Ni"
-      ],
-      "sources": [
-        {"name": "RinggitPlus", "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"},
-        {"name": "The Vibes", "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"}
-      ]
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
     },
     {
-      "id": "str-2027-kemas-kini",
-      "cat": "kewangan",
-      "status": "panas",
-      "score": 95,
-      "deadline": "Fasa 1: kemas kini hingga Nov 2026",
-      "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
-      "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026. Tempoh kemas kini untuk kelayakan Fasa 1 ialah Oktober hingga November 2026 (tertakluk pindaan). Penerima yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026 wajib kemas kini.",
-      "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
-      "ideas": [
-        "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
-        "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
-        "Status STR Tak Lulus? Ini Cara Buat Rayuan"
-      ],
-      "sources": [
-        {"name": "RinggitPlus (BM)", "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"},
-        {"name": "RinggitPlus (EN)", "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"}
-      ]
-    },
-    {
-      "id": "sara-madani-2027",
-      "cat": "kewangan",
-      "status": "panas",
-      "score": 90,
-      "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
-      "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA.",
-      "angle": "Penjelasan siapa dapat berapa, bila masuk, dan tutorial semak baki SARA di MyKad. Jangan janji tarikh tepat kerana kerajaan belum umum.",
-      "ideas": [
-        "RM200 SARA 2027 Masuk MyKad: Siapa Layak & Bila?",
-        "SARA Kini Boleh Guna di Pasar Tani: Cara Guna",
-        "Penerima STR Dapat RM150 Sebulan? Ini Penjelasannya"
-      ],
-      "sources": [
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"},
-        {"name": "Bernama", "url": "https://bernama.com/en/news.php?id=2621951"}
-      ]
-    },
-    {
-      "id": "rakyat-digital-coursera-ai",
-      "cat": "tutorial",
-      "status": "naik",
-      "score": 86,
-      "title": "Coursera percuma 3 bulan + langganan AI percuma melalui Rakyat Digital",
-      "why": "Kementerian Digital beri 100,000 lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID, siapa cepat dia dapat). Rakyat berumur 18 hingga 30 yang habiskan 5 modul (AI Safety, CyberSAFE, Generative AI, Agentic AI, Cloud) layak dapat akses aplikasi AI percuma 3 bulan.",
-      "angle": "Tutorial daftar dari kosong: MyDigital ID, portal Rakyat Digital, claim Coursera, dan siapkan modul AI. Tajuk 'percuma' biasanya tarik klik tinggi.",
-      "ideas": [
-        "Coursera PERCUMA 3 Bulan Guna MyDigital ID: Cara Claim",
-        "AI Percuma Untuk Umur 18–30: Tutorial Rakyat Digital",
-        "5 Kursus Coursera Paling Berbaloi Untuk Cari Duit Online"
-      ],
-      "sources": [
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/2026/10/12/over-12000-malaysians-have-claimed-free-coursera-courses-via-rakyat-digital-heres-how-to-get-yours/"},
-        {"name": "RinggitPlus", "url": "https://ringgitplus.com/en/blog/personal-finance-news/rakyat-digital-portal-offers-free-coursera-and-ai-access.html"}
-      ]
-    },
-    {
-      "id": "cukai-bajet-2027",
-      "cat": "kewangan",
-      "status": "naik",
-      "score": 85,
-      "title": "Bajet 2027: pelepasan cukai individu naik ke RM12,000",
-      "why": "Pelepasan cukai individu dinaikkan dari RM9,000 ke RM12,000 dan kadar cukai diturunkan bagi kumpulan pendapatan tertentu. Kerajaan anggar kira-kira 5 juta pembayar cukai dapat tambahan pendapatan boleh guna sehingga RM1,600.",
-      "angle": "Video 'kira dengan contoh': gaji RM4,000, RM6,000, RM8,000. Penonton suka tahu angka sendiri. Sebut ini cadangan Bajet dan berkuat kuasa untuk tahun taksiran berkaitan.",
-      "ideas": [
-        "Gaji RM5,000? Ini Anggaran Cukai Anda Jimat Tahun 2027",
-        "Bajet 2027: Perubahan Cukai Yang Terus Masuk Poket",
-        "Pelepasan Cukai RM12,000: Apa Maksudnya Untuk Anda?"
-      ],
-      "sources": [
-        {"name": "theSun", "url": "https://thesun.my/?p=686681"},
-        {"name": "NST", "url": "https://www.nst.com.my/amp/news/nation/2026/10/1551482/2027-budget-govt-raises-personal-tax-relief-rm12000-cuts-tax-rates-m40"}
-      ]
-    },
-    {
-      "id": "scam-saman-pdrm-mybayar",
-      "cat": "kewangan",
-      "status": "panas",
-      "score": 82,
-      "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
-      "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP. Pada hari yang sama BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan.",
-      "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
-      "ideas": [
-        "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
-        "Cara Semak Link Palsu Dalam 10 Saat",
-        "Dah Terklik Link Scam? Buat 4 Benda Ni Segera"
-      ],
-      "sources": [
-        {"name": "ProductNation", "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"},
-        {"name": "The Vibes", "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"}
-      ]
-    },
-    {
-      "id": "tng-gofinance-saham",
-      "cat": "kewangan",
-      "status": "naik",
-      "score": 80,
-      "title": "Beli saham global terus dari TNG eWallet (GOfinance + Webull)",
-      "why": "Sejak 30 September, pengguna TNG eWallet boleh buka akaun Webull Malaysia melalui GOfinance dan isi dana terus dari baki e-wallet. Pengguna baru yang layak dapat saham pecahan Apple bernilai RM30. GOfinance kini ada lebih 5 juta pelabur dengan RM3.57 bilion pelaburan diproses.",
-      "angle": "Tutorial buka akaun dan beli saham pertama dalam app yang semua orang dah ada. Wajib sebut risiko pelaburan dan baca terma promosi.",
-      "ideas": [
-        "Cara Beli Saham Apple Guna Touch 'n Go (Tutorial Penuh)",
-        "GOfinance TNG: Pelaburan Mana Sesuai Untuk Pemula?",
-        "Dapat Saham Apple RM30 Percuma? Ini Syaratnya"
-      ],
-      "sources": [
-        {"name": "The Edge", "url": "https://theedgemalaysia.com/node/819954"},
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/?p=452454"}
-      ]
-    },
-    {
-      "id": "mygov-ganti-mykad",
-      "cat": "tutorial",
-      "status": "naik",
-      "score": 78,
-      "title": "Ganti MyKad (hilang/rosak) terus dalam app MyGOV",
-      "why": "Rakyat Malaysia kini boleh mohon penggantian MyKad, termasuk kad rosak dan hilang, melalui app MyGOV. Perlu MyDigital ID untuk log masuk, kemudian pergi ke Services, Birth & Personal Identification.",
-      "angle": "Tutorial dari pasang MyGOV dan MyDigital ID hingga hantar permohonan. Boleh jadi siri 'urusan kerajaan guna telefon'.",
-      "ideas": [
-        "Cara Ganti IC Hilang Guna App MyGOV",
-        "Setup MyDigital ID + MyGOV Dari Kosong",
-        "5 Urusan Kerajaan Yang Kini Boleh Buat Dalam Telefon"
-      ],
-      "sources": [
-        {"name": "Lowyat.NET", "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"}
-      ]
-    },
-    {
-      "id": "tiktok-shop-app",
-      "cat": "tutorial",
-      "status": "naik",
-      "score": 72,
-      "title": "TikTok Shop kini ada app sendiri di Malaysia",
-      "why": "App TikTok Shop rasmi tersenarai di App Store Malaysia dan Google Play, dengan tarikh keluaran pertama 27 Oktober 2026, kira-kira dua minggu sebelum 11.11. TikTok belum buat pengumuman rasmi di Malaysia setakat 6 November.",
-      "angle": "Review dan tutorial: beza dengan app TikTok biasa, cara cari baucar, dan tips beli selamat untuk 12.12.",
-      "ideas": [
-        "App TikTok Shop Baru: Apa Beza Dengan TikTok Biasa?",
-        "Cara Cari Baucar Dalam App TikTok Shop",
-        "Shopee vs TikTok Shop Untuk 12.12: Mana Lagi Murah?"
-      ],
-      "sources": [
-        {"name": "ProductNation", "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"}
-      ]
-    },
-    {
-      "id": "gaji-minimum-2000",
-      "cat": "kewangan",
-      "status": "stabil",
-      "score": 70,
-      "title": "Gaji minimum naik ke RM2,000 mulai Jun 2027",
-      "why": "Bajet 2027 umum gaji minimum dinaikkan dari RM1,700 ke RM2,000 sebulan, berkuat kuasa Jun 2027.",
-      "angle": "Video bajet peribadi: cara rancang guna kenaikan gaji supaya tak hilang begitu sahaja. Topik ini akan naik semula menjelang Jun 2027.",
-      "ideas": [
-        "Gaji Minimum RM2,000: Bila Mula & Siapa Dapat?",
-        "Gaji Naik RM300: Cara Bajet Supaya Tak Habis Macam Tu Je"
-      ],
-      "sources": [
-        {"name": "NST", "url": "https://www.nst.com.my/amp/business/economy/2026/10/1552298/2027-budget-more-cash-bigger-tax-breaks-other-great-goodies"}
-      ]
-    },
-    {
-      "id": "tuju-vs-waze",
-      "cat": "tutorial",
-      "status": "naik",
-      "score": 68,
-      "title": "App Tuju vs Waze selepas larangan untuk penjawat awam",
-      "why": "Kerajaan larang penjawat awam guna Waze (21 Okt). App tempatan Tuju kemudian matikan fungsi navigasi selepas kritikan ramai (22 Okt), dan pada 2 Nov dilaporkan sudah baiki navigasi di Android.",
-      "angle": "Uji pandu sebenar Tuju vs Waze dan tutorial setup Tuju. Topik ada unsur kontroversi, jadi kekalkan nada neutral dan berpandukan fakta.",
-      "ideas": [
-        "Saya Uji App Tuju vs Waze: Mana Lagi Tepat?",
-        "Penjawat Awam Tak Boleh Guna Waze: Ini Alternatifnya"
-      ],
-      "sources": [
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/?p=452454"},
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/?p=447893"}
-      ]
-    },
-    {
-      "id": "emas-4100",
-      "cat": "kewangan",
-      "status": "stabil",
-      "score": 65,
-      "title": "Harga emas sekitar US$4,100 seauns: masih berbaloi beli?",
-      "why": "Harga emas fizikal ditetapkan pada US$4,112.85 seauns di LBMA pada 5 November 2026. Emas kekal topik carian tinggi, dan pilihan beli kecil-kecilan seperti Pos ArRahnu Gold-i dari RM10 sedang dibincangkan.",
-      "angle": "Tutorial simpan emas dengan modal kecil dan cara banding harga jual-beli (spread). Elak ramal harga, fokus pada cara.",
-      "ideas": [
-        "Emas Dah US$4,100: Masih Berbaloi Beli?",
-        "Simpan Emas Dari RM10: Cara Guna Pos ArRahnu Gold-i"
-      ],
-      "sources": [
-        {"name": "Bernama", "url": "https://bernama.com/bm/news.php?id=2631077"},
-        {"name": "SoyaCincau", "url": "https://soyacincau.com/?p=447370"}
-      ]
-    },
-    {
-      "id": "tng-bayar-shopee",
-      "cat": "kewangan",
-      "status": "stabil",
-      "score": 60,
-      "title": "Bayar Shopee guna TNG eWallet (DuitNow QR) menjelang 12.12",
-      "why": "Pengguna Shopee kini boleh bayar dengan TNG eWallet melalui DuitNow QR sejak 11 Ogos 2026, dengan tempoh promosi disenaraikan hingga 31 Disember 2026. Sesuai dengan musim jualan 12.12.",
-      "angle": "Video tips jimat 12.12: susun cashback e-wallet, baucar dan kaedah bayar.",
-      "ideas": [
-        "Cara Bayar Shopee Guna Touch 'n Go (DuitNow QR)",
-        "Tips Jimat 12.12: Susun Baucar + Cashback E-Wallet"
-      ],
-      "sources": [
-        {"name": "RinggitPlus", "url": "https://ringgitplus.com/en/blog/online-shopping/you-can-now-pay-for-your-shopee-orders-with-tng-ewallet.html"}
-      ]
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
     }
-  ],
-  "upcoming": [
-    {"date": "Hujung Nov 2026", "label": "Tempoh kemas kini STR 2027 Fasa 1 dijangka tamat", "note": "Tertakluk pindaan LHDN. Bagus untuk video peringatan minggu depan."},
-    {"date": "12 Dis 2026", "label": "Jualan 12.12", "note": "Tips belanja, baucar dan cashback e-wallet."},
-    {"date": "31 Dis 2026", "label": "Promosi TNG eWallet di Shopee tamat; SARA untuk Semua 2026 sah hingga tarikh ini", "note": "Video 'guna baki sebelum luput'."},
-    {"date": "Mac 2027", "label": "RM100 SARA MADANI pertama (sebelum Aidilfitri)", "note": "Tarikh tepat belum diumumkan."},
-    {"date": "Jun 2027", "label": "Gaji minimum RM2,000 berkuat kuasa"},
-    {"date": "Ogos 2027", "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)"}
-  ]
+   ],
+   "icon": "passport",
+   "app": {
+    "name": "Jabatan Imigresen Malaysia",
+    "url": "https://www.imi.gov.my"
+   }
+  },
+  {
+   "id": "str-2027-kemas-kini",
+   "cat": "kewangan",
+   "status": "panas",
+   "score": 95,
+   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
+   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
+   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026. Tempoh kemas kini untuk kelayakan Fasa 1 ialah Oktober hingga November 2026 (tertakluk pindaan). Penerima yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026 wajib kemas kini.",
+   "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
+   "ideas": [
+    "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
+    "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
+    "Status STR Tak Lulus? Ini Cara Buat Rayuan",
+    "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
+    "Cara Semak Status STR 2027 Dalam 2 Minit"
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    },
+    {
+     "name": "RinggitPlus (EN)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
+    }
+   ],
+   "icon": "aid",
+   "app": {
+    "name": "Portal MySTR (HASiL)",
+    "url": "https://bantuantunai.hasil.gov.my"
+   }
+  },
+  {
+   "id": "sara-madani-2027",
+   "cat": "kewangan",
+   "status": "panas",
+   "score": 90,
+   "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
+   "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA.",
+   "angle": "Penjelasan siapa dapat berapa, bila masuk, dan tutorial semak baki SARA di MyKad. Jangan janji tarikh tepat kerana kerajaan belum umum.",
+   "ideas": [
+    "RM200 SARA 2027 Masuk MyKad: Siapa Layak & Bila?",
+    "SARA Kini Boleh Guna di Pasar Tani: Cara Guna",
+    "Penerima STR Dapat RM150 Sebulan? Ini Penjelasannya",
+    "Cara Semak Baki SARA Dalam MyKad",
+    "Barang Apa Boleh Beli Guna SARA? Senarai Penuh"
+   ],
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"
+    },
+    {
+     "name": "Bernama",
+     "url": "https://bernama.com/en/news.php?id=2621951"
+    }
+   ],
+   "icon": "card",
+   "app": {
+    "name": "Portal SARA",
+    "url": "https://www.sara.gov.my"
+   }
+  },
+  {
+   "id": "rakyat-digital-coursera-ai",
+   "cat": "tutorial",
+   "status": "naik",
+   "score": 86,
+   "title": "Coursera percuma 3 bulan + langganan AI percuma melalui Rakyat Digital",
+   "why": "Kementerian Digital beri 100,000 lesen Coursera percuma 3 bulan melalui portal Rakyat Digital (perlu MyDigital ID, siapa cepat dia dapat). Rakyat berumur 18 hingga 30 yang habiskan 5 modul (AI Safety, CyberSAFE, Generative AI, Agentic AI, Cloud) layak dapat akses aplikasi AI percuma 3 bulan.",
+   "angle": "Tutorial daftar dari kosong: MyDigital ID, portal Rakyat Digital, claim Coursera, dan siapkan modul AI. Tajuk 'percuma' biasanya tarik klik tinggi.",
+   "ideas": [
+    "Coursera PERCUMA 3 Bulan Guna MyDigital ID: Cara Claim",
+    "AI Percuma Untuk Umur 18–30: Tutorial Rakyat Digital",
+    "5 Kursus Coursera Paling Berbaloi Untuk Cari Duit Online",
+    "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
+    "Cara Daftar MyDigital ID Dari Kosong (2026)"
+   ],
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/10/12/over-12000-malaysians-have-claimed-free-coursera-courses-via-rakyat-digital-heres-how-to-get-yours/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/rakyat-digital-portal-offers-free-coursera-and-ai-access.html"
+    }
+   ],
+   "icon": "learn",
+   "app": {
+    "name": "Portal Rakyat Digital",
+    "url": "https://www.rakyatdigital.gov.my"
+   }
+  },
+  {
+   "id": "cukai-bajet-2027",
+   "cat": "kewangan",
+   "status": "naik",
+   "score": 85,
+   "title": "Bajet 2027: pelepasan cukai individu naik ke RM12,000",
+   "why": "Pelepasan cukai individu dinaikkan dari RM9,000 ke RM12,000 dan kadar cukai diturunkan bagi kumpulan pendapatan tertentu. Kerajaan anggar kira-kira 5 juta pembayar cukai dapat tambahan pendapatan boleh guna sehingga RM1,600.",
+   "angle": "Video 'kira dengan contoh': gaji RM4,000, RM6,000, RM8,000. Penonton suka tahu angka sendiri. Sebut ini cadangan Bajet dan berkuat kuasa untuk tahun taksiran berkaitan.",
+   "ideas": [
+    "Gaji RM5,000? Ini Anggaran Cukai Anda Jimat Tahun 2027",
+    "Bajet 2027: Perubahan Cukai Yang Terus Masuk Poket",
+    "Pelepasan Cukai RM12,000: Apa Maksudnya Untuk Anda?",
+    "Kira Cukai Sendiri Guna Telefon: Tutorial Mudah",
+    "Siapa Untung Paling Banyak Dari Bajet 2027?"
+   ],
+   "sources": [
+    {
+     "name": "theSun",
+     "url": "https://thesun.my/?p=686681"
+    },
+    {
+     "name": "NST",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/10/1551482/2027-budget-govt-raises-personal-tax-relief-rm12000-cuts-tax-rates-m40"
+    }
+   ],
+   "icon": "tax",
+   "app": {
+    "name": "MyTax (LHDN)",
+    "url": "https://mytax.hasil.gov.my"
+   }
+  },
+  {
+   "id": "scam-saman-pdrm-mybayar",
+   "cat": "kewangan",
+   "status": "panas",
+   "score": 82,
+   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
+   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP. Pada hari yang sama BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan.",
+   "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "ideas": [
+    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
+    "Cara Semak Link Palsu Dalam 10 Saat",
+    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
+    "Cara Semak Saman Sebenar (Bukan Dari SMS)",
+    "5 Scam Paling Banyak Hujung Tahun 2026"
+   ],
+   "sources": [
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    }
+   ],
+   "icon": "shield",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   }
+  },
+  {
+   "id": "tng-gofinance-saham",
+   "cat": "kewangan",
+   "status": "naik",
+   "score": 80,
+   "title": "Beli saham global terus dari TNG eWallet (GOfinance + Webull)",
+   "why": "Sejak 30 September, pengguna TNG eWallet boleh buka akaun Webull Malaysia melalui GOfinance dan isi dana terus dari baki e-wallet. Pengguna baru yang layak dapat saham pecahan Apple bernilai RM30. GOfinance kini ada lebih 5 juta pelabur dengan RM3.57 bilion pelaburan diproses.",
+   "angle": "Tutorial buka akaun dan beli saham pertama dalam app yang semua orang dah ada. Wajib sebut risiko pelaburan dan baca terma promosi.",
+   "ideas": [
+    "Cara Beli Saham Apple Guna Touch 'n Go (Tutorial Penuh)",
+    "GOfinance TNG: Pelaburan Mana Sesuai Untuk Pemula?",
+    "Dapat Saham Apple RM30 Percuma? Ini Syaratnya",
+    "Saya Labur RM100 Dalam Saham US Guna TNG",
+    "Risiko Beli Saham Dalam E-Wallet: Wajib Tahu"
+   ],
+   "sources": [
+    {
+     "name": "The Edge",
+     "url": "https://theedgemalaysia.com/node/819954"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=452454"
+    }
+   ],
+   "icon": "chart",
+   "app": {
+    "name": "TNG eWallet GOfinance",
+    "url": "https://www.tngdigital.com.my/gofinance/investment/"
+   }
+  },
+  {
+   "id": "mygov-ganti-mykad",
+   "cat": "tutorial",
+   "status": "naik",
+   "score": 78,
+   "title": "Ganti MyKad (hilang/rosak) terus dalam app MyGOV",
+   "why": "Rakyat Malaysia kini boleh mohon penggantian MyKad, termasuk kad rosak dan hilang, melalui app MyGOV. Perlu MyDigital ID untuk log masuk, kemudian pergi ke Services, Birth & Personal Identification.",
+   "angle": "Tutorial dari pasang MyGOV dan MyDigital ID hingga hantar permohonan. Boleh jadi siri 'urusan kerajaan guna telefon'.",
+   "ideas": [
+    "Cara Ganti IC Hilang Guna App MyGOV",
+    "Setup MyDigital ID + MyGOV Dari Kosong",
+    "5 Urusan Kerajaan Yang Kini Boleh Buat Dalam Telefon",
+    "IC Rosak? Tak Perlu Beratur Lagi di JPN",
+    "App MyGOV: Semua Fungsi Dalam 10 Minit"
+   ],
+   "sources": [
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
+    }
+   ],
+   "icon": "id",
+   "app": {
+    "name": "MyGOV Malaysia",
+    "url": "https://www.malaysia.gov.my"
+   }
+  },
+  {
+   "id": "tiktok-shop-app",
+   "cat": "tutorial",
+   "status": "naik",
+   "score": 72,
+   "title": "TikTok Shop kini ada app sendiri di Malaysia",
+   "why": "App TikTok Shop rasmi tersenarai di App Store Malaysia dan Google Play, dengan tarikh keluaran pertama 27 Oktober 2026, kira-kira dua minggu sebelum 11.11. TikTok belum buat pengumuman rasmi di Malaysia setakat 6 November.",
+   "angle": "Review dan tutorial: beza dengan app TikTok biasa, cara cari baucar, dan tips beli selamat untuk 12.12.",
+   "ideas": [
+    "App TikTok Shop Baru: Apa Beza Dengan TikTok Biasa?",
+    "Cara Cari Baucar Dalam App TikTok Shop",
+    "Shopee vs TikTok Shop Untuk 12.12: Mana Lagi Murah?",
+    "Cara Elak Barang Tiruan di TikTok Shop",
+    "Tips Belanja 12.12 Supaya Tak Overbudget"
+   ],
+   "sources": [
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
+    }
+   ],
+   "icon": "shop",
+   "app": {
+    "name": "App TikTok Shop (App Store / Google Play)"
+   }
+  },
+  {
+   "id": "gaji-minimum-2000",
+   "cat": "kewangan",
+   "status": "stabil",
+   "score": 70,
+   "title": "Gaji minimum naik ke RM2,000 mulai Jun 2027",
+   "why": "Bajet 2027 umum gaji minimum dinaikkan dari RM1,700 ke RM2,000 sebulan, berkuat kuasa Jun 2027.",
+   "angle": "Video bajet peribadi: cara rancang guna kenaikan gaji supaya tak hilang begitu sahaja. Topik ini akan naik semula menjelang Jun 2027.",
+   "ideas": [
+    "Gaji Minimum RM2,000: Bila Mula & Siapa Dapat?",
+    "Gaji Naik RM300: Cara Bajet Supaya Tak Habis Macam Tu Je",
+    "Bajet Gaji RM2,000 Sebulan: Cukup Ke?",
+    "Kaedah 50/30/20 Untuk Gaji RM2,000",
+    "Gaji Minimum Naik: Apa Kesan Pada Harga Barang?"
+   ],
+   "sources": [
+    {
+     "name": "NST",
+     "url": "https://www.nst.com.my/amp/business/economy/2026/10/1552298/2027-budget-more-cash-bigger-tax-breaks-other-great-goodies"
+    }
+   ],
+   "icon": "salary"
+  },
+  {
+   "id": "tuju-vs-waze",
+   "cat": "tutorial",
+   "status": "naik",
+   "score": 68,
+   "title": "App Tuju vs Waze selepas larangan untuk penjawat awam",
+   "why": "Kerajaan larang penjawat awam guna Waze (21 Okt). App tempatan Tuju kemudian matikan fungsi navigasi selepas kritikan ramai (22 Okt), dan pada 2 Nov dilaporkan sudah baiki navigasi di Android.",
+   "angle": "Uji pandu sebenar Tuju vs Waze dan tutorial setup Tuju. Topik ada unsur kontroversi, jadi kekalkan nada neutral dan berpandukan fakta.",
+   "ideas": [
+    "Saya Uji App Tuju vs Waze: Mana Lagi Tepat?",
+    "Penjawat Awam Tak Boleh Guna Waze: Ini Alternatifnya",
+    "Cara Setup App Tuju (Tutorial Penuh)",
+    "3 App Navigasi Selain Waze Yang Berbaloi",
+    "Tuju Dah Pulih? Review Jujur Selepas Kemas Kini"
+   ],
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=452454"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=447893"
+    }
+   ],
+   "icon": "map",
+   "app": {
+    "name": "App Tuju"
+   }
+  },
+  {
+   "id": "emas-4100",
+   "cat": "kewangan",
+   "status": "stabil",
+   "score": 65,
+   "title": "Harga emas sekitar US$4,100 seauns: masih berbaloi beli?",
+   "why": "Harga emas fizikal ditetapkan pada US$4,112.85 seauns di LBMA pada 5 November 2026. Emas kekal topik carian tinggi, dan pilihan beli kecil-kecilan seperti Pos ArRahnu Gold-i dari RM10 sedang dibincangkan.",
+   "angle": "Tutorial simpan emas dengan modal kecil dan cara banding harga jual-beli (spread). Elak ramal harga, fokus pada cara.",
+   "ideas": [
+    "Emas Dah US$4,100: Masih Berbaloi Beli?",
+    "Simpan Emas Dari RM10: Cara Guna Pos ArRahnu Gold-i",
+    "Emas Fizikal vs Emas Digital: Mana Lebih Selamat?",
+    "Cara Kira Untung Rugi Simpan Emas (Spread)",
+    "Gaji RM2,500: Patut Simpan Emas Berapa Sebulan?"
+   ],
+   "sources": [
+    {
+     "name": "Bernama",
+     "url": "https://bernama.com/bm/news.php?id=2631077"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=447370"
+    }
+   ],
+   "icon": "gold",
+   "app": {
+    "name": "Pos ArRahnu"
+   }
+  },
+  {
+   "id": "tng-bayar-shopee",
+   "cat": "kewangan",
+   "status": "stabil",
+   "score": 60,
+   "title": "Bayar Shopee guna TNG eWallet (DuitNow QR) menjelang 12.12",
+   "why": "Pengguna Shopee kini boleh bayar dengan TNG eWallet melalui DuitNow QR sejak 11 Ogos 2026, dengan tempoh promosi disenaraikan hingga 31 Disember 2026. Sesuai dengan musim jualan 12.12.",
+   "angle": "Video tips jimat 12.12: susun cashback e-wallet, baucar dan kaedah bayar.",
+   "ideas": [
+    "Cara Bayar Shopee Guna Touch 'n Go (DuitNow QR)",
+    "Tips Jimat 12.12: Susun Baucar + Cashback E-Wallet",
+    "E-Wallet Mana Paling Banyak Cashback Hujung Tahun?",
+    "Checkout Shopee Paling Murah: Langkah Demi Langkah",
+    "Jangan Bayar Harga Penuh Masa 12.12: 5 Tips"
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/online-shopping/you-can-now-pay-for-your-shopee-orders-with-tng-ewallet.html"
+    }
+   ],
+   "icon": "cart",
+   "app": {
+    "name": "TNG eWallet",
+    "url": "https://www.tngdigital.com.my"
+   }
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "Hujung Nov 2026",
+   "label": "Tempoh kemas kini STR 2027 Fasa 1 dijangka tamat",
+   "note": "Tertakluk pindaan LHDN. Bagus untuk video peringatan minggu depan."
+  },
+  {
+   "date": "12 Dis 2026",
+   "label": "Jualan 12.12",
+   "note": "Tips belanja, baucar dan cashback e-wallet."
+  },
+  {
+   "date": "31 Dis 2026",
+   "label": "Promosi TNG eWallet di Shopee tamat; SARA untuk Semua 2026 sah hingga tarikh ini",
+   "note": "Video 'guna baki sebelum luput'."
+  },
+  {
+   "date": "Mac 2027",
+   "label": "RM100 SARA MADANI pertama (sebelum Aidilfitri)",
+   "note": "Tarikh tepat belum diumumkan."
+  },
+  {
+   "date": "Jun 2027",
+   "label": "Gaji minimum RM2,000 berkuat kuasa"
+  },
+  {
+   "date": "Ogos 2027",
+   "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)"
+  }
+ ]
 }

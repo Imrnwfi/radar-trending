@@ -12,14 +12,14 @@
 /* Layout: one quiet column of title buttons; a button opens its details in place. */
 :root{
   --paper:#f5f5f3; --panel:#ffffff; --ink:#16181d; --muted:#6a707c; --line:#e3e4e8;
-  --accent:#2346c9; --hot:#d13b2f; --rise:#c07a00; --steady:#3a8072;
+  --accent:#2346c9; --tint-k:#e7f2ee; --ink-k:#2f6d61; --tint-t:#e8ecfb; --ink-t:#2346c9; --hot:#d13b2f; --rise:#c07a00; --steady:#3a8072;
   --display:"Bricolage Grotesque", system-ui, sans-serif;
   --body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root{ --paper:#0f1115; --panel:#171a20; --ink:#e9ebef; --muted:#9097a4; --line:#262a33;
-    --accent:#8aa0ff; --hot:#ff6f62; --rise:#f0b440; --steady:#6cc4b3; color-scheme:dark; }
+    --accent:#8aa0ff; --tint-k:#163029; --ink-k:#7fd0be; --tint-t:#1c2340; --ink-t:#9fb1ff; --hot:#ff6f62; --rise:#f0b440; --steady:#6cc4b3; color-scheme:dark; }
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -38,6 +38,10 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .item{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .row{width:100%;display:flex;align-items:center;gap:12px;text-align:left;background:transparent;border:0;padding:14px 14px}
 .row:hover{background:color-mix(in srgb, var(--line) 35%, transparent)}
+.ico{flex:0 0 auto;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:var(--tint-k);color:var(--ink-k);position:relative}
+.ico.tutorial{background:var(--tint-t);color:var(--ink-t)}
+.ico svg{width:22px;height:22px}
+.ico .dot{position:absolute;right:-3px;top:-3px;border:2px solid var(--panel);width:12px;height:12px}
 .dot{flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:var(--steady)}
 .dot.panas{background:var(--hot)} .dot.naik{background:var(--rise)}
 .t{flex:1;min-width:0;font-weight:700;line-height:1.3}
@@ -45,15 +49,21 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .s{flex:0 0 auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
 .chev{flex:0 0 auto;width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:0 4px 4px 0;transition:transform .15s}
 .row[aria-expanded="true"] .chev{transform:rotate(-135deg);margin:4px 4px 0 0}
-.detail{padding:0 14px 16px 35px;display:flex;flex-direction:column;gap:12px;font-size:15px}
+.detail{padding:2px 14px 16px 66px;display:flex;flex-direction:column;gap:12px;font-size:15px}
 .detail p{margin:0;max-width:62ch}
 .lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .tags{font-size:13px;color:var(--muted)}
 .tags b{color:var(--hot);font-weight:700}
-.ideas{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.ideas{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;counter-reset:n}
 .ideas li{display:flex;gap:8px;align-items:flex-start}
 .ideas span{flex:1}
 .mini{border:1px solid var(--line);background:transparent;border-radius:6px;padding:1px 8px;font-size:12px;color:var(--muted)}
+.app{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:4px 12px 4px 4px;font-size:14px;font-weight:700;text-decoration:none;color:var(--ink);align-self:flex-start;max-width:100%}
+.app .ico{width:26px;height:26px;border-radius:999px}
+.app .ico svg{width:15px;height:15px}
+.app small{color:var(--muted);font-weight:400}
+.ideas li{counter-increment:n}
+.ideas li::before{content:counter(n);flex:0 0 auto;width:20px;color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
 .src{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
 .acts{display:flex;flex-wrap:wrap;gap:8px}
 .btn{border:1px solid var(--line);background:transparent;border-radius:8px;padding:7px 12px;font-size:14px;font-weight:700}
@@ -70,6 +80,7 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 .legend span{display:inline-flex;align-items:center;gap:6px}
 footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 @media (prefers-reduced-motion: reduce){.chev{transition:none}}
+@media (max-width:420px){.detail{padding-left:14px}}
 </style>
 </head>
 <body>
@@ -109,6 +120,23 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   const $ = id => document.getElementById(id);
   const state = { data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
   const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
+  const P = {
+    passport:'<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 16h6"/>',
+    aid:'<path d="M3 11h4l3 2h4a2 2 0 0 1 0 4H9"/><path d="M14 15l5-2a2 2 0 0 1 2 3l-7 4H3"/><circle cx="15" cy="6" r="3"/>',
+    card:'<rect x="2.5" y="5" width="19" height="14" rx="2"/><rect x="5.5" y="9" width="5" height="4" rx="1"/><path d="M13 10h5M13 14h3"/>',
+    learn:'<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/>',
+    tax:'<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/>',
+    shield:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M12 8v5M12 16v.5"/>',
+    chart:'<path d="M3 20h18"/><path d="M5 16l5-5 4 3 6-7"/><path d="M15 7h5v5"/>',
+    id:'<rect x="2.5" y="5" width="19" height="14" rx="2"/><circle cx="8.5" cy="11" r="2.5"/><path d="M5 16c1-2 6-2 7 0M14 10h4M14 13h4"/>',
+    shop:'<path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
+    salary:'<rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9v.01M18 15v.01"/>',
+    map:'<path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/>',
+    gold:'<path d="M3 19l2.5-6h6l2.5 6z"/><path d="M10 13l2.5-6h6l2.5 6"/><path d="M14 19h7l-1.5-4"/>',
+    cart:'<path d="M3 4h2l2.5 11h11L21 7H6.5"/><circle cx="9" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/>',
+    link:'<path d="M10 14a4 4 0 0 0 6 0l3-3a4 4 0 0 0-6-6l-1 1"/><path d="M14 10a4 4 0 0 0-6 0l-3 3a4 4 0 0 0 6 6l1-1"/>'
+  };
+  function svg(k){ return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[k] || P.link}</svg>`; }
 
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
   function safeUrl(u){ try{ const x = new URL(String(u)); return /^https?:$/.test(x.protocol) ? x.href : null; }catch(e){ return null; } }
@@ -137,7 +165,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     const srcs = (Array.isArray(i.sources) ? i.sources : []).map(s => { const u = safeUrl(s.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name || "Sumber")}</a>` : ""; }).join("");
     return `<div class="item${done ? " done" : ""}">
       <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
-        <i class="dot ${st}" aria-label="${statusLabel[st]}"></i>
+        <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
         <span class="t">${esc(i.title)}</span>
         <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span>
         <i class="chev" aria-hidden="true"></i>
@@ -146,7 +174,8 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
         <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}</div>
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
-        ${ideas.length ? `<div><div class="lbl">Idea tajuk</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+        ${appHtml(i)}
+        ${ideas.length ? `<div><div class="lbl">Idea tajuk video (${ideas.length})</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
         <div class="acts">
           <button class="btn pri" data-prompt="${id}">Salin prompt skrip video</button>
@@ -156,6 +185,12 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     </div>`;
   }
 
+  function appHtml(i){
+    const a = i.app; if(!a || !a.name) return "";
+    const u = safeUrl(a.url); const cls = i.cat === "tutorial" ? "tutorial" : "";
+    const inner = `<span class="ico ${cls}">${svg(i.icon)}</span><span>${esc(a.name)}${u ? ` <small>${esc(new URL(u).hostname.replace(/^www\./,""))}</small>` : ""}</span>`;
+    return `<div><div class="lbl">App / laman berkaitan</div>${u ? `<a class="app" href="${esc(u)}" target="_blank" rel="noopener">${inner}</a>` : `<span class="app">${inner}</span>`}</div>`;
+  }
   function buildPrompt(item){
     const facts = { tajuk: item.title, kenapa_trending: item.why, sudut: item.angle, idea_tajuk: item.ideas, tarikh_akhir: item.deadline || null, sumber: (item.sources||[]).map(s => s.url) };
     return `Anda penulis skrip untuk channel YouTube Malaysia "Imran Wafi" (niche: tutorial app/website dan kewangan peribadi; gaya santai, bahasa Melayu harian).
