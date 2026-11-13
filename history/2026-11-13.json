@@ -435,5 +435,411 @@
    "topic": "sara-madani-2027",
    "label": "RM100 SARA MADANI kedua (Hari Kebangsaan ke-70)"
   }
+ ],
+ "apps": [
+  {
+   "id": "mae",
+   "seg": "bank",
+   "name": "MAE by Maybank",
+   "what": "App perbankan dan e-wallet Maybank untuk pindahan, bayar QR dan simpanan.",
+   "why": "Maybank kata MAE ada 10.7 juta pengguna dan memegang 48% volum transaksi perbankan mudah alih di Malaysia. Pada 28 Okt 2026, pengguna MAE boleh bayar guna QR di lapan negara luar.",
+   "ideas": [
+    "Cara Bayar QR Guna MAE di Luar Negara",
+    "10 Fungsi Tersembunyi MAE Yang Ramai Tak Tahu",
+    "Buka Akaun ASNB Dalam MAE: Tutorial Penuh"
+   ],
+   "url": "https://www.maybank2u.com.my",
+   "sources": [
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/54827/digital-banking-news-malaysia/maybank-rm4-trillion-digital-transactions/"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/58467/digital-banking-news-malaysia/gxbank-users/"
+    }
+   ]
+  },
+  {
+   "id": "ryt-bank",
+   "seg": "bank",
+   "name": "Ryt Bank",
+   "what": "Bank digital dengan pembantu AI (Ryt AI) dalam app.",
+   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan pernah jadi app paling banyak dimuat turun di Malaysia pada Feb 2026. Sejak Okt 2026 ia sokong Apple Pay.",
+   "ideas": [
+    "Ryt Bank Review Jujur Selepas Setahun",
+    "Cara Buka Akaun Ryt Bank Dalam 5 Minit",
+    "Ryt Bank vs GXBank: Mana Lebih Berbaloi?"
+   ],
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/08/20/ryt-bank-malaysia-largest-digital-bank-1-5-mil-customers/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/bank-news/ryt-bank-becomes-malaysias-most-downloaded-app.html"
+    }
+   ]
+  },
+  {
+   "id": "gxbank",
+   "seg": "bank",
+   "name": "GXBank",
+   "what": "Bank digital dengan Saving Pockets dan pembiayaan FlexiCredit.",
+   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026. Penggunanya cipta 1.3 juta Savings dan Bonus Pockets pada 2025, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet.",
+   "ideas": [
+    "Cara Guna Saving Pockets GXBank Untuk Simpan Duit",
+    "GXBank FlexiCredit: Berbaloi Atau Perangkap Hutang?",
+    "Bank Digital Selamat Ke? Ini Jawapannya"
+   ],
+   "sources": [
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/58467/digital-banking-news-malaysia/gxbank-users/"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=447370"
+    }
+   ]
+  },
+  {
+   "id": "mydigital-id",
+   "seg": "kerajaan",
+   "name": "MyDigital ID",
+   "what": "Identiti digital rasmi untuk log masuk ke app dan portal kerajaan.",
+   "why": "Setakat 30 Jun 2026, 12 juta rakyat Malaysia sudah mendaftar dan 114 perkhidmatan kerajaan disepadukan, termasuk MyJPJ, MyPTPTN dan MyBayar PDRM.",
+   "ideas": [
+    "Cara Daftar MyDigital ID Dari Kosong",
+    "MyDigital ID Tamat Tempoh? Cara Renew",
+    "Semua App Kerajaan Yang Guna MyDigital ID"
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/07/08/dpm-zahid-12-million-malaysians-have-signed-up-for-mydigital-id-as-of-june-30-with-114-govt-services-integrated/226817"
+    },
+    {
+     "name": "The Edge",
+     "url": "https://theedgemalaysia.com/node/809844"
+    }
+   ]
+  },
+  {
+   "id": "mygov",
+   "seg": "kerajaan",
+   "name": "MyGOV Malaysia",
+   "what": "Satu app untuk banyak urusan kerajaan, log masuk guna MyDigital ID.",
+   "why": "MyGOV mencatat lebih 2.2 juta pengguna (Jun 2026) dan menggabungkan 51 perkhidmatan dari 19 agensi. Ia kini ada AI agen (beta) dan boleh mohon ganti MyKad terus dalam app.",
+   "ideas": [
+    "App MyGOV: Semua Fungsi Dalam 10 Minit",
+    "Cara Ganti IC Hilang Guna MyGOV",
+    "Saya Cuba AI Dalam App MyGOV"
+   ],
+   "url": "https://www.mygov.gov.my",
+   "sources": [
+    {
+     "name": "Berita RTM",
+     "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/mygov-catat-2-2-juta-pengguna-bakal-tawar-strim-piala-dunia-2026/"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
+    }
+   ]
+  },
+  {
+   "id": "mystr",
+   "seg": "kerajaan",
+   "name": "MySTR (Portal STR)",
+   "what": "Portal rasmi HASiL untuk mohon, kemas kini dan semak status STR.",
+   "why": "Permohonan dan kemas kini STR 2027 dibuka online sejak 15 Okt 2026, dan tempoh kemas kini untuk Fasa 1 ialah hingga November 2026.",
+   "ideas": [
+    "Cara Kemas Kini STR 2027 Langkah Demi Langkah",
+    "Semak Status STR Dalam 2 Minit",
+    "Kenapa STR Anda Tak Lulus? 5 Sebab Biasa"
+   ],
+   "url": "https://bantuantunai.hasil.gov.my",
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    }
+   ]
+  },
+  {
+   "id": "tng",
+   "seg": "ewallet",
+   "name": "TNG eWallet",
+   "what": "E-wallet utama Malaysia untuk tol, parkir, bayar QR, bil dan pelaburan GOfinance.",
+   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal yang paling dominan. TNG Digital melaporkan lebih 27 juta pengguna disahkan.",
+   "ideas": [
+    "Fungsi Baru TNG eWallet Yang Ramai Tak Perasan",
+    "Cara Dapat Cashback Maksimum Guna TNG",
+    "GOfinance TNG: Labur, Pinjam, Insurans Dalam Satu App"
+   ],
+   "url": "https://www.tngdigital.com.my",
+   "sources": [
+    {
+     "name": "Ipsos",
+     "url": "https://www.ipsos.com/en-my/node/1081286"
+    },
+    {
+     "name": "TechNode Global",
+     "url": "https://technode.global/2026/08/26/tng-digital-gxbank-flexicredit-cashloan/"
+    }
+   ]
+  },
+  {
+   "id": "shopeepay",
+   "seg": "ewallet",
+   "name": "ShopeePay",
+   "what": "E-wallet dalam app Shopee, sesuai untuk susun baucar dan Shopee Coins.",
+   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000. Ia juga pilihan utama untuk susun baucar semasa jualan 11.11 dan 12.12.",
+   "ideas": [
+    "Cara Susun Baucar ShopeePay Untuk 12.12",
+    "ShopeePay Money+ Had RM30,000: Apa Maksudnya?",
+    "ShopeePay vs TNG: Mana Lebih Jimat Untuk Shopping?"
+   ],
+   "sources": [
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/46874/e-wallets-malaysia/shopeepay-ekyc/"
+    },
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/ewallet-guide"
+    }
+   ]
+  },
+  {
+   "id": "boost",
+   "seg": "ewallet",
+   "name": "Boost",
+   "what": "E-wallet milik Axiata yang terkenal dengan cashback dan bayar bil.",
+   "why": "Boost dikenali sebagai e-wallet pilihan pemburu cashback dan bayar bil. Pada Sept 2026, Boost bekerjasama dengan Tencent Cloud untuk ciri AI dan rancangan super app.",
+   "ideas": [
+    "Boost vs TNG: Mana Lebih Banyak Cashback?",
+    "Cara Bayar Bil Guna Boost Supaya Dapat Ganjaran",
+    "Perlu Ke Ada Dua E-Wallet? Ini Jawapannya"
+   ],
+   "sources": [
+    {
+     "name": "ACE Money Transfer",
+     "url": "https://acemoneytransfer.com/blog/best-e-wallets-malaysia"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/44893/e-wallets-malaysia/tng-ewallets-new-gofinance-hub-offers-one-stop-shop-for-financial-services/"
+    }
+   ]
+  },
+  {
+   "id": "shopee",
+   "seg": "shopping",
+   "name": "Shopee",
+   "what": "Platform e-dagang terbesar di Malaysia, siap dengan ShopeePay, SPayLater dan ShopeeFood.",
+   "why": "Kajian Vodus 2026 dapati 83% responden pernah membeli di Shopee, naik dari 74% pada 2025.",
+   "ideas": [
+    "Cara Checkout Shopee Paling Murah (12.12)",
+    "Shopee Mall vs Kedai Biasa: Elak Barang Tiruan",
+    "10 Trik Shopee Coins Yang Ramai Tak Tahu"
+   ],
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    }
+   ]
+  },
+  {
+   "id": "tiktok-shop",
+   "seg": "shopping",
+   "name": "TikTok Shop",
+   "what": "Belanja terus dari video dan live TikTok, kini dengan app sendiri.",
+   "why": "Penggunaan TikTok Shop naik dari 53% ke 64% responden (Vodus 2026), dan penggunanya membeli purata 28 kali setahun, sedikit lebih kerap dari Shopee. App TikTok Shop sendiri keluar pada 27 Okt 2026.",
+   "ideas": [
+    "Kenapa Ramai Beralih ke TikTok Shop?",
+    "Cara Beli Selamat Masa Live TikTok Shop",
+    "Shopee vs TikTok Shop: Saya Banding Harga Sebenar"
+   ],
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    },
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
+    }
+   ]
+  },
+  {
+   "id": "lazada",
+   "seg": "shopping",
+   "name": "Lazada",
+   "what": "Platform e-dagang dengan LazMall untuk barangan jenama.",
+   "why": "Lazada kekal platform ketiga terbesar dengan 42% responden pernah membeli (naik dari 39%). Ia popular untuk barangan berjenama melalui LazMall.",
+   "ideas": [
+    "Bila Patut Beli di Lazada, Bukan Shopee?",
+    "LazMall: Cara Pastikan Barang Original",
+    "Tips Baucar Lazada Untuk Jualan Hujung Tahun"
+   ],
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    }
+   ]
+  },
+  {
+   "id": "grabfood",
+   "seg": "makanan",
+   "name": "GrabFood (app Grab)",
+   "what": "Penghantaran makanan dalam app Grab, dengan langganan GrabUnlimited.",
+   "why": "GrabFood dianggap peneraju pasaran penghantaran makanan di Malaysia dengan liputan paling luas, termasuk Malaysia Timur, dan ada penapis halal yang jelas.",
+   "ideas": [
+    "Cara Jimat Order GrabFood Setiap Bulan",
+    "GrabUnlimited Berbaloi Ke? Saya Kira",
+    "GrabFood vs foodpanda vs ShopeeFood: Mana Murah?"
+   ],
+   "sources": [
+    {
+     "name": "Klikit",
+     "url": "https://klikit.io/en/resources/comparisons/delivery-platforms-comparison-malaysia"
+    },
+    {
+     "name": "Eats365",
+     "url": "https://www.eats365pos.com/my/blog/post/top-food-delivery-malaysia"
+    }
+   ]
+  },
+  {
+   "id": "foodpanda",
+   "seg": "makanan",
+   "name": "foodpanda",
+   "what": "Penghantaran makanan dan barang runcit melalui pandamart.",
+   "why": "foodpanda kekal pilihan kedua dengan pelanggan setia langganan pandapro, dan pandamart untuk barang dapur.",
+   "ideas": [
+    "pandapro Berbaloi Ke Untuk Keluarga?",
+    "Cara Beli Barang Dapur Guna pandamart",
+    "Trik Baucar foodpanda Yang Jarang Orang Guna"
+   ],
+   "sources": [
+    {
+     "name": "Klikit",
+     "url": "https://klikit.io/en/resources/comparisons/delivery-platforms-comparison-malaysia"
+    }
+   ]
+  },
+  {
+   "id": "zus",
+   "seg": "makanan",
+   "name": "ZUS Coffee",
+   "what": "App rangkaian kopi terbesar Malaysia untuk pickup, delivery dan ganjaran ahli.",
+   "why": "ZUS kini rangkaian kopi terbesar di Malaysia dengan kira-kira 800 cawangan, dan app Android-nya melepasi 4.7 juta pemasangan. Promosi ZUSday Buy 3 Free 1 setiap Selasa hanya melalui app.",
+   "ideas": [
+    "Cara Minum ZUS Paling Murah (Promo Selasa)",
+    "Semua Kod Promo ZUS Yang Masih Boleh Guna",
+    "App Kopi Mana Paling Jimat? Saya Banding"
+   ],
+   "sources": [
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/review/zus-coffee"
+    },
+    {
+     "name": "AppGoblin",
+     "url": "https://appgoblin.info/apps/com.coffee.love_coffee"
+    }
+   ]
+  },
+  {
+   "id": "myasnb",
+   "seg": "syariah",
+   "name": "myASNB",
+   "what": "App rasmi ASNB untuk melabur dalam ASB, ASM dan dana lain dari kira-kira RM10.",
+   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar. Kempen Unlock ASM 3 berjalan hingga 31 Dis. Semak status Syariah setiap dana di laman ASNB.",
+   "ideas": [
+    "Cara Semak Dividen ASB Dalam App myASNB",
+    "myASNB Satu Peranti Sahaja: Apa Perlu Buat?",
+    "Cara Pilih Zakat Khultah Untuk ASB"
+   ],
+   "url": "https://www.myasnb.com.my",
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/akaun-asnb-kini-boleh-dibuka-dalam-mae.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/index.php/articles/business/127771/asnb-asm-3-payout-hits-7-year-high-at-5-sen-with-rm1.01b-to-unit-holders"
+    }
+   ]
+  },
+  {
+   "id": "thijari",
+   "seg": "syariah",
+   "name": "THiJARI (Tabung Haji)",
+   "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Ramai pengguna mengadu masalah log masuk, jadi tutorial penyelesaian amat dicari.",
+   "ideas": [
+    "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
+    "THiJARI Asyik Log Keluar? Cara Atasi",
+    "Simpan Untuk Haji: Berapa Perlu Sebulan?"
+   ],
+   "sources": [
+    {
+     "name": "MWM",
+     "url": "https://mwm.ai/ja/apps/tabung-haji/1497670808"
+    }
+   ]
+  },
+  {
+   "id": "wahed",
+   "seg": "syariah",
+   "name": "Wahed",
+   "what": "Pengurus pelaburan digital 100% patuh Syariah, berlesen Suruhanjaya Sekuriti.",
+   "why": "Setiap pegangan ditapis oleh lembaga penasihat Syariah sendiri dan pendapatan tidak patuh dibersihkan. Tetapi ia bukan bank, jadi tiada perlindungan PIDM dan nilai pelaburan boleh turun.",
+   "ideas": [
+    "Labur Patuh Syariah Dengan Modal Kecil: Wahed",
+    "Wahed vs ASNB: Mana Sesuai Untuk Anda?",
+    "Patuh Syariah Tak Bermaksud Pasti Untung"
+   ],
+   "url": "https://www.wahed.com/my",
+   "sources": [
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/ms/review/wahed"
+    },
+    {
+     "name": "Wahed",
+     "url": "https://www.wahed.com/my/legal"
+    }
+   ]
+  },
+  {
+   "id": "versa",
+   "seg": "syariah",
+   "name": "Versa (Cash-i)",
+   "what": "App simpan dan labur dengan pilihan Cash-i patuh Syariah yang mudah ditunaikan.",
+   "why": "Versa berlesen Suruhanjaya Sekuriti dan berkhidmat kepada hampir 300,000 pengguna pada 2026. Versa Cash-i ialah versi patuh Syariah untuk wang kecemasan.",
+   "ideas": [
+    "Simpan Duit Kecemasan Patuh Syariah Guna Versa",
+    "Versa Cash-i vs Simpanan Bank Biasa",
+    "Cara Mula Guna Versa Dari RM100"
+   ],
+   "sources": [
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/ms/review/versa"
+    },
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/review/versa"
+    }
+   ]
+  }
  ]
 }

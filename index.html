@@ -12,14 +12,14 @@
 /* Layout: one quiet column of title buttons; a button opens its details in place. */
 :root{
   --paper:#f5f5f3; --panel:#ffffff; --ink:#16181d; --muted:#6a707c; --line:#e3e4e8;
-  --accent:#2346c9; --tint-k:#e7f2ee; --ink-k:#2f6d61; --tint-t:#e8ecfb; --ink-t:#2346c9; --hot:#d13b2f; --rise:#c07a00; --steady:#3a8072;
+  --accent:#2346c9; --tint-k:#e7f2ee; --ink-k:#2f6d61; --tint-t:#e8ecfb; --ink-t:#2346c9; --tint-a:#f6ece0; --ink-a:#9a5a12; --hot:#d13b2f; --rise:#c07a00; --steady:#3a8072;
   --display:"Bricolage Grotesque", system-ui, sans-serif;
   --body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root{ --paper:#0f1115; --panel:#171a20; --ink:#e9ebef; --muted:#9097a4; --line:#262a33;
-    --accent:#8aa0ff; --tint-k:#163029; --ink-k:#7fd0be; --tint-t:#1c2340; --ink-t:#9fb1ff; --hot:#ff6f62; --rise:#f0b440; --steady:#6cc4b3; color-scheme:dark; }
+    --accent:#8aa0ff; --tint-k:#163029; --ink-k:#7fd0be; --tint-t:#1c2340; --ink-t:#9fb1ff; --tint-a:#34261a; --ink-a:#f1b877; --hot:#ff6f62; --rise:#f0b440; --steady:#6cc4b3; color-scheme:dark; }
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -72,6 +72,13 @@ h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;mar
 .btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
 @media (prefers-color-scheme: dark){ .btn.pri{color:#0f1115} }
 .empty{color:var(--muted);padding:16px 0}
+.segs{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.seg{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 12px;font-size:14px}
+.seg svg{width:16px;height:16px}
+.seg[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.ico.app{background:var(--tint-a);color:var(--ink-a)}
+.sub{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px}
+.note{font-size:13px;color:var(--muted)}
 .more{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
 .banner{font-size:14px;color:var(--rise)}
@@ -111,8 +118,10 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     <button class="tab" aria-pressed="false" data-f="kewangan">Kewangan</button>
     <button class="tab" aria-pressed="false" data-f="tutorial">Tutorial</button>
     <button class="tab" aria-pressed="false" data-f="tarikh">Tarikh penting</button>
+    <button class="tab" aria-pressed="false" data-f="app">App popular</button>
   </div>
 
+  <div class="segs" id="segs" hidden role="group" aria-label="Kategori app"></div>
   <div class="banner" id="banner"></div>
   <div class="list" id="list"></div>
 
@@ -134,7 +143,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
+  const state = { seg:"bank", data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
   const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
   const RANK = { panas:0, naik:1, stabil:2 };
   const FIRE = '<svg class="fire" viewBox="0 0 24 24" aria-label="Topik hangat" role="img"><path fill="currentColor" d="M12.5 2c.6 3.2-1.2 5-2.8 6.8C8.2 10.4 7 12 7 14.5 7 18 9.3 21 12.5 21S18 18.4 18 15c0-2.6-1.3-4.2-2.2-5.4-.3 1.5-1 2.6-2 3 .6-3.4-.2-7.4-1.3-10.6z"/><path fill="var(--panel)" opacity=".55" d="M12.6 12.5c-.9 1.3-2.1 2.3-2.1 4.1 0 1.6 1 2.9 2.2 2.9 1.3 0 2.3-1.1 2.3-2.7 0-1.5-.8-2.4-1.5-3.2-.2.7-.5 1.1-.9 1.3.2-.9.2-1.6 0-2.4z"/></svg>';
@@ -152,6 +161,11 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     map:'<path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/>',
     gold:'<path d="M3 19l2.5-6h6l2.5 6z"/><path d="M10 13l2.5-6h6l2.5 6"/><path d="M14 19h7l-1.5-4"/>',
     cart:'<path d="M3 4h2l2.5 11h11L21 7H6.5"/><circle cx="9" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/>',
+    bank:'<path d="M3 10l9-6 9 6"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
+    gov:'<path d="M12 3v3"/><path d="M7 11a5 5 0 0 1 10 0"/><path d="M4 11h16M6 11v7M10 11v7M14 11v7M18 11v7M3 20h18"/>',
+    wallet:'<path d="M4 7h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1z"/><path d="M4 7l11-3v3"/><path d="M15.5 13.5h2"/>',
+    food:'<path d="M6 8h11l-1.2 11.2a1 1 0 0 1-1 .8H8.2a1 1 0 0 1-1-.8z"/><path d="M5 8h13M10 8l1-4h4"/>',
+    syariah:'<path d="M15.5 4.5A8 8 0 1 0 19.5 16 6.5 6.5 0 0 1 15.5 4.5z"/><path d="M17.5 7.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z"/>',
     link:'<path d="M10 14a4 4 0 0 0 6 0l3-3a4 4 0 0 0-6-6l-1 1"/><path d="M14 10a4 4 0 0 0-6 0l-3 3a4 4 0 0 0 6 6l1-1"/>'
   };
   function svg(k){ return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[k] || P.link}</svg>`; }
@@ -163,8 +177,14 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   function render(){
     const d = state.data; if(!d) return;
     $("meta").textContent = (d.updated_label ? "Dikemas kini " + d.updated_label : "") + " · tekan tajuk untuk butiran";
-    const isCal = state.filter === "tarikh";
-    $("legend").hidden = isCal;
+    const isCal = state.filter === "tarikh", isApp = state.filter === "app";
+    $("legend").hidden = isCal || isApp;
+    $("segs").hidden = !isApp;
+    if(isApp){
+      $("segs").innerHTML = SEGS.map(s => `<button class="seg" data-seg="${s[0]}" aria-pressed="${s[0] === state.seg}">${svg(s[2])}${esc(s[1])}</button>`).join("");
+      $("list").innerHTML = appsHtml();
+      return;
+    }
     if(isCal){
       const up = Array.isArray(d.upcoming) ? d.upcoming : [];
       $("list").innerHTML = up.length ? timelineHtml(up) : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`;
@@ -245,6 +265,31 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
         ${u.topic && topicIds.has(u.topic) ? `<button class="go" data-goto="${esc(u.topic)}">Lihat topik &amp; idea tajuk →</button>` : ""}
       </li>`; }).join("")}</ul></section>`).join("")}</div>`;
   }
+  const SEGS = [["bank","Bank","bank"],["kerajaan","Kerajaan","gov"],["ewallet","E-wallet","wallet"],["shopping","Shopping","shop"],["makanan","Makanan & minuman","food"],["syariah","Simpanan & pelaburan Syariah","syariah"]];
+  function appsHtml(){
+    const apps = (state.data && Array.isArray(state.data.apps)) ? state.data.apps.filter(a => a.seg === state.seg) : [];
+    const segIcon = (SEGS.find(s => s[0] === state.seg) || [])[2];
+    if(!apps.length) return `<div class="empty">Tiada app untuk kategori ini lagi.</div>`;
+    return apps.map(a => {
+      const key = "app-" + a.id, id = esc(key), open = !!state.open[key];
+      const u = safeUrl(a.url);
+      const srcs = (Array.isArray(a.sources) ? a.sources : []).map(s => { const x = safeUrl(s.url); return x ? `<a href="${esc(x)}" target="_blank" rel="noopener">${esc(s.name || "Sumber")}</a>` : ""; }).join("");
+      const ideas = Array.isArray(a.ideas) ? a.ideas : [];
+      return `<div class="item">
+        <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
+          <span class="ico app">${svg(segIcon)}</span>
+          <span class="t">${esc(a.name)}<span class="sub">${esc(a.what)}</span></span>
+          <i class="chev" aria-hidden="true"></i>
+        </button>
+        <div class="detail" id="d-${id}"${open ? "" : " hidden"}>
+          <div><div class="lbl">Kenapa ramai guna</div><p>${esc(a.why)}</p></div>
+          ${u ? `<div><div class="lbl">Laman rasmi</div><a class="app" href="${esc(u)}" target="_blank" rel="noopener"><span class="ico app">${svg(segIcon)}</span><span>${esc(new URL(u).hostname.replace(/^www\./,""))}</span></a></div>` : ""}
+          ${ideas.length ? `<div><div class="lbl">Idea tajuk video (${ideas.length})</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+          ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
+        </div>
+      </div>`;
+    }).join("") + `<div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
+  }
   function appHtml(i){
     const a = i.app; if(!a || !a.name) return "";
     const u = safeUrl(a.url); const cls = i.cat === "tutorial" ? "tutorial" : "";
@@ -282,6 +327,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(b.dataset.toggle){ const id = b.dataset.toggle; state.open[id] = !state.open[id];
       b.setAttribute("aria-expanded", String(state.open[id])); const d = $("d-" + id); if(d) d.hidden = !state.open[id]; }
     else if(b.dataset.copy != null){ copy(b.dataset.copy, b); }
+    else if(b.dataset.seg){ state.seg = b.dataset.seg; render(); }
     else if(b.dataset.goto){ const id = b.dataset.goto; state.filter = "semua"; state.open[id] = true;
       document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", String(t.dataset.f === "semua"))); render();
       const el = $("d-" + id); if(el) el.parentElement.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
