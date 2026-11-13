@@ -7,306 +7,154 @@
 <meta name="description" content="Topik trending tutorial app dan kewangan untuk channel Imran Wafi">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 <style>
-/* Layout: one narrow newsroom column — summary up top, ranked trend cards with a status stripe, then the calendar. */
+/* Layout: one quiet column of title buttons; a button opens its details in place. */
 :root{
-  --paper:#f3f4f1; --panel:#ffffff; --ink:#151821; --muted:#596072; --line:#dcdfe5;
-  --accent:#2346c9; --accent-ink:#ffffff; --accent-soft:#e6ebfb;
-  --hot:#cf3a2e; --rise:#b97300; --steady:#357c70;
-  --hot-soft:#fbe9e7; --rise-soft:#fbf0dc; --steady-soft:#e3f1ee;
-  --display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --paper:#f5f5f3; --panel:#ffffff; --ink:#16181d; --muted:#6a707c; --line:#e3e4e8;
+  --accent:#2346c9; --hot:#d13b2f; --rise:#c07a00; --steady:#3a8072;
+  --display:"Bricolage Grotesque", system-ui, sans-serif;
   --body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --r:12px;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --paper:#0e1117; --panel:#161a22; --ink:#e8ebf1; --muted:#9aa1b1; --line:#283040;
-    --accent:#8299ff; --accent-ink:#0e1117; --accent-soft:#1d2440;
-    --hot:#ff6d60; --rise:#f0b43c; --steady:#6cc4b3;
-    --hot-soft:#3a1d1b; --rise-soft:#33280f; --steady-soft:#14302b;
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --paper:#0e1117; --panel:#161a22; --ink:#e8ebf1; --muted:#9aa1b1; --line:#283040;
-  --accent:#8299ff; --accent-ink:#0e1117; --accent-soft:#1d2440;
-  --hot:#ff6d60; --rise:#f0b43c; --steady:#6cc4b3;
-  --hot-soft:#3a1d1b; --rise-soft:#33280f; --steady-soft:#14302b;
-  color-scheme:dark;
+  :root{ --paper:#0f1115; --panel:#171a20; --ink:#e9ebef; --muted:#9097a4; --line:#262a33;
+    --accent:#8aa0ff; --hot:#ff6f62; --rise:#f0b440; --steady:#6cc4b3; color-scheme:dark; }
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{margin:0}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
 a{color:var(--accent)}
-button{font:inherit;cursor:pointer}
-:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.wrap{max-width:720px;margin:0 auto;padding:20px 16px 56px;display:flex;flex-direction:column;gap:20px}
-header{display:flex;flex-direction:column;gap:6px}
-.kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
-h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,8vw,44px);line-height:1.02;margin:0;text-wrap:balance}
-.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:var(--muted);font-size:14px}
-.pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--ink)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
-.dot.ok{background:var(--steady)} .dot.warn{background:var(--rise)} .dot.bad{background:var(--hot)}
-.pick{background:var(--ink);color:var(--paper);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:6px}
-.pick .lbl{font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.75;font-weight:700}
-.pick h2{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.15;margin:0;text-wrap:balance}
-.pick p{margin:0;opacity:.85;font-size:15px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px}
-.stat b{display:block;font-family:var(--display);font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
-.stat span{font-size:13px;color:var(--muted)}
-.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
-.chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
-.toggle{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
-.hist{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--muted)}
-select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
-.banner{background:var(--rise-soft);border:1px solid var(--rise);border-radius:var(--r);padding:10px 12px;font-size:14px}
-.list{display:flex;flex-direction:column;gap:12px}
-.card{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--steady);border-radius:var(--r);padding:14px 14px 12px;display:flex;flex-direction:column;gap:10px}
-.card.panas{border-left-color:var(--hot)} .card.naik{border-left-color:var(--rise)}
-.card.done{opacity:.6}
-.top{display:flex;gap:12px;align-items:flex-start}
-.score{flex:0 0 auto;width:52px;text-align:center}
-.score b{display:block;font-family:var(--display);font-weight:800;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
-.bar{height:5px;border-radius:3px;background:var(--line);margin-top:5px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--ink)}
-.score small{font-size:11px;color:var(--muted)}
-.head{flex:1;min-width:0;display:flex;flex-direction:column;gap:5px}
-.tags{display:flex;gap:6px;flex-wrap:wrap}
-.tag{font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;background:var(--accent-soft);color:var(--ink)}
-.tag.panas{background:var(--hot-soft);color:var(--hot)} .tag.naik{background:var(--rise-soft);color:var(--rise)} .tag.stabil{background:var(--steady-soft);color:var(--steady)}
-.tag.deadline{background:transparent;border:1px solid var(--hot);color:var(--hot)}
-.card h3{font-family:var(--display);font-weight:800;font-size:19px;line-height:1.2;margin:0;text-wrap:balance}
-.card p{margin:0;max-width:65ch}
-.sub{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:640px;margin:0 auto;padding:28px 16px 64px;display:flex;flex-direction:column;gap:18px}
+h1{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;margin:0}
+.meta{color:var(--muted);font-size:14px;margin-top:4px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{border:0;background:transparent;color:var(--muted);padding:6px 12px;border-radius:999px;font-size:14px}
+.tab[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:700}
+.list{display:flex;flex-direction:column;gap:8px}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{width:100%;display:flex;align-items:center;gap:12px;text-align:left;background:transparent;border:0;padding:14px 14px}
+.row:hover{background:color-mix(in srgb, var(--line) 35%, transparent)}
+.dot{flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:var(--steady)}
+.dot.panas{background:var(--hot)} .dot.naik{background:var(--rise)}
+.t{flex:1;min-width:0;font-weight:700;line-height:1.3}
+.item.done .t{color:var(--muted);text-decoration:line-through}
+.s{flex:0 0 auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
+.chev{flex:0 0 auto;width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:0 4px 4px 0;transition:transform .15s}
+.row[aria-expanded="true"] .chev{transform:rotate(-135deg);margin:4px 4px 0 0}
+.detail{padding:0 14px 16px 35px;display:flex;flex-direction:column;gap:12px;font-size:15px}
+.detail p{margin:0;max-width:62ch}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.tags{font-size:13px;color:var(--muted)}
+.tags b{color:var(--hot);font-weight:700}
 .ideas{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
-.ideas li{display:flex;gap:8px;align-items:flex-start;background:var(--paper);border-radius:8px;padding:8px 10px}
-.ideas li span{flex:1}
-.mini{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:2px 8px;font-size:12px;flex:0 0 auto}
+.ideas li{display:flex;gap:8px;align-items:flex-start}
+.ideas span{flex:1}
+.mini{border:1px solid var(--line);background:transparent;border-radius:6px;padding:1px 8px;font-size:12px;color:var(--muted)}
 .src{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
-.actions{display:flex;flex-wrap:wrap;gap:8px}
-.btn{border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);border-radius:8px;padding:8px 14px;font-weight:700;font-size:14px}
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
-.btn[disabled]{opacity:.5;cursor:default}
-.gen{border:1px dashed var(--accent);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px;background:var(--accent-soft)}
-.gen label{font-size:13px;color:var(--muted)}
-.gen input{font:inherit;font-size:14px;width:100%;padding:7px 9px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
-.out{font-size:15px;max-width:65ch}
-.out h4{font-family:var(--display);font-size:16px;margin:12px 0 4px}
-.out ul{margin:0;padding-left:20px}
-.out p{margin:4px 0}
-.note{font-size:13px;color:var(--muted)}
-.empty{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px;color:var(--muted)}
-section h2{font-family:var(--display);font-weight:800;font-size:22px;margin:0 0 10px}
-.cal{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0;border-left:2px solid var(--line);margin-left:6px}
-.cal li{position:relative;padding:0 0 14px 16px}
-.cal li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--panel);border:2px solid var(--accent)}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.btn{border:1px solid var(--line);background:transparent;border-radius:8px;padding:7px 12px;font-size:14px;font-weight:700}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){ .btn.pri{color:#0f1115} }
+.empty{color:var(--muted);padding:16px 0}
+.more{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
+.banner{font-size:14px;color:var(--rise)}
+.cal{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
 .cal .d{font-size:13px;font-weight:700;color:var(--accent)}
-.cal .t{font-weight:700}
 .cal .n{font-size:14px;color:var(--muted)}
-footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:6px}
-.skel{height:120px;border-radius:var(--r);background:linear-gradient(90deg,var(--panel),var(--line),var(--panel));background-size:200% 100%;animation:sh 1.4s infinite}
-@keyframes sh{to{background-position:-200% 0}}
-@media (prefers-reduced-motion: reduce){.skel{animation:none}}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+@media (prefers-reduced-motion: reduce){.chev{transition:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="kicker">Untuk channel Imran Wafi · Tutorial &amp; Kewangan</div>
     <h1>Radar Trending</h1>
-    <div class="meta">
-      <span class="pill"><span class="dot" id="statusDot"></span><span id="statusText">Memuatkan…</span></span>
-      <span id="updated"></span>
-    </div>
+    <div class="meta" id="meta">Memuatkan…</div>
   </header>
 
-  <div id="pick"></div>
-  <div class="stats" id="stats"></div>
-
-  <div class="controls">
-    <div class="chips" role="group" aria-label="Tapis kategori">
-      <button class="chip" id="f-semua" aria-pressed="true" data-f="semua">Semua</button>
-      <button class="chip" id="f-kewangan" aria-pressed="false" data-f="kewangan">Kewangan</button>
-      <button class="chip" id="f-tutorial" aria-pressed="false" data-f="tutorial">Tutorial App &amp; Web</button>
-    </div>
-    <label class="toggle" for="hideDone"><input type="checkbox" id="hideDone"> Sembunyi yang dah buat</label>
+  <div class="tabs" role="group" aria-label="Tapis kategori">
+    <button class="tab" aria-pressed="true" data-f="semua">Semua</button>
+    <button class="tab" aria-pressed="false" data-f="kewangan">Kewangan</button>
+    <button class="tab" aria-pressed="false" data-f="tutorial">Tutorial</button>
+    <button class="tab" aria-pressed="false" data-f="tarikh">Tarikh penting</button>
   </div>
-  <div class="hist" id="histWrap" hidden>
-    <label for="histSel">Senarai:</label>
-    <select id="histSel"><option value="latest">Terkini</option></select>
+
+  <div class="banner" id="banner"></div>
+  <div class="list" id="list"></div>
+
+  <div class="legend" id="legend">
+    <span><i class="dot panas"></i>Panas</span>
+    <span><i class="dot naik"></i>Naik</span>
+    <span><i class="dot"></i>Stabil</span>
+    <span>Nombor = skor potensi</span>
   </div>
-  <div id="banner"></div>
 
-  <div class="list" id="list"><div class="skel"></div><div class="skel"></div></div>
+  <div class="more">
+    <label><input type="checkbox" id="hideDone"> Sembunyi yang dah buat</label>
+    <span id="histWrap" hidden><label for="histSel">Senarai </label><select id="histSel"><option value="latest">Terkini</option></select></span>
+  </div>
 
-  <section id="calWrap" hidden>
-    <h2>Tarikh penting akan datang</h2>
-    <ul class="cal" id="cal"></ul>
-  </section>
-
-  <footer>
-    <div><b>Skor potensi (0–100)</b> ialah anggaran Claude: berapa baru isu itu, berapa ramai rakyat Malaysia terkesan, dan berapa sesuai dengan niche tutorial + kewangan. Panas = sedang memuncak, Naik = mula dicari, Stabil = sentiasa dicari.</div>
-    <div>Senarai dikemas kini automatik setiap pagi. Sentiasa semak fakta di sumber rasmi sebelum rakam video.</div>
-  </footer>
+  <footer>Dikemas kini automatik setiap pagi. Skor ialah anggaran Claude berdasarkan berapa baru isu itu, berapa ramai terkesan dan kesesuaian dengan niche. Semak fakta di sumber rasmi sebelum rakam.</footer>
 </div>
 
 <script>
 (function(){
-  const $ = (id) => document.getElementById(id);
-  const state = { data:null, filter:"semua", hideDone:false, done:{}, viewing:"latest", openGen:null };
-  let db = null, sample = null, doneWriting = Promise.resolve();
-  const genCtrls = {};
+  const $ = id => document.getElementById(id);
+  const state = { data:null, latest:null, filter:"semua", hideDone:false, done:{}, open:{}, viewing:"latest" };
+  const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
 
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-  function safeUrl(u){ try{ const x = new URL(String(u)); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; }catch(e){ return null; } }
-  function setStatus(kind, text){ $("statusDot").className = "dot " + kind; $("statusText").textContent = text; }
-  const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
-  const catLabel = { kewangan:"Kewangan", tutorial:"Tutorial App & Web" };
-
-  function items(){ return (state.data && Array.isArray(state.data.items)) ? state.data.items : []; }
+  function safeUrl(u){ try{ const x = new URL(String(u)); return /^https?:$/.test(x.protocol) ? x.href : null; }catch(e){ return null; } }
+  function items(){ return (state.data && Array.isArray(state.data.items)) ? state.data.items.slice().sort((a,b) => (b.score||0)-(a.score||0)) : []; }
 
   function render(){
-    const d = state.data;
-    if(!d){ return; }
-    $("updated").textContent = d.updated_label ? "Dikemas kini " + d.updated_label : "";
-    const all = items().slice().sort((a,b) => (b.score||0) - (a.score||0));
-    const notDone = all.filter(i => !state.done[i.id]);
-    const top = notDone[0];
-    $("pick").innerHTML = top ? `<div class="pick"><div class="lbl">Buat video ni dulu</div><h2>${esc(top.title)}</h2><p>${esc(top.why)}</p></div>` : "";
-    const hot = all.filter(i => i.status === "panas").length;
-    const rise = all.filter(i => i.status === "naik").length;
-    $("stats").innerHTML =
-      `<div class="stat"><b>${hot}</b><span>topik panas</span></div>` +
-      `<div class="stat"><b>${rise}</b><span>sedang naik</span></div>` +
-      `<div class="stat"><b>${all.length - Object.keys(state.done).filter(k => all.some(i => i.id === k)).length}</b><span>belum dibuat</span></div>`;
-
-    let shown = all.filter(i => state.filter === "semua" || i.cat === state.filter);
-    if(state.hideDone){ shown = shown.filter(i => !state.done[i.id]); }
-    $("list").innerHTML = shown.length ? shown.map(cardHtml).join("") :
-      `<div class="empty">Tiada topik untuk tapisan ini.</div>`;
-
-    const up = Array.isArray(d.upcoming) ? d.upcoming : [];
-    $("calWrap").hidden = !up.length;
-    $("cal").innerHTML = up.map(u => `<li><div class="d">${esc(u.date)}</div><div class="t">${esc(u.label)}</div>${u.note ? `<div class="n">${esc(u.note)}</div>` : ""}</li>`).join("");
-
-    if(state.openGen){ const g = document.querySelector(`[data-gen="${CSS.escape(state.openGen)}"]`); if(g) g.hidden = false; }
+    const d = state.data; if(!d) return;
+    $("meta").textContent = (d.updated_label ? "Dikemas kini " + d.updated_label : "") + " · tekan tajuk untuk butiran";
+    const isCal = state.filter === "tarikh";
+    $("legend").hidden = isCal;
+    if(isCal){
+      const up = Array.isArray(d.upcoming) ? d.upcoming : [];
+      $("list").innerHTML = up.length ? `<div class="item" style="padding:14px"><ul class="cal">${up.map(u => `<li><div class="d">${esc(u.date)}</div><div><b>${esc(u.label)}</b></div>${u.note ? `<div class="n">${esc(u.note)}</div>` : ""}</li>`).join("")}</ul></div>` : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`;
+      return;
+    }
+    let list = items().filter(i => state.filter === "semua" || i.cat === state.filter);
+    if(state.hideDone) list = list.filter(i => !state.done[i.id]);
+    $("list").innerHTML = list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`;
   }
 
-  function cardHtml(i){
-    const done = !!state.done[i.id];
+  function itemHtml(i){
     const st = i.status in statusLabel ? i.status : "stabil";
+    const open = !!state.open[i.id], done = !!state.done[i.id];
+    const id = esc(i.id);
     const ideas = Array.isArray(i.ideas) ? i.ideas : [];
     const srcs = (Array.isArray(i.sources) ? i.sources : []).map(s => { const u = safeUrl(s.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name || "Sumber")}</a>` : ""; }).join("");
-    const score = Math.max(0, Math.min(100, Number(i.score) || 0));
-    const canGen = false;
-    return `<article class="card ${st}${done ? " done" : ""}" id="c-${esc(i.id)}">
-      <div class="top">
-        <div class="score"><b>${score}</b><div class="bar"><i style="width:${score}%"></i></div><small>skor</small></div>
-        <div class="head">
-          <div class="tags"><span class="tag ${st}">${statusLabel[st]}</span><span class="tag">${esc(catLabel[i.cat] || i.cat)}</span>${i.deadline ? `<span class="tag deadline">${esc(i.deadline)}</span>` : ""}${done ? `<span class="tag">Dah buat</span>` : ""}</div>
-          <h3>${esc(i.title)}</h3>
+    return `<div class="item${done ? " done" : ""}">
+      <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
+        <i class="dot ${st}" aria-label="${statusLabel[st]}"></i>
+        <span class="t">${esc(i.title)}</span>
+        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span>
+        <i class="chev" aria-hidden="true"></i>
+      </button>
+      <div class="detail" id="d-${id}"${open ? "" : " hidden"}>
+        <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}</div>
+        <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
+        ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
+        ${ideas.length ? `<div><div class="lbl">Idea tajuk</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
+        ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
+        <div class="acts">
+          <button class="btn pri" data-prompt="${id}">Salin prompt skrip video</button>
+          ${state.viewing === "latest" ? `<button class="btn" data-done="${id}">${done ? "Buang tanda" : "Tanda dah buat"}</button>` : ""}
         </div>
       </div>
-      <div><div class="sub">Kenapa trending</div><p>${esc(i.why)}</p></div>
-      ${i.angle ? `<div><div class="sub">Sudut video untuk anda</div><p>${esc(i.angle)}</p></div>` : ""}
-      ${ideas.length ? `<div><div class="sub">Idea tajuk</div><ul class="ideas">${ideas.map(t => `<li><span>${esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul></div>` : ""}
-      ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
-      <div class="actions">
-        ${canGen ? `<button class="btn" data-open="${esc(i.id)}">Jana pakej video</button>` : ""}
-        <button class="btn" data-prompt="${esc(i.id)}">Salin prompt skrip video</button>
-        ${state.viewing === "latest" ? `<button class="btn ghost" data-done="${esc(i.id)}">${done ? "Buang tanda" : "Tanda dah buat"}</button>` : ""}
-      </div>
-      ${canGen ? `<div class="gen" data-gen="${esc(i.id)}" hidden>
-        <label for="x-${esc(i.id)}">Sudut tambahan (pilihan), contoh: "untuk pelajar universiti" atau "format Shorts 60 saat"</label>
-        <input id="x-${esc(i.id)}" type="text" maxlength="200">
-        <div class="actions"><button class="btn" data-run="${esc(i.id)}">Jana sekarang</button><button class="btn ghost" data-stop="${esc(i.id)}" hidden>Berhenti</button><button class="btn ghost" data-copyout="${esc(i.id)}" hidden>Salin semua</button></div>
-        <div class="out" id="o-${esc(i.id)}"></div>
-        <div class="note">Claude tulis berdasarkan fakta dalam kad ini sahaja. Semak semula angka dan tarikh sebelum rakam.</div>
-      </div>` : ""}
-    </article>`;
+    </div>`;
   }
-
-  function fmt(text){
-    const lines = String(text).split("\n");
-    let html = "", inList = false;
-    for(const raw of lines){
-      const l = raw.trimEnd();
-      if(/^#{1,4}\s/.test(l)){ if(inList){html+="</ul>";inList=false;} html += `<h4>${esc(l.replace(/^#{1,4}\s/,""))}</h4>`; }
-      else if(/^\s*([-*•]|\d+\.)\s/.test(l)){ if(!inList){html+="<ul>";inList=true;} html += `<li>${esc(l.replace(/^\s*([-*•]|\d+\.)\s/,""))}</li>`; }
-      else if(l.trim()===""){ if(inList){html+="</ul>";inList=false;} }
-      else { if(inList){html+="</ul>";inList=false;} html += `<p>${esc(l)}</p>`; }
-    }
-    if(inList) html += "</ul>";
-    return html.replace(/\*\*/g,"");
-  }
-
-  async function copy(text, btn){
-    try{ await navigator.clipboard.writeText(text); const o = btn.textContent; btn.textContent = "Disalin"; setTimeout(() => btn.textContent = o, 1400); }
-    catch(e){ btn.textContent = "Tak dapat salin"; }
-  }
-
-  async function runGen(id){
-    const item = items().find(i => i.id === id); if(!item || !sample) return;
-    const out = $("o-" + id), extra = ($("x-" + id) || {}).value || "";
-    const runB = document.querySelector(`[data-run="${CSS.escape(id)}"]`);
-    const stopB = document.querySelector(`[data-stop="${CSS.escape(id)}"]`);
-    const copyB = document.querySelector(`[data-copyout="${CSS.escape(id)}"]`);
-    const ctrl = new AbortController(); genCtrls[id] = ctrl;
-    runB.disabled = true; stopB.hidden = false; copyB.hidden = true; out.innerHTML = `<p class="note">Claude sedang menulis…</p>`;
-    const facts = { tajuk: item.title, kategori: catLabel[item.cat], kenapa_trending: item.why, sudut: item.angle, idea_tajuk: item.ideas, tarikh_akhir: item.deadline || null, sumber: (item.sources||[]).map(s => s.name) };
-    const prompt = `Anda penulis skrip untuk channel YouTube Malaysia "Imran Wafi" (niche: tutorial app/website dan kewangan peribadi; penonton rakyat Malaysia biasa; gaya santai, jelas, bahasa Melayu harian).
-Topik trending (fakta yang disahkan, JSON):
-${JSON.stringify(facts)}
-${extra ? "Permintaan tambahan pencipta: " + extra.slice(0,200) : ""}
-
-Tulis pakej video dalam Bahasa Melayu. Guna HANYA fakta di atas; jangan reka angka, tarikh atau syarat baharu. Jika sesuatu perlu disemak, tulis dalam bahagian "Semak sebelum rakam".
-Format tepat (guna "## " untuk tajuk bahagian, "- " untuk senarai, tiada jadual, tiada **bold**):
-## 5 tajuk YouTube (bawah 60 aksara)
-## 3 teks thumbnail (maksimum 4 perkataan)
-## Hook 15 saat pertama
-## Rangka video (5–7 bahagian, dengan anggaran minit)
-## 3 idea Shorts/TikTok
-## Tag & kata kunci carian
-## Semak sebelum rakam`;
-    try{
-      await sample(prompt, { signal: ctrl.signal, onText: ({text}) => { out.innerHTML = fmt(text); } , modelTier:"default" })
-        .then(r => { if(r && r.text) out.innerHTML = fmt(r.text); out.dataset.raw = (r && r.text) || out.innerText; });
-      copyB.hidden = false;
-    }catch(e){
-      const code = e && e.code;
-      if(code === "not_granted"){ out.innerHTML = `<p class="note">Penjanaan tidak dibenarkan dalam paparan ini.</p>`; }
-      else if(code === "rate_limited"){ out.innerHTML = `<p class="note">Terlalu banyak permintaan. Cuba lagi dalam seminit.</p>`; }
-      else if(ctrl.signal.aborted){ if(e && e.text){ out.innerHTML = fmt(e.text); out.dataset.raw = e.text; copyB.hidden = false; } }
-      else { out.innerHTML = `<p class="note">Tak dapat jana sekarang. Cuba tekan "Jana sekarang" sekali lagi.</p>`; }
-    }finally{ runB.disabled = false; stopB.hidden = true; delete genCtrls[id]; }
-  }
-
-  function toggleDone(id){
-    const next = Object.assign({}, state.done);
-    if(next[id]) delete next[id]; else next[id] = new Date().toISOString().slice(0,10);
-    state.done = next; render();
-    try{ localStorage.setItem("rt-done", JSON.stringify(next)); }catch(e){}
-  }
-
-  document.addEventListener("click", (ev) => {
-    const t = ev.target.closest("button"); if(!t) return;
-    if(t.dataset.f){ state.filter = t.dataset.f; document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c === t))); render(); }
-    else if(t.dataset.copy != null){ copy(t.dataset.copy, t); }
-    else if(t.dataset.open){ const g = document.querySelector(`[data-gen="${CSS.escape(t.dataset.open)}"]`); if(g){ g.hidden = !g.hidden; state.openGen = g.hidden ? null : t.dataset.open; } }
-    else if(t.dataset.run){ runGen(t.dataset.run); }
-    else if(t.dataset.stop){ const c = genCtrls[t.dataset.stop]; if(c) c.abort(); }
-    else if(t.dataset.copyout){ const o = $("o-" + t.dataset.copyout); copy(o.dataset.raw || o.innerText, t); }
-    else if(t.dataset.done){ toggleDone(t.dataset.done); }
-    else if(t.dataset.prompt){ const it = items().find(x => x.id === t.dataset.prompt); if(it) copy(buildPrompt(it), t); }
-  });
-  $("hideDone").addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
 
   function buildPrompt(item){
     const facts = { tajuk: item.title, kenapa_trending: item.why, sudut: item.angle, idea_tajuk: item.ideas, tarikh_akhir: item.deadline || null, sumber: (item.sources||[]).map(s => s.url) };
@@ -323,34 +171,46 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
 6. Tag & kata kunci carian
 7. Perkara yang perlu disemak sebelum rakam`;
   }
-  async function getJson(path){ const r = await fetch(path + "?t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
-  let latest = null;
-  async function start(){
+
+  async function copy(text, btn){
+    const o = btn.textContent;
+    try{ await navigator.clipboard.writeText(text); btn.textContent = "Disalin"; }
+    catch(e){ btn.textContent = "Tak dapat salin"; }
+    setTimeout(() => btn.textContent = o, 1400);
+  }
+
+  function saveDone(){ try{ localStorage.setItem("rt-done", JSON.stringify(state.done)); }catch(e){} }
+
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if(!b) return;
+    if(b.dataset.f){ state.filter = b.dataset.f; document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", String(t === b))); render(); }
+    else if(b.dataset.toggle){ const id = b.dataset.toggle; state.open[id] = !state.open[id];
+      b.setAttribute("aria-expanded", String(state.open[id])); const d = $("d-" + id); if(d) d.hidden = !state.open[id]; }
+    else if(b.dataset.copy != null){ copy(b.dataset.copy, b); }
+    else if(b.dataset.prompt){ const it = items().find(x => x.id === b.dataset.prompt); if(it) copy(buildPrompt(it), b); }
+    else if(b.dataset.done){ const id = b.dataset.done; if(state.done[id]) delete state.done[id]; else state.done[id] = 1; saveDone(); render(); }
+  });
+  $("hideDone").addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
+
+  async function getJson(p){ const r = await fetch(p + "?t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
+
+  $("histSel").addEventListener("change", async e => {
+    const v = e.target.value;
+    if(v === "latest"){ state.viewing = "latest"; state.data = state.latest; $("banner").textContent = ""; render(); return; }
+    try{ const d = await getJson("history/" + v + ".json"); state.viewing = v; state.data = d; state.open = {};
+      $("banner").textContent = "Anda sedang lihat senarai lama (" + (d.updated_label || v) + "). Pilih \"Terkini\" untuk kembali."; render(); }catch(err){}
+  });
+
+  (async function start(){
     try{ const s = JSON.parse(localStorage.getItem("rt-done") || "{}"); if(s && typeof s === "object") state.done = s; }catch(e){}
-    try{
-      latest = await getJson("data.json");
-      state.data = latest; render();
-      $("statusDot").className = "dot ok"; $("statusText").textContent = "Data terkini";
-    }catch(e){
-      $("statusDot").className = "dot bad"; $("statusText").textContent = "Data tak dapat dimuatkan";
-      $("list").innerHTML = '<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>'; return;
-    }
+    try{ state.latest = state.data = await getJson("data.json"); render(); }
+    catch(e){ $("meta").textContent = "Senarai tak dapat dimuatkan. Muat semula halaman ini."; return; }
     try{
       const idx = await getJson("history/index.json");
-      const dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== latest.date).sort().reverse().slice(0,14);
-      if(dates.length){
-        $("histWrap").hidden = false;
-        $("histSel").innerHTML = '<option value="latest">Terkini</option>' + dates.map(d => `<option value="${d}">${d}</option>`).join("");
-      }
+      const dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== state.latest.date).sort().reverse().slice(0,14);
+      if(dates.length){ $("histWrap").hidden = false; $("histSel").innerHTML = '<option value="latest">Terkini</option>' + dates.map(d => `<option value="${d}">${d}</option>`).join(""); }
     }catch(e){}
-  }
-  $("histSel").addEventListener("change", async (e) => {
-    const v = e.target.value;
-    if(v === "latest"){ state.viewing = "latest"; state.data = latest; $("banner").innerHTML = ""; render(); return; }
-    try{ const d = await getJson("history/" + v + ".json"); state.viewing = v; state.data = d;
-      $("banner").innerHTML = `<div class="banner">Anda sedang lihat senarai lama (${esc(d.updated_label || v)}). Pilih "Terkini" untuk kembali.</div>`; render(); }catch(err){}
-  });
-  start();
+  })();
 })();
 </script>
 </body>
