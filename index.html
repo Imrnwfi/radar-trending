@@ -61,6 +61,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .bt span{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .iconbtn{flex:0 0 auto;width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--panel);display:grid;place-items:center}
 .iconbtn svg{width:19px;height:19px}
+.iconbtn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .chipsrow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
 .chipsrow::-webkit-scrollbar{display:none}
 .tab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 14px;border-radius:999px;font-size:14px;display:inline-flex;align-items:center;gap:6px}
@@ -174,7 +175,7 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:var(--navh)}
+.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);height:var(--navh)}
 .nb{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;color:var(--muted)}
 .nb svg{width:22px;height:22px}
 .nb[aria-current="page"]{color:var(--accent);font-weight:700}
@@ -188,6 +189,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     <div class="brand">
       <svg class="logo" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#16181d"/><circle cx="18" cy="18" r="11" fill="none" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="18" cy="18" r="7" fill="none" stroke="#8aa0ff" stroke-opacity=".5" stroke-width="1.4"/><path d="M18 18 L18 7 A11 11 0 0 1 27 12 Z" fill="#8aa0ff" fill-opacity=".3"/><line x1="18" y1="18" x2="27" y2="12" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="22" cy="11.5" r="1.8" fill="#ff6f62"/><circle cx="18" cy="18" r="1.3" fill="#8aa0ff"/></svg>
       <div class="bt"><b>Radar Trending</b><span id="meta">Imran Wafi · Tutorial &amp; Kewangan</span></div>
+      <button class="iconbtn" id="searchBtn" aria-label="Cari topik atau app" aria-pressed="false"></button>
       <button class="iconbtn" id="themeBtn" aria-label="Tukar mod gelap atau terang"></button>
     </div>
     <div class="chipsrow" id="hdrRow" role="group" aria-label="Tapisan"></div>
@@ -258,9 +260,11 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   paintThemeBtn();
 
   /* Nav & header */
-  const VIEWS = [["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["app","App","grid"],["cari","Cari","search"]];
+  const VIEWS = [["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["app","App","grid"]];
+  let prevView = "topik";
   function renderNav(){ $("nav").innerHTML = VIEWS.map(v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span></button>`).join(""); }
   function renderHeader(){
+    $("searchBtn").setAttribute("aria-pressed", String(state.view === "cari"));
     const d = state.data;
     $("meta").textContent = "Imran Wafi" + (d && d.updated_label ? " · " + d.updated_label : " · Tutorial & Kewangan");
     const row = $("hdrRow");
@@ -423,7 +427,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function viewCari(){
     const q = state.q.trim().toLowerCase();
     if(!q) return `<div class="empty">Taip nama app, bantuan atau kata kunci. Contoh: TNG, STR, pasport, emas, scam.</div>`;
-    const hit = o => JSON.stringify([o.title, o.name, o.what, o.why, o.angle, o.ideas, o.app && o.app.name, o.seo && o.seo.keywords]).toLowerCase().includes(q);
+    const re = new RegExp("(^|[^a-z0-9])" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    const hit = o => re.test(JSON.stringify([o.title, o.name, o.what, o.why, o.angle, o.ideas, o.app && o.app.name, o.seo && o.seo.keywords]).toLowerCase());
     const ti = items().filter(hit), ap = apps().filter(hit);
     if(!ti.length && !ap.length) return `<div class="empty">Tiada topik atau app untuk "${esc(state.q.trim())}".</div>`;
     return (ti.length ? `<h2 class="grp">TOPIK (${ti.length})</h2><div class="list">${ti.map(itemHtml).join("")}</div>` : "") + (ap.length ? `<h2 class="grp">APP (${ap.length})</h2><div class="list">${ap.map(appRow).join("")}</div>` : "");
@@ -444,7 +449,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     state.view = "topik"; state.filter = "semua"; state.open[id] = true; if(tab) state.dtab[id] = tab; render();
     const el = $("it-" + id); if(el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start" });
   }
-  function setView(v){ state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
+  function setView(v){ if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
 
   document.addEventListener("click", ev => {
     const b = ev.target.closest("button"); if(!b) return;
@@ -460,6 +465,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.prompt){ const it = items().find(x => x.id === d.prompt); if(it) copy(buildPrompt(it), b); }
     else if(d.done){ if(state.done[d.done]) delete state.done[d.done]; else state.done[d.done] = 1; saveDone(); render(); }
   });
+  $("searchBtn").innerHTML = svg("search");
+  $("searchBtn").addEventListener("click", () => setView(state.view === "cari" ? prevView : "cari"));
   let qT = null;
   $("q").addEventListener("input", e => { $("qx").hidden = !e.target.value; clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
   $("qx").addEventListener("click", () => { $("q").value = ""; $("qx").hidden = true; state.q = ""; render(); $("q").focus(); });
