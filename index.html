@@ -307,6 +307,63 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .dli{display:flex;gap:10px;align-items:baseline;border:0;background:transparent;padding:0;text-align:left;width:100%;color:var(--ink)}
 .dli .cd2{flex:none;min-width:74px;font-size:12px;font-weight:800;color:var(--hot)}
 .linkbtn{border:0;background:transparent;color:var(--accent);font-weight:700;padding:0;font-size:14px}
+/* Cincin skor */
+.ring{position:relative;display:inline-grid;place-items:center;width:38px;height:38px;margin-left:auto}
+.ring svg{position:absolute;inset:0;width:38px;height:38px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:3.5}
+.ring .bg{stroke:var(--line)}
+.ring .fg{stroke-linecap:round}
+.ring.hi .fg{stroke:var(--steady)} .ring.mid .fg{stroke:#d48a00} .ring.lo .fg{stroke:var(--muted)}
+.ring b{position:relative;font-size:13px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums}
+.s{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.bar1 .ring{width:44px;height:44px;margin:0} .bar1 .ring svg{width:44px;height:44px} .bar1 .ring b{font-size:15px}
+/* Bar tindakan dalam halaman topik */
+.abar{position:sticky;bottom:0;z-index:3;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom))}
+.abar .in{max-width:612px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.abar .ab{position:relative;display:flex;align-items:center;justify-content:center;gap:6px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-weight:700;font-size:14px;overflow:hidden}
+.abar .ab.on{background:var(--steady);border-color:var(--steady);color:#fff}
+.abar .ab.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.abar select.ovl{position:absolute;inset:0;opacity:0;width:100%;height:100%;font-size:16px}
+.sheet .shb{padding-bottom:20px}
+.abar .ab svg{width:18px;height:18px;flex:none}
+/* Animasi */
+@keyframes slideIn{from{transform:translateX(100%)}to{transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes paneL{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:none}}
+@keyframes paneR{from{opacity:0;transform:translateX(-28px)}to{opacity:1;transform:none}}
+.sheet.anim-in{animation:slideIn .24s cubic-bezier(.2,.8,.2,1)}
+.pane.fade{animation:fadeUp .18s ease-out} .pane.fromR{animation:paneL .2s ease-out} .pane.fromL{animation:paneR .2s ease-out}
+#view.fade{animation:fadeUp .18s ease-out}
+@media (prefers-reduced-motion: reduce){.sheet.anim-in,.pane.fade,.pane.fromR,.pane.fromL,#view.fade{animation:none}}
+/* Skeleton */
+.sk{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;gap:12px;align-items:center}
+.sk i{display:block;border-radius:8px;background:linear-gradient(90deg,var(--line) 25%,color-mix(in srgb,var(--line) 40%,var(--panel)) 50%,var(--line) 75%);background-size:200% 100%;animation:shim 1.2s infinite linear}
+.sk .a{width:40px;height:40px;flex:none;border-radius:10px} .sk .b{flex:1;display:flex;flex-direction:column;gap:8px} .sk .b i:first-child{height:14px;width:85%} .sk .b i:last-child{height:12px;width:50%} .sk .c{width:36px;height:36px;border-radius:50%;flex:none}
+.sk.h i{height:22px;width:60%}
+@keyframes shim{to{background-position:-200% 0}}
+@media (prefers-reduced-motion: reduce){.sk i{animation:none}}
+/* Info ? */
+.qi{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:11px;font-weight:800;padding:0;margin-left:6px;vertical-align:middle;line-height:1}
+.infob{position:fixed;inset:0;z-index:99;background:rgba(10,12,16,.45);display:flex;align-items:flex-end;justify-content:center}
+.infob .ocard{background:var(--panel);color:var(--ink);width:100%;max-width:520px;border-radius:20px 20px 0 0;padding:20px 20px calc(18px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px}
+.infob h3{margin:0;font-family:var(--display);font-size:19px}
+.infob p{margin:0;color:var(--muted)}
+/* Carian pintar */
+.search input{padding-right:70px}
+.search #qmic{right:34px;font-size:16px;display:grid;place-items:center}
+.search #qmic svg{position:static;transform:none;width:18px;height:18px}
+.search #qmic.on{color:var(--hot)}
+.qchips{display:flex;flex-wrap:wrap;gap:8px}
+.qchips button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
+.qchips button.rc::before{content:"↺ ";color:var(--muted)}
+/* Skrin lebar: 2 lajur */
+@media (min-width: 900px){
+  .sheet{left:auto;width:min(560px,46vw);border-left:1px solid var(--line);box-shadow:-12px 0 32px rgba(0,0,0,.08)}
+  body.sheet-open{overflow:auto}
+  body.sheet-open main,body.sheet-open footer,body.sheet-open .top .topin,body.sheet-open .navin{margin-right:calc(min(560px,46vw) + 24px);margin-left:auto}
+  body.sheet-open .back svg{transform:rotate(180deg)}
+  .item.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+}
 /* Panduan */
 .onb{position:fixed;inset:0;z-index:100;background:rgba(10,12,16,.55);display:flex;align-items:flex-end;justify-content:center}
 .onb .ocard{background:var(--panel);color:var(--ink);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:24px 20px calc(20px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
@@ -333,7 +390,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
       <button class="iconbtn" id="themeBtn" aria-label="Tukar mod gelap atau terang"></button>
     </div>
     <div class="chipsrow" id="hdrRow" role="group" aria-label="Tapisan"></div>
-    <div class="search" id="searchBox" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="text" inputmode="search" enterkeyhint="search" placeholder="Cari topik atau app, cth: TNG, STR, emas" aria-label="Cari topik atau app" autocomplete="off"><button id="qx" aria-label="Kosongkan carian" hidden>×</button></div>
+    <div class="search" id="searchBox" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="text" inputmode="search" enterkeyhint="search" placeholder="Cari topik atau app, cth: TNG, STR, emas" aria-label="Cari topik atau app" autocomplete="off"><button id="qmic" aria-label="Cari guna suara" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button><button id="qx" aria-label="Kosongkan carian" hidden>×</button></div>
   </div>
 </header>
 
@@ -349,6 +406,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 <div class="ptr" id="ptr" aria-hidden="true"><span id="ptrT">Tarik untuk muat semula</span></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div id="onbWrap"></div>
+<div id="infoWrap"></div>
 
 <script>
 (function(){
@@ -509,7 +567,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
     const c = tcls(a), d = a[a.length-1].v - a[0].v, xy = poly(a, 300, 56, 6);
     const txt = d > 0 ? `Naik ${d} mata` : d < 0 ? `Turun ${-d} mata` : "Tak berubah";
     const hint = d >= 3 ? "Topik makin panas, sesuai buat sekarang." : d <= -3 ? "Minat mula reda. Kalau nak buat, buat cepat atau cari sudut baru." : "Minat masih stabil.";
-    return `<div class="trend ${c}"><div class="seohead"><span class="lbl" style="margin:0">Trend skor (${a.length} kemas kini)</span><span class="tv">${txt}</span></div>
+    return `<div class="trend ${c}"><div class="seohead"><span class="lbl" style="margin:0">Trend skor (${a.length} kemas kini)${qi("trend")}</span><span class="tv">${txt}</span></div>
       <svg viewBox="0 0 300 56" preserveAspectRatio="none" role="img" aria-label="Skor dari ${a[0].v} ke ${a[a.length-1].v}"><polyline points="${xy.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ")}" vector-effect="non-scaling-stroke"/></svg>
       <div class="ax"><span>${esc(a[0].label)} · ${a[0].v}</span><span>${esc(a[a.length-1].label)} · ${a[a.length-1].v}</span></div>
       <div class="note" style="margin-top:4px">${hint}</div></div>`;
@@ -740,40 +798,90 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}${i._last ? ` · Arkib, terakhir ${esc(i._last)}` : ""}</div>
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
-        ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
+        ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}${qi("peluang")}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
         ${trendBig(i.id)}
         ${appChip(i)}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
-        ${state.viewing === "latest" ? `<div class="acts">${planCtl(i)}${trackCtl(i)}</div>${linkCtl(i)}` : ""}`;
+        ${state.viewing === "latest" ? linkCtl(i) : ""}`;
   }
   const DTABS = [["ringkas","Ringkasan"],["idea","Idea"],["seo","SEO"],["promo","Promosi"]];
+  function ringHtml(score){
+    const v = Math.max(0, Math.min(100, Number(score) || 0)), r = 15.5, c = 2 * Math.PI * r, cls = v >= 85 ? "hi" : v >= 70 ? "mid" : "lo";
+    return `<span class="ring ${cls}" role="img" aria-label="Skor ${v} daripada 100"><svg viewBox="0 0 38 38" aria-hidden="true"><circle class="bg" cx="19" cy="19" r="${r}"/><circle class="fg" cx="19" cy="19" r="${r}" stroke-dasharray="${(c * v / 100).toFixed(1)} ${c.toFixed(1)}"/></svg><b>${v}</b></span>`;
+  }
+  const INFO = {
+    skor: ["Skor potensi (0–100)", "Anggaran berapa berbaloi topik ni dijadikan video sekarang: berapa baru isunya, berapa ramai terkesan, dan sesuai dengan niche tutorial & kewangan. Hijau 85+, oren 70–84, kelabu bawah 70."],
+    peluang: ["Label peluang", "Berdasarkan bilangan video YouTube Bahasa Melayu tentang topik ni dalam 60 hari lepas. Peluang tinggi = 0–1 video, sederhana = 2–3, dah sesak = 4 atau lebih."],
+    emas: ["Peluang emas", "Topik dengan skor 60 ke atas dan saingan YouTube BM yang masih sikit. Paling senang naik kalau dibuat cepat."],
+    trend: ["Trend skor", "Perubahan skor dalam kemas kini terakhir (kira-kira 7 hari). Naik maksudnya minat orang ramai makin bertambah."],
+    rpm: ["RPM", "Pendapatan bagi setiap 1,000 views. Dikira dari pendapatan dan views yang kau isi sendiri untuk setiap video."],
+    streak: ["Streak", "Bilangan minggu berturut-turut kau upload sekurang-kurangnya satu video. Minggu ni belum dikira putus selagi belum habis."],
+    target: ["Target mingguan", "Bilangan video yang kau nak upload setiap minggu. Tekan − atau + untuk ubah. Minggu bermula hari Isnin."],
+    ramalan: ["Ramalan minggu depan", "Anggaran berdasarkan trend skor, tarikh penting yang dekat, topik baru dan tahap saingan. Bukan jaminan."]
+  };
+  function qi(k){ return `<button class="qi" data-info="${k}" aria-label="Apa maksud ${esc(INFO[k][0])}?">?</button>`; }
   function itemHtml(i){
     const st = i.status in statusLabel ? i.status : "stabil";
     const done = !!state.done[i.id], id = esc(i.id);
     const swipe = state.viewing === "latest" && !i._last && state.view !== "cari";
-    return `<div class="item${done ? " done" : ""}" id="it-${id}"${swipe ? ' data-sw="1"' : ""}>
+    return `<div class="item${done ? " done" : ""}${state.sheet === i.id ? " sel" : ""}" id="it-${id}"${swipe ? ' data-sw="1"' : ""}>
       ${swipe ? `<div class="swl" aria-hidden="true">Plan esok</div><div class="swr" aria-hidden="true">${done ? "Buang tanda" : "Dah upload ✓"}</div>` : ""}
       <button class="row" data-open="${id}" aria-haspopup="dialog">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
         <span class="t">${isNew(i) ? `<i class="newdot" aria-label="Baru sejak kali terakhir"></i>` : ""}${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
-        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}${sparkSmall(i.id)}</span>
+        <span class="s">${ringHtml(i.score)}${deltaHtml(i)}${sparkSmall(i.id)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
     </div>`;
   }
   function sheetHtml(i){
     const tab = state.dtab[i.id] || "ringkas", id = esc(i.id);
-    return `<div class="shd"><div class="bar1"><button class="back" data-close="1" aria-label="Kembali">${svg("back")}</button><span class="st">${i.status === "panas" ? FIRE : ""}${esc(i.title)}</span><span class="sc">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span></div>
+    return `<div class="shd"><div class="bar1"><button class="back" data-close="1" aria-label="Kembali">${svg("back")}</button><span class="st">${i.status === "panas" ? FIRE : ""}${esc(i.title)}</span>${ringHtml(i.score)}</div>
       <div class="dtabs" role="tablist">${DTABS.map(t => `<button class="dtab" role="tab" data-dtab="${t[0]}" data-for="${id}" aria-selected="${tab === t[0]}">${t[1]}</button>`).join("")}</div></div>
-      <div class="pane shb" role="tabpanel">${paneHtml(i, tab)}</div>`;
+      <div class="pane shb${state.paneAnim ? " " + state.paneAnim : ""}" role="tabpanel">${paneHtml(i, tab)}</div>${abarHtml(i)}`;
+  }
+  function abarHtml(i){
+    if(state.viewing !== "latest") return "";
+    const id = esc(i.id), cur = state.plan[i.id] ? state.plan[i.id].d : "", done = !!state.done[i.id], dt = cur ? parseD(cur) : null;
+    const opts = week().map(d => { const v = isoOf(d); return `<option value="${v}"${v === cur ? " selected" : ""}>${dayLabel(d, true)}</option>`; });
+    if(cur && dt && !opts.some(o => o.includes(`"${cur}"`))) opts.unshift(`<option value="${cur}" selected>${dayLabel(dt, true)}</option>`);
+    return `<div class="abar"><div class="in">
+      <label class="ab${cur ? " pri" : ""}">${svg("calendar")}<span>${dt ? dayLabel(dt, true).split(",")[0] + " " + dt.getUTCDate() : "Rancang"}</span><select class="ovl" data-plan="${id}" aria-label="Rancang tarikh upload"><option value="">${cur ? "Buang dari plan" : "Pilih hari…"}</option>${opts.join("")}</select></label>
+      <button class="ab${done ? " on" : ""}" data-done="${id}">${done ? "✓ Dah upload" : "Dah upload"}</button>
+      <button class="ab" data-copyall="${id}">Salin semua</button></div></div>`;
+  }
+  function allText(i){
+    const L = [], s = i.seo || {}, sc = i.script;
+    L.push("📌 " + i.title, "", "KENAPA TRENDING", i.why);
+    if(i.angle) L.push("", "SUDUT VIDEO", i.angle);
+    if(Array.isArray(i.ideas) && i.ideas.length) L.push("", "IDEA TAJUK", ...i.ideas.map((t, k) => `${k + 1}. ${t}`));
+    if(sc) L.push("", "SKRIP RINGKAS", "Hook: " + sc.hook, ...(sc.points || []).map((t, k) => `${k + 1}. ${t}`), "CTA: " + sc.cta);
+    if(Array.isArray(i.shorts) && i.shorts.length) L.push("", "IDEA SHORTS", ...i.shorts.map((x, k) => `${k + 1}. ${x.title}\n   Hook: ${x.hook}\n   ${x.beat}`));
+    if(Array.isArray(i.faq) && i.faq.length) L.push("", "SOALAN LAZIM", ...i.faq.map(x => `S: ${x.q}\nJ: ${x.a}`));
+    L.push("", "DESKRIPSI YOUTUBE", descText(i));
+    if(Array.isArray(s.tags)) L.push("", "TAG", s.tags.join(", "));
+    if(Array.isArray(s.hashtags)) L.push("", "HASHTAG", s.hashtags.join(" "));
+    if(Array.isArray(s.thumbs)) L.push("", "TEKS THUMBNAIL", ...s.thumbs);
+    const src = (Array.isArray(i.sources) ? i.sources : []).filter(x => safeUrl(x.url));
+    if(src.length) L.push("", "SUMBER", ...src.map(x => `• ${x.name}: ${x.url}`));
+    return L.join("\n");
   }
   function renderSheet(){
     const el = $("sheet"), it = state.sheet ? findItem(state.sheet) : null;
     if(!it){ el.hidden = true; el.innerHTML = ""; document.body.classList.remove("sheet-open"); return; }
     const top = el.scrollTop; el.hidden = false; document.body.classList.add("sheet-open"); el.innerHTML = sheetHtml(it); el.scrollTop = top;
   }
-  function openSheet(id, tab){ if(!findItem(id)) return; if(tab) state.dtab[id] = tab; const was = !!state.sheet; state.sheet = id; renderSheet(); $("sheet").scrollTop = 0; if(!was){ try{ history.pushState({ sheet: id }, ""); }catch(e){} } }
-  function closeSheet(fromPop){ if(!state.sheet) return; state.sheet = null; renderSheet(); if(!fromPop && history.state && history.state.sheet){ try{ history.back(); }catch(e){} } }
+  function openSheet(id, tab){
+    if(!findItem(id)) return; if(tab) state.dtab[id] = tab; const was = !!state.sheet; state.sheet = id; state.paneAnim = was ? "fade" : ""; renderSheet(); state.paneAnim = "";
+    const el = $("sheet"); el.scrollTop = 0;
+    if(!was){ el.classList.remove("anim-in"); void el.offsetWidth; el.classList.add("anim-in"); try{ history.pushState({ sheet: id }, ""); }catch(e){} }
+    document.querySelectorAll(".item.sel").forEach(x => x.classList.remove("sel")); const r = $("it-" + id); if(r) r.classList.add("sel");
+  }
+  function switchTab(dir){
+    if(!state.sheet) return; const ks = DTABS.map(t => t[0]), cur = state.dtab[state.sheet] || "ringkas", n = ks.indexOf(cur) + dir;
+    if(n < 0 || n >= ks.length) return; state.dtab[state.sheet] = ks[n]; state.paneAnim = dir > 0 ? "fromR" : "fromL"; renderSheet(); state.paneAnim = ""; $("sheet").scrollTop = 0; buzz(6);
+  }
+  function closeSheet(fromPop){ if(!state.sheet) return; state.sheet = null; renderSheet(); document.querySelectorAll(".item.sel").forEach(x => x.classList.remove("sel")); $("sheet").style.transform = ""; if(!fromPop && history.state && history.state.sheet){ try{ history.back(); }catch(e){} } }
   window.addEventListener("popstate", () => { if(state.sheet) closeSheet(true); });
   function appRow(a){
     const segIcon = (SEGS.find(s => s[0] === a.seg) || [])[2];
@@ -803,9 +911,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(state.hideDone) list = list.filter(i => !state.done[i.id]);
     const pickHtml = state.viewing === "latest" && list.length ? `<div class="swhint">Tip: leret topik ke kanan untuk rancang esok, ke kiri untuk tanda dah upload.</div>` : "";
     const head = { kewangan:"Topik kewangan", tutorial:"Topik tutorial", emas:"Peluang emas" }[state.filter] || "Semua topik";
-    return `<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.</div>` : ""}
+    return `<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.${qi("emas")}</div>` : ""}
       <div class="list">${list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`}</div>
-      <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Nombor = skor potensi</span></div>
+      <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Bulatan = skor potensi${qi("skor")}</span></div>
       <div class="more"><label><input type="checkbox" id="hideDone"${state.hideDone ? " checked" : ""}> Sembunyi yang dah buat</label>
       ${state.dates.length ? `<span><label for="histSel">Senarai </label><select id="histSel"><option value="latest">Terkini</option>${state.dates.map(d => `<option value="${d}"${state.viewing === d ? " selected" : ""}>${d}</option>`).join("")}</select></span>` : ""}</div>`;
   }
@@ -846,7 +954,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const ss = SEASON.map(e => { let w = new Date(Date.UTC(e.y || t.getUTCFullYear(), e.m - 1, e.d)); if(!e.y && days(t, w) < 0) w = new Date(Date.UTC(t.getUTCFullYear() + 1, e.m - 1, e.d)); return { e, n: days(t, w) }; })
       .filter(x => x.n >= 0 && x.n - (x.e.lead || 10) <= 14).sort((a, b) => a.n - b.n);
     if(!rows.length && !ss.length) return "";
-    return `<h2 class="sec">Ramalan minggu depan</h2><div class="note">Topik yang dijangka naik, berdasarkan trend skor, tarikh penting dan saingan. Ini anggaran, bukan jaminan.</div>
+    return `<h2 class="sec">Ramalan minggu depan${qi("ramalan")}</h2><div class="note">Topik yang dijangka naik, berdasarkan trend skor, tarikh penting dan saingan. Ini anggaran, bukan jaminan.</div>
       <div class="fc">${rows.map((r, n) => `<button class="fci" data-goto="${esc(r.i.id)}"><b>${n + 1}. ${esc(r.i.title)}</b><span class="why2">${r.why.map(w => `<span class="${w[1]}">${esc(w[0])}</span>`).join("")}</span></button>`).join("")}
       ${ss.map(x => `<div class="fci"><b>${esc(x.e.label)}</b><span class="why2"><span class="hot">${cdText(x.n, x.e.approx)}</span><span>Bermusim</span></span><span class="note">${esc(x.e.note)}</span></div>`).join("")}</div>`;
   }
@@ -870,7 +978,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     return `<div class="pi${dn ? " done" : ""}"><button class="pt2" ${ok ? `data-goto="${e}"` : "disabled"}>${esc(planTitle(id))}</button>${dn ? "" : `<button class="mini" data-done="${e}">Dah upload</button>`}<button class="mini" data-unplan="${e}" aria-label="Buang dari plan">Buang</button></div>`; }
   function doneArr(){ return Object.entries(state.done).map(([id, v]) => ({ id, ...(typeof v === "object" ? v : {}) })).sort((a,b) => String(b.d || "").localeCompare(String(a.d || ""))); }
   function targetHtml(st){
-    return `<div class="target"><div class="tg"><span><b>${st.week} / ${state.target}</b> video minggu ni${st.week >= state.target ? " · Target capai!" : ""}</span>
+    return `<div class="target"><div class="tg"><span><b>${st.week} / ${state.target}</b> video minggu ni${st.week >= state.target ? " · Target capai!" : ""}${qi("target")}</span>
         <span class="ctl"><button data-tgt="-1" aria-label="Kurangkan target">−</button><span class="note">target</span><button data-tgt="1" aria-label="Tambah target">+</button></span></div>
         <div class="bar${st.week >= state.target ? " full" : ""}"><i style="width:${Math.min(100, Math.round(st.week / state.target * 100))}%"></i></div></div>`;
   }
@@ -882,7 +990,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const planned = plan.filter(([id, p]) => p.d >= tIso && p.d <= endIso).length;
     if(state.ptab === "prestasi"){
       return `<h2 class="sec">Prestasi</h2>
-      <div class="stat"><div><b>${st.streak}</b><span>minggu berturut-turut upload</span></div><div><b>${st.month}</b><span>video bulan ${BLN[t.getUTCMonth()]}</span></div><div><b>${doneList.length}</b><span>jumlah video</span></div></div>
+      <div class="stat"><div><b>${st.streak}</b><span>minggu berturut-turut upload${qi("streak")}</span></div><div><b>${st.month}</b><span>video bulan ${BLN[t.getUTCMonth()]}</span></div><div><b>${doneList.length}</b><span>jumlah video</span></div></div>
       <div><div class="lbl">8 minggu terakhir</div><div class="wk" role="img" aria-label="Bilangan video setiap minggu">${st.weeks.map(w => `<div><span>${w.n || ""}</span><span class="b${w.n === 0 ? " zero" : w.n >= state.target ? " hit" : ""}" style="height:${w.n ? Math.max(8, Math.round(w.n / st.max * 40)) : 2}px"></span><span>${w.lbl}</span></div>`).join("")}</div></div>
       <h2 class="sec">Video dah upload (${doneList.length})</h2>
       ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d), ok = !!findItem(x.id);
@@ -955,7 +1063,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const g = {}; w.forEach(x => { const k = x.g || groupOf(findItem(x.id)); g[k] = g[k] || { e: 0, n: 0, ev: 0, v: 0 }; g[k].e += x.e; g[k].n++; if(typeof x.v === "number" && x.v > 0){ g[k].ev += x.e; g[k].v += x.v; } });
     const rows = Object.entries(g).map(([k, o]) => ({ k, e: o.e, n: o.n, rpm: o.v ? o.ev / o.v * 1000 : null })).sort((a, b) => (b.rpm ?? -1) - (a.rpm ?? -1) || b.e - a.e);
     const tot = w.reduce((a, x) => a + x.e, 0), max = Math.max(0.01, ...rows.map(r => r.rpm ?? 0)), top = rows.find(r => r.rpm !== null);
-    return `<h2 class="sec">Pendapatan ikut jenis topik</h2>
+    return `<h2 class="sec">Pendapatan ikut jenis topik${qi("rpm")}</h2>
       <div class="stat"><div><b>${rm(tot)}</b><span>jumlah pendapatan (${w.length} video)</span></div><div><b>${rm(tot / w.length)}</b><span>purata setiap video</span></div></div>
       ${top && rows.filter(r => r.rpm !== null).length > 1 ? `<div class="best"><b>${esc(top.k)}</b>RPM ${rm(top.rpm)} setiap 1,000 views, paling tinggi untuk channel kau.</div>` : ""}
       <div class="perf">${rows.map(r => `<div class="pr"><span>${esc(r.k)}</span><b>${r.rpm !== null ? "RPM " + rm(r.rpm) : rm(r.e)}</b>${r.rpm !== null ? `<div class="bar"><i style="width:${Math.round(r.rpm / max * 100)}%"></i></div>` : ""}<small>${r.n} video · jumlah ${rm(r.e)}${r.rpm === null ? " · isi views untuk kira RPM" : ""}</small></div>`).join("")}</div>`;
@@ -1048,7 +1156,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   }
   function viewCari(){
     const q = state.q.trim().toLowerCase(), ar = archived();
-    if(!q) return `<div class="empty">Taip nama app, bantuan atau kata kunci. Contoh: TNG, STR, pasport, emas, scam.</div>` +
+    if(!q) return searchChips() +
       (ar.length ? `<h2 class="grp">ARKIB · TOPIK YANG DAH KELUAR SENARAI (${ar.length})</h2><div class="note">Sesuai untuk video "update" atau "apa jadi sekarang". Semak berita terkini dulu, fakta mungkin dah berubah.</div><div class="list">${ar.map(itemHtml).join("")}</div>` : state.archive === null ? `<div class="note">Memuatkan arkib…</div>` : "");
     const re = new RegExp("(^|[^a-z0-9])" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
     const hit = o => re.test(JSON.stringify([o.title, o.name, o.what, o.why, o.angle, o.ideas, o.app && o.app.name, o.seo && o.seo.keywords]).toLowerCase());
@@ -1059,7 +1167,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
 
   function render(){
     renderNav(); renderHeader();
-    if(!state.data){ $("view").innerHTML = `<div class="empty">Memuatkan…</div>`; return; }
+    if(!state.data){ $("view").innerHTML = `<div class="sk h"><i></i></div>` + Array.from({length:5}, () => `<div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>`).join(""); return; }
     $("view").innerHTML = state.view === "hari" ? viewHari() : state.view === "tarikh" ? viewTarikh() : state.view === "plan" ? viewPlan() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
     const hd = $("hideDone"); if(hd) hd.addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
     const hs = $("histSel"); if(hs) hs.addEventListener("change", onHist);
@@ -1107,16 +1215,26 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     saveDone(); render(); buzz(20);
     toast(prev ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓", () => { if(prev) state.done[id] = prev; else delete state.done[id]; saveDone(); render(); });
   }
-  let sw = null, ptr = null, suppressClick = false, refreshing = false;
+  let sw = null, ptr = null, suppressClick = false, refreshing = false, sg = null;
+  const wide = () => matchMedia("(min-width: 900px)").matches;
   function ptrShow(px, text){ const el = $("ptr"); if(px <= 0 && !text){ el.style.transition = "transform .2s"; el.style.transform = ""; return; } el.style.transition = text ? "transform .2s" : "none"; el.style.transform = `translateY(${Math.min(px, 64) - 64}px)`; $("ptrT").textContent = text || (px >= 56 ? "Lepas untuk muat semula" : "Tarik untuk muat semula"); }
   document.addEventListener("touchstart", e => {
     if(e.touches.length !== 1 || $("onbWrap").firstChild) return;
     const t = e.touches[0], row = e.target.closest(".item[data-sw] > .row");
+    sg = null;
+    if(state.sheet && e.target.closest("#sheet") && !e.target.closest("select,input,textarea,.dtabs,.abar")){
+      sg = { x: t.clientX, y: t.clientY, dx: 0, dy: 0, edge: t.clientX < 28 && !wide(), on: false };
+    }
     sw = row ? { row, item: row.parentElement, id: row.dataset.open, x: t.clientX, y: t.clientY, dx: 0, on: false } : null;
     ptr = (!state.sheet && !refreshing && window.scrollY <= 0) ? { y: t.clientY, d: 0 } : null;
   }, { passive: true });
   document.addEventListener("touchmove", e => {
     const t = e.touches[0];
+    if(sg){ sg.dx = t.clientX - sg.x; sg.dy = t.clientY - sg.y;
+      if(!sg.on && Math.abs(sg.dx) > 14 && Math.abs(sg.dx) > Math.abs(sg.dy) * 1.6) sg.on = true;
+      if(!sg.on && Math.abs(sg.dy) > 14) sg = null;
+      if(sg && sg.on && sg.edge && sg.dx > 0){ const el = $("sheet"); el.style.transition = "none"; el.style.transform = `translateX(${sg.dx}px)`; }
+    }
     if(sw){ const dx = t.clientX - sw.x, dy = t.clientY - sw.y;
       if(!sw.on){ if(Math.abs(dx) > 14 && Math.abs(dx) > Math.abs(dy) * 1.6){ sw.on = true; ptr = null; ptrShow(0); } else if(Math.abs(dy) > 12) sw = null; }
       if(sw && sw.on){ sw.dx = dx; sw.row.style.transition = "none"; sw.row.style.transform = `translateX(${Math.max(-130, Math.min(130, dx))}px)`; sw.item.classList.toggle("sw-go", Math.abs(dx) > 90); }
@@ -1124,6 +1242,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(ptr){ const d = (t.clientY - ptr.y) * 0.5; if(d <= 0 || window.scrollY > 0){ ptr.d = 0; ptrShow(0); return; } ptr.d = d; ptrShow(d); }
   }, { passive: true });
   document.addEventListener("touchend", () => {
+    if(sg && sg.on){ const el = $("sheet");
+      if(sg.edge){ el.style.transition = "transform .2s"; if(sg.dx > 100){ el.style.transform = "translateX(100%)"; setTimeout(() => { closeSheet(); el.style.transition = ""; el.style.transform = ""; }, 180); } else el.style.transform = ""; }
+      else if(Math.abs(sg.dx) > 70) switchTab(sg.dx < 0 ? 1 : -1);
+      suppressClick = true; setTimeout(() => suppressClick = false, 300); }
+    sg = null;
     if(sw && sw.on){ suppressClick = true; setTimeout(() => suppressClick = false, 350);
       const { row, item, id, dx } = sw; row.style.transition = "transform .2s"; row.style.transform = ""; item.classList.remove("sw-go");
       if(dx > 90) swipePlan(id); else if(dx < -90) swipeDone(id); }
@@ -1139,6 +1262,31 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       render(); toast(changed ? "Data baru: " + (d.updated_label || d.date) : "Dah paling terkini (" + (d.updated_label || d.date) + ")"); buzz();
     }catch(e){ toast("Tak dapat muat semula. Semak internet."); }
     refreshing = false; ptrShow(0);
+  }
+  /* Info ? */
+  function showInfo(k){ const x = INFO[k]; if(!x) return; $("infoWrap").innerHTML = `<div class="infob" data-infobg="1" role="dialog" aria-modal="true" aria-label="${esc(x[0])}"><div class="ocard"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p><div class="acts" style="justify-content:flex-end;margin:0"><button class="btn pri" data-infoclose="1" style="background:var(--accent);color:#fff;border-color:var(--accent)">Faham</button></div></div></div>`; }
+  document.addEventListener("click", e => { if(e.target.matches && e.target.matches("[data-infobg]")) $("infoWrap").innerHTML = ""; });
+  /* Carian: terkini, popular, suara */
+  const POPULAR = ["STR", "scam", "TNG", "KWSP", "MyDigital ID", "PTPTN", "banjir", "cukai", "ASNB", "pasport"];
+  function recents(){ try{ const a = JSON.parse(localStorage.getItem("rt-recent") || "[]"); return Array.isArray(a) ? a : []; }catch(e){ return []; } }
+  function saveRecent(q){ q = String(q || "").trim(); if(q.length < 2) return; const a = [q].concat(recents().filter(x => x.toLowerCase() !== q.toLowerCase())).slice(0, 6); try{ localStorage.setItem("rt-recent", JSON.stringify(a)); }catch(e){} }
+  function searchChips(){
+    const r = recents();
+    return (r.length ? `<div><div class="lbl">Carian terkini</div><div class="qchips">${r.map(x => `<button class="rc" data-qset="${esc(x)}">${esc(x)}</button>`).join("")}</div></div>` : "") +
+      `<div><div class="lbl">Popular</div><div class="qchips">${POPULAR.map(x => `<button data-qset="${esc(x)}">${esc(x)}</button>`).join("")}</div></div>`;
+  }
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec = null;
+  if(SR){ $("qmic").hidden = false;
+    $("qmic").addEventListener("click", () => {
+      if(rec){ try{ rec.stop(); }catch(e){} return; }
+      try{ rec = new SR(); rec.lang = "ms-MY"; rec.interimResults = false; rec.maxAlternatives = 1;
+        rec.onresult = ev => { const t = (ev.results[0] && ev.results[0][0] && ev.results[0][0].transcript || "").trim(); if(t){ $("q").value = t; $("qx").hidden = false; state.q = t; saveRecent(t); render(); } };
+        rec.onend = () => { rec = null; $("qmic").classList.remove("on"); };
+        rec.onerror = ev => { if(ev.error === "not-allowed") toast("Benarkan akses mikrofon untuk carian suara."); };
+        rec.start(); $("qmic").classList.add("on"); toast("Cakap sekarang… 🎤"); buzz();
+      }catch(e){ rec = null; toast("Carian suara tak disokong di browser ni."); }
+    });
   }
   /* Panduan kali pertama */
   const ONB = [
@@ -1157,7 +1305,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function saveDone(){ try{ localStorage.setItem("rt-done", JSON.stringify(state.done)); }catch(e){} }
   function openTopic(id, tab){ openSheet(id, tab || "ringkas"); }
   function loadArchive(){ if(state.archive !== null || state.archiveLoading) return; state.archiveLoading = true; getJson("history/archive.json").then(a => { state.archive = a; }).catch(() => { state.archive = { items: [] }; }).finally(() => { state.archiveLoading = false; if(state.view === "cari") render(); }); }
-  function setView(v){ if(state.sheet) closeSheet(); if(v === "topik") state.topikSeen = true; if(v === "cari") loadArchive(); state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
+  function setView(v){ const vw = $("view"); vw.classList.remove("fade"); void vw.offsetWidth; vw.classList.add("fade"); if(state.sheet) closeSheet(); if(v === "topik") state.topikSeen = true; if(v === "cari") loadArchive(); state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
 
   document.addEventListener("click", ev => { if(suppressClick){ ev.preventDefault(); ev.stopPropagation(); } }, true);
   document.addEventListener("click", ev => {
@@ -1175,7 +1323,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.pick){ openTopic(d.pick, "idea"); }
     else if(d.goto){ openTopic(d.goto, "ringkas"); }
     else if(d.toggle){ state.open[d.toggle] = !state.open[d.toggle]; b.setAttribute("aria-expanded", String(state.open[d.toggle])); const el = $("d-" + d.toggle); if(el) el.hidden = !state.open[d.toggle]; }
-    else if(d.dtab){ state.dtab[d.for] = d.dtab; if(state.sheet === d.for){ renderSheet(); $("sheet").scrollTop = 0; } }
+    else if(d.dtab){ const ks = DTABS.map(t => t[0]), dir = ks.indexOf(d.dtab) - ks.indexOf(state.dtab[d.for] || "ringkas"); state.dtab[d.for] = d.dtab; if(state.sheet === d.for){ state.paneAnim = dir > 0 ? "fromR" : dir < 0 ? "fromL" : ""; renderSheet(); state.paneAnim = ""; $("sheet").scrollTop = 0; } }
+    else if(d.copyall){ const it = findItem(d.copyall); if(it) copy(allText(it)); }
+    else if(d.info){ showInfo(d.info); }
+    else if(d.infoclose){ $("infoWrap").innerHTML = ""; }
+    else if(d.qset != null){ $("q").value = d.qset; $("qx").hidden = !d.qset; state.q = d.qset; saveRecent(d.qset); render(); }
     else if(d.copy != null){ copy(d.copy); }
     else if(d.prompt){ const it = findItem(d.prompt); if(it) copy(buildPrompt(it)); }
     else if(d.done){ const id = d.done, was = !!state.done[id]; if(was) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); buzz(); toast(was ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓"); }
@@ -1202,7 +1354,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   $("searchBtn").innerHTML = svg("search");
   $("searchBtn").addEventListener("click", () => setView(state.view === "cari" ? prevView : "cari"));
   let qT = null;
-  $("q").addEventListener("input", e => { $("qx").hidden = !e.target.value; clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+  let qR = null;
+  $("q").addEventListener("input", e => { $("qx").hidden = !e.target.value; clearTimeout(qT); clearTimeout(qR); qT = setTimeout(() => { state.q = e.target.value; render(); }, 120); qR = setTimeout(() => saveRecent(e.target.value), 1500); });
   $("qx").addEventListener("click", () => { $("q").value = ""; $("qx").hidden = true; state.q = ""; render(); $("q").focus(); });
 
   async function getJson(p){ const r = await fetch(p + "?t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
@@ -1223,10 +1376,13 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     try{ const n = Number(localStorage.getItem("rt-target")); if(n >= 1 && n <= 14) state.target = n; }catch(e){}
     try{ const r = localStorage.getItem("rt-fz"), f = Number(r); if(r !== null && r !== "" && f >= 0 && f < FZ.length) fzI = f; }catch(e){} applyFz();
     try{ if(!localStorage.getItem("rt-onb")){ onbI = 0; renderOnb(); } }catch(e){}
+    let startView = null; try{ const v = new URLSearchParams(location.search).get("v"); if(v && (VIEWS.some(x => x[0] === v) || v === "cari")) startView = v; }catch(e){}
+    if(startView && startView !== "cari") state.view = startView;
     render();
     try{ state.latest = state.data = await getJson("data.json"); }
     catch(e){ $("view").innerHTML = `<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>`; return; }
     initSeen();
+    if(startView === "cari"){ render(); setView("cari"); }
     getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
     try{ const idx = await getJson("history/index.json"); state.dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== state.latest.date).sort().reverse().slice(0,14); }catch(e){}
     render();
