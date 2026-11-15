@@ -1,6 +1,6 @@
 {
- "date": "2026-11-15",
- "updated_label": "15 Nov 2026, 7 petang",
+ "date": "2026-11-16",
+ "updated_label": "16 Nov 2026, 7 pagi",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -28,7 +28,7 @@
    "score": 97,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
-    "hook": "Isnin ni, 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas. Jom semak dalam 5 minit.",
+    "hook": "Hari ni, 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas. Jom semak dalam 5 minit.",
     "points": [
      "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
      "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
@@ -96,11 +96,11 @@
    ],
    "status": "panas",
    "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
-   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150); penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November, dan yang tiada akaun bank boleh tunai di BSN. Esok (16 Nov) bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
+   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150), dan yang tiada akaun bank boleh tunai di BSN. Hari ini, Isnin 16 November, bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
    "shorts": [
     {
-     "title": "STR Masuk Isnin Ni! Korang Layak?",
-     "hook": "Isnin ni 16 November, duit STR masuk untuk satu kumpulan ni. Korang termasuk tak?",
+     "title": "STR Masuk Hari Ni! Korang Layak?",
+     "hook": "Hari ni 16 November, duit STR masuk untuk satu kumpulan ni. Korang termasuk tak?",
      "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN."
     },
     {
@@ -117,7 +117,7 @@
    "faq": [
     {
      "q": "Bila bayaran STR untuk penerima baharu masuk?",
-     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November 2026."
+     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai hari ini, Isnin 16 November 2026."
     },
     {
      "q": "Siapa wajib kemas kini STR 2027?",
@@ -167,6 +167,158 @@
    ]
   },
   {
+   "angle": "Tutorial langkah demi langkah aktifkan dan beli pas dalam app KTM Mobile, dengan kiraan jimat ikut laluan sebenar. Tunjuk juga pilihan kiosk stesen untuk yang nak lulus serta-merta.",
+   "app": {
+    "name": "KTM Mobile (KTMB)",
+    "url": "https://www.ktmb.com.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "16 Nov 2026",
+    "level": "tinggi",
+    "note": "Cuma jumpa satu Shorts berita Bajet tentang MyKomuter50; belum ada tutorial BM langkah demi langkah aktifkan pas dalam app KTM Mobile."
+   },
+   "deadline": "Pengaktifan dibuka 16 Nov; pas sah mulai 1 Dis 2026",
+   "faq": [
+    {
+     "a": "Pengaktifan dibuka 16 November 2026 dan pas berkuat kuasa mulai 1 Disember 2026.",
+     "q": "MyKomuter50 boleh mula guna bila?"
+    },
+    {
+     "a": "RM50 untuk 30 hari, naik tanpa had dalam kategori laluan yang dipilih.",
+     "q": "Berapa harga dan berapa lama sah?"
+    },
+    {
+     "a": "Warganegara Malaysia 7 tahun ke atas dengan MyKad atau MyKid, yang tidak memegang pas MyRailLife.",
+     "q": "Siapa boleh mohon?"
+    },
+    {
+     "a": "Tak semestinya; boleh muat naik MyKad dalam app KTM Mobile atau KITS Style (sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "q": "Kena pergi stesen ke?"
+    },
+    {
+     "a": "Utara (Padang Besar–Butterworth, Butterworth–Ipoh), Lembah Klang (Tanjung Malim–Pelabuhan Klang, Batu Caves–Pulau Sebang/Tampin) dan Shuttle Selatan (Paloh–JB Sentral, Kempas Baru–Pasir Gudang).",
+     "q": "Laluan mana yang termasuk?"
+    }
+   ],
+   "icon": "card",
+   "id": "mykomuter50-ktm",
+   "ideas": [
+    "Cara Aktifkan Pas MyKomuter50 dalam App KTM Mobile",
+    "RM416 Jadi RM50? Kira Jimat Pas MyKomuter50",
+    "MyKomuter50 vs My50: Mana Sesuai Untuk Korang?",
+    "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
+    "5 Kesilapan Bila Daftar Pas MyKomuter50"
+   ],
+   "prev_score": null,
+   "score": 89,
+   "script": {
+    "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
+    "hook": "Korang naik KTM Komuter hari-hari? Mulai hari ni korang boleh aktifkan pas RM50 untuk naik tanpa had sebulan, dan ada laluan yang jimat sampai ratusan ringgit.",
+    "points": [
+     "Apa itu MyKomuter50: pas 30 hari pada harga RM50, naik tanpa had untuk perkhidmatan Komuter terpilih, sah mulai 1 Disember 2026.",
+     "Tiga kategori laluan, setiap satu RM50: Utara, Lembah Klang dan Shuttle Selatan.",
+     "Siapa layak: warganegara 7 tahun ke atas dengan MyKad atau MyKid, yang belum ada pas MyRailLife.",
+     "Cara aktifkan: muat naik MyKad dalam KTM Mobile atau KITS Style (kelulusan sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "Contoh jimat: Tanjung Malim–KL Sentral kira-kira RM416 sebulan jadi RM50; KTMB sarankan sahkan, aktifkan dan beli pada hari yang sama."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#MyKomuter50",
+     "#KTMKomuter",
+     "#TipsJimat",
+     "#PasRM50",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "mykomuter50 cara aktifkan",
+     "pas komuter rm50",
+     "ktm mobile mykomuter50",
+     "mykomuter50 daftar",
+     "pas bulanan ktm komuter"
+    ],
+    "tags": [
+     "mykomuter50",
+     "ktm komuter",
+     "pas rm50",
+     "ktmb",
+     "ktm mobile",
+     "kits style",
+     "tips jimat",
+     "pengangkutan awam"
+    ],
+    "thumbs": [
+     "KOMUTER RM50 SEBULAN",
+     "JIMAT RM366?",
+     "CARA AKTIFKAN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk kiraan tambang sebulan berbanding pas RM50, dan sebut penjimatan sehingga 88% bergantung laluan.",
+     "hook": "Kalau korang ulang-alik Tanjung Malim–KL Sentral, korang mungkin bayar RM416 sebulan.",
+     "title": "RM416 Jadi RM50? Kira Jimat Komuter"
+    },
+    {
+     "beat": "Rakaman skrin KTM Mobile: muat naik MyKad, tunggu kelulusan sehingga 3 hari bekerja, kemudian beli pas 30 hari.",
+     "hook": "Tak payah beratur kat kaunter, korang boleh buat dalam app.",
+     "title": "Aktifkan MyKomuter50 Guna Phone"
+    },
+    {
+     "beat": "Ingatkan kelulusan dalam app boleh ambil 3 hari bekerja; kalau nak segera, imbas MyKad di kiosk stesen. Pemegang pas MyRailLife pula tak layak.",
+     "hook": "Nak guna pas 1 Disember? Jangan buat silap ni.",
+     "title": "Silap Ni Buat Pas Korang Lambat"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa harga pas MyKomuter50 untuk 30 hari?",
+     "o": [
+      "RM30",
+      "RM50",
+      "RM100"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Pas MyKomuter50 mula berkuat kuasa bila?",
+     "o": [
+      "16 November 2026",
+      "1 Disember 2026",
+      "1 Januari 2027"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Siapa TAK layak mohon MyKomuter50?",
+     "o": [
+      "Pemegang pas MyRailLife",
+      "Pelajar 7 tahun ke atas",
+      "Pekerja yang ulang-alik"
+     ],
+     "a": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "Lowyat.NET (12 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409695/ktmb-mykomuter50-pass/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/budget-2027/budget-2027-my50-stays-new-mykomuter50-pass-for-ktm-komuter-riders.html"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/10/12/mykomuter50-pass-for-unlimited-ktm-rides-could-land-by-dec-1-loke-says/238786"
+    }
+   ],
+   "status": "panas",
+   "title": "Pas MyKomuter50: RM50 sebulan naik KTM Komuter tanpa had",
+   "why": "KTMB umum pengaktifan pas MyKomuter50 bermula 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen."
+  },
+  {
    "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
    "app": {
     "name": "Jabatan Imigresen Malaysia",
@@ -187,8 +339,8 @@
     "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
     "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
    ],
-   "prev_score": 89,
-   "score": 87,
+   "prev_score": 87,
+   "score": 84,
    "script": {
     "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
     "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
@@ -314,289 +466,286 @@
    ]
   },
   {
-   "angle": "Penjelasan siapa dapat berapa, bila masuk, dan tutorial semak baki SARA di MyKad. Jangan janji tarikh tepat kerana kerajaan belum umum.",
-   "app": {
-    "name": "Portal SARA",
-    "url": "https://www.sara.gov.my"
-   },
+   "angle": "Panduan bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, dan beza BWI RM1,000 dengan bantuan khas Selangor. Ingatkan kriteria bantuan khas akan diumumkan agensi pelaksana.",
    "cat": "kewangan",
    "competition": {
-    "checked": "13 Nov 2026",
-    "level": "tinggi",
-    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027."
+    "checked": "16 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video BM tentang BWI RM1,000 dan log masuk MyIBJKM, tapi kebanyakannya umum; belum jumpa video yang terangkan bantuan khas Selangor RM2,500 + RM500."
    },
-   "icon": "card",
-   "id": "sara-madani-2027",
-   "ideas": [
-    "RM200 SARA 2027 Masuk MyKad: Siapa Layak & Bila?",
-    "SARA Kini Boleh Guna di Pasar Tani: Cara Guna",
-    "Penerima STR Dapat RM150 Sebulan? Ini Penjelasannya",
-    "Cara Semak Baki SARA Dalam MyKad",
-    "Barang Apa Boleh Beli Guna SARA? Senarai Penuh"
+   "faq": [
+    {
+     "a": "BWI ialah RM1,000 bagi setiap ketua isi rumah yang layak untuk setiap kejadian bencana, melalui NADMA.",
+     "q": "Berapa bantuan banjir dari kerajaan?"
+    },
+    {
+     "a": "Daftar dalam sistem MyIBJKM, contohnya dengan imbas kod QR di pusat pemindahan sementara.",
+     "q": "Macam mana nak daftar?"
+    },
+    {
+     "a": "Mangsa banjir Selangor yang terjejas teruk dan lama dipindahkan; kriteria dan cara penyaluran akan diumumkan agensi pelaksana.",
+     "q": "Siapa layak bantuan khas RM2,500?"
+    },
+    {
+     "a": "Tambahan kerajaan negeri Selangor yang menjadikan bantuan khas sekali bayar RM3,000 (RM2,500 persekutuan + RM500 negeri).",
+     "q": "RM500 Selangor tu apa?"
+    },
+    {
+     "a": "Boleh; BWI dibayar bagi setiap kejadian berasingan, sehingga empat kali setahun menurut RinggitPlus, tertakluk syarat NADMA.",
+     "q": "Kalau banjir dua kali, dapat dua kali ke?"
+    }
    ],
-   "prev_score": 84,
+   "icon": "aid",
+   "id": "bantuan-banjir-mtl-2026",
+   "ideas": [
+    "Rumah Kena Banjir? Cara Dapat Bantuan RM1,000",
+    "MyIBJKM: Cara Daftar Mangsa Banjir di PPS",
+    "Bantuan Banjir Selangor RM3,000: Siapa Layak?",
+    "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
+    "Musim Banjir: Persiapan Dokumen & Kewangan"
+   ],
+   "prev_score": null,
    "score": 83,
-   "script": {
-    "cta": "Simpan video ni dan share dalam group family. Subscribe, aku update bila tarikh bayaran diumumkan.",
-    "hook": "Bajet 2027 bagi RM100 SARA dua kali kepada rakyat 18 tahun ke atas. Korang layak ke? Jom tengok.",
-    "points": [
-     "Bukan penerima STR yang berumur 18 tahun ke atas dapat RM100 SARA MADANI dua kali.",
-     "Bayaran pertama sebelum Aidilfitri, kedua sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan.",
-     "Penerima STR dapat SARA sehingga RM150 sebulan, atau RM1,800 setahun.",
-     "SARA kini boleh guna di 216 pasar tani FAMA untuk barang basah.",
-     "Tunjuk cara semak baki SARA dalam MyKad."
-    ]
-   },
    "seo": {
     "hashtags": [
-     "#sara2027",
-     "#saramadani",
-     "#bajet2027",
-     "#mykad",
-     "#bantuankerajaan"
+     "#BantuanBanjir",
+     "#BWI",
+     "#MyIBJKM",
+     "#MusimBanjir",
+     "#ImranWafi"
     ],
     "keywords": [
-     "sara madani 2027",
-     "sara rm100 2027",
-     "siapa layak sara 2027",
-     "semak baki sara mykad",
-     "sara pasar tani"
+     "bantuan banjir rm1000",
+     "bantuan wang ihsan 2026",
+     "myibjkm daftar",
+     "bantuan banjir selangor rm2500",
+     "nadma bwi"
     ],
     "tags": [
-     "sara 2027",
-     "sara madani",
-     "sumbangan asas rahmah",
-     "mykad",
-     "bajet 2027",
-     "rm100",
+     "bantuan banjir",
+     "bwi",
+     "nadma",
+     "myibjkm",
+     "banjir selangor",
+     "monsun timur laut",
      "bantuan kerajaan",
-     "sara pasar tani"
+     "mangsa banjir"
     ],
     "thumbs": [
-     "RM200 MASUK MYKAD",
-     "SIAPA LAYAK?",
-     "SARA 2027"
+     "BANJIR? DAPAT RM1,000",
+     "SELANGOR RM3,000",
+     "DAFTAR MYIBJKM"
     ]
    },
-   "sources": [
-    {
-     "name": "SoyaCincau",
-     "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"
-    },
-    {
-     "name": "Bernama",
-     "url": "https://bernama.com/en/news.php?id=2621951"
-    }
-   ],
-   "status": "panas",
-   "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
-   "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA.",
    "shorts": [
     {
-     "title": "RM100 SARA Dua Kali: Korang Layak?",
-     "hook": "Umur 18 ke atas dan bukan penerima STR? Ni ada RM200 untuk korang tahun depan.",
-     "beat": "RM100 sebelum Aidilfitri, RM100 lagi sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan."
+     "beat": "Terangkan BWI RM1,000 untuk ketua isi rumah yang rumahnya dilanda banjir, dan pendaftaran melalui MyIBJKM, termasuk imbas kod QR di pusat pemindahan.",
+     "hook": "Rumah kena banjir, tapi tak tahu nak dapat bantuan kat mana?",
+     "title": "Rumah Banjir? Ni Bantuan RM1,000"
     },
     {
-     "title": "SARA Boleh Guna Di Pasar Tani",
-     "hook": "Ramai tak tahu SARA dalam MyKad boleh beli barang basah.",
-     "beat": "SARA boleh guna di 216 pasar tani FAMA. Terang cara bayar guna MyKad."
+     "beat": "Kira BWI RM1,000, bantuan khas persekutuan RM2,500 dan tambahan negeri RM500; ingatkan bantuan khas untuk yang terjejas teruk dan kriterianya diumumkan agensi pelaksana.",
+     "hook": "Mangsa banjir Selangor boleh dapat lebih dari satu bantuan. Jom kira.",
+     "title": "RM1,000 + RM2,500 + RM500 = ?"
     },
     {
-     "title": "Penerima STR Dapat SARA Berapa?",
-     "hook": "Penerima STR, SARA korang lain daripada orang lain.",
-     "beat": "Sehingga RM150 sebulan atau RM1,800 setahun ikut Bajet 2027. Ingatkan tunggu pengumuman rasmi."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Siapa layak RM100 SARA MADANI?",
-     "a": "Rakyat 18 tahun ke atas yang bukan penerima STR."
-    },
-    {
-     "q": "Bila RM100 tu masuk?",
-     "a": "Sekali sebelum Aidilfitri dan sekali sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan."
-    },
-    {
-     "q": "Penerima STR dapat SARA berapa?",
-     "a": "Sehingga RM150 sebulan, atau RM1,800 setahun, ikut Bajet 2027."
-    },
-    {
-     "q": "SARA boleh guna kat mana?",
-     "a": "Selain kedai yang menyertai, kini boleh guna di 216 pasar tani FAMA."
-    },
-    {
-     "q": "Kena mohon ke untuk dapat SARA?",
-     "a": "Tunggu pengumuman rasmi cara agihan; buat masa ini butiran pelaksanaan 2027 belum diumumkan."
+     "beat": "Ingatkan daftar awal di MyIBJKM dan pastikan maklumat lengkap; BWI dibayar terus ke akaun bank, dan yang tiada akaun boleh tunai di BSN.",
+     "hook": "Ramai mangsa banjir lambat dapat bantuan sebab satu benda ni.",
+     "title": "Silap Ni Buat Bantuan Banjir Lambat"
     }
    ],
    "quiz": [
     {
-     "q": "Berapa jumlah SARA MADANI untuk bukan penerima STR (18+)?",
+     "q": "Berapa Bantuan Wang Ihsan (BWI) untuk setiap ketua isi rumah mangsa banjir?",
      "o": [
-      "RM100 sekali",
-      "RM100 dua kali",
-      "RM500"
+      "RM500",
+      "RM1,000",
+      "RM2,500"
      ],
      "a": 1
     },
     {
-     "q": "Penerima STR dapat SARA sehingga berapa sebulan?",
+     "q": "Sistem untuk daftar mangsa banjir ialah…",
      "o": [
-      "RM50",
-      "RM100",
-      "RM150"
-     ],
-     "a": 2
-    },
-    {
-     "q": "SARA kini boleh guna di berapa pasar tani FAMA?",
-     "o": [
-      "100",
-      "216",
-      "500"
-     ],
-     "a": 1
-    }
-   ]
-  },
-  {
-   "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
-   "app": {
-    "name": "BNM Sahkan",
-    "url": "https://www.bnm.gov.my/sahkan"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "13 Nov 2026",
-    "level": "tinggi",
-    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama."
-   },
-   "icon": "shield",
-   "id": "scam-saman-pdrm-mybayar",
-   "ideas": [
-    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
-    "Cara Semak Link Palsu Dalam 10 Saat",
-    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
-    "Cara Semak Saman Sebenar (Bukan Dari SMS)",
-    "5 Scam Paling Banyak Hujung Tahun 2026"
-   ],
-   "prev_score": 77,
-   "score": 76,
-   "seo": {
-    "hashtags": [
-     "#scammalaysia",
-     "#awasscam",
-     "#samanpdrm",
-     "#penipuanonline",
-     "#mybayar"
-    ],
-    "keywords": [
-     "sms saman pdrm scam",
-     "mybayar palsu",
-     "scam saman rm150",
-     "cara semak link palsu",
-     "bnm sahkan"
-    ],
-    "tags": [
-     "scam malaysia",
-     "saman pdrm",
-     "mybayar",
-     "penipuan online",
-     "sms palsu",
-     "mycert",
-     "bnm sahkan",
-     "scam alert"
-    ],
-    "thumbs": [
-     "JANGAN KLIK!",
-     "SAMAN PALSU RM150",
-     "SCAM TERBARU"
-    ]
-   },
-   "sources": [
-    {
-     "name": "ProductNation",
-     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
-    },
-    {
-     "name": "The Star (12 Nov 2026)",
-     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
-    }
-   ],
-   "status": "panas",
-   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
-   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan. Pada 12 Nov, Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket scam pusat panggilan dan tahan 932 orang, serta ingatkan mangsa hubungi NSRC 997 segera.",
-   "shorts": [
-    {
-     "title": "SMS Saman RM150 Ni SCAM",
-     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
-     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS."
-    },
-    {
-     "title": "Semak Link Dalam 10 Saat",
-     "hook": "Sebelum klik apa-apa link, buat ni dulu.",
-     "beat": "Tunjuk cara semak di bnm.gov.my/sahkan dan tengok alamat laman betul-betul."
-    },
-    {
-     "title": "Dah Terklik Link Scam? Buat Ni",
-     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
-     "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie."
-    }
-   ],
-   "faq": [
-    {
-     "q": "SMS saman PDRM RM150 tu betul ke?",
-     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP."
-    },
-    {
-     "q": "Macam mana nak semak saman sebenar?",
-     "a": "Semak melalui app atau portal rasmi sendiri, bukan melalui link dalam SMS."
-    },
-    {
-     "q": "Kat mana nak semak link mencurigakan?",
-     "a": "BNM sediakan semakan di bnm.gov.my/sahkan."
-    },
-    {
-     "q": "Dah terisi maklumat kad, nak buat apa?",
-     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997."
-    },
-    {
-     "q": "Polis ada buat tindakan ke?",
-     "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?",
-     "o": [
-      "RM50",
-      "RM150",
-      "RM300"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?",
-     "o": [
-      "MyCERT",
-      "JPJ",
-      "LHDN"
+      "MyIBJKM",
+      "MySTR",
+      "MyGOV"
      ],
      "a": 0
     },
     {
-     "q": "Nombor talian NSRC untuk mangsa scam ialah…",
+     "q": "Jumlah bantuan khas sekali bayar untuk mangsa terjejas teruk di Selangor?",
      "o": [
-      "999",
-      "997",
-      "991"
+      "RM2,500",
+      "RM3,000",
+      "RM3,500"
      ],
      "a": 1
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/bm/am/news.php?id=2631985"
+    },
+    {
+     "name": "RinggitPlus (10 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-flood-aid-reaches-rm3000-with-state-top-up.html"
+    },
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2632004"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/09/anwar-announces-rm2500-cash-aid-for-eligible-selangor-flood-victims/242601"
+    },
+    {
+     "name": "Sinar Harian",
+     "url": "https://www.sinarharian.com.my/article/755869/berita/nasional/mtl-bantuan-wang-ihsan-bencana-disalur-setiap-tiga-bulan"
+    }
+   ],
+   "status": "panas",
+   "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
+   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak, dan MetMalaysia keluarkan amaran hujan berterusan untuk Kelantan, Terengganu, Pahang dan Sabah (Bernama, 9 Nov). Ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di sistem MyIBJKM. Pada 9 Nov, PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor dan kerajaan negeri tambah RM500, jadi RM3,000 sekali bayar (RinggitPlus, 10 Nov)."
+  },
+  {
+   "angle": "Tutorial skrin telefon: daftar eGUMIS, semak nama sendiri dan ahli keluarga, dan cara hantar tuntutan. Selitkan amaran JANM tak pernah hantar e-mel pemakluman dan jangan bayar 'ejen' untuk tuntut.",
+   "app": {
+    "name": "eGUMIS (JANM)",
+    "url": "https://egumis.anm.gov.my/"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "15 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada banyak tutorial eGUMIS BM, kebanyakannya lama; hanya sedikit yang baharu dengan angka RM14 bilion. Sudut waris arwah dan amaran ejen berbayar masih kurang diterokai."
+   },
+   "icon": "link",
+   "id": "wang-tak-dituntut-janm",
+   "ideas": [
+    "RM14 Bilion Tak Dituntut! Cara Semak Nama Korang",
+    "Cara Daftar eGUMIS & Tuntut Duit (Step by Step)",
+    "Duit Arwah Tak Dituntut? Ini Cara Waris Mohon",
+    "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
+    "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
+   ],
+   "prev_score": 82,
+   "score": 81,
+   "seo": {
+    "hashtags": [
+     "#wangtakdituntut",
+     "#egumis",
+     "#duitpercuma",
+     "#tutorialmalaysia",
+     "#kewanganperibadi"
+    ],
+    "keywords": [
+     "cara semak wang tak dituntut",
+     "egumis daftar",
+     "wang tak dituntut 2026",
+     "tuntut duit jabatan akauntan negara",
+     "semak wtd online"
+    ],
+    "tags": [
+     "wang tak dituntut",
+     "egumis",
+     "jabatan akauntan negara",
+     "janm",
+     "duit percuma",
+     "semak wtd",
+     "tutorial kerajaan",
+     "kewangan peribadi"
+    ],
+    "thumbs": [
+     "RM14 BILION TAK DITUNTUT",
+     "SEMAK NAMA KORANG",
+     "DUIT KORANG ADA?"
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Star (3 Nov 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/03/rm14bil-in-unclaimed-money-as-of-september-2026-says-amir-hamzah"
+    },
+    {
+     "name": "RinggitPlus BM (12 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/lebih-rm14-bilion-wang-tak-dituntut-di-janm-mungkin-ada-bahagian-anda.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129158/over-rm14b-in-unclaimed-money-as-of-september-this-year-minister"
+    }
+   ],
+   "status": "naik",
+   "title": "RM14 bilion wang tak dituntut di JANM: cara semak di eGUMIS",
+   "why": "Menteri Kewangan II Amir Hamzah Azizan beritahu Dewan Rakyat pada 3 Nov 2026 bahawa wang tak dituntut yang dipegang Jabatan Akauntan Negara melebihi RM14 bilion setakat 30 Sept 2026. Semakan dan tuntutan boleh dibuat percuma di portal eGUMIS guna nombor MyKad; tuntutan lengkap biasanya diproses dalam 30 hari (RinggitPlus, 12 Nov).",
+   "shorts": [
+    {
+     "title": "RM14 Bilion Tak Dituntut! Semak Nama",
+     "hook": "Mungkin ada duit korang dalam RM14 bilion ni.",
+     "beat": "Tunjuk eGUMIS: masukkan nombor MyKad dan semak. Percuma, tak perlu ejen."
+    },
+    {
+     "title": "Duit Arwah Tak Dituntut? Waris Boleh Mohon",
+     "hook": "Ahli keluarga dah meninggal? Duit lama dia mungkin ada di JANM.",
+     "beat": "Terang waris boleh semak dan mohon di eGUMIS, tuntutan lengkap biasanya diproses dalam 30 hari."
+    },
+    {
+     "title": "Ejen Minta Bayaran Tuntut WTD? Scam",
+     "hook": "Ada orang tawar tolong tuntut duit korang, tapi minta bayaran dulu?",
+     "beat": "Semakan dan tuntutan di eGUMIS percuma. JANM tak hantar e-mel pemakluman."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Berapa banyak wang tak dituntut sekarang?",
+     "a": "Lebih RM14 bilion setakat 30 September 2026."
+    },
+    {
+     "q": "Macam mana nak semak?",
+     "a": "Di portal eGUMIS guna nombor MyKad. Percuma."
+    },
+    {
+     "q": "Berapa lama proses tuntutan?",
+     "a": "Tuntutan lengkap biasanya diproses dalam 30 hari."
+    },
+    {
+     "q": "Waris boleh tuntut duit arwah?",
+     "a": "Ya, waris boleh semak dan mohon melalui eGUMIS dengan dokumen sokongan."
+    },
+    {
+     "q": "Perlu bayar ejen ke?",
+     "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa wang tak dituntut di JANM setakat Sept 2026?",
+     "o": [
+      "RM1.4 bilion",
+      "RM14 bilion",
+      "RM140 juta"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal untuk semak wang tak dituntut ialah…",
+     "o": [
+      "eGUMIS",
+      "MyTax",
+      "i-Akaun"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Berapa kos untuk semak dan tuntut di eGUMIS?",
+     "o": [
+      "Percuma",
+      "RM10",
+      "RM50"
+     ],
+     "a": 0
     }
    ]
   },
@@ -618,8 +767,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Kenapa Harga Minyak Naik Turun Setiap Minggu?"
    ],
-   "prev_score": 82,
-   "score": 83,
+   "prev_score": 83,
+   "score": 80,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -758,8 +907,8 @@
     "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
     "Cara Daftar MyDigital ID Dari Kosong (2026)"
    ],
-   "prev_score": 83,
-   "score": 82,
+   "prev_score": 82,
+   "score": 79,
    "seo": {
     "hashtags": [
      "#coursera",
@@ -882,281 +1031,6 @@
    ]
   },
   {
-   "angle": "Tutorial skrin telefon: daftar eGUMIS, semak nama sendiri dan ahli keluarga, dan cara hantar tuntutan. Selitkan amaran JANM tak pernah hantar e-mel pemakluman dan jangan bayar 'ejen' untuk tuntut.",
-   "app": {
-    "name": "eGUMIS (JANM)",
-    "url": "https://egumis.anm.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "15 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada banyak tutorial eGUMIS BM, kebanyakannya lama; hanya sedikit yang baharu dengan angka RM14 bilion. Sudut waris arwah dan amaran ejen berbayar masih kurang diterokai."
-   },
-   "icon": "link",
-   "id": "wang-tak-dituntut-janm",
-   "ideas": [
-    "RM14 Bilion Tak Dituntut! Cara Semak Nama Korang",
-    "Cara Daftar eGUMIS & Tuntut Duit (Step by Step)",
-    "Duit Arwah Tak Dituntut? Ini Cara Waris Mohon",
-    "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
-    "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
-   ],
-   "prev_score": null,
-   "score": 82,
-   "seo": {
-    "hashtags": [
-     "#wangtakdituntut",
-     "#egumis",
-     "#duitpercuma",
-     "#tutorialmalaysia",
-     "#kewanganperibadi"
-    ],
-    "keywords": [
-     "cara semak wang tak dituntut",
-     "egumis daftar",
-     "wang tak dituntut 2026",
-     "tuntut duit jabatan akauntan negara",
-     "semak wtd online"
-    ],
-    "tags": [
-     "wang tak dituntut",
-     "egumis",
-     "jabatan akauntan negara",
-     "janm",
-     "duit percuma",
-     "semak wtd",
-     "tutorial kerajaan",
-     "kewangan peribadi"
-    ],
-    "thumbs": [
-     "RM14 BILION TAK DITUNTUT",
-     "SEMAK NAMA KORANG",
-     "DUIT KORANG ADA?"
-    ]
-   },
-   "sources": [
-    {
-     "name": "The Star (3 Nov 2026)",
-     "url": "https://www.thestar.com.my/news/nation/2026/11/03/rm14bil-in-unclaimed-money-as-of-september-2026-says-amir-hamzah"
-    },
-    {
-     "name": "RinggitPlus BM (12 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/lebih-rm14-bilion-wang-tak-dituntut-di-janm-mungkin-ada-bahagian-anda.html"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129158/over-rm14b-in-unclaimed-money-as-of-september-this-year-minister"
-    }
-   ],
-   "status": "naik",
-   "title": "RM14 bilion wang tak dituntut di JANM: cara semak di eGUMIS",
-   "why": "Menteri Kewangan II Amir Hamzah Azizan beritahu Dewan Rakyat pada 3 Nov 2026 bahawa wang tak dituntut yang dipegang Jabatan Akauntan Negara melebihi RM14 bilion setakat 30 Sept 2026. Semakan dan tuntutan boleh dibuat percuma di portal eGUMIS guna nombor MyKad; tuntutan lengkap biasanya diproses dalam 30 hari (RinggitPlus, 12 Nov).",
-   "shorts": [
-    {
-     "title": "RM14 Bilion Tak Dituntut! Semak Nama",
-     "hook": "Mungkin ada duit korang dalam RM14 bilion ni.",
-     "beat": "Tunjuk eGUMIS: masukkan nombor MyKad dan semak. Percuma, tak perlu ejen."
-    },
-    {
-     "title": "Duit Arwah Tak Dituntut? Waris Boleh Mohon",
-     "hook": "Ahli keluarga dah meninggal? Duit lama dia mungkin ada di JANM.",
-     "beat": "Terang waris boleh semak dan mohon di eGUMIS, tuntutan lengkap biasanya diproses dalam 30 hari."
-    },
-    {
-     "title": "Ejen Minta Bayaran Tuntut WTD? Scam",
-     "hook": "Ada orang tawar tolong tuntut duit korang, tapi minta bayaran dulu?",
-     "beat": "Semakan dan tuntutan di eGUMIS percuma. JANM tak hantar e-mel pemakluman."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Berapa banyak wang tak dituntut sekarang?",
-     "a": "Lebih RM14 bilion setakat 30 September 2026."
-    },
-    {
-     "q": "Macam mana nak semak?",
-     "a": "Di portal eGUMIS guna nombor MyKad. Percuma."
-    },
-    {
-     "q": "Berapa lama proses tuntutan?",
-     "a": "Tuntutan lengkap biasanya diproses dalam 30 hari."
-    },
-    {
-     "q": "Waris boleh tuntut duit arwah?",
-     "a": "Ya, waris boleh semak dan mohon melalui eGUMIS dengan dokumen sokongan."
-    },
-    {
-     "q": "Perlu bayar ejen ke?",
-     "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa wang tak dituntut di JANM setakat Sept 2026?",
-     "o": [
-      "RM1.4 bilion",
-      "RM14 bilion",
-      "RM140 juta"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Portal untuk semak wang tak dituntut ialah…",
-     "o": [
-      "eGUMIS",
-      "MyTax",
-      "i-Akaun"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Berapa kos untuk semak dan tuntut di eGUMIS?",
-     "o": [
-      "Percuma",
-      "RM10",
-      "RM50"
-     ],
-     "a": 0
-    }
-   ]
-  },
-  {
-   "angle": "Tutorial pendek langkah demi langkah reset password dan tukar telefon tanpa hilang MyDigital ID. Kaitkan dengan urusan yang perlukan MyDigital ID (MyGOV, Rakyat Digital, ganti MyKad).",
-   "app": {
-    "name": "MyDigital ID"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "15 Nov 2026",
-    "level": "tinggi",
-    "note": "Video reset kata laluan yang ada untuk STR, KWSP, MyJPJ dan MyTax; belum jumpa tutorial reset password MyDigital ID versi baharu."
-   },
-   "icon": "id",
-   "id": "mydigital-id-reset-password",
-   "ideas": [
-    "Lupa Password MyDigital ID? Cara Reset 1 Minit",
-    "MyDigital ID Versi Baru: Tak Perlu Daftar Semula",
-    "Tukar Phone Tanpa Hilang MyDigital ID",
-    "5 Urusan Kerajaan Yang Perlukan MyDigital ID",
-    "MyDigital ID Error? Ini Cara Betulkan"
-   ],
-   "prev_score": 81,
-   "score": 80,
-   "seo": {
-    "hashtags": [
-     "#mydigitalid",
-     "#resetpassword",
-     "#mygov",
-     "#tutorialmalaysia",
-     "#appkerajaan"
-    ],
-    "keywords": [
-     "reset password mydigital id",
-     "lupa kata laluan mydigital id",
-     "mydigital id tukar telefon",
-     "mydigital id versi baru",
-     "cara guna mydigital id"
-    ],
-    "tags": [
-     "mydigital id",
-     "reset password",
-     "lupa kata laluan",
-     "app kerajaan",
-     "mygov",
-     "tutorial app",
-     "tukar telefon",
-     "identiti digital"
-    ],
-    "thumbs": [
-     "LUPA PASSWORD?",
-     "RESET 1 MINIT",
-     "TAK PERLU DAFTAR SEMULA"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Lowyat.NET (11 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409572/reset-mydigital-id-password/"
-    },
-    {
-     "name": "The Star (2 Okt 2026)",
-     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/mydigital-id-app-now-supports-new-mykad-for-registrations"
-    }
-   ],
-   "status": "naik",
-   "title": "MyDigital ID kini boleh reset password tanpa daftar semula",
-   "why": "Lowyat.NET (11 Nov 2026) melaporkan app MyDigital ID versi 2.11.0 kini ada pilihan 'Forgot Password': pengguna cuma imbas muka dan cipta kata laluan baharu. Sebelum ini, lupa kata laluan bermakna kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad. Kemas kini ini juga pindahkan sijil secara automatik bila tukar telefon atau pasang semula app.",
-   "shorts": [
-    {
-     "title": "Lupa Password MyDigital ID? 1 Minit Siap",
-     "hook": "Lupa password MyDigital ID? Tak perlu daftar semula lagi.",
-     "beat": "Versi 2.11.0 ada 'Forgot Password': imbas muka, cipta kata laluan baharu. Rakam skrin langkah."
-    },
-    {
-     "title": "Tukar Phone Tak Hilang MyDigital ID",
-     "hook": "Tukar phone baru, risau MyDigital ID hilang?",
-     "beat": "Sijil kini dipindah automatik bila tukar telefon atau pasang semula app. Tunjuk cara log masuk di phone baru."
-    },
-    {
-     "title": "5 Urusan Yang Perlukan MyDigital ID",
-     "hook": "Belum ada MyDigital ID? Korang akan perlukan untuk benda ni.",
-     "beat": "MyGOV, ganti MyKad, Coursera di Rakyat Digital, MyJPJ, MyBayar PDRM."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Lupa password MyDigital ID, kena daftar semula?",
-     "a": "Tak perlu lagi. Versi 2.11.0 ada pilihan 'Forgot Password' guna imbasan muka."
-    },
-    {
-     "q": "Sebelum ni kalau lupa password macam mana?",
-     "a": "Kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad."
-    },
-    {
-     "q": "Tukar phone, MyDigital ID hilang ke?",
-     "a": "Tak, sijil kini dipindah automatik bila tukar telefon atau pasang semula app."
-    },
-    {
-     "q": "Kena update app ke?",
-     "a": "Ya, pastikan app MyDigital ID dah dikemas kini ke versi terbaru."
-    },
-    {
-     "q": "MyDigital ID guna untuk apa?",
-     "a": "Log masuk MyGOV, ganti MyKad, Rakyat Digital dan banyak lagi perkhidmatan."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Versi MyDigital ID yang ada 'Forgot Password'?",
-     "o": [
-      "2.0.0",
-      "2.11.0",
-      "3.1.0"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Reset password MyDigital ID kini guna…",
-     "o": [
-      "Imbasan muka",
-      "SMS OTP sahaja",
-      "Datang ke kaunter"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Bila tukar phone, sijil MyDigital ID…",
-     "o": [
-      "Hilang",
-      "Dipindah automatik",
-      "Kena daftar semula"
-     ],
-     "a": 1
-    }
-   ]
-  },
-  {
    "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
    "cat": "kewangan",
    "competition": {
@@ -1174,8 +1048,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 79,
-   "score": 80,
+   "prev_score": 80,
+   "score": 79,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1298,6 +1172,277 @@
    ]
   },
   {
+   "angle": "Penjelasan siapa dapat berapa, bila masuk, dan tutorial semak baki SARA di MyKad. Jangan janji tarikh tepat kerana kerajaan belum umum.",
+   "app": {
+    "name": "Portal SARA",
+    "url": "https://www.sara.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "13 Nov 2026",
+    "level": "tinggi",
+    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027."
+   },
+   "icon": "card",
+   "id": "sara-madani-2027",
+   "ideas": [
+    "RM200 SARA 2027 Masuk MyKad: Siapa Layak & Bila?",
+    "SARA Kini Boleh Guna di Pasar Tani: Cara Guna",
+    "Penerima STR Dapat RM150 Sebulan? Ini Penjelasannya",
+    "Cara Semak Baki SARA Dalam MyKad",
+    "Barang Apa Boleh Beli Guna SARA? Senarai Penuh"
+   ],
+   "prev_score": 83,
+   "score": 78,
+   "seo": {
+    "hashtags": [
+     "#sara2027",
+     "#saramadani",
+     "#bajet2027",
+     "#mykad",
+     "#bantuankerajaan"
+    ],
+    "keywords": [
+     "sara madani 2027",
+     "sara rm100 2027",
+     "siapa layak sara 2027",
+     "semak baki sara mykad",
+     "sara pasar tani"
+    ],
+    "tags": [
+     "sara 2027",
+     "sara madani",
+     "sumbangan asas rahmah",
+     "mykad",
+     "bajet 2027",
+     "rm100",
+     "bantuan kerajaan",
+     "sara pasar tani"
+    ],
+    "thumbs": [
+     "RM200 MASUK MYKAD",
+     "SIAPA LAYAK?",
+     "SARA 2027"
+    ]
+   },
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/10/09/budget-2027-rm200-sara-madani-monthly-str-sara-up-to-rm150/"
+    },
+    {
+     "name": "Bernama",
+     "url": "https://bernama.com/en/news.php?id=2621951"
+    }
+   ],
+   "status": "naik",
+   "title": "SARA MADANI 2027: RM100 dua kali untuk dewasa 18 tahun ke atas",
+   "why": "Bajet 2027 umum rakyat 18 tahun ke atas yang bukan penerima STR akan dapat RM100 SARA MADANI dua kali: sebelum Aidilfitri dan sempena Hari Kebangsaan ke-70. Penerima STR dapat SARA sehingga RM150 sebulan (RM1,800 setahun), dan SARA boleh guna di 216 pasar tani FAMA.",
+   "shorts": [
+    {
+     "title": "RM100 SARA Dua Kali: Korang Layak?",
+     "hook": "Umur 18 ke atas dan bukan penerima STR? Ni ada RM200 untuk korang tahun depan.",
+     "beat": "RM100 sebelum Aidilfitri, RM100 lagi sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan."
+    },
+    {
+     "title": "SARA Boleh Guna Di Pasar Tani",
+     "hook": "Ramai tak tahu SARA dalam MyKad boleh beli barang basah.",
+     "beat": "SARA boleh guna di 216 pasar tani FAMA. Terang cara bayar guna MyKad."
+    },
+    {
+     "title": "Penerima STR Dapat SARA Berapa?",
+     "hook": "Penerima STR, SARA korang lain daripada orang lain.",
+     "beat": "Sehingga RM150 sebulan atau RM1,800 setahun ikut Bajet 2027. Ingatkan tunggu pengumuman rasmi."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Siapa layak RM100 SARA MADANI?",
+     "a": "Rakyat 18 tahun ke atas yang bukan penerima STR."
+    },
+    {
+     "q": "Bila RM100 tu masuk?",
+     "a": "Sekali sebelum Aidilfitri dan sekali sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan."
+    },
+    {
+     "q": "Penerima STR dapat SARA berapa?",
+     "a": "Sehingga RM150 sebulan, atau RM1,800 setahun, ikut Bajet 2027."
+    },
+    {
+     "q": "SARA boleh guna kat mana?",
+     "a": "Selain kedai yang menyertai, kini boleh guna di 216 pasar tani FAMA."
+    },
+    {
+     "q": "Kena mohon ke untuk dapat SARA?",
+     "a": "Tunggu pengumuman rasmi cara agihan; buat masa ini butiran pelaksanaan 2027 belum diumumkan."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa jumlah SARA MADANI untuk bukan penerima STR (18+)?",
+     "o": [
+      "RM100 sekali",
+      "RM100 dua kali",
+      "RM500"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Penerima STR dapat SARA sehingga berapa sebulan?",
+     "o": [
+      "RM50",
+      "RM100",
+      "RM150"
+     ],
+     "a": 2
+    },
+    {
+     "q": "SARA kini boleh guna di berapa pasar tani FAMA?",
+     "o": [
+      "100",
+      "216",
+      "500"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "angle": "Tutorial pendek langkah demi langkah reset password dan tukar telefon tanpa hilang MyDigital ID. Kaitkan dengan urusan yang perlukan MyDigital ID (MyGOV, Rakyat Digital, ganti MyKad).",
+   "app": {
+    "name": "MyDigital ID"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "15 Nov 2026",
+    "level": "tinggi",
+    "note": "Video reset kata laluan yang ada untuk STR, KWSP, MyJPJ dan MyTax; belum jumpa tutorial reset password MyDigital ID versi baharu."
+   },
+   "icon": "id",
+   "id": "mydigital-id-reset-password",
+   "ideas": [
+    "Lupa Password MyDigital ID? Cara Reset 1 Minit",
+    "MyDigital ID Versi Baru: Tak Perlu Daftar Semula",
+    "Tukar Phone Tanpa Hilang MyDigital ID",
+    "5 Urusan Kerajaan Yang Perlukan MyDigital ID",
+    "MyDigital ID Error? Ini Cara Betulkan"
+   ],
+   "prev_score": 80,
+   "score": 78,
+   "seo": {
+    "hashtags": [
+     "#mydigitalid",
+     "#resetpassword",
+     "#mygov",
+     "#tutorialmalaysia",
+     "#appkerajaan"
+    ],
+    "keywords": [
+     "reset password mydigital id",
+     "lupa kata laluan mydigital id",
+     "mydigital id tukar telefon",
+     "mydigital id versi baru",
+     "cara guna mydigital id"
+    ],
+    "tags": [
+     "mydigital id",
+     "reset password",
+     "lupa kata laluan",
+     "app kerajaan",
+     "mygov",
+     "tutorial app",
+     "tukar telefon",
+     "identiti digital"
+    ],
+    "thumbs": [
+     "LUPA PASSWORD?",
+     "RESET 1 MINIT",
+     "TAK PERLU DAFTAR SEMULA"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Lowyat.NET (11 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409572/reset-mydigital-id-password/"
+    },
+    {
+     "name": "The Star (2 Okt 2026)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/mydigital-id-app-now-supports-new-mykad-for-registrations"
+    }
+   ],
+   "status": "naik",
+   "title": "MyDigital ID kini boleh reset password tanpa daftar semula",
+   "why": "Lowyat.NET (11 Nov 2026) melaporkan app MyDigital ID versi 2.11.0 kini ada pilihan 'Forgot Password': pengguna cuma imbas muka dan cipta kata laluan baharu. Sebelum ini, lupa kata laluan bermakna kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad. Kemas kini ini juga pindahkan sijil secara automatik bila tukar telefon atau pasang semula app.",
+   "shorts": [
+    {
+     "title": "Lupa Password MyDigital ID? 1 Minit Siap",
+     "hook": "Lupa password MyDigital ID? Tak perlu daftar semula lagi.",
+     "beat": "Versi 2.11.0 ada 'Forgot Password': imbas muka, cipta kata laluan baharu. Rakam skrin langkah."
+    },
+    {
+     "title": "Tukar Phone Tak Hilang MyDigital ID",
+     "hook": "Tukar phone baru, risau MyDigital ID hilang?",
+     "beat": "Sijil kini dipindah automatik bila tukar telefon atau pasang semula app. Tunjuk cara log masuk di phone baru."
+    },
+    {
+     "title": "5 Urusan Yang Perlukan MyDigital ID",
+     "hook": "Belum ada MyDigital ID? Korang akan perlukan untuk benda ni.",
+     "beat": "MyGOV, ganti MyKad, Coursera di Rakyat Digital, MyJPJ, MyBayar PDRM."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Lupa password MyDigital ID, kena daftar semula?",
+     "a": "Tak perlu lagi. Versi 2.11.0 ada pilihan 'Forgot Password' guna imbasan muka."
+    },
+    {
+     "q": "Sebelum ni kalau lupa password macam mana?",
+     "a": "Kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad."
+    },
+    {
+     "q": "Tukar phone, MyDigital ID hilang ke?",
+     "a": "Tak, sijil kini dipindah automatik bila tukar telefon atau pasang semula app."
+    },
+    {
+     "q": "Kena update app ke?",
+     "a": "Ya, pastikan app MyDigital ID dah dikemas kini ke versi terbaru."
+    },
+    {
+     "q": "MyDigital ID guna untuk apa?",
+     "a": "Log masuk MyGOV, ganti MyKad, Rakyat Digital dan banyak lagi perkhidmatan."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Versi MyDigital ID yang ada 'Forgot Password'?",
+     "o": [
+      "2.0.0",
+      "2.11.0",
+      "3.1.0"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Reset password MyDigital ID kini guna…",
+     "o": [
+      "Imbasan muka",
+      "SMS OTP sahaja",
+      "Datang ke kaunter"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Bila tukar phone, sijil MyDigital ID…",
+     "o": [
+      "Hilang",
+      "Dipindah automatik",
+      "Kena daftar semula"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
    "angle": "Tutorial langkah demi langkah dalam MAE (menu Apply > Investment > ASNB Account) dan banding dengan app myASNB. Ingatkan penonton: ini pelaburan unit amanah, nilai dan dividen tidak dijamin.",
    "app": {
     "name": "MAE by Maybank",
@@ -1319,8 +1464,8 @@
     "Cashback RM5 Buka ASNB: Cara Claim Sebelum Habis",
     "Top Up ASB Bulanan Dalam MAE: Tips Disiplin"
    ],
-   "prev_score": 77,
-   "score": 76,
+   "prev_score": 76,
+   "score": 75,
    "seo": {
     "hashtags": [
      "#asnb",
@@ -1435,133 +1580,142 @@
    ]
   },
   {
-   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, passkey) dan tanda-tanda telefon dijangkiti. Sesuai dikongsi dalam group keluarga.",
+   "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
    "app": {
-    "name": "WhatsApp (Tetapan > Storan dan data)"
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
    },
-   "cat": "tutorial",
+   "cat": "kewangan",
    "competition": {
-    "checked": "14 Nov 2026",
+    "checked": "13 Nov 2026",
     "level": "tinggi",
-    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
+    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama."
    },
    "icon": "shield",
-   "id": "whatsapp-malware-apk",
+   "id": "scam-saman-pdrm-mybayar",
    "ideas": [
-    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
-    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
-    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
-    "5 Tanda Telefon Korang Dah Kena Malware",
-    "Akaun WhatsApp Kena Ambil Alih? Buat Ni Segera"
+    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
+    "Cara Semak Link Palsu Dalam 10 Saat",
+    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
+    "Cara Semak Saman Sebenar (Bukan Dari SMS)",
+    "5 Scam Paling Banyak Hujung Tahun 2026"
    ],
-   "prev_score": 77,
-   "score": 75,
+   "prev_score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
-     "#whatsapp",
+     "#scammalaysia",
      "#awasscam",
-     "#scamapk",
-     "#keselamatansiber",
-     "#tipswhatsapp"
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
     ],
     "keywords": [
-     "malware whatsapp",
-     "cara elak whatsapp kena hack",
-     "matikan muat turun automatik whatsapp",
-     "fail apk whatsapp scam",
-     "pengesahan dua langkah whatsapp"
+     "sms saman pdrm scam",
+     "mybayar palsu",
+     "scam saman rm150",
+     "cara semak link palsu",
+     "bnm sahkan"
     ],
     "tags": [
-     "whatsapp",
-     "malware",
-     "scam apk",
-     "keselamatan telefon",
-     "whatsapp hack",
-     "tips whatsapp",
      "scam malaysia",
-     "otp"
+     "saman pdrm",
+     "mybayar",
+     "penipuan online",
+     "sms palsu",
+     "mycert",
+     "bnm sahkan",
+     "scam alert"
     ],
     "thumbs": [
-     "JANGAN BUKA FAIL NI",
-     "WHATSAPP KENA HACK?",
-     "OFF SETTING NI!"
+     "JANGAN KLIK!",
+     "SAMAN PALSU RM150",
+     "SCAM TERBARU"
     ]
    },
    "sources": [
     {
-     "name": "The Vibes (8 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    },
+    {
+     "name": "The Star (12 Nov 2026)",
+     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
     }
    ],
    "status": "naik",
-   "title": "Amaran malware WhatsApp: fail APK palsu boleh curi OTP dan akaun bank",
-   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware. Malware ini boleh curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan; CyberSecurity Malaysia juga dah keluarkan amaran fail mencurigakan.",
+   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
+   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan. Pada 12 Nov, Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket scam pusat panggilan dan tahan 932 orang, serta ingatkan mangsa hubungi NSRC 997 segera.",
    "shorts": [
     {
-     "title": "Off Setting WhatsApp Ni SEKARANG",
-     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
-     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
+     "title": "SMS Saman RM150 Ni SCAM",
+     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
+     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS."
     },
     {
-     "title": "Fail .APK Dalam WhatsApp? Jangan Buka",
-     "hook": "Fail nampak macam dokumen, tapi sebenarnya app pencuri.",
-     "beat": "MCCA amaran 8 Nov: fail APK menyamar dokumen boleh curi OTP dan ambil alih WhatsApp."
+     "title": "Semak Link Dalam 10 Saat",
+     "hook": "Sebelum klik apa-apa link, buat ni dulu.",
+     "beat": "Tunjuk cara semak di bnm.gov.my/sahkan dan tengok alamat laman betul-betul."
     },
     {
-     "title": "On Pengesahan 2 Langkah WhatsApp",
-     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
-     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
+     "title": "Dah Terklik Link Scam? Buat Ni",
+     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
+     "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie."
     }
    ],
    "faq": [
     {
-     "q": "Betul ke WhatsApp boleh kena malware?",
-     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+     "q": "SMS saman PDRM RM150 tu betul ke?",
+     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP."
     },
     {
-     "q": "Apa malware ni boleh buat?",
-     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+     "q": "Macam mana nak semak saman sebenar?",
+     "a": "Semak melalui app atau portal rasmi sendiri, bukan melalui link dalam SMS."
     },
     {
-     "q": "Setting apa nak tutup?",
-     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+     "q": "Kat mana nak semak link mencurigakan?",
+     "a": "BNM sediakan semakan di bnm.gov.my/sahkan."
     },
     {
-     "q": "Macam mana nak lindungi akaun?",
-     "a": "Aktifkan pengesahan dua langkah dan passkey."
+     "q": "Dah terisi maklumat kad, nak buat apa?",
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997."
     },
     {
-     "q": "Dah tertekan fail APK, nak buat apa?",
-     "a": "Putuskan internet, buang app pelik, tukar kata laluan bank dari peranti lain dan hubungi bank."
+     "q": "Polis ada buat tindakan ke?",
+     "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang."
     }
    ],
    "quiz": [
     {
-     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?",
      "o": [
-      "Dokumen",
-      "Lagu",
-      "Sticker"
+      "RM50",
+      "RM150",
+      "RM300"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?",
+     "o": [
+      "MyCERT",
+      "JPJ",
+      "LHDN"
      ],
      "a": 0
     },
     {
-     "q": "Setting WhatsApp yang patut dimatikan?",
+     "q": "Nombor talian NSRC untuk mangsa scam ialah…",
      "o": [
-      "Muat turun media automatik",
-      "Notifikasi",
-      "Status"
+      "999",
+      "997",
+      "991"
      ],
-     "a": 0
-    },
-    {
-     "q": "Cara terbaik kunci akaun WhatsApp?",
-     "o": [
-      "Pengesahan dua langkah",
-      "Tukar gambar profil",
-      "Padam chat lama"
-     ],
-     "a": 0
+     "a": 1
     }
    ]
   },
@@ -1582,8 +1736,8 @@
     "Ada Tunggakan PTPTN? Buat Ini Dulu",
     "First Class Tak Perlu Bayar PTPTN Lagi?"
    ],
-   "prev_score": 77,
-   "score": 75,
+   "prev_score": 75,
+   "score": 73,
    "seo": {
     "hashtags": [
      "#ptptn",
@@ -1702,140 +1856,131 @@
    ]
   },
   {
-   "angle": "Video praktikal: lakonan semula panggilan scam 'pegawai BNM', tunjuk kenapa jangan pasang app atau tap kad pada telefon, dan cara semak di BNM Sahkan. Boleh sambung dengan item malware WhatsApp.",
+   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, passkey) dan tanda-tanda telefon dijangkiti. Sesuai dikongsi dalam group keluarga.",
    "app": {
-    "name": "BNM Sahkan",
-    "url": "https://www.bnm.gov.my/sahkan"
+    "name": "WhatsApp (Tetapan > Storan dan data)"
    },
-   "cat": "kewangan",
+   "cat": "tutorial",
    "competition": {
     "checked": "14 Nov 2026",
     "level": "tinggi",
-    "note": "Hampir tiada video Bahasa Melayu terkini tentang app 'BNM Mobile Security' palsu atau scam tap kad NFC. Sudut demo dan cara semak masih kosong."
+    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
    },
    "icon": "shield",
-   "id": "scam-bnm-laman-palsu",
+   "id": "whatsapp-malware-apk",
    "ideas": [
-    "Scam Tap Kad Bank Pada Phone: Jangan Buat!",
-    "App 'BNM Mobile Security' Palsu: Ini Cara Ia Curi",
-    "Cara Semak Laman Web Palsu Guna BNM Sahkan",
-    "Pegawai BNM Call Korang? Ini Tanda Scam",
-    "Matikan NFC? Cara Lindungi Kad Bank Korang"
+    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
+    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
+    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
+    "5 Tanda Telefon Korang Dah Kena Malware",
+    "Akaun WhatsApp Kena Ambil Alih? Buat Ni Segera"
    ],
    "prev_score": 75,
-   "score": 74,
+   "score": 72,
    "seo": {
     "hashtags": [
-     "#scam",
-     "#banknegara",
-     "#scamnfc",
+     "#whatsapp",
      "#awasscam",
-     "#keselamatansiber"
+     "#scamapk",
+     "#keselamatansiber",
+     "#tipswhatsapp"
     ],
     "keywords": [
-     "bnm mobile security palsu",
-     "scam tap kad nfc",
-     "scam bank negara",
-     "bnm sahkan",
-     "app palsu bank"
+     "malware whatsapp",
+     "cara elak whatsapp kena hack",
+     "matikan muat turun automatik whatsapp",
+     "fail apk whatsapp scam",
+     "pengesahan dua langkah whatsapp"
     ],
     "tags": [
-     "scam",
-     "bank negara",
-     "bnm sahkan",
-     "scam nfc",
-     "app palsu",
-     "mycert",
-     "keselamatan siber",
-     "tips scam"
+     "whatsapp",
+     "malware",
+     "scam apk",
+     "keselamatan telefon",
+     "whatsapp hack",
+     "tips whatsapp",
+     "scam malaysia",
+     "otp"
     ],
     "thumbs": [
-     "JANGAN TAP KAD!",
-     "APP BNM PALSU",
-     "SEMAK DULU"
+     "JANGAN BUKA FAIL NI",
+     "WHATSAPP KENA HACK?",
+     "OFF SETTING NI!"
     ]
    },
    "sources": [
     {
-     "name": "The Star (5 Nov 2026)",
-     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
-    },
-    {
-     "name": "The Vibes (6 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
-    },
-    {
-     "name": "Bernama (6 Nov 2026)",
-     "url": "https://bernama.com/en/region/news.php?id=2630895"
+     "name": "The Vibes (8 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
     }
    ],
    "status": "naik",
-   "title": "Amaran BNM & MyCERT: laman dan app 'Bank Negara' palsu curi data kad",
-   "why": "Pada 6 November 2026, BNM beri amaran tentang scammer yang menyamar BNM melalui laman web dan app palsu untuk curi maklumat perbankan. MyCERT pula (nasihat 4 Nov) kesan app Android palsu 'BNM Mobile Security': mangsa ditelefon 'pegawai BNM/polis', disuruh pasang app, kemudian diminta tap kad bank pada telefon supaya data kad dicuri melalui NFC untuk transaksi tanpa sentuh atau keluar duit ATM. Ia boleh baca kad MyDebit, Visa, Mastercard, Amex dan JCB dari bank Malaysia.",
+   "title": "Amaran malware WhatsApp: fail APK palsu boleh curi OTP dan akaun bank",
+   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware. Malware ini boleh curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan; CyberSecurity Malaysia juga dah keluarkan amaran fail mencurigakan.",
    "shorts": [
     {
-     "title": "'Pegawai BNM' Suruh Tap Kad? SCAM",
-     "hook": "Bank Negara tak akan suruh korang tap kad pada phone.",
-     "beat": "MyCERT 4 Nov: app palsu 'BNM Mobile Security' curi data kad melalui NFC. Lakonan semula panggilan."
+     "title": "Off Setting WhatsApp Ni SEKARANG",
+     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
+     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
     },
     {
-     "title": "App BNM Palsu: Ini Rupanya",
-     "hook": "Kalau ada orang suruh pasang app ni, terus letak phone.",
-     "beat": "Terang cara scam: telefon, suruh pasang app, minta tap kad. Ia boleh baca MyDebit, Visa, Mastercard."
+     "title": "Fail .APK Dalam WhatsApp? Jangan Buka",
+     "hook": "Fail nampak macam dokumen, tapi sebenarnya app pencuri.",
+     "beat": "MCCA amaran 8 Nov: fail APK menyamar dokumen boleh curi OTP dan ambil alih WhatsApp."
     },
     {
-     "title": "Semak Laman Palsu Guna BNM Sahkan",
-     "hook": "Ragu-ragu dengan laman atau app 'Bank Negara'? Semak sini.",
-     "beat": "Tunjuk bnm.gov.my/sahkan langkah demi langkah."
+     "title": "On Pengesahan 2 Langkah WhatsApp",
+     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
+     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
     }
    ],
    "faq": [
     {
-     "q": "Bank Negara ada telefon orang ramai ke?",
-     "a": "Scammer menyamar pegawai BNM atau polis; BNM beri amaran tentang laman dan app palsu."
+     "q": "Betul ke WhatsApp boleh kena malware?",
+     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
     },
     {
-     "q": "Apa app 'BNM Mobile Security'?",
-     "a": "App Android palsu yang dikesan MyCERT untuk curi data kad melalui NFC."
+     "q": "Apa malware ni boleh buat?",
+     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
     },
     {
-     "q": "Kenapa tak boleh tap kad pada phone?",
-     "a": "App palsu itu baca data kad untuk transaksi tanpa sentuh atau keluarkan duit ATM."
+     "q": "Setting apa nak tutup?",
+     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
     },
     {
-     "q": "Kad apa yang boleh dicuri?",
-     "a": "MyDebit, Visa, Mastercard, Amex dan JCB dari bank Malaysia."
+     "q": "Macam mana nak lindungi akaun?",
+     "a": "Aktifkan pengesahan dua langkah dan passkey."
     },
     {
-     "q": "Macam mana nak semak laman BNM betul?",
-     "a": "Guna bnm.gov.my/sahkan."
+     "q": "Dah tertekan fail APK, nak buat apa?",
+     "a": "Putuskan internet, buang app pelik, tukar kata laluan bank dari peranti lain dan hubungi bank."
     }
    ],
    "quiz": [
     {
-     "q": "Nama app palsu yang menyamar Bank Negara?",
+     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
      "o": [
-      "BNM Mobile Security",
-      "MyBNM",
-      "BNM Sahkan"
+      "Dokumen",
+      "Lagu",
+      "Sticker"
      ],
      "a": 0
     },
     {
-     "q": "App palsu ni curi data kad melalui…",
+     "q": "Setting WhatsApp yang patut dimatikan?",
      "o": [
-      "NFC (tap kad)",
-      "Bluetooth",
-      "Kamera"
+      "Muat turun media automatik",
+      "Notifikasi",
+      "Status"
      ],
      "a": 0
     },
     {
-     "q": "Laman untuk semak sama ada laman 'BNM' tulen?",
+     "q": "Cara terbaik kunci akaun WhatsApp?",
      "o": [
-      "bnm.gov.my/sahkan",
-      "bnm-sahkan.com",
-      "WhatsApp BNM"
+      "Pengesahan dua langkah",
+      "Tukar gambar profil",
+      "Padam chat lama"
      ],
      "a": 0
     }
@@ -1861,8 +2006,8 @@
     "Penalti 10% CP500: Contoh Kiraan Mudah",
     "Cara Mohon Tarik Sekatan Perjalanan Di MyTax"
    ],
-   "prev_score": null,
-   "score": 74,
+   "prev_score": 74,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#cp500",
@@ -1908,7 +2053,7 @@
      "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/ansuran-cp500-tertunggak-tidak-terus-membawa-kepada-sekatan-perjalanan.html"
     }
    ],
-   "status": "naik",
+   "status": "stabil",
    "title": "Tertunggak CP500? Tak terus kena sekatan perjalanan",
    "why": "Pada 11 Nov 2026, Timbalan Menteri Kewangan Liew Chin Tong jelaskan di Dewan Rakyat bahawa tak bayar ansuran CP500 tidak terus menyebabkan sekatan perjalanan, kerana CP500 hanya anggaran cukai. Sekatan hanya boleh dikenakan jika cukai masih tak dibayar enam bulan selepas BNCP dimuktamadkan dan pembayar tak respon LHDN; ansuran lewat lebih 30 hari tetap boleh kena penalti 10% (RinggitPlus, 13 Nov).",
    "shorts": [
@@ -1979,142 +2124,6 @@
      "a": 1
     }
    ]
-  },
-  {
-   "angle": "Tutorial cuti sekolah: cara tempah kereta di Jepun/Korea guna TNG tanpa download app lain, dan gabung dengan Travel eSIM serta bayar QR luar negara.",
-   "app": {
-    "name": "TNG eWallet",
-    "url": "https://www.tngdigital.com.my"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "14 Nov 2026",
-    "level": "tinggi",
-    "note": "Video TNG luar negara sedia ada fokus pada transfer duit dan bayar QR. Tutorial tempah e-hailing luar negara dalam Bahasa Melayu belum ada."
-   },
-   "icon": "map",
-   "id": "tng-teksi-luar-negara",
-   "ideas": [
-    "Pergi Jepun? Tempah Teksi Guna TNG eWallet",
-    "Tak Perlu Download Grab Korea: Guna TNG Je",
-    "5 Fungsi TNG Wajib Sebelum Travel Luar Negara",
-    "Tambang Teksi Luar Negara Dalam Ringgit: Cara Guna",
-    "TNG vs Kad Debit: Mana Jimat Masa Travel?"
-   ],
-   "prev_score": 71,
-   "score": 69,
-   "seo": {
-    "hashtags": [
-     "#tngewallet",
-     "#travelmurah",
-     "#cutisekolah",
-     "#tipstravel",
-     "#touchngo"
-    ],
-    "keywords": [
-     "tng ewallet teksi luar negara",
-     "cara tempah grab jepun",
-     "tng ewallet travel",
-     "e-hailing luar negara tng",
-     "tng alipay plus"
-    ],
-    "tags": [
-     "tng ewallet",
-     "touch n go",
-     "travel luar negara",
-     "e-hailing",
-     "jepun",
-     "korea",
-     "alipay+",
-     "tips travel"
-    ],
-    "thumbs": [
-     "TEKSI JEPUN GUNA TNG",
-     "TAK PAYAH APP LAIN",
-     "BAYAR RINGGIT"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Lowyat.NET (5 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
-    },
-    {
-     "name": "RinggitPlus (Travel eSIM)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/tng-ewallet-launches-travel-esim-for-seamless-roaming-across-149-countries.html"
-    }
-   ],
-   "status": "naik",
-   "title": "Tempah teksi/e-hailing luar negara terus dalam TNG eWallet",
-   "why": "Pada 5 November 2026, TNG eWallet lancar tempahan dan bayaran e-hailing di luar negara melalui Alipay+, meliputi 47 negara dan lebih 12,000 bandar. Rakan termasuk DiDi (China), GO (Jepun), Kakao T (Korea), Bolt (EU) dan Lyft (AS/Kanada), dengan tambang ditunjuk awal dan ditolak dalam ringgit.",
-   "shorts": [
-    {
-     "title": "Pergi Jepun? Tempah Teksi Guna TNG",
-     "hook": "Tak perlu download app teksi Jepun. TNG je dah cukup.",
-     "beat": "Sejak 5 Nov, TNG boleh tempah e-hailing di 47 negara melalui Alipay+, termasuk GO di Jepun."
-    },
-    {
-     "title": "Tambang Luar Negara Dalam Ringgit",
-     "hook": "Naik teksi luar negara, tapi bayar dalam ringgit terus.",
-     "beat": "Tambang ditunjuk awal dan ditolak dalam ringgit. Tunjuk skrin tempahan."
-    },
-    {
-     "title": "5 Fungsi TNG Wajib Sebelum Travel",
-     "hook": "Nak travel cuti sekolah? Setup TNG ni dulu.",
-     "beat": "E-hailing luar negara, Travel eSIM, bayar QR luar negara. Senarai pantas atas skrin."
-    }
-   ],
-   "faq": [
-    {
-     "q": "TNG boleh tempah teksi luar negara?",
-     "a": "Ya, sejak 5 November 2026 melalui Alipay+."
-    },
-    {
-     "q": "Negara mana boleh guna?",
-     "a": "47 negara dan lebih 12,000 bandar."
-    },
-    {
-     "q": "Rakan e-hailing apa?",
-     "a": "DiDi (China), GO (Jepun), Kakao T (Korea), Bolt (EU) dan Lyft (AS/Kanada)."
-    },
-    {
-     "q": "Bayar dalam mata wang apa?",
-     "a": "Tambang ditunjuk awal dan ditolak dalam ringgit."
-    },
-    {
-     "q": "Kena download app lain?",
-     "a": "Tak perlu, tempahan dibuat terus dalam TNG eWallet."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "TNG kini boleh tempah e-hailing di berapa negara?",
-     "o": [
-      "12",
-      "47",
-      "100"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Rakan e-hailing TNG di Jepun ialah…",
-     "o": [
-      "GO",
-      "Grab",
-      "Uber"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Tambang luar negara melalui TNG dibayar dalam…",
-     "o": [
-      "Ringgit",
-      "Mata wang tempatan",
-      "Dolar AS"
-     ],
-     "a": 0
-    }
-   ]
   }
  ],
  "upcoming": [
@@ -2122,7 +2131,7 @@
    "date": "16 Nov 2026",
    "label": "Bayaran STR Fasa 4 untuk penerima baharu & rayuan lulus",
    "lead": 5,
-   "note": "Video 'semak status STR' sesuai dikeluarkan sebelum tarikh ini.",
+   "note": "Hari ini; video 'semak status STR' sesuai dikeluarkan sekarang.",
    "topic": "str-2027-kemas-kini",
    "when": "2026-11-16"
   },
@@ -2142,6 +2151,14 @@
    "note": "Tertakluk pindaan LHDN.",
    "topic": "str-2027-kemas-kini",
    "when": "2026-11-30"
+  },
+  {
+   "date": "1 Dis 2026",
+   "label": "Pas MyKomuter50 mula berkuat kuasa",
+   "lead": 10,
+   "note": "Pengaktifan dibuka 16 Nov; kelulusan dalam app boleh ambil sehingga 3 hari bekerja.",
+   "topic": "mykomuter50-ktm",
+   "when": "2026-12-01"
   },
   {
    "date": "12 Dis 2026",
@@ -2174,15 +2191,6 @@
    "note": "Terhad 15,000 pelabur baharu terawal.",
    "topic": "mae-asnb",
    "when": "2027-01-31"
-  },
-  {
-   "approx": true,
-   "date": "Mac 2027",
-   "label": "RM100 SARA MADANI pertama (sebelum Aidilfitri)",
-   "lead": 14,
-   "note": "Tarikh tepat belum diumumkan.",
-   "topic": "sara-madani-2027",
-   "when": "2027-03-01"
   }
  ],
  "apps": [
@@ -2217,8 +2225,8 @@
    "id": "ryt-bank",
    "ideas": [
     "Ryt Bank Review Jujur Selepas Setahun",
-    "Cara Buka Akaun Ryt Bank Dalam 5 Minit",
-    "Ryt Bank vs GXBank: Mana Lebih Berbaloi?"
+    "Bank Digital Terbesar Malaysia: Ryt vs GXBank",
+    "Cara Buka Akaun Ryt Bank Dalam 5 Minit"
    ],
    "name": "Ryt Bank",
    "seg": "bank",
@@ -2230,17 +2238,21 @@
     {
      "name": "RinggitPlus",
      "url": "https://ringgitplus.com/en/blog/bank-news/ryt-bank-becomes-malaysias-most-downloaded-app.html"
+    },
+    {
+     "name": "Fintech News Malaysia (13 Nov 2026)",
+     "url": "https://fintechnews.my/62360/digital-banking-news-malaysia/digital-bank-malaysia-2026-profit-losses/"
     }
    ],
    "what": "Bank digital dengan pembantu AI (Ryt AI) dalam app.",
-   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan pernah jadi app paling banyak dimuat turun di Malaysia pada Feb 2026. Sejak Okt 2026 ia sokong Apple Pay."
+   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan sejak Okt 2026 ia sokong Apple Pay. Fintech News Malaysia (13 Nov 2026) laporkan deposit Ryt RM1.61 bilion pada akhir FY2025, tipis mendahului GXBank, walaupun kerugiannya naik ke RM109 juta."
   },
   {
    "id": "gxbank",
    "ideas": [
     "Cara Guna Saving Pockets GXBank Untuk Simpan Duit",
     "GXBank FlexiCredit: Berbaloi Atau Perangkap Hutang?",
-    "Bank Digital Selamat Ke? Ini Jawapannya"
+    "Bank Digital Rugi Juta-Juta: Duit Korang Selamat?"
    ],
    "name": "GXBank",
    "seg": "bank",
@@ -2252,10 +2264,14 @@
     {
      "name": "SoyaCincau",
      "url": "https://soyacincau.com/?p=447370"
+    },
+    {
+     "name": "Fintech News Malaysia (13 Nov 2026)",
+     "url": "https://fintechnews.my/62360/digital-banking-news-malaysia/digital-bank-malaysia-2026-profit-losses/"
     }
    ],
    "what": "Bank digital dengan Saving Pockets dan pembiayaan FlexiCredit.",
-   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026. Penggunanya cipta 1.3 juta Savings dan Bonus Pockets pada 2025, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet."
+   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet. Fintech News Malaysia (13 Nov 2026) laporkan deposit GXBank RM1.60 bilion pada akhir FY2025 dan pinjaman RM1.21 bilion (Jun 2026), dengan sasaran untung pada 2028."
   },
   {
    "id": "mydigital-id",
@@ -2336,13 +2352,17 @@
   {
    "id": "tng",
    "ideas": [
+    "Kad Bisnes Digital TNG RM49.90: Berbaloi Tak?",
     "Tempah Teksi Luar Negara Guna TNG: Tutorial",
-    "Fungsi Baru TNG eWallet Yang Ramai Tak Perasan",
-    "GOfinance TNG: Labur, Pinjam, Insurans Dalam Satu App"
+    "Fungsi Baru TNG eWallet Yang Ramai Tak Perasan"
    ],
    "name": "TNG eWallet",
    "seg": "ewallet",
    "sources": [
+    {
+     "name": "Bernama (2 Nov 2026)",
+     "url": "https://bernama.com/en/general/news.php?id=2629056"
+    },
     {
      "name": "Lowyat.NET (5 Nov 2026)",
      "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
@@ -2358,7 +2378,7 @@
    ],
    "url": "https://www.tngdigital.com.my",
    "what": "E-wallet utama Malaysia untuk tol, parkir, bayar QR, bil dan pelaburan GOfinance.",
-   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal paling dominan dengan lebih 27 juta pengguna disahkan. Pada 5 Nov 2026, TNG lancar tempahan e-hailing luar negara di 47 negara melalui Alipay+ (DiDi, GO, Kakao T, Bolt, Lyft)."
+   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal paling dominan dengan lebih 27 juta pengguna disahkan. Pada 2 Nov 2026, TNG lancar kad bisnes digital RM49.90 yang boleh kongsi maklumat melalui NFC/QR dan juga bayar tol serta parkir; pada 5 Nov ia lancar tempahan e-hailing luar negara di 47 negara melalui Alipay+."
   },
   {
    "id": "shopeepay",
