@@ -173,9 +173,45 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 .up svg{width:15px;height:15px}
 .golink{align-self:flex-start;border:0;background:transparent;color:var(--accent);padding:0;font-size:14px;font-weight:700}
 
+/* Score trend */
+.spk{display:block;width:40px;height:14px;margin:3px 0 0 auto;overflow:visible}
+.spk polyline{fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.spk.t-up polyline,.trend.t-up polyline{stroke:var(--steady)} .spk.t-down polyline,.trend.t-down polyline{stroke:var(--hot)} .spk.t-flat polyline,.trend.t-flat polyline{stroke:var(--muted)}
+.trend{background:var(--paper);border-radius:10px;padding:10px 12px}
+.trend svg{display:block;width:100%;height:56px;overflow:visible}
+.trend polyline{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.trend circle{fill:var(--panel);stroke-width:2}
+.trend .ax{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:4px}
+.trend .tv{font-size:14px;font-weight:700}
+.trend.t-up .tv{color:var(--steady)} .trend.t-down .tv{color:var(--hot)}
+
+/* Plan & tracker */
+.acts select{font-weight:700}
+.linkrow{display:flex;gap:6px}
+.linkrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.planchip{font-size:12px;font-weight:700;color:var(--accent)}
+.days{display:flex;flex-direction:column;gap:8px}
+.day{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.day.today{border-color:var(--accent)}
+.dh{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;font-weight:700;color:var(--muted)}
+.day.today .dh{color:var(--accent)}
+.pi{display:flex;align-items:center;gap:8px}
+.pi .pt2{flex:1;min-width:0;font-weight:700;line-height:1.3;border:0;background:transparent;padding:0;text-align:left}
+.pi.done .pt2{color:var(--muted);text-decoration:line-through}
+.dempty{font-size:13px;color:var(--muted)}
+.stat{display:flex;gap:8px}
+.stat div{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.stat b{display:block;font-family:var(--display);font-size:24px;line-height:1.1}
+.stat span{font-size:12px;color:var(--muted)}
+.ul2{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.ul2 li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
+.ul2 .m{font-size:13px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.seasonal .ev li::before{border-color:var(--ink-a)}
+.seasonal .evd{color:var(--ink-a)}
+
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);height:var(--navh)}
+.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:var(--navh)}
 .nb{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;color:var(--muted)}
 .nb svg{width:22px;height:22px}
 .nb[aria-current="page"]{color:var(--accent);font-weight:700}
@@ -209,7 +245,26 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { view:"topik", filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, open:{}, dtab:{}, viewing:"latest", dates:[] };
+  const state = { view:"topik", filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, scores:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
+  const HARI = ["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"], HR = ["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"];
+  /* Kalendar bermusim: perkara yang berulang setiap tahun. Tarikh ialah kebiasaan, bukan pengumuman rasmi. */
+  const SEASON = [
+    { m:1, d:1, label:"Dividen ASB dikreditkan", note:"Biasanya diumumkan hujung Disember. Video: cara semak dividen dalam myASNB, kira dividen sendiri.", lead:14 },
+    { m:1, d:5, label:"Musim buka sekolah & belanja persekolahan", note:"Video: bajet persekolahan, semak bantuan awal persekolahan, simpan untuk anak (SSPN).", lead:21 },
+    { m:3, d:1, label:"e-Filing LHDN dibuka", note:"Biasanya 1 Mac. Video: cara isi e-BE langkah demi langkah, senarai pelepasan cukai.", lead:10, approx:true },
+    { m:3, d:1, label:"Dividen KWSP diumumkan", note:"Biasanya hujung Feb atau awal Mac. Video: kira dividen KWSP, Akaun Fleksibel.", lead:10, approx:true },
+    { m:4, d:30, label:"Tarikh akhir hantar BE (pekerja)", note:"Biasanya ada lanjutan 15 hari untuk e-Filing. Video: 'jangan lambat isi cukai', kesilapan biasa.", lead:14 },
+    { m:6, d:30, label:"Tarikh akhir Borang B (berniaga & freelancer)", note:"Video: cukai untuk freelancer dan peniaga online.", lead:14 },
+    { m:8, d:31, label:"Hari Kebangsaan & jualan Merdeka", note:"Video: promosi Merdeka, tips belanja hujung bulan.", lead:10 },
+    { m:9, d:9, label:"Jualan 9.9", note:"Video: susun baucar, cashback e-wallet.", lead:5 },
+    { m:10, d:10, label:"Jualan 10.10", note:"Video: banding harga, elak beli ikut emosi.", lead:5 },
+    { m:10, d:10, label:"Bajet negara dibentangkan", note:"Biasanya Oktober. Video: apa dapat rakyat, cukai, bantuan.", lead:7, approx:true },
+    { m:11, d:11, label:"Jualan 11.11", note:"Jualan terbesar tahun. Video: checkout paling murah.", lead:7 },
+    { m:12, d:12, label:"Jualan 12.12", note:"Video: tips belanja hujung tahun.", lead:5 },
+    { m:12, d:31, label:"Hari terakhir guna pelepasan cukai tahun ini", note:"Video: belanja apa sebelum 31 Dis untuk tuntut pelepasan (gaya hidup, SSPN, PRS, perubatan). Simpan resit.", lead:21 },
+    { y:2027, m:2, d:8, label:"Ramadan 2027 bermula", note:"Anggaran, ikut cerapan anak bulan. Video: bajet Ramadan, bazar, zakat fitrah online.", lead:14, approx:true },
+    { y:2027, m:3, d:10, label:"Hari Raya Aidilfitri 2027", note:"Anggaran, ikut cerapan anak bulan. Video: tukar duit raya baharu, bajet raya, bonus raya.", lead:21, approx:true }
+  ];
   const statusLabel = { panas:"Panas", naik:"Naik", stabil:"Stabil" };
   const RANK = { panas:0, naik:1, stabil:2 };
   const OPP = { tinggi:"Peluang tinggi", sederhana:"Peluang sederhana", sesak:"Dah sesak" };
@@ -241,7 +296,8 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     grid:'<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
     search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
     sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
-    moon:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>'
+    moon:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
+    plan:'<rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M8 9l1.5 1.5L12 8M8 15l1.5 1.5L12 14M14 9.5h3M14 15.5h3"/>'
   };
   const FIRE = '<svg class="fire" viewBox="0 0 24 24" aria-label="Topik hangat" role="img"><path fill="currentColor" d="M12.5 2c.6 3.2-1.2 5-2.8 6.8C8.2 10.4 7 12 7 14.5 7 18 9.3 21 12.5 21S18 18.4 18 15c0-2.6-1.3-4.2-2.2-5.4-.3 1.5-1 2.6-2 3 .6-3.4-.2-7.4-1.3-10.6z"/></svg>';
   const UP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>';
@@ -260,7 +316,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   paintThemeBtn();
 
   /* Nav & header */
-  const VIEWS = [["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["app","App","grid"]];
+  const VIEWS = [["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"],["app","App","grid"]];
   let prevView = "topik";
   function renderNav(){ $("nav").innerHTML = VIEWS.map(v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span></button>`).join(""); }
   function renderHeader(){
@@ -271,7 +327,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     $("searchBox").hidden = state.view !== "cari";
     if(state.view === "topik"){
       row.hidden = false;
-      row.innerHTML = [["semua","Semua"],["kewangan","Kewangan"],["tutorial","Tutorial"]].map(f => `<button class="tab" data-f="${f[0]}" aria-pressed="${state.filter === f[0]}">${f[1]}</button>`).join("");
+      row.innerHTML = [["semua","Semua"],["emas","Peluang emas"],["kewangan","Kewangan"],["tutorial","Tutorial"]].map(f => `<button class="tab" data-f="${f[0]}" aria-pressed="${state.filter === f[0]}">${f[1]}</button>`).join("");
     } else if(state.view === "app"){
       row.hidden = false;
       row.innerHTML = SEGS.map(s => `<button class="tab" data-seg="${s[0]}" aria-pressed="${state.seg === s[0]}">${svg(s[2])}${esc(s[1])}</button>`).join("");
@@ -284,6 +340,54 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     const d = Math.round((Number(i.score) || 0) - i.prev_score); if(!d) return "";
     return `<span class="delta ${d > 0 ? "up" : "down"}" aria-label="${d > 0 ? "naik" : "turun"} ${Math.abs(d)}">${d > 0 ? "↑" : "↓"}${Math.abs(d)}</span>`;
   }
+  /* Trend skor (dari history/scores.json) */
+  function series(id){
+    const pts = state.scores && Array.isArray(state.scores.points) ? state.scores.points : [];
+    return pts.map(p => ({ label: String(p.label || p.date || "").replace(/ \d{4},/, ","), v: p.s ? p.s[id] : undefined })).filter(p => typeof p.v === "number");
+  }
+  function tcls(a){ const d = a[a.length-1].v - a[0].v; return d > 0 ? "t-up" : d < 0 ? "t-down" : "t-flat"; }
+  function poly(a, w, h, pad){
+    const vs = a.map(p => p.v), lo = Math.min(...vs), hi = Math.max(...vs), span = Math.max(hi - lo, 4), mid = (hi + lo) / 2;
+    return a.map((p, n) => [ (a.length === 1 ? w/2 : n * (w / (a.length - 1))), pad + (h - 2*pad) * (1 - ((p.v - (mid - span/2)) / span)) ]);
+  }
+  function sparkSmall(id){
+    const a = series(id); if(a.length < 2) return "";
+    const pts = poly(a, 40, 14, 1.5).map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+    return `<svg class="spk ${tcls(a)}" viewBox="0 0 40 14" aria-hidden="true"><polyline points="${pts}"/></svg>`;
+  }
+  function trendBig(id){
+    const a = series(id); if(a.length < 2) return "";
+    const c = tcls(a), d = a[a.length-1].v - a[0].v, xy = poly(a, 300, 56, 6);
+    const txt = d > 0 ? `Naik ${d} mata` : d < 0 ? `Turun ${-d} mata` : "Tak berubah";
+    const hint = d >= 3 ? "Topik makin panas, sesuai buat sekarang." : d <= -3 ? "Minat mula reda. Kalau nak buat, buat cepat atau cari sudut baru." : "Minat masih stabil.";
+    return `<div class="trend ${c}"><div class="seohead"><span class="lbl" style="margin:0">Trend skor (${a.length} kemas kini)</span><span class="tv">${txt}</span></div>
+      <svg viewBox="0 0 300 56" preserveAspectRatio="none" role="img" aria-label="Skor dari ${a[0].v} ke ${a[a.length-1].v}"><polyline points="${xy.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ")}" vector-effect="non-scaling-stroke"/></svg>
+      <div class="ax"><span>${esc(a[0].label)} · ${a[0].v}</span><span>${esc(a[a.length-1].label)} · ${a[a.length-1].v}</span></div>
+      <div class="note" style="margin-top:4px">${hint}</div></div>`;
+  }
+
+  /* Plan & tracker (disimpan dalam telefon) */
+  function isoOf(dt){ return dt.toISOString().slice(0,10); }
+  function week(){ const t = todayMY(); return Array.from({length:7}, (_, n) => new Date(t.getTime() + n * 86400000)); }
+  function dayLabel(dt, short){ return (short ? HR : HARI)[dt.getUTCDay()] + ", " + dt.getUTCDate() + " " + BLN[dt.getUTCMonth()]; }
+  function savePlan(){ try{ localStorage.setItem("rt-plan", JSON.stringify(state.plan)); }catch(e){} }
+  function doneInfo(id){ const v = state.done[id]; return v ? (typeof v === "object" ? v : {}) : null; }
+  function planCtl(i){
+    const id = esc(i.id), cur = state.plan[i.id] ? state.plan[i.id].d : "";
+    const opts = week().map(dt => { const v = isoOf(dt); return `<option value="${v}"${v === cur ? " selected" : ""}>${dayLabel(dt, true)}</option>`; });
+    if(cur && !opts.some(o => o.includes(`"${cur}"`))){ const dt = parseD(cur); if(dt) opts.unshift(`<option value="${cur}" selected>${dayLabel(dt, true)}</option>`); }
+    return `<select data-plan="${id}" aria-label="Rancang tarikh upload"><option value="">${cur ? "Buang dari plan" : "Rancang upload…"}</option>${opts.join("")}</select>`;
+  }
+  function trackCtl(i){
+    const id = esc(i.id), info = doneInfo(i.id);
+    return `<button class="btn" data-done="${id}">${info ? "Buang tanda" : "Tanda dah upload"}</button>`;
+  }
+  function linkCtl(i){
+    const id = esc(i.id), info = doneInfo(i.id); if(!info) return "";
+    return `<div><div class="lbl">Link video (pilihan)</div><div class="linkrow"><input type="url" inputmode="url" id="lk-${id}" placeholder="Tampal link YouTube" value="${esc(info.u || "")}" aria-label="Link video YouTube"><button class="btn" data-savelink="${id}">Simpan</button></div></div>`;
+  }
+
+  function planTag(i){ if(state.done[i.id]) return `<span class="planchip">✓ Dah upload</span>`; const p = state.plan[i.id]; if(!p) return ""; const dt = parseD(p.d); return dt ? `<span class="planchip">Plan: ${dayLabel(dt, true)}</span>` : ""; }
   function oppChip(i){ const c = i.competition; return c && OPP[c.level] ? `<span class="opp ${c.level}">${OPP[c.level]}</span>` : ""; }
   function ideasList(list, plain){ return list.length ? `<ul class="ideas${plain ? " plain" : ""}">${list.map(t => `<li><span>${plain ? `<b>${esc(t)}</b>` : esc(t)}</span><button class="mini" data-copy="${esc(t)}">Salin</button></li>`).join("")}</ul>` : ""; }
   function srcLinks(arr){ return (Array.isArray(arr) ? arr : []).map(s => { const u = safeUrl(s.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s.name || "Sumber")}</a>` : ""; }).join(""); }
@@ -341,14 +445,15 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
         ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
+        ${trendBig(i.id)}
         ${appChip(i)}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
-        ${state.viewing === "latest" ? `<div class="acts"><button class="btn" data-done="${id}">${done ? "Buang tanda" : "Tanda dah buat"}</button></div>` : ""}`;
+        ${state.viewing === "latest" ? `<div class="acts">${planCtl(i)}${trackCtl(i)}</div>${linkCtl(i)}` : ""}`;
     return `<div class="item${done ? " done" : ""}" id="it-${id}">
       <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${oppChip(i) ? `<span class="sub">${oppChip(i)}</span>` : ""}</span>
-        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}</span>
+        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i)) ? `<span class="sub">${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
+        <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}${sparkSmall(i.id)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
       <div class="detail" id="d-${id}"${open ? "" : " hidden"}>
@@ -382,7 +487,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function viewTopik(){
     const all = items();
     const picks = all.filter(i => !state.done[i.id]).slice(0, 3);
-    let list = all.filter(i => state.filter === "semua" || i.cat === state.filter);
+    let list = state.filter === "emas"
+      ? all.filter(i => i.competition && i.competition.level === "tinggi" && (Number(i.score) || 0) >= 60).sort((a,b) => (b.score||0) - (a.score||0))
+      : all.filter(i => state.filter === "semua" || i.cat === state.filter);
     if(state.hideDone) list = list.filter(i => !state.done[i.id]);
     const pickHtml = (picks.length && state.filter === "semua" && state.viewing === "latest") ? `<h2 class="sec">Pilihan hari ini</h2>
       <div class="picks">${picks.map((i,n) => `<button class="pick" data-pick="${esc(i.id)}">
@@ -391,7 +498,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         <span class="ph">${esc(i.script && i.script.hook ? i.script.hook : i.why)}</span>
         <span class="pf">${oppChip(i) || "<span></span>"}<span class="go">${i.script ? "Buka skrip" : "Buka idea"} →</span></span>
       </button>`).join("")}</div>` : "";
-    return pickHtml + `<h2 class="sec">${state.filter === "kewangan" ? "Topik kewangan" : state.filter === "tutorial" ? "Topik tutorial" : "Semua topik"}</h2>
+    const head = { kewangan:"Topik kewangan", tutorial:"Topik tutorial", emas:"Peluang emas" }[state.filter] || "Semua topik";
+    return pickHtml + `<h2 class="sec">${head}</h2>${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.</div>` : ""}
       <div class="list">${list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`}</div>
       <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Nombor = skor potensi</span></div>
       <div class="more"><label><input type="checkbox" id="hideDone"${state.hideDone ? " checked" : ""}> Sembunyi yang dah buat</label>
@@ -403,20 +511,57 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function cdText(n, approx){ if(n < 0) return "Dah lepas"; if(n === 0) return "Hari ini"; if(n === 1) return "Esok"; if(n < 60) return (approx ? "± " : "") + n + " hari lagi"; return (approx ? "± " : "") + Math.round(n / 30) + " bulan lagi"; }
   function viewTarikh(){
     const up = (state.data && Array.isArray(state.data.upcoming)) ? state.data.upcoming : [];
-    if(!up.length) return `<div class="empty">Tiada tarikh penting buat masa ini.</div>`;
     const t = todayMY();
     const rows = up.map(u => ({ u, w: parseD(u.when) })).filter(r => !r.w || days(t, r.w) >= -1).sort((a,b) => (a.w ? a.w.getTime() : Infinity) - (b.w ? b.w.getTime() : Infinity));
     const groups = [];
     rows.forEach(r => { const key = r.w ? BULAN[r.w.getUTCMonth()] + " " + r.w.getUTCFullYear() : "TARIKH BELUM PASTI"; let g = groups[groups.length-1]; if(!g || g.key !== key){ g = { key, rows: [] }; groups.push(g); } g.rows.push(r); });
     const ids = new Set(items().map(i => i.id));
-    return `<h2 class="sec">Tarikh penting</h2><div class="tl">${groups.map(g => `<section><h3 class="mon">${esc(g.key)}</h3><ul class="ev">${g.rows.map(({u, w}) => {
+    return `<h2 class="sec">Tarikh penting</h2>${groups.length ? "" : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`}<div class="tl">${groups.map(g => `<section><h3 class="mon">${esc(g.key)}</h3><ul class="ev">${g.rows.map(({u, w}) => {
       const n = w ? days(t, w) : null, soon = n !== null && n >= 0 && n <= 7;
       let upHtml = "";
       if(w && n >= 0){ const lead = Math.max(1, Math.min(60, Number(u.lead) || 7)); const ub = new Date(w.getTime() - lead * 86400000), m = days(t, ub);
         upHtml = m <= 0 ? `<div class="up late">${UP}Upload video sekarang</div>` : `<div class="up">${UP}Upload sebelum ${ub.getUTCDate()} ${BLN[ub.getUTCMonth()]}${u.approx ? " (anggaran)" : ""}</div>`; }
       return `<li class="${soon ? "soon" : ""}${n !== null && n < 0 ? " past" : ""}"><div class="evtop"><span class="evd">${esc(u.date)}</span>${n !== null ? `<span class="cd">${cdText(n, u.approx)}</span>` : ""}</div>
         <div class="evl">${esc(u.label)}</div>${u.note ? `<div class="evn">${esc(u.note)}</div>` : ""}${upHtml}
-        ${u.topic && ids.has(u.topic) ? `<button class="golink" data-goto="${esc(u.topic)}">Lihat topik &amp; idea tajuk →</button>` : ""}</li>`; }).join("")}</ul></section>`).join("")}</div>`;
+        ${u.topic && ids.has(u.topic) ? `<button class="golink" data-goto="${esc(u.topic)}">Lihat topik &amp; idea tajuk →</button>` : ""}</li>`; }).join("")}</ul></section>`).join("")}</div>` + viewSeason(t, up);
+  }
+  function viewSeason(t, up){
+    const taken = new Set(up.map(u => (u.when || "") + "|" + String(u.label || "").toLowerCase().slice(0,6)));
+    const rows = SEASON.map(e => {
+      let w = new Date(Date.UTC(e.y || t.getUTCFullYear(), e.m - 1, e.d));
+      if(!e.y && days(t, w) < 0) w = new Date(Date.UTC(t.getUTCFullYear() + 1, e.m - 1, e.d));
+      return { e, w, n: days(t, w) };
+    }).filter(r => r.n >= 0 && r.n <= 366 && !taken.has(isoOf(r.w) + "|" + r.e.label.toLowerCase().slice(0,6))).sort((a,b) => a.w - b.w);
+    if(!rows.length) return "";
+    return `<h2 class="sec">Bermusim (berulang setiap tahun)</h2><div class="note">Tarikh ikut kebiasaan tahun-tahun lepas. Semak pengumuman rasmi sebelum rakam.</div>
+      <ul class="ev seasonal">${rows.map(({e, w, n}) => {
+        const lead = e.lead || 10, ub = new Date(w.getTime() - lead * 86400000), m = days(t, ub);
+        return `<li class="${n <= 7 ? "soon" : ""}"><div class="evtop"><span class="evd">${w.getUTCDate()} ${BLN[w.getUTCMonth()]} ${w.getUTCFullYear()}${e.approx ? " (anggaran)" : ""}</span><span class="cd">${cdText(n, e.approx)}</span></div>
+          <div class="evl">${esc(e.label)}</div><div class="evn">${esc(e.note)}</div>
+          ${m <= 0 ? `<div class="up late">${UP}Upload video sekarang</div>` : `<div class="up">${UP}Upload sebelum ${ub.getUTCDate()} ${BLN[ub.getUTCMonth()]}</div>`}</li>`; }).join("")}</ul>`;
+  }
+  function planTitle(id){ const it = items().find(x => x.id === id); return it ? it.title : (state.plan[id] && state.plan[id].t) || (doneInfo(id) && doneInfo(id).t) || id; }
+  function viewPlan(){
+    const t = todayMY(), wk = week(), ids = new Set(items().map(i => i.id));
+    const tIso = isoOf(t), endIso = isoOf(wk[6]);
+    const plan = Object.entries(state.plan).filter(([id, p]) => p && p.d);
+    const late = plan.filter(([id, p]) => p.d < tIso && !state.done[id]);
+    const doneList = Object.entries(state.done).map(([id, v]) => ({ id, ...(typeof v === "object" ? v : {}) })).sort((a,b) => String(b.d || "").localeCompare(String(a.d || "")));
+    const weekStart = isoOf(new Date(t.getTime() - ((t.getUTCDay() + 6) % 7) * 86400000));
+    const thisWeekDone = doneList.filter(x => x.d && x.d >= weekStart).length;
+    const planned = plan.filter(([id, p]) => p.d >= tIso && p.d <= endIso).length;
+    const row = (id, p) => { const dn = !!state.done[id], e = esc(id);
+      return `<div class="pi${dn ? " done" : ""}"><button class="pt2" ${ids.has(id) ? `data-goto="${e}"` : "disabled"}>${esc(planTitle(id))}</button>${dn ? "" : `<button class="mini" data-done="${e}">Dah upload</button>`}<button class="mini" data-unplan="${e}" aria-label="Buang dari plan">Buang</button></div>`; };
+    return `<h2 class="sec">Plan upload minggu ni</h2>
+      <div class="stat"><div><b>${planned}</b><span>dirancang 7 hari ni</span></div><div><b>${thisWeekDone}</b><span>dah upload minggu ni</span></div><div><b>${doneList.length}</b><span>jumlah dah upload</span></div></div>
+      ${plan.length ? "" : `<div class="note">Belum ada plan. Buka mana-mana topik, kemudian pilih hari dalam "Rancang upload…".</div>`}
+      ${late.length ? `<h2 class="grp">TERTUNGGAK (${late.length})</h2><div class="day">${late.map(([id, p]) => row(id, p)).join("")}</div>` : ""}
+      <div class="days">${wk.map((dt, n) => { const iso = isoOf(dt), its = plan.filter(([id, p]) => p.d === iso);
+        return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length ? its.map(([id, p]) => row(id, p)).join("") : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>
+      <h2 class="sec">Video dah upload (${doneList.length})</h2>
+      ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d);
+        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ids.has(x.id) ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div></li>`; }).join("")}</ul>` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
+      <div class="note">Plan dan senarai ini disimpan dalam telefon ini sahaja.</div>`;
   }
   function viewApp(){
     const list = apps().filter(a => a.seg === state.seg);
@@ -437,7 +582,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function render(){
     renderNav(); renderHeader();
     if(!state.data){ $("view").innerHTML = `<div class="empty">Memuatkan…</div>`; return; }
-    $("view").innerHTML = state.view === "tarikh" ? viewTarikh() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
+    $("view").innerHTML = state.view === "tarikh" ? viewTarikh() : state.view === "plan" ? viewPlan() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
     const hd = $("hideDone"); if(hd) hd.addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
     const hs = $("histSel"); if(hs) hs.addEventListener("change", onHist);
   }
@@ -463,7 +608,18 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.dtab){ state.dtab[d.for] = d.dtab; const it = items().find(x => x.id === d.for); const wrap = $("it-" + d.for); if(it && wrap){ wrap.outerHTML = itemHtml(it); } }
     else if(d.copy != null){ copy(d.copy, b); }
     else if(d.prompt){ const it = items().find(x => x.id === d.prompt); if(it) copy(buildPrompt(it), b); }
-    else if(d.done){ if(state.done[d.done]) delete state.done[d.done]; else state.done[d.done] = 1; saveDone(); render(); }
+    else if(d.done){ const id = d.done; if(state.done[id]) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()) }; saveDone(); render(); }
+    else if(d.unplan){ delete state.plan[d.unplan]; savePlan(); render(); }
+    else if(d.savelink){ const id = d.savelink, inp = $("lk-" + id), v = inp ? inp.value.trim() : "";
+      if(v && !safeUrl(v)){ b.textContent = "Link tak sah"; setTimeout(() => b.textContent = "Simpan", 1600); return; }
+      const info = doneInfo(id) || {}; state.done[id] = { t: info.t || planTitle(id), d: info.d || isoOf(todayMY()), u: v || undefined }; saveDone(); b.textContent = "Disimpan"; setTimeout(() => b.textContent = "Simpan", 1400); }
+  });
+  document.addEventListener("change", ev => {
+    const el = ev.target; if(!el.dataset || !el.dataset.plan) return;
+    const id = el.dataset.plan;
+    if(el.value) state.plan[id] = { d: el.value, t: planTitle(id) }; else delete state.plan[id];
+    savePlan(); const it = items().find(x => x.id === id), wrap = $("it-" + id);
+    if(it && wrap && state.view !== "plan") wrap.outerHTML = itemHtml(it); else render();
   });
   $("searchBtn").innerHTML = svg("search");
   $("searchBtn").addEventListener("click", () => setView(state.view === "cari" ? prevView : "cari"));
@@ -485,9 +641,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
 
   (async function start(){
     try{ const s = JSON.parse(localStorage.getItem("rt-done") || "{}"); if(s && typeof s === "object") state.done = s; }catch(e){}
+    try{ const s = JSON.parse(localStorage.getItem("rt-plan") || "{}"); if(s && typeof s === "object") state.plan = s; }catch(e){}
     render();
     try{ state.latest = state.data = await getJson("data.json"); }
     catch(e){ $("view").innerHTML = `<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>`; return; }
+    getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
     try{ const idx = await getJson("history/index.json"); state.dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== state.latest.date).sort().reverse().slice(0,14); }catch(e){}
     render();
   })();
