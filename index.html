@@ -600,17 +600,63 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
   }
   function sentences(t){ return (String(t || "").match(/[^.!?]+[.!?]+(\s|$)/g) || [String(t || "")]).map(x => x.trim()).filter(Boolean); }
   function vidLink(i){ const d = doneInfo(i.id); return d && safeUrl(d.u) ? safeUrl(d.u) : "[link video]"; }
-  function promoHtml(i){
-    const s = i.seo || {}, hook = (i.script && i.script.hook) || sentences(i.why)[0], title = (i.ideas && i.ideas[0]) || i.title, link = vidLink(i);
-    const tags = Array.isArray(s.hashtags) ? s.hashtags : [], sn = sentences(i.why), fq = Array.isArray(i.faq) ? i.faq : [];
+  /* Promosi dengan pilihan "Ayat lain" */
+  function uniqTexts(arr){ const seen = new Set(), out = []; arr.forEach(t => { t = String(t || "").trim(); const k = t.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60); if(t && k && !seen.has(k)){ seen.add(k); out.push(t); } }); return out; }
+  function sameText(a, b){ const n = x => String(x || "").toLowerCase().replace(/[^a-z0-9]/g, ""); const x = n(a), y = n(b); return !!x && !!y && (x.includes(y.slice(0, 50)) || y.includes(x.slice(0, 50))); }
+  function pick(arr, n){ return arr.length ? arr[((n % arr.length) + arr.length) % arr.length] : ""; }
+  function pv(id, k){ return (state.pv && state.pv[id + "|" + k]) || 0; }
+  function promoParts(i){
     const short = i.title.length > 48 ? i.title.slice(0, 46).replace(/\s+\S*$/, "") + "…" : i.title;
-    const community = `🔔 Video baru: ${title}\n\n${hook}\n\nTonton sekarang 👉 ${link}\n\nKorang dah tahu pasal ni? Komen kat bawah!`;
-    const poll = `Korang dah tahu pasal ${short}?\n\n🅰️ Dah tahu\n🅱️ Baru tahu sekarang\n🅲 Nak video penuh pasal ni`;
-    const caption = `${hook}\n\n${sn[0] || ""}\n\nVideo penuh kat YouTube Imran Wafi 🔗 link kat bio\n\n${tags.join(" ")}`;
-    const th = [`${hook} 🧵`].concat(sn.slice(0, 2), fq.slice(0, 2).map(x => `${x.q}\n${x.a}`), [`Video penuh: ${link}`]).map((t, n, a) => `${n + 1}/${a.length} ${t}`);
-    const block = (label, text, note) => `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><button class="mini" data-copy="${esc(text)}">Salin</button></div><div class="desc">${esc(text)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
+    const hooks = uniqTexts([i.script && i.script.hook].concat((Array.isArray(i.shorts) ? i.shorts : []).map(x => x.hook), [`${short}: ni apa korang perlu tahu 👇`, `Ramai belum tahu pasal ni: ${short}.`]));
+    const facts = uniqTexts(sentences(i.why));
+    const ideas = uniqTexts([i.title].concat(Array.isArray(i.ideas) ? i.ideas : [], (Array.isArray(i.shorts) ? i.shorts : []).map(x => x.title)));
+    return { short, hooks, facts, ideas, faq: Array.isArray(i.faq) ? i.faq.filter(x => x && x.q) : [], tags: Array.isArray(i.seo && i.seo.hashtags) ? i.seo.hashtags : [] };
+  }
+  function factsExcept(P, hook, n, count){ const f = P.facts.filter(x => !sameText(x, hook)); const out = []; for(let k = 0; k < Math.min(count, f.length); k++) out.push(pick(f, n + k)); return uniqTexts(out); }
+  function genCommunity(i, P, n, link){
+    const hook = pick(P.hooks, n), title = pick(P.ideas.slice(1).length ? P.ideas.slice(1) : P.ideas, n);
+    const open = pick([`🔔 Video baru: ${title}`, `📢 Baru upload: ${title}`, `🎥 Video terbaru dah keluar!\n${title}`, `Penting untuk korang 👇\n${title}`], n);
+    const fact = factsExcept(P, hook, n, 1)[0] || "";
+    const cta = pick([`Tonton sekarang 👉 ${link}`, `Link video: ${link}`, `Tengok penuh kat sini 👉 ${link}`], n);
+    const end = pick(["Korang dah tahu pasal ni? Komen kat bawah!", "Share dengan family yang perlu tahu 🙏", P.faq.length ? `Soalan: ${pick(P.faq, n).q} Jawab kat komen 👇` : "Ada soalan? Tulis kat komen, aku jawab."], n + 1);
+    return [open, hook, fact, cta, end].filter(Boolean).join("\n\n");
+  }
+  function genPoll(i, P, n){
+    const ideas = P.ideas.slice(1, 4);
+    const kinds = [
+      () => `Korang dah tahu pasal ${P.short}?\n\n🅰️ Dah tahu\n🅱️ Baru tahu sekarang\n🅲 Nak video penuh pasal ni`,
+      () => ideas.length >= 2 ? `Video mana korang nak aku buat dulu?\n\n${ideas.map((t, k) => ["🅰️","🅱️","🅲"][k] + " " + t).join("\n")}` : null,
+      () => P.faq.length ? `Korang tahu jawapan soalan ni?\n"${pick(P.faq, n).q}"\n\n🅰️ Tahu\n🅱️ Tak pasti\n🅲 Tak tahu langsung` : null,
+      () => `Pasal ${P.short}, korang rasa macam mana?\n\n🅰️ Sangat membantu\n🅱️ Biasa je\n🅲 Belum faham, nak penerangan`
+    ].map(f => f()).filter(Boolean);
+    return pick(kinds, n);
+  }
+  function genCaption(i, P, n){
+    const hook = pick(P.hooks, n), facts = factsExcept(P, hook, n, 2);
+    const cta = pick(["Video penuh kat YouTube Imran Wafi 🔗 link kat bio", "Nak tahu langkah penuh? Tengok video kat YouTube Imran Wafi (link kat bio)", "Save & share dengan kawan yang perlu tahu. Video penuh kat YouTube 🔗 bio"], n);
+    const tags = P.tags.length ? P.tags.slice(n % P.tags.length).concat(P.tags.slice(0, n % P.tags.length)) : [];
+    return [hook, facts[0] || "", cta, tags.join(" ")].filter(Boolean).join("\n\n");
+  }
+  function genThread(i, P, n, link){
+    const hook = pick(P.hooks, n), facts = factsExcept(P, hook, n, 3);
+    const qa = P.faq.length ? [0, 1].map(k => pick(P.faq, n + k)).filter((x, k, a) => a.indexOf(x) === k).map(x => `${x.q}\n${x.a}`) : [];
+    const posts = uniqTexts([`${hook} 🧵`].concat(facts.slice(0, 2), qa.filter(t => !facts.some(f => sameText(f, t.split("\n")[1])))))
+      .concat([pick([`Video penuh: ${link}`, `Langkah penuh dalam video ni 👉 ${link}`, `Nak tengok cara buat? ${link}`], n)]);
+    return posts.map((t, k, a) => `${k + 1}/${a.length} ${t}`).join("\n\n");
+  }
+  function promoBlock(i, key, label, text, note){
+    const id = esc(i.id);
+    return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px"><button class="mini" data-regen="${id}|${key}" aria-label="Jana ayat lain untuk ${label}">↻ Ayat lain</button><button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
+  }
+  function promoHtml(i){
+    const P = promoParts(i), link = vidLink(i);
     const tip = link === "[link video]" ? "Tanda topik ni dah upload dan simpan link video, nanti link masuk sendiri dalam post." : "";
-    return quizHtml(i) + block("Post Komuniti YouTube", community, tip) + block("Poll Komuniti YouTube", poll) + block("Caption TikTok / Instagram", caption) + block("Thread X / Threads", th.join("\n\n")) + repliesHtml(i);
+    return quizHtml(i)
+      + promoBlock(i, "com", "Post Komuniti YouTube", genCommunity(i, P, pv(i.id, "com"), link), tip)
+      + promoBlock(i, "poll", "Poll Komuniti YouTube", genPoll(i, P, pv(i.id, "poll")))
+      + promoBlock(i, "cap", "Caption TikTok / Instagram", genCaption(i, P, pv(i.id, "cap")))
+      + promoBlock(i, "thr", "Thread X / Threads", genThread(i, P, pv(i.id, "thr"), link))
+      + repliesHtml(i);
   }
   function quizHtml(i){
     const a = Array.isArray(i.quiz) ? i.quiz.filter(x => x && x.q && Array.isArray(x.o) && x.o.length >= 2) : []; if(!a.length) return "";
@@ -626,14 +672,32 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
   function repliesHtml(i){
     const u = i.app && safeUrl(i.app.url), src = (Array.isArray(i.sources) ? i.sources : []).slice(0, 2).map(x => x.name).filter(Boolean).join(" dan ");
     const ev = ((state.data && state.data.upcoming) || []).find(x => x.topic === i.id);
-    const r = [];
-    r.push(["\"Link mana?\"", u ? `Link rasmi: ${u} 👍 Guna laman rasmi je, jangan klik link dari SMS atau WhatsApp.` : `Semua link rasmi aku letak dalam deskripsi video 👍 Jangan klik link dari SMS atau WhatsApp.`]);
-    r.push(["\"Betul ke ni?\"", `Betul, info ni dari ${src || "sumber berita rasmi"}. Tapi semak juga laman rasmi sebab maklumat boleh berubah 🙏`]);
-    r.push(["\"Bila?\"", i.deadline ? `Ikut maklumat terkini: ${i.deadline}. Aku update kalau ada perubahan.` : ev ? `Ikut maklumat terkini, ${ev.date}: ${ev.label}.${ev.approx ? " Tarikh ni anggaran." : ""}` : `Tarikh rasmi belum diumumkan lagi. Aku update dalam video seterusnya bila ada berita 👍`]);
-    r.push(["\"Saya tak dapat / tak layak\"", `Sorry dengar macam tu. Cuba semak status${u ? " di " + u : " di laman rasmi"}, dan kalau ada pilihan rayuan, buat rayuan. Kalau masih tak jelas, hubungi agensi terus.`]);
-    r.push(["\"Terima kasih!\"", `Sama-sama! Share dengan family yang mungkin perlukan info ni 🙏`]);
-    (Array.isArray(i.faq) ? i.faq : []).slice(0, 3).forEach(x => r.push([`"${x.q}"`, `${x.a} 👍`]));
-    return `<div><div class="lbl">Balasan komen cepat</div><div class="shorts">${r.map(x => `<div class="sh"><div class="seohead"><span class="bt2" style="font-weight:700">${esc(x[0])}</span><button class="mini" data-copy="${esc(x[1])}">Salin</button></div><div class="hk2">${esc(x[1])}</div></div>`).join("")}</div></div>`;
+    const at = u ? ` di ${u}` : " di laman rasmi";
+    const R = [
+      ["link", "\"Link mana?\"", [
+        u ? `Link rasmi: ${u} 👍 Guna laman rasmi je, jangan klik link dari SMS atau WhatsApp.` : `Semua link rasmi aku letak dalam deskripsi video 👍 Jangan klik link dari SMS atau WhatsApp.`,
+        u ? `Ni link rasmi: ${u} Pastikan alamat tu betul sebelum isi apa-apa maklumat ya 🙏` : `Link rasmi ada kat deskripsi. Elak link yang orang hantar dalam group 🙏`,
+        u ? `Boleh terus ke ${u} 👍 Kalau ada orang hantar link lain, jangan tekan.` : `Check deskripsi, semua link rasmi aku dah susun kat situ 👍`]],
+      ["betul", "\"Betul ke ni?\"", [
+        `Betul, info ni dari ${src || "sumber berita rasmi"}. Tapi semak juga laman rasmi sebab maklumat boleh berubah 🙏`,
+        `Ya, aku rujuk ${src || "sumber rasmi"} sebelum buat video ni. Link sumber ada dalam deskripsi 👍`,
+        `Betul setakat maklumat terkini. Kalau ada perubahan, aku update dalam komen pin 📌`]],
+      ["bila", "\"Bila?\"", [
+        i.deadline ? `Ikut maklumat terkini: ${i.deadline}. Aku update kalau ada perubahan.` : ev ? `Ikut maklumat terkini, ${ev.date}: ${ev.label}.${ev.approx ? " Tarikh ni anggaran." : ""}` : `Tarikh rasmi belum diumumkan lagi. Aku update dalam video seterusnya bila ada berita 👍`,
+        i.deadline ? `${i.deadline}. Jangan tunggu saat akhir ya 😄` : ev ? `${ev.date}${ev.approx ? " (anggaran)" : ""}. Turn on notification supaya tak terlepas update 🔔` : `Belum ada tarikh rasmi. Subscribe & on notification, nanti aku update 🔔`]],
+      ["layak", "\"Saya tak dapat / tak layak\"", [
+        `Sorry dengar macam tu. Cuba semak status${at}, dan kalau ada pilihan rayuan, buat rayuan. Kalau masih tak jelas, hubungi agensi terus.`,
+        `Sabar ya 🙏 Semak semula maklumat${at}, kadang-kadang sebab maklumat tak lengkap. Kalau ada rayuan, cuba mohon.`,
+        `Biasanya sebab syarat kelayakan atau maklumat tak dikemas kini. Semak${at} atau hubungi talian rasmi untuk kepastian.`]],
+      ["tq", "\"Terima kasih!\"", [
+        `Sama-sama! Share dengan family yang mungkin perlukan info ni 🙏`,
+        `Sama-sama 😄 Semoga membantu! Jangan lupa subscribe untuk info macam ni.`,
+        `Terima kasih sebab tengok sampai habis 🙏 Ada topik lain nak aku cover? Komen je.`]]
+    ];
+    (Array.isArray(i.faq) ? i.faq : []).slice(0, 3).forEach((x, k) => R.push(["faq" + k, `"${x.q}"`, [`${x.a} 👍`, `Soalan bagus! ${x.a}`, `${x.a} Kalau ada soalan lain, tanya je 🙏`]]));
+    const id = esc(i.id);
+    return `<div><div class="lbl">Balasan komen cepat</div><div class="shorts">${R.map(([k, q, vs]) => { const t = pick(vs, pv(i.id, "r" + k));
+      return `<div class="sh"><div class="seohead"><span class="bt2" style="font-weight:700">${esc(q)}</span><span class="acts" style="margin:0;gap:6px;flex-wrap:nowrap"><button class="mini" data-regen="${id}|r${k}" aria-label="Balasan lain">↻</button><button class="mini" data-copy="${esc(t)}">Salin</button></span></div><div class="hk2">${esc(t)}</div></div>`; }).join("")}</div></div>`;
   }
   function seoHtml(i){
     const desc = descText(i);
@@ -1099,7 +1163,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   document.addEventListener("click", ev => {
     const b = ev.target.closest("button"); if(!b) return;
     const d = b.dataset;
-    if(d.open){ openSheet(d.open); }
+    if(d.regen){ const k = d.regen; state.pv = state.pv || {}; state.pv[k] = (state.pv[k] || 0) + 1; if(state.sheet) renderSheet(); buzz(8); }
+    else if(d.open){ openSheet(d.open); }
     else if(d.close){ closeSheet(); }
     else if(d.onb){ if(d.onb === "next"){ onbI++; renderOnb(); } else if(d.onb === "show"){ onbI = 0; renderOnb(); } else endOnb(); }
     else if(d.ptab){ state.ptab = d.ptab; state.bmsg = null; render(); window.scrollTo(0, 0); }
