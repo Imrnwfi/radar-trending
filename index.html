@@ -255,12 +255,71 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:var(--navh)}
+.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--navh)}
 .nb{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;color:var(--muted)}
 .nb svg{width:22px;height:22px}
 .nb[aria-current="page"]{color:var(--accent);font-weight:700}
 footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding:14px 16px 0;max-width:640px;margin:8px auto 0}
 @media (prefers-reduced-motion: reduce){.chev{transition:none}}
+body{overscroll-behavior-y:contain}
+body.sheet-open{overflow:hidden}
+#view,.shb{zoom:var(--fz,1)}
+.row[data-open] .chev{transform:rotate(-45deg);margin:0 6px 0 0}
+.nb{position:relative}
+.nb .badge{position:absolute;top:6px;left:calc(50% + 4px);min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--hot);color:#fff;font-size:10px;font-weight:800;line-height:17px;text-align:center}
+.newdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:6px;vertical-align:middle}
+.fzbtn{font-weight:800;font-size:15px;color:var(--ink)}
+/* Halaman penuh topik */
+.sheet{position:fixed;inset:0;z-index:60;background:var(--paper);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.sheet[hidden]{display:none}
+.shd{position:sticky;top:0;z-index:2;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:calc(env(safe-area-inset-top) + 8px) 14px 10px}
+.shd > *{max-width:612px;margin-left:auto;margin-right:auto}
+.bar1{display:flex;align-items:center;gap:10px}
+.back{flex:none;width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--panel);display:grid;place-items:center;color:var(--ink)}
+.back svg{width:20px;height:20px}
+.bar1 .st{flex:1;min-width:0;font-weight:800;font-size:15px;line-height:1.25;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.bar1 .sc{flex:none;font-family:var(--display);font-weight:800;font-size:18px}
+.shd .dtabs{margin-top:10px}
+.shb{max-width:640px;margin:0 auto;padding:14px 14px calc(48px + env(safe-area-inset-bottom));font-size:15px}
+/* Toast */
+.toast{position:fixed;left:50%;bottom:calc(var(--navh) + env(safe-area-inset-bottom) + 14px);transform:translate(-50%,16px);opacity:0;z-index:95;background:var(--ink);color:var(--paper);border-radius:12px;padding:10px 16px;font-size:14px;font-weight:700;display:flex;gap:14px;align-items:center;max-width:calc(100vw - 32px);box-shadow:0 6px 20px rgba(0,0,0,.18);transition:opacity .18s,transform .18s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+.toast button{background:transparent;border:0;color:#8aa0ff;font:inherit;font-weight:800;padding:0}
+body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
+/* Tarik untuk refresh */
+.ptr{position:fixed;top:0;left:0;right:0;z-index:58;display:flex;justify-content:center;pointer-events:none;transform:translateY(-70px);transition:transform .2s}
+.ptr span{margin-top:10px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+/* Swipe */
+.list .item[data-sw]{position:relative}
+.item[data-sw] .row{position:relative;z-index:1;background:var(--panel);touch-action:pan-y}
+.swl,.swr{position:absolute;top:0;bottom:0;display:flex;align-items:center;padding:0 18px;font-weight:800;font-size:14px;color:#fff;opacity:.75}
+.swl{left:0;right:50%;background:var(--accent)} .swr{left:50%;right:0;justify-content:flex-end;background:var(--steady)}
+.item.sw-go .swl,.item.sw-go .swr{opacity:1}
+.swhint{font-size:13px;color:var(--muted);text-align:center}
+/* Hari ini */
+.hello{display:flex;flex-direction:column;gap:2px;margin-top:4px}
+.hello b{font-family:var(--display);font-size:24px;font-weight:800;line-height:1.15}
+.hello span{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.card.hl{border-color:var(--accent)}
+.newbar{display:flex;align-items:center;justify-content:space-between;gap:10px;background:color-mix(in srgb,var(--accent) 10%,var(--panel));border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));border-radius:14px;padding:12px 14px;font-weight:700;width:100%;text-align:left;color:var(--ink)}
+.dl{display:flex;flex-direction:column;gap:6px}
+.dli{display:flex;gap:10px;align-items:baseline;border:0;background:transparent;padding:0;text-align:left;width:100%;color:var(--ink)}
+.dli .cd2{flex:none;min-width:74px;font-size:12px;font-weight:800;color:var(--hot)}
+.linkbtn{border:0;background:transparent;color:var(--accent);font-weight:700;padding:0;font-size:14px}
+/* Panduan */
+.onb{position:fixed;inset:0;z-index:100;background:rgba(10,12,16,.55);display:flex;align-items:flex-end;justify-content:center}
+.onb .ocard{background:var(--panel);color:var(--ink);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:24px 20px calc(20px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
+.onb .ill{width:56px;height:56px;border-radius:16px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);display:grid;place-items:center}
+.onb .ill svg{width:30px;height:30px}
+.onb h3{margin:0;font-family:var(--display);font-size:22px;line-height:1.2}
+.onb p{margin:0;color:var(--muted)}
+.onb ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.odots{display:flex;gap:6px}
+.odots i{width:8px;height:8px;border-radius:4px;background:var(--line)}
+.odots i.on{width:22px;background:var(--accent)}
+.oacts{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.oacts .btn.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -269,6 +328,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     <div class="brand">
       <svg class="logo" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#16181d"/><circle cx="18" cy="18" r="11" fill="none" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="18" cy="18" r="7" fill="none" stroke="#8aa0ff" stroke-opacity=".5" stroke-width="1.4"/><path d="M18 18 L18 7 A11 11 0 0 1 27 12 Z" fill="#8aa0ff" fill-opacity=".3"/><line x1="18" y1="18" x2="27" y2="12" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="22" cy="11.5" r="1.8" fill="#ff6f62"/><circle cx="18" cy="18" r="1.3" fill="#8aa0ff"/></svg>
       <div class="bt"><b>Radar Trending</b><span id="meta">Imran Wafi · Tutorial &amp; Kewangan</span></div>
+      <button class="iconbtn fzbtn" id="fzBtn" aria-label="Tukar saiz tulisan">Aa</button>
       <button class="iconbtn" id="searchBtn" aria-label="Cari topik atau app" aria-pressed="false"></button>
       <button class="iconbtn" id="themeBtn" aria-label="Tukar mod gelap atau terang"></button>
     </div>
@@ -285,11 +345,15 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 <footer>Dikemas kini automatik pagi dan petang. Skor ialah anggaran Claude berdasarkan berapa baru isu itu, berapa ramai terkesan dan kesesuaian dengan niche. Semak fakta di sumber rasmi sebelum rakam.</footer>
 
 <nav class="nav" aria-label="Navigasi utama"><div class="navin" id="nav"></div></nav>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Butiran topik" hidden></div>
+<div class="ptr" id="ptr" aria-hidden="true"><span id="ptrT">Tarik untuk muat semula</span></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="onbWrap"></div>
 
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { view:"topik", filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, archive:null, bmsg:null, rmon:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
+  const state = { view:"hari", ptab:"minggu", sheet:null, topikSeen:false, filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, archive:null, bmsg:null, rmon:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
   const HARI = ["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"], HR = ["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"];
   /* Kalendar bermusim: perkara yang berulang setiap tahun. Tarikh ialah kebiasaan, bukan pengumuman rasmi. */
   const SEASON = [
@@ -373,6 +437,8 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
     sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     moon:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
+    home:'<path d="M4 11l8-7 8 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/>',
+    back:'<path d="M15 5l-7 7 7 7"/>',
     plan:'<rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M8 9l1.5 1.5L12 8M8 15l1.5 1.5L12 14M14 9.5h3M14 15.5h3"/>'
   };
   const FIRE = '<svg class="fire" viewBox="0 0 24 24" aria-label="Topik hangat" role="img"><path fill="currentColor" d="M12.5 2c.6 3.2-1.2 5-2.8 6.8C8.2 10.4 7 12 7 14.5 7 18 9.3 21 12.5 21S18 18.4 18 15c0-2.6-1.3-4.2-2.2-5.4-.3 1.5-1 2.6-2 3 .6-3.4-.2-7.4-1.3-10.6z"/></svg>';
@@ -396,9 +462,9 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   paintThemeBtn();
 
   /* Nav & header */
-  const VIEWS = [["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"],["app","App","grid"]];
+  const VIEWS = [["hari","Hari ini","home"],["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"],["app","App","grid"]];
   let prevView = "topik";
-  function renderNav(){ $("nav").innerHTML = VIEWS.map(v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span></button>`).join(""); }
+  function renderNav(){ const nn = state.topikSeen ? 0 : newCount(); $("nav").innerHTML = VIEWS.map(v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span>${v[0] === "topik" && nn ? `<span class="badge" aria-label="${nn} topik baru">${nn}</span>` : ""}</button>`).join(""); }
   function renderHeader(){
     $("searchBtn").setAttribute("aria-pressed", String(state.view === "cari"));
     const d = state.data;
@@ -408,6 +474,9 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     if(state.view === "topik"){
       row.hidden = false;
       row.innerHTML = [["semua","Semua"],["emas","Peluang emas"],["kewangan","Kewangan"],["tutorial","Tutorial"]].map(f => `<button class="tab" data-f="${f[0]}" aria-pressed="${state.filter === f[0]}">${f[1]}</button>`).join("");
+    } else if(state.view === "plan"){
+      row.hidden = false;
+      row.innerHTML = [["minggu","Minggu ni"],["prestasi","Prestasi"],["laporan","Laporan"],["backup","Backup"]].map(f => `<button class="tab" data-ptab="${f[0]}" aria-pressed="${state.ptab === f[0]}">${f[1]}</button>`).join("");
     } else if(state.view === "app"){
       row.hidden = false;
       row.innerHTML = SEGS.map(s => `<button class="tab" data-seg="${s[0]}" aria-pressed="${state.seg === s[0]}">${svg(s[2])}${esc(s[1])}</button>`).join("");
@@ -591,13 +660,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
 7. Perkara yang perlu disemak sebelum rakam`;
   }
 
-  function itemHtml(i){
-    const st = i.status in statusLabel ? i.status : "stabil";
-    const open = !!state.open[i.id], done = !!state.done[i.id], id = esc(i.id);
-    const tab = state.dtab[i.id] || "ringkas";
+  function paneHtml(i, tab){
+    const st = i.status in statusLabel ? i.status : "stabil", id = esc(i.id);
     const ideas = Array.isArray(i.ideas) ? i.ideas : [];
     const srcs = srcLinks(i.sources);
-    const pane = tab === "idea" ? `
+    return tab === "idea" ? `
         ${scriptHtml(i)}
         ${shortsHtml(i)}
         ${faqHtml(i)}
@@ -606,7 +673,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       : tab === "seo" ? seoHtml(i)
       : tab === "promo" ? promoHtml(i)
       : `
-        <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}</div>
+        <div class="tags">${statusLabel[st]} · ${i.cat === "kewangan" ? "Kewangan" : "Tutorial App & Web"}${i.deadline ? ` · <b>${esc(i.deadline)}</b>` : ""}${i._last ? ` · Arkib, terakhir ${esc(i._last)}` : ""}</div>
         <div><div class="lbl">Kenapa trending</div><p>${esc(i.why)}</p></div>
         ${i.angle ? `<div><div class="lbl">Sudut video</div><p>${esc(i.angle)}</p></div>` : ""}
         ${i.competition && i.competition.note ? `<div><div class="lbl">Saingan YouTube ${oppChip(i)}</div><p>${esc(i.competition.note)}</p>${i.competition.checked ? `<div class="note">Disemak ${esc(i.competition.checked)}</div>` : ""}</div>` : ""}
@@ -614,21 +681,36 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         ${appChip(i)}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
         ${state.viewing === "latest" ? `<div class="acts">${planCtl(i)}${trackCtl(i)}</div>${linkCtl(i)}` : ""}`;
-    return `<div class="item${done ? " done" : ""}" id="it-${id}">
-      <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
+  }
+  const DTABS = [["ringkas","Ringkasan"],["idea","Idea"],["seo","SEO"],["promo","Promosi"]];
+  function itemHtml(i){
+    const st = i.status in statusLabel ? i.status : "stabil";
+    const done = !!state.done[i.id], id = esc(i.id);
+    const swipe = state.viewing === "latest" && !i._last && state.view !== "cari";
+    return `<div class="item${done ? " done" : ""}" id="it-${id}"${swipe ? ' data-sw="1"' : ""}>
+      ${swipe ? `<div class="swl" aria-hidden="true">Plan esok</div><div class="swr" aria-hidden="true">${done ? "Buang tanda" : "Dah upload ✓"}</div>` : ""}
+      <button class="row" data-open="${id}" aria-haspopup="dialog">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
+        <span class="t">${isNew(i) ? `<i class="newdot" aria-label="Baru sejak kali terakhir"></i>` : ""}${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
         <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}${sparkSmall(i.id)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
-      <div class="detail" id="d-${id}"${open ? "" : " hidden"}>
-        <div class="dtabs" role="tablist">
-          ${[["ringkas","Ringkasan"],["idea","Idea"],["seo","SEO"],["promo","Promosi"]].map(t => `<button class="dtab" role="tab" data-dtab="${t[0]}" data-for="${id}" aria-selected="${tab === t[0]}">${t[1]}</button>`).join("")}
-        </div>
-        <div class="pane" role="tabpanel">${pane}</div>
-      </div>
     </div>`;
   }
+  function sheetHtml(i){
+    const tab = state.dtab[i.id] || "ringkas", id = esc(i.id);
+    return `<div class="shd"><div class="bar1"><button class="back" data-close="1" aria-label="Kembali">${svg("back")}</button><span class="st">${i.status === "panas" ? FIRE : ""}${esc(i.title)}</span><span class="sc">${Math.max(0, Math.min(100, Number(i.score) || 0))}</span></div>
+      <div class="dtabs" role="tablist">${DTABS.map(t => `<button class="dtab" role="tab" data-dtab="${t[0]}" data-for="${id}" aria-selected="${tab === t[0]}">${t[1]}</button>`).join("")}</div></div>
+      <div class="pane shb" role="tabpanel">${paneHtml(i, tab)}</div>`;
+  }
+  function renderSheet(){
+    const el = $("sheet"), it = state.sheet ? findItem(state.sheet) : null;
+    if(!it){ el.hidden = true; el.innerHTML = ""; document.body.classList.remove("sheet-open"); return; }
+    const top = el.scrollTop; el.hidden = false; document.body.classList.add("sheet-open"); el.innerHTML = sheetHtml(it); el.scrollTop = top;
+  }
+  function openSheet(id, tab){ if(!findItem(id)) return; if(tab) state.dtab[id] = tab; const was = !!state.sheet; state.sheet = id; renderSheet(); $("sheet").scrollTop = 0; if(!was){ try{ history.pushState({ sheet: id }, ""); }catch(e){} } }
+  function closeSheet(fromPop){ if(!state.sheet) return; state.sheet = null; renderSheet(); if(!fromPop && history.state && history.state.sheet){ try{ history.back(); }catch(e){} } }
+  window.addEventListener("popstate", () => { if(state.sheet) closeSheet(true); });
   function appRow(a){
     const segIcon = (SEGS.find(s => s[0] === a.seg) || [])[2];
     const key = "app-" + a.id, id = esc(key), open = !!state.open[key];
@@ -651,20 +733,13 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   /* Views */
   function viewTopik(){
     const all = items();
-    const picks = all.filter(i => !state.done[i.id]).slice(0, 3);
     let list = state.filter === "emas"
       ? all.filter(i => i.competition && i.competition.level === "tinggi" && (Number(i.score) || 0) >= 60).sort((a,b) => (b.score||0) - (a.score||0))
       : all.filter(i => state.filter === "semua" || i.cat === state.filter);
     if(state.hideDone) list = list.filter(i => !state.done[i.id]);
-    const pickHtml = (picks.length && state.filter === "semua" && state.viewing === "latest") ? `<h2 class="sec">Pilihan hari ini</h2>
-      <div class="picks">${picks.map((i,n) => `<button class="pick" data-pick="${esc(i.id)}">
-        <span class="pn">#${n+1}${i.status === "panas" ? " · HANGAT" : ""}</span>
-        <span class="pt">${esc(i.title)}</span>
-        <span class="ph">${esc(i.script && i.script.hook ? i.script.hook : i.why)}</span>
-        <span class="pf">${oppChip(i) || "<span></span>"}<span class="go">${i.script ? "Buka skrip" : "Buka idea"} →</span></span>
-      </button>`).join("")}</div>` : "";
+    const pickHtml = state.viewing === "latest" && list.length ? `<div class="swhint">Tip: leret topik ke kanan untuk rancang esok, ke kiri untuk tanda dah upload.</div>` : "";
     const head = { kewangan:"Topik kewangan", tutorial:"Topik tutorial", emas:"Peluang emas" }[state.filter] || "Semua topik";
-    return pickHtml + `<h2 class="sec">${head}</h2>${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.</div>` : ""}
+    return `<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.</div>` : ""}
       <div class="list">${list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`}</div>
       <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Nombor = skor potensi</span></div>
       <div class="more"><label><input type="checkbox" id="hideDone"${state.hideDone ? " checked" : ""}> Sembunyi yang dah buat</label>
@@ -727,34 +802,34 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
           ${m <= 0 ? `<div class="up late">${UP}Upload video sekarang</div>` : `<div class="up">${UP}Upload sebelum ${ub.getUTCDate()} ${BLN[ub.getUTCMonth()]}</div>`}</li>`; }).join("")}</ul>`;
   }
   function planTitle(id){ const it = findItem(id); return it ? it.title : (state.plan[id] && state.plan[id].t) || (doneInfo(id) && doneInfo(id).t) || id; }
+  function planRow(id){ const dn = !!state.done[id], e = esc(id), ok = !!findItem(id);
+    return `<div class="pi${dn ? " done" : ""}"><button class="pt2" ${ok ? `data-goto="${e}"` : "disabled"}>${esc(planTitle(id))}</button>${dn ? "" : `<button class="mini" data-done="${e}">Dah upload</button>`}<button class="mini" data-unplan="${e}" aria-label="Buang dari plan">Buang</button></div>`; }
+  function doneArr(){ return Object.entries(state.done).map(([id, v]) => ({ id, ...(typeof v === "object" ? v : {}) })).sort((a,b) => String(b.d || "").localeCompare(String(a.d || ""))); }
+  function targetHtml(st){
+    return `<div class="target"><div class="tg"><span><b>${st.week} / ${state.target}</b> video minggu ni${st.week >= state.target ? " · Target capai!" : ""}</span>
+        <span class="ctl"><button data-tgt="-1" aria-label="Kurangkan target">−</button><span class="note">target</span><button data-tgt="1" aria-label="Tambah target">+</button></span></div>
+        <div class="bar${st.week >= state.target ? " full" : ""}"><i style="width:${Math.min(100, Math.round(st.week / state.target * 100))}%"></i></div></div>`;
+  }
   function viewPlan(){
-    const t = todayMY(), wk = week(), ids = new Set(items().map(i => i.id));
-    const tIso = isoOf(t), endIso = isoOf(wk[6]);
+    const t = todayMY(), wk = week(), tIso = isoOf(t), endIso = isoOf(wk[6]);
     const plan = Object.entries(state.plan).filter(([id, p]) => p && p.d);
     const late = plan.filter(([id, p]) => p.d < tIso && !state.done[id]);
-    const doneList = Object.entries(state.done).map(([id, v]) => ({ id, ...(typeof v === "object" ? v : {}) })).sort((a,b) => String(b.d || "").localeCompare(String(a.d || "")));
+    const doneList = doneArr(), st = stats(doneList, t);
     const planned = plan.filter(([id, p]) => p.d >= tIso && p.d <= endIso).length;
-    const st = stats(doneList, t);
-    const row = (id, p) => { const dn = !!state.done[id], e = esc(id);
-      return `<div class="pi${dn ? " done" : ""}"><button class="pt2" ${ids.has(id) ? `data-goto="${e}"` : "disabled"}>${esc(planTitle(id))}</button>${dn ? "" : `<button class="mini" data-done="${e}">Dah upload</button>`}<button class="mini" data-unplan="${e}" aria-label="Buang dari plan">Buang</button></div>`; };
-    return `<h2 class="sec">Plan upload minggu ni</h2>
-      <div class="target"><div class="tg"><span><b>${st.week} / ${state.target}</b> video minggu ni${st.week >= state.target ? " · Target capai!" : ""}</span>
-        <span class="ctl"><button data-tgt="-1" aria-label="Kurangkan target">−</button><span class="note">target</span><button data-tgt="1" aria-label="Tambah target">+</button></span></div>
-        <div class="bar${st.week >= state.target ? " full" : ""}"><i style="width:${Math.min(100, Math.round(st.week / state.target * 100))}%"></i></div></div>
-      <div class="stat"><div><b>${st.streak}</b><span>minggu berturut-turut upload</span></div><div><b>${st.month}</b><span>video bulan ${BLN[t.getUTCMonth()]}</span></div><div><b>${planned}</b><span>dirancang 7 hari ni</span></div></div>
+    if(state.ptab === "prestasi"){
+      return `<h2 class="sec">Prestasi</h2>
+      <div class="stat"><div><b>${st.streak}</b><span>minggu berturut-turut upload</span></div><div><b>${st.month}</b><span>video bulan ${BLN[t.getUTCMonth()]}</span></div><div><b>${doneList.length}</b><span>jumlah video</span></div></div>
       <div><div class="lbl">8 minggu terakhir</div><div class="wk" role="img" aria-label="Bilangan video setiap minggu">${st.weeks.map(w => `<div><span>${w.n || ""}</span><span class="b${w.n === 0 ? " zero" : w.n >= state.target ? " hit" : ""}" style="height:${w.n ? Math.max(8, Math.round(w.n / st.max * 40)) : 2}px"></span><span>${w.lbl}</span></div>`).join("")}</div></div>
-      ${plan.length ? "" : `<div class="note">Belum ada plan. Buka mana-mana topik, kemudian pilih hari dalam "Rancang upload…".</div>`}
-      ${late.length ? `<h2 class="grp">TERTUNGGAK (${late.length})</h2><div class="day">${late.map(([id, p]) => row(id, p)).join("")}</div>` : ""}
-      <div class="days">${wk.map((dt, n) => { const iso = isoOf(dt), its = plan.filter(([id, p]) => p.d === iso);
-        return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length ? its.map(([id, p]) => row(id, p)).join("") : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>
       <h2 class="sec">Video dah upload (${doneList.length})</h2>
-      ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d);
+      ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d), ok = !!findItem(x.id);
         const age = dt ? days(dt, t) : 0;
-        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ids.has(x.id) ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
+        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ok ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
           <label class="views">Views selepas 7 hari <input type="number" inputmode="numeric" min="0" data-views="${esc(x.id)}" value="${typeof x.v === "number" ? x.v : ""}" placeholder="${age < 7 ? "tunggu " + (7 - age) + " hari" : "isi"}"></label>
-          <label class="views">Pendapatan (RM) <input type="number" inputmode="decimal" min="0" step="0.01" data-earn="${esc(x.id)}" value="${typeof x.e === "number" ? x.e : ""}" placeholder="AdSense + penaja"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
-      ${reportHtml(doneList, t)}
-      <h2 class="sec">Backup</h2>
+          <label class="views">Pendapatan (RM) <input type="number" inputmode="decimal" min="0" step="0.01" data-earn="${esc(x.id)}" value="${typeof x.e === "number" ? x.e : ""}" placeholder="AdSense + penaja"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tandakan topik "dah upload" (atau leret topik ke kiri), ia akan disenaraikan di sini.</div>`}`;
+    }
+    if(state.ptab === "laporan") return reportHtml(doneList, t);
+    if(state.ptab === "backup"){
+      return `<h2 class="sec">Backup</h2>
       <div class="backup"><div class="note">Plan, senarai video dan target disimpan dalam telefon ini sahaja. Simpan backup supaya tak hilang bila tukar telefon atau padam data browser.</div>
         <div class="acts"><button class="btn" data-bk="dl">Muat turun fail backup</button><button class="btn" data-bk="copy">Salin kod backup</button></div>
         <div class="lbl" style="margin-top:6px">Pulihkan</div>
@@ -762,6 +837,41 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         <textarea id="bkText" placeholder="Atau tampal kod backup di sini" aria-label="Kod backup"></textarea>
         <div class="acts"><button class="btn" data-bk="restore">Pulihkan dari kod</button></div>
         ${state.bmsg ? `<div class="msg${state.bmsg.err ? " err" : ""}" role="status">${esc(state.bmsg.t)}</div>` : ""}</div>`;
+    }
+    return `<h2 class="sec">Plan upload minggu ni</h2>
+      ${targetHtml(st)}
+      <div class="note">${planned} video dirancang untuk 7 hari ni.</div>
+      ${plan.length ? "" : `<div class="note">Belum ada plan. Buka mana-mana topik dan pilih hari dalam "Rancang upload…", atau leret topik ke kanan dalam tab Topik.</div>`}
+      ${late.length ? `<h2 class="grp">TERTUNGGAK (${late.length})</h2><div class="day">${late.map(([id]) => planRow(id)).join("")}</div>` : ""}
+      <div class="days">${wk.map((dt, n) => { const iso = isoOf(dt), its = plan.filter(([id, p]) => p.d === iso);
+        return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length ? its.map(([id]) => planRow(id)).join("") : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>`;
+  }
+  function viewHari(){
+    const t = todayMY(), tIso = isoOf(t), h = Number(new Date().toLocaleString("en-US", { timeZone:"Asia/Kuala_Lumpur", hour:"numeric", hourCycle:"h23" }));
+    const greet = h < 12 ? "Selamat pagi" : h < 15 ? "Selamat tengah hari" : h < 19 ? "Selamat petang" : "Selamat malam";
+    const plan = Object.entries(state.plan).filter(([id, p]) => p && p.d);
+    const today = plan.filter(([id, p]) => p.d === tIso), late = plan.filter(([id, p]) => p.d < tIso && !state.done[id]);
+    const st = stats(doneArr(), t), nn = newCount();
+    const picks = items().filter(i => !state.done[i.id] && !state.plan[i.id]).slice(0, 3);
+    const up = ((state.latest && state.latest.upcoming) || []).map(u => ({ u, w: parseD(u.when) })).filter(x => x.w && days(t, x.w) >= 0 && days(t, x.w) <= 7).sort((a, b) => a.w - b.w);
+    const pending = today.filter(([id]) => !state.done[id]).length;
+    return `<div class="hello"><b>${greet}, Imran</b><span>${dayLabel(t)} ${t.getUTCFullYear()}${state.latest && state.latest.updated_label ? " · data " + esc(state.latest.updated_label) : ""}</span></div>
+      ${nn && !state.topikSeen ? `<button class="newbar" data-view="topik"><span><i class="newdot"></i>${nn} topik baru sejak kali terakhir kau buka</span><span>Lihat →</span></button>` : ""}
+      <h2 class="sec">Video hari ini</h2>
+      <div class="card${pending ? " hl" : ""}">${today.length ? today.map(([id]) => planRow(id)).join("") + (pending ? `<div class="acts">${today.filter(([id]) => !state.done[id] && findItem(id)).slice(0, 1).map(([id]) => `<button class="btn" data-pick="${esc(id)}">Buka skrip & Shorts</button><button class="btn" data-promo="${esc(id)}">Bahan promosi</button>`).join("")}</div>` : `<div class="note">Semua video hari ni dah siap. Mantap!</div>`)
+        : `<div class="note">Belum ada video dirancang hari ni. Pilih satu topik di bawah, kemudian tekan "Rancang upload…" dan pilih hari ini.</div>`}</div>
+      ${late.length ? `<div class="card"><div class="lbl">Tertunggak (${late.length})</div>${late.map(([id]) => planRow(id)).join("")}</div>` : ""}
+      ${targetHtml(st)}
+      ${picks.length ? `<h2 class="sec">Pilihan hari ini</h2>
+      <div class="picks">${picks.map((i,n) => `<button class="pick" data-pick="${esc(i.id)}">
+        <span class="pn">#${n+1}${i.status === "panas" ? " · HANGAT" : ""}</span>
+        <span class="pt">${esc(i.title)}</span>
+        <span class="ph">${esc(i.script && i.script.hook ? i.script.hook : i.why)}</span>
+        <span class="pf">${oppChip(i) || "<span></span>"}<span class="go">${i.script ? "Buka skrip" : "Buka idea"} →</span></span>
+      </button>`).join("")}</div>` : ""}
+      ${up.length ? `<h2 class="sec">Tarikh penting 7 hari ni</h2><div class="card dl">${up.map(({u, w}) => { const n = days(t, w), ok = u.topic && findItem(u.topic);
+        return `<button class="dli" ${ok ? `data-goto="${esc(u.topic)}"` : "disabled"}><span class="cd2">${cdText(n, u.approx)}</span><span>${esc(u.label)}</span></button>`; }).join("")}</div>` : ""}
+      <div class="acts" style="justify-content:center;margin-top:8px"><button class="linkbtn" data-onb="show">Lihat panduan ringkas</button></div>`;
   }
   function perfHtml(list){
     const w = list.filter(x => typeof x.v === "number");
@@ -886,40 +996,130 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function render(){
     renderNav(); renderHeader();
     if(!state.data){ $("view").innerHTML = `<div class="empty">Memuatkan…</div>`; return; }
-    $("view").innerHTML = state.view === "tarikh" ? viewTarikh() : state.view === "plan" ? viewPlan() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
+    $("view").innerHTML = state.view === "hari" ? viewHari() : state.view === "tarikh" ? viewTarikh() : state.view === "plan" ? viewPlan() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
     const hd = $("hideDone"); if(hd) hd.addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
     const hs = $("histSel"); if(hs) hs.addEventListener("change", onHist);
+    if(state.sheet) renderSheet();
   }
 
   /* Actions */
-  async function copy(text, btn){ const o = btn.textContent; try{ await navigator.clipboard.writeText(text); btn.textContent = "Disalin"; }catch(e){ btn.textContent = "Tak dapat salin"; } setTimeout(() => btn.textContent = o, 1400); }
-  function saveDone(){ try{ localStorage.setItem("rt-done", JSON.stringify(state.done)); }catch(e){} }
-  function openTopic(id, tab){
-    state.view = "topik"; state.filter = "semua"; state.open[id] = true; if(tab) state.dtab[id] = tab; render();
-    const el = $("it-" + id); if(el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start" });
+  let toastT = null;
+  function toast(msg, undo){
+    const el = $("toast"); el.innerHTML = `<span>${esc(msg)}</span>${undo ? `<button id="toastUndo">Batal</button>` : ""}`; el.classList.add("show");
+    if(undo) $("toastUndo").onclick = ev => { ev.stopPropagation(); undo(); el.classList.remove("show"); };
+    clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove("show"), undo ? 4500 : 1800);
   }
+  function buzz(ms){ try{ if(navigator.vibrate) navigator.vibrate(ms || 12); }catch(e){} }
+  async function copy(text){
+    let ok = false;
+    try{ await navigator.clipboard.writeText(text); ok = true; }catch(e){
+      try{ const ta = document.createElement("textarea"); ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0"; document.body.appendChild(ta); ta.select(); ok = document.execCommand("copy"); ta.remove(); }catch(e2){}
+    }
+    if(ok){ toast("Disalin ✓"); buzz(); } else toast("Tak dapat salin. Tekan lama pada teks untuk salin.");
+  }
+  /* Topik baru sejak kali terakhir buka */
+  let seenPrev = null;
+  function initSeen(){
+    try{ const s = JSON.parse(localStorage.getItem("rt-seen") || "null"); if(s && Array.isArray(s.ids)) seenPrev = new Set(s.ids); }catch(e){}
+    try{ localStorage.setItem("rt-seen", JSON.stringify({ ids: (state.latest.items || []).map(i => i.id), at: state.latest.updated_label })); }catch(e){}
+  }
+  function isNew(i){ return !!(seenPrev && state.viewing === "latest" && !i._last && !seenPrev.has(i.id)); }
+  function newCount(){ return seenPrev && state.latest ? (state.latest.items || []).filter(i => !seenPrev.has(i.id)).length : 0; }
+  /* Saiz tulisan */
+  const FZ = [[0.9,"Kecil"],[1,"Biasa"],[1.15,"Besar"],[1.3,"Sangat besar"]];
+  let fzI = 1;
+  function applyFz(){ document.documentElement.style.setProperty("--fz", FZ[fzI][0]); }
+  $("fzBtn").addEventListener("click", () => { fzI = (fzI + 1) % FZ.length; applyFz(); try{ localStorage.setItem("rt-fz", String(fzI)); }catch(e){} toast("Saiz tulisan: " + FZ[fzI][1]); });
+  /* Swipe */
+  function tomorrowIso(){ return isoOf(new Date(todayMY().getTime() + 86400000)); }
+  function swipePlan(id){
+    const prev = state.plan[id], d = tomorrowIso();
+    state.plan[id] = { d, t: planTitle(id) }; savePlan(); render(); buzz(20);
+    toast("Dirancang: " + dayLabel(parseD(d), true), () => { if(prev) state.plan[id] = prev; else delete state.plan[id]; savePlan(); render(); });
+  }
+  function swipeDone(id){
+    const prev = state.done[id];
+    if(prev) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) };
+    saveDone(); render(); buzz(20);
+    toast(prev ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓", () => { if(prev) state.done[id] = prev; else delete state.done[id]; saveDone(); render(); });
+  }
+  let sw = null, ptr = null, suppressClick = false, refreshing = false;
+  function ptrShow(px, text){ const el = $("ptr"); if(px <= 0 && !text){ el.style.transition = "transform .2s"; el.style.transform = ""; return; } el.style.transition = text ? "transform .2s" : "none"; el.style.transform = `translateY(${Math.min(px, 64) - 64}px)`; $("ptrT").textContent = text || (px >= 56 ? "Lepas untuk muat semula" : "Tarik untuk muat semula"); }
+  document.addEventListener("touchstart", e => {
+    if(e.touches.length !== 1 || $("onbWrap").firstChild) return;
+    const t = e.touches[0], row = e.target.closest(".item[data-sw] > .row");
+    sw = row ? { row, item: row.parentElement, id: row.dataset.open, x: t.clientX, y: t.clientY, dx: 0, on: false } : null;
+    ptr = (!state.sheet && !refreshing && window.scrollY <= 0) ? { y: t.clientY, d: 0 } : null;
+  }, { passive: true });
+  document.addEventListener("touchmove", e => {
+    const t = e.touches[0];
+    if(sw){ const dx = t.clientX - sw.x, dy = t.clientY - sw.y;
+      if(!sw.on){ if(Math.abs(dx) > 14 && Math.abs(dx) > Math.abs(dy) * 1.6){ sw.on = true; ptr = null; ptrShow(0); } else if(Math.abs(dy) > 12) sw = null; }
+      if(sw && sw.on){ sw.dx = dx; sw.row.style.transition = "none"; sw.row.style.transform = `translateX(${Math.max(-130, Math.min(130, dx))}px)`; sw.item.classList.toggle("sw-go", Math.abs(dx) > 90); }
+    }
+    if(ptr){ const d = (t.clientY - ptr.y) * 0.5; if(d <= 0 || window.scrollY > 0){ ptr.d = 0; ptrShow(0); return; } ptr.d = d; ptrShow(d); }
+  }, { passive: true });
+  document.addEventListener("touchend", () => {
+    if(sw && sw.on){ suppressClick = true; setTimeout(() => suppressClick = false, 350);
+      const { row, item, id, dx } = sw; row.style.transition = "transform .2s"; row.style.transform = ""; item.classList.remove("sw-go");
+      if(dx > 90) swipePlan(id); else if(dx < -90) swipeDone(id); }
+    sw = null;
+    if(ptr){ if(ptr.d >= 56) refreshData(); else ptrShow(0); ptr = null; }
+  }, { passive: true });
+  async function refreshData(){
+    if(refreshing) return; refreshing = true; ptrShow(64, "Memuat semula…");
+    try{
+      const d = await getJson("data.json"), changed = !state.latest || d.updated_label !== state.latest.updated_label;
+      state.latest = d; if(state.viewing === "latest") state.data = d;
+      getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
+      render(); toast(changed ? "Data baru: " + (d.updated_label || d.date) : "Dah paling terkini (" + (d.updated_label || d.date) + ")"); buzz();
+    }catch(e){ toast("Tak dapat muat semula. Semak internet."); }
+    refreshing = false; ptrShow(0);
+  }
+  /* Panduan kali pertama */
+  const ONB = [
+    ["flame", "Topik trending setiap hari", "Senarai topik tutorial & kewangan yang tengah naik di Malaysia, dikemas kini pagi dan petang.", ["🔥 Topik panas di atas, nombor = skor potensi", "Peluang emas = skor tinggi, saingan sikit", "Titik biru = topik baru sejak kali terakhir kau buka"]],
+    ["learn", "Semua bahan video siap", "Tekan mana-mana topik untuk buka halaman penuh dengan 4 tab:", ["Ringkasan: kenapa trending, sumber, rancang upload", "Idea: skrip, Shorts, soalan lazim, tajuk", "SEO & Promosi: deskripsi, tag, post, kuiz, balasan komen"]],
+    ["plan", "Rancang & jejak prestasi", "Mula setiap hari di tab Hari ini.", ["Leret topik ke kanan = plan esok, ke kiri = dah upload", "Tab Plan: jadual minggu, prestasi, laporan, backup", "Tarik skrin ke bawah untuk muat semula · Aa = saiz tulisan"]]
+  ];
+  let onbI = 0;
+  function renderOnb(){
+    const w = $("onbWrap"); if(onbI < 0){ w.innerHTML = ""; return; }
+    const [ic, h, p, li] = ONB[onbI], last = onbI === ONB.length - 1;
+    w.innerHTML = `<div class="onb" role="dialog" aria-modal="true" aria-label="Panduan"><div class="ocard"><div class="ill">${svg(ic)}</div><h3>${esc(h)}</h3><p>${esc(p)}</p><ul>${li.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <div class="oacts"><div class="odots">${ONB.map((_, n) => `<i class="${n === onbI ? "on" : ""}"></i>`).join("")}</div><div class="acts" style="margin:0"><button class="btn" data-onb="skip">${last ? "Tutup" : "Langkau"}</button>${last ? `<button class="btn pri" data-onb="skip">Mula guna</button>` : `<button class="btn pri" data-onb="next">Seterusnya</button>`}</div></div></div></div>`;
+  }
+  function endOnb(){ onbI = -1; renderOnb(); try{ localStorage.setItem("rt-onb", "1"); }catch(e){} }
+  function saveDone(){ try{ localStorage.setItem("rt-done", JSON.stringify(state.done)); }catch(e){} }
+  function openTopic(id, tab){ openSheet(id, tab || "ringkas"); }
   function loadArchive(){ if(state.archive !== null || state.archiveLoading) return; state.archiveLoading = true; getJson("history/archive.json").then(a => { state.archive = a; }).catch(() => { state.archive = { items: [] }; }).finally(() => { state.archiveLoading = false; if(state.view === "cari") render(); }); }
-  function setView(v){ if(v === "cari") loadArchive(); state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
+  function setView(v){ if(state.sheet) closeSheet(); if(v === "topik") state.topikSeen = true; if(v === "cari") loadArchive(); state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
 
+  document.addEventListener("click", ev => { if(suppressClick){ ev.preventDefault(); ev.stopPropagation(); } }, true);
   document.addEventListener("click", ev => {
     const b = ev.target.closest("button"); if(!b) return;
     const d = b.dataset;
-    if(d.view){ setView(d.view); }
+    if(d.open){ openSheet(d.open); }
+    else if(d.close){ closeSheet(); }
+    else if(d.onb){ if(d.onb === "next"){ onbI++; renderOnb(); } else if(d.onb === "show"){ onbI = 0; renderOnb(); } else endOnb(); }
+    else if(d.ptab){ state.ptab = d.ptab; state.bmsg = null; render(); window.scrollTo(0, 0); }
+    else if(d.promo){ openTopic(d.promo, "promo"); }
+    else if(d.view){ setView(d.view); }
     else if(d.f){ state.filter = d.f; render(); }
     else if(d.seg){ state.seg = d.seg; render(); }
     else if(d.pick){ openTopic(d.pick, "idea"); }
     else if(d.goto){ openTopic(d.goto, "ringkas"); }
     else if(d.toggle){ state.open[d.toggle] = !state.open[d.toggle]; b.setAttribute("aria-expanded", String(state.open[d.toggle])); const el = $("d-" + d.toggle); if(el) el.hidden = !state.open[d.toggle]; }
-    else if(d.dtab){ state.dtab[d.for] = d.dtab; const it = findItem(d.for); const wrap = $("it-" + d.for); if(it && wrap){ wrap.outerHTML = itemHtml(it); } }
-    else if(d.copy != null){ copy(d.copy, b); }
-    else if(d.prompt){ const it = findItem(d.prompt); if(it) copy(buildPrompt(it), b); }
-    else if(d.done){ const id = d.done; if(state.done[id]) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); }
+    else if(d.dtab){ state.dtab[d.for] = d.dtab; if(state.sheet === d.for){ renderSheet(); $("sheet").scrollTop = 0; } }
+    else if(d.copy != null){ copy(d.copy); }
+    else if(d.prompt){ const it = findItem(d.prompt); if(it) copy(buildPrompt(it)); }
+    else if(d.done){ const id = d.done, was = !!state.done[id]; if(was) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); buzz(); toast(was ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓"); }
     else if(d.repimg){ saveReportImage(b); }
     else if(d.tgt){ state.target = Math.max(1, Math.min(14, state.target + Number(d.tgt))); saveTarget(); render(); }
     else if(d.bk === "dl"){ const blob = new Blob([backupData()], {type:"application/json"}); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "radar-trending-backup-" + isoOf(todayMY()) + ".json"; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); state.bmsg = { t:"Fail backup dimuat turun. Simpan di Google Drive atau hantar ke WhatsApp sendiri." }; render(); }
-    else if(d.bk === "copy"){ copy(backupData(), b); }
+    else if(d.bk === "copy"){ copy(backupData()); }
     else if(d.bk === "restore"){ const ta = $("bkText"); restore(ta ? ta.value : ""); }
-    else if(d.unplan){ delete state.plan[d.unplan]; savePlan(); render(); }
+    else if(d.unplan){ const id = d.unplan, prev = state.plan[id]; delete state.plan[id]; savePlan(); render(); toast("Dibuang dari plan", () => { state.plan[id] = prev; savePlan(); render(); }); }
     else if(d.savelink){ const id = d.savelink, inp = $("lk-" + id), v = inp ? inp.value.trim() : "";
       if(v && !safeUrl(v)){ b.textContent = "Link tak sah"; setTimeout(() => b.textContent = "Simpan", 1600); return; }
       const info = doneInfo(id) || {}; state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(todayMY()), u: v || undefined }); saveDone(); b.textContent = "Disimpan"; setTimeout(() => b.textContent = "Simpan", 1400); }
@@ -932,8 +1132,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(el.id === "bkFile" && el.files && el.files[0]){ const f = el.files[0]; if(f.size > 2e6){ state.bmsg = { t:"Fail terlalu besar.", err:true }; render(); return; } f.text().then(restore); return; } if(!el.dataset || !el.dataset.plan) return;
     const id = el.dataset.plan;
     if(el.value) state.plan[id] = { d: el.value, t: planTitle(id) }; else delete state.plan[id];
-    savePlan(); const it = findItem(id), wrap = $("it-" + id);
-    if(it && wrap && state.view !== "plan") wrap.outerHTML = itemHtml(it); else render();
+    savePlan(); render(); buzz(); toast(el.value ? "Dirancang: " + dayLabel(parseD(el.value), true) : "Dibuang dari plan");
   });
   $("searchBtn").innerHTML = svg("search");
   $("searchBtn").addEventListener("click", () => setView(state.view === "cari" ? prevView : "cari"));
@@ -957,9 +1156,12 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     try{ const s = JSON.parse(localStorage.getItem("rt-done") || "{}"); if(s && typeof s === "object") state.done = s; }catch(e){}
     try{ const s = JSON.parse(localStorage.getItem("rt-plan") || "{}"); if(s && typeof s === "object") state.plan = s; }catch(e){}
     try{ const n = Number(localStorage.getItem("rt-target")); if(n >= 1 && n <= 14) state.target = n; }catch(e){}
+    try{ const r = localStorage.getItem("rt-fz"), f = Number(r); if(r !== null && r !== "" && f >= 0 && f < FZ.length) fzI = f; }catch(e){} applyFz();
+    try{ if(!localStorage.getItem("rt-onb")){ onbI = 0; renderOnb(); } }catch(e){}
     render();
     try{ state.latest = state.data = await getJson("data.json"); }
     catch(e){ $("view").innerHTML = `<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>`; return; }
+    initSeen();
     getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
     try{ const idx = await getJson("history/index.json"); state.dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== state.latest.date).sort().reverse().slice(0,14); }catch(e){}
     render();
