@@ -113,6 +113,28 @@
      "hook": "Dapat link 'semak STR' dalam WhatsApp? Itu bukan cara rasmi.",
      "beat": "Tunjuk alamat portal rasmi bantuantunai.hasil.gov.my dan beza dengan link pelik. Ajak share kepada family."
     }
+   ],
+   "faq": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu masuk?",
+     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November 2026."
+    },
+    {
+     "q": "Siapa wajib kemas kini STR 2027?",
+     "a": "Yang tak pernah kemas kini sepanjang STR 2024 hingga 2026, atau yang maklumat isi rumahnya berubah."
+    },
+    {
+     "q": "Sampai bila boleh kemas kini untuk Fasa 1?",
+     "a": "Tempoh kemas kini Fasa 1 dijangka hingga November 2026, tertakluk pindaan LHDN."
+    },
+    {
+     "q": "Tak ada akaun bank, macam mana nak dapat duit STR?",
+     "a": "Penerima tanpa akaun bank boleh tunaikan bayaran di BSN."
+    },
+    {
+     "q": "Kat mana nak kemas kini atau semak status?",
+     "a": "Di portal rasmi MySTR, bantuantunai.hasil.gov.my. Jangan guna link dari WhatsApp atau SMS."
+    }
    ]
   },
   {
@@ -208,6 +230,28 @@
      "title": "3 Benda Wajib Bawa Masa Ambil Pasport",
      "hook": "Dah renew online, tapi lupa bawa benda ni? Kena datang balik.",
      "beat": "MyKad asal, pasport lama dan resit. Tunjuk ketiga-tiganya atas meja."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke pasport 10 tahun boleh renew online?",
+     "a": "Ya, mulai 2 November 2026 melalui MyOnline Passport, dengan pilihan 5 atau 10 tahun."
+    },
+    {
+     "q": "Berapa harga pasport 10 tahun?",
+     "a": "RM350, berbanding RM200 untuk 5 tahun."
+    },
+    {
+     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?",
+     "a": "Tidak, bawah 18 tahun masih 5 tahun sahaja."
+    },
+    {
+     "q": "Kena bawa apa masa ambil pasport?",
+     "a": "MyKad asal, pasport lama dan resit bayaran."
+    },
+    {
+     "q": "Sebelum ni macam mana nak buat pasport 10 tahun?",
+     "a": "Sebelum 2 Nov, pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
     }
    ]
   },
@@ -305,6 +349,28 @@
      "hook": "Penerima STR, SARA korang lain daripada orang lain.",
      "beat": "Sehingga RM150 sebulan atau RM1,800 setahun ikut Bajet 2027. Ingatkan tunggu pengumuman rasmi."
     }
+   ],
+   "faq": [
+    {
+     "q": "Siapa layak RM100 SARA MADANI?",
+     "a": "Rakyat 18 tahun ke atas yang bukan penerima STR."
+    },
+    {
+     "q": "Bila RM100 tu masuk?",
+     "a": "Sekali sebelum Aidilfitri dan sekali sempena Hari Kebangsaan ke-70. Tarikh tepat belum diumumkan."
+    },
+    {
+     "q": "Penerima STR dapat SARA berapa?",
+     "a": "Sehingga RM150 sebulan, atau RM1,800 setahun, ikut Bajet 2027."
+    },
+    {
+     "q": "SARA boleh guna kat mana?",
+     "a": "Selain kedai yang menyertai, kini boleh guna di 216 pasar tani FAMA."
+    },
+    {
+     "q": "Kena mohon ke untuk dapat SARA?",
+     "a": "Tunggu pengumuman rasmi cara agihan; buat masa ini butiran pelaksanaan 2027 belum diumumkan."
+    }
    ]
   },
   {
@@ -394,6 +460,28 @@
      "hook": "Terklik dan dah isi kad? Masa sangat penting.",
      "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie."
     }
+   ],
+   "faq": [
+    {
+     "q": "SMS saman PDRM RM150 tu betul ke?",
+     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP."
+    },
+    {
+     "q": "Macam mana nak semak saman sebenar?",
+     "a": "Semak melalui app atau portal rasmi sendiri, bukan melalui link dalam SMS."
+    },
+    {
+     "q": "Kat mana nak semak link mencurigakan?",
+     "a": "BNM sediakan semakan di bnm.gov.my/sahkan."
+    },
+    {
+     "q": "Dah terisi maklumat kad, nak buat apa?",
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997."
+    },
+    {
+     "q": "Polis ada buat tindakan ke?",
+     "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang."
+    }
    ]
   },
   {
@@ -479,6 +567,28 @@
      "title": "Kenapa Harga Minyak Tukar Setiap Rabu?",
      "hook": "Setiap Rabu malam, harga minyak boleh berubah. Ni sebabnya.",
      "beat": "MOF umum harga mingguan; harga baharu untuk 19–25 Nov dijangka diumum 18 Nov."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Harga RON97 minggu ni berapa?",
+     "a": "RM4.20 seliter untuk 12–18 November, turun 50 sen."
+    },
+    {
+     "q": "Harga RON95 berapa?",
+     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi RM3.87."
+    },
+    {
+     "q": "Harga diesel berapa?",
+     "a": "Diesel tanpa subsidi RM4.87; BUDI Diesel RM2.10."
+    },
+    {
+     "q": "Berapa subsidi RON95 seliter?",
+     "a": "RM1.88 seliter, kira-kira 49% harga tanpa subsidi."
+    },
+    {
+     "q": "Bila harga baru diumumkan?",
+     "a": "MOF biasanya umum harga mingguan malam Rabu; harga 19–25 Nov dijangka diumum 18 Nov."
     }
    ]
   },
@@ -573,6 +683,28 @@
      "hook": "Dah dapat Coursera percuma? Jangan ambil kursus random.",
      "beat": "Cadang 3 jenis kursus yang sesuai untuk freelance atau kerja online, dan ambil sijil di hujung."
     }
+   ],
+   "faq": [
+    {
+     "q": "Macam mana nak dapat Coursera percuma?",
+     "a": "Melalui portal Rakyat Digital, log masuk guna MyDigital ID."
+    },
+    {
+     "q": "Kenapa tak boleh claim sekarang?",
+     "a": "Kumpulan pertama 25,000 lesen dah penuh; tunggu kumpulan seterusnya."
+    },
+    {
+     "q": "Siapa layak AI percuma 3 bulan?",
+     "a": "Rakyat berumur 18–30 yang lulus 6 modul program AI Untuk Rakyat."
+    },
+    {
+     "q": "Ada ChatGPT percuma ke?",
+     "a": "Bajet 2027 tambah 100,000 tempat lagi termasuk ChatGPT, tapi tarikh permohonan belum diumumkan."
+    },
+    {
+     "q": "Kena ada MyDigital ID ke?",
+     "a": "Ya, portal Rakyat Digital perlukan MyDigital ID untuk log masuk."
+    }
    ]
   },
   {
@@ -662,6 +794,28 @@
      "hook": "Ada orang tawar tolong tuntut duit korang, tapi minta bayaran dulu?",
      "beat": "Semakan dan tuntutan di eGUMIS percuma. JANM tak hantar e-mel pemakluman."
     }
+   ],
+   "faq": [
+    {
+     "q": "Berapa banyak wang tak dituntut sekarang?",
+     "a": "Lebih RM14 bilion setakat 30 September 2026."
+    },
+    {
+     "q": "Macam mana nak semak?",
+     "a": "Di portal eGUMIS guna nombor MyKad. Percuma."
+    },
+    {
+     "q": "Berapa lama proses tuntutan?",
+     "a": "Tuntutan lengkap biasanya diproses dalam 30 hari."
+    },
+    {
+     "q": "Waris boleh tuntut duit arwah?",
+     "a": "Ya, waris boleh semak dan mohon melalui eGUMIS dengan dokumen sokongan."
+    },
+    {
+     "q": "Perlu bayar ejen ke?",
+     "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
+    }
    ]
   },
   {
@@ -745,6 +899,28 @@
      "title": "5 Urusan Yang Perlukan MyDigital ID",
      "hook": "Belum ada MyDigital ID? Korang akan perlukan untuk benda ni.",
      "beat": "MyGOV, ganti MyKad, Coursera di Rakyat Digital, MyJPJ, MyBayar PDRM."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Lupa password MyDigital ID, kena daftar semula?",
+     "a": "Tak perlu lagi. Versi 2.11.0 ada pilihan 'Forgot Password' guna imbasan muka."
+    },
+    {
+     "q": "Sebelum ni kalau lupa password macam mana?",
+     "a": "Kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad."
+    },
+    {
+     "q": "Tukar phone, MyDigital ID hilang ke?",
+     "a": "Tak, sijil kini dipindah automatik bila tukar telefon atau pasang semula app."
+    },
+    {
+     "q": "Kena update app ke?",
+     "a": "Ya, pastikan app MyDigital ID dah dikemas kini ke versi terbaru."
+    },
+    {
+     "q": "MyDigital ID guna untuk apa?",
+     "a": "Log masuk MyGOV, ganti MyKad, Rakyat Digital dan banyak lagi perkhidmatan."
     }
    ]
   },
@@ -836,6 +1012,28 @@
      "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
      "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
     }
+   ],
+   "faq": [
+    {
+     "q": "Apa itu MediAsas?",
+     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
+    },
+    {
+     "q": "Berapa had perlindungan?",
+     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
+    },
+    {
+     "q": "Berapa premium?",
+     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
+    },
+    {
+     "q": "Boleh bayar guna KWSP?",
+     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
+    },
+    {
+     "q": "Bila boleh beli?",
+     "a": "Dilancar seluruh negara hujung Januari 2027."
+    }
    ]
   },
   {
@@ -922,6 +1120,28 @@
      "hook": "Dua app, satu tujuan. Mana lagi senang guna?",
      "beat": "Banding langkah top up dalam MAE dan app myASNB, termasuk had satu peranti myASNB mulai Dis."
     }
+   ],
+   "faq": [
+    {
+     "q": "Boleh buka akaun ASNB dalam MAE?",
+     "a": "Ya, sejak 4 November 2026 untuk pelabur kali pertama."
+    },
+    {
+     "q": "Minimum berapa nak labur?",
+     "a": "Bermula RM10."
+    },
+    {
+     "q": "Ada cashback?",
+     "a": "RM3 atau RM5 untuk 15,000 pelabur baharu terawal, hingga 31 Januari 2027."
+    },
+    {
+     "q": "Semua orang boleh labur ASB?",
+     "a": "Rakyat 18 tahun ke atas boleh buka akaun; dana ASB untuk Bumiputera sahaja."
+    },
+    {
+     "q": "Dividen dijamin ke?",
+     "a": "Tidak. Ini pelaburan unit amanah, nilai dan dividen tidak dijamin."
+    }
    ]
   },
   {
@@ -1001,6 +1221,28 @@
      "title": "On Pengesahan 2 Langkah WhatsApp",
      "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
      "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke WhatsApp boleh kena malware?",
+     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+    },
+    {
+     "q": "Apa malware ni boleh buat?",
+     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+    },
+    {
+     "q": "Setting apa nak tutup?",
+     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+    },
+    {
+     "q": "Macam mana nak lindungi akaun?",
+     "a": "Aktifkan pengesahan dua langkah dan passkey."
+    },
+    {
+     "q": "Dah tertekan fail APK, nak buat apa?",
+     "a": "Putuskan internet, buang app pelik, tukar kata laluan bank dari peranti lain dan hubungi bank."
     }
    ]
   },
@@ -1086,6 +1328,28 @@
      "title": "Ada Tunggakan PTPTN? Buat Ni Dulu",
      "hook": "Ada tunggakan, jangan tunggu mekanisme baru je.",
      "beat": "Cadang semak baki dan buat rundingan semula di myPTPTN sementara tunggu pengumuman rasmi."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Gaji berapa boleh tangguh bayar PTPTN?",
+     "a": "Sehingga RM2,500 sebulan, ikut pengumuman Bajet 2027."
+    },
+    {
+     "q": "Gaji RM2,501 hingga RM3,000 kena bayar berapa?",
+     "a": "Minimum RM50 sebulan."
+    },
+    {
+     "q": "Siapa layak diskaun 10%?",
+     "a": "Peminjam yang bayar konsisten tanpa tunggakan."
+    },
+    {
+     "q": "Bila boleh mohon?",
+     "a": "Mekanisme masih dibincang dengan MOF dan akan diumumkan kemudian."
+    },
+    {
+     "q": "Ada tunggakan, nak buat apa sekarang?",
+     "a": "Semak baki dan pertimbangkan rundingan semula di myPTPTN sementara tunggu pengumuman."
     }
    ]
   },
@@ -1176,6 +1440,28 @@
      "hook": "Ragu-ragu dengan laman atau app 'Bank Negara'? Semak sini.",
      "beat": "Tunjuk bnm.gov.my/sahkan langkah demi langkah."
     }
+   ],
+   "faq": [
+    {
+     "q": "Bank Negara ada telefon orang ramai ke?",
+     "a": "Scammer menyamar pegawai BNM atau polis; BNM beri amaran tentang laman dan app palsu."
+    },
+    {
+     "q": "Apa app 'BNM Mobile Security'?",
+     "a": "App Android palsu yang dikesan MyCERT untuk curi data kad melalui NFC."
+    },
+    {
+     "q": "Kenapa tak boleh tap kad pada phone?",
+     "a": "App palsu itu baca data kad untuk transaksi tanpa sentuh atau keluarkan duit ATM."
+    },
+    {
+     "q": "Kad apa yang boleh dicuri?",
+     "a": "MyDebit, Visa, Mastercard, Amex dan JCB dari bank Malaysia."
+    },
+    {
+     "q": "Macam mana nak semak laman BNM betul?",
+     "a": "Guna bnm.gov.my/sahkan."
+    }
    ]
   },
   {
@@ -1264,6 +1550,28 @@
      "hook": "Lewat bayar CP500 lebih 30 hari? Ni berapa kena tambah.",
      "beat": "Contoh: ansuran RM300 lewat, penalti 10% jadi RM30. Rujuk LHDN untuk kes sendiri."
     }
+   ],
+   "faq": [
+    {
+     "q": "Tak bayar CP500, terus kena sekatan perjalanan?",
+     "a": "Tidak terus, kerana CP500 hanya anggaran cukai (Dewan Rakyat, 11 Nov)."
+    },
+    {
+     "q": "Bila boleh kena sekatan?",
+     "a": "Jika cukai tak dibayar 6 bulan selepas BNCP dimuktamadkan dan tak respon LHDN."
+    },
+    {
+     "q": "Ada penalti kalau lewat?",
+     "a": "Ansuran lewat lebih 30 hari boleh kena penalti 10%."
+    },
+    {
+     "q": "Siapa yang dapat CP500?",
+     "a": "Biasanya pembayar cukai dengan pendapatan bukan gaji, macam freelancer dan peniaga."
+    },
+    {
+     "q": "Macam mana nak semak?",
+     "a": "Log masuk MyTax untuk semak ansuran dan tunggakan, dan rujuk LHDN untuk kes sendiri."
+    }
    ]
   },
   {
@@ -1348,6 +1656,28 @@
      "title": "5 Fungsi TNG Wajib Sebelum Travel",
      "hook": "Nak travel cuti sekolah? Setup TNG ni dulu.",
      "beat": "E-hailing luar negara, Travel eSIM, bayar QR luar negara. Senarai pantas atas skrin."
+    }
+   ],
+   "faq": [
+    {
+     "q": "TNG boleh tempah teksi luar negara?",
+     "a": "Ya, sejak 5 November 2026 melalui Alipay+."
+    },
+    {
+     "q": "Negara mana boleh guna?",
+     "a": "47 negara dan lebih 12,000 bandar."
+    },
+    {
+     "q": "Rakan e-hailing apa?",
+     "a": "DiDi (China), GO (Jepun), Kakao T (Korea), Bolt (EU) dan Lyft (AS/Kanada)."
+    },
+    {
+     "q": "Bayar dalam mata wang apa?",
+     "a": "Tambang ditunjuk awal dan ditolak dalam ringgit."
+    },
+    {
+     "q": "Kena download app lain?",
+     "a": "Tak perlu, tempahan dibuat terus dalam TNG eWallet."
     }
    ]
   }
