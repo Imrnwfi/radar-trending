@@ -314,7 +314,39 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   const OPP = { tinggi:"Peluang tinggi", sederhana:"Peluang sederhana", sesak:"Dah sesak" };
   const BULAN = ["JAN","FEB","MAC","APR","MEI","JUN","JUL","OGO","SEP","OKT","NOV","DIS"];
   const BLN = ["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"];
-  const SEGS = [["bank","Bank","bank"],["kerajaan","Kerajaan","gov"],["ewallet","E-wallet","wallet"],["shopping","Shopping","shop"],["makanan","Makanan & minuman","food"],["syariah","Simpanan & pelaburan Syariah","syariah"]];
+  const SEGS = [["rasmi","Link rasmi","link"],["bank","Bank","bank"],["kerajaan","Kerajaan","gov"],["ewallet","E-wallet","wallet"],["shopping","Shopping","shop"],["makanan","Makanan & minuman","food"],["syariah","Simpanan & pelaburan Syariah","syariah"]];
+  /* Direktori link rasmi (disemak 16 Nov 2026) */
+  const LINKS = [
+    ["Scam & keselamatan", [
+      ["Semak Mule (PDRM)", "https://semakmule.rmp.gov.my", "Semak no. akaun bank, no. telefon atau nama syarikat sebelum pindah duit."],
+      ["NSRC – talian scam", "tel:997", "Hubungi 997 segera kalau dah tertipu, supaya duit boleh cuba disekat."],
+      ["BNM Sahkan", "https://www.bnm.gov.my/sahkan", "Semak laman, app atau maklumat yang mengaku dari Bank Negara."],
+      ["Senarai Amaran Pengguna Kewangan (BNM)", "https://www.bnm.gov.my/fca", "Senarai syarikat dan skim yang tidak dibenarkan oleh BNM."],
+      ["Investor Alert List (SC)", "https://www.sc.com.my/investor-alert", "Senarai entiti pelaburan tanpa lesen Suruhanjaya Sekuriti."],
+      ["MyCERT", "https://www.mycert.org.my", "Lapor dan semak amaran insiden keselamatan siber."]
+    ]],
+    ["Bantuan & cukai", [
+      ["MySTR (HASiL)", "https://bantuantunai.hasil.gov.my", "Mohon, kemas kini dan semak status STR."],
+      ["MyTax (LHDN)", "https://mytax.hasil.gov.my", "e-Filing, CP500, semak cukai dan sekatan perjalanan."],
+      ["SARA", "https://www.sara.gov.my", "Maklumat dan semakan Sumbangan Asas Rahmah."],
+      ["eGUMIS (JANM)", "https://egumis.anm.gov.my", "Semak dan tuntut wang tak dituntut, percuma."]
+    ]],
+    ["Urusan kerajaan online", [
+      ["MyDigital ID", "https://www.digital-id.my", "Identiti digital untuk log masuk portal kerajaan."],
+      ["MyGOV", "https://www.malaysia.gov.my", "Portal satu pintu perkhidmatan kerajaan."],
+      ["Imigresen (MyOnline Passport)", "https://www.imi.gov.my", "Renew pasport 5 atau 10 tahun."],
+      ["MyBayar Saman (PDRM)", "https://mybayar.rmp.gov.my", "Semak dan bayar saman polis yang sebenar."],
+      ["JPJ", "https://www.jpj.gov.my", "Lesen, cukai jalan dan saman JPJ."],
+      ["Rakyat Digital", "https://www.rakyatdigital.gov.my", "Kursus Coursera dan program AI percuma."]
+    ]],
+    ["Simpanan & pinjaman", [
+      ["KWSP", "https://www.kwsp.gov.my", "i-Akaun, baki, dividen dan pengeluaran."],
+      ["PTPTN", "https://www.ptptn.gov.my", "Baki pinjaman, bayaran dan SSPN."],
+      ["ASNB", "https://www.myasnb.com.my", "Akaun ASB, ASM dan dana ASNB."],
+      ["Tabung Haji", "https://www.tabunghaji.gov.my", "Akaun TH, simpanan haji dan agihan."],
+      ["PIDM", "https://www.pidm.gov.my", "Semak sama ada simpanan korang dilindungi."]
+    ]]
+  ];
   const P = {
     passport:'<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 16h6"/>',
     aid:'<path d="M3 11h4l3 2h4a2 2 0 0 1 0 4H9"/><path d="M14 15l5-2a2 2 0 0 1 2 3l-7 4H3"/><circle cx="15" cy="6" r="3"/>',
@@ -509,7 +541,18 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
     const th = [`${hook} 🧵`].concat(sn.slice(0, 2), fq.slice(0, 2).map(x => `${x.q}\n${x.a}`), [`Video penuh: ${link}`]).map((t, n, a) => `${n + 1}/${a.length} ${t}`);
     const block = (label, text, note) => `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><button class="mini" data-copy="${esc(text)}">Salin</button></div><div class="desc">${esc(text)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
     const tip = link === "[link video]" ? "Tanda topik ni dah upload dan simpan link video, nanti link masuk sendiri dalam post." : "";
-    return block("Post Komuniti YouTube", community, tip) + block("Poll Komuniti YouTube", poll) + block("Caption TikTok / Instagram", caption) + block("Thread X / Threads", th.join("\n\n")) + repliesHtml(i);
+    return quizHtml(i) + block("Post Komuniti YouTube", community, tip) + block("Poll Komuniti YouTube", poll) + block("Caption TikTok / Instagram", caption) + block("Thread X / Threads", th.join("\n\n")) + repliesHtml(i);
+  }
+  function quizHtml(i){
+    const a = Array.isArray(i.quiz) ? i.quiz.filter(x => x && x.q && Array.isArray(x.o) && x.o.length >= 2) : []; if(!a.length) return "";
+    const L = ["A","B","C","D"];
+    return `<div><div class="lbl">Kuiz untuk Komuniti & Shorts (${a.length})</div><div class="shorts">${a.map((x, n) => {
+      const ans = L[x.a] ? `${L[x.a]}) ${x.o[x.a]}` : "";
+      const post = `🧠 KUIZ: ${x.q}\n\n${x.o.map((o, k) => `${L[k]}) ${o}`).join("\n")}\n\nJawab dalam komen! Jawapan ada dalam video terbaru aku 👀`;
+      return `<div class="sh"><div class="seohead"><b>${n + 1}. ${esc(x.q)}</b><button class="mini" data-copy="${esc(post)}">Salin</button></div>
+        <div class="bt2">${x.o.map((o, k) => `${L[k]}) ${esc(o)}`).join("<br>")}</div>
+        ${ans ? `<details><summary class="note" style="cursor:pointer">Tunjuk jawapan</summary><b style="color:var(--steady)">${esc(ans)}</b></details>` : ""}</div>`; }).join("")}</div>
+      <div class="note">Untuk Komuniti YouTube, pilih jenis post "Kuiz" dan masukkan pilihan jawapan. Untuk Shorts, tanya soalan di awal dan dedahkan jawapan di hujung.</div></div>`;
   }
   function repliesHtml(i){
     const u = i.app && safeUrl(i.app.url), src = (Array.isArray(i.sources) ? i.sources : []).slice(0, 2).map(x => x.name).filter(Boolean).join(" dan ");
@@ -708,7 +751,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d);
         const age = dt ? days(dt, t) : 0;
         return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ids.has(x.id) ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
-          <label class="views">Views selepas 7 hari <input type="number" inputmode="numeric" min="0" data-views="${esc(x.id)}" value="${typeof x.v === "number" ? x.v : ""}" placeholder="${age < 7 ? "tunggu " + (7 - age) + " hari" : "isi"}"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
+          <label class="views">Views selepas 7 hari <input type="number" inputmode="numeric" min="0" data-views="${esc(x.id)}" value="${typeof x.v === "number" ? x.v : ""}" placeholder="${age < 7 ? "tunggu " + (7 - age) + " hari" : "isi"}"></label>
+          <label class="views">Pendapatan (RM) <input type="number" inputmode="decimal" min="0" step="0.01" data-earn="${esc(x.id)}" value="${typeof x.e === "number" ? x.e : ""}" placeholder="AdSense + penaja"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
       ${reportHtml(doneList, t)}
       <h2 class="sec">Backup</h2>
       <div class="backup"><div class="note">Plan, senarai video dan target disimpan dalam telefon ini sahaja. Simpan backup supaya tak hilang bila tukar telefon atau padam data browser.</div>
@@ -728,7 +772,19 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     return `<h2 class="sec">Prestasi ikut jenis topik</h2>
       ${rows.length > 1 ? `<div class="best"><b>${esc(rows[0].k)}</b>Purata ${fmt(rows[0].avg)} views, paling tinggi untuk channel kau setakat ni${rows[0].n < 3 ? " (data masih sikit, tambah lagi video untuk lebih tepat)" : ""}.</div>` : ""}
       <div class="perf">${rows.map(r => `<div class="pr"><span>${esc(r.k)}</span><b>${fmt(r.avg)}</b><div class="bar"><i style="width:${Math.round(r.avg / max * 100)}%"></i></div><small>${r.n} video · purata views</small></div>`).join("")}</div>
-      <div class="note">Video terbaik: ${esc(planTitle(best.id))} (${fmt(best.v)} views).</div>`;
+      <div class="note">Video terbaik: ${esc(planTitle(best.id))} (${fmt(best.v)} views).</div>` + earnHtml(list);
+  }
+  const rm = n => "RM" + Number(n).toLocaleString("ms-MY", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  function earnHtml(list){
+    const w = list.filter(x => typeof x.e === "number");
+    if(!w.length) return `<h2 class="sec">Pendapatan ikut jenis topik</h2><div class="note">Isi pendapatan setiap video (AdSense + penaja). Kalau views pun diisi, app kira RPM, iaitu pendapatan bagi setiap 1,000 views.</div>`;
+    const g = {}; w.forEach(x => { const k = x.g || groupOf(findItem(x.id)); g[k] = g[k] || { e: 0, n: 0, ev: 0, v: 0 }; g[k].e += x.e; g[k].n++; if(typeof x.v === "number" && x.v > 0){ g[k].ev += x.e; g[k].v += x.v; } });
+    const rows = Object.entries(g).map(([k, o]) => ({ k, e: o.e, n: o.n, rpm: o.v ? o.ev / o.v * 1000 : null })).sort((a, b) => (b.rpm ?? -1) - (a.rpm ?? -1) || b.e - a.e);
+    const tot = w.reduce((a, x) => a + x.e, 0), max = Math.max(0.01, ...rows.map(r => r.rpm ?? 0)), top = rows.find(r => r.rpm !== null);
+    return `<h2 class="sec">Pendapatan ikut jenis topik</h2>
+      <div class="stat"><div><b>${rm(tot)}</b><span>jumlah pendapatan (${w.length} video)</span></div><div><b>${rm(tot / w.length)}</b><span>purata setiap video</span></div></div>
+      ${top && rows.filter(r => r.rpm !== null).length > 1 ? `<div class="best"><b>${esc(top.k)}</b>RPM ${rm(top.rpm)} setiap 1,000 views, paling tinggi untuk channel kau.</div>` : ""}
+      <div class="perf">${rows.map(r => `<div class="pr"><span>${esc(r.k)}</span><b>${r.rpm !== null ? "RPM " + rm(r.rpm) : rm(r.e)}</b>${r.rpm !== null ? `<div class="bar"><i style="width:${Math.round(r.rpm / max * 100)}%"></i></div>` : ""}<small>${r.n} video · jumlah ${rm(r.e)}${r.rpm === null ? " · isi views untuk kira RPM" : ""}</small></div>`).join("")}</div>`;
   }
   const BULANP = ["Januari","Februari","Mac","April","Mei","Jun","Julai","Ogos","September","Oktober","November","Disember"];
   function monLabel(m){ const [y, mo] = m.split("-").map(Number); return BULANP[mo - 1] + " " + y; }
@@ -739,7 +795,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const g = {}; L.forEach(x => { const k = x.g || groupOf(findItem(x.id)); g[k] = g[k] || { n: 0, v: 0, nv: 0 }; g[k].n++; if(typeof x.v === "number"){ g[k].v += x.v; g[k].nv++; } });
     const groups = Object.entries(g).map(([k, o]) => ({ k, n: o.n, avg: o.nv ? Math.round(o.v / o.nv) : null })).sort((a, b) => (b.avg || 0) - (a.avg || 0) || b.n - a.n);
     const best = wv.slice().sort((a, b) => b.v - a.v)[0];
-    return { m, n: L.length, prev: P.length, sum, avg: wv.length ? Math.round(sum / wv.length) : null, nv: wv.length, groups, best, next: Math.max(state.target * 4, L.length + 1) };
+    const we = L.filter(x => typeof x.e === "number"), earn = we.reduce((a, x) => a + x.e, 0);
+    return { m, n: L.length, prev: P.length, earn, ne: we.length, sum, avg: wv.length ? Math.round(sum / wv.length) : null, nv: wv.length, groups, best, next: Math.max(state.target * 4, L.length + 1) };
   }
   function reportHtml(doneList, t){
     const cur = isoOf(t).slice(0, 7), months = Array.from(new Set([cur].concat(doneList.map(x => String(x.d || "").slice(0, 7)).filter(x => /^\d{4}-\d{2}$/.test(x))))).sort().reverse();
@@ -749,6 +806,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <div class="rep"><div class="tg"><select id="rmon" aria-label="Pilih bulan">${months.map(m => `<option value="${m}"${m === state.rmon ? " selected" : ""}>${monLabel(m)}</option>`).join("")}</select><button class="btn" data-repimg="1">Simpan gambar</button></div>
         <div class="stat"><div><b>${r.n}</b><span>video${r.prev || r.n ? ` · ${diff > 0 ? "+" + diff : diff < 0 ? diff : "sama"} vs bulan lepas` : ""}</span></div><div><b>${r.nv ? fmt(r.sum) : "–"}</b><span>jumlah views${r.nv && r.nv < r.n ? ` (${r.nv} video)` : ""}</span></div><div><b>${r.avg !== null ? fmt(r.avg) : "–"}</b><span>purata views</span></div></div>
         ${r.groups.length ? `<div><div class="lbl">Jenis topik</div><div class="note">${r.groups.map(x => `${esc(x.k)}: ${x.n} video${x.avg !== null ? ", purata " + fmt(x.avg) : ""}`).join(" · ")}</div></div>` : `<div class="note">Belum ada video bulan ini.</div>`}
+        ${r.ne ? `<div><div class="lbl">Pendapatan</div><b>${rm(r.earn)}</b> <span class="note">· ${r.ne} video diisi</span></div>` : ""}
         ${r.best ? `<div><div class="lbl">Video terbaik</div><b>${esc(planTitle(r.best.id))}</b> <span class="note">· ${fmt(r.best.v)} views</span></div>` : ""}
         <div><div class="lbl">Cadangan target bulan depan</div><b>${r.next} video</b> <span class="note">(target mingguan ${state.target} × 4 minggu)</span></div></div>`;
   }
@@ -769,6 +827,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const body = (t, size, col) => { x.fillStyle = col || "#e9ebef"; x.font = `600 ${size || 40}px ${F}`; wrapText(x, t, W - 160).slice(0, 3).forEach(l => { x.fillText(l, 80, y); y += (size || 40) + 14; }); y += 26; };
     const diff = r.n - r.prev; head("BERBANDING BULAN LEPAS"); body(diff > 0 ? `+${diff} video lebih banyak` : diff < 0 ? `${-diff} video kurang` : "Sama seperti bulan lepas");
     if(r.groups.length){ head("JENIS TOPIK PALING MENJADI"); body(r.groups[0].k + (r.groups[0].avg !== null ? ` · purata ${fmt(r.groups[0].avg)} views` : ` · ${r.groups[0].n} video`)); }
+    if(r.ne){ head("PENDAPATAN"); body(rm(r.earn) + ` · ${r.ne} video`); }
     if(r.best){ head("VIDEO TERBAIK"); body(planTitle(r.best.id) + ` · ${fmt(r.best.v)} views`, 38); }
     head("TARGET BULAN DEPAN"); body(r.next + " video", 48, "#ffffff");
     x.fillStyle = "#ff6f62"; x.beginPath(); x.arc(W - 96, 108, 14, 0, Math.PI * 2); x.fill();
@@ -800,7 +859,14 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     state.bmsg = { t:`Dipulihkan: ${nd} video dan ${np} plan.` }; render();
   }
   function saveTarget(){ try{ localStorage.setItem("rt-target", String(state.target)); }catch(e){} }
+  function viewLinks(){
+    return `<h2 class="sec">Direktori link rasmi</h2><div class="note">Portal yang selalu dirujuk dalam video dan balasan komen. Sentiasa guna link rasmi, bukan link dari SMS atau WhatsApp.</div>` +
+      LINKS.map(([g, arr]) => `<h2 class="grp">${esc(g.toUpperCase())}</h2><ul class="ul2">${arr.map(([n, u, w]) => { const isTel = u.startsWith("tel:"), shown = isTel ? u.slice(4) : u.replace(/^https?:\/\//, "");
+        return `<li><div class="seohead"><b>${esc(n)}</b><button class="mini" data-copy="${esc(isTel ? shown : u)}">Salin</button></div><span class="note" style="margin:0">${esc(w)}</span><a href="${esc(u)}" ${isTel ? "" : `target="_blank" rel="noopener"`} style="font-size:14px;word-break:break-all">${esc(shown)}</a></li>`; }).join("")}</ul>`).join("") +
+      `<div class="note">Disemak 16 Nov 2026. Kalau mana-mana link berubah, bagitau aku.</div>`;
+  }
   function viewApp(){
+    if(state.seg === "rasmi") return viewLinks();
     const list = apps().filter(a => a.seg === state.seg);
     const name = (SEGS.find(s => s[0] === state.seg) || [])[1] || "";
     return `<h2 class="sec">App popular · ${esc(name)}</h2><div class="list">${list.length ? list.map(appRow).join("") : `<div class="empty">Tiada app untuk kategori ini lagi.</div>`}</div>
@@ -861,6 +927,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   document.addEventListener("change", ev => {
     const el = ev.target;
     if(el.id === "rmon"){ state.rmon = el.value; render(); return; }
+    if(el.dataset && el.dataset.earn){ const id = el.dataset.earn, n = el.value === "" ? NaN : Math.max(0, Math.round(Number(el.value) * 100) / 100); const info = doneInfo(id); if(info){ state.done[id] = Object.assign({}, info, { e: Number.isFinite(n) ? n : undefined }); saveDone(); render(); } return; }
     if(el.dataset && el.dataset.views){ const id = el.dataset.views, n = el.value === "" ? undefined : Math.max(0, Math.round(Number(el.value))); const info = doneInfo(id); if(info){ state.done[id] = Object.assign({}, info, { v: Number.isFinite(n) ? n : undefined }); saveDone(); render(); } return; }
     if(el.id === "bkFile" && el.files && el.files[0]){ const f = el.files[0]; if(f.size > 2e6){ state.bmsg = { t:"Fail terlalu besar.", err:true }; render(); return; } f.text().then(restore); return; } if(!el.dataset || !el.dataset.plan) return;
     const id = el.dataset.plan;

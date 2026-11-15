@@ -135,6 +135,35 @@
      "q": "Kat mana nak kemas kini atau semak status?",
      "a": "Di portal rasmi MySTR, bantuantunai.hasil.gov.my. Jangan guna link dari WhatsApp atau SMS."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu & rayuan lulus bermula?",
+     "o": [
+      "4 November",
+      "16 November",
+      "30 November"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal rasmi untuk kemas kini STR ialah…",
+     "o": [
+      "MySTR (HASiL)",
+      "MyEG",
+      "Link dalam WhatsApp"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Penerima tanpa akaun bank boleh tunaikan STR di…",
+     "o": [
+      "Pejabat pos",
+      "BSN",
+      "Mana-mana ATM"
+     ],
+     "a": 1
+    }
    ]
   },
   {
@@ -252,6 +281,35 @@
     {
      "q": "Sebelum ni macam mana nak buat pasport 10 tahun?",
      "a": "Sebelum 2 Nov, pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa harga pasport 10 tahun?",
+     "o": [
+      "RM300",
+      "RM350",
+      "RM400"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Mulai bila pasport 10 tahun boleh renew online?",
+     "o": [
+      "2 November 2026",
+      "1 Januari 2026",
+      "1 Disember 2026"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Umur bawah 18 tahun boleh ambil pasport…",
+     "o": [
+      "10 tahun",
+      "5 tahun sahaja",
+      "Tak boleh renew"
+     ],
+     "a": 1
     }
    ]
   },
@@ -371,6 +429,35 @@
      "q": "Kena mohon ke untuk dapat SARA?",
      "a": "Tunggu pengumuman rasmi cara agihan; buat masa ini butiran pelaksanaan 2027 belum diumumkan."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa jumlah SARA MADANI untuk bukan penerima STR (18+)?",
+     "o": [
+      "RM100 sekali",
+      "RM100 dua kali",
+      "RM500"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Penerima STR dapat SARA sehingga berapa sebulan?",
+     "o": [
+      "RM50",
+      "RM100",
+      "RM150"
+     ],
+     "a": 2
+    },
+    {
+     "q": "SARA kini boleh guna di berapa pasar tani FAMA?",
+     "o": [
+      "100",
+      "216",
+      "500"
+     ],
+     "a": 1
+    }
    ]
   },
   {
@@ -482,6 +569,35 @@
      "q": "Polis ada buat tindakan ke?",
      "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang."
     }
+   ],
+   "quiz": [
+    {
+     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?",
+     "o": [
+      "RM50",
+      "RM150",
+      "RM300"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?",
+     "o": [
+      "MyCERT",
+      "JPJ",
+      "LHDN"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Nombor talian NSRC untuk mangsa scam ialah…",
+     "o": [
+      "999",
+      "997",
+      "991"
+     ],
+     "a": 1
+    }
    ]
   },
   {
@@ -589,6 +705,35 @@
     {
      "q": "Bila harga baru diumumkan?",
      "a": "MOF biasanya umum harga mingguan malam Rabu; harga 19–25 Nov dijangka diumum 18 Nov."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Harga RON97 untuk 12–18 Nov 2026?",
+     "o": [
+      "RM4.20",
+      "RM4.70",
+      "RM3.87"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Harga BUDI95 seliter?",
+     "o": [
+      "RM1.99",
+      "RM2.05",
+      "RM3.87"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Berapa subsidi RON95 seliter?",
+     "o": [
+      "RM0.88",
+      "RM1.88",
+      "RM2.88"
+     ],
+     "a": 1
     }
    ]
   },
@@ -705,6 +850,35 @@
      "q": "Kena ada MyDigital ID ke?",
      "a": "Ya, portal Rakyat Digital perlukan MyDigital ID untuk log masuk."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Coursera percuma diberi untuk berapa lama?",
+     "o": [
+      "1 bulan",
+      "3 bulan",
+      "12 bulan"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Untuk log masuk portal Rakyat Digital, korang perlukan…",
+     "o": [
+      "MyDigital ID",
+      "Akaun Google",
+      "MyEG"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Program AI Untuk Rakyat untuk umur berapa?",
+     "o": [
+      "18–30",
+      "25–40",
+      "Semua umur"
+     ],
+     "a": 0
+    }
    ]
   },
   {
@@ -816,6 +990,35 @@
      "q": "Perlu bayar ejen ke?",
      "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa wang tak dituntut di JANM setakat Sept 2026?",
+     "o": [
+      "RM1.4 bilion",
+      "RM14 bilion",
+      "RM140 juta"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal untuk semak wang tak dituntut ialah…",
+     "o": [
+      "eGUMIS",
+      "MyTax",
+      "i-Akaun"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Berapa kos untuk semak dan tuntut di eGUMIS?",
+     "o": [
+      "Percuma",
+      "RM10",
+      "RM50"
+     ],
+     "a": 0
+    }
    ]
   },
   {
@@ -921,6 +1124,35 @@
     {
      "q": "MyDigital ID guna untuk apa?",
      "a": "Log masuk MyGOV, ganti MyKad, Rakyat Digital dan banyak lagi perkhidmatan."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Versi MyDigital ID yang ada 'Forgot Password'?",
+     "o": [
+      "2.0.0",
+      "2.11.0",
+      "3.1.0"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Reset password MyDigital ID kini guna…",
+     "o": [
+      "Imbasan muka",
+      "SMS OTP sahaja",
+      "Datang ke kaunter"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Bila tukar phone, sijil MyDigital ID…",
+     "o": [
+      "Hilang",
+      "Dipindah automatik",
+      "Kena daftar semula"
+     ],
+     "a": 1
     }
    ]
   },
@@ -1034,6 +1266,35 @@
      "q": "Bila boleh beli?",
      "a": "Dilancar seluruh negara hujung Januari 2027."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Had tahunan pelan MediAsas Standard?",
+     "o": [
+      "RM50,000",
+      "RM100,000",
+      "RM300,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Deductible MediAsas untuk bawah 60 tahun?",
+     "o": [
+      "RM100",
+      "RM500",
+      "RM1,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Bila MediAsas dilancar seluruh negara?",
+     "o": [
+      "Hujung Jan 2027",
+      "Jun 2027",
+      "Sudah dilancar"
+     ],
+     "a": 0
+    }
    ]
   },
   {
@@ -1142,6 +1403,35 @@
      "q": "Dividen dijamin ke?",
      "a": "Tidak. Ini pelaburan unit amanah, nilai dan dividen tidak dijamin."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Minimum pelaburan ASNB melalui MAE?",
+     "o": [
+      "RM1",
+      "RM10",
+      "RM100"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Cashback buka akaun ASNB dalam MAE untuk berapa orang terawal?",
+     "o": [
+      "5,000",
+      "15,000",
+      "50,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Promosi cashback MAE ASNB tamat bila?",
+     "o": [
+      "31 Dis 2026",
+      "31 Jan 2027",
+      "31 Mac 2027"
+     ],
+     "a": 1
+    }
    ]
   },
   {
@@ -1243,6 +1533,35 @@
     {
      "q": "Dah tertekan fail APK, nak buat apa?",
      "a": "Putuskan internet, buang app pelik, tukar kata laluan bank dari peranti lain dan hubungi bank."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "o": [
+      "Dokumen",
+      "Lagu",
+      "Sticker"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Setting WhatsApp yang patut dimatikan?",
+     "o": [
+      "Muat turun media automatik",
+      "Notifikasi",
+      "Status"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Cara terbaik kunci akaun WhatsApp?",
+     "o": [
+      "Pengesahan dua langkah",
+      "Tukar gambar profil",
+      "Padam chat lama"
+     ],
+     "a": 0
     }
    ]
   },
@@ -1350,6 +1669,35 @@
     {
      "q": "Ada tunggakan, nak buat apa sekarang?",
      "a": "Semak baki dan pertimbangkan rundingan semula di myPTPTN sementara tunggu pengumuman."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Gaji sehingga berapa boleh tangguh bayaran PTPTN?",
+     "o": [
+      "RM2,000",
+      "RM2,500",
+      "RM3,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Gaji RM2,501–RM3,000 bayar minimum berapa sebulan?",
+     "o": [
+      "RM50",
+      "RM100",
+      "RM150"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Diskaun untuk peminjam yang bayar konsisten?",
+     "o": [
+      "5%",
+      "10%",
+      "20%"
+     ],
+     "a": 1
     }
    ]
   },
@@ -1462,6 +1810,35 @@
      "q": "Macam mana nak semak laman BNM betul?",
      "a": "Guna bnm.gov.my/sahkan."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Nama app palsu yang menyamar Bank Negara?",
+     "o": [
+      "BNM Mobile Security",
+      "MyBNM",
+      "BNM Sahkan"
+     ],
+     "a": 0
+    },
+    {
+     "q": "App palsu ni curi data kad melalui…",
+     "o": [
+      "NFC (tap kad)",
+      "Bluetooth",
+      "Kamera"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Laman untuk semak sama ada laman 'BNM' tulen?",
+     "o": [
+      "bnm.gov.my/sahkan",
+      "bnm-sahkan.com",
+      "WhatsApp BNM"
+     ],
+     "a": 0
+    }
    ]
   },
   {
@@ -1572,6 +1949,35 @@
      "q": "Macam mana nak semak?",
      "a": "Log masuk MyTax untuk semak ansuran dan tunggakan, dan rujuk LHDN untuk kes sendiri."
     }
+   ],
+   "quiz": [
+    {
+     "q": "Tak bayar ansuran CP500, terus kena sekatan perjalanan?",
+     "o": [
+      "Ya, terus",
+      "Tidak terus",
+      "Hanya jika lebih RM10,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Penalti ansuran CP500 lewat lebih 30 hari?",
+     "o": [
+      "5%",
+      "10%",
+      "15%"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Sekatan perjalanan boleh dikenakan jika cukai tak dibayar berapa lama selepas BNCP muktamad?",
+     "o": [
+      "1 bulan",
+      "6 bulan",
+      "2 tahun"
+     ],
+     "a": 1
+    }
    ]
   },
   {
@@ -1678,6 +2084,35 @@
     {
      "q": "Kena download app lain?",
      "a": "Tak perlu, tempahan dibuat terus dalam TNG eWallet."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "TNG kini boleh tempah e-hailing di berapa negara?",
+     "o": [
+      "12",
+      "47",
+      "100"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Rakan e-hailing TNG di Jepun ialah…",
+     "o": [
+      "GO",
+      "Grab",
+      "Uber"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Tambang luar negara melalui TNG dibayar dalam…",
+     "o": [
+      "Ringgit",
+      "Mata wang tempatan",
+      "Dolar AS"
+     ],
+     "a": 0
     }
    ]
   }
