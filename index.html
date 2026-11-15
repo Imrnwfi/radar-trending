@@ -232,6 +232,23 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 .msg{font-size:14px;font-weight:700;color:var(--steady)}
 .msg.err{color:var(--hot)}
 
+.desc{white-space:pre-wrap;font-size:13px;background:var(--paper);border-radius:10px;padding:10px 12px;max-height:180px;overflow:auto;line-height:1.45}
+.views{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
+.views input{width:96px;font:inherit;font-size:16px;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.perf{display:flex;flex-direction:column;gap:8px}
+.pr{display:grid;grid-template-columns:1fr auto;gap:2px 8px;font-size:14px}
+.pr .bar{grid-column:1/-1;height:8px}
+.pr small{color:var(--muted)}
+.best{background:var(--ink);color:var(--paper);border-radius:12px;padding:12px 14px;font-size:14px}
+.best b{display:block;font-family:var(--display);font-size:16px}
+.fc{display:flex;flex-direction:column;gap:8px}
+.fci{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;text-align:left;width:100%}
+.fci b{line-height:1.3}
+.why2{display:flex;flex-wrap:wrap;gap:6px}
+.why2 span{font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px;background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+.why2 span.hot{background:color-mix(in srgb,var(--hot) 12%,transparent);color:var(--hot)}
+.arch{font-size:12px;font-weight:700;color:var(--muted)}
+
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 .navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:var(--navh)}
@@ -268,7 +285,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { view:"topik", filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, bmsg:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
+  const state = { view:"topik", filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, archive:null, bmsg:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
   const HARI = ["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"], HR = ["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"];
   /* Kalendar bermusim: perkara yang berulang setiap tahun. Tarikh ialah kebiasaan, bukan pengumuman rasmi. */
   const SEASON = [
@@ -330,6 +347,10 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
   function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
   function items(){ return (state.data && Array.isArray(state.data.items)) ? state.data.items.slice().sort((a,b) => (RANK[a.status] ?? 2) - (RANK[b.status] ?? 2) || (b.score||0)-(a.score||0)) : []; }
   function apps(){ return (state.data && Array.isArray(state.data.apps)) ? state.data.apps : []; }
+  function archived(){ return state.archive && Array.isArray(state.archive.items) ? state.archive.items : []; }
+  function findItem(id){ return items().find(x => x.id === id) || archived().find(x => x.id === id); }
+  const GROUPS = { shield:"Scam & keselamatan", aid:"Bantuan kerajaan", card:"Bantuan kerajaan", tax:"Cukai", salary:"KWSP & gaji", id:"Urusan kerajaan online", passport:"Urusan kerajaan online", chart:"Duit, harga & pelaburan", gold:"Duit, harga & pelaburan", learn:"Belajar & pinjaman pendidikan", cart:"Belanja & e-dagang", shop:"Belanja & e-dagang", map:"Travel", link:"Lain-lain" };
+  function groupOf(i){ return (i && GROUPS[i.icon]) || (i && i.cat === "tutorial" ? "Tutorial app" : "Lain-lain"); }
 
   /* Theme */
   function isDark(){ const t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; }
@@ -435,11 +456,45 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
       const plain = x.title + "\nHook: " + (x.hook || "") + "\n" + (x.beat || "");
       return `<div class="sh"><div class="seohead"><b>${esc(x.title)}</b><button class="mini" data-copy="${esc(plain)}">Salin</button></div>${x.hook ? `<div class="hk">${esc(x.hook)}</div>` : ""}${x.beat ? `<div class="bt2">${esc(x.beat)}</div>` : ""}</div>`; }).join("")}</div></div>`;
   }
+  function firstSentence(t){ const m = String(t || "").match(/^.*?[.!?](\s|$)/); return (m ? m[0] : String(t || "")).trim(); }
+  function descText(i){
+    const s = i.seo || {}, sc = i.script || {}, pts = Array.isArray(sc.points) && sc.points.length ? sc.points : null;
+    const secs = pts ? pts.map(p => firstSentence(p).replace(/[.!?]$/, "")).map(p => p.length > 60 ? p.slice(0, 57).replace(/\s+\S*$/, "") + "…" : p)
+      : ["Apa yang berlaku", "Siapa yang terkesan", i.cat === "tutorial" ? "Langkah demi langkah" : "Apa korang perlu buat", "Perkara penting untuk diingat"];
+    const ts = ["0:00 Pengenalan"].concat(secs.map((x, n) => `${n + 1}:00 ${x}`), [`${secs.length + 1}:00 Penutup`]);
+    const app = i.app && safeUrl(i.app.url) ? `Laman rasmi: ${i.app.name} – ${safeUrl(i.app.url)}\n\n` : "";
+    const src = (Array.isArray(i.sources) ? i.sources : []).filter(x => safeUrl(x.url)).slice(0, 4).map(x => `• ${x.name}: ${x.url}`).join("\n");
+    const dis = i.cat === "kewangan" ? "Video ini untuk maklumat umum sahaja, bukan nasihat kewangan. Sentiasa semak laman rasmi untuk maklumat terkini." : "Langkah dan paparan app mungkin berubah selepas kemas kini. Semak laman rasmi untuk maklumat terkini.";
+    const tags = Array.isArray(s.hashtags) ? s.hashtags.slice(0, 3).join(" ") : "";
+    return `${sc.hook || firstSentence(i.why)}\n\n${i.why}\n\n${app}⏱️ Dalam video ni:\n${ts.join("\n")}\n\n${src ? "📚 Sumber rujukan:\n" + src + "\n\n" : ""}${dis}\n\nKalau video ni membantu, like, share dan subscribe untuk lebih banyak tutorial dan tips kewangan.\n\n${tags}`.trim();
+  }
+  const ASK = {
+    "Scam & keselamatan": "Korang atau family pernah dapat mesej atau panggilan macam ni? Cerita kat bawah supaya orang lain lebih berhati-hati.",
+    "Bantuan kerajaan": "Korang dah semak status? Komen DAH atau BELUM, dan kalau ada masalah, tulis kat bawah.",
+    "Cukai": "Tahun ni korang isi cukai sendiri atau minta orang tolong? Komen kat bawah.",
+    "KWSP & gaji": "Korang mula simpan untuk persaraan umur berapa? Komen umur korang.",
+    "Urusan kerajaan online": "Korang dah cuba buat secara online? Berjaya atau tersangkut kat langkah mana?",
+    "Duit, harga & pelaburan": "Korang lebih suka simpan atau labur? Komen pilihan korang dan kenapa.",
+    "Belajar & pinjaman pendidikan": "Ini membantu korang atau adik-beradik korang? Tag orang yang patut tahu.",
+    "Belanja & e-dagang": "Apa yang korang nak beli masa sale nanti? Komen kat bawah.",
+    "Travel": "Destinasi mana korang nak pergi cuti ni? Komen kat bawah."
+  };
+  function engageHtml(i){
+    const g = groupOf(i), u = i.app && safeUrl(i.app.url);
+    const pins = [
+      u ? `📌 Guna laman rasmi sahaja: ${u}. Jangan klik link dari SMS atau WhatsApp yang mengaku dari ${i.app.name}.` : `📌 Semua sumber rujukan ada dalam deskripsi. Semak laman rasmi sebelum buat apa-apa.`,
+      i.deadline ? `⏰ Ingat: ${i.deadline}. Share video ni dengan family yang belum tahu.` : `💬 Ada soalan pasal topik ni? Tulis kat bawah, aku cuba jawab dalam video seterusnya.`
+    ];
+    const q = ASK[g] || (i.cat === "tutorial" ? "Berjaya ikut langkah dalam video ni? Kalau tersangkut, komen nombor langkah tu." : "Apa pendapat korang pasal perkara ni? Komen kat bawah.");
+    return `<div><div class="lbl">Pinned comment</div>${ideasList(pins, true)}</div><div><div class="lbl">Soalan untuk penonton</div>${ideasList([q], true)}</div>`;
+  }
   function seoHtml(i){
-    const s = i.seo; if(!s) return `<div class="note">Pakej SEO belum ada untuk topik ini.</div>`;
+    const desc = descText(i);
+    const top = `<div><div class="seohead"><span class="lbl" style="margin:0">Deskripsi YouTube</span><button class="mini" data-copy="${esc(desc)}">Salin deskripsi</button></div><div class="desc">${esc(desc)}</div><div class="note">Timestamp ialah anggaran. Ubah ikut video sebenar.</div></div>` + engageHtml(i);
+    const s = i.seo; if(!s) return top;
     const arr = k => Array.isArray(s[k]) ? s[k] : [];
     const block = (label, list, joiner) => list.length ? `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><button class="mini" data-copy="${esc(list.join(joiner))}">Salin semua</button></div><div class="chips">${list.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div></div>` : "";
-    return block("Kata kunci carian", arr("keywords"), "\n") + block("Tag YouTube", arr("tags"), ", ") + block("Hashtag TikTok / Shorts", arr("hashtags"), " ") +
+    return top + block("Kata kunci carian", arr("keywords"), "\n") + block("Tag YouTube", arr("tags"), ", ") + block("Hashtag TikTok / Shorts", arr("hashtags"), " ") +
       (arr("thumbs").length ? `<div><div class="lbl">Teks thumbnail</div>${ideasList(arr("thumbs"), true)}</div>` : "");
   }
   function buildPrompt(item){
@@ -482,7 +537,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     return `<div class="item${done ? " done" : ""}" id="it-${id}">
       <button class="row" data-toggle="${id}" aria-expanded="${open}" aria-controls="d-${id}">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i)) ? `<span class="sub">${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
+        <span class="t">${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
         <span class="s">${Math.max(0, Math.min(100, Number(i.score) || 0))}${deltaHtml(i)}${sparkSmall(i.id)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
@@ -546,7 +601,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const groups = [];
     rows.forEach(r => { const key = r.w ? BULAN[r.w.getUTCMonth()] + " " + r.w.getUTCFullYear() : "TARIKH BELUM PASTI"; let g = groups[groups.length-1]; if(!g || g.key !== key){ g = { key, rows: [] }; groups.push(g); } g.rows.push(r); });
     const ids = new Set(items().map(i => i.id));
-    return `<h2 class="sec">Tarikh penting</h2>${groups.length ? "" : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`}<div class="tl">${groups.map(g => `<section><h3 class="mon">${esc(g.key)}</h3><ul class="ev">${g.rows.map(({u, w}) => {
+    return forecastHtml(t, up) + `<h2 class="sec">Tarikh penting</h2>${groups.length ? "" : `<div class="empty">Tiada tarikh penting buat masa ini.</div>`}<div class="tl">${groups.map(g => `<section><h3 class="mon">${esc(g.key)}</h3><ul class="ev">${g.rows.map(({u, w}) => {
       const n = w ? days(t, w) : null, soon = n !== null && n >= 0 && n <= 7;
       let upHtml = "";
       if(w && n >= 0){ const lead = Math.max(1, Math.min(60, Number(u.lead) || 7)); const ub = new Date(w.getTime() - lead * 86400000), m = days(t, ub);
@@ -554,6 +609,27 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       return `<li class="${soon ? "soon" : ""}${n !== null && n < 0 ? " past" : ""}"><div class="evtop"><span class="evd">${esc(u.date)}</span>${n !== null ? `<span class="cd">${cdText(n, u.approx)}</span>` : ""}</div>
         <div class="evl">${esc(u.label)}</div>${u.note ? `<div class="evn">${esc(u.note)}</div>` : ""}${upHtml}
         ${u.topic && ids.has(u.topic) ? `<button class="golink" data-goto="${esc(u.topic)}">Lihat topik &amp; idea tajuk →</button>` : ""}</li>`; }).join("")}</ul></section>`).join("")}</div>` + viewSeason(t, up);
+  }
+  function forecastHtml(t, up){
+    const rows = items().filter(i => !state.done[i.id]).map(i => {
+      const a = series(i.id), recent = a.length >= 2 ? a[a.length-1].v - a[Math.max(0, a.length - 4)].v : 0;
+      const ev = up.map(u => ({ u, n: parseD(u.when) ? days(t, parseD(u.when)) : null })).filter(x => x.u.topic === i.id && x.n !== null && x.n >= 0 && x.n <= 14).sort((a, b) => a.n - b.n)[0];
+      const lvl = i.competition && i.competition.level;
+      const why = [];
+      if(recent >= 2) why.push(["Skor naik " + recent, ""]);
+      if(ev) why.push([(ev.n === 0 ? "Hari ini: " : ev.n === 1 ? "Esok: " : ev.n + " hari lagi: ") + String(ev.u.label), "hot"]);
+      if(i.prev_score === null) why.push(["Topik baru", ""]);
+      if(lvl === "tinggi") why.push(["Saingan rendah", ""]);
+      if(i.deadline) why.push([i.deadline, "hot"]);
+      const f = (Number(i.score) || 0) + recent * 2 + (ev ? 14 - ev.n : 0) + (i.prev_score === null ? 4 : 0) + (lvl === "tinggi" ? 4 : lvl === "sesak" ? -8 : 0) - (recent <= -3 ? 6 : 0);
+      return { i, f, why };
+    }).filter(r => r.why.length).sort((a, b) => b.f - a.f).slice(0, 5);
+    const ss = SEASON.map(e => { let w = new Date(Date.UTC(e.y || t.getUTCFullYear(), e.m - 1, e.d)); if(!e.y && days(t, w) < 0) w = new Date(Date.UTC(t.getUTCFullYear() + 1, e.m - 1, e.d)); return { e, n: days(t, w) }; })
+      .filter(x => x.n >= 0 && x.n - (x.e.lead || 10) <= 14).sort((a, b) => a.n - b.n);
+    if(!rows.length && !ss.length) return "";
+    return `<h2 class="sec">Ramalan minggu depan</h2><div class="note">Topik yang dijangka naik, berdasarkan trend skor, tarikh penting dan saingan. Ini anggaran, bukan jaminan.</div>
+      <div class="fc">${rows.map((r, n) => `<button class="fci" data-goto="${esc(r.i.id)}"><b>${n + 1}. ${esc(r.i.title)}</b><span class="why2">${r.why.map(w => `<span class="${w[1]}">${esc(w[0])}</span>`).join("")}</span></button>`).join("")}
+      ${ss.map(x => `<div class="fci"><b>${esc(x.e.label)}</b><span class="why2"><span class="hot">${cdText(x.n, x.e.approx)}</span><span>Bermusim</span></span><span class="note">${esc(x.e.note)}</span></div>`).join("")}</div>`;
   }
   function viewSeason(t, up){
     const taken = new Set(up.map(u => (u.when || "") + "|" + String(u.label || "").toLowerCase().slice(0,6)));
@@ -570,7 +646,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
           <div class="evl">${esc(e.label)}</div><div class="evn">${esc(e.note)}</div>
           ${m <= 0 ? `<div class="up late">${UP}Upload video sekarang</div>` : `<div class="up">${UP}Upload sebelum ${ub.getUTCDate()} ${BLN[ub.getUTCMonth()]}</div>`}</li>`; }).join("")}</ul>`;
   }
-  function planTitle(id){ const it = items().find(x => x.id === id); return it ? it.title : (state.plan[id] && state.plan[id].t) || (doneInfo(id) && doneInfo(id).t) || id; }
+  function planTitle(id){ const it = findItem(id); return it ? it.title : (state.plan[id] && state.plan[id].t) || (doneInfo(id) && doneInfo(id).t) || id; }
   function viewPlan(){
     const t = todayMY(), wk = week(), ids = new Set(items().map(i => i.id));
     const tIso = isoOf(t), endIso = isoOf(wk[6]);
@@ -593,7 +669,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length ? its.map(([id, p]) => row(id, p)).join("") : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>
       <h2 class="sec">Video dah upload (${doneList.length})</h2>
       ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d);
-        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ids.has(x.id) ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div></li>`; }).join("")}</ul>` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
+        const age = dt ? days(dt, t) : 0;
+        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ids.has(x.id) ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
+          <label class="views">Views selepas 7 hari <input type="number" inputmode="numeric" min="0" data-views="${esc(x.id)}" value="${typeof x.v === "number" ? x.v : ""}" placeholder="${age < 7 ? "tunggu " + (7 - age) + " hari" : "isi"}"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tekan "Tanda dah upload" pada topik, ia akan disenaraikan di sini. Topik yang dah upload tak keluar lagi dalam Pilihan hari ini.</div>`}
       <h2 class="sec">Backup</h2>
       <div class="backup"><div class="note">Plan, senarai video dan target disimpan dalam telefon ini sahaja. Simpan backup supaya tak hilang bila tukar telefon atau padam data browser.</div>
         <div class="acts"><button class="btn" data-bk="dl">Muat turun fail backup</button><button class="btn" data-bk="copy">Salin kod backup</button></div>
@@ -602,6 +680,17 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         <textarea id="bkText" placeholder="Atau tampal kod backup di sini" aria-label="Kod backup"></textarea>
         <div class="acts"><button class="btn" data-bk="restore">Pulihkan dari kod</button></div>
         ${state.bmsg ? `<div class="msg${state.bmsg.err ? " err" : ""}" role="status">${esc(state.bmsg.t)}</div>` : ""}</div>`;
+  }
+  function perfHtml(list){
+    const w = list.filter(x => typeof x.v === "number");
+    if(!w.length) return `<h2 class="sec">Prestasi ikut jenis topik</h2><div class="note">Isi views setiap video selepas 7 hari. Bila dah ada beberapa video, sini akan tunjuk jenis topik mana paling menjadi untuk channel kau.</div>`;
+    const g = {}; w.forEach(x => { const k = x.g || groupOf(findItem(x.id)); (g[k] = g[k] || []).push(x.v); });
+    const rows = Object.entries(g).map(([k, a]) => ({ k, n: a.length, avg: Math.round(a.reduce((p, c) => p + c, 0) / a.length) })).sort((a, b) => b.avg - a.avg);
+    const max = Math.max(1, ...rows.map(r => r.avg)), best = w.slice().sort((a, b) => b.v - a.v)[0], fmt = n => n.toLocaleString("ms-MY");
+    return `<h2 class="sec">Prestasi ikut jenis topik</h2>
+      ${rows.length > 1 ? `<div class="best"><b>${esc(rows[0].k)}</b>Purata ${fmt(rows[0].avg)} views, paling tinggi untuk channel kau setakat ni${rows[0].n < 3 ? " (data masih sikit, tambah lagi video untuk lebih tepat)" : ""}.</div>` : ""}
+      <div class="perf">${rows.map(r => `<div class="pr"><span>${esc(r.k)}</span><b>${fmt(r.avg)}</b><div class="bar"><i style="width:${Math.round(r.avg / max * 100)}%"></i></div><small>${r.n} video · purata views</small></div>`).join("")}</div>
+      <div class="note">Video terbaik: ${esc(planTitle(best.id))} (${fmt(best.v)} views).</div>`;
   }
   function wkStart(dt){ return new Date(dt.getTime() - ((dt.getUTCDay() + 6) % 7) * 86400000); }
   function stats(doneList, t){
@@ -631,13 +720,14 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
   }
   function viewCari(){
-    const q = state.q.trim().toLowerCase();
-    if(!q) return `<div class="empty">Taip nama app, bantuan atau kata kunci. Contoh: TNG, STR, pasport, emas, scam.</div>`;
+    const q = state.q.trim().toLowerCase(), ar = archived();
+    if(!q) return `<div class="empty">Taip nama app, bantuan atau kata kunci. Contoh: TNG, STR, pasport, emas, scam.</div>` +
+      (ar.length ? `<h2 class="grp">ARKIB · TOPIK YANG DAH KELUAR SENARAI (${ar.length})</h2><div class="note">Sesuai untuk video "update" atau "apa jadi sekarang". Semak berita terkini dulu, fakta mungkin dah berubah.</div><div class="list">${ar.map(itemHtml).join("")}</div>` : state.archive === null ? `<div class="note">Memuatkan arkib…</div>` : "");
     const re = new RegExp("(^|[^a-z0-9])" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
     const hit = o => re.test(JSON.stringify([o.title, o.name, o.what, o.why, o.angle, o.ideas, o.app && o.app.name, o.seo && o.seo.keywords]).toLowerCase());
-    const ti = items().filter(hit), ap = apps().filter(hit);
-    if(!ti.length && !ap.length) return `<div class="empty">Tiada topik atau app untuk "${esc(state.q.trim())}".</div>`;
-    return (ti.length ? `<h2 class="grp">TOPIK (${ti.length})</h2><div class="list">${ti.map(itemHtml).join("")}</div>` : "") + (ap.length ? `<h2 class="grp">APP (${ap.length})</h2><div class="list">${ap.map(appRow).join("")}</div>` : "");
+    const ti = items().filter(hit), ap = apps().filter(hit), ah = ar.filter(hit);
+    if(!ti.length && !ap.length && !ah.length) return `<div class="empty">Tiada topik atau app untuk "${esc(state.q.trim())}".</div>`;
+    return (ti.length ? `<h2 class="grp">TOPIK (${ti.length})</h2><div class="list">${ti.map(itemHtml).join("")}</div>` : "") + (ap.length ? `<h2 class="grp">APP (${ap.length})</h2><div class="list">${ap.map(appRow).join("")}</div>` : "") + (ah.length ? `<h2 class="grp">ARKIB (${ah.length})</h2><div class="list">${ah.map(itemHtml).join("")}</div>` : "");
   }
 
   function render(){
@@ -655,7 +745,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     state.view = "topik"; state.filter = "semua"; state.open[id] = true; if(tab) state.dtab[id] = tab; render();
     const el = $("it-" + id); if(el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start" });
   }
-  function setView(v){ state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
+  function loadArchive(){ if(state.archive !== null || state.archiveLoading) return; state.archiveLoading = true; getJson("history/archive.json").then(a => { state.archive = a; }).catch(() => { state.archive = { items: [] }; }).finally(() => { state.archiveLoading = false; if(state.view === "cari") render(); }); }
+  function setView(v){ if(v === "cari") loadArchive(); state.bmsg = null; if(v === "cari" && state.view !== "cari") prevView = state.view; state.view = v; render(); window.scrollTo(0, 0); if(v === "cari") setTimeout(() => $("q").focus(), 50); }
 
   document.addEventListener("click", ev => {
     const b = ev.target.closest("button"); if(!b) return;
@@ -666,10 +757,10 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.pick){ openTopic(d.pick, "idea"); }
     else if(d.goto){ openTopic(d.goto, "ringkas"); }
     else if(d.toggle){ state.open[d.toggle] = !state.open[d.toggle]; b.setAttribute("aria-expanded", String(state.open[d.toggle])); const el = $("d-" + d.toggle); if(el) el.hidden = !state.open[d.toggle]; }
-    else if(d.dtab){ state.dtab[d.for] = d.dtab; const it = items().find(x => x.id === d.for); const wrap = $("it-" + d.for); if(it && wrap){ wrap.outerHTML = itemHtml(it); } }
+    else if(d.dtab){ state.dtab[d.for] = d.dtab; const it = findItem(d.for); const wrap = $("it-" + d.for); if(it && wrap){ wrap.outerHTML = itemHtml(it); } }
     else if(d.copy != null){ copy(d.copy, b); }
-    else if(d.prompt){ const it = items().find(x => x.id === d.prompt); if(it) copy(buildPrompt(it), b); }
-    else if(d.done){ const id = d.done; if(state.done[id]) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()) }; saveDone(); render(); }
+    else if(d.prompt){ const it = findItem(d.prompt); if(it) copy(buildPrompt(it), b); }
+    else if(d.done){ const id = d.done; if(state.done[id]) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); }
     else if(d.tgt){ state.target = Math.max(1, Math.min(14, state.target + Number(d.tgt))); saveTarget(); render(); }
     else if(d.bk === "dl"){ const blob = new Blob([backupData()], {type:"application/json"}); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "radar-trending-backup-" + isoOf(todayMY()) + ".json"; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); state.bmsg = { t:"Fail backup dimuat turun. Simpan di Google Drive atau hantar ke WhatsApp sendiri." }; render(); }
     else if(d.bk === "copy"){ copy(backupData(), b); }
@@ -677,14 +768,15 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.unplan){ delete state.plan[d.unplan]; savePlan(); render(); }
     else if(d.savelink){ const id = d.savelink, inp = $("lk-" + id), v = inp ? inp.value.trim() : "";
       if(v && !safeUrl(v)){ b.textContent = "Link tak sah"; setTimeout(() => b.textContent = "Simpan", 1600); return; }
-      const info = doneInfo(id) || {}; state.done[id] = { t: info.t || planTitle(id), d: info.d || isoOf(todayMY()), u: v || undefined }; saveDone(); b.textContent = "Disimpan"; setTimeout(() => b.textContent = "Simpan", 1400); }
+      const info = doneInfo(id) || {}; state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(todayMY()), u: v || undefined }); saveDone(); b.textContent = "Disimpan"; setTimeout(() => b.textContent = "Simpan", 1400); }
   });
   document.addEventListener("change", ev => {
     const el = ev.target;
+    if(el.dataset && el.dataset.views){ const id = el.dataset.views, n = el.value === "" ? undefined : Math.max(0, Math.round(Number(el.value))); const info = doneInfo(id); if(info){ state.done[id] = Object.assign({}, info, { v: Number.isFinite(n) ? n : undefined }); saveDone(); render(); } return; }
     if(el.id === "bkFile" && el.files && el.files[0]){ const f = el.files[0]; if(f.size > 2e6){ state.bmsg = { t:"Fail terlalu besar.", err:true }; render(); return; } f.text().then(restore); return; } if(!el.dataset || !el.dataset.plan) return;
     const id = el.dataset.plan;
     if(el.value) state.plan[id] = { d: el.value, t: planTitle(id) }; else delete state.plan[id];
-    savePlan(); const it = items().find(x => x.id === id), wrap = $("it-" + id);
+    savePlan(); const it = findItem(id), wrap = $("it-" + id);
     if(it && wrap && state.view !== "plan") wrap.outerHTML = itemHtml(it); else render();
   });
   $("searchBtn").innerHTML = svg("search");
