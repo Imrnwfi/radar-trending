@@ -255,7 +255,7 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--navh)}
+.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr) 72px repeat(3,1fr);height:var(--navh)}
 .nb{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;color:var(--muted)}
 .nb svg{width:22px;height:22px}
 .nb[aria-current="page"]{color:var(--accent);font-weight:700}
@@ -440,6 +440,54 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .mini.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .pchk{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted)}
 .pchk input{margin-top:2px;width:18px;height:18px;accent-color:var(--accent)}
+.fabw{display:flex;justify-content:center;align-items:flex-start}
+.fab{position:relative;width:54px;height:54px;margin-top:-16px;border-radius:18px;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 40%,transparent),0 0 0 4px var(--panel)}
+.fab svg{width:26px;height:26px;stroke-width:2.4}
+.fab:active{transform:scale(.94)}
+.ndot{position:absolute;top:6px;right:calc(50% - 16px);width:8px;height:8px;border-radius:50%;background:var(--hot);box-shadow:0 0 0 2px var(--panel)}
+.fab .ndot{top:-2px;right:-2px}
+.nbadge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:6px;background:var(--hot);color:#fff;font-size:10px;font-weight:800;letter-spacing:.04em;line-height:16px;vertical-align:2px;text-transform:uppercase}
+.qacts{display:flex;gap:8px}.qacts .btn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px}.qacts svg{width:18px;height:18px}
+.jump{position:sticky;top:var(--toph,110px);z-index:12;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);margin:-6px -16px;padding:8px 16px}
+.jump::-webkit-scrollbar{display:none}
+.jump .tab{padding:5px 12px;font-size:13px}
+.jump .tab[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mock{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.mh{display:flex;align-items:center;gap:10px}
+.mav{flex:0 0 auto;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--hot));color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px}
+.mav.sm{width:30px;height:30px;font-size:12px}
+.mh div{display:flex;flex-direction:column;line-height:1.25}.mh b{font-size:14px}.mh span{font-size:12px;color:var(--muted)}
+.mtx{white-space:pre-wrap;line-height:1.45;word-break:break-word}
+.mtx.clamp{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+.mtx.c4{-webkit-line-clamp:4}.mtx.c5{-webkit-line-clamp:5}
+.mtx.clamp.open{display:block;-webkit-line-clamp:unset}
+.mmore{align-self:flex-start;border:0;background:transparent;padding:0;color:var(--muted);font-weight:700;font-size:13px;margin-top:-4px}
+.mlk{color:var(--accent)}
+.mlink{display:flex;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)}
+.mlink img{width:42%;aspect-ratio:16/9;object-fit:cover;flex:0 0 auto;background:var(--line)}
+.mlink div{padding:8px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.mlink small{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.mlink b{font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mact{display:flex;gap:22px;color:var(--muted);padding-top:2px}.mact svg{width:19px;height:19px}
+.mthread{gap:0}
+.mtp{position:relative;display:flex;flex-direction:column;gap:6px;padding:0 0 14px 46px}
+.mtp .mh{margin-left:-46px}
+.mtp:not(:last-child)::before{content:"";position:absolute;left:17px;top:40px;bottom:2px;width:2px;background:var(--line)}
+.mtp:last-child{padding-bottom:0}
+.mnum{position:absolute;right:0;top:4px;font-size:11px;color:var(--muted);font-weight:700}
+.mpoll{display:flex;flex-direction:column;gap:6px}.mpoll span{border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-weight:600}
+.mcm{flex-direction:row;align-items:flex-start;gap:8px;border:0;padding:0;background:transparent}
+.mbub{background:var(--paper);border-radius:14px;padding:8px 12px;display:flex;flex-direction:column;gap:2px}.mbub b{font-size:13px}
+.sch{display:flex;flex-direction:column;gap:8px}
+.schr{display:flex;flex-direction:column;gap:6px;border:1px solid var(--line);border-radius:12px;padding:10px}
+.schr.off{opacity:.55}
+.schk{display:flex;gap:10px;align-items:flex-start}.schk input{width:18px;height:18px;margin-top:2px;accent-color:var(--accent)}
+.schk span{display:flex;flex-direction:column}.schk b{font-size:14px}.schk small{font-size:12px;color:var(--muted)}
+.schi{display:flex;gap:6px;padding-left:28px}
+.schi input{flex:1;min-width:0;font:inherit;font-size:15px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.sci .pt2{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+.sctt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sct{font-size:11px;font-weight:800;letter-spacing:.04em;color:var(--accent);text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -556,6 +604,10 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
     x:'<path d="M4 4l16 16M20 4L4 20"/>',
     play:'<rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/>',
     fb:'<rect x="3" y="3" width="18" height="18" rx="4"/><path d="M15.5 8H14a2 2 0 0 0-2 2v11M9.5 13h5"/>',
+    heart:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+    repost:'<path d="M17 3l3 3-3 3"/><path d="M4 11V9a3 3 0 0 1 3-3h13M7 21l-3-3 3-3"/><path d="M20 13v2a3 3 0 0 1-3 3H4"/>',
+    send:'<path d="M21 3L10 14"/><path d="M21 3l-7 18-4-7-7-4z"/>',
+    plus:'<path d="M12 5v14M5 12h14"/>',
     flame:'<path d="M12 3c.5 3-1.5 4.5-3 6.5C7.7 11.3 7 12.6 7 14.5A5 5 0 0 0 17 15c0-2.3-1.2-3.8-2-4.9-.3 1.3-.9 2.2-1.7 2.6.5-3-.2-6.6-1.3-9.7z"/>',
     calendar:'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
     grid:'<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
@@ -589,7 +641,8 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
   /* Nav & header */
   const VIEWS = [["hari","Hari ini","home"],["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"],["app","App","grid"]];
   let prevView = "topik";
-  function renderNav(){ const nn = state.topikSeen ? 0 : newCount(); $("nav").innerHTML = VIEWS.map(v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span>${v[0] === "topik" && nn ? `<span class="badge" aria-label="${nn} topik baru">${nn}</span>` : ""}</button>`).join(""); }
+  function renderNav(){ const nn = state.topikSeen ? 0 : newCount(), btn = v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span>${v[0] === "topik" && nn ? `<span class="badge" aria-label="${nn} topik baru">${nn}</span>` : ""}${v[0] === "plan" && isNewF("alat") ? `<i class="ndot" aria-label="ada ciri baru"></i>` : ""}</button>`;
+    $("nav").innerHTML = VIEWS.slice(0, 2).map(btn).join("") + `<div class="fabw"><button class="fab" data-quick="1" aria-label="Tampal link video: analisis atau jana posting">${svg("plus")}${isNewF("plus") ? `<i class="ndot"></i>` : ""}</button></div>` + VIEWS.slice(2).map(btn).join(""); }
   function renderHeader(){
     $("searchBtn").setAttribute("aria-pressed", String(state.view === "cari"));
     const d = state.data;
@@ -601,7 +654,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
       row.innerHTML = [["semua","Semua"],["emas","Peluang emas"],["kewangan","Kewangan"],["tutorial","Tutorial"]].map(f => `<button class="tab" data-f="${f[0]}" aria-pressed="${state.filter === f[0]}">${f[1]}</button>`).join("");
     } else if(state.view === "plan"){
       row.hidden = false;
-      row.innerHTML = [["minggu","Minggu ni"],["prestasi","Prestasi"],["analisis","Alat video"],["laporan","Laporan"],["backup","Backup"]].map(f => `<button class="tab" data-ptab="${f[0]}" aria-pressed="${state.ptab === f[0]}">${f[1]}</button>`).join("");
+      row.innerHTML = [["minggu","Minggu ni"],["prestasi","Prestasi"],["analisis","Alat video"],["laporan","Laporan"],["backup","Backup"]].map(f => `<button class="tab" data-ptab="${f[0]}" aria-pressed="${state.ptab === f[0]}">${f[1]}${f[0] === "analisis" ? nbg("alat") : ""}</button>`).join("");
     } else if(state.view === "app"){
       row.hidden = false;
       row.innerHTML = SEGS.map(s => `<button class="tab" data-seg="${s[0]}" aria-pressed="${state.seg === s[0]}">${svg(s[2])}${esc(s[1])}</button>`).join("");
@@ -1083,8 +1136,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <div class="note">${planned} video dirancang untuk 7 hari ni.</div>
       ${plan.length ? "" : `<div class="note">Belum ada plan. Buka mana-mana topik dan pilih hari dalam "Rancang upload…", atau leret topik ke kanan dalam tab Topik.</div>`}
       ${late.length ? `<h2 class="grp">TERTUNGGAK (${late.length})</h2><div class="day">${late.map(([id]) => planRow(id)).join("")}</div>` : ""}
+      ${schedLate().length ? `<h2 class="grp">POSTING TERLEPAS (${schedLate().length})</h2><div class="day">${schedLate().map(schRow).join("")}</div>` : ""}
       <div class="days">${wk.map((dt, n) => { const iso = isoOf(dt), its = plan.filter(([id, p]) => p.d === iso);
-        return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length ? its.map(([id]) => planRow(id)).join("") : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>`;
+        const sr = schedRows(iso); return `<div class="day${n === 0 ? " today" : ""}"><div class="dh"><span>${dayLabel(dt)}</span><span>${n === 0 ? "Hari ini" : n === 1 ? "Esok" : ""}</span></div>${its.length || sr ? its.map(([id]) => planRow(id)).join("") + sr : `<div class="dempty">Kosong</div>`}</div>`; }).join("")}</div>`;
   }
   function viewHari(){
     const t = todayMY(), tIso = isoOf(t), h = Number(new Date().toLocaleString("en-US", { timeZone:"Asia/Kuala_Lumpur", hour:"numeric", hourCycle:"h23" }));
@@ -1100,6 +1154,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <h2 class="sec">Video hari ini</h2>
       <div class="card${pending ? " hl" : ""}">${today.length ? today.map(([id]) => planRow(id)).join("") + (pending ? `<div class="acts">${today.filter(([id]) => !state.done[id] && findItem(id)).slice(0, 1).map(([id]) => `<button class="btn" data-pick="${esc(id)}">Buka skrip & Shorts</button><button class="btn" data-promo="${esc(id)}">Bahan promosi</button>`).join("")}</div>` : `<div class="note">Semua video hari ni dah siap. Mantap!</div>`)
         : `<div class="note">Belum ada video dirancang hari ni. Pilih satu topik di bawah, kemudian tekan "Rancang upload…" dan pilih hari ini.</div>`}</div>
+      ${schedRows(tIso) ? `<div class="card"><div class="lbl">Posting hari ini</div>${schedRows(tIso)}</div>` : ""}
       ${late.length ? `<div class="card"><div class="lbl">Tertunggak (${late.length})</div>${late.map(([id]) => planRow(id)).join("")}</div>` : ""}
       ${targetHtml(st)}
       ${picks.length ? `<h2 class="sec">Pilihan hari ini</h2>
@@ -1489,10 +1544,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         ${kerr ? `<div class="msg err">Kunci API: ${esc(kerr)}. Analisis guna data asas sahaja.</div>` : ""}
       </div>
       ${v.full && v.views != null ? `<div class="stat anast"><div><b>${fmtK(v.views)}</b><span>views${r.age ? ` · ${fmtK(Math.round(v.views / Math.max(1, r.age)))}/hari` : ""}</span></div><div><b>${lr != null ? pct(lr) : "–"}</b><span>kadar like</span></div><div><b>${fmtK(v.cmts)}</b><span>komen</span></div>${v.chAvg ? `<div><b>${fmtK(v.chAvg)}</b><span>purata channel</span></div>` : ""}</div>` : ""}
+      ${jumpBar([["j-kurang", "Kurang"], ["j-bagus", "Bagus"], ["j-cadang", "Cadangan"]].concat(v.comments && v.comments.length ? [["j-komen", "Komen"]] : [], [["j-skor", "Skor"]]))}
       ${r.insight ? `<div class="best"><b>Diagnosis</b>${esc(r.insight)}</div>` : ""}
-      ${r.bad.length ? `<h2 class="sec">Apa yang kurang (${r.bad.length})</h2><ul class="anal">${r.bad.map(c => anaRow(c, false)).join("")}</ul>` : ""}
-      ${r.good.length ? `<h2 class="sec">Apa yang bagus (${r.good.length})</h2><ul class="anal">${r.good.map(c => anaRow(c, true)).join("")}</ul>` : ""}
-      <h2 class="sec">Cadangan penambahbaikan</h2>
+      ${r.bad.length ? `<h2 class="sec" id="j-kurang">Apa yang kurang (${r.bad.length})</h2><ul class="anal">${r.bad.map(c => anaRow(c, false)).join("")}</ul>` : ""}
+      ${r.good.length ? `<h2 class="sec" id="j-bagus">Apa yang bagus (${r.good.length})</h2><ul class="anal">${r.good.map(c => anaRow(c, true)).join("")}</ul>` : ""}
+      <h2 class="sec" id="j-cadang">Cadangan penambahbaikan</h2>
       <div class="card">
         <div><div class="seohead"><span class="lbl" style="margin:0">Tajuk alternatif</span><button class="mini" data-regen="ana|tt" aria-label="Jana tajuk lain">↻ Tajuk lain</button></div>
           <ul class="anat">${ttl.map(s => `<li><span>${esc(s)}</span><small>${[...s].length}</small><button class="mini" data-copy="${esc(s)}">Salin</button></li>`).join("")}</ul></div>
@@ -1503,19 +1559,19 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         ${i && Array.isArray(i.shorts) && i.shorts.length && !r.isShort ? `<div><div class="lbl">Potong jadi Shorts</div><ul class="ideas">${i.shorts.slice(0, 3).map(s => `<li>${esc(s.title)}</li>`).join("")}</ul></div>` : ""}
         ${r.qs.length || (i && i.ideas) ? `<div><div class="lbl">Idea video susulan</div><ul class="ideas">${r.qs.slice(0, 2).map(q => `<li>Jawab soalan penonton: "${esc(shortTxt(q.t, 80))}"</li>`).join("")}${i && Array.isArray(i.ideas) ? i.ideas.filter(x => anaToks(x).filter(w => anaToks(v.title).includes(w)).length < 3).slice(0, 3 - Math.min(2, r.qs.length)).map(x => `<li>${esc(x)}</li>`).join("") : ""}</ul></div>` : ""}
       </div>
-      ${v.comments && v.comments.length ? `<h2 class="sec">Apa penonton kata</h2><div class="card"><div class="anacm"><span><b>${r.praise.length}</b> puji</span><span><b>${r.qs.length}</b> bertanya</span><span><b>${r.probs.length}</b> ada masalah</span></div>
+      ${v.comments && v.comments.length ? `<h2 class="sec" id="j-komen">Apa penonton kata</h2><div class="card"><div class="anacm"><span><b>${r.praise.length}</b> puji</span><span><b>${r.qs.length}</b> bertanya</span><span><b>${r.probs.length}</b> ada masalah</span></div>
         <div class="note">Dari ${v.comments.length} komen paling relevan.</div>
         ${r.qs.length ? `<div><div class="lbl">Soalan paling disukai</div><ul class="ul2 anaq">${r.qs.slice(0, 3).map(q => `<li>${esc(shortTxt(q.t, 160))}${q.l ? ` <span class="note">· ${q.l} like</span>` : ""}</li>`).join("")}</ul></div>` : ""}</div>` : ""}
-      <h2 class="sec">Skor ikut bahagian</h2>
+      <h2 class="sec" id="j-skor">Skor ikut bahagian</h2>
       <div class="perf">${r.S.filter(o => o.score != null).map(o => `<div class="pr"><span>${esc(o.n)}</span><b>${o.score}</b><div class="bar"><i style="width:${o.score}%"></i></div></div>`).join("")}</div>
       ${missing.length ? `<div class="note">Untuk analisis lebih lengkap: ${esc(missing.join(" "))}</div>` : ""}
       <div class="acts">${i ? `<button class="btn" data-goto="${esc(i.id)}">Buka topik ${r.m.old ? "(arkib)" : ""}</button>${r.m.old ? "" : `<button class="btn" data-promo="${esc(i.id)}">Bahan promosi</button>`}` : ""}${i && !r.m.old && (!done || !done.u) ? `<button class="btn" data-anasave="${esc(i.id)}">Simpan ke Prestasi</button>` : ""}<button class="btn pri" data-anamode="post">Jana posting untuk video ni</button></div>
       <div class="note">Analisis guna peraturan umum YouTube dan data awam. Data dalaman seperti CTR dan tempoh tontonan hanya ada dalam YouTube Studio.</div>`;
   }
   function viewAna(){
-    const a = state.ana, key = anaKeyGet(), f = a.f || {}, rec = anaRecent();
+    const a = state.ana, key = anaKeyGet(), f = a.f || {}, rec = anaRecent(); setTimeout(() => { seenF("alat"); }, 0);
     const PM = a.mode === "post";
-    return `<div class="seg2" role="group" aria-label="Pilih alat"><button data-anamode="ana" aria-pressed="${!PM}">Analisis video</button><button data-anamode="post" aria-pressed="${PM}">Jana posting</button></div>
+    return `<div class="seg2" role="group" aria-label="Pilih alat"><button data-anamode="ana" aria-pressed="${!PM}">Analisis video</button><button data-anamode="post" aria-pressed="${PM}">Jana posting${nbg("post")}</button></div>
       <h2 class="sec">${PM ? "Posting media sosial" : "Analisis video YouTube"}</h2>
       <div class="card"><div class="note">${PM ? "Tampal link video. App tulis posting untuk Threads, X, YouTube Community dan Facebook." : "Tampal link video. App semak tajuk, thumbnail, deskripsi dan prestasi, kemudian beri cadangan."}</div>
         <div class="linkrow"><input id="anaUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" value="${esc(a.url || "")}" aria-label="Link video YouTube"><button class="btn" data-anapaste="1">Tampal</button></div>
@@ -1556,7 +1612,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       try{ const rec = anaRecent().filter(x => x.id !== id); rec.unshift({ id, u: raw, t: String(v.title).slice(0, 80), s: a.r.score, at: isoOf(todayMY()) }); localStorage.setItem("rt-ana", JSON.stringify(rec.slice(0, 8))); }catch(e){}
       buzz(10);
     }catch(e){ if(tok !== a.tok) return; a.st = "err"; a.msg = e.nf ? "Video tak jumpa. Pastikan video Public atau Unlisted, bukan Private." : "Tak dapat baca video ni sekarang. Cuba lagi sekejap."; }
-    if(state.view === "plan" && state.ptab === "analisis") render();
+    if(state.view === "plan" && state.ptab === "analisis"){ render(); if(a.jumpAfter && a.st === "done"){ const j = a.jumpAfter; a.jumpAfter = null; setTimeout(() => jumpTo(j), 150); } }
   }
 
   /* Jana posting media sosial dari link video */
@@ -1629,28 +1685,110 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     return parts.join("\n\n");
   }
   function genFbCmt(P){ return [`🎥 Video penuh: ${P.link}`, P.off ? `🔗 Link rasmi: ${P.off}` : ""].filter(Boolean).join("\n"); }
-  function postBlock(key, label, text, lim, share, tip){
+  /* Label "Baru" untuk ciri baru */
+  const NEWF = ["alat", "post", "jadual", "plus"];
+  let newSeen = []; try{ const x = JSON.parse(localStorage.getItem("rt-newf") || "[]"); if(Array.isArray(x)) newSeen = x; }catch(e){}
+  function isNewF(k){ return NEWF.includes(k) && !newSeen.includes(k); }
+  function seenF(k){ if(isNewF(k)){ newSeen.push(k); try{ localStorage.setItem("rt-newf", JSON.stringify(newSeen)); }catch(e){} } }
+  const nbg = k => isNewF(k) ? `<span class="nbadge">Baru</span>` : "";
+  /* Pratonton gaya platform */
+  function fmtPost(t){ return esc(t).replace(/(https?:\/\/[^\s<]+)/g, '<span class="mlk">$1</span>').replace(/(^|\s)(#[\p{L}\p{N}_]+)/gu, '$1<span class="mlk">$2</span>'); }
+  function mockHead(P, sub){ const ch = P.v.ch || "Imran Wafi", ini = ch.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase(); return `<div class="mh"><span class="mav">${esc(ini)}</span><div><b>${esc(ch)}</b><span>${esc(sub)}</span></div></div>`; }
+  function mockLink(P, site){ return `<div class="mlink"><img src="https://i.ytimg.com/vi/${esc(P.v.id)}/mqdefault.jpg" alt="" loading="lazy"><div><small>${site}</small><b>${esc(P.title)}</b></div></div>`; }
+  const MACT = `<div class="mact" aria-hidden="true">${["heart", "chat", "repost", "send"].map(k => svg(k)).join("")}</div>`;
+  function mockPost(kind, P, text, extra){
+    const handle = "@" + (P.v.ch || "imranwafi").toLowerCase().replace(/[^a-z0-9_]/g, "");
+    if(kind === "xt"){ const parts = text.split("\n\n———\n\n"); return `<div class="mock mthread">${parts.map((t, k) => `<div class="mtp">${mockHead(P, handle + " · baru")}<div class="mtx">${fmtPost(t.replace(/^\d+\/\d+\n/, ""))}</div>${k === parts.length - 1 ? mockLink(P, "youtube.com") : ""}<span class="mnum">${k + 1}/${parts.length}</span></div>`).join("")}</div>`; }
+    if(kind === "yp"){ const lines = text.split("\n"), opts = lines.filter(l => /^(🅰️|🅱️|🅲)/.test(l)), q = lines.filter(l => l && !opts.includes(l) && !/^\(Video:/.test(l)).join("\n");
+      return `<div class="mock">${mockHead(P, "Post komuniti · baru")}<div class="mtx">${fmtPost(q)}</div><div class="mpoll">${opts.map(o => `<span>${esc(o.replace(/^(🅰️|🅱️|🅲)\s*/, ""))}</span>`).join("")}</div><div class="note">Bilangan undi dipaparkan selepas penonton mengundi.</div></div>`; }
+    if(kind === "fcm") return `<div class="mock mcm"><span class="mav sm">${esc((P.v.ch || "IW").slice(0, 1))}</span><div class="mbub"><b>${esc(P.v.ch || "Imran Wafi")}</b><div class="mtx">${fmtPost(text)}</div></div></div>`;
+    const sub = kind === "fb" ? "Baru · 🌐" : kind === "yc" ? "Post komuniti · baru" : handle + " · baru";
+    const clamp = kind === "fb" ? 5 : kind === "yc" ? 4 : 0;
+    const card = kind === "yc" ? mockLink(P, "Video") : kind === "fb" ? (extra ? "" : mockLink(P, "YOUTUBE.COM")) : mockLink(P, "youtube.com");
+    return `<div class="mock m-${kind}">${mockHead(P, sub)}<div class="mtx${clamp ? " clamp c" + clamp : ""}">${fmtPost(text)}</div>${clamp ? `<button class="mmore" data-mexp="1">${kind === "fb" ? "Lihat lagi" : "Baca lagi"}</button>` : ""}${card}${MACT}</div>`;
+  }
+  function postBlock(key, label, text, lim, share, tip, P, extra){
     const len = lim === 280 ? xLen(text.split("\n\n———\n\n")[0].replace(/^\d+\/\d+\n/, "")) : [...text].length, over = lim && key !== "xt" && len > lim;
-    return `<div class="pblock"><div class="lbl" style="margin:0">${label}${lim && key !== "xt" ? ` <span class="plen${over ? " over" : ""}">${len}/${lim}</span>` : ""}</div><div class="desc">${esc(text)}</div><div class="pacts">${key !== "fcm" ? `<button class="btn" data-regen="post|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}<button class="btn" data-copy="${esc(text)}">Salin</button>${share ? `<button class="btn pri" data-share="${esc(share)}" data-st="${esc(text)}">Salin & buka</button>` : ""}</div>${tip ? `<div class="note">${tip}</div>` : ""}</div>`;
+    return `<div class="pblock"><div class="lbl" style="margin:0">${label}${lim && key !== "xt" ? ` <span class="plen${over ? " over" : ""}">${len}/${lim}</span>` : ""}</div>${mockPost(key, P, text, extra)}<div class="pacts">${key !== "fcm" ? `<button class="btn" data-regen="post|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}<button class="btn" data-copy="${esc(text)}">Salin</button>${share ? `<button class="btn pri" data-share="${esc(share)}" data-st="${esc(text)}">Salin & buka</button>` : ""}</div>${tip ? `<div class="note">${tip}</div>` : ""}</div>`;
+  }
+  /* Lompat ke bahagian */
+  function jumpBar(list){ return `<div class="jump" role="navigation" aria-label="Lompat ke bahagian">${list.map(([id, l]) => `<button class="tab" data-jump="${id}">${l}</button>`).join("")}</div>`; }
+  function jumpTo(id){ const el = $(id); if(!el) return; const top = (document.querySelector(".top") || {}).offsetHeight || 110; window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - top - 54, behavior: "smooth" }); }
+  /* Jadual posting */
+  const SCH_P = { yc:"YouTube Community", fb:"Facebook", th:"Threads", x:"X", yp:"Poll Community", xt:"Thread X" };
+  const SCH_DEF = [["yc", 0, null, "Sejam selepas video keluar, peminat setia paling aktif"], ["fb", 0, "20:00", "Malam, orang Malaysia paling ramai buka Facebook"], ["th", 0, "21:00", "Lepas Isyak, masa santai skrol"], ["x", 1, "12:30", "Rehat tengah hari esoknya, untuk ulang tayang"], ["yp", 2, "20:00", "Poll 2 hari kemudian, tarik penonton lambat"], ["xt", 3, "21:00", "Thread ringkasan, panjangkan hayat video"]];
+  function schedLoad(){ try{ const a = JSON.parse(localStorage.getItem("rt-sched") || "[]"); return Array.isArray(a) ? a : []; }catch(e){ return []; } }
+  function schedSave(a){ try{ localStorage.setItem("rt-sched", JSON.stringify(a)); }catch(e){} }
+  function myParts(dt){ const s = dt.toLocaleString("en-CA", { timeZone:"Asia/Kuala_Lumpur", hourCycle:"h23", year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" }); const m = s.match(/(\d{4})-(\d{2})-(\d{2}),?\s*(\d{2}):(\d{2})/); return m ? { d: `${m[1]}-${m[2]}-${m[3]}`, h: `${m[4]}:${m[5]}` } : { d: isoOf(todayMY()), h: "20:00" }; }
+  function myDate(d, h){ return new Date(`${d}T${h}:00+08:00`); }
+  function schedDefault(r){
+    const now = new Date(), base = r.v.pub && now - r.v.pub < 2 * 864e5 ? r.v.pub : now, b = myParts(base), d0 = parseD(b.d);
+    return SCH_DEF.map(([p, off, h, why]) => {
+      let d = isoOf(new Date(d0.getTime() + off * 864e5)), hh = h;
+      if(!hh){ const t = new Date(Math.max(base.getTime() + 36e5, now.getTime() + 9e5)); const q = myParts(new Date(Math.ceil(t / 9e5) * 9e5)); d = q.d; hh = q.h; const hr = +hh.slice(0, 2); if(hr >= 23 || hr < 8){ d = hr >= 23 ? isoOf(new Date(parseD(q.d).getTime() + 864e5)) : q.d; hh = "11:30"; } }
+      let when = myDate(d, hh); while(when < now){ when = new Date(when.getTime() + 864e5); }
+      const q = myParts(when); return { p, d: q.d, h: q.h, on: true, why };
+    });
+  }
+  function schedHtml(r, texts){
+    const a = state.ana; if(!a.sched || a.schedId !== r.v.id){ a.sched = schedDefault(r); a.schedId = r.v.id; }
+    const saved = schedLoad().filter(x => x.vid === r.v.id).length;
+    return `<h2 class="sec" id="j-jadual">Jadual posting ${nbg("jadual")}</h2>
+      <div class="card"><div class="note">Cadangan masa (waktu Malaysia) supaya promosi tersebar beberapa hari, bukan sekali gus. Ubah tarikh atau masa ikut kesesuaian.</div>
+        <div class="sch">${a.sched.map((s, k) => `<div class="schr${s.on ? "" : " off"}"><label class="schk"><input type="checkbox" data-sch="${k}|on"${s.on ? " checked" : ""}><span><b>${SCH_P[s.p]}</b><small>${esc(s.why)}</small></span></label><div class="schi"><input type="date" data-sch="${k}|d" value="${esc(s.d)}" aria-label="Tarikh ${SCH_P[s.p]}"><input type="time" data-sch="${k}|h" value="${esc(s.h)}" aria-label="Masa ${SCH_P[s.p]}"></div></div>`).join("")}</div>
+        <div class="pacts"><button class="btn pri" data-schsave="1">${saved ? "Kemas kini dalam Plan" : "Simpan ke Plan"}</button><button class="btn" data-schics="1">Tambah ke kalendar</button></div>
+        <div class="note">"Tambah ke kalendar" muat turun fail .ics. Buka fail tu dan telefon akan tambah peringatan beserta teks posting.</div></div>`;
+  }
+  function icsEsc(s){ return String(s).replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/([,;])/g, "\\$1"); }
+  function icsDate(dt){ return dt.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); }
+  function icsFold(l){ const c = Array.from(l), out = []; for(let k = 0; k < c.length; k += 60) out.push((k ? " " : "") + c.slice(k, k + 60).join("")); return out.join("\r\n"); }
+  function schedIcs(r, texts){
+    const ev = state.ana.sched.filter(s => s.on && s.d && s.h), stamp = icsDate(new Date());
+    const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Radar Trending//Jadual Posting//MS", "CALSCALE:GREGORIAN"];
+    ev.forEach(s => { const st = myDate(s.d, s.h), en = new Date(st.getTime() + 15 * 6e4);
+      L.push("BEGIN:VEVENT", `UID:${r.v.id}-${s.p}-${s.d}@radar-trending`, `DTSTAMP:${stamp}`, `DTSTART:${icsDate(st)}`, `DTEND:${icsDate(en)}`, icsFold("SUMMARY:" + icsEsc(`Post ${SCH_P[s.p]}: ${r.v.title}`)), icsFold("DESCRIPTION:" + icsEsc((texts[s.p] || "") + "\n\nJana ayat baru: https://imrnwfi.github.io/radar-trending/?v=posting")), "BEGIN:VALARM", "ACTION:DISPLAY", icsFold("DESCRIPTION:" + icsEsc(`Masa post ${SCH_P[s.p]}`)), "TRIGGER:PT0M", "END:VALARM", "END:VEVENT"); });
+    L.push("END:VCALENDAR");
+    const blob = new Blob([L.join("\r\n")], { type:"text/calendar" }), el = document.createElement("a"); el.href = URL.createObjectURL(blob); el.download = "jadual-posting-" + r.v.id + ".ics"; document.body.appendChild(el); el.click(); setTimeout(() => { URL.revokeObjectURL(el.href); el.remove(); }, 500);
+    toast(`${ev.length} peringatan dimuat turun. Buka fail untuk tambah ke kalendar.`);
+  }
+  function schedRows(d){ return schedLoad().filter(x => x.d === d).sort((a, b) => a.h.localeCompare(b.h)).map(schRow).join(""); }
+  function schRow(x){ const k = esc(x.k); return `<div class="pi sci${x.done ? " done" : ""}"><button class="pt2" data-schopen="${k}"><span class="sct">${esc(x.h)} · ${esc(SCH_P[x.p] || x.p)}</span><span class="sctt">${esc(x.t)}</span></button>${x.done ? "" : `<button class="mini" data-schdone="${k}">Dah post</button>`}<button class="mini" data-schdel="${k}" aria-label="Buang peringatan">Buang</button></div>`; }
+  function schedLate(){ const t = isoOf(todayMY()), lim = isoOf(new Date(todayMY().getTime() - 3 * 864e5)); return schedLoad().filter(x => !x.done && x.d < t && x.d >= lim); }
+  /* Butang + (akses pantas) */
+  function openQuick(){
+    seenF("plus"); renderNav(); const rec = anaRecent().slice(0, 3), m = state.ana.mode;
+    $("infoWrap").innerHTML = `<div class="infob" data-infobg="1" role="dialog" aria-modal="true" aria-label="Alat video"><div class="ocard"><h3>Tampal link video YouTube</h3><p>Analisis video atau jana posting media sosial.</p>
+      <div class="linkrow"><input id="qUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" aria-label="Link video YouTube"><button class="btn" data-qpaste="1">Tampal</button></div>
+      <div class="qacts"><button class="btn${m === "ana" ? " pri" : ""}" data-qgo="ana">${svg("search")}Analisis</button><button class="btn${m === "post" ? " pri" : ""}" data-qgo="post">${svg("chat")}Jana posting</button></div>
+      ${rec.length ? `<div><div class="lbl">Video lepas</div><div class="anarec">${rec.map(x => `<button class="anarc" data-qrec="${esc(x.u)}"><b class="${x.s >= 80 ? "hi" : x.s >= 60 ? "mid" : "lo"}">${x.s}</b><span>${esc(x.t)}</span></button>`).join("")}</div></div>` : ""}</div></div>`;
+    setTimeout(() => { const el = $("qUrl"); if(el) el.focus(); }, 60);
+  }
+  function quickGo(url, mode){
+    if(!ytId(url)){ toast("Link tak dikenali. Tampal link video YouTube."); const el = $("qUrl"); if(el) el.focus(); return; }
+    $("infoWrap").innerHTML = ""; state.ana.mode = mode; state.ana.f = {}; state.ana.url = url; state.ptab = "analisis"; setView("plan"); anaRun(url);
   }
   function postResult(r){
+    seenF("post");
     const P = postParts(r), v = r.v, n = k => pv("post", k), fbc = !!state.ana.fbc;
     const x = genXPost(P, n("x")), xt = genXThread(P, n("xt")), th = genThreadsPost(P, n("th")), yc = genYtCom(P, n("yc")), yp = genYtPoll(P, n("yp")), fb = genFb(P, n("fb"), fbc), fcm = genFbCmt(P);
-    const enc = encodeURIComponent, thin = !P.i && r.desc == null;
-    const all = [["THREADS", th], ["X", x], ["X (THREAD)", xt], ["YOUTUBE COMMUNITY", yc], ["POLL COMMUNITY", yp], ["FACEBOOK", fb + (fbc ? "\n\nKomen pertama:\n" + fcm : "")]].filter(a => a[1]).map(a => `=== ${a[0]} ===\n${a[1]}`).join("\n\n");
+    const enc = encodeURIComponent, thin = !P.i && r.desc == null, texts = { x, xt, th, yc, yp, fb: fb + (fbc ? "\n\nKomen pertama:\n" + fcm : "") };
+    state.ana.ptexts = texts;
+    const all = [["THREADS", th], ["X", x], ["X (THREAD)", xt], ["YOUTUBE COMMUNITY", yc], ["POLL COMMUNITY", yp], ["FACEBOOK", texts.fb]].filter(a => a[1]).map(a => `=== ${a[0]} ===\n${a[1]}`).join("\n\n");
     return `<div class="card prow"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy"><div><b>${esc(v.title)}</b><span class="note">${esc(v.ch)}${P.i ? ` · topik: ${esc(shortTxt(P.i.title, 40))}` : ""}</span></div></div>
+      ${jumpBar([["j-th", "Threads"], ["j-x", "X"], ["j-yc", "Community"], ["j-fb", "Facebook"], ["j-jadual", "Jadual"]])}
       ${thin ? `<div class="note">Posting dijana dari tajuk sahaja. Tambah kunci API (dalam "Analisis penuh") supaya app guna deskripsi dan bab video untuk ayat yang lebih tepat.</div>` : ""}
-      <div class="card pcard"><div class="phd">${svg("chat")}<b>Threads</b></div>${postBlock("th", "Post", th, 500, "https://www.threads.net/intent/post?text=" + enc(th), "Threads hanya papar 1 topik tag. Post antara 8–10 malam untuk reach terbaik.")}</div>
-      <div class="card pcard"><div class="phd">${svg("x")}<b>X (Twitter)</b></div>${postBlock("x", "Tweet", x, 280, "https://x.com/intent/post?text=" + enc(x))}${postBlock("xt", "Thread", xt, 280, "", "Post tweet pertama, kemudian reply pada diri sendiri untuk setiap bahagian.")}</div>
-      <div class="card pcard"><div class="phd">${svg("play")}<b>YouTube Community</b></div>${postBlock("yc", "Post", yc, 0, "")}${yp ? postBlock("yp", "Poll", yp, 0, "", "Dalam Studio pilih Create → Post → Poll, salin soalan dan pilihan jawapan.") : ""}</div>
-      <div class="card pcard"><div class="phd">${svg("fb")}<b>Facebook</b></div>
+      <div class="card pcard" id="j-th"><div class="phd">${svg("chat")}<b>Threads</b></div>${postBlock("th", "Post", th, 500, "https://www.threads.net/intent/post?text=" + enc(th), "Threads hanya papar 1 topik tag.", P)}</div>
+      <div class="card pcard" id="j-x"><div class="phd">${svg("x")}<b>X (Twitter)</b></div>${postBlock("x", "Tweet", x, 280, "https://x.com/intent/post?text=" + enc(x), "", P)}${postBlock("xt", "Thread", xt, 280, "", "Post tweet pertama, kemudian reply pada diri sendiri untuk setiap bahagian.", P)}</div>
+      <div class="card pcard" id="j-yc"><div class="phd">${svg("play")}<b>YouTube Community</b></div>${postBlock("yc", "Post", yc, 0, "", "Di telefon, hanya 4 baris pertama nampak sebelum \"Baca lagi\".", P)}${yp ? postBlock("yp", "Poll", yp, 0, "", "Dalam Studio pilih Create → Post → Poll, salin soalan dan pilihan jawapan.", P) : ""}</div>
+      <div class="card pcard" id="j-fb"><div class="phd">${svg("fb")}<b>Facebook</b></div>
         <label class="pchk"><input type="checkbox" id="fbcIn"${fbc ? " checked" : ""}> Letak link dalam komen pertama (biasanya reach lebih tinggi)</label>
-        ${postBlock("fb", "Post", fb, 0, "https://www.facebook.com/sharer/sharer.php?u=" + enc(P.link))}${fbc ? postBlock("fcm", "Komen pertama", fcm, 0, "") : ""}</div>
+        ${postBlock("fb", "Post", fb, 0, "https://www.facebook.com/sharer/sharer.php?u=" + enc(P.link), "Hanya lebih kurang 5 baris pertama nampak sebelum \"Lihat lagi\", jadi hook mesti di atas.", P, fbc)}${fbc ? postBlock("fcm", "Komen pertama", fcm, 0, "", "", P) : ""}</div>
+      ${schedHtml(r, texts)}
       <div class="acts"><button class="btn pri" data-copy="${esc(all)}" style="flex:1">Salin semua posting</button><button class="btn" data-anamode="ana">Analisis video ni</button></div>`;
   }
 
   function render(){
-    renderNav(); renderHeader();
+    renderNav(); renderHeader(); document.documentElement.style.setProperty("--toph", ((document.querySelector(".top") || {}).offsetHeight || 110) + "px");
     if(!state.data){ $("view").innerHTML = `<div class="sk h"><i></i></div>` + Array.from({length:5}, () => `<div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>`).join(""); return; }
     $("view").innerHTML = state.view === "hari" ? viewHari() : state.view === "tarikh" ? viewTarikh() : state.view === "plan" ? viewPlan() : state.view === "app" ? viewApp() : state.view === "cari" ? viewCari() : viewTopik();
     const hd = $("hideDone"); if(hd) hd.addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
@@ -1800,6 +1938,19 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.anago){ state.ana.f = {}; state.ptab = "analisis"; setView("plan"); anaRun(d.anago); }
     else if(d.anamode){ const a = state.ana; a.f = anaForm(); a.mode = d.anamode; const el = $("anaUrl"), u = el ? el.value.trim() : a.url; render(); window.scrollTo(0, 0); if(a.st === "done" && a.r && ytId(u) && ytId(u) !== a.r.v.id) anaRun(u); }
     else if(d.share){ copy(d.st || ""); window.open(d.share, "_blank", "noopener"); }
+    else if(d.quick){ openQuick(); }
+    else if(d.qpaste){ (navigator.clipboard && navigator.clipboard.readText ? navigator.clipboard.readText() : Promise.reject()).then(t => { const el = $("qUrl"); if(!el) return; const m = String(t || "").match(/https?:\/\/\S+/); el.value = m ? m[0] : String(t || "").trim(); }).catch(() => toast("Tekan lama dalam kotak, kemudian pilih Tampal")); }
+    else if(d.qgo){ quickGo(($("qUrl") || {}).value || "", d.qgo); }
+    else if(d.qrec){ quickGo(d.qrec, state.ana.mode); }
+    else if(d.jump){ jumpLock = Date.now() + 900; document.querySelectorAll(".jump [data-jump]").forEach(c => c.setAttribute("aria-pressed", String(c === b))); jumpTo(d.jump); }
+    else if(d.mexp){ const t = b.previousElementSibling; if(t){ const o = t.classList.toggle("open"); b.textContent = o ? "Tutup" : (t.closest(".m-fb") ? "Lihat lagi" : "Baca lagi"); } }
+    else if(d.schsave){ const r = state.ana.r; if(!r || !state.ana.sched) return; const vid = r.v.id, link = r.v.isShort ? "https://youtube.com/shorts/" + vid : "https://youtu.be/" + vid;
+      const keep = schedLoad().filter(x => x.vid !== vid), add = state.ana.sched.filter(s => s.on && s.d && s.h).map(s => ({ k: vid + "|" + s.p, vid, p: s.p, d: s.d, h: s.h, t: String(r.v.title).slice(0, 90), u: link, done: false }));
+      schedSave(keep.concat(add)); seenF("jadual"); toast(`${add.length} posting dijadualkan dalam Plan ✓`); buzz(); render(); }
+    else if(d.schics){ const r = state.ana.r; if(r && state.ana.sched){ seenF("jadual"); schedIcs(r, state.ana.ptexts || {}); } }
+    else if(d.schdone){ const a = schedLoad(), x = a.find(y => y.k === d.schdone); if(x){ x.done = !x.done; schedSave(a); toast("Ditanda dah post ✓"); buzz(); render(); } }
+    else if(d.schdel){ const a = schedLoad(), ix = a.findIndex(y => y.k === d.schdel); if(ix >= 0){ const prev = a.slice(); a.splice(ix, 1); schedSave(a); render(); toast("Peringatan dibuang", () => { schedSave(prev); render(); }); } }
+    else if(d.schopen){ const x = schedLoad().find(y => y.k === d.schopen); if(x){ state.ana.mode = "post"; state.ana.f = {}; state.ana.jumpAfter = "j-" + (x.p === "xt" ? "x" : x.p === "yp" ? "yc" : x.p); state.ptab = "analisis"; setView("plan"); anaRun(x.u); } }
     else if(d.anaopen){ state.ptab = "analisis"; setView("plan"); }
     else if(d.anapaste){ (navigator.clipboard && navigator.clipboard.readText ? navigator.clipboard.readText() : Promise.reject()).then(t => { const el = $("anaUrl"); if(!el) return; const m = String(t || "").match(/https?:\/\/\S+/); el.value = m ? m[0] : String(t || "").trim(); anaUrlChanged(el.value); if(ytId(el.value)) anaRun(el.value); }).catch(() => toast("Tekan lama dalam kotak link, kemudian pilih Tampal")); }
     else if(d.anakey === "save"){ const el = $("anaKeyIn"), k = el ? el.value.trim() : ""; if(!/^AIza[\w-]{30,}$/.test(k)){ toast("Kunci API YouTube biasanya bermula dengan AIza…"); return; } try{ localStorage.setItem("rt-ytkey", k); }catch(e){} Object.keys(anaCache).forEach(x => delete anaCache[x]); toast("Kunci disimpan ✓"); if(state.ana.r) anaRun(state.ana.url); else render(); }
@@ -1840,9 +1991,12 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   });
   function anaUrlChanged(val){ const id = ytId(val), r = state.ana.r; if(id && r && r.v.id !== id){ state.ana.f = {}; ["anaCtr","anaRet","anaDesc"].forEach(x => { const el = $(x); if(el) el.value = ""; }); } }
   document.addEventListener("input", ev => { if(ev.target && ev.target.id === "anaUrl") anaUrlChanged(ev.target.value); });
-  document.addEventListener("keydown", ev => { if(ev.key === "Enter" && ev.target && ev.target.id === "anaUrl"){ ev.preventDefault(); anaRun(ev.target.value); } });
+  document.addEventListener("keydown", ev => { if(ev.key === "Enter" && ev.target && ev.target.id === "anaUrl"){ ev.preventDefault(); anaRun(ev.target.value); } if(ev.key === "Enter" && ev.target && ev.target.id === "qUrl"){ ev.preventDefault(); quickGo(ev.target.value, state.ana.mode); } if(ev.key === "Escape" && $("infoWrap").innerHTML){ $("infoWrap").innerHTML = ""; } });
+  let spyT = null, jumpLock = 0;
+  window.addEventListener("scroll", () => { if(jumpLock > Date.now()) return; clearTimeout(spyT); spyT = setTimeout(() => { const chips = document.querySelectorAll(".jump [data-jump]"); if(!chips.length) return; const top = ((document.querySelector(".top") || {}).offsetHeight || 110) + 70; let cur = null; chips.forEach(c => { const el = $(c.dataset.jump); if(el && el.getBoundingClientRect().top <= top) cur = c; }); chips.forEach(c => c.setAttribute("aria-pressed", String(c === cur))); if(cur){ const bar = cur.parentElement; bar.scrollTo({ left: cur.offsetLeft - 16, behavior: "smooth" }); } }, 90); }, { passive: true });
   document.addEventListener("change", ev => {
     const el = ev.target;
+    if(el.dataset && el.dataset.sch){ const [k, f] = el.dataset.sch.split("|"), s = state.ana.sched && state.ana.sched[+k]; if(s){ s[f] = f === "on" ? el.checked : el.value; if(f === "on") render(); } return; }
     if(el.id === "fbcIn"){ state.ana.fbc = el.checked; render(); return; }
     if(el.id === "rmon"){ state.rmon = el.value; render(); return; }
     if(el.dataset && el.dataset.earn){ const id = el.dataset.earn, n = el.value === "" ? NaN : Math.max(0, Math.round(Number(el.value) * 100) / 100); const info = doneInfo(id); if(info){ state.done[id] = Object.assign({}, info, { e: Number.isFinite(n) ? n : undefined }); saveDone(); render(); } return; }
