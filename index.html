@@ -377,6 +377,50 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .odots i.on{width:22px;background:var(--accent)}
 .oacts{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
 .oacts .btn.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn:disabled{opacity:.6}
+.anago{flex:1;padding:10px 12px}
+.anaopt summary,.anakey summary{cursor:pointer;font-size:14px;font-weight:700}
+.anakey summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px}
+.anakey summary::marker{content:""}
+.anakey summary::after{content:"›";margin-left:auto;color:var(--muted);transform:rotate(90deg);font-size:18px;line-height:1}
+.anakey[open] summary::after{transform:rotate(-90deg)}
+.anagrid{display:flex;gap:8px;margin:8px 0 4px}
+.anagrid label{flex:1;display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted);font-weight:700}
+.anagrid input,.anaopt textarea{font:inherit;font-size:16px;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);width:100%}
+.anaopt textarea{min-height:90px;margin-top:6px}
+.anarec{display:flex;flex-direction:column;gap:6px}
+.anarc{display:flex;align-items:center;gap:10px;text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:10px;padding:7px 10px;color:var(--ink);font-size:13px;width:100%}
+.anarc span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+.anarc b{flex:0 0 auto;font-variant-numeric:tabular-nums;min-width:28px;text-align:center;font-size:14px}
+.anarc b.hi{color:var(--steady)} .anarc b.mid{color:#d48a00} .anarc b.lo{color:var(--hot)}
+.anasteps{margin:0;padding-left:20px;font-size:14px;display:flex;flex-direction:column;gap:4px}
+.anasteps a{color:var(--accent);font-weight:700}
+.feed{display:flex;flex-direction:column;gap:8px}
+.fth{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:16/9;background:var(--line)}
+.fth img{width:100%;height:100%;object-fit:cover;display:block}
+.fdur{position:absolute;right:6px;bottom:6px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;font-weight:700;padding:1px 5px;border-radius:4px}
+.fmeta{display:flex;flex-direction:column;gap:3px}
+.fmeta b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:15px;line-height:1.3}
+.fmeta span{font-size:12px;color:var(--muted)}
+.anasc{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:10px}
+.anasc .ring{width:58px;height:58px;margin:0;flex:0 0 auto}.anasc .ring svg{width:58px;height:58px}.anasc .ring b{font-size:19px}
+.anasc>div{display:flex;flex-direction:column;gap:2px}.anasc>div>b{font-size:15px}
+.anast{flex-wrap:wrap}.anast div{min-width:calc(50% - 4px)}.anast b{font-size:20px}
+.anal{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.anal li{display:flex;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.anal .ai{flex:0 0 22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:800;color:#fff;background:var(--steady)}
+.anal li.mid .ai{background:#d48a00}.anal li.no .ai{background:var(--hot)}
+.anal li div{display:flex;flex-direction:column;gap:3px;min-width:0}
+.anal b{font-size:14px;font-weight:700}
+.anal small{font-size:13px;color:var(--ink)}
+.anal small::before{content:"→ ";color:var(--accent);font-weight:700}
+.anal em{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.anat{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.anat li{display:flex;align-items:center;gap:8px;background:var(--paper);border-radius:10px;padding:8px 10px;font-size:14px;font-weight:600}
+.anat li span{flex:1}.anat small{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.anacm{display:flex;gap:8px}.anacm span{flex:1;background:var(--paper);border-radius:10px;padding:8px;text-align:center;font-size:12px;color:var(--muted)}.anacm b{display:block;font-size:20px;color:var(--ink)}
+.anaq li{font-size:14px;background:var(--paper);border-radius:10px;padding:8px 10px}
 </style>
 </head>
 <body>
@@ -411,7 +455,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 <script>
 (function(){
   const $ = id => document.getElementById(id);
-  const state = { view:"hari", ptab:"minggu", sheet:null, topikSeen:false, filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, archive:null, bmsg:null, rmon:null, open:{}, dtab:{}, viewing:"latest", dates:[] };
+  const state = { view:"hari", ptab:"minggu", sheet:null, topikSeen:false, filter:"semua", seg:"bank", q:"", data:null, latest:null, hideDone:false, done:{}, plan:{}, target:3, scores:null, archive:null, bmsg:null, rmon:null, open:{}, dtab:{}, viewing:"latest", dates:[], ana:{ url:"", st:"idle", f:{} } };
   const HARI = ["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"], HR = ["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"];
   /* Kalendar bermusim: perkara yang berulang setiap tahun. Tarikh ialah kebiasaan, bukan pengumuman rasmi. */
   const SEASON = [
@@ -534,7 +578,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
       row.innerHTML = [["semua","Semua"],["emas","Peluang emas"],["kewangan","Kewangan"],["tutorial","Tutorial"]].map(f => `<button class="tab" data-f="${f[0]}" aria-pressed="${state.filter === f[0]}">${f[1]}</button>`).join("");
     } else if(state.view === "plan"){
       row.hidden = false;
-      row.innerHTML = [["minggu","Minggu ni"],["prestasi","Prestasi"],["laporan","Laporan"],["backup","Backup"]].map(f => `<button class="tab" data-ptab="${f[0]}" aria-pressed="${state.ptab === f[0]}">${f[1]}</button>`).join("");
+      row.innerHTML = [["minggu","Minggu ni"],["prestasi","Prestasi"],["analisis","Analisis video"],["laporan","Laporan"],["backup","Backup"]].map(f => `<button class="tab" data-ptab="${f[0]}" aria-pressed="${state.ptab === f[0]}">${f[1]}</button>`).join("");
     } else if(state.view === "app"){
       row.hidden = false;
       row.innerHTML = SEGS.map(s => `<button class="tab" data-seg="${s[0]}" aria-pressed="${state.seg === s[0]}">${svg(s[2])}${esc(s[1])}</button>`).join("");
@@ -995,10 +1039,11 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <h2 class="sec">Video dah upload (${doneList.length})</h2>
       ${doneList.length ? `<ul class="ul2">${doneList.map(x => { const u = safeUrl(x.u), dt = parseD(x.d), ok = !!findItem(x.id);
         const age = dt ? days(dt, t) : 0;
-        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>` : ok ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
+        return `<li><b>${esc(planTitle(x.id))}</b><div class="m">${dt ? `<span>${dayLabel(dt, true)} ${dt.getUTCFullYear()}</span>` : ""}<span>${esc(x.g || groupOf(findItem(x.id)))}</span>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Tonton video</a>${ytId(u) ? `<button class="golink" data-anago="${esc(u)}">Analisis</button>` : ""}` : ok ? `<button class="golink" data-goto="${esc(x.id)}">Tambah link</button>` : ""}<button class="mini" data-done="${esc(x.id)}">Buang</button></div>
           <label class="views">Views selepas 7 hari <input type="number" inputmode="numeric" min="0" data-views="${esc(x.id)}" value="${typeof x.v === "number" ? x.v : ""}" placeholder="${age < 7 ? "tunggu " + (7 - age) + " hari" : "isi"}"></label>
           <label class="views">Pendapatan (RM) <input type="number" inputmode="decimal" min="0" step="0.01" data-earn="${esc(x.id)}" value="${typeof x.e === "number" ? x.e : ""}" placeholder="AdSense + penaja"></label></li>`; }).join("")}</ul>${perfHtml(doneList)}` : `<div class="note">Bila kau tandakan topik "dah upload" (atau leret topik ke kiri), ia akan disenaraikan di sini.</div>`}`;
     }
+    if(state.ptab === "analisis") return viewAna();
     if(state.ptab === "laporan") return reportHtml(doneList, t);
     if(state.ptab === "backup"){
       return `<h2 class="sec">Backup</h2>
@@ -1043,6 +1088,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       </button>`).join("")}</div>` : ""}
       ${up.length ? `<h2 class="sec">Tarikh penting 7 hari ni</h2><div class="card dl">${up.map(({u, w}) => { const n = days(t, w), ok = u.topic && findItem(u.topic);
         return `<button class="dli" ${ok ? `data-goto="${esc(u.topic)}"` : "disabled"}><span class="cd2">${cdText(n, u.approx)}</span><span>${esc(u.label)}</span></button>`; }).join("")}</div>` : ""}
+      <button class="newbar" data-anaopen="1" style="margin-top:6px"><span>Analisis video YouTube kau: apa bagus, apa kurang</span><span>Buka →</span></button>
       <div class="acts" style="justify-content:center;margin-top:8px"><button class="linkbtn" data-onb="show">Lihat panduan ringkas</button></div>`;
   }
   function perfHtml(list){
@@ -1163,6 +1209,329 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const ti = items().filter(hit), ap = apps().filter(hit), ah = ar.filter(hit);
     if(!ti.length && !ap.length && !ah.length) return `<div class="empty">Tiada topik atau app untuk "${esc(state.q.trim())}".</div>`;
     return (ti.length ? `<h2 class="grp">TOPIK (${ti.length})</h2><div class="list">${ti.map(itemHtml).join("")}</div>` : "") + (ap.length ? `<h2 class="grp">APP (${ap.length})</h2><div class="list">${ap.map(appRow).join("")}</div>` : "") + (ah.length ? `<h2 class="grp">ARKIB (${ah.length})</h2><div class="list">${ah.map(itemHtml).join("")}</div>` : "");
+  }
+
+  /* Analisis video YouTube */
+  const ANA_STOP = new Set("dan atau yang untuk dengan cara ini itu di ke dari pada dalam kat nak tak ada boleh kau anda korang saya aku kita video baru terkini the and for how to of in is on your you with tutorial guna macam mana apa bila siapa lagi juga jadi buat sahaja je panduan langkah mudah cepat penuh lengkap betul semua wajib tahu".split(" "));
+  const ANA_SW = /(^|[^\p{L}])(cara|panduan|tutorial|langkah|step|mudah|senang|cepat|semak|mohon|daftar|tebus|tuntut|jimat|elak|lengkap|betul|percuma|tips|tukar|aktif|bayar|reset|cek|check)(?![\p{L}])/iu;
+  function anaToks(s){ return String(s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").split(" ").filter(w => w.length > 2 && !ANA_STOP.has(w) && !/^\d+$/.test(w)); }
+  function ytId(s){
+    s = String(s || "").trim(); if(/^[\w-]{11}$/.test(s)) return s;
+    const m0 = s.match(/https?:\/\/\S+|(?:www\.|m\.)?youtu(?:\.be|be\.com)\/\S+/i); if(m0) s = m0[0];
+    let u; try{ u = new URL(/^https?:/i.test(s) ? s : "https://" + s); }catch(e){ return null; }
+    const h = u.hostname.replace(/^(www|m|music)\./, "");
+    if(h === "youtu.be"){ const m = u.pathname.match(/^\/([\w-]{11})/); return m ? m[1] : null; }
+    if(h === "youtube.com" || h === "youtube-nocookie.com"){
+      const v = u.searchParams.get("v"); if(v && /^[\w-]{11}$/.test(v)) return v;
+      const m = u.pathname.match(/^\/(?:shorts|live|embed|v)\/([\w-]{11})/); if(m) return m[1];
+    }
+    return null;
+  }
+  function isoDur(s){ const m = /^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$/.exec(String(s || "")); if(!m) return null; const t = (+m[1] || 0) * 86400 + (+m[2] || 0) * 3600 + (+m[3] || 0) * 60 + (+m[4] || 0); return t || null; }
+  function fmtDur(t){ if(t == null) return ""; const h = Math.floor(t / 3600), m = Math.floor(t % 3600 / 60), s = t % 60, p = n => String(n).padStart(2, "0"); return h ? `${h}:${p(m)}:${p(s)}` : `${m}:${p(s)}`; }
+  function fmtK(n){ if(n == null) return "–"; return n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, "") + "M" : n >= 1e4 ? Math.round(n / 1e3) + "K" : n >= 1e3 ? (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K" : String(n); }
+  const pct = x => (Math.round(x * 1000) / 10).toLocaleString("ms-MY") + "%";
+  const numv = x => x == null || x === "" ? null : Number(x);
+  function anaKeyGet(){ try{ return localStorage.getItem("rt-ytkey") || ""; }catch(e){ return ""; } }
+  function anaRecent(){ try{ const a = JSON.parse(localStorage.getItem("rt-ana") || "[]"); return Array.isArray(a) ? a : []; }catch(e){ return []; } }
+  async function jget(url){
+    const r = await fetch(url); let j = null; try{ j = await r.json(); }catch(e){}
+    if(!r.ok){ const er = j && j.error, e = new Error((er && er.message) || "HTTP " + r.status); e.reason = er && er.errors && er.errors[0] && er.errors[0].reason || (er && er.status) || ""; throw e; }
+    return j;
+  }
+  async function fetchVid(id, key){
+    const v = { id, title:"", ch:"", chId:"", desc:null, tags:null, dur:null, views:null, likes:null, cmts:null, pub:null, cap:null, hd:null, lang:"", chAvg:null, subs:null, comments:[], full:false, keyErr:null };
+    if(key){
+      try{
+        const B = "https://www.googleapis.com/youtube/v3/", k = "&key=" + encodeURIComponent(key);
+        const j = await jget(B + "videos?part=snippet,contentDetails,statistics&id=" + id + k), it = j && j.items && j.items[0];
+        if(!it){ const e = new Error("nf"); e.nf = true; throw e; }
+        const sn = it.snippet || {}, cd = it.contentDetails || {}, st = it.statistics || {};
+        Object.assign(v, { title: sn.title || "", ch: sn.channelTitle || "", chId: sn.channelId || "", desc: sn.description || "", tags: sn.tags || [], dur: isoDur(cd.duration), views: numv(st.viewCount), likes: numv(st.likeCount), cmts: numv(st.commentCount), pub: sn.publishedAt ? new Date(sn.publishedAt) : null, cap: cd.caption === "true", hd: cd.definition === "hd", lang: sn.defaultAudioLanguage || sn.defaultLanguage || "", live: sn.liveBroadcastContent && sn.liveBroadcastContent !== "none", full: true });
+        const [ch, cm] = await Promise.allSettled([ jget(B + "channels?part=statistics&id=" + v.chId + k), v.cmts ? jget(B + "commentThreads?part=snippet&order=relevance&maxResults=50&textFormat=plainText&videoId=" + id + k) : Promise.resolve(null) ]);
+        if(ch.status === "fulfilled"){ const s = ch.value && ch.value.items && ch.value.items[0] && ch.value.items[0].statistics; if(s && Number(s.videoCount)){ v.chAvg = Math.round(Number(s.viewCount) / Number(s.videoCount)); v.subs = s.hiddenSubscriberCount ? null : numv(s.subscriberCount); } }
+        if(cm.status === "fulfilled" && cm.value) v.comments = (cm.value.items || []).map(x => { const s = x.snippet.topLevelComment.snippet; return { t: String(s.textOriginal || s.textDisplay || ""), l: s.likeCount || 0, own: !!(s.authorChannelId && s.authorChannelId.value === v.chId) }; });
+        return v;
+      }catch(e){ if(e.nf) throw e; v.keyErr = e.reason || e.message || "ralat"; }
+    }
+    let nf = false;
+    for(const u of ["https://noembed.com/embed?url=", "https://www.youtube.com/oembed?format=json&url="]){
+      try{ const j = await jget(u + encodeURIComponent("https://www.youtube.com/watch?v=" + id)); if(j && j.title){ v.title = j.title; v.ch = j.author_name || ""; return v; } if(j && j.error) nf = true; }catch(e){}
+    }
+    const e = new Error("meta"); e.nf = nf; throw e;
+  }
+  function thumbStats(id){
+    return new Promise(res => {
+      const load = (q, next) => {
+        const im = new Image(); im.crossOrigin = "anonymous";
+        im.onload = () => {
+          if(im.naturalWidth <= 120 && next) return load(next, null);
+          const hd = q === "maxresdefault" && im.naturalWidth >= 1280;
+          try{
+            const W = 160, H = 90, c = document.createElement("canvas"); c.width = W; c.height = H; const x = c.getContext("2d");
+            if(q === "maxresdefault") x.drawImage(im, 0, 0, W, H); else x.drawImage(im, 0, im.naturalHeight * .125, im.naturalWidth, im.naturalHeight * .75, 0, 0, W, H);
+            const d = x.getImageData(0, 0, W, H).data, n = W * H; let sl = 0, sl2 = 0, srg = 0, srg2 = 0, syb = 0, syb2 = 0;
+            for(let p = 0; p < d.length; p += 4){ const r = d[p], g = d[p+1], b = d[p+2], L = .299*r + .587*g + .114*b, rg = r - g, yb = .5*(r + g) - b; sl += L; sl2 += L*L; srg += rg; srg2 += rg*rg; syb += yb; syb2 += yb*yb; }
+            const mL = sl / n, mrg = srg / n, myb = syb / n, sd = v => Math.sqrt(Math.max(0, v));
+            res({ hd, L: mL, C: sd(sl2 / n - mL*mL), col: Math.hypot(sd(srg2 / n - mrg*mrg), sd(syb2 / n - myb*myb)) + .3 * Math.hypot(mrg, myb) });
+          }catch(e){ res({ hd, blocked: true }); }
+        };
+        im.onerror = () => next ? load(next, null) : plain();
+        im.src = `https://i.ytimg.com/vi/${id}/${q}.jpg`;
+      };
+      const plain = () => { const im = new Image(); im.onload = () => res({ hd: im.naturalWidth >= 1280, blocked: true }); im.onerror = () => res(null); im.src = `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`; };
+      load("maxresdefault", "hqdefault"); setTimeout(() => res(null), 8000);
+    });
+  }
+  function anaMatch(text){
+    const vt = new Set(anaToks(text)), low = " " + String(text).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ") + " ";
+    const cur = items(), cand = cur.map(i => [i, false]).concat(archived().filter(a => !cur.some(i => i.id === a.id)).map(i => [i, true]));
+    let best = null;
+    cand.forEach(([i, old]) => {
+      const seo = i.seo || {}, phr = [].concat(seo.keywords || [], seo.tags || []).map(p => String(p).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim()).filter(Boolean);
+      const it = new Set(anaToks([i.title, i.app && i.app.name, phr.join(" ")].join(" ")));
+      let s = 0; vt.forEach(w => { if(it.has(w)) s += 1; });
+      phr.forEach(p => { if(p.split(" ").length >= 2 && low.includes(" " + p + " ")) s += 2; });
+      if(old) s -= .5;
+      if(s >= 2 && (!best || s > best.s)) best = { i, s, old };
+    });
+    return best;
+  }
+  function cleanTitle(t){ return String(t || "").replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}]/gu, "").replace(/\(.*?\)|\[.*?\]|[|｜].*$/g, "").replace(/#\S+/g, "").replace(/\b20\d\d\b/g, "").replace(/[!?:]+/g, " ").replace(/\s+/g, " ").trim(); }
+  function caseMap(ref){ const m = {}; String(ref).split(/[^\p{L}\p{N}]+/u).forEach(w => { if(w.length > 1 && (/^[\p{Lu}\p{N}]+$/u.test(w) && /\p{Lu}/u.test(w) || /\p{Ll}\p{Lu}/u.test(w) || /^\p{Ll}\p{Lu}/u.test(w))) m[w.toLowerCase()] = w; }); return m; }
+  function caseify(s, cm){ return String(s).split(" ").map(w => cm[w.toLowerCase()] || (w ? w[0].toUpperCase() + w.slice(1) : w)).join(" "); }
+  function shortTxt(s, n){ s = String(s || "").split(/(?<=[.!?])\s/)[0].trim(); if(s.length <= n) return s.replace(/[.]$/, ""); const c = s.slice(0, n), k = c.lastIndexOf(" "); return (k > n * .5 ? c.slice(0, k) : c).replace(/[,;:]$/, "") + "…"; }
+  function anaCheck(v, th, f, raw){
+    const t = v.title || "", tl = [...t].length, isShort = v.isShort, now = new Date();
+    const desc = v.desc != null ? v.desc : (f.desc ? f.desc : null);
+    const m = anaMatch([t, (v.tags || []).join(" "), (desc || "").slice(0, 400)].join(" ")), mi = m ? m.i : null;
+    const cm = Object.assign({}, caseMap("STR KWSP LHDN HASiL PTPTN JPJ ASNB MAE TNG eKYC SSPN PDRM MyKad MySTR MyDigital SARA BSN BNM ePF i-Akaun RM ID KTM MITI SKB"), caseMap((mi ? mi.title + " " : "") + (t.replace(/[^\p{Lu}]/gu, "").length > t.replace(/[^\p{L}]/gu, "").length * .5 ? "" : t)));
+    const curY = todayMY().getUTCFullYear();
+    let K = "", Y = "";
+    if(mi && mi.seo && Array.isArray(mi.seo.keywords) && mi.seo.keywords.length){ const vt = new Set(anaToks(t)); K = mi.seo.keywords.map(k => [k, anaToks(k).filter(w => vt.has(w)).length]).sort((a, b) => b[1] - a[1])[0][0]; }
+    else K = cleanTitle(t).split(" ").slice(0, 6).join(" ");
+    const ky = String(K).match(/\b20\d\d\b/) || t.match(/\b20\d\d\b/); Y = ky ? ky[0] : String(curY);
+    K = String(K).replace(/\b20\d\d\b/g, "").replace(/^\s*cara\s+/i, "").replace(/\s+/g, " ").trim() || cleanTitle(t);
+    const KC = caseify(K, cm), kt = anaToks(K), tlow = t.toLowerCase();
+    const S = [], sec = (k, n, w) => { const o = { k, n, w, c: [] }; S.push(o); return o; };
+    const ck = (o, p, w, g, b, fx) => o.c.push({ p: p === true ? 1 : p === false ? 0 : p, w, g, b, f: fx, s: o.n });
+    const fin = /(^|[^\p{L}])(saham|pelaburan|crypto|kripto|bitcoin|asnb|unit amanah|forex|emas|trading|labur|melabur|pelabur|dividen)(?![\p{L}])/iu.test(t + " " + (mi ? mi.title : ""));
+    /* Tajuk */
+    const A = sec("tajuk", "Tajuk", 25);
+    if(isShort) ck(A, tl <= 60 ? true : .5, 3, `Tajuk ${tl} aksara, muat dalam paparan Shorts`, `Tajuk ${tl} aksara, terpotong dalam Shorts`, "Pendekkan bawah 50 aksara, letak kata kunci di depan");
+    else ck(A, tl > 100 ? .2 : tl > 70 ? .5 : tl < 25 ? .5 : true, 3, `Panjang tajuk ${tl} aksara, sesuai (30–70)`, tl < 25 ? `Tajuk pendek (${tl} aksara), kurang kata kunci untuk carian` : `Tajuk ${tl} aksara, akan terpotong di telefon`, tl < 25 ? "Tambah kata kunci yang orang taip di carian, sasarkan 40–70 aksara" : "Pendekkan bawah 70 aksara dan letak bahagian penting di 40 aksara pertama");
+    if(mi && kt.length){ const hit = kt.filter(w => tlow.slice(0, 48).includes(w)).length / kt.length; ck(A, hit >= .5 ? true : hit > 0 ? .5 : 0, 3, "Kata kunci utama ada di awal tajuk", "Kata kunci utama tak di awal tajuk", `Mulakan tajuk dengan "${KC}"`); }
+    ck(A, /\d/.test(t) ? true : .5, 2, "Ada nombor (tahun, langkah atau RM) yang buat tajuk spesifik", "Tiada nombor dalam tajuk", `Tambah tahun atau bilangan langkah, contoh "(${Y})" atau "5 Langkah"`);
+    const yrs = (t.match(/\b20\d\d\b/g) || []).map(Number); if(yrs.length) ck(A, Math.max(...yrs) >= curY, 2, `Tahun dalam tajuk (${Math.max(...yrs)}) masih semasa`, `Tahun dalam tajuk (${Math.max(...yrs)}) dah lepas`, "Kemas kini tahun dalam tajuk kalau info masih sah, atau buat video versi baru");
+    ck(A, ANA_SW.test(t) ? true : .5, 2, "Jelas apa penonton dapat (cara, semak, mohon…)", "Tajuk tak jelas apa penonton dapat", "Guna kata tindakan: Cara…, Semak…, Mohon…, Elak…");
+    const wds = t.split(/\s+/).filter(w => /\p{L}{3,}/u.test(w)), caps = wds.filter(w => w === w.toUpperCase() && /\p{Lu}{3,}/u.test(w) && !cm[w.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "")]).length;
+    ck(A, caps / Math.max(1, wds.length) >= .5 ? 0 : true, 3, null, "Terlalu banyak HURUF BESAR, nampak macam spam", "Guna huruf besar untuk 1–2 perkataan penting sahaja");
+    const emo = (t.match(/\p{Extended_Pictographic}/gu) || []).length;
+    ck(A, emo > 2 || /[!?]{3,}/.test(t) ? .3 : true, 2, null, "Terlalu banyak emoji atau tanda seru", "Kekalkan maksimum 1 emoji, buang !!! supaya nampak lebih dipercayai");
+    if((t.match(/#\S+/g) || []).length > 2) ck(A, .5, 1, null, "Banyak hashtag dalam tajuk, makan ruang", "Pindahkan hashtag ke deskripsi");
+    /* Thumbnail */
+    if(!isShort && th && !th.blocked){
+      const B = sec("thumb", "Thumbnail", 15);
+      ck(B, th.hd ? true : .5, 1, "Thumbnail resolusi HD", "Thumbnail bukan HD", "Upload thumbnail sendiri saiz 1280×720");
+      ck(B, th.L < 70 ? 0 : th.L > 205 ? .5 : true, 2, "Kecerahan thumbnail okay", th.L < 70 ? "Thumbnail gelap, susah nampak di skrin kecil" : "Thumbnail terlalu cerah, nampak pudar", th.L < 70 ? "Naikkan exposure dan guna latar lebih terang" : "Kurangkan putih, tambah satu warna kuat (kuning/merah) di elemen utama");
+      ck(B, th.C >= 52 ? true : th.C >= 38 ? .5 : 0, 3, "Kontras tinggi, menonjol dalam feed", "Kontras thumbnail rendah, elemen bercampur", "Teks putih/kuning bergaris hitam atas latar gelap, dan pisahkan muka atau logo dari latar");
+      ck(B, th.col >= 35 ? true : th.col >= 22 ? .6 : 0, 2, "Warna hidup, mudah tarik perhatian", "Warna thumbnail pudar", "Tambah saturasi atau satu warna terang sebagai fokus");
+    } else if(!isShort && th && th.blocked){ const B = sec("thumb", "Thumbnail", 4); ck(B, th.hd ? true : .5, 1, "Thumbnail resolusi HD", "Thumbnail bukan HD", "Upload thumbnail sendiri saiz 1280×720"); }
+    /* Deskripsi */
+    if(desc != null){
+      const C = sec("desc", "Deskripsi", 20), dl = desc.trim().length, words = desc.split(/\s+/).filter(Boolean).length, head = desc.slice(0, 160).toLowerCase();
+      if(isShort) ck(C, dl >= 40 ? true : .5, 1, "Deskripsi Shorts ada konteks", "Deskripsi Shorts kosong", "Tulis 1–2 ayat + link video penuh");
+      else ck(C, dl >= 500 ? true : dl >= 150 ? .5 : 0, 3, `Deskripsi berisi (${words} perkataan)`, dl < 150 ? "Deskripsi terlalu pendek atau kosong" : `Deskripsi agak pendek (${words} perkataan)`, "Tulis 150–300 perkataan: ringkasan, langkah, link rasmi dan FAQ");
+      const kh = kt.length ? kt.filter(w => head.includes(w)).length / kt.length : 1;
+      ck(C, kh >= .5 ? true : 0, 2, "Kata kunci ada dalam 2 baris pertama deskripsi", "Kata kunci tiada dalam 2 baris pertama deskripsi", `Mulakan deskripsi dengan ayat yang ada "${K}"`);
+      if(!isShort){ const ts = desc.match(/(^|\n)\s*[\(\[]?\d{1,2}:\d{2}(?::\d{2})?[\)\]]?\s*[-–—:]?\s*\S/g) || [], z = /(^|\n)\s*[\(\[]?0?0:00/.test(desc);
+        ck(C, ts.length >= 3 && z ? true : ts.length >= 3 ? .5 : 0, 2, `Ada ${ts.length} bab (chapters)`, ts.length >= 3 ? "Timestamp ada tapi bab tak aktif sebab tak mula 0:00" : "Tiada bab atau timestamp", "Tambah timestamp bermula 0:00, sekurang-kurangnya 3 bab, setiap satu 10 saat ke atas"); }
+      const links = desc.match(/https?:\/\/[^\s)]+/g) || [], offH = mi && mi.app && safeUrl(mi.app.url) ? new URL(mi.app.url).hostname.replace(/^www\./, "") : "";
+      const official = links.some(l => /\.gov\.my|\.gov\b|\.edu\.my|bnm\.gov|kwsp|hasil|asnb|maybank2u|cimb|bankislam|bsn\.com|ptptn|jpj|imi\.gov/i.test(l) || (offH && l.includes(offH)));
+      ck(C, official ? true : links.length ? .6 : 0, 2, official ? "Ada link rasmi dalam deskripsi" : "Ada link dalam deskripsi", links.length ? "Tiada link rasmi (hanya link lain)" : "Tiada link dalam deskripsi", mi && mi.app && mi.app.url ? `Letak link rasmi: ${mi.app.url}` : "Letak link rasmi supaya penonton tak tersalah masuk laman palsu");
+      const hs = (desc.match(/(^|\s)#[\p{L}\p{N}_]+/gu) || []).length;
+      ck(C, hs > 15 ? 0 : hs >= 1 && hs <= 5 ? true : .6, 1, `${hs} hashtag, cukup (3 pertama keluar atas tajuk)`, hs > 15 ? "Lebih 15 hashtag, YouTube abaikan semua hashtag" : hs ? `${hs} hashtag, hanya 3 pertama dipaparkan` : "Tiada hashtag", "Guna 3–5 hashtag yang tepat dengan topik");
+      ck(C, /subscribe|langgan|like|komen|comment|share|kongsi/i.test(desc) ? true : .5, 1, "Ada ajakan subscribe atau komen", "Tiada ajakan subscribe atau komen", "Tambah satu baris ajakan like, komen dan subscribe");
+      if(fin) ck(C, /nasihat kewangan|disclaimer|penafian|bukan nasihat|not financial advice/i.test(desc) ? true : .4, 2, "Ada penafian kewangan", "Tiada penafian kewangan untuk topik pelaburan", 'Tambah: "Info umum sahaja, bukan nasihat kewangan."');
+      if(/shope\.ee|shopee\.com|lazada|invol\.co|s\.lazada|affiliate/i.test(desc)) ck(C, /affiliate|afiliasi|komisen|link affiliate/i.test(desc) ? true : .5, 1, "Link affiliate dinyatakan", "Link affiliate tak dinyatakan", 'Tulis "Link affiliate, aku dapat komisen kecil tanpa kos tambahan untuk kau."');
+    }
+    /* Tag */
+    if(v.full){
+      const D = sec("tag", "Tag", 5), tg = v.tags || [], tlen = tg.join(",").length, tj = tg.join(" ").toLowerCase();
+      ck(D, !tg.length ? .3 : tlen > 480 ? .6 : tg.length >= 4 ? true : .6, 1, `${tg.length} tag digunakan`, tg.length ? (tlen > 480 ? "Tag hampir penuh had 500 aksara" : `Tag sikit (${tg.length})`) : "Tiada tag", "Guna 5–12 tag: kata kunci utama, ejaan lain dan nama app");
+      if(tg.length && kt.length) ck(D, kt.some(w => tj.includes(w)) ? true : 0, 1, "Tag ada kata kunci utama", "Tag tak ada kata kunci utama", `Tambah tag "${K}"`);
+    }
+    /* Teknikal */
+    if(v.full){
+      const E = sec("tek", "Teknikal", 10), d = v.dur;
+      if(d != null && !v.live){
+        if(isShort) ck(E, d <= 60 ? true : d <= 90 ? .7 : .5, 2, `Shorts ${d} saat, padat`, `Shorts ${d} saat, agak panjang`, "Shorts 20–45 saat biasanya ditonton sampai habis dan berulang");
+        else ck(E, d < 180 ? .5 : d < 480 ? .8 : d <= 1500 ? true : .7, 2, `Durasi ${fmtDur(d)}, boleh letak iklan tengah (mid-roll)`, d < 180 ? `Video ${fmtDur(d)} agak pendek untuk video panjang` : d < 480 ? `Durasi ${fmtDur(d)}, bawah 8 minit tiada iklan tengah` : `Video panjang (${fmtDur(d)})`, d < 480 ? "Kalau isi cukup, 8–12 minit buka peluang mid-roll ads (jangan panjangkan dengan isi kosong)" : "Pastikan ada bab supaya penonton terus ke bahagian yang dia perlu");
+      }
+      ck(E, v.hd ? true : .4, 1, "Video HD", "Video bukan HD", "Rakam dan export sekurang-kurangnya 1080p");
+      ck(E, v.cap ? true : .6, 1, "Ada sari kata yang dimuat naik", "Tiada sari kata manual", "Semak auto-caption BM dalam Studio dan betulkan, bantu carian dan penonton tanpa bunyi");
+      ck(E, v.lang ? true : .7, 1, null, "Bahasa video belum ditetapkan", "Set bahasa video kepada Melayu dalam Studio");
+      if(v.pub){ const hr = Number(v.pub.toLocaleString("en-US", { timeZone:"Asia/Kuala_Lumpur", hour:"numeric", hourCycle:"h23" })); if(hr >= 1 && hr < 7) ck(E, .6, 1, null, `Diterbitkan pukul ${hr} pagi, waktu ramai tidur`, "Jadualkan upload antara 12 tengah hari hingga 9 malam"); }
+    }
+    /* Prestasi */
+    const age = v.pub ? Math.max(0, (now - v.pub) / 864e5) : null, ctr = numv(f.ctr), ret = numv(f.ret);
+    const cmt = v.comments || [], qs = cmt.filter(c => !c.own && (/\?/.test(c.t) || /macam ?mana|camne|cmne|cmna|bagaimana|boleh ke|bole ke|kenapa|apa jadi|nak tanya|tanya sikit/i.test(c.t)));
+    const probs = cmt.filter(c => !c.own && /tak boleh|tak dapat|x boleh|xleh|xdpt|tak jadi|error|gagal|ralat|stuck|tak masuk|tak lepas|failed|invalid|masalah/i.test(c.t));
+    const praise = cmt.filter(c => !c.own && /terima ?kasih|tq|thank|membantu|berguna|best|mantap|jelas|senang faham|syukur|terbaik|power/i.test(c.t));
+    if((v.full && v.views != null) || ctr != null || ret != null){
+      const F = sec("pres", "Prestasi", 25);
+      if(v.full && v.views != null){
+        if(v.likes != null && v.views >= 50){ const r = v.likes / v.views, [g1, g2] = isShort ? [.03, .015] : [.04, .02]; ck(F, r >= g1 ? true : r >= g2 ? .6 : .2, 2, `Kadar like ${pct(r)}, bagus`, `Kadar like ${pct(r)}, rendah (sasaran ${pct(g1)})`, "Minta like selepas tunjuk langkah utama, masa penonton baru dapat manfaat"); }
+        if(v.cmts == null) ck(F, 0, 1, null, "Komen ditutup", "Buka komen, ia isyarat penglibatan dan sumber idea video");
+        else if(v.views >= 100){ const r = v.cmts / v.views * 1000; ck(F, r >= 5 ? true : r >= 2 ? .6 : .3, 2, `${r.toFixed(1)} komen setiap 1,000 views, aktif`, `Komen sikit (${r.toFixed(1)} setiap 1,000 views)`, "Akhiri video dengan soalan spesifik dan pin komen yang ajak orang jawab"); }
+        if(v.chAvg && age != null && age >= 2){ const r = v.views / v.chAvg; ck(F, r >= 1.2 ? true : r >= .6 ? .6 : .25, 3, `Views ${r.toFixed(1)}× purata channel`, r >= .6 ? "Views hampir sama purata channel" : `Views ${Math.round(r * 100)}% dari purata channel`, "Cuba 'Test & compare' thumbnail dalam Studio, dan kongsi ke komuniti/Shorts"); }
+        if(probs.length >= 3 && probs.length / Math.max(1, cmt.length) >= .25) ck(F, .5, 2, null, `${probs.length} komen kata tak jadi atau ada masalah`, "Pin komen dengan penyelesaian, atau buat video susulan untuk masalah tu");
+      }
+      if(ctr != null){ ck(F, ctr >= 6 ? true : ctr >= 3.5 ? .6 : .2, 5, `CTR ${ctr}%, thumbnail & tajuk menarik`, `CTR ${ctr}%, ${ctr >= 3.5 ? "sederhana" : "rendah"}`, "Uji 2–3 thumbnail dengan 'Test & compare' dalam Studio; tajuk lebih spesifik"); }
+      if(ret != null){ const [g1, g2] = isShort ? [80, 60] : [45, 30]; ck(F, ret >= g1 ? true : ret >= g2 ? .6 : .2, 6, `Purata ${ret}% ditonton, penonton kekal`, `Purata ${ret}% ditonton, ramai keluar awal`, isShort ? "Buka dengan hasil akhir dalam 1–2 saat pertama dan buang jeda" : "Hook 30 saat pertama: terus tunjuk hasil atau jawapan, buang intro panjang"); }
+    }
+    /* Topik */
+    const G = sec("topik", "Topik", 10);
+    if(m && !m.old) ck(G, true, 2, `Topik sedang trending di Radar: ${mi.title} (skor ${mi.score})`, "", "");
+    else if(m) ck(G, .6, 2, null, "Topik ni dah keluar senarai trending", "Buat video 'update apa jadi sekarang' atau sambung dengan topik semasa");
+    else ck(G, .5, 1, null, "Topik tak padan dengan trend semasa di Radar", "Tengok tab Topik untuk pilih video seterusnya yang sedang naik");
+    if(m && !m.old && mi.competition && mi.competition.level === "sesak") ck(G, .6, 1, null, "Saingan YouTube BM untuk topik ni dah sesak", mi.competition.note || "Pilih sudut yang lain dari video sedia ada");
+    /* Skor */
+    S.forEach(o => { const tw = o.c.reduce((a, c) => a + c.w, 0); o.score = tw ? Math.round(o.c.reduce((a, c) => a + c.p * c.w, 0) / tw * 100) : null; });
+    const SS = S.filter(o => o.score != null), tw = SS.reduce((a, o) => a + o.w, 0), score0 = tw ? Math.round(SS.reduce((a, o) => a + o.score * o.w, 0) / tw) : 0, weak = (ret != null && ret < (isShort ? 60 : 30)) || (ctr != null && ctr < 3.5), score = weak ? Math.min(score0, 74) : score0;
+    const all = [].concat(...S.map(o => o.c.map(c => Object.assign({ sw: o.w }, c))));
+    const good = all.filter(c => c.p >= .99 && c.g), bad = all.filter(c => c.p < .99 && c.b).sort((a, b) => (1 - b.p) * b.w * b.sw - (1 - a.p) * a.w * a.sw);
+    const insight = ctr != null && ret != null ? (ctr >= 5 && ret < (isShort ? 60 : 30) ? "CTR tinggi tapi ramai keluar awal: tajuk/thumbnail janji sesuatu yang isi lambat beri. Bagi jawapan lebih awal dalam video." : ctr < 3.5 && ret >= (isShort ? 75 : 40) ? "Isi video bagus (penonton kekal) tapi kurang orang klik. Fokus tukar thumbnail dan tajuk dulu." : "") : "";
+    return { v, th, m, K, KC, Y, cm, isShort, S, score, good, bad, insight, age, raw, desc, qs: qs.sort((a, b) => b.l - a.l), probs, praise, fin, at: Date.now() };
+  }
+  function anaTitles(r, n){
+    const k = r.KC, Y = r.Y;
+    const T = (r.isShort ? [`${k} Dalam 30 Saat`, `Ramai Silap ${k}!`, `${k}: Cara Paling Cepat`, `Tahu Tak? ${k} ${Y}`, `${k} Guna Telefon Je`, `Jangan Buat Ni Masa ${k}`]
+      : [`Cara ${k} ${Y} (Langkah Demi Langkah)`, `${k} ${Y}: Panduan Penuh Guna Telefon`, `Jangan Silap! Cara Betul ${k} ${Y}`, `${k} ${Y} | Mudah, Siap 5 Minit`, `${k}: 5 Perkara Wajib Tahu (${Y})`, `Baru Tahu? ${k} Rupanya Senang`, `${k} ${Y} Untuk Pemula (Lengkap)`, `${k} ${Y}: Elak 3 Kesilapan Ni`])
+      .map(s => s.replace(/\s+/g, " ").trim()).filter(s => [...s].length <= (r.isShort ? 60 : 70) && s.toLowerCase() !== (r.v.title || "").toLowerCase());
+    const L = T.length ? T : [`${k} ${Y}`], o = (n * 3) % L.length;
+    return [0, 1, 2].map(x => L[(o + x) % L.length]).filter((s, x, a) => a.indexOf(s) === x);
+  }
+  function anaDescText(r){
+    const i = r.m ? r.m.i : null, k = r.KC, Y = r.Y, L = [];
+    L.push(`${k} ${Y}: panduan penuh dalam video ni.`);
+    if(i && i.why) L.push(shortTxt(i.why, 220) + ".");
+    L.push("");
+    if(!r.isShort){
+      const pts = i && i.script && Array.isArray(i.script.points) ? i.script.points.slice(0, 4).map(p => shortTxt(p, 46)) : [];
+      const steps = pts.length >= 2 ? pts : ["Langkah 1", "Langkah 2", "Langkah 3", "Tips & kesilapan biasa"];
+      const lab = ["Pengenalan"].concat(steps, ["Penutup"]), d = r.v.dur && r.v.dur > 90 ? r.v.dur : null;
+      L.push("⏱️ Bab video" + (d ? " (anggaran, ubah ikut video)" : ""));
+      lab.forEach((s, x) => { const sec = x === 0 ? 0 : d ? Math.round(d * x / lab.length / 5) * 5 : null; L.push(`${sec == null ? "[masa]" : fmtDur(sec)} ${s}`); });
+      L.push("");
+    }
+    const url = i && i.app && safeUrl(i.app.url) ? i.app.url : i && Array.isArray(i.sources) && i.sources[0] && safeUrl(i.sources[0].url) ? i.sources[0].url : "";
+    L.push(`🔗 Link rasmi: ${url || "[letak link rasmi]"}`);
+    if(i && Array.isArray(i.faq) && i.faq.length){ L.push("", "❓ Soalan lazim"); i.faq.slice(0, 2).forEach(q => L.push(`${q.q}\n${q.a}`)); }
+    L.push("", "👍 Kalau video ni membantu, like dan subscribe untuk tutorial app & kewangan setiap minggu. Ada soalan? Tulis di komen.");
+    if(r.fin || (i && /Duit, harga & pelaburan/.test(groupOf(i)))) L.push("", "⚠️ Info umum sahaja, bukan nasihat kewangan. Semak laman rasmi sebelum buat keputusan.");
+    const hs = i && i.seo && Array.isArray(i.seo.hashtags) && i.seo.hashtags.length ? i.seo.hashtags.slice(0, 3) : ["#" + anaToks(r.K).join("").slice(0, 24), "#tutorial", "#imranwafi"];
+    L.push("", hs.join(" "));
+    return L.join("\n");
+  }
+  function anaTags(r){
+    const i = r.m ? r.m.i : null, out = [], add = s => { s = String(s || "").toLowerCase().trim(); if(s && !out.includes(s) && out.join(",").length + s.length < 450) out.push(s); };
+    add(r.K + " " + r.Y); add(r.K);
+    if(i && i.seo){ (i.seo.keywords || []).forEach(add); (i.seo.tags || []).forEach(add); }
+    if(i && i.app && i.app.name) add(String(i.app.name).replace(/\(.*?\)/g, ""));
+    const tk = anaToks(r.v.title); for(let x = 0; x + 1 < tk.length; x++) add(tk[x] + " " + tk[x + 1]);
+    add("tutorial " + (anaToks(r.K)[0] || "")); add("imran wafi");
+    return out.slice(0, 14).join(", ");
+  }
+  function anaPin(r, n){
+    const i = r.m ? r.m.i : null, q = r.qs[0], fq = i && Array.isArray(i.faq) && i.faq.length ? i.faq[n % i.faq.length] : null;
+    const open = [`📌 Ringkasan langkah ${r.KC} ada dalam deskripsi.`, `📌 Terima kasih tengok! Semua link rasmi ada dalam deskripsi.`, `📌 Simpan video ni dulu, nanti senang rujuk balik bila nak ${r.K.toLowerCase().replace(/\b(str|kwsp|lhdn|ptptn|jpj|asnb|mae|tng|ekyc|sspn|pdrm)\b/g, w => w.toUpperCase())}.`][n % 3];
+    const mid = q ? `Ramai tanya: "${shortTxt(q.t, 90)}"\nJawapan: [tulis jawapan ringkas di sini]` : fq ? `Soalan lazim: ${fq.q}\n${fq.a}` : "";
+    const end = ["Ada soalan lain? Tulis di bawah, aku cuba jawab semua 👇", "Korang dah cuba? Komen \"JADI\" kalau berjaya, atau tulis masalah korang 👇", "Nak aku buat video apa lepas ni? Komen di bawah 👇"][(n + 1) % 3];
+    return [open, mid, end].filter(Boolean).join("\n\n");
+  }
+  function anaRow(c, ok){ return `<li class="${ok ? "ok" : c.p >= .5 ? "mid" : "no"}"><span class="ai" aria-hidden="true">${ok ? "✓" : "!"}</span><div><b>${esc(ok ? c.g : c.b)}</b>${!ok && c.f ? `<small>${esc(c.f)}</small>` : ""}<em>${esc(c.s)}</em></div></li>`; }
+  function anaBlock(key, label, text, regen){ return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px">${regen ? `<button class="mini" data-regen="ana|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}<button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div></div>`; }
+  function anaResult(r){
+    const v = r.v, i = r.m ? r.m.i : null, ttl = anaTitles(r, pv("ana", "tt"));
+    const verdict = r.score >= 80 ? "Mantap, tinggal kemas sikit" : r.score >= 60 ? "Boleh naik lagi dengan beberapa pembetulan" : "Banyak ruang untuk diperbaiki";
+    const kerr = v.keyErr ? ({ keyInvalid:"kunci API tak sah", quotaExceeded:"kuota harian habis", accessNotConfigured:"YouTube Data API belum diaktifkan", forbidden:"kunci disekat untuk laman ni", API_KEY_HTTP_REFERRER_BLOCKED:"kunci disekat untuk laman ni", PERMISSION_DENIED:"kunci disekat untuk laman ni", INVALID_ARGUMENT:"kunci API tak sah" })[v.keyErr] || "kunci API ada masalah" : "";
+    const lr = v.likes != null && v.views ? v.likes / v.views : null, done = i && doneInfo(i.id);
+    const missing = [].concat(!v.full ? [anaKeyGet() ? "" : "Tambah kunci API (bawah) untuk semak views, like, tag, durasi dan komen."] : [], r.desc == null ? ["Tampal deskripsi dalam \"Data tambahan\" untuk semak deskripsi."] : [], r.th && r.th.blocked ? ["Warna thumbnail tak dapat dibaca dalam browser ni."] : [], numv(state.ana.f.ctr) == null ? ["Isi CTR & % ditonton dari Studio untuk diagnosis lebih tepat."] : []).filter(Boolean);
+    return `<div class="card anahead">
+        <div class="feed"><div class="fth"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="Thumbnail video" loading="lazy">${v.dur ? `<span class="fdur">${fmtDur(v.dur)}</span>` : ""}</div>
+          <div class="fmeta"><b>${esc(v.title)}</b><span>${esc(v.ch)}${v.views != null ? ` · ${fmtK(v.views)} views` : ""}${r.age != null ? ` · ${r.age < 1 ? "hari ni" : Math.floor(r.age) + " hari lepas"}` : ""}</span></div></div>
+        <div class="note">Atas: rupa video dalam feed telefon. Tajuk lebih 2 baris akan terpotong.</div>
+        <div class="anasc">${ringHtml(r.score)}<div><b>${verdict}</b><span class="note">${r.isShort ? "Shorts" : "Video panjang"} · ${r.good.length} bagus · ${r.bad.length} perlu baiki</span></div></div>
+        ${kerr ? `<div class="msg err">Kunci API: ${esc(kerr)}. Analisis guna data asas sahaja.</div>` : ""}
+      </div>
+      ${v.full && v.views != null ? `<div class="stat anast"><div><b>${fmtK(v.views)}</b><span>views${r.age ? ` · ${fmtK(Math.round(v.views / Math.max(1, r.age)))}/hari` : ""}</span></div><div><b>${lr != null ? pct(lr) : "–"}</b><span>kadar like</span></div><div><b>${fmtK(v.cmts)}</b><span>komen</span></div>${v.chAvg ? `<div><b>${fmtK(v.chAvg)}</b><span>purata channel</span></div>` : ""}</div>` : ""}
+      ${r.insight ? `<div class="best"><b>Diagnosis</b>${esc(r.insight)}</div>` : ""}
+      ${r.bad.length ? `<h2 class="sec">Apa yang kurang (${r.bad.length})</h2><ul class="anal">${r.bad.map(c => anaRow(c, false)).join("")}</ul>` : ""}
+      ${r.good.length ? `<h2 class="sec">Apa yang bagus (${r.good.length})</h2><ul class="anal">${r.good.map(c => anaRow(c, true)).join("")}</ul>` : ""}
+      <h2 class="sec">Cadangan penambahbaikan</h2>
+      <div class="card">
+        <div><div class="seohead"><span class="lbl" style="margin:0">Tajuk alternatif</span><button class="mini" data-regen="ana|tt" aria-label="Jana tajuk lain">↻ Tajuk lain</button></div>
+          <ul class="anat">${ttl.map(s => `<li><span>${esc(s)}</span><small>${[...s].length}</small><button class="mini" data-copy="${esc(s)}">Salin</button></li>`).join("")}</ul></div>
+        ${r.isShort ? "" : anaBlock("desc", "Deskripsi dicadang", anaDescText(r), false)}
+        ${anaBlock("tag", "Tag dicadang", anaTags(r), false)}
+        ${anaBlock("pin", "Komen pin", anaPin(r, pv("ana", "pin")), true)}
+        ${!r.isShort && (!r.th || r.th.blocked || r.S.some(o => o.k === "thumb" && o.score < 80)) ? `<div><div class="lbl">Semak thumbnail</div><ul class="ideas"><li>Muka dengan ekspresi jelas atau logo app yang dikenali</li><li>Teks maksimum 3–4 perkataan, besar dan tebal${i && i.seo && i.seo.thumbs && i.seo.thumbs[0] ? `, contoh: "${esc(i.seo.thumbs[0])}"` : ""}</li><li>Jangan letak teks di bucu kanan bawah (ditutup durasi)</li><li>Nampak jelas walaupun dikecilkan sebesar ibu jari</li></ul></div>` : ""}
+        ${i && Array.isArray(i.shorts) && i.shorts.length && !r.isShort ? `<div><div class="lbl">Potong jadi Shorts</div><ul class="ideas">${i.shorts.slice(0, 3).map(s => `<li>${esc(s.title)}</li>`).join("")}</ul></div>` : ""}
+        ${r.qs.length || (i && i.ideas) ? `<div><div class="lbl">Idea video susulan</div><ul class="ideas">${r.qs.slice(0, 2).map(q => `<li>Jawab soalan penonton: "${esc(shortTxt(q.t, 80))}"</li>`).join("")}${i && Array.isArray(i.ideas) ? i.ideas.filter(x => anaToks(x).filter(w => anaToks(v.title).includes(w)).length < 3).slice(0, 3 - Math.min(2, r.qs.length)).map(x => `<li>${esc(x)}</li>`).join("") : ""}</ul></div>` : ""}
+      </div>
+      ${v.comments && v.comments.length ? `<h2 class="sec">Apa penonton kata</h2><div class="card"><div class="anacm"><span><b>${r.praise.length}</b> puji</span><span><b>${r.qs.length}</b> bertanya</span><span><b>${r.probs.length}</b> ada masalah</span></div>
+        <div class="note">Dari ${v.comments.length} komen paling relevan.</div>
+        ${r.qs.length ? `<div><div class="lbl">Soalan paling disukai</div><ul class="ul2 anaq">${r.qs.slice(0, 3).map(q => `<li>${esc(shortTxt(q.t, 160))}${q.l ? ` <span class="note">· ${q.l} like</span>` : ""}</li>`).join("")}</ul></div>` : ""}</div>` : ""}
+      <h2 class="sec">Skor ikut bahagian</h2>
+      <div class="perf">${r.S.filter(o => o.score != null).map(o => `<div class="pr"><span>${esc(o.n)}</span><b>${o.score}</b><div class="bar"><i style="width:${o.score}%"></i></div></div>`).join("")}</div>
+      ${missing.length ? `<div class="note">Untuk analisis lebih lengkap: ${esc(missing.join(" "))}</div>` : ""}
+      <div class="acts">${i ? `<button class="btn" data-goto="${esc(i.id)}">Buka topik ${r.m.old ? "(arkib)" : ""}</button>${r.m.old ? "" : `<button class="btn" data-promo="${esc(i.id)}">Bahan promosi</button>`}` : ""}${i && !r.m.old && (!done || !done.u) ? `<button class="btn" data-anasave="${esc(i.id)}">Simpan ke Prestasi</button>` : ""}</div>
+      <div class="note">Analisis guna peraturan umum YouTube dan data awam. Data dalaman seperti CTR dan tempoh tontonan hanya ada dalam YouTube Studio.</div>`;
+  }
+  function viewAna(){
+    const a = state.ana, key = anaKeyGet(), f = a.f || {}, rec = anaRecent();
+    return `<h2 class="sec">Analisis video YouTube</h2>
+      <div class="card"><div class="note">Tampal link video. App semak tajuk, thumbnail, deskripsi dan prestasi, kemudian beri cadangan.</div>
+        <div class="linkrow"><input id="anaUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" value="${esc(a.url || "")}" aria-label="Link video YouTube"><button class="btn" data-anapaste="1">Tampal</button></div>
+        <details class="anaopt"${f.desc || f.ctr || f.ret ? " open" : ""}><summary>Data tambahan (pilihan)</summary>
+          <div class="anagrid"><label>CTR thumbnail (%)<input id="anaCtr" type="number" inputmode="decimal" step="0.1" min="0" max="100" value="${f.ctr ?? ""}" placeholder="cth 5.2"></label><label>Purata % ditonton<input id="anaRet" type="number" inputmode="decimal" step="1" min="0" max="100" value="${f.ret ?? ""}" placeholder="cth 42"></label></div>
+          <div class="note">Dari YouTube Studio → video → Analitik → Jangkauan (CTR) dan Penglibatan (purata peratus ditonton).</div>
+          ${key ? "" : `<textarea id="anaDesc" placeholder="Tampal deskripsi video untuk disemak" aria-label="Deskripsi video">${esc(f.desc || "")}</textarea>`}
+        </details>
+        <div class="acts"><button class="btn pri anago" data-anarun=""${a.st === "load" ? " disabled" : ""}>${a.st === "load" ? "Menganalisis…" : "Analisis video"}</button></div>
+        ${a.st === "err" ? `<div class="msg err" role="alert">${esc(a.msg)}</div>` : ""}
+        ${rec.length && a.st !== "load" ? `<div><div class="lbl">Analisis lepas</div><div class="anarec">${rec.map(x => `<button class="anarc" data-anarun="${esc(x.u)}"><b class="${x.s >= 80 ? "hi" : x.s >= 60 ? "mid" : "lo"}">${x.s}</b><span>${esc(x.t)}</span></button>`).join("")}</div></div>` : ""}
+      </div>
+      <details class="card anakey"${a.keyOpen ? " open" : ""}><summary><b>Analisis penuh</b><span class="note">${key ? "Kunci API aktif ✓" : "views, like, tag, durasi & komen"}</span></summary>
+        ${key ? `<div class="note">Kunci API YouTube disimpan dalam telefon ni sahaja. Setiap analisis guna lebih kurang 3 unit dari kuota percuma 10,000 sehari.</div><div class="acts"><button class="btn" data-anakey="del">Buang kunci</button></div>`
+        : `<div class="note">Tanpa kunci, app hanya boleh baca tajuk dan thumbnail. Dapatkan kunci percuma (sekali sahaja, lebih kurang 5 minit):</div>
+          <ol class="anasteps"><li>Buka <a href="https://console.cloud.google.com/apis/library/youtube.googleapis.com" target="_blank" rel="noopener">Google Cloud Console</a>, buat projek baru</li><li>Tekan <b>Enable</b> untuk YouTube Data API v3</li><li>Pergi ke <b>Credentials → Create credentials → API key</b></li><li>Sekat kunci: Website <b>imrnwfi.github.io/*</b> dan API YouTube Data sahaja</li><li>Salin dan tampal di bawah</li></ol>
+          <div class="linkrow"><input id="anaKeyIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="AIza…" aria-label="Kunci API YouTube"><button class="btn" data-anakey="save">Simpan</button></div>`}
+      </details>
+      ${a.st === "load" ? `<div class="sk h"><i></i></div><div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>` : a.st === "done" && a.r ? anaResult(a.r) : ""}`;
+  }
+  const anaCache = {};
+  function anaForm(){ const g = id => { const el = $(id); return el ? el.value.trim() : undefined; }; const f = Object.assign({}, state.ana.f);
+    const c = g("anaCtr"), r = g("anaRet"), d = $("anaDesc") ? $("anaDesc").value : undefined;
+    if(c !== undefined) f.ctr = c === "" ? "" : Math.min(100, Math.max(0, Number(c))); if(r !== undefined) f.ret = r === "" ? "" : Math.min(100, Math.max(0, Number(r))); if(d !== undefined) f.desc = d.trim(); return f; }
+  async function anaRun(raw){
+    const a = state.ana; a.f = anaForm(); raw = String(raw || "").trim();
+    const id = ytId(raw);
+    if(!id){ a.url = raw; a.st = "err"; a.msg = raw ? "Link tak dikenali. Guna link video YouTube, contoh youtu.be/… atau youtube.com/shorts/…" : "Tampal link video dulu."; render(); return; }
+    if(!navigator.onLine){ a.url = raw; a.st = "err"; a.msg = "Tiada internet. Sambung dulu, kemudian cuba lagi."; render(); return; }
+    a.url = raw; a.st = "load"; render(); window.scrollTo({ top: 0, behavior: "smooth" });
+    const tok = a.tok = (a.tok || 0) + 1, key = anaKeyGet();
+    try{
+      let c = anaCache[id];
+      if(!c || Date.now() - c.at > 6e5 || (key && !c.v.full && !c.v.keyErr)){ const [v, th] = await Promise.all([fetchVid(id, key), thumbStats(id)]); c = anaCache[id] = { v, th, at: Date.now() }; }
+      if(tok !== a.tok) return;
+      const v = Object.assign({}, c.v); v.isShort = /\/shorts\//i.test(raw) || (v.dur != null && v.dur <= 60) || /#shorts?\b/i.test(v.title + " " + (v.desc || ""));
+      a.r = anaCheck(v, c.th, a.f, raw); a.st = "done"; state.pv = state.pv || {}; delete state.pv["ana|tt"]; delete state.pv["ana|pin"];
+      try{ const rec = anaRecent().filter(x => x.id !== id); rec.unshift({ id, u: raw, t: String(v.title).slice(0, 80), s: a.r.score, at: isoOf(todayMY()) }); localStorage.setItem("rt-ana", JSON.stringify(rec.slice(0, 8))); }catch(e){}
+      buzz(10);
+    }catch(e){ if(tok !== a.tok) return; a.st = "err"; a.msg = e.nf ? "Video tak jumpa. Pastikan video Public atau Unlisted, bukan Private." : "Tak dapat baca video ni sekarang. Cuba lagi sekejap."; }
+    if(state.view === "plan" && state.ptab === "analisis") render();
   }
 
   function render(){
@@ -1311,7 +1680,18 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   document.addEventListener("click", ev => {
     const b = ev.target.closest("button"); if(!b) return;
     const d = b.dataset;
-    if(d.regen){ const k = d.regen; state.pv = state.pv || {}; state.pv[k] = (state.pv[k] || 0) + 1; if(state.sheet) renderSheet(); buzz(8); }
+    if(d.regen){ const k = d.regen; state.pv = state.pv || {}; state.pv[k] = (state.pv[k] || 0) + 1; if(k.indexOf("ana|") === 0) render(); else if(state.sheet) renderSheet(); buzz(8); }
+    else if(d.anarun != null){ if(d.anarun){ state.ana.f = {}; ["anaCtr","anaRet","anaDesc"].forEach(x => { const el = $(x); if(el) el.value = ""; }); } anaRun(d.anarun || ($("anaUrl") ? $("anaUrl").value : "")); }
+    else if(d.anago){ state.ana.f = {}; state.ptab = "analisis"; setView("plan"); anaRun(d.anago); }
+    else if(d.anaopen){ state.ptab = "analisis"; setView("plan"); }
+    else if(d.anapaste){ (navigator.clipboard && navigator.clipboard.readText ? navigator.clipboard.readText() : Promise.reject()).then(t => { const el = $("anaUrl"); if(!el) return; const m = String(t || "").match(/https?:\/\/\S+/); el.value = m ? m[0] : String(t || "").trim(); anaUrlChanged(el.value); if(ytId(el.value)) anaRun(el.value); }).catch(() => toast("Tekan lama dalam kotak link, kemudian pilih Tampal")); }
+    else if(d.anakey === "save"){ const el = $("anaKeyIn"), k = el ? el.value.trim() : ""; if(!/^AIza[\w-]{30,}$/.test(k)){ toast("Kunci API YouTube biasanya bermula dengan AIza…"); return; } try{ localStorage.setItem("rt-ytkey", k); }catch(e){} Object.keys(anaCache).forEach(x => delete anaCache[x]); toast("Kunci disimpan ✓"); if(state.ana.r) anaRun(state.ana.url); else render(); }
+    else if(d.anakey === "del"){ try{ localStorage.removeItem("rt-ytkey"); }catch(e){} Object.keys(anaCache).forEach(x => delete anaCache[x]); toast("Kunci dibuang"); render(); }
+    else if(d.anasave){ const id = d.anasave, r = state.ana.r; if(!r) return; const info = doneInfo(id) || {}, pub = r.v.pub ? new Date(r.v.pub.toLocaleDateString("en-CA", { timeZone:"Asia/Kuala_Lumpur" }) + "T00:00:00Z") : todayMY();
+      const u = /\/shorts\//i.test(r.raw) ? "https://www.youtube.com/shorts/" + r.v.id : "https://youtu.be/" + r.v.id;
+      state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(pub), g: info.g || groupOf(findItem(id)), u });
+      if(r.v.views != null && r.age >= 7 && typeof info.v !== "number") state.done[id].v = r.v.views;
+      saveDone(); toast("Disimpan ke Prestasi ✓"); buzz(); render(); }
     else if(d.open){ openSheet(d.open); }
     else if(d.close){ closeSheet(); }
     else if(d.onb){ if(d.onb === "next"){ onbI++; renderOnb(); } else if(d.onb === "show"){ onbI = 0; renderOnb(); } else endOnb(); }
@@ -1341,6 +1721,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       if(v && !safeUrl(v)){ b.textContent = "Link tak sah"; setTimeout(() => b.textContent = "Simpan", 1600); return; }
       const info = doneInfo(id) || {}; state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(todayMY()), u: v || undefined }); saveDone(); b.textContent = "Disimpan"; setTimeout(() => b.textContent = "Simpan", 1400); }
   });
+  function anaUrlChanged(val){ const id = ytId(val), r = state.ana.r; if(id && r && r.v.id !== id){ state.ana.f = {}; ["anaCtr","anaRet","anaDesc"].forEach(x => { const el = $(x); if(el) el.value = ""; }); } }
+  document.addEventListener("input", ev => { if(ev.target && ev.target.id === "anaUrl") anaUrlChanged(ev.target.value); });
+  document.addEventListener("keydown", ev => { if(ev.key === "Enter" && ev.target && ev.target.id === "anaUrl"){ ev.preventDefault(); anaRun(ev.target.value); } });
   document.addEventListener("change", ev => {
     const el = ev.target;
     if(el.id === "rmon"){ state.rmon = el.value; render(); return; }
@@ -1376,12 +1759,16 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     try{ const n = Number(localStorage.getItem("rt-target")); if(n >= 1 && n <= 14) state.target = n; }catch(e){}
     try{ const r = localStorage.getItem("rt-fz"), f = Number(r); if(r !== null && r !== "" && f >= 0 && f < FZ.length) fzI = f; }catch(e){} applyFz();
     try{ if(!localStorage.getItem("rt-onb")){ onbI = 0; renderOnb(); } }catch(e){}
-    let startView = null; try{ const v = new URLSearchParams(location.search).get("v"); if(v && (VIEWS.some(x => x[0] === v) || v === "cari")) startView = v; }catch(e){}
+    let startView = null, shared = null; try{ const sp = new URLSearchParams(location.search), v = sp.get("v"); if(v && (VIEWS.some(x => x[0] === v) || v === "cari")) startView = v;
+      if(v === "analisis"){ startView = "plan"; state.ptab = "analisis"; }
+      shared = ["url", "text", "title"].map(k => sp.get(k)).find(x => x && ytId(x)) || null;
+      if(shared){ startView = "plan"; state.ptab = "analisis"; state.ana.url = (String(shared).match(/https?:\/\/\S+/) || [shared])[0]; history.replaceState(null, "", location.pathname + "?v=analisis"); } }catch(e){}
     if(startView && startView !== "cari") state.view = startView;
     render();
     try{ state.latest = state.data = await getJson("data.json"); }
     catch(e){ $("view").innerHTML = `<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>`; return; }
     initSeen();
+    if(shared){ anaRun(state.ana.url); }
     if(startView === "cari"){ render(); setView("cari"); }
     getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
     try{ const idx = await getJson("history/index.json"); state.dates = (idx.dates || []).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d !== state.latest.date).sort().reverse().slice(0,14); }catch(e){}
