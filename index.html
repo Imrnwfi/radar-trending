@@ -488,6 +488,32 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .sci .pt2{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
 .sctt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .sct{font-size:11px;font-weight:800;letter-spacing:.04em;color:var(--accent);text-transform:uppercase}
+.tonebar{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.tonebar .tab{padding:5px 12px;font-size:13px}
+.tonebar .tab[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.ib{flex:0 0 auto;width:42px;padding:8px 0;display:grid;place-items:center;font-size:18px;line-height:1}
+.btn.ib svg{width:18px;height:18px}
+.mini.ib{display:inline-grid;place-items:center;padding:3px 8px}.mini.ib svg{width:14px;height:14px}
+.star{color:var(--muted)}.star.on{color:#e0a100;border-color:#e0a100}
+.mini.star{font-size:14px;line-height:1;padding:3px 8px}
+.bank{display:flex;flex-direction:column;gap:10px}
+.bkh{display:flex;justify-content:space-between;align-items:center}
+.bkt{font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.bk .desc{max-height:240px}
+.wsum{border:1.5px solid var(--accent);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 7%,var(--panel)),var(--panel))}
+.wkh{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.wkh b{font-family:var(--display);font-size:17px}
+.wks{display:flex;gap:8px}.wks div{flex:1;background:var(--paper);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:2px}
+.wks b{font-size:22px;font-variant-numeric:tabular-nums}.wks b small{font-size:13px;color:var(--muted);font-weight:700}.wks span{font-size:11px;color:var(--muted)}
+.wkr{padding-left:0}.wsum .ul2 li{flex-direction:row;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px}.wsum .ul2 .pt2{text-align:left;flex:1;min-width:0;border:0;background:transparent;padding:0;font:inherit;font-size:14px;font-weight:600;color:var(--ink);line-height:1.35}.wsum .wkh{flex-direction:column;gap:0}.wsum .t-up{font-weight:800;color:var(--steady)}
+.chkpop{position:fixed;inset:0;z-index:120;display:grid;place-items:center;pointer-events:none;animation:cpf 1s ease forwards}
+.chkpop svg{width:96px;height:96px;fill:none;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 8px 24px rgba(0,0,0,.18))}
+.chkpop circle{fill:var(--steady);stroke:none;transform-origin:center;animation:cpc .35s cubic-bezier(.2,1.6,.4,1) both}
+.chkpop path{stroke:#fff;stroke-width:5;stroke-dasharray:40;stroke-dashoffset:40;animation:cpp .35s .2s ease forwards}
+@keyframes cpc{from{transform:scale(.3);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes cpp{to{stroke-dashoffset:0}}
+@keyframes cpf{0%,70%{opacity:1}100%{opacity:0}}
+.confetti{position:fixed;inset:0;width:100vw;height:100vh;z-index:119;pointer-events:none}
+@media (prefers-reduced-motion: reduce){.chkpop,.confetti{display:none}}
 </style>
 </head>
 <body>
@@ -608,6 +634,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
     repost:'<path d="M17 3l3 3-3 3"/><path d="M4 11V9a3 3 0 0 1 3-3h13M7 21l-3-3 3-3"/><path d="M20 13v2a3 3 0 0 1-3 3H4"/>',
     send:'<path d="M21 3L10 14"/><path d="M21 3l-7 18-4-7-7-4z"/>',
     plus:'<path d="M12 5v14M5 12h14"/>',
+    share:'<path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>',
     flame:'<path d="M12 3c.5 3-1.5 4.5-3 6.5C7.7 11.3 7 12.6 7 14.5A5 5 0 0 0 17 15c0-2.3-1.2-3.8-2-4.9-.3 1.3-.9 2.2-1.7 2.6.5-3-.2-6.6-1.3-9.7z"/>',
     calendar:'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
     grid:'<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
@@ -823,13 +850,13 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
     return posts.map((t, k, a) => `${k + 1}/${a.length} ${t}`).join("\n\n");
   }
   function promoBlock(i, key, label, text, note){
-    const id = esc(i.id);
-    return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px"><button class="mini" data-regen="${id}|${key}" aria-label="Jana ayat lain untuk ${label}">↻ Ayat lain</button><button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
+    const id = esc(i.id); text = toneApply(text, pv(i.id, key), 0);
+    return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px;flex-wrap:wrap;justify-content:flex-end"><button class="mini" data-regen="${id}|${key}" aria-label="Jana ayat lain untuk ${label}">↻ Ayat lain</button>${starBtn(label, text, i.title, "mini")}${shareBtn(text, "mini")}<button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
   }
   function promoHtml(i){
     const P = promoParts(i), link = vidLink(i);
     const tip = link === "[link video]" ? "Tanda topik ni dah upload dan simpan link video, nanti link masuk sendiri dalam post." : "";
-    return quizHtml(i)
+    return toneBar() + quizHtml(i)
       + promoBlock(i, "com", "Post Komuniti YouTube", genCommunity(i, P, pv(i.id, "com"), link), tip)
       + promoBlock(i, "poll", "Poll Komuniti YouTube", genPoll(i, P, pv(i.id, "poll")))
       + promoBlock(i, "cap", "Caption TikTok / Instagram", genCaption(i, P, pv(i.id, "cap")))
@@ -1151,6 +1178,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const pending = today.filter(([id]) => !state.done[id]).length;
     return `<div class="hello"><b>${greet}, Imran</b><span>${dayLabel(t)} ${t.getUTCFullYear()}${state.latest && state.latest.updated_label ? " · data " + esc(state.latest.updated_label) : ""}</span></div>
       ${nn && !state.topikSeen ? `<button class="newbar" data-view="topik"><span><i class="newdot"></i>${nn} topik baru sejak kali terakhir kau buka</span><span>Lihat →</span></button>` : ""}
+      ${weekSummary()}
       <h2 class="sec">Video hari ini</h2>
       <div class="card${pending ? " hl" : ""}">${today.length ? today.map(([id]) => planRow(id)).join("") + (pending ? `<div class="acts">${today.filter(([id]) => !state.done[id] && findItem(id)).slice(0, 1).map(([id]) => `<button class="btn" data-pick="${esc(id)}">Buka skrip & Shorts</button><button class="btn" data-promo="${esc(id)}">Bahan promosi</button>`).join("")}</div>` : `<div class="note">Semua video hari ni dah siap. Mantap!</div>`)
         : `<div class="note">Belum ada video dirancang hari ni. Pilih satu topik di bawah, kemudian tekan "Rancang upload…" dan pilih hari ini.</div>`}</div>
@@ -1529,7 +1557,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     return [open, mid, end].filter(Boolean).join("\n\n");
   }
   function anaRow(c, ok){ return `<li class="${ok ? "ok" : c.p >= .5 ? "mid" : "no"}"><span class="ai" aria-hidden="true">${ok ? "✓" : "!"}</span><div><b>${esc(ok ? c.g : c.b)}</b>${!ok && c.f ? `<small>${esc(c.f)}</small>` : ""}<em>${esc(c.s)}</em></div></li>`; }
-  function anaBlock(key, label, text, regen){ return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px">${regen ? `<button class="mini" data-regen="ana|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}<button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div></div>`; }
+  function anaBlock(key, label, text, regen){ return `<div><div class="seohead"><span class="lbl" style="margin:0">${label}</span><span class="acts" style="margin:0;gap:6px">${regen ? `<button class="mini" data-regen="ana|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}${starBtn(label.replace(" dicadang", ""), text, state.ana.r ? state.ana.r.v.title : "", "mini")}${shareBtn(text, "mini")}<button class="mini" data-copy="${esc(text)}">Salin</button></span></div><div class="desc">${esc(text)}</div></div>`; }
   function anaResult(r){
     const v = r.v, i = r.m ? r.m.i : null, ttl = anaTitles(r, pv("ana", "tt"));
     const verdict = r.score >= 80 ? "Mantap, tinggal kemas sikit" : r.score >= 60 ? "Boleh naik lagi dengan beberapa pembetulan" : "Banyak ruang untuk diperbaiki";
@@ -1551,7 +1579,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <h2 class="sec" id="j-cadang">Cadangan penambahbaikan</h2>
       <div class="card">
         <div><div class="seohead"><span class="lbl" style="margin:0">Tajuk alternatif</span><button class="mini" data-regen="ana|tt" aria-label="Jana tajuk lain">↻ Tajuk lain</button></div>
-          <ul class="anat">${ttl.map(s => `<li><span>${esc(s)}</span><small>${[...s].length}</small><button class="mini" data-copy="${esc(s)}">Salin</button></li>`).join("")}</ul></div>
+          <ul class="anat">${ttl.map(s => `<li><span>${esc(s)}</span><small>${[...s].length}</small>${starBtn("Tajuk", s, v.title, "mini")}<button class="mini" data-copy="${esc(s)}">Salin</button></li>`).join("")}</ul></div>
         ${r.isShort ? "" : anaBlock("desc", "Deskripsi dicadang", anaDescText(r), false)}
         ${anaBlock("tag", "Tag dicadang", anaTags(r), false)}
         ${anaBlock("pin", "Komen pin", anaPin(r, pv("ana", "pin")), true)}
@@ -1571,7 +1599,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function viewAna(){
     const a = state.ana, key = anaKeyGet(), f = a.f || {}, rec = anaRecent(); setTimeout(() => { seenF("alat"); }, 0);
     const PM = a.mode === "post";
-    return `<div class="seg2" role="group" aria-label="Pilih alat"><button data-anamode="ana" aria-pressed="${!PM}">Analisis video</button><button data-anamode="post" aria-pressed="${PM}">Jana posting${nbg("post")}</button></div>
+    return `<div class="seg2" role="group" aria-label="Pilih alat"><button data-anamode="ana" aria-pressed="${a.mode !== "post" && a.mode !== "bank"}">Analisis video</button><button data-anamode="post" aria-pressed="${PM}">Jana posting${nbg("post")}</button><button data-anamode="bank" aria-pressed="${a.mode === "bank"}">Bank ★</button></div>${a.mode === "bank" ? viewBank() : `
       <h2 class="sec">${PM ? "Posting media sosial" : "Analisis video YouTube"}</h2>
       <div class="card"><div class="note">${PM ? "Tampal link video. App tulis posting untuk Threads, X, YouTube Community dan Facebook." : "Tampal link video. App semak tajuk, thumbnail, deskripsi dan prestasi, kemudian beri cadangan."}</div>
         <div class="linkrow"><input id="anaUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" value="${esc(a.url || "")}" aria-label="Link video YouTube"><button class="btn" data-anapaste="1">Tampal</button></div>
@@ -1590,7 +1618,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
           <ol class="anasteps"><li>Buka <a href="https://console.cloud.google.com/apis/library/youtube.googleapis.com" target="_blank" rel="noopener">Google Cloud Console</a>, buat projek baru</li><li>Tekan <b>Enable</b> untuk YouTube Data API v3</li><li>Pergi ke <b>Credentials → Create credentials → API key</b></li><li>Sekat kunci: Website <b>imrnwfi.github.io/*</b> dan API YouTube Data sahaja</li><li>Salin dan tampal di bawah</li></ol>
           <div class="linkrow"><input id="anaKeyIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="AIza…" aria-label="Kunci API YouTube"><button class="btn" data-anakey="save">Simpan</button></div>`}
       </details>
-      ${a.st === "load" ? `<div class="sk h"><i></i></div><div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>` : a.st === "done" && a.r ? (PM ? postResult(a.r) : anaResult(a.r)) : ""}`;
+      ${a.st === "load" ? `<div class="sk h"><i></i></div><div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>` : a.st === "done" && a.r ? (PM ? postResult(a.r) : anaResult(a.r)) : ""}`}`;
   }
   const anaCache = {};
   function anaForm(){ const g = id => { const el = $(id); return el ? el.value.trim() : undefined; }; const f = Object.assign({}, state.ana.f);
@@ -1707,9 +1735,10 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const card = kind === "yc" ? mockLink(P, "Video") : kind === "fb" ? (extra ? "" : mockLink(P, "YOUTUBE.COM")) : mockLink(P, "youtube.com");
     return `<div class="mock m-${kind}">${mockHead(P, sub)}<div class="mtx${clamp ? " clamp c" + clamp : ""}">${fmtPost(text)}</div>${clamp ? `<button class="mmore" data-mexp="1">${kind === "fb" ? "Lihat lagi" : "Baca lagi"}</button>` : ""}${card}${MACT}</div>`;
   }
+  const PLAT = { th:"Threads", x:"X", xt:"Thread X", yc:"YouTube Community", yp:"Poll Community", fb:"Facebook", fcm:"Komen Facebook" };
   function postBlock(key, label, text, lim, share, tip, P, extra){
     const len = lim === 280 ? xLen(text.split("\n\n———\n\n")[0].replace(/^\d+\/\d+\n/, "")) : [...text].length, over = lim && key !== "xt" && len > lim;
-    return `<div class="pblock"><div class="lbl" style="margin:0">${label}${lim && key !== "xt" ? ` <span class="plen${over ? " over" : ""}">${len}/${lim}</span>` : ""}</div>${mockPost(key, P, text, extra)}<div class="pacts">${key !== "fcm" ? `<button class="btn" data-regen="post|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}<button class="btn" data-copy="${esc(text)}">Salin</button>${share ? `<button class="btn pri" data-share="${esc(share)}" data-st="${esc(text)}">Salin & buka</button>` : ""}</div>${tip ? `<div class="note">${tip}</div>` : ""}</div>`;
+    return `<div class="pblock"><div class="lbl" style="margin:0">${label}${lim && key !== "xt" ? ` <span class="plen${over ? " over" : ""}">${len}/${lim}</span>` : ""}</div>${mockPost(key, P, text, extra)}<div class="pacts">${key !== "fcm" ? `<button class="btn" data-regen="post|${key}" aria-label="Jana versi lain untuk ${label}">↻ Ayat lain</button>` : ""}${starBtn(PLAT[key] || label, text, P.title, "btn ib")}${shareBtn(text)}${share ? `<button class="btn pri" data-share="${esc(share)}" data-st="${esc(text)}">Salin & buka</button>` : `<button class="btn" data-copy="${esc(text)}">Salin</button>`}</div>${tip ? `<div class="note">${tip}</div>` : ""}</div>`;
   }
   /* Lompat ke bahagian */
   function jumpBar(list){ return `<div class="jump" role="navigation" aria-label="Lompat ke bahagian">${list.map(([id, l]) => `<button class="tab" data-jump="${id}">${l}</button>`).join("")}</div>`; }
@@ -1770,11 +1799,12 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function postResult(r){
     seenF("post");
     const P = postParts(r), v = r.v, n = k => pv("post", k), fbc = !!state.ana.fbc;
-    const x = genXPost(P, n("x")), xt = genXThread(P, n("xt")), th = genThreadsPost(P, n("th")), yc = genYtCom(P, n("yc")), yp = genYtPoll(P, n("yp")), fb = genFb(P, n("fb"), fbc), fcm = genFbCmt(P);
+    const x = toneApply(genXPost(P, n("x")), n("x"), 280), xt = toneApply(genXThread(P, n("xt")), n("xt"), 280), th = toneApply(genThreadsPost(P, n("th")), n("th"), 500), yc = toneApply(genYtCom(P, n("yc")), n("yc"), 0), yp = toneApply(genYtPoll(P, n("yp")), n("yp"), 0), fb = toneApply(genFb(P, n("fb"), fbc), n("fb"), 0), fcm = genFbCmt(P);
     const enc = encodeURIComponent, thin = !P.i && r.desc == null, texts = { x, xt, th, yc, yp, fb: fb + (fbc ? "\n\nKomen pertama:\n" + fcm : "") };
     state.ana.ptexts = texts;
     const all = [["THREADS", th], ["X", x], ["X (THREAD)", xt], ["YOUTUBE COMMUNITY", yc], ["POLL COMMUNITY", yp], ["FACEBOOK", texts.fb]].filter(a => a[1]).map(a => `=== ${a[0]} ===\n${a[1]}`).join("\n\n");
     return `<div class="card prow"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy"><div><b>${esc(v.title)}</b><span class="note">${esc(v.ch)}${P.i ? ` · topik: ${esc(shortTxt(P.i.title, 40))}` : ""}</span></div></div>
+      ${toneBar()}
       ${jumpBar([["j-th", "Threads"], ["j-x", "X"], ["j-yc", "Community"], ["j-fb", "Facebook"], ["j-jadual", "Jadual"]])}
       ${thin ? `<div class="note">Posting dijana dari tajuk sahaja. Tambah kunci API (dalam "Analisis penuh") supaya app guna deskripsi dan bab video untuk ayat yang lebih tepat.</div>` : ""}
       <div class="card pcard" id="j-th"><div class="phd">${svg("chat")}<b>Threads</b></div>${postBlock("th", "Post", th, 500, "https://www.threads.net/intent/post?text=" + enc(th), "Threads hanya papar 1 topik tag.", P)}</div>
@@ -1787,6 +1817,88 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       <div class="acts"><button class="btn pri" data-copy="${esc(all)}" style="flex:1">Salin semua posting</button><button class="btn" data-anamode="ana">Analisis video ni</button></div>`;
   }
 
+  /* Nada bahasa posting */
+  const TONES = [["santai", "Santai"], ["formal", "Formal"], ["kelakar", "Kelakar"]];
+  function toneGet(){ try{ const t = localStorage.getItem("rt-tone"); return TONES.some(x => x[0] === t) ? t : "santai"; }catch(e){ return "santai"; } }
+  const FORMAL = [[/\bkorang\b/g, "anda"], [/\bKorang\b/g, "Anda"], [/\bkorg\b/gi, "anda"], [/\baku\b/g, "saya"], [/\bAku\b/g, "Saya"], [/\bkat\b/g, "di"], [/\bKat\b/g, "Di"], [/\btak\b/g, "tidak"], [/\bTak\b/g, "Tidak"], [/\bnak\b/g, "mahu"], [/\bNak\b/g, "Mahu"], [/\bdah\b/g, "sudah"], [/\bDah\b/g, "Sudah"], [/\bje\b/g, "sahaja"], [/\bni\b/g, "ini"], [/\bNi\b/g, "Ini"], [/\btu\b/g, "itu"], [/\bcamne\b/gi, "bagaimana"], [/\bmacam mana\b/g, "bagaimana"], [/\bMacam mana\b/g, "Bagaimana"], [/\bJom\b/g, "Mari"], [/\bjom\b/g, "mari"], [/\bsenang\b/g, "mudah"], [/\bkalau\b/g, "jika"], [/\bKalau\b/g, "Jika"], [/\btengok\b/g, "tonton"], [/\bTengok\b/g, "Tonton"], [/\bbagi\b/g, "beri"], [/\blepas\b/g, "selepas"], [/\bLepas\b/g, "Selepas"], [/\bsikit\b/g, "sedikit"], [/\bpasal\b/g, "tentang"], [/\bPasal\b/g, "Tentang"], [/\bgeng\b/gi, "semua"], [/\bbro\b/gi, "tuan/puan"], [/\bkawan-kawan\b/g, "rakan-rakan"], [/\bfamily\b/g, "keluarga"], [/\bshare\b/g, "kongsi"], [/\bShare\b/g, "Kongsi"], [/ ke belum\?/g, " atau belum?"], [/\bkorang\b/gi, "anda"]];
+  const FUN_OPEN = ["Breaking news (versi makcik bawang) 😂", "Okay geng, duduk dulu. Ni penting 🫡", "Bukan clickbait, sumpah 🤞", "Plot twist hari ni 👀", "Info ni lagi panas dari teh tarik 🔥", "Jangan scroll dulu, ni untuk kau 🫵"];
+  const FUN_END = ["Kalau tak faham, tengok sampai habis. Kalau faham pun, tengok juga 🤭", "Share kat group family sebelum pakcik kau share versi salah 😆", "Like dulu, nanti aku doakan wifi kau laju 🙏", "Komen 'JADI' kalau berjaya, 'TOLONG' kalau tak 😂", "Simpan post ni. Nanti lupa, jangan salahkan aku 😜"];
+  function toneOne(t, tone, n, lim, first, last){
+    if(tone === "formal"){ let s = t; FORMAL.forEach(([a, b]) => { s = s.replace(a, b); }); return s.replace(/😂|🤣|😆|🤭|😜/g, "").replace(/[ \t]+\n/g, "\n"); }
+    if(tone !== "kelakar") return t;
+    const fits = s => !lim || (lim === 280 ? xLen(s) : [...s].length) <= lim;
+    let s = t;
+    if(first){ const o = FUN_OPEN[n % FUN_OPEN.length], m = s.match(/^(\d+\/\d+\n)?([\s\S]*)$/), c = (m[1] || "") + o + "\n\n" + m[2]; if(fits(c)) s = c; }
+    if(last){ const e = FUN_END[n % FUN_END.length], parts = s.split("\n\n"), hi = parts.length && /^#/.test(parts[parts.length - 1]) ? parts.length - 1 : parts.length; const c = parts.slice(0, hi).concat([e], parts.slice(hi)).join("\n\n"); if(fits(c)) s = c; }
+    return s;
+  }
+  function toneApply(text, n, lim){
+    const tone = toneGet(); if(tone === "santai" || !text) return text;
+    if(text.includes("\n\n———\n\n")){ const p = text.split("\n\n———\n\n"); return p.map((x, k) => toneOne(x, tone, n, 280, k === 0, false)).join("\n\n———\n\n"); }
+    return toneOne(text, tone, n, lim, true, true);
+  }
+  function toneBar(){ const t = toneGet(); return `<div class="tonebar"><span class="lbl" style="margin:0">Nada</span>${TONES.map(([k, l]) => `<button class="tab" data-tone="${k}" aria-pressed="${t === k}">${l}</button>`).join("")}</div>`; }
+  /* Bank ayat */
+  function hsh(s){ let h = 5381; for(const ch of String(s)) h = (h * 33 ^ ch.codePointAt(0)) >>> 0; return h.toString(36); }
+  function bankLoad(){ try{ const a = JSON.parse(localStorage.getItem("rt-bank") || "[]"); return Array.isArray(a) ? a : []; }catch(e){ return []; } }
+  function bankSave(a){ try{ localStorage.setItem("rt-bank", JSON.stringify(a.slice(0, 300))); }catch(e){ toast("Storan penuh, buang beberapa ayat lama"); } }
+  function starBtn(type, text, src, cls){ const on = bankLoad().some(x => x.h === hsh(text)); return `<button class="${cls || "btn"} star${on ? " on" : ""}" data-star="${esc(type)}" data-st="${esc(text)}" data-ss="${esc(src || "")}" aria-pressed="${on}" aria-label="${on ? "Buang dari" : "Simpan ke"} Bank ayat">${on ? "★" : "☆"}</button>`; }
+  const canShare = !!(navigator.share);
+  function shareBtn(text, cls){ return canShare ? `<button class="${cls || "btn"} ib" data-nshare="${esc(text)}" aria-label="Kongsi guna menu telefon">${svg("share")}</button>` : ""; }
+  function viewBank(){
+    const all = bankLoad(), types = [...new Set(all.map(x => x.k))], f = state.ana.bf && types.includes(state.ana.bf) ? state.ana.bf : "";
+    const list = f ? all.filter(x => x.k === f) : all;
+    return `<h2 class="sec">Bank ayat</h2>
+      ${all.length ? `<div class="chipsrow">${[["", `Semua (${all.length})`]].concat(types.map(t => [t, `${t} (${all.filter(x => x.k === t).length})`])).map(([k, l]) => `<button class="tab" data-bf="${esc(k)}" aria-pressed="${f === k}">${esc(l)}</button>`).join("")}</div>
+      <div class="bank">${list.map(x => `<div class="card bk"><div class="bkh"><span class="bkt">${esc(x.k)}</span><span class="note">${esc(x.at || "")}</span></div><div class="desc">${esc(x.t)}</div>${x.s ? `<div class="note">Dari: ${esc(x.s)}</div>` : ""}<div class="pacts"><button class="btn" data-copy="${esc(x.t)}">Salin</button>${shareBtn(x.t)}<button class="btn" data-bdel="${esc(x.h)}">Buang</button></div></div>`).join("")}</div>`
+      : `<div class="card"><div class="note">Belum ada ayat disimpan. Tekan ☆ pada tajuk, posting atau komen pin yang kau suka, dan ia akan disimpan di sini untuk guna semula.</div></div>`}`;
+  }
+  /* Ringkasan mingguan */
+  function weekSummary(){
+    const t = todayMY(), dow = t.getUTCDay(); if(dow !== 0 && dow !== 1) return "";
+    const end = dow === 0 ? t : new Date(t.getTime() - 864e5), start = new Date(end.getTime() - 6 * 864e5), s0 = isoOf(start), s1 = isoOf(end), key = s0;
+    try{ if(localStorage.getItem("rt-wkdis") === key) return ""; }catch(e){}
+    const vids = doneArr().filter(x => x.d >= s0 && x.d <= s1), views = vids.reduce((a, x) => a + (typeof x.v === "number" ? x.v : 0), 0);
+    const sch = schedLoad().filter(x => x.d >= s0 && x.d <= s1), schDone = sch.filter(x => x.done).length;
+    const cur = items(), pts = state.scores && Array.isArray(state.scores.points) ? state.scores.points : [], base = pts.find(p => p.date >= s0) || pts[0];
+    const rise = cur.map(i => { const b = base && base.s ? base.s[i.id] : undefined; return { i, d: b == null ? null : i.score - b }; });
+    const up = rise.filter(x => x.d != null && x.d > 0).sort((a, b) => b.d - a.d).slice(0, 3), fresh = rise.filter(x => x.d == null).length;
+    const rec = cur.filter(i => !state.done[i.id] && !state.plan[i.id]).map(i => ({ i, w: i.score + (i.competition && i.competition.level === "tinggi" ? 5 : i.competition && i.competition.level === "sesak" ? -6 : 0) })).sort((a, b) => b.w - a.w).slice(0, 3).map(x => x.i);
+    const hit = vids.length >= state.target;
+    return `<div class="card wsum"><div class="wkh"><b>${dow === 0 ? "Ringkasan minggu ni" : "Ringkasan minggu lepas"}</b><span class="note">${dayLabel(start, true)} – ${dayLabel(end, true)}</span></div>
+      <div class="wks"><div><b>${vids.length}<small>/${state.target}</small></b><span>video${hit ? " · target capai 🎉" : ""}</span></div><div><b>${views ? fmtK(views) : "–"}</b><span>views direkod</span></div><div><b>${sch.length ? `${schDone}<small>/${sch.length}</small>` : "–"}</b><span>posting dibuat</span></div></div>
+      ${up.length || fresh ? `<div><div class="lbl">Topik yang naik</div><ul class="ul2">${up.map(x => `<li><button class="pt2" data-goto="${esc(x.i.id)}">${esc(shortTxt(x.i.title, 70))}</button> <span class="t-up">+${x.d}</span></li>`).join("")}${fresh ? `<li class="note">${fresh} topik baru masuk senarai</li>` : ""}</ul></div>` : ""}
+      ${rec.length ? `<div><div class="lbl">Cadangan 3 video seterusnya</div><ol class="ul2 wkr">${rec.map(i => `<li><button class="pt2" data-goto="${esc(i.id)}">${esc(shortTxt(i.title, 80))}</button> <span class="note">· skor ${i.score}</span></li>`).join("")}</ol></div>` : ""}
+      <div class="pacts">${rec.length ? `<button class="btn pri" data-wkplan="${esc(rec.map(i => i.id).join(","))}">Rancang 3 video ni</button>` : ""}<button class="btn" data-wkdis="${esc(key)}">Tutup</button></div></div>`;
+  }
+  /* Animasi */
+  const calm = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function animRings(){
+    const a = state.ana, rings = document.querySelectorAll(".anasc .ring"); if(!a || !a.r || !rings.length || a.animDone === a.r.at || calm()) return; a.animDone = a.r.at;
+    rings.forEach(rg => {
+      const fg = rg.querySelector(".fg"), b = rg.querySelector("b"); if(!fg || !b) return;
+      const target = fg.getAttribute("stroke-dasharray"), c = target.split(" ")[1], v = Number(b.textContent) || 0;
+      fg.style.transition = "none"; fg.setAttribute("stroke-dasharray", "0 " + c);
+      requestAnimationFrame(() => requestAnimationFrame(() => { fg.style.transition = "stroke-dasharray .9s cubic-bezier(.2,.8,.2,1)"; fg.setAttribute("stroke-dasharray", target); }));
+      const t0 = performance.now(); b.textContent = "0";
+      const step = now => { const p = Math.min(1, (now - t0) / 900), e = 1 - Math.pow(1 - p, 3); b.textContent = String(Math.round(v * e)); if(p < 1) requestAnimationFrame(step); };
+      requestAnimationFrame(step);
+    });
+  }
+  function popCheck(){
+    if(calm()) return; const el = document.createElement("div"); el.className = "chkpop"; el.setAttribute("aria-hidden", "true");
+    el.innerHTML = `<svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="23"/><path d="M15 27l7 7 15-16"/></svg>`;
+    document.body.appendChild(el); setTimeout(() => el.remove(), 1000);
+  }
+  function confetti(){
+    if(calm()) return; const c = document.createElement("canvas"), W = c.width = innerWidth * (devicePixelRatio || 1), H = c.height = innerHeight * (devicePixelRatio || 1); c.className = "confetti"; document.body.appendChild(c);
+    const x = c.getContext("2d"), cols = ["#2346c9", "#e8483b", "#1f8a4c", "#f2b705", "#8a4fff"], k = devicePixelRatio || 1;
+    const ps = Array.from({ length: 140 }, () => ({ x: W / 2 + (Math.random() - .5) * W * .3, y: H * .35, vx: (Math.random() - .5) * 14 * k, vy: (-Math.random() * 14 - 6) * k, s: (5 + Math.random() * 6) * k, r: Math.random() * 6, vr: (Math.random() - .5) * .3, c: cols[Math.floor(Math.random() * cols.length)] }));
+    const t0 = performance.now();
+    const fr = now => { const t = now - t0; x.clearRect(0, 0, W, H); ps.forEach(p => { p.vy += .45 * k; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.r += p.vr; x.save(); x.translate(p.x, p.y); x.rotate(p.r); x.globalAlpha = Math.max(0, 1 - t / 2400); x.fillStyle = p.c; x.fillRect(-p.s / 2, -p.s / 4, p.s, p.s / 2); x.restore(); }); if(t < 2400) requestAnimationFrame(fr); else c.remove(); };
+    requestAnimationFrame(fr);
+  }
+
   function render(){
     renderNav(); renderHeader(); document.documentElement.style.setProperty("--toph", ((document.querySelector(".top") || {}).offsetHeight || 110) + "px");
     if(!state.data){ $("view").innerHTML = `<div class="sk h"><i></i></div>` + Array.from({length:5}, () => `<div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>`).join(""); return; }
@@ -1794,6 +1906,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const hd = $("hideDone"); if(hd) hd.addEventListener("change", e => { state.hideDone = e.target.checked; render(); });
     const hs = $("histSel"); if(hs) hs.addEventListener("change", onHist);
     if(state.sheet) renderSheet();
+    if(state.view === "plan" && state.ptab === "analisis") requestAnimationFrame(animRings);
   }
 
   /* Actions */
@@ -1936,7 +2049,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(d.regen){ const k = d.regen; state.pv = state.pv || {}; state.pv[k] = (state.pv[k] || 0) + 1; if(k.indexOf("ana|") === 0 || k.indexOf("post|") === 0) render(); else if(state.sheet) renderSheet(); buzz(8); }
     else if(d.anarun != null){ if(d.anarun){ state.ana.f = {}; ["anaCtr","anaRet","anaDesc"].forEach(x => { const el = $(x); if(el) el.value = ""; }); } anaRun(d.anarun || ($("anaUrl") ? $("anaUrl").value : "")); }
     else if(d.anago){ state.ana.f = {}; state.ptab = "analisis"; setView("plan"); anaRun(d.anago); }
-    else if(d.anamode){ const a = state.ana; a.f = anaForm(); a.mode = d.anamode; const el = $("anaUrl"), u = el ? el.value.trim() : a.url; render(); window.scrollTo(0, 0); if(a.st === "done" && a.r && ytId(u) && ytId(u) !== a.r.v.id) anaRun(u); }
+    else if(d.anamode){ const a = state.ana; a.f = anaForm(); a.mode = d.anamode; const el = $("anaUrl"), u = el ? el.value.trim() : a.url; render(); window.scrollTo(0, 0); if(d.anamode !== "bank" && a.st === "done" && a.r && ytId(u) && ytId(u) !== a.r.v.id) anaRun(u); }
     else if(d.share){ copy(d.st || ""); window.open(d.share, "_blank", "noopener"); }
     else if(d.quick){ openQuick(); }
     else if(d.qpaste){ (navigator.clipboard && navigator.clipboard.readText ? navigator.clipboard.readText() : Promise.reject()).then(t => { const el = $("qUrl"); if(!el) return; const m = String(t || "").match(/https?:\/\/\S+/); el.value = m ? m[0] : String(t || "").trim(); }).catch(() => toast("Tekan lama dalam kotak, kemudian pilih Tampal")); }
@@ -1948,7 +2061,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       const keep = schedLoad().filter(x => x.vid !== vid), add = state.ana.sched.filter(s => s.on && s.d && s.h).map(s => ({ k: vid + "|" + s.p, vid, p: s.p, d: s.d, h: s.h, t: String(r.v.title).slice(0, 90), u: link, done: false }));
       schedSave(keep.concat(add)); seenF("jadual"); toast(`${add.length} posting dijadualkan dalam Plan ✓`); buzz(); render(); }
     else if(d.schics){ const r = state.ana.r; if(r && state.ana.sched){ seenF("jadual"); schedIcs(r, state.ana.ptexts || {}); } }
-    else if(d.schdone){ const a = schedLoad(), x = a.find(y => y.k === d.schdone); if(x){ x.done = !x.done; schedSave(a); toast("Ditanda dah post ✓"); buzz(); render(); } }
+    else if(d.schdone){ const a = schedLoad(), x = a.find(y => y.k === d.schdone); if(x){ x.done = !x.done; schedSave(a); toast("Ditanda dah post ✓"); buzz(); render(); if(x.done) popCheck(); } }
     else if(d.schdel){ const a = schedLoad(), ix = a.findIndex(y => y.k === d.schdel); if(ix >= 0){ const prev = a.slice(); a.splice(ix, 1); schedSave(a); render(); toast("Peringatan dibuang", () => { schedSave(prev); render(); }); } }
     else if(d.schopen){ const x = schedLoad().find(y => y.k === d.schopen); if(x){ state.ana.mode = "post"; state.ana.f = {}; state.ana.jumpAfter = "j-" + (x.p === "xt" ? "x" : x.p === "yp" ? "yc" : x.p); state.ptab = "analisis"; setView("plan"); anaRun(x.u); } }
     else if(d.anaopen){ state.ptab = "analisis"; setView("plan"); }
@@ -1959,7 +2072,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       const u = /\/shorts\//i.test(r.raw) ? "https://www.youtube.com/shorts/" + r.v.id : "https://youtu.be/" + r.v.id;
       state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(pub), g: info.g || groupOf(findItem(id)), u });
       if(r.v.views != null && r.age >= 7 && typeof info.v !== "number") state.done[id].v = r.v.views;
-      saveDone(); toast("Disimpan ke Prestasi ✓"); buzz(); render(); }
+      saveDone(); toast("Disimpan ke Prestasi ✓"); buzz(); render(); popCheck(); }
     else if(d.open){ openSheet(d.open); }
     else if(d.close){ closeSheet(); }
     else if(d.onb){ if(d.onb === "next"){ onbI++; renderOnb(); } else if(d.onb === "show"){ onbI = 0; renderOnb(); } else endOnb(); }
@@ -1978,7 +2091,19 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.qset != null){ $("q").value = d.qset; $("qx").hidden = !d.qset; state.q = d.qset; saveRecent(d.qset); render(); }
     else if(d.copy != null){ copy(d.copy); }
     else if(d.prompt){ const it = findItem(d.prompt); if(it) copy(buildPrompt(it)); }
-    else if(d.done){ const id = d.done, was = !!state.done[id]; if(was) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); buzz(); toast(was ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓"); }
+    else if(d.done){ const id = d.done, was = !!state.done[id], w0 = stats(doneArr(), todayMY()).week; if(was) delete state.done[id]; else state.done[id] = { t: planTitle(id), d: isoOf(todayMY()), g: groupOf(findItem(id)) }; saveDone(); render(); buzz(); toast(was ? "Tanda dah upload dibuang" : "Ditanda dah upload ✓");
+      if(!was){ const w1 = stats(doneArr(), todayMY()).week; if(w0 < state.target && w1 >= state.target){ confetti(); toast("Target minggu ni capai! 🎉"); } else popCheck(); } }
+    else if(d.tone){ try{ localStorage.setItem("rt-tone", d.tone); }catch(e){} render(); buzz(8); }
+    else if(d.star){ const t = d.st || "", h = hsh(t), a = bankLoad(), ix = a.findIndex(x => x.h === h);
+      if(ix >= 0){ a.splice(ix, 1); bankSave(a); b.classList.remove("on"); b.textContent = "☆"; b.setAttribute("aria-pressed", "false"); toast("Dibuang dari Bank ayat"); }
+      else { a.unshift({ h, k: d.star, t, s: d.ss || "", at: dayLabel(todayMY(), true) }); bankSave(a); b.classList.add("on"); b.textContent = "★"; b.setAttribute("aria-pressed", "true"); toast("Disimpan ke Bank ayat ★"); buzz(8); } }
+    else if(d.nshare != null){ navigator.share({ text: d.nshare }).catch(() => {}); }
+    else if(d.bf != null){ state.ana.bf = d.bf; render(); }
+    else if(d.bdel){ const a = bankLoad(), prev = a.slice(), ix = a.findIndex(x => x.h === d.bdel); if(ix >= 0){ a.splice(ix, 1); bankSave(a); render(); toast("Ayat dibuang", () => { bankSave(prev); render(); }); } }
+    else if(d.wkdis){ try{ localStorage.setItem("rt-wkdis", d.wkdis); }catch(e){} render(); }
+    else if(d.wkplan){ const ids = d.wkplan.split(",").filter(Boolean), prev = JSON.parse(JSON.stringify(state.plan)), t = todayMY();
+      ids.forEach((id, k) => { state.plan[id] = { d: isoOf(new Date(t.getTime() + (1 + k * 2) * 864e5)), t: planTitle(id) }; });
+      savePlan(); render(); popCheck(); buzz(20); toast(`${ids.length} video dirancang dalam Plan`, () => { state.plan = prev; savePlan(); render(); }); }
     else if(d.repimg){ saveReportImage(b); }
     else if(d.tgt){ state.target = Math.max(1, Math.min(14, state.target + Number(d.tgt))); saveTarget(); render(); }
     else if(d.bk === "dl"){ const blob = new Blob([backupData()], {type:"application/json"}); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "radar-trending-backup-" + isoOf(todayMY()) + ".json"; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); state.bmsg = { t:"Fail backup dimuat turun. Simpan di Google Drive atau hantar ke WhatsApp sendiri." }; render(); }
