@@ -455,6 +455,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .mock{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;font-size:14px}
 .mh{display:flex;align-items:center;gap:10px}
 .mav{flex:0 0 auto;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--hot));color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px}
+.mh .mav{color:#fff;font-size:13px;text-shadow:0 1px 2px rgba(0,0,0,.25)}
 .mav.sm{width:30px;height:30px;font-size:12px}
 .mh div{display:flex;flex-direction:column;line-height:1.25}.mh b{font-size:14px}.mh span{font-size:12px;color:var(--muted)}
 .mtx{white-space:pre-wrap;line-height:1.45;word-break:break-word}
@@ -1601,7 +1602,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const PM = a.mode === "post";
     return `<div class="seg2" role="group" aria-label="Pilih alat"><button data-anamode="ana" aria-pressed="${a.mode !== "post" && a.mode !== "bank"}">Analisis video</button><button data-anamode="post" aria-pressed="${PM}">Jana posting${nbg("post")}</button><button data-anamode="bank" aria-pressed="${a.mode === "bank"}">Bank ★</button></div>${a.mode === "bank" ? viewBank() : `
       <h2 class="sec">${PM ? "Posting media sosial" : "Analisis video YouTube"}</h2>
-      <div class="card"><div class="note">${PM ? "Tampal link video. App tulis posting untuk Threads, X, YouTube Community dan Facebook." : "Tampal link video. App semak tajuk, thumbnail, deskripsi dan prestasi, kemudian beri cadangan."}</div>
+      <div class="card"><div class="note">${PM ? "Tampal link video. App tulis posting untuk Threads dan YouTube Community." : "Tampal link video. App semak tajuk, thumbnail, deskripsi dan prestasi, kemudian beri cadangan."}</div>
         <div class="linkrow"><input id="anaUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" value="${esc(a.url || "")}" aria-label="Link video YouTube"><button class="btn" data-anapaste="1">Tampal</button></div>
         ${PM ? (key ? "" : `<details class="anaopt"${f.desc ? " open" : ""}><summary>Tampal deskripsi (pilihan)</summary><textarea id="anaDesc" placeholder="Tampal deskripsi video supaya posting lebih tepat" aria-label="Deskripsi video">${esc(f.desc || "")}</textarea></details>`) : `<details class="anaopt"${f.desc || f.ctr || f.ret ? " open" : ""}><summary>Data tambahan (pilihan)</summary>
           <div class="anagrid"><label>CTR thumbnail (%)<input id="anaCtr" type="number" inputmode="decimal" step="0.1" min="0" max="100" value="${f.ctr ?? ""}" placeholder="cth 5.2"></label><label>Purata % ditonton<input id="anaRet" type="number" inputmode="decimal" step="1" min="0" max="100" value="${f.ret ?? ""}" placeholder="cth 42"></label></div>
@@ -1745,7 +1746,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function jumpTo(id){ const el = $(id); if(!el) return; const top = (document.querySelector(".top") || {}).offsetHeight || 110; window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - top - 54, behavior: "smooth" }); }
   /* Jadual posting */
   const SCH_P = { yc:"YouTube Community", fb:"Facebook", th:"Threads", x:"X", yp:"Poll Community", xt:"Thread X" };
-  const SCH_DEF = [["yc", 0, null, "Sejam selepas video keluar, peminat setia paling aktif"], ["fb", 0, "20:00", "Malam, orang Malaysia paling ramai buka Facebook"], ["th", 0, "21:00", "Lepas Isyak, masa santai skrol"], ["x", 1, "12:30", "Rehat tengah hari esoknya, untuk ulang tayang"], ["yp", 2, "20:00", "Poll 2 hari kemudian, tarik penonton lambat"], ["xt", 3, "21:00", "Thread ringkasan, panjangkan hayat video"]];
+  const SCH_DEF = [["yc", 0, null, "Sejam selepas video keluar, peminat setia paling aktif"], ["th", 0, "21:00", "Lepas Isyak, masa santai skrol"], ["yp", 2, "20:00", "Poll 2 hari kemudian, tarik penonton yang terlepas"]];
   function schedLoad(){ try{ const a = JSON.parse(localStorage.getItem("rt-sched") || "[]"); return Array.isArray(a) ? a : []; }catch(e){ return []; } }
   function schedSave(a){ try{ localStorage.setItem("rt-sched", JSON.stringify(a)); }catch(e){} }
   function myParts(dt){ const s = dt.toLocaleString("en-CA", { timeZone:"Asia/Kuala_Lumpur", hourCycle:"h23", year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" }); const m = s.match(/(\d{4})-(\d{2})-(\d{2}),?\s*(\d{2}):(\d{2})/); return m ? { d: `${m[1]}-${m[2]}-${m[3]}`, h: `${m[4]}:${m[5]}` } : { d: isoOf(todayMY()), h: "20:00" }; }
@@ -1798,21 +1799,17 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   }
   function postResult(r){
     seenF("post");
-    const P = postParts(r), v = r.v, n = k => pv("post", k), fbc = !!state.ana.fbc;
-    const x = toneApply(genXPost(P, n("x")), n("x"), 280), xt = toneApply(genXThread(P, n("xt")), n("xt"), 280), th = toneApply(genThreadsPost(P, n("th")), n("th"), 500), yc = toneApply(genYtCom(P, n("yc")), n("yc"), 0), yp = toneApply(genYtPoll(P, n("yp")), n("yp"), 0), fb = toneApply(genFb(P, n("fb"), fbc), n("fb"), 0), fcm = genFbCmt(P);
-    const enc = encodeURIComponent, thin = !P.i && r.desc == null, texts = { x, xt, th, yc, yp, fb: fb + (fbc ? "\n\nKomen pertama:\n" + fcm : "") };
+    const P = postParts(r), v = r.v, n = k => pv("post", k);
+    const th = toneApply(genThreadsPost(P, n("th")), n("th"), 500), yc = toneApply(genYtCom(P, n("yc")), n("yc"), 0), yp = toneApply(genYtPoll(P, n("yp")), n("yp"), 0);
+    const enc = encodeURIComponent, thin = !P.i && r.desc == null, texts = { th, yc, yp };
     state.ana.ptexts = texts;
-    const all = [["THREADS", th], ["X", x], ["X (THREAD)", xt], ["YOUTUBE COMMUNITY", yc], ["POLL COMMUNITY", yp], ["FACEBOOK", texts.fb]].filter(a => a[1]).map(a => `=== ${a[0]} ===\n${a[1]}`).join("\n\n");
+    const all = [["THREADS", th], ["YOUTUBE COMMUNITY", yc], ["POLL COMMUNITY", yp]].filter(a => a[1]).map(a => `=== ${a[0]} ===\n${a[1]}`).join("\n\n");
     return `<div class="card prow"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy"><div><b>${esc(v.title)}</b><span class="note">${esc(v.ch)}${P.i ? ` · topik: ${esc(shortTxt(P.i.title, 40))}` : ""}</span></div></div>
       ${toneBar()}
-      ${jumpBar([["j-th", "Threads"], ["j-x", "X"], ["j-yc", "Community"], ["j-fb", "Facebook"], ["j-jadual", "Jadual"]])}
+      ${jumpBar([["j-th", "Threads"], ["j-yc", "Community"], ["j-jadual", "Jadual"]])}
       ${thin ? `<div class="note">Posting dijana dari tajuk sahaja. Tambah kunci API (dalam "Analisis penuh") supaya app guna deskripsi dan bab video untuk ayat yang lebih tepat.</div>` : ""}
       <div class="card pcard" id="j-th"><div class="phd">${svg("chat")}<b>Threads</b></div>${postBlock("th", "Post", th, 500, "https://www.threads.net/intent/post?text=" + enc(th), "Threads hanya papar 1 topik tag.", P)}</div>
-      <div class="card pcard" id="j-x"><div class="phd">${svg("x")}<b>X (Twitter)</b></div>${postBlock("x", "Tweet", x, 280, "https://x.com/intent/post?text=" + enc(x), "", P)}${postBlock("xt", "Thread", xt, 280, "", "Post tweet pertama, kemudian reply pada diri sendiri untuk setiap bahagian.", P)}</div>
       <div class="card pcard" id="j-yc"><div class="phd">${svg("play")}<b>YouTube Community</b></div>${postBlock("yc", "Post", yc, 0, "", "Di telefon, hanya 4 baris pertama nampak sebelum \"Baca lagi\".", P)}${yp ? postBlock("yp", "Poll", yp, 0, "", "Dalam Studio pilih Create → Post → Poll, salin soalan dan pilihan jawapan.", P) : ""}</div>
-      <div class="card pcard" id="j-fb"><div class="phd">${svg("fb")}<b>Facebook</b></div>
-        <label class="pchk"><input type="checkbox" id="fbcIn"${fbc ? " checked" : ""}> Letak link dalam komen pertama (biasanya reach lebih tinggi)</label>
-        ${postBlock("fb", "Post", fb, 0, "https://www.facebook.com/sharer/sharer.php?u=" + enc(P.link), "Hanya lebih kurang 5 baris pertama nampak sebelum \"Lihat lagi\", jadi hook mesti di atas.", P, fbc)}${fbc ? postBlock("fcm", "Komen pertama", fcm, 0, "", "", P) : ""}</div>
       ${schedHtml(r, texts)}
       <div class="acts"><button class="btn pri" data-copy="${esc(all)}" style="flex:1">Salin semua posting</button><button class="btn" data-anamode="ana">Analisis video ni</button></div>`;
   }
@@ -2063,7 +2060,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     else if(d.schics){ const r = state.ana.r; if(r && state.ana.sched){ seenF("jadual"); schedIcs(r, state.ana.ptexts || {}); } }
     else if(d.schdone){ const a = schedLoad(), x = a.find(y => y.k === d.schdone); if(x){ x.done = !x.done; schedSave(a); toast("Ditanda dah post ✓"); buzz(); render(); if(x.done) popCheck(); } }
     else if(d.schdel){ const a = schedLoad(), ix = a.findIndex(y => y.k === d.schdel); if(ix >= 0){ const prev = a.slice(); a.splice(ix, 1); schedSave(a); render(); toast("Peringatan dibuang", () => { schedSave(prev); render(); }); } }
-    else if(d.schopen){ const x = schedLoad().find(y => y.k === d.schopen); if(x){ state.ana.mode = "post"; state.ana.f = {}; state.ana.jumpAfter = "j-" + (x.p === "xt" ? "x" : x.p === "yp" ? "yc" : x.p); state.ptab = "analisis"; setView("plan"); anaRun(x.u); } }
+    else if(d.schopen){ const x = schedLoad().find(y => y.k === d.schopen); if(x){ state.ana.mode = "post"; state.ana.f = {}; state.ana.jumpAfter = "j-" + (x.p === "yp" ? "yc" : x.p === "th" ? "th" : x.p === "yc" ? "yc" : "th"); state.ptab = "analisis"; setView("plan"); anaRun(x.u); } }
     else if(d.anaopen){ state.ptab = "analisis"; setView("plan"); }
     else if(d.anapaste){ (navigator.clipboard && navigator.clipboard.readText ? navigator.clipboard.readText() : Promise.reject()).then(t => { const el = $("anaUrl"); if(!el) return; const m = String(t || "").match(/https?:\/\/\S+/); el.value = m ? m[0] : String(t || "").trim(); anaUrlChanged(el.value); if(ytId(el.value)) anaRun(el.value); }).catch(() => toast("Tekan lama dalam kotak link, kemudian pilih Tampal")); }
     else if(d.anakey === "save"){ const el = $("anaKeyIn"), k = el ? el.value.trim() : ""; if(!/^AIza[\w-]{30,}$/.test(k)){ toast("Kunci API YouTube biasanya bermula dengan AIza…"); return; } try{ localStorage.setItem("rt-ytkey", k); }catch(e){} Object.keys(anaCache).forEach(x => delete anaCache[x]); toast("Kunci disimpan ✓"); if(state.ana.r) anaRun(state.ana.url); else render(); }

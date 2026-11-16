@@ -56,7 +56,7 @@
     {
       "name": "Jana posting",
       "short_name": "Posting",
-      "description": "Posting Threads, X, Community & Facebook dari link video",
+      "description": "Posting Threads & YouTube Community dari link video",
       "url": "./?v=posting",
       "icons": [
         {
