@@ -1,6 +1,6 @@
 {
- "date": "2026-11-16",
- "updated_label": "16 Nov 2026, 7 petang",
+ "date": "2026-11-17",
+ "updated_label": "17 Nov 2026, 7 pagi",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -10,9 +10,9 @@
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "13 Nov 2026",
+    "checked": "17 Nov 2026",
     "level": "sesak",
-    "note": "Banyak tutorial kemas kini STR 2027 dah keluar sejak Okt. Pilih sudut lain seperti rayuan, kesilapan biasa atau semak status."
+    "note": "Banyak tutorial BM kemas kini STR 2027 dan log masuk MySTR guna MyDigital ID sejak Okt. Sudut yang masih kurang: semak status selepas kemas kini, rayuan dan kesilapan biasa sebelum tempoh Fasa 1 tamat."
    },
    "deadline": "Fasa 1: kemas kini hingga Nov 2026",
    "icon": "aid",
@@ -24,8 +24,8 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 97,
-   "score": 96,
+   "prev_score": 96,
+   "score": 95,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Hari ni, 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas. Jom semak dalam 5 minit.",
@@ -210,8 +210,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 89,
-   "score": 92,
+   "prev_score": 92,
+   "score": 93,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Mulai hari ni korang boleh aktifkan pas RM50 untuk naik tanpa had sebulan, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -330,9 +330,9 @@
    },
    "cat": "tutorial",
    "competition": {
-    "checked": "13 Nov 2026",
+    "checked": "17 Nov 2026",
     "level": "tinggi",
-    "note": "Belum jumpa tutorial Bahasa Melayu untuk renew 10 tahun secara online sejak 2 Nov. Video yang ada masih versi lama 5 tahun."
+    "note": "Video BM yang dijumpai masih tutorial renew online umum (versi 5 tahun lama); belum jumpa tutorial BM khusus pilih tempoh 10 tahun di MyOnline Passport sejak 2 Nov."
    },
    "icon": "passport",
    "id": "pasport-10-tahun-online",
@@ -343,8 +343,8 @@
     "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
     "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
    ],
-   "prev_score": 84,
-   "score": 82,
+   "prev_score": 82,
+   "score": 80,
    "script": {
     "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
     "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
@@ -470,6 +470,146 @@
    ]
   },
   {
+   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
+   "app": {
+    "name": "MySaham MITI / portal SahamOnline",
+    "url": "https://sahamonline.miti.gov.my/"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "16 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM sedia ada kebanyakannya tutorial portal MITI versi lama; belum jumpa video yang tunjuk app MySaham baharu (dilancar 12 Nov)."
+   },
+   "faq": [
+    {
+     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
+     "q": "MySaham MITI ni app apa?"
+    },
+    {
+     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
+     "q": "Siapa boleh mohon SKB?"
+    },
+    {
+     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
+     "q": "Perlu ada apa sebelum mohon?"
+    },
+    {
+     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
+     "q": "Berapa minimum nak labur?"
+    },
+    {
+     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
+     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
+    }
+   ],
+   "icon": "chart",
+   "id": "mysaham-miti-skb",
+   "ideas": [
+    "Cara Daftar App MySaham MITI (Langkah Penuh)",
+    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
+    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
+    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
+    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
+   ],
+   "prev_score": 80,
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "1 Okt 2026",
+      "12 Nov 2026",
+      "1 Jan 2027"
+     ],
+     "q": "Bila app MySaham MITI dilancarkan?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "30 hari",
+      "90 hari",
+      "180 hari"
+     ],
+     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Akaun CDS",
+      "Akaun KWSP",
+      "Akaun Tabung Haji"
+     ],
+     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
+    }
+   ],
+   "score": 81,
+   "seo": {
+    "hashtags": [
+     "#mysaham",
+     "#sahamipo",
+     "#miti",
+     "#sahambumiputera",
+     "#belajarsaham"
+    ],
+    "keywords": [
+     "mysaham miti",
+     "cara mohon saham ipo bumiputera",
+     "saham khas bumiputera miti",
+     "daftar sahamonline miti",
+     "app mysaham"
+    ],
+    "tags": [
+     "mysaham",
+     "miti",
+     "saham ipo",
+     "saham bumiputera",
+     "skb",
+     "akaun cds",
+     "pelaburan saham",
+     "tutorial saham"
+    ],
+    "thumbs": [
+     "IPO DALAM TELEFON",
+     "SAHAM BUMIPUTERA",
+     "BOLEH RUGI JUGA!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
+     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
+     "title": "App Baru MITI Untuk Saham IPO"
+    },
+    {
+     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
+     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
+     "title": "Mitos: Saham IPO Confirm Untung"
+    },
+    {
+     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
+     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
+     "title": "Kesilapan Ni Kena Ban 180 Hari"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (16 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
+    },
+    {
+     "name": "NST (Sept 2026): eSaham 2.0",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
+    },
+    {
+     "name": "Portal SahamOnline MITI",
+     "url": "https://sahamonline.miti.gov.my/"
+    }
+   ],
+   "status": "naik",
+   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
+   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
+  },
+  {
    "angle": "Panduan bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, dan beza BWI RM1,000 dengan bantuan khas Selangor. Ingatkan kriteria bantuan khas akan diumumkan agensi pelaksana.",
    "cat": "kewangan",
    "competition": {
@@ -508,8 +648,8 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Musim Banjir: Persiapan Dokumen & Kewangan"
    ],
-   "prev_score": 83,
-   "score": 81,
+   "prev_score": 81,
+   "score": 79,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -609,424 +749,9 @@
      "url": "https://www.sinarharian.com.my/article/755869/berita/nasional/mtl-bantuan-wang-ihsan-bencana-disalur-setiap-tiga-bulan"
     }
    ],
-   "status": "panas",
+   "status": "naik",
    "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
    "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak, dan MetMalaysia keluarkan amaran hujan berterusan untuk Kelantan, Terengganu, Pahang dan Sabah (Bernama, 9 Nov). Ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di sistem MyIBJKM. Pada 9 Nov, PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor dan kerajaan negeri tambah RM500, jadi RM3,000 sekali bayar (RinggitPlus, 10 Nov)."
-  },
-  {
-   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
-   "app": {
-    "name": "MySaham MITI / portal SahamOnline",
-    "url": "https://sahamonline.miti.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "16 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM sedia ada kebanyakannya tutorial portal MITI versi lama; belum jumpa video yang tunjuk app MySaham baharu (dilancar 12 Nov)."
-   },
-   "faq": [
-    {
-     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
-     "q": "MySaham MITI ni app apa?"
-    },
-    {
-     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
-     "q": "Siapa boleh mohon SKB?"
-    },
-    {
-     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
-     "q": "Perlu ada apa sebelum mohon?"
-    },
-    {
-     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
-     "q": "Berapa minimum nak labur?"
-    },
-    {
-     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
-     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
-    }
-   ],
-   "icon": "chart",
-   "id": "mysaham-miti-skb",
-   "ideas": [
-    "Cara Daftar App MySaham MITI (Langkah Penuh)",
-    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
-    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
-    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
-    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
-   ],
-   "prev_score": null,
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "1 Okt 2026",
-      "12 Nov 2026",
-      "1 Jan 2027"
-     ],
-     "q": "Bila app MySaham MITI dilancarkan?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "30 hari",
-      "90 hari",
-      "180 hari"
-     ],
-     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Akaun CDS",
-      "Akaun KWSP",
-      "Akaun Tabung Haji"
-     ],
-     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
-    }
-   ],
-   "score": 80,
-   "seo": {
-    "hashtags": [
-     "#mysaham",
-     "#sahamipo",
-     "#miti",
-     "#sahambumiputera",
-     "#belajarsaham"
-    ],
-    "keywords": [
-     "mysaham miti",
-     "cara mohon saham ipo bumiputera",
-     "saham khas bumiputera miti",
-     "daftar sahamonline miti",
-     "app mysaham"
-    ],
-    "tags": [
-     "mysaham",
-     "miti",
-     "saham ipo",
-     "saham bumiputera",
-     "skb",
-     "akaun cds",
-     "pelaburan saham",
-     "tutorial saham"
-    ],
-    "thumbs": [
-     "IPO DALAM TELEFON",
-     "SAHAM BUMIPUTERA",
-     "BOLEH RUGI JUGA!"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
-     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
-     "title": "App Baru MITI Untuk Saham IPO"
-    },
-    {
-     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
-     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
-     "title": "Mitos: Saham IPO Confirm Untung"
-    },
-    {
-     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
-     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
-     "title": "Kesilapan Ni Kena Ban 180 Hari"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
-    },
-    {
-     "name": "NST (Sept 2026): eSaham 2.0",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
-    },
-    {
-     "name": "Portal SahamOnline MITI",
-     "url": "https://sahamonline.miti.gov.my/"
-    }
-   ],
-   "status": "naik",
-   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
-   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
-  },
-  {
-   "angle": "Tutorial skrin telefon: daftar eGUMIS, semak nama sendiri dan ahli keluarga, dan cara hantar tuntutan. Selitkan amaran JANM tak pernah hantar e-mel pemakluman dan jangan bayar 'ejen' untuk tuntut.",
-   "app": {
-    "name": "eGUMIS (JANM)",
-    "url": "https://egumis.anm.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "15 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada banyak tutorial eGUMIS BM, kebanyakannya lama; hanya sedikit yang baharu dengan angka RM14 bilion. Sudut waris arwah dan amaran ejen berbayar masih kurang diterokai."
-   },
-   "icon": "link",
-   "id": "wang-tak-dituntut-janm",
-   "ideas": [
-    "RM14 Bilion Tak Dituntut! Cara Semak Nama Korang",
-    "Cara Daftar eGUMIS & Tuntut Duit (Step by Step)",
-    "Duit Arwah Tak Dituntut? Ini Cara Waris Mohon",
-    "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
-    "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
-   ],
-   "prev_score": 81,
-   "score": 79,
-   "seo": {
-    "hashtags": [
-     "#wangtakdituntut",
-     "#egumis",
-     "#duitpercuma",
-     "#tutorialmalaysia",
-     "#kewanganperibadi"
-    ],
-    "keywords": [
-     "cara semak wang tak dituntut",
-     "egumis daftar",
-     "wang tak dituntut 2026",
-     "tuntut duit jabatan akauntan negara",
-     "semak wtd online"
-    ],
-    "tags": [
-     "wang tak dituntut",
-     "egumis",
-     "jabatan akauntan negara",
-     "janm",
-     "duit percuma",
-     "semak wtd",
-     "tutorial kerajaan",
-     "kewangan peribadi"
-    ],
-    "thumbs": [
-     "RM14 BILION TAK DITUNTUT",
-     "SEMAK NAMA KORANG",
-     "DUIT KORANG ADA?"
-    ]
-   },
-   "sources": [
-    {
-     "name": "The Star (3 Nov 2026)",
-     "url": "https://www.thestar.com.my/news/nation/2026/11/03/rm14bil-in-unclaimed-money-as-of-september-2026-says-amir-hamzah"
-    },
-    {
-     "name": "RinggitPlus BM (12 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/lebih-rm14-bilion-wang-tak-dituntut-di-janm-mungkin-ada-bahagian-anda.html"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129158/over-rm14b-in-unclaimed-money-as-of-september-this-year-minister"
-    }
-   ],
-   "status": "naik",
-   "title": "RM14 bilion wang tak dituntut di JANM: cara semak di eGUMIS",
-   "why": "Menteri Kewangan II Amir Hamzah Azizan beritahu Dewan Rakyat pada 3 Nov 2026 bahawa wang tak dituntut yang dipegang Jabatan Akauntan Negara melebihi RM14 bilion setakat 30 Sept 2026. Semakan dan tuntutan boleh dibuat percuma di portal eGUMIS guna nombor MyKad; tuntutan lengkap biasanya diproses dalam 30 hari (RinggitPlus, 12 Nov).",
-   "shorts": [
-    {
-     "title": "RM14 Bilion Tak Dituntut! Semak Nama",
-     "hook": "Mungkin ada duit korang dalam RM14 bilion ni.",
-     "beat": "Tunjuk eGUMIS: masukkan nombor MyKad dan semak. Percuma, tak perlu ejen."
-    },
-    {
-     "title": "Duit Arwah Tak Dituntut? Waris Boleh Mohon",
-     "hook": "Ahli keluarga dah meninggal? Duit lama dia mungkin ada di JANM.",
-     "beat": "Terang waris boleh semak dan mohon di eGUMIS, tuntutan lengkap biasanya diproses dalam 30 hari."
-    },
-    {
-     "title": "Ejen Minta Bayaran Tuntut WTD? Scam",
-     "hook": "Ada orang tawar tolong tuntut duit korang, tapi minta bayaran dulu?",
-     "beat": "Semakan dan tuntutan di eGUMIS percuma. JANM tak hantar e-mel pemakluman."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Berapa banyak wang tak dituntut sekarang?",
-     "a": "Lebih RM14 bilion setakat 30 September 2026."
-    },
-    {
-     "q": "Macam mana nak semak?",
-     "a": "Di portal eGUMIS guna nombor MyKad. Percuma."
-    },
-    {
-     "q": "Berapa lama proses tuntutan?",
-     "a": "Tuntutan lengkap biasanya diproses dalam 30 hari."
-    },
-    {
-     "q": "Waris boleh tuntut duit arwah?",
-     "a": "Ya, waris boleh semak dan mohon melalui eGUMIS dengan dokumen sokongan."
-    },
-    {
-     "q": "Perlu bayar ejen ke?",
-     "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa wang tak dituntut di JANM setakat Sept 2026?",
-     "o": [
-      "RM1.4 bilion",
-      "RM14 bilion",
-      "RM140 juta"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Portal untuk semak wang tak dituntut ialah…",
-     "o": [
-      "eGUMIS",
-      "MyTax",
-      "i-Akaun"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Berapa kos untuk semak dan tuntut di eGUMIS?",
-     "o": [
-      "Percuma",
-      "RM10",
-      "RM50"
-     ],
-     "a": 0
-    }
-   ]
-  },
-  {
-   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
-   "app": {
-    "name": "WhatsApp (Tetapan > Storan dan data)"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "14 Nov 2026",
-    "level": "tinggi",
-    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
-   },
-   "icon": "shield",
-   "id": "whatsapp-malware-apk",
-   "ideas": [
-    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
-    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
-    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
-    "5 Tanda Telefon Korang Dah Kena Malware",
-    "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
-   ],
-   "prev_score": 72,
-   "score": 79,
-   "seo": {
-    "hashtags": [
-     "#whatsapp",
-     "#awasscam",
-     "#scamapk",
-     "#keselamatansiber",
-     "#tipswhatsapp"
-    ],
-    "keywords": [
-     "malware whatsapp",
-     "cara elak whatsapp kena hack",
-     "matikan muat turun automatik whatsapp",
-     "fail apk whatsapp scam",
-     "whatsapp pengesahan identiti malaysia"
-    ],
-    "tags": [
-     "whatsapp",
-     "malware",
-     "scam apk",
-     "keselamatan telefon",
-     "whatsapp hack",
-     "tips whatsapp",
-     "scam malaysia",
-     "otp"
-    ],
-    "thumbs": [
-     "JANGAN BUKA FAIL NI",
-     "WHATSAPP KENA HACK?",
-     "OFF SETTING NI!"
-    ]
-   },
-   "sources": [
-    {
-     "name": "SoyaCincau (15 Nov 2026)",
-     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
-    },
-    {
-     "name": "The Vibes (8 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
-    }
-   ],
-   "status": "naik",
-   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
-   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau).",
-   "shorts": [
-    {
-     "title": "Off Setting WhatsApp Ni SEKARANG",
-     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
-     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
-    },
-    {
-     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
-     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
-     "title": "WhatsApp Kena Verify Identiti?"
-    },
-    {
-     "title": "On Pengesahan 2 Langkah WhatsApp",
-     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
-     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Betul ke WhatsApp boleh kena malware?",
-     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
-    },
-    {
-     "q": "Apa malware ni boleh buat?",
-     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
-    },
-    {
-     "q": "Setting apa nak tutup?",
-     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
-    },
-    {
-     "q": "Macam mana nak lindungi akaun?",
-     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
-    },
-    {
-     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
-     "q": "Betul ke WhatsApp nanti kena daftar IC?"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
-     "o": [
-      "Dokumen",
-      "Lagu",
-      "Sticker"
-     ],
-     "a": 0
-    },
-    {
-     "a": 1,
-     "o": [
-      "Menteri Kewangan",
-      "Menteri Komunikasi Fahmi Fadzil",
-      "Gabenor BNM"
-     ],
-     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
-    },
-    {
-     "q": "Cara terbaik kunci akaun WhatsApp?",
-     "o": [
-      "Pengesahan dua langkah",
-      "Tukar gambar profil",
-      "Padam chat lama"
-     ],
-     "a": 0
-    }
-   ]
   },
   {
    "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sesuai jadi siri Shorts mingguan setiap kali harga baharu diumumkan hari Rabu.",
@@ -1046,8 +771,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Kenapa Harga Minyak Naik Turun Setiap Minggu?"
    ],
-   "prev_score": 80,
-   "score": 78,
+   "prev_score": 78,
+   "score": 79,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -1166,6 +891,281 @@
    ]
   },
   {
+   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
+   "app": {
+    "name": "WhatsApp (Tetapan > Storan dan data)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "14 Nov 2026",
+    "level": "tinggi",
+    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
+   },
+   "icon": "shield",
+   "id": "whatsapp-malware-apk",
+   "ideas": [
+    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
+    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
+    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
+    "5 Tanda Telefon Korang Dah Kena Malware",
+    "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
+   ],
+   "prev_score": 79,
+   "score": 78,
+   "seo": {
+    "hashtags": [
+     "#whatsapp",
+     "#awasscam",
+     "#scamapk",
+     "#keselamatansiber",
+     "#tipswhatsapp"
+    ],
+    "keywords": [
+     "malware whatsapp",
+     "cara elak whatsapp kena hack",
+     "matikan muat turun automatik whatsapp",
+     "fail apk whatsapp scam",
+     "whatsapp pengesahan identiti malaysia"
+    ],
+    "tags": [
+     "whatsapp",
+     "malware",
+     "scam apk",
+     "keselamatan telefon",
+     "whatsapp hack",
+     "tips whatsapp",
+     "scam malaysia",
+     "otp"
+    ],
+    "thumbs": [
+     "JANGAN BUKA FAIL NI",
+     "WHATSAPP KENA HACK?",
+     "OFF SETTING NI!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "SoyaCincau (15 Nov 2026)",
+     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
+    },
+    {
+     "name": "The Vibes (8 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
+    }
+   ],
+   "status": "naik",
+   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
+   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau).",
+   "shorts": [
+    {
+     "title": "Off Setting WhatsApp Ni SEKARANG",
+     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
+     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
+    },
+    {
+     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
+     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
+     "title": "WhatsApp Kena Verify Identiti?"
+    },
+    {
+     "title": "On Pengesahan 2 Langkah WhatsApp",
+     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
+     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke WhatsApp boleh kena malware?",
+     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+    },
+    {
+     "q": "Apa malware ni boleh buat?",
+     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+    },
+    {
+     "q": "Setting apa nak tutup?",
+     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+    },
+    {
+     "q": "Macam mana nak lindungi akaun?",
+     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
+    },
+    {
+     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
+     "q": "Betul ke WhatsApp nanti kena daftar IC?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "o": [
+      "Dokumen",
+      "Lagu",
+      "Sticker"
+     ],
+     "a": 0
+    },
+    {
+     "a": 1,
+     "o": [
+      "Menteri Kewangan",
+      "Menteri Komunikasi Fahmi Fadzil",
+      "Gabenor BNM"
+     ],
+     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
+    },
+    {
+     "q": "Cara terbaik kunci akaun WhatsApp?",
+     "o": [
+      "Pengesahan dua langkah",
+      "Tukar gambar profil",
+      "Padam chat lama"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "angle": "Tutorial skrin telefon: daftar eGUMIS, semak nama sendiri dan ahli keluarga, dan cara hantar tuntutan. Selitkan amaran JANM tak pernah hantar e-mel pemakluman dan jangan bayar 'ejen' untuk tuntut.",
+   "app": {
+    "name": "eGUMIS (JANM)",
+    "url": "https://egumis.anm.gov.my/"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "15 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada banyak tutorial eGUMIS BM, kebanyakannya lama; hanya sedikit yang baharu dengan angka RM14 bilion. Sudut waris arwah dan amaran ejen berbayar masih kurang diterokai."
+   },
+   "icon": "link",
+   "id": "wang-tak-dituntut-janm",
+   "ideas": [
+    "RM14 Bilion Tak Dituntut! Cara Semak Nama Korang",
+    "Cara Daftar eGUMIS & Tuntut Duit (Step by Step)",
+    "Duit Arwah Tak Dituntut? Ini Cara Waris Mohon",
+    "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
+    "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
+   ],
+   "prev_score": 79,
+   "score": 77,
+   "seo": {
+    "hashtags": [
+     "#wangtakdituntut",
+     "#egumis",
+     "#duitpercuma",
+     "#tutorialmalaysia",
+     "#kewanganperibadi"
+    ],
+    "keywords": [
+     "cara semak wang tak dituntut",
+     "egumis daftar",
+     "wang tak dituntut 2026",
+     "tuntut duit jabatan akauntan negara",
+     "semak wtd online"
+    ],
+    "tags": [
+     "wang tak dituntut",
+     "egumis",
+     "jabatan akauntan negara",
+     "janm",
+     "duit percuma",
+     "semak wtd",
+     "tutorial kerajaan",
+     "kewangan peribadi"
+    ],
+    "thumbs": [
+     "RM14 BILION TAK DITUNTUT",
+     "SEMAK NAMA KORANG",
+     "DUIT KORANG ADA?"
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Star (3 Nov 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/03/rm14bil-in-unclaimed-money-as-of-september-2026-says-amir-hamzah"
+    },
+    {
+     "name": "RinggitPlus BM (12 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/lebih-rm14-bilion-wang-tak-dituntut-di-janm-mungkin-ada-bahagian-anda.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129158/over-rm14b-in-unclaimed-money-as-of-september-this-year-minister"
+    }
+   ],
+   "status": "naik",
+   "title": "RM14 bilion wang tak dituntut di JANM: cara semak di eGUMIS",
+   "why": "Menteri Kewangan II Amir Hamzah Azizan beritahu Dewan Rakyat pada 3 Nov 2026 bahawa wang tak dituntut yang dipegang Jabatan Akauntan Negara melebihi RM14 bilion setakat 30 Sept 2026. Semakan dan tuntutan boleh dibuat percuma di portal eGUMIS guna nombor MyKad; tuntutan lengkap biasanya diproses dalam 30 hari (RinggitPlus, 12 Nov).",
+   "shorts": [
+    {
+     "title": "RM14 Bilion Tak Dituntut! Semak Nama",
+     "hook": "Mungkin ada duit korang dalam RM14 bilion ni.",
+     "beat": "Tunjuk eGUMIS: masukkan nombor MyKad dan semak. Percuma, tak perlu ejen."
+    },
+    {
+     "title": "Duit Arwah Tak Dituntut? Waris Boleh Mohon",
+     "hook": "Ahli keluarga dah meninggal? Duit lama dia mungkin ada di JANM.",
+     "beat": "Terang waris boleh semak dan mohon di eGUMIS, tuntutan lengkap biasanya diproses dalam 30 hari."
+    },
+    {
+     "title": "Ejen Minta Bayaran Tuntut WTD? Scam",
+     "hook": "Ada orang tawar tolong tuntut duit korang, tapi minta bayaran dulu?",
+     "beat": "Semakan dan tuntutan di eGUMIS percuma. JANM tak hantar e-mel pemakluman."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Berapa banyak wang tak dituntut sekarang?",
+     "a": "Lebih RM14 bilion setakat 30 September 2026."
+    },
+    {
+     "q": "Macam mana nak semak?",
+     "a": "Di portal eGUMIS guna nombor MyKad. Percuma."
+    },
+    {
+     "q": "Berapa lama proses tuntutan?",
+     "a": "Tuntutan lengkap biasanya diproses dalam 30 hari."
+    },
+    {
+     "q": "Waris boleh tuntut duit arwah?",
+     "a": "Ya, waris boleh semak dan mohon melalui eGUMIS dengan dokumen sokongan."
+    },
+    {
+     "q": "Perlu bayar ejen ke?",
+     "a": "Tak perlu. Semakan dan tuntutan di eGUMIS percuma, dan JANM tak hantar e-mel pemakluman."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa wang tak dituntut di JANM setakat Sept 2026?",
+     "o": [
+      "RM1.4 bilion",
+      "RM14 bilion",
+      "RM140 juta"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal untuk semak wang tak dituntut ialah…",
+     "o": [
+      "eGUMIS",
+      "MyTax",
+      "i-Akaun"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Berapa kos untuk semak dan tuntut di eGUMIS?",
+     "o": [
+      "Percuma",
+      "RM10",
+      "RM50"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
    "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
    "cat": "kewangan",
    "competition": {
@@ -1183,8 +1183,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 79,
-   "score": 78,
+   "prev_score": 78,
+   "score": 76,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1314,9 +1314,9 @@
    },
    "cat": "tutorial",
    "competition": {
-    "checked": "13 Nov 2026",
+    "checked": "17 Nov 2026",
     "level": "sederhana",
-    "note": "Ada beberapa Shorts dan berita, tapi tutorial penuh dalam Bahasa Melayu masih sedikit."
+    "note": "Ada satu-dua Shorts BM 'akses AI percuma, cara daftar' dan post Komuniti tentang Coursera penuh. Tutorial penuh BM dari daftar MyDigital ID hingga tuntut lesen masih kurang."
    },
    "icon": "learn",
    "id": "rakyat-digital-coursera-ai",
@@ -1327,8 +1327,8 @@
     "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
     "Cara Daftar MyDigital ID Dari Kosong (2026)"
    ],
-   "prev_score": 79,
-   "score": 77,
+   "prev_score": 77,
+   "score": 76,
    "seo": {
     "hashtags": [
      "#coursera",
@@ -1458,9 +1458,9 @@
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "13 Nov 2026",
-    "level": "tinggi",
-    "note": "Video SARA yang ada kebanyakannya berita SARA 2025/2026. Belum ramai buat penerangan SARA MADANI 2027."
+    "checked": "17 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2–3 klip berita BM Bajet 2027 tentang peruntukan STR/SARA RM16 bilion dan SARA RM150 sebulan, tapi bacaan berita sahaja. Penerangan santai siapa layak RM100 SARA MADANI dan bila masih kosong."
    },
    "icon": "card",
    "id": "sara-madani-2027",
@@ -1471,8 +1471,8 @@
     "Cara Semak Baki SARA Dalam MyKad",
     "Barang Apa Boleh Beli Guna SARA? Senarai Penuh"
    ],
-   "prev_score": 78,
-   "score": 76,
+   "prev_score": 76,
+   "score": 75,
    "seo": {
     "hashtags": [
      "#sara2027",
@@ -1606,8 +1606,8 @@
     "5 Urusan Kerajaan Yang Perlukan MyDigital ID",
     "MyDigital ID Error? Ini Cara Betulkan"
    ],
-   "prev_score": 78,
-   "score": 76,
+   "prev_score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#mydigitalid",
@@ -1722,6 +1722,154 @@
    ]
   },
   {
+   "angle": "Video amaran pendek: rupa SMS saman palsu dan taktik 'tap kad pada telefon', berbanding saluran rasmi BNM. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "17 Nov 2026",
+    "level": "tinggi",
+    "note": "Video MyBayar yang ada semua tutorial bayar saman. Video 'ghost tapping'/NFC yang ada dalam bahasa Inggeris dan Indonesia; belum jumpa video BM tentang app 'BNM Mobile Security' palsu."
+   },
+   "faq": [
+    {
+     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP.",
+     "q": "SMS saman PDRM RM150 tu betul ke?"
+    },
+    {
+     "a": "App palsu itu baca data kad melalui NFC dan hantar kepada scammer untuk buat transaksi atau keluar duit di ATM.",
+     "q": "Kenapa scammer suruh tap kad bank pada telefon?"
+    },
+    {
+     "a": "Tidak, MyCERT kata itu app palsu dan saluran rasmi BNM tidak mengedarkannya.",
+     "q": "BNM ada app 'BNM Mobile Security' ke?"
+    },
+    {
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997.",
+     "q": "Dah terisi maklumat kad, nak buat apa?"
+    },
+    {
+     "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang.",
+     "q": "Polis ada buat tindakan ke?"
+    }
+   ],
+   "icon": "shield",
+   "id": "scam-saman-pdrm-mybayar",
+   "ideas": [
+    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
+    "App 'BNM' Palsu Suruh Tap Kad? Ini Scam NFC",
+    "Cara Semak Link Palsu Dalam 10 Saat",
+    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
+    "5 Scam Paling Banyak Hujung Tahun 2026"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM50",
+      "RM150",
+      "RM300"
+     ],
+     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "MyCERT",
+      "JPJ",
+      "LHDN"
+     ],
+     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Bluetooth",
+      "NFC",
+      "Inframerah"
+     ],
+     "q": "App palsu 'BNM Mobile Security' curi data kad guna teknologi apa?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#scammalaysia",
+     "#awasscam",
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
+    ],
+    "keywords": [
+     "sms saman pdrm scam",
+     "app bnm palsu",
+     "scam tap kad nfc",
+     "mybayar palsu",
+     "cara semak link palsu"
+    ],
+    "tags": [
+     "scam malaysia",
+     "saman pdrm",
+     "app bnm palsu",
+     "nfc scam",
+     "mybayar",
+     "mycert",
+     "sms palsu",
+     "scam alert"
+    ],
+    "thumbs": [
+     "JANGAN TAP KAD!",
+     "SAMAN PALSU RM150",
+     "SCAM TERBARU"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS.",
+     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
+     "title": "SMS Saman RM150 Ni SCAM"
+    },
+    {
+     "beat": "MyCERT amaran 4 Nov: app 'BNM Mobile Security' palsu baca kad melalui NFC dan hantar data ke scammer. BNM dan bank tak pernah minta PIN kad.",
+     "hook": "Orang 'BNM' call suruh install app dan tap kad? Itu scam.",
+     "title": "Jangan Tap Kad Pada Telefon!"
+    },
+    {
+     "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie.",
+     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
+     "title": "Dah Terklik Link Scam? Buat Ni"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+    },
+    {
+     "name": "The Star (5 Nov 2026)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
+    },
+    {
+     "name": "The Star (6 Nov 2026)",
+     "url": "https://thestar.com.my/business/business-news/2026/11/06/scammers-using-fake-website-malicious-apps-to-impersonate-bank-negara"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    },
+    {
+     "name": "The Star (12 Nov 2026)",
+     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
+    }
+   ],
+   "title": "Amaran scam: SMS saman PDRM palsu & app 'BNM' palsu curi data kad",
+   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP. Pada 4 Nov, MyCERT juga amaran tentang app palsu 'BNM Mobile Security' yang disebar melalui panggilan menyamar BNM/polis: mangsa disuruh tap kad bank pada telefon, lalu data kad dihantar melalui NFC kepada scammer untuk transaksi dan pengeluaran ATM (The Star, 5 Nov). Pada 12 Nov, Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang; mangsa diminta hubungi NSRC 997 segera.",
+   "score": 74,
+   "prev_score": 71,
+   "status": "naik"
+  },
+  {
    "angle": "Tutorial langkah demi langkah dalam MAE (menu Apply > Investment > ASNB Account) dan banding dengan app myASNB. Ingatkan penonton: ini pelaburan unit amanah, nilai dan dividen tidak dijamin.",
    "app": {
     "name": "MAE by Maybank",
@@ -1743,8 +1891,8 @@
     "Cashback RM5 Buka ASNB: Cara Claim Sebelum Habis",
     "Top Up ASB Bulanan Dalam MAE: Tips Disiplin"
    ],
-   "prev_score": 75,
-   "score": 74,
+   "prev_score": 74,
+   "score": 73,
    "seo": {
     "hashtags": [
      "#asnb",
@@ -1859,146 +2007,6 @@
    ]
   },
   {
-   "angle": "Video pendek yang tunjuk rupa SMS palsu vs saluran rasmi, dan tutorial guna bnm.gov.my/sahkan. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
-   "app": {
-    "name": "BNM Sahkan",
-    "url": "https://www.bnm.gov.my/sahkan"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "13 Nov 2026",
-    "level": "tinggi",
-    "note": "Belum jumpa video yang terangkan scam SMS saman RM150 ni. Video MyBayar yang ada semua tutorial bayar saman lama."
-   },
-   "icon": "shield",
-   "id": "scam-saman-pdrm-mybayar",
-   "ideas": [
-    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
-    "Cara Semak Link Palsu Dalam 10 Saat",
-    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
-    "Cara Semak Saman Sebenar (Bukan Dari SMS)",
-    "5 Scam Paling Banyak Hujung Tahun 2026"
-   ],
-   "prev_score": 74,
-   "score": 71,
-   "seo": {
-    "hashtags": [
-     "#scammalaysia",
-     "#awasscam",
-     "#samanpdrm",
-     "#penipuanonline",
-     "#mybayar"
-    ],
-    "keywords": [
-     "sms saman pdrm scam",
-     "mybayar palsu",
-     "scam saman rm150",
-     "cara semak link palsu",
-     "bnm sahkan"
-    ],
-    "tags": [
-     "scam malaysia",
-     "saman pdrm",
-     "mybayar",
-     "penipuan online",
-     "sms palsu",
-     "mycert",
-     "bnm sahkan",
-     "scam alert"
-    ],
-    "thumbs": [
-     "JANGAN KLIK!",
-     "SAMAN PALSU RM150",
-     "SCAM TERBARU"
-    ]
-   },
-   "sources": [
-    {
-     "name": "ProductNation",
-     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
-    },
-    {
-     "name": "The Star (12 Nov 2026)",
-     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
-    }
-   ],
-   "status": "stabil",
-   "title": "Amaran scam: SMS saman PDRM palsu RM150 curi kad dan OTP",
-   "why": "MyCERT keluarkan nasihat pada 6 November tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan BNM ingatkan orang ramai semak maklumat mencurigakan di bnm.gov.my/sahkan. Pada 12 Nov, Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket scam pusat panggilan dan tahan 932 orang, serta ingatkan mangsa hubungi NSRC 997 segera.",
-   "shorts": [
-    {
-     "title": "SMS Saman RM150 Ni SCAM",
-     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
-     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS."
-    },
-    {
-     "title": "Semak Link Dalam 10 Saat",
-     "hook": "Sebelum klik apa-apa link, buat ni dulu.",
-     "beat": "Tunjuk cara semak di bnm.gov.my/sahkan dan tengok alamat laman betul-betul."
-    },
-    {
-     "title": "Dah Terklik Link Scam? Buat Ni",
-     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
-     "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie."
-    }
-   ],
-   "faq": [
-    {
-     "q": "SMS saman PDRM RM150 tu betul ke?",
-     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP."
-    },
-    {
-     "q": "Macam mana nak semak saman sebenar?",
-     "a": "Semak melalui app atau portal rasmi sendiri, bukan melalui link dalam SMS."
-    },
-    {
-     "q": "Kat mana nak semak link mencurigakan?",
-     "a": "BNM sediakan semakan di bnm.gov.my/sahkan."
-    },
-    {
-     "q": "Dah terisi maklumat kad, nak buat apa?",
-     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997."
-    },
-    {
-     "q": "Polis ada buat tindakan ke?",
-     "a": "Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?",
-     "o": [
-      "RM50",
-      "RM150",
-      "RM300"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?",
-     "o": [
-      "MyCERT",
-      "JPJ",
-      "LHDN"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Nombor talian NSRC untuk mangsa scam ialah…",
-     "o": [
-      "999",
-      "997",
-      "991"
-     ],
-     "a": 1
-    }
-   ]
-  },
-  {
    "angle": "Terang CP500 dengan contoh mudah untuk freelancer dan gig worker, kemudian tunjuk cara semak tunggakan di MyTax dan status sekatan di portal SSPI. Ingatkan ini maklumat umum, rujuk LHDN untuk kes sendiri.",
    "app": {
     "name": "MyTax (LHDN)"
@@ -2018,8 +2026,8 @@
     "Penalti 10% CP500: Contoh Kiraan Mudah",
     "Cara Mohon Tarik Sekatan Perjalanan Di MyTax"
    ],
-   "prev_score": 71,
-   "score": 69,
+   "prev_score": 69,
+   "score": 66,
    "seo": {
     "hashtags": [
      "#cp500",
