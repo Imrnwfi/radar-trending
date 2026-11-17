@@ -1678,18 +1678,58 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const posts = [shortTxt(hook, 230) + " 🧵"].concat(items, [pick([`Video penuh 👉 ${P.link}`, `Tengok cara penuh kat sini 👉 ${P.link}`, `Semua langkah ada dalam video ni 👉 ${P.link}`], n) + (P.tags[0] ? "\n\n" + P.tags[0] : "")]);
     return posts.map((t, k, a) => `${k + 1}/${a.length}\n${t}`).join("\n\n———\n\n");
   }
+  /* Pembina posting v2: banyak format berbeza, bukan sekadar tukar hook */
+  const GEN_TIPS = ["Guna laman atau app rasmi sahaja, jangan ikut link dalam WhatsApp", "Sediakan MyKad dan dokumen berkaitan sebelum mula", "Semak semula semua maklumat sebelum tekan hantar", "Simpan resit atau tangkap layar sebagai bukti", "Pastikan nombor telefon dan e-mel dalam akaun masih aktif"];
+  const LINK_IN = ["Video penuh: ", "Tonton sini 👉 ", "Langkah penuh dalam video ni: ", "Link video: ", "Aku tunjuk semua kat sini 👉 ", "Tengok sampai habis: "];
+  const ASKS = ["Korang dah cuba ke belum?", "Ada soalan? Reply je, aku jawab.", "Siapa yang perlukan info ni? Tag dia.", "Korang pernah tersangkut kat langkah mana?", "Nak aku buat video apa lepas ni?", "Dah berjaya? Reply 'JADI' 🙌", "Share kat family yang perlu tahu.", "Simpan dulu, nanti senang cari balik."];
+  function bul(a, s){ return a.map((x, k) => (s === "n" ? (k + 1) + ". " : s + " ") + x).join("\n"); }
+  function threeOf(P, n){
+    const src = P.steps.length >= 3 ? P.steps : P.facts.filter(f => f.length <= 120).length >= 3 ? P.facts.filter(f => f.length <= 120) : null;
+    if(src) return src.slice(0, 3);
+    const t = GEN_TIPS.slice(); const o = n % t.length; return [t[o], t[(o + 1) % t.length], t[(o + 3) % t.length]];
+  }
+  function postFormats(P){
+    const K = P.KC, k = P.kl, f0 = P.facts[0], q0 = P.faq[0];
+    return [
+      n => [`Siapa sini nak ${k}? 🙋`, `Aku baru upload video cara ${k}, langkah demi langkah.`, P.steps.length >= 2 ? bul(P.steps.slice(0, 4), "•") : "", pick(LINK_IN, n) + P.link],
+      n => [`Ramai masih keliru cara ${k} yang betul.`, "Dalam video ni aku tunjuk dari mula sampai siap.", pick(LINK_IN, n + 2) + P.link, pick(ASKS, n)],
+      n => [`Pernah tertanya-tanya macam mana nak ${k}?`, "Video ni untuk korang. Aku terangkan satu-satu, senang ikut.", pick(LINK_IN, n + 1) + P.link, "Ada soalan lain? Reply je."],
+      n => [`3 benda kena tahu sebelum ${k}:`, bul(threeOf(P, n), "n"), "Penerangan penuh 👇\n" + P.link],
+      n => [`Jangan buat silap ni bila ${k} ⚠️`, "Silap kecil boleh buat urusan jadi lambat atau kena buat semula.", bul(threeOf(P, n + 1), "✅"), pick(LINK_IN, n + 3) + P.link],
+      n => ["Simpan post ni untuk rujukan nanti 📌", `${K}: panduan penuh`, P.steps.length >= 2 ? bul(P.steps.slice(0, 4), "→") : bul(threeOf(P, n + 2), "→"), P.link],
+      n => [`POV: korang nak ${k} tapi tak tahu nak mula dari mana 😅`, "Ni video yang aku harap aku jumpa dulu:", P.link, pick(ASKS, n + 3)],
+      n => f0 ? ["Tahu tak?", f0, `Aku terangkan semua pasal ${K} dalam video ni:`, P.link] : null,
+      n => q0 ? [`Soalan yang paling ramai tanya: ${q0.q}`, `Jawapan ringkas: ${q0.a}`, "Penerangan penuh dalam video 👇", P.link] : null,
+      n => [`Cara ${k}, versi ringkas:`, P.steps.length >= 2 ? bul(P.steps.slice(0, 5), "n") : "Buka → isi maklumat → semak → hantar. Itu je.", "Versi penuh dengan skrin sebenar:", P.link],
+      n => [`Ada masa sikit hari ni? Jom ${k}.`, "Jangan tangguh sampai last minute.", pick(LINK_IN, n + 4) + P.link, pick(ASKS, n + 5)],
+      n => [`Thread untuk yang nak ${k} 🧵`, P.title, "Semua langkah aku dah rakam dalam video:", P.link, pick(ASKS, n + 1)],
+    ];
+  }
   function genThreadsPost(P, n){
-    const hook = pick(P.hooks, n), f = P.facts.filter(x => !sameText(x, hook)), mid = [];
-    if(P.steps.length >= 2 && n % 2 === 0) mid.push((P.chap ? "Dalam video ni:\n" : "Ringkasnya:\n") + P.steps.slice(0, 4).map(s => "• " + s).join("\n")); else f.slice(0, 2).forEach(x => mid.push(x));
-    const q = pick([P.qs.length ? `Soalan untuk korang: ${pick(P.qs, n)}` : "", "Korang dah cuba ke belum?", "Ada soalan? Reply kat bawah, aku jawab."].filter(Boolean), n);
-    for(let k = mid.length; k >= 0; k--){ const t = [hook].concat(mid.slice(0, k), [q, `Video penuh: ${P.link}`, P.tags[0] || ""]).filter(Boolean).join("\n\n"); if([...t].length <= 500) return t; }
-    return shortTxt(hook, 300) + "\n\n" + P.link;
+    const F = postFormats(P).map(f => f(n)).filter(Boolean), tag = P.tags.length ? pick(P.tags, Math.floor(n / Math.max(1, F.length))) : "";
+    for(let x = 0; x < F.length; x++){
+      const ps = F[(n + x) % F.length];
+      const parts = ps.filter(Boolean); let t = parts.concat(tag ? [tag] : []).join("\n\n");
+      if([...t].length > 500) t = parts.join("\n\n");
+      if([...t].length <= 500) return t;
+    }
+    return P.title + "\n\n" + P.link;
   }
   function genYtCom(P, n){
-    const open = pick([`🎥 Video baru dah keluar!\n${P.title}`, `🔔 Baru upload: ${P.title}`, `📢 Penting untuk korang 👇\n${P.title}`], n), hook = pick(P.hooks, n + 1);
-    const list = P.steps.length >= 2 ? (P.chap ? "Dalam video ni aku tunjuk:\n" : "Apa korang perlu tahu:\n") + P.steps.slice(0, 4).map(s => "✅ " + s).join("\n") : (P.facts[0] ? pick(P.facts, n) : "");
-    const end = pick([P.qs.length ? `Soalan: ${pick(P.qs, n)} Jawab kat komen 👇` : "Korang dah tahu pasal ni? Komen kat bawah!", "Share dengan family yang perlu tahu 🙏", "Ada soalan? Tulis kat komen, aku jawab satu-satu."], n);
-    return [open, hook, list, `Tonton sekarang 👉 ${P.link}`, end].filter(Boolean).join("\n\n");
+    const K = P.KC, k = P.kl, list = P.steps.length >= 2 ? P.steps.slice(0, 4) : null, f0 = P.facts[0];
+    const C = [
+      () => [`🎥 Video baru dah keluar!\n${P.title}`, list ? "Dalam video ni aku tunjuk:\n" + bul(list, "✅") : `Aku tunjuk cara ${k} langkah demi langkah.`, `Tonton sekarang 👉 ${P.link}`, "Korang dah tahu pasal ni? Komen kat bawah!"],
+      () => [`Video ni untuk yang nak ${k} 🙏`, "Aku cuba buat sejelas mungkin supaya korang boleh ikut sambil tengok.", `👉 ${P.link}`, "Kalau ada langkah yang tak jelas, tulis kat komen. Aku jawab satu-satu."],
+      () => [`📋 Sebelum ${k}, sediakan dulu:`, bul(threeOf(P, n), "✅"), `Lepas tu ikut langkah dalam video ni 👉 ${P.link}`],
+      () => [`Soalan cepat: korang dah pernah ${k}?`, "Komen YA atau BELUM 👇", `Kalau belum, ni panduan penuh: ${P.link}`],
+      () => f0 ? ["💡 Info penting:", f0, `Penerangan penuh dalam video baru: ${P.link}`, "Share dengan yang perlu tahu 🙏"] : null,
+      () => [`🔔 Baru upload: ${P.title}`, list ? bul(list, "▶️") : "Langkah demi langkah, senang ikut.", `Link: ${P.link}`, "Jangan lupa like kalau membantu 👍"],
+      () => P.faq.length >= 2 ? ["❓ Soalan lazim:", P.faq.slice(0, 2).map(q => `${q.q}\n→ ${q.a}`).join("\n\n"), `Lebih lanjut dalam video: ${P.link}`] : null,
+      () => ["Terima kasih sebab terus support channel ni 🙏", `Video terbaru: ${P.title}`, `👉 ${P.link}`, "Nak aku buat topik apa lepas ni? Komen kat bawah."],
+    ];
+    const A = C.map(f => f()).filter(Boolean);
+    if(A.length) return A[(n + 3) % A.length].filter(Boolean).join("\n\n");
+    return P.title + "\n\n" + P.link;
   }
   function genYtPoll(P, n){
     const k = [
