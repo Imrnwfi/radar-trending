@@ -1,6 +1,6 @@
 {
- "date": "2026-11-17",
- "updated_label": "17 Nov 2026, 7 petang",
+ "date": "2026-11-18",
+ "updated_label": "18 Nov 2026, 7 pagi",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -24,11 +24,11 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 95,
-   "score": 94,
+   "prev_score": 94,
+   "score": 95,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
-    "hook": "Hari ni, 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas. Jom semak dalam 5 minit.",
+    "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
     "points": [
      "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
      "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
@@ -210,11 +210,11 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 93,
-   "score": 92,
+   "prev_score": 92,
+   "score": 91,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
-    "hook": "Korang naik KTM Komuter hari-hari? Mulai hari ni korang boleh aktifkan pas RM50 untuk naik tanpa had sebulan, dan ada laluan yang jimat sampai ratusan ringgit.",
+    "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
     "points": [
      "Apa itu MyKomuter50: pas 30 hari pada harga RM50, naik tanpa had untuk perkhidmatan Komuter terpilih, sah mulai 1 Disember 2026.",
      "Tiga kategori laluan, setiap satu RM50: Utara, Lembah Klang dan Shuttle Selatan.",
@@ -323,294 +323,7 @@
    "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen."
   },
   {
-   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
-   "app": {
-    "name": "Jabatan Imigresen Malaysia",
-    "url": "https://www.imi.gov.my"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "17 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang dijumpai masih tutorial renew online umum (versi 5 tahun lama); belum jumpa tutorial BM khusus pilih tempoh 10 tahun di MyOnline Passport sejak 2 Nov."
-   },
-   "icon": "passport",
-   "id": "pasport-10-tahun-online",
-   "ideas": [
-    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
-    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
-    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
-    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
-    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
-   ],
-   "prev_score": 80,
-   "score": 78,
-   "script": {
-    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
-    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
-    "points": [
-     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
-     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
-     "Bawah 18 tahun masih 5 tahun sahaja.",
-     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
-     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
-    ]
-   },
-   "seo": {
-    "hashtags": [
-     "#pasport10tahun",
-     "#renewpasport",
-     "#imigresen",
-     "#tipsmalaysia",
-     "#tutorialmalaysia"
-    ],
-    "keywords": [
-     "cara renew pasport online 2026",
-     "pasport 10 tahun online",
-     "myonline passport 10 tahun",
-     "harga pasport 10 tahun",
-     "renew passport malaysia online"
-    ],
-    "tags": [
-     "renew pasport",
-     "pasport 10 tahun",
-     "myonline passport",
-     "imigresen malaysia",
-     "passport malaysia",
-     "tutorial pasport",
-     "pasport online",
-     "rm350"
-    ],
-    "thumbs": [
-     "PASPORT 10 TAHUN",
-     "RENEW GUNA PHONE",
-     "JIMAT RM50"
-    ]
-   },
-   "sources": [
-    {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
-    }
-   ],
-   "status": "panas",
-   "title": "Renew pasport 10 tahun kini boleh online",
-   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
-   "shorts": [
-    {
-     "title": "Pasport 10 Tahun Kini Boleh Online!",
-     "hook": "Dulu kena pergi kaunter. Sekarang pasport 10 tahun boleh renew dari phone.",
-     "beat": "Sejak 2 Nov, MyOnline Passport bagi pilihan 5 atau 10 tahun. Tunjuk skrin pilihan tempoh."
-    },
-    {
-     "title": "Jimat RM50 Dengan Pasport 10 Tahun",
-     "hook": "RM350 atau RM400? Ni kira cepat sebelum korang renew.",
-     "beat": "10 tahun RM350, dua kali 5 tahun RM400. Bawah 18 tahun masih 5 tahun sahaja."
-    },
-    {
-     "title": "3 Benda Wajib Bawa Masa Ambil Pasport",
-     "hook": "Dah renew online, tapi lupa bawa benda ni? Kena datang balik.",
-     "beat": "MyKad asal, pasport lama dan resit. Tunjuk ketiga-tiganya atas meja."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Betul ke pasport 10 tahun boleh renew online?",
-     "a": "Ya, mulai 2 November 2026 melalui MyOnline Passport, dengan pilihan 5 atau 10 tahun."
-    },
-    {
-     "q": "Berapa harga pasport 10 tahun?",
-     "a": "RM350, berbanding RM200 untuk 5 tahun."
-    },
-    {
-     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?",
-     "a": "Tidak, bawah 18 tahun masih 5 tahun sahaja."
-    },
-    {
-     "q": "Kena bawa apa masa ambil pasport?",
-     "a": "MyKad asal, pasport lama dan resit bayaran."
-    },
-    {
-     "q": "Sebelum ni macam mana nak buat pasport 10 tahun?",
-     "a": "Sebelum 2 Nov, pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa harga pasport 10 tahun?",
-     "o": [
-      "RM300",
-      "RM350",
-      "RM400"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Mulai bila pasport 10 tahun boleh renew online?",
-     "o": [
-      "2 November 2026",
-      "1 Januari 2026",
-      "1 Disember 2026"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Umur bawah 18 tahun boleh ambil pasport…",
-     "o": [
-      "10 tahun",
-      "5 tahun sahaja",
-      "Tak boleh renew"
-     ],
-     "a": 1
-    }
-   ]
-  },
-  {
-   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
-   "app": {
-    "name": "MySaham MITI / portal SahamOnline",
-    "url": "https://sahamonline.miti.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "16 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM sedia ada kebanyakannya tutorial portal MITI versi lama; belum jumpa video yang tunjuk app MySaham baharu (dilancar 12 Nov)."
-   },
-   "faq": [
-    {
-     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
-     "q": "MySaham MITI ni app apa?"
-    },
-    {
-     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
-     "q": "Siapa boleh mohon SKB?"
-    },
-    {
-     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
-     "q": "Perlu ada apa sebelum mohon?"
-    },
-    {
-     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
-     "q": "Berapa minimum nak labur?"
-    },
-    {
-     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
-     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
-    }
-   ],
-   "icon": "chart",
-   "id": "mysaham-miti-skb",
-   "ideas": [
-    "Cara Daftar App MySaham MITI (Langkah Penuh)",
-    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
-    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
-    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
-    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
-   ],
-   "prev_score": 81,
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "1 Okt 2026",
-      "12 Nov 2026",
-      "1 Jan 2027"
-     ],
-     "q": "Bila app MySaham MITI dilancarkan?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "30 hari",
-      "90 hari",
-      "180 hari"
-     ],
-     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Akaun CDS",
-      "Akaun KWSP",
-      "Akaun Tabung Haji"
-     ],
-     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
-    }
-   ],
-   "score": 80,
-   "seo": {
-    "hashtags": [
-     "#mysaham",
-     "#sahamipo",
-     "#miti",
-     "#sahambumiputera",
-     "#belajarsaham"
-    ],
-    "keywords": [
-     "mysaham miti",
-     "cara mohon saham ipo bumiputera",
-     "saham khas bumiputera miti",
-     "daftar sahamonline miti",
-     "app mysaham"
-    ],
-    "tags": [
-     "mysaham",
-     "miti",
-     "saham ipo",
-     "saham bumiputera",
-     "skb",
-     "akaun cds",
-     "pelaburan saham",
-     "tutorial saham"
-    ],
-    "thumbs": [
-     "IPO DALAM TELEFON",
-     "SAHAM BUMIPUTERA",
-     "BOLEH RUGI JUGA!"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
-     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
-     "title": "App Baru MITI Untuk Saham IPO"
-    },
-    {
-     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
-     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
-     "title": "Mitos: Saham IPO Confirm Untung"
-    },
-    {
-     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
-     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
-     "title": "Kesilapan Ni Kena Ban 180 Hari"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
-    },
-    {
-     "name": "NST (Sept 2026): eSaham 2.0",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
-    },
-    {
-     "name": "Portal SahamOnline MITI",
-     "url": "https://sahamonline.miti.gov.my/"
-    }
-   ],
-   "status": "naik",
-   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
-   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
-  },
-  {
-   "angle": "Panduan bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, dan beza BWI RM1,000 dengan bantuan khas Selangor. Ingatkan kriteria bantuan khas akan diumumkan agensi pelaksana.",
+   "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
    "cat": "kewangan",
    "competition": {
     "checked": "16 Nov 2026",
@@ -631,8 +344,8 @@
      "q": "Siapa layak bantuan khas RM2,500?"
     },
     {
-     "a": "Tambahan kerajaan negeri Selangor yang menjadikan bantuan khas sekali bayar RM3,000 (RM2,500 persekutuan + RM500 negeri).",
-     "q": "RM500 Selangor tu apa?"
+     "a": "Ada, contohnya Alliance Bank tawar moratorium sehingga 6 bulan untuk pelanggan terjejas banjir, mohon hingga 31 Mac 2027 dan tertakluk kelulusan bank.",
+     "q": "Bank ada bagi tangguh bayar pinjaman tak?"
     },
     {
      "a": "Boleh; BWI dibayar bagi setiap kejadian berasingan, sehingga empat kali setahun menurut RinggitPlus, tertakluk syarat NADMA.",
@@ -646,10 +359,10 @@
     "MyIBJKM: Cara Daftar Mangsa Banjir di PPS",
     "Bantuan Banjir Selangor RM3,000: Siapa Layak?",
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
-    "Musim Banjir: Persiapan Dokumen & Kewangan"
+    "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 79,
-   "score": 80,
+   "prev_score": 80,
+   "score": 82,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -663,7 +376,7 @@
      "bantuan wang ihsan 2026",
      "myibjkm daftar",
      "bantuan banjir selangor rm2500",
-     "nadma bwi"
+     "moratorium pinjaman banjir"
     ],
     "tags": [
      "bantuan banjir",
@@ -673,7 +386,7 @@
      "banjir selangor",
      "monsun timur laut",
      "bantuan kerajaan",
-     "mangsa banjir"
+     "moratorium banjir"
     ],
     "thumbs": [
      "BANJIR? DAPAT RM1,000",
@@ -751,21 +464,41 @@
     {
      "name": "Bernama (14 Nov 2026)",
      "url": "https://bernama.com/bm/news.php?id=2634330"
+    },
+    {
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/bank-news/six-months-of-loan-relief-for-alliance-bank-customers-affected-by-floods.html"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://www.bernama.com/en/news.php?id=2634341"
     }
    ],
-   "status": "naik",
+   "status": "panas",
    "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
-   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak, dan MetMalaysia keluarkan amaran hujan berterusan untuk Kelantan, Terengganu, Pahang dan Sabah (Bernama, 9 Nov). Ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di sistem MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor dengan tambahan RM500 dari kerajaan negeri bagi yang daftar di PPS (RinggitPlus, 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang berdaftar terima RM2,500 manakala yang tidak berdaftar terima RM1,250, dan 1,500 keluarga mangsa banjir Sungai Buloh terima barangan keperluan bernilai hampir RM1 juta."
+   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan bernilai hampir RM1 juta. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov).",
+   "deadline": "Moratorium Alliance Bank: mohon hingga 31 Mac 2027",
+   "script": {
+    "cta": "Share video ni kepada keluarga di kawasan banjir, dan subscribe untuk kemas kini bantuan terkini.",
+    "hook": "Rumah korang atau keluarga kena banjir? Jangan tunggu je. Ada bantuan RM1,000 dari NADMA, bantuan khas sampai RM3,000 di Selangor, dan bank pun boleh bagi tangguh bayar pinjaman. Jom tengok satu per satu.",
+    "points": [
+     "BWI RM1,000 untuk setiap ketua isi rumah yang rumahnya dilanda banjir, melalui NADMA; daftar dalam sistem MyIBJKM, contohnya imbas kod QR di PPS.",
+     "Selangor: bantuan khas persekutuan RM2,500 untuk mangsa terjejas teruk, ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS.",
+     "Bernama 14 Nov: ketua isi rumah di Selangor yang tak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan hampir RM1 juta.",
+     "Pinjaman bank: Alliance Bank tawar moratorium sehingga 6 bulan dan kecualikan caj lewat; mohon melalui khidmat pelanggan atau cawangan hingga 31 Mac 2027, tertakluk kelulusan.",
+     "Tips: simpan dokumen penting dalam beg kalis air dan salinan digital, dan tanya bank sama ada faedah masih dikira semasa moratorium."
+    ]
+   }
   },
   {
    "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sesuai jadi siri Shorts mingguan setiap kali harga baharu diumumkan hari Rabu.",
    "cat": "kewangan",
    "competition": {
-    "checked": "14 Nov 2026",
+    "checked": "18 Nov 2026",
     "level": "sederhana",
-    "note": "Ada klip berita harga minyak mingguan dari saluran TV, tapi kebanyakannya bacaan berita sahaja. Sudut kira penjimatan BUDI95 ikut gaya hidup masih kosong."
+    "note": "Ada klip berita BM harga minyak mingguan (Bernama TV, Astro Awani) tapi kebanyakannya bacaan berita. Sudut kira penjimatan BUDI95 ikut gaya hidup dan kemas kini mingguan santai masih kosong."
    },
-   "deadline": "Harga ini sah 12–18 Nov 2026",
+   "deadline": "Harga ini sah hingga 18 Nov; harga 19–25 Nov diumum malam ini",
    "icon": "chart",
    "id": "harga-minyak-turun-nov",
    "ideas": [
@@ -775,8 +508,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Kenapa Harga Minyak Naik Turun Setiap Minggu?"
    ],
-   "prev_score": 79,
-   "score": 80,
+   "prev_score": 80,
+   "score": 79,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -814,12 +547,12 @@
      "url": "https://bernama.com/en/news.php?id=2632992"
     },
     {
-     "name": "NST (Nov 2026)",
+     "name": "NST (11 Nov 2026)",
      "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
     },
     {
-     "name": "NST (11 Nov 2026)",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
+     "name": "Siaran Media MOF (11 Nov 2026)",
+     "url": "https://mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
     }
    ],
    "status": "naik",
@@ -893,6 +626,146 @@
      "a": 1
     }
    ]
+  },
+  {
+   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
+   "app": {
+    "name": "MySaham MITI / portal SahamOnline",
+    "url": "https://sahamonline.miti.gov.my/"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "16 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM sedia ada kebanyakannya tutorial portal MITI versi lama; belum jumpa video yang tunjuk app MySaham baharu (dilancar 12 Nov)."
+   },
+   "faq": [
+    {
+     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
+     "q": "MySaham MITI ni app apa?"
+    },
+    {
+     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
+     "q": "Siapa boleh mohon SKB?"
+    },
+    {
+     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
+     "q": "Perlu ada apa sebelum mohon?"
+    },
+    {
+     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
+     "q": "Berapa minimum nak labur?"
+    },
+    {
+     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
+     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
+    }
+   ],
+   "icon": "chart",
+   "id": "mysaham-miti-skb",
+   "ideas": [
+    "Cara Daftar App MySaham MITI (Langkah Penuh)",
+    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
+    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
+    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
+    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
+   ],
+   "prev_score": 80,
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "1 Okt 2026",
+      "12 Nov 2026",
+      "1 Jan 2027"
+     ],
+     "q": "Bila app MySaham MITI dilancarkan?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "30 hari",
+      "90 hari",
+      "180 hari"
+     ],
+     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Akaun CDS",
+      "Akaun KWSP",
+      "Akaun Tabung Haji"
+     ],
+     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
+    }
+   ],
+   "score": 78,
+   "seo": {
+    "hashtags": [
+     "#mysaham",
+     "#sahamipo",
+     "#miti",
+     "#sahambumiputera",
+     "#belajarsaham"
+    ],
+    "keywords": [
+     "mysaham miti",
+     "cara mohon saham ipo bumiputera",
+     "saham khas bumiputera miti",
+     "daftar sahamonline miti",
+     "app mysaham"
+    ],
+    "tags": [
+     "mysaham",
+     "miti",
+     "saham ipo",
+     "saham bumiputera",
+     "skb",
+     "akaun cds",
+     "pelaburan saham",
+     "tutorial saham"
+    ],
+    "thumbs": [
+     "IPO DALAM TELEFON",
+     "SAHAM BUMIPUTERA",
+     "BOLEH RUGI JUGA!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
+     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
+     "title": "App Baru MITI Untuk Saham IPO"
+    },
+    {
+     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
+     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
+     "title": "Mitos: Saham IPO Confirm Untung"
+    },
+    {
+     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
+     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
+     "title": "Kesilapan Ni Kena Ban 180 Hari"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (16 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
+    },
+    {
+     "name": "NST (Sept 2026): eSaham 2.0",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
+    },
+    {
+     "name": "Portal SahamOnline MITI",
+     "url": "https://sahamonline.miti.gov.my/"
+    }
+   ],
+   "status": "naik",
+   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
+   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
   },
   {
    "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'pegawai MCMC') dan cara sahkan melalui saluran rasmi. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
@@ -1042,9 +915,292 @@
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & penyamar pegawai MCMC",
    "why": "MyCERT beri amaran pada 6 Nov tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan pada 4 Nov tentang app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (The Star, 5 Nov). Pada 14 Nov, MCMC beri amaran selepas polis tahan 61 orang di Selangor yang disyaki sindiket menyamar pegawai MCMC, dan minta orang ramai sahkan panggilan atau mesej melalui saluran rasmi sebelum beri maklumat atau bayar (Bernama). Bukit Aman pula umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang; mangsa diminta hubungi NSRC 997 segera.",
-   "score": 79,
-   "prev_score": 74,
+   "score": 78,
+   "prev_score": 79,
    "status": "naik"
+  },
+  {
+   "angle": "Terangkan kenapa emas turun (dolar AS kuat, jangkaan kadar faedah Fed) dan cara semak harga emas per gram serta caj upah sebelum beli. Ingatkan harga emas boleh terus turun atau naik, jangan guna duit kecemasan atau berhutang untuk beli, dan ini bukan nasihat pelaburan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "18 Nov 2026",
+    "level": "tinggi",
+    "note": "Video 'harga emas turun' Nov 2026 yang dijumpai hampir semua dari Indonesia (emas Antam). Belum jumpa video BM Malaysia yang terangkan kejatuhan minggu ini dan kesannya pada harga per gram di kedai."
+   },
+   "faq": [
+    {
+     "a": "Menurut penganalisis Bank Muamalat, jangkaan kenaikan kadar faedah Fed menyokong dolar AS dan menekan harga emas.",
+     "q": "Kenapa harga emas turun sekarang?"
+    },
+    {
+     "a": "Harga emas fizikal ditetapkan US$3,870.20 seauns di LBMA pada 12 Nov 2026; harga per gram di kedai berbeza ikut kedai dan caj upah.",
+     "q": "Harga emas sekarang berapa?"
+    },
+    {
+     "a": "Tiada siapa boleh pastikan; Bank Muamalat jangka julat US$3,800–3,900 seauns untuk minggu ini sahaja.",
+     "q": "Emas akan turun lagi ke?"
+    },
+    {
+     "a": "Itu bergantung pada matlamat dan kewangan korang; harga boleh turun lagi, jadi jangan guna duit kecemasan atau berhutang.",
+     "q": "Patut beli emas sekarang?"
+    },
+    {
+     "a": "Kontrak niaga hadapan emas November di Bursa Malaysia Derivatives jatuh dari US$4,087.60 ke US$3,900.60 dalam seminggu.",
+     "q": "Berapa banyak harga emas jatuh minggu lepas?"
+    }
+   ],
+   "icon": "gold",
+   "id": "harga-emas-jatuh-nov",
+   "ideas": [
+    "Harga Emas Jatuh! Patut Beli Sekarang Ke?",
+    "Kenapa Harga Emas Turun Bila Dolar Kuat?",
+    "Cara Semak Harga Emas Sebenar Sebelum Beli",
+    "Emas Fizikal vs Akaun Emas: Mana Sesuai?",
+    "5 Silap Orang Buat Bila Beli Emas Masa Turun"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "US$4,014.00",
+      "US$3,870.20",
+      "US$4,087.60"
+     ],
+     "q": "Harga fix emas LBMA pada 12 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Jangkaan kenaikan kadar faedah Fed",
+      "Harga minyak naik",
+      "Ringgit lemah"
+     ],
+     "q": "Apa faktor utama yang menekan harga emas minggu ini?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "US$4,100–4,200",
+      "US$3,500–3,600",
+      "US$3,800–3,900"
+     ],
+     "q": "Julat jangkaan harga emas minggu ini (Bank Muamalat)?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#HargaEmas",
+     "#EmasTurun",
+     "#PelaburanEmas",
+     "#TipsKewangan",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "harga emas hari ini",
+     "harga emas turun",
+     "harga emas per gram malaysia",
+     "patut beli emas sekarang",
+     "harga emas november 2026"
+    ],
+    "tags": [
+     "harga emas",
+     "emas turun",
+     "pelaburan emas",
+     "emas fizikal",
+     "akaun emas",
+     "harga emas malaysia",
+     "kadar faedah fed",
+     "tips kewangan"
+    ],
+    "thumbs": [
+     "EMAS JATUH!",
+     "BELI ATAU TUNGGU?",
+     "US$3,870 SEAUNS"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk angka LBMA: US$4,014.00 pada 11 Nov jadi US$3,870.20 pada 12 Nov. Terangkan ringkas kaitan dolar AS dan kadar faedah Fed.",
+     "hook": "Harga emas baru jatuh lebih US$140 seauns dalam sehari. Ni apa jadi.",
+     "title": "Emas Jatuh US$140 Dalam Sehari"
+    },
+    {
+     "beat": "Mitos vs fakta: penganalisis Bank Muamalat jangka julat US$3,800–3,900 minggu ini, maksudnya harga masih boleh bergerak. Ingatkan jangan guna duit kecemasan.",
+     "hook": "Emas turun, semua orang kata 'beli sekarang'. Betul ke?",
+     "title": "Mitos: Emas Turun = Wajib Beli"
+    },
+    {
+     "beat": "Tutorial skrin telefon: bandingkan harga per gram, tanya caj upah dan harga jual balik. Harga US$ seauns tak sama terus dengan harga di kedai.",
+     "hook": "Sebelum korang beli emas masa harga turun, semak 3 benda ni dulu.",
+     "title": "Semak Ni Sebelum Beli Emas"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (12 Nov 2026)",
+     "url": "https://bernama.com/en/market/news.php?id=2633450"
+    },
+    {
+     "name": "Bernama (13 Nov 2026)",
+     "url": "https://www.bernama.com/tv/news.php?id=2633933"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2634152"
+    }
+   ],
+   "title": "Harga emas jatuh bawah US$3,900: peluang atau perangkap?",
+   "why": "Harga emas fizikal ditetapkan pada US$3,870.20 setroy auns di LBMA pada 12 Nov 2026, turun dari US$4,014.00 sehari sebelumnya, dan kontrak niaga hadapan emas November di Bursa Malaysia Derivatives jatuh dari US$4,087.60 ke US$3,900.60 dalam seminggu (Bernama, 13–14 Nov). Ketua Ekonomi Bank Muamalat, Dr Mohd Afzanizam Abdul Rashid, jangka emas didagangkan antara US$3,800 dan US$3,900 minggu ini kerana jangkaan kenaikan kadar faedah Fed menyokong dolar AS.",
+   "score": 77,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
+   "app": {
+    "name": "Jabatan Imigresen Malaysia",
+    "url": "https://www.imi.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "17 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang dijumpai masih tutorial renew online umum (versi 5 tahun lama); belum jumpa tutorial BM khusus pilih tempoh 10 tahun di MyOnline Passport sejak 2 Nov."
+   },
+   "icon": "passport",
+   "id": "pasport-10-tahun-online",
+   "ideas": [
+    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
+    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
+    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
+    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
+    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
+   ],
+   "prev_score": 78,
+   "score": 76,
+   "script": {
+    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
+    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
+    "points": [
+     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
+     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
+     "Bawah 18 tahun masih 5 tahun sahaja.",
+     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
+     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#pasport10tahun",
+     "#renewpasport",
+     "#imigresen",
+     "#tipsmalaysia",
+     "#tutorialmalaysia"
+    ],
+    "keywords": [
+     "cara renew pasport online 2026",
+     "pasport 10 tahun online",
+     "myonline passport 10 tahun",
+     "harga pasport 10 tahun",
+     "renew passport malaysia online"
+    ],
+    "tags": [
+     "renew pasport",
+     "pasport 10 tahun",
+     "myonline passport",
+     "imigresen malaysia",
+     "passport malaysia",
+     "tutorial pasport",
+     "pasport online",
+     "rm350"
+    ],
+    "thumbs": [
+     "PASPORT 10 TAHUN",
+     "RENEW GUNA PHONE",
+     "JIMAT RM50"
+    ]
+   },
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
+    }
+   ],
+   "status": "naik",
+   "title": "Renew pasport 10 tahun kini boleh online",
+   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
+   "shorts": [
+    {
+     "title": "Pasport 10 Tahun Kini Boleh Online!",
+     "hook": "Dulu kena pergi kaunter. Sekarang pasport 10 tahun boleh renew dari phone.",
+     "beat": "Sejak 2 Nov, MyOnline Passport bagi pilihan 5 atau 10 tahun. Tunjuk skrin pilihan tempoh."
+    },
+    {
+     "title": "Jimat RM50 Dengan Pasport 10 Tahun",
+     "hook": "RM350 atau RM400? Ni kira cepat sebelum korang renew.",
+     "beat": "10 tahun RM350, dua kali 5 tahun RM400. Bawah 18 tahun masih 5 tahun sahaja."
+    },
+    {
+     "title": "3 Benda Wajib Bawa Masa Ambil Pasport",
+     "hook": "Dah renew online, tapi lupa bawa benda ni? Kena datang balik.",
+     "beat": "MyKad asal, pasport lama dan resit. Tunjuk ketiga-tiganya atas meja."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke pasport 10 tahun boleh renew online?",
+     "a": "Ya, mulai 2 November 2026 melalui MyOnline Passport, dengan pilihan 5 atau 10 tahun."
+    },
+    {
+     "q": "Berapa harga pasport 10 tahun?",
+     "a": "RM350, berbanding RM200 untuk 5 tahun."
+    },
+    {
+     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?",
+     "a": "Tidak, bawah 18 tahun masih 5 tahun sahaja."
+    },
+    {
+     "q": "Kena bawa apa masa ambil pasport?",
+     "a": "MyKad asal, pasport lama dan resit bayaran."
+    },
+    {
+     "q": "Sebelum ni macam mana nak buat pasport 10 tahun?",
+     "a": "Sebelum 2 Nov, pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa harga pasport 10 tahun?",
+     "o": [
+      "RM300",
+      "RM350",
+      "RM400"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Mulai bila pasport 10 tahun boleh renew online?",
+     "o": [
+      "2 November 2026",
+      "1 Januari 2026",
+      "1 Disember 2026"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Umur bawah 18 tahun boleh ambil pasport…",
+     "o": [
+      "10 tahun",
+      "5 tahun sahaja",
+      "Tak boleh renew"
+     ],
+     "a": 1
+    }
+   ]
   },
   {
    "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
@@ -1053,9 +1209,9 @@
    },
    "cat": "tutorial",
    "competition": {
-    "checked": "14 Nov 2026",
+    "checked": "18 Nov 2026",
     "level": "tinggi",
-    "note": "Tutorial matikan muat turun automatik kebanyakannya dalam Bahasa Indonesia atau Inggeris. Belum jumpa video BM yang kupas amaran MCCA 8 Nov ni."
+    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang kupas amaran MCCA dan cadangan pengesahan identiti WhatsApp."
    },
    "icon": "shield",
    "id": "whatsapp-malware-apk",
@@ -1066,8 +1222,8 @@
     "5 Tanda Telefon Korang Dah Kena Malware",
     "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
    ],
-   "prev_score": 78,
-   "score": 76,
+   "prev_score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -1202,8 +1358,8 @@
     "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
     "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
    ],
-   "prev_score": 77,
-   "score": 76,
+   "prev_score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#wangtakdituntut",
@@ -1325,9 +1481,9 @@
    "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
    "cat": "kewangan",
    "competition": {
-    "checked": "14 Nov 2026",
+    "checked": "18 Nov 2026",
     "level": "sederhana",
-    "note": "Ada 2–3 klip berita BM (kebanyakannya sejak rintis Julai). Belum ada penerangan santai tentang deductible, co-payment dan guna KWSP untuk premium."
+    "note": "Ada 2–3 klip berita BM tentang MediAsas (pelan asas bermula sekitar RM80 dan program rintis). Belum ada penerangan santai tentang deductible RM500, ko-insurans 20% dan siapa patut ambil."
    },
    "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
    "icon": "shield",
@@ -1339,8 +1495,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 76,
-   "score": 75,
+   "prev_score": 75,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1483,8 +1639,8 @@
     "Dapat Sijil Antarabangsa Percuma? Ini Caranya",
     "Cara Daftar MyDigital ID Dari Kosong (2026)"
    ],
-   "prev_score": 76,
-   "score": 75,
+   "prev_score": 75,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#coursera",
@@ -1626,8 +1782,8 @@
     "5 Urusan Kerajaan Yang Perlukan MyDigital ID",
     "MyDigital ID Error? Ini Cara Betulkan"
    ],
-   "prev_score": 74,
-   "score": 73,
+   "prev_score": 73,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#mydigitalid",
@@ -1669,7 +1825,7 @@
      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/mydigital-id-app-now-supports-new-mykad-for-registrations"
     }
    ],
-   "status": "naik",
+   "status": "stabil",
    "title": "MyDigital ID kini boleh reset password tanpa daftar semula",
    "why": "Lowyat.NET (11 Nov 2026) melaporkan app MyDigital ID versi 2.11.0 kini ada pilihan 'Forgot Password': pengguna cuma imbas muka dan cipta kata laluan baharu. Sebelum ini, lupa kata laluan bermakna kena batalkan sijil digital dan daftar semula dengan imbasan muka dan MyKad. Kemas kini ini juga pindahkan sijil secara automatik bila tukar telefon atau pasang semula app.",
    "shorts": [
@@ -1749,9 +1905,9 @@
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "14 Nov 2026",
+    "checked": "18 Nov 2026",
     "level": "tinggi",
-    "note": "Video sedia ada kebanyakannya tentang link ASNB ke MAE atau buka akaun di app myASNB. Tutorial buka akaun baharu terus dalam MAE belum ada."
+    "note": "Video sedia ada tentang semak baki ASNB dalam MAE, link akaun, atau buka akaun di app myASNB. Tutorial buka akaun ASNB baharu terus dalam MAE (sejak 4 Nov) belum dijumpai."
    },
    "deadline": "Cashback RM3/RM5 hingga 31 Jan 2027",
    "icon": "chart",
@@ -1763,8 +1919,8 @@
     "Cashback RM5 Buka ASNB: Cara Claim Sebelum Habis",
     "Top Up ASB Bulanan Dalam MAE: Tips Disiplin"
    ],
-   "prev_score": 73,
-   "score": 72,
+   "prev_score": 72,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#asnb",
@@ -1806,7 +1962,7 @@
      "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/akaun-asnb-kini-boleh-dibuka-dalam-mae.html"
     }
    ],
-   "status": "naik",
+   "status": "stabil",
    "title": "Buka akaun ASNB terus dalam app MAE dari RM10",
    "why": "Sejak 4 November 2026, pelabur kali pertama boleh buka akaun ASNB terus dalam app MAE, dan pelabur sedia ada boleh top up atau langgan dana baharu di situ. Pelaburan bermula RM10, untuk rakyat Malaysia 18 tahun ke atas (dana ASB untuk Bumiputera sahaja). Ada cashback RM3 atau RM5 untuk 15,000 pelabur baharu terawal hingga 31 Januari 2027.",
    "shorts": [
@@ -2006,148 +2162,9 @@
    ],
    "title": "TNG eWallet kini boleh tempah teksi/e-hailing di luar negara",
    "why": "Lowyat.NET (5 Nov 2026) lapor TNG eWallet kini boleh tempah dan bayar e-hailing di luar negara terus dalam app, meliputi 47 negara dan wilayah serta lebih 12,000 bandar melalui Alipay+. Antara penyedia ialah DiDi dan AMap (China), GO (Jepun), Kakao T (Korea Selatan), Bolt (EU) dan Lyft (AS dan Kanada); tambang ditunjuk awal dan ditolak dalam ringgit dari baki eWallet. Ia melengkapkan ciri pelancongan lain seperti bayaran QR di lebih 50 negara dan eSIM pelancongan untuk lebih 190 negara.",
-   "score": 72,
-   "prev_score": null,
-   "status": "naik"
-  },
-  {
-   "angle": "Terang CP500 dengan contoh mudah untuk freelancer dan gig worker, kemudian tunjuk cara semak tunggakan di MyTax dan status sekatan di portal SSPI. Ingatkan ini maklumat umum, rujuk LHDN untuk kes sendiri.",
-   "app": {
-    "name": "MyTax (LHDN)"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "15 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa video BM tentang pengecualian penalti CP500 2026 dan cara semak sekatan MyTax, tapi belum nampak video yang terangkan penjelasan Dewan Rakyat 11 Nov dengan contoh kiraan."
-   },
-   "icon": "tax",
-   "id": "cp500-sekatan-perjalanan",
-   "ideas": [
-    "CP500 Tak Bayar, Kena Blacklist Ke? Ini Jawapan",
-    "Cara Semak Sekatan Perjalanan LHDN Dalam 2 Minit",
-    "Freelancer Wajib Tahu: Apa Itu CP500?",
-    "Penalti 10% CP500: Contoh Kiraan Mudah",
-    "Cara Mohon Tarik Sekatan Perjalanan Di MyTax"
-   ],
-   "prev_score": 66,
-   "score": 64,
-   "seo": {
-    "hashtags": [
-     "#cp500",
-     "#lhdn",
-     "#cukai",
-     "#mytax",
-     "#freelancermalaysia"
-    ],
-    "keywords": [
-     "cp500 sekatan perjalanan",
-     "cara semak sekatan perjalanan lhdn",
-     "cp500 tak bayar",
-     "penalti cp500",
-     "cp500 freelancer"
-    ],
-    "tags": [
-     "cp500",
-     "lhdn",
-     "sekatan perjalanan",
-     "mytax",
-     "cukai pendapatan",
-     "freelancer",
-     "gig worker",
-     "tips cukai"
-    ],
-    "thumbs": [
-     "CP500 KENA BLACKLIST?",
-     "JANGAN PANIK DULU",
-     "SEMAK DI MYTAX"
-    ]
-   },
-   "sources": [
-    {
-     "name": "The Star (11 Nov 2026)",
-     "url": "https://www.thestar.com.my/news/nation/2026/11/11/taxpayers-not-barred-from-overseas-travel-over-unpaid-cp500-instalments-parliament-told"
-    },
-    {
-     "name": "Malay Mail (11 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/11/taxpayers-behind-on-cp500-wont-be-barred-from-flying-yet-says-deputy-finance-minister/242800"
-    },
-    {
-     "name": "RinggitPlus BM (13 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/ansuran-cp500-tertunggak-tidak-terus-membawa-kepada-sekatan-perjalanan.html"
-    }
-   ],
-   "status": "stabil",
-   "title": "Tertunggak CP500? Tak terus kena sekatan perjalanan",
-   "why": "Pada 11 Nov 2026, Timbalan Menteri Kewangan Liew Chin Tong jelaskan di Dewan Rakyat bahawa tak bayar ansuran CP500 tidak terus menyebabkan sekatan perjalanan, kerana CP500 hanya anggaran cukai. Sekatan hanya boleh dikenakan jika cukai masih tak dibayar enam bulan selepas BNCP dimuktamadkan dan pembayar tak respon LHDN; ansuran lewat lebih 30 hari tetap boleh kena penalti 10% (RinggitPlus, 13 Nov).",
-   "shorts": [
-    {
-     "title": "CP500 Tak Bayar, Kena Blacklist?",
-     "hook": "Tertunggak CP500, terus tak boleh keluar negara? Tak semestinya.",
-     "beat": "11 Nov di Dewan Rakyat: CP500 hanya anggaran, tak terus bawa sekatan perjalanan."
-    },
-    {
-     "title": "Bila Baru Kena Sekatan Perjalanan?",
-     "hook": "Ada satu syarat sebelum LHDN boleh sekat korang ke luar negara.",
-     "beat": "Sekatan hanya jika cukai tak dibayar 6 bulan selepas BNCP dimuktamadkan dan tak respon LHDN."
-    },
-    {
-     "title": "Penalti 10% CP500: Kira Cepat",
-     "hook": "Lewat bayar CP500 lebih 30 hari? Ni berapa kena tambah.",
-     "beat": "Contoh: ansuran RM300 lewat, penalti 10% jadi RM30. Rujuk LHDN untuk kes sendiri."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Tak bayar CP500, terus kena sekatan perjalanan?",
-     "a": "Tidak terus, kerana CP500 hanya anggaran cukai (Dewan Rakyat, 11 Nov)."
-    },
-    {
-     "q": "Bila boleh kena sekatan?",
-     "a": "Jika cukai tak dibayar 6 bulan selepas BNCP dimuktamadkan dan tak respon LHDN."
-    },
-    {
-     "q": "Ada penalti kalau lewat?",
-     "a": "Ansuran lewat lebih 30 hari boleh kena penalti 10%."
-    },
-    {
-     "q": "Siapa yang dapat CP500?",
-     "a": "Biasanya pembayar cukai dengan pendapatan bukan gaji, macam freelancer dan peniaga."
-    },
-    {
-     "q": "Macam mana nak semak?",
-     "a": "Log masuk MyTax untuk semak ansuran dan tunggakan, dan rujuk LHDN untuk kes sendiri."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Tak bayar ansuran CP500, terus kena sekatan perjalanan?",
-     "o": [
-      "Ya, terus",
-      "Tidak terus",
-      "Hanya jika lebih RM10,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Penalti ansuran CP500 lewat lebih 30 hari?",
-     "o": [
-      "5%",
-      "10%",
-      "15%"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Sekatan perjalanan boleh dikenakan berapa lama selepas BNCP muktamad?",
-     "o": [
-      "1 bulan",
-      "6 bulan",
-      "2 tahun"
-     ],
-     "a": 1
-    }
-   ]
+   "score": 70,
+   "prev_score": 72,
+   "status": "stabil"
   }
  ],
  "upcoming": [
@@ -2206,6 +2223,14 @@
    "note": "Terhad 15,000 pelabur baharu terawal.",
    "topic": "mae-asnb",
    "when": "2027-01-31"
+  },
+  {
+   "date": "31 Mac 2027",
+   "label": "Tarikh akhir mohon moratorium pinjaman banjir Alliance Bank",
+   "lead": 14,
+   "note": "Moratorium sehingga 6 bulan, tertakluk kelulusan bank.",
+   "topic": "bantuan-banjir-mtl-2026",
+   "when": "2027-03-31"
   }
  ],
  "apps": [
@@ -2626,11 +2651,15 @@
    "ideas": [
     "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
     "Agihan TH 3.50%: Berapa Korang Dapat?",
-    "THiJARI Asyik Log Keluar? Cara Atasi"
+    "Akta Tabung Haji Dipinda: Apa Kesan Pada Simpanan?"
    ],
    "name": "THiJARI (Tabung Haji)",
    "seg": "syariah",
    "sources": [
+    {
+     "name": "Bernama (4 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2629867"
+    },
     {
      "name": "Malay Mail (5 Okt 2026)",
      "url": "https://www.malaymail.com/amp/news/malaysia/2026/10/05/record-rm464b-income-highest-payout-in-eight-years-zulkifli-hasan-says-tabung-hajis-governance-now-stronger/237779"
@@ -2641,7 +2670,7 @@
     }
    ],
    "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
-   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Pada 5 Okt 2026, menteri maklumkan pendapatan pelaburan TH bagi 2025 capai rekod RM4.64 bilion dan agihan keuntungan 3.50%, tertinggi dalam 8 tahun. Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Pada 4 Nov 2026, kerajaan maklumkan di Dewan Rakyat bahawa pindaan Akta Tabung Haji 1995 akan dibentang tahun depan (antaranya larang ahli politik aktif dilantik ke lembaga), dan aset TH naik ke RM98.58 bilion setakat hujung 2025 dengan agihan 3.50% bagi 2025, tertinggi dalam 8 tahun. Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
   },
   {
    "id": "luno",
