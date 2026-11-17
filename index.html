@@ -255,7 +255,7 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 
 /* Bottom nav */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr) 72px repeat(3,1fr);height:var(--navh)}
+.navin{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr) 84px repeat(2,1fr);height:var(--navh)}
 .nb{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;color:var(--muted)}
 .nb svg{width:22px;height:22px}
 .nb[aria-current="page"]{color:var(--accent);font-weight:700}
@@ -441,11 +441,11 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .pchk{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted)}
 .pchk input{margin-top:2px;width:18px;height:18px;accent-color:var(--accent)}
 .fabw{display:flex;justify-content:center;align-items:flex-start}
-.fab{position:relative;width:54px;height:54px;margin-top:-16px;border-radius:18px;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 40%,transparent),0 0 0 4px var(--panel)}
+.fab{position:relative;width:58px;height:58px;margin-top:-18px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 40%,transparent),0 0 0 4px var(--panel)}
 .fab svg{width:26px;height:26px;stroke-width:2.4}
 .fab:active{transform:scale(.94)}
 .ndot{position:absolute;top:6px;right:calc(50% - 16px);width:8px;height:8px;border-radius:50%;background:var(--hot);box-shadow:0 0 0 2px var(--panel)}
-.fab .ndot{top:-2px;right:-2px}
+.fab .ndot{top:3px;right:3px}
 .nbadge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:6px;background:var(--hot);color:#fff;font-size:10px;font-weight:800;letter-spacing:.04em;line-height:16px;vertical-align:2px;text-transform:uppercase}
 .qacts{display:flex;gap:8px}.qacts .btn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px}.qacts svg{width:18px;height:18px}
 .jump{position:sticky;top:var(--toph,110px);z-index:12;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);margin:-6px -16px;padding:8px 16px}
@@ -515,6 +515,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 @keyframes cpf{0%,70%{opacity:1}100%{opacity:0}}
 .confetti{position:fixed;inset:0;width:100vw;height:100vh;z-index:119;pointer-events:none}
 @media (prefers-reduced-motion: reduce){.chkpop,.confetti{display:none}}
+.xseg button{display:flex;align-items:center;justify-content:center;gap:6px}.xseg svg{width:16px;height:16px}
 </style>
 </head>
 <body>
@@ -669,8 +670,10 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
   /* Nav & header */
   const VIEWS = [["hari","Hari ini","home"],["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"],["app","App","grid"]];
   let prevView = "topik";
-  function renderNav(){ const nn = state.topikSeen ? 0 : newCount(), btn = v => `<button class="nb" data-view="${v[0]}"${state.view === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span>${v[0] === "topik" && nn ? `<span class="badge" aria-label="${nn} topik baru">${nn}</span>` : ""}${v[0] === "plan" && isNewF("alat") ? `<i class="ndot" aria-label="ada ciri baru"></i>` : ""}</button>`;
-    $("nav").innerHTML = VIEWS.slice(0, 2).map(btn).join("") + `<div class="fabw"><button class="fab" data-quick="1" aria-label="Tampal link video: analisis atau jana posting">${svg("plus")}${isNewF("plus") ? `<i class="ndot"></i>` : ""}</button></div>` + VIEWS.slice(2).map(btn).join(""); }
+  const NAV = [["hari","Hari ini","home"],["topik","Topik","flame"],["tarikh","Tarikh","calendar"],["plan","Plan","plan"]];
+  function renderNav(){ const nn = state.topikSeen ? 0 : newCount(), cur = state.view === "app" ? "topik" : state.view, btn = v => `<button class="nb" data-view="${v[0]}"${cur === v[0] ? ' aria-current="page"' : ""}>${svg(v[2])}<span>${v[1]}</span>${v[0] === "topik" && nn ? `<span class="badge" aria-label="${nn} topik baru">${nn}</span>` : ""}${v[0] === "plan" && isNewF("alat") ? `<i class="ndot" aria-label="ada ciri baru"></i>` : ""}</button>`;
+    $("nav").innerHTML = NAV.slice(0, 2).map(btn).join("") + `<div class="fabw"><button class="fab" data-quick="1" aria-label="Tampal link video: analisis atau jana posting">${svg("plus")}${isNewF("plus") ? `<i class="ndot"></i>` : ""}</button></div>` + NAV.slice(2).map(btn).join(""); }
+  function exploreSeg(){ return `<div class="seg2 xseg" role="group" aria-label="Pilih paparan"><button data-view="topik" aria-pressed="${state.view === "topik"}">${svg("flame")}Topik trending</button><button data-view="app" aria-pressed="${state.view === "app"}">${svg("grid")}App popular</button></div>`; }
   function renderHeader(){
     $("searchBtn").setAttribute("aria-pressed", String(state.view === "cari"));
     const d = state.data;
@@ -1059,7 +1062,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(state.hideDone) list = list.filter(i => !state.done[i.id]);
     const pickHtml = state.viewing === "latest" && list.length ? `<div class="swhint">Tip: leret topik ke kanan untuk rancang esok, ke kiri untuk tanda dah upload.</div>` : "";
     const head = { kewangan:"Topik kewangan", tutorial:"Topik tutorial", emas:"Peluang emas" }[state.filter] || "Semua topik";
-    return `<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.${qi("emas")}</div>` : ""}
+    return `${exploreSeg()}<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.${qi("emas")}</div>` : ""}
       <div class="list">${list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`}</div>
       <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Bulatan = skor potensi${qi("skor")}</span></div>
       <div class="more"><label><input type="checkbox" id="hideDone"${state.hideDone ? " checked" : ""}> Sembunyi yang dah buat</label>
@@ -1301,10 +1304,10 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       `<div class="note">Disemak 16 Nov 2026. Kalau mana-mana link berubah, bagitau aku.</div>`;
   }
   function viewApp(){
-    if(state.seg === "rasmi") return viewLinks();
+    if(state.seg === "rasmi") return exploreSeg() + viewLinks();
     const list = apps().filter(a => a.seg === state.seg);
     const name = (SEGS.find(s => s[0] === state.seg) || [])[1] || "";
-    return `<h2 class="sec">App popular · ${esc(name)}</h2><div class="list">${list.length ? list.map(appRow).join("") : `<div class="empty">Tiada app untuk kategori ini lagi.</div>`}</div>
+    return `${exploreSeg()}<h2 class="sec">App popular · ${esc(name)}</h2><div class="list">${list.length ? list.map(appRow).join("") : `<div class="empty">Tiada app untuk kategori ini lagi.</div>`}</div>
       <div class="note">Popular berdasarkan jumlah pengguna dan berita terkini yang dilaporkan, bukan carian masa nyata.</div>`;
   }
   function viewCari(){
