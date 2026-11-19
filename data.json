@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated_label": "19 Nov 2026, 7 pagi",
+ "updated_label": "19 Nov 2026, 7 petang",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -24,8 +24,8 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 95,
-   "score": 94,
+   "prev_score": 94,
+   "score": 93,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -99,9 +99,9 @@
    "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150), dan yang tiada akaun bank boleh tunai di BSN. Sejak Isnin, 16 November, bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
    "shorts": [
     {
-     "title": "STR Masuk Hari Ni! Korang Layak?",
-     "hook": "Hari ni 16 November, duit STR masuk untuk satu kumpulan ni. Korang termasuk tak?",
-     "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN."
+     "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN.",
+     "hook": "Sejak 16 November, duit STR dah mula masuk untuk satu kumpulan ni. Korang termasuk tak?",
+     "title": "STR Dah Masuk? Ni Siapa Yang Layak"
     },
     {
      "title": "Kemas Kini STR 2027 Dalam 60 Saat",
@@ -210,8 +210,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 90,
-   "score": 91,
+   "prev_score": 91,
+   "score": 90,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -365,8 +365,8 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 80,
-   "score": 79,
+   "prev_score": 79,
+   "score": 78,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -512,8 +512,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
    ],
-   "prev_score": 80,
-   "score": 82,
+   "prev_score": 82,
+   "score": 80,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -636,7 +636,7 @@
    ]
   },
   {
-   "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'pegawai MCMC') dan cara sahkan melalui saluran rasmi. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'pegawai MCMC') dan kenapa 24 jam pertama paling penting untuk lapor ke NSRC 997. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
    "app": {
     "name": "BNM Sahkan",
     "url": "https://www.bnm.gov.my/sahkan"
@@ -661,7 +661,7 @@
      "q": "BNM ada app 'BNM Mobile Security' ke?"
     },
     {
-     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997.",
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997, sebaiknya dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan.",
      "q": "Dah terisi maklumat kad, nak buat apa?"
     },
     {
@@ -700,11 +700,11 @@
     {
      "a": 1,
      "o": [
-      "16",
-      "61",
-      "932"
+      "Dalam 7 hari",
+      "Dalam 24 jam pertama",
+      "Selepas 1 bulan"
      ],
-     "q": "Berapa orang ditahan kerana menyamar pegawai MCMC (14 Nov)?"
+     "q": "Ikut KDN, bila waktu terbaik lapor scam kepada NSRC 997?"
     }
    ],
    "seo": {
@@ -750,7 +750,7 @@
      "title": "Jangan Tap Kad Pada Telefon!"
     },
     {
-     "beat": "Hubungi bank dan NSRC 997 segera, sekat kad, tukar kata laluan. Bukit Aman tahan 932 orang dalam Ops Magpie.",
+     "beat": "Hubungi bank dan NSRC 997 segera, idealnya dalam 24 jam pertama supaya dana sempat dibekukan (KDN). Sekat kad dan tukar kata laluan.",
      "hook": "Terklik dan dah isi kad? Masa sangat penting.",
      "title": "Dah Terklik Link Scam? Buat Ni"
     }
@@ -781,18 +781,162 @@
      "url": "https://bernama.com/en/news.php?id=2634106"
     },
     {
-     "name": "Lowyat.NET (16 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409823/moh-cybersecurity-incident/"
-    },
-    {
      "name": "RinggitPlus (12 Nov 2026)",
      "url": "https://ringgitplus.com/en/blog/personal-finance-news/check-whos-collecting-before-you-pay-rm5-for-parking.html"
+    },
+    {
+     "name": "Bernama (17 Nov 2026): statistik NSRC & KDN",
+     "url": "https://bernama.com/bm/am/news.php?id=2635450"
     }
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & penyamar pegawai MCMC",
-   "why": "MyCERT beri amaran pada 6 Nov tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan pada 4 Nov tentang app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (The Star, 5 Nov). Pada 14 Nov, MCMC beri amaran selepas polis tahan 61 orang di Selangor yang disyaki sindiket menyamar pegawai MCMC, dan minta orang ramai sahkan panggilan atau mesej melalui saluran rasmi sebelum beri maklumat atau bayar (Bernama). Bukit Aman pula umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang; mangsa diminta hubungi NSRC 997 segera. Pada 16 Nov, KKM sahkan insiden siber (akses tanpa izin ke satu platform simpanan fail di sebuah fasiliti, dikesan 12 Nov) dan ingatkan orang ramai jangan muat turun atau sebar dokumen kerajaan yang diperoleh secara haram (Lowyat.NET). RinggitPlus (12 Nov) pula ingatkan pemandu di MRT Maluri supaya semak nama pada kod QR sebelum bayar 'parkir RM5', kerana ParkIt Malaysia kata ia tidak membenarkan sesiapa mengutip bayaran di situ.",
-   "score": 77,
-   "prev_score": 78,
+   "why": "MyCERT beri amaran pada 6 Nov tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan pada 4 Nov tentang app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (The Star, 5 Nov). Pada 14 Nov, MCMC beri amaran selepas polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC, dan Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang. Jawapan bertulis KDN di Parlimen (Bernama, 17 Nov) pula dedahkan NSRC terima 159,728 panggilan berkaitan scam dari Januari hingga Ogos 2026 dengan kerugian dilaporkan RM250.35 juta, dan mangsa digesa hubungi 997 dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan. RinggitPlus (12 Nov) pula ingatkan pemandu di MRT Maluri supaya semak nama pada kod QR sebelum bayar 'parkir RM5'.",
+   "score": 78,
+   "prev_score": 77,
+   "status": "naik"
+  },
+  {
+   "angle": "Video tenang, bukan menakutkan: maksud 'tahap Sederhana', kenapa jangan percaya dakwaan godam yang belum disahkan, dan 5 minit amankan akaun sendiri (aktifkan 2FA/MFA, tukar kata laluan yang sama di banyak app). Ingatkan KKM kata jangan muat turun atau sebar dokumen kerajaan yang bocor kerana ia satu kesalahan.",
+   "app": {
+    "name": "NACSA (portal rasmi)",
+    "url": "https://www.nacsa.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "19 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2–3 klip berita BM (kenyataan PM tentang Malaysia jadi sasaran, dakwaan kebocoran data). Belum jumpa video BM santai yang terangkan tahap 'Sederhana' dan langkah praktikal amankan akaun peribadi."
+   },
+   "faq": [
+    {
+     "a": "NACSA naikkan ke tahap Sederhana berkuat kuasa 4 Nov 2026 sebagai langkah berjaga-jaga.",
+     "q": "Tahap ancaman siber negara sekarang apa?"
+    },
+    {
+     "a": "Pada 12 Nov, Fahmi kata dakwaan yang tular belum disahkan oleh NACSA dan tiada laporan yang membimbangkan setakat itu.",
+     "q": "Betul ke Malaysia kena godam besar-besaran?"
+    },
+    {
+     "a": "KKM sahkan akses tanpa izin ke satu platform simpanan fail di sebuah fasiliti, tetapi belum nyatakan data apa yang terlibat.",
+     "q": "Data pesakit KKM bocor ke?"
+    },
+    {
+     "a": "Ya, KKM kata perkhidmatan rawatan pesakit berjalan seperti biasa dan temujanji diteruskan.",
+     "q": "Masih boleh pergi klinik atau hospital kerajaan?"
+    },
+    {
+     "a": "Kerajaan kata sumber rasmi ialah NACSA, jadi semak kenyataan rasmi sebelum percaya atau kongsi.",
+     "q": "Kat mana nak dapat maklumat sahih?"
+    }
+   ],
+   "icon": "shield",
+   "id": "ancaman-siber-tahap-sederhana",
+   "ideas": [
+    "Tahap Ancaman Siber 'Sederhana': Apa Maksudnya?",
+    "Aktifkan 2FA Semua Akaun Dalam 5 Minit",
+    "Data KKM Bocor? Ini Fakta Sebenar",
+    "Jangan Sebar Dokumen Bocor: Ni Sebabnya",
+    "Cara Semak Akaun Korang Pernah Bocor"
+   ],
+   "quiz": [
+    {
+     "a": 2,
+     "o": [
+      "Tinggi",
+      "Kritikal",
+      "Sederhana"
+     ],
+     "q": "Tahap ancaman siber negara dinaikkan ke tahap apa pada 4 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "NACSA",
+      "JPJ",
+      "KPDN"
+     ],
+     "q": "Agensi mana sumber rasmi maklumat serangan siber?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Tukar telefon",
+      "Pengesahan pelbagai faktor (MFA)",
+      "Tutup hospital"
+     ],
+     "q": "Selepas insiden 12 Nov, KKM wajibkan apa di fasiliti terlibat?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#keselamatansiber",
+     "#nacsa",
+     "#serangansiber",
+     "#2fa",
+     "#tipsonline"
+    ],
+    "keywords": [
+     "tahap ancaman siber malaysia",
+     "nacsa amaran siber",
+     "kkm data bocor",
+     "cara aktifkan 2fa",
+     "serangan siber malaysia 2026"
+    ],
+    "tags": [
+     "keselamatan siber",
+     "nacsa",
+     "serangan siber",
+     "data bocor",
+     "2fa",
+     "kata laluan",
+     "kkm",
+     "tips keselamatan online"
+    ],
+    "thumbs": [
+     "AMARAN SIBER NAIK",
+     "AKAUN KORANG SELAMAT?",
+     "BUAT INI SEKARANG"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terang NACSA naikkan tahap dari Rendah ke Sederhana mulai 4 Nov sebagai langkah berjaga-jaga, dan sumber rasmi ialah NACSA, bukan post tular.",
+     "hook": "Malaysia naikkan tahap ancaman siber. Perlu panik? Tak, tapi buat satu benda ni.",
+     "title": "Tahap Siber Naik: Panik Ke?"
+    },
+    {
+     "beat": "Rakam skrin telefon aktifkan pengesahan dua langkah dalam satu app popular, dan sebut KKM wajibkan MFA selepas insiden 12 Nov.",
+     "hook": "KKM pun wajibkan benda ni lepas kena ceroboh. Korang dah on belum?",
+     "title": "Aktifkan 2FA Dalam 30 Saat"
+    },
+    {
+     "beat": "KKM kata muat turun, simpan atau sebar dokumen kerajaan yang diperoleh secara haram ialah kesalahan serius. Padam dan jangan forward.",
+     "hook": "Ada orang share dokumen kerajaan bocor dalam group? Korang pun boleh kena.",
+     "title": "Dapat Fail 'Bocor'? Jangan Share"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Lowyat.NET (5 Nov 2026): NACSA naikkan tahap ancaman",
+     "url": "https://www.lowyat.net/2026/409217/nacsa-malaysia-cybersecurity-level/"
+    },
+    {
+     "name": "The Star (12 Nov 2026): NACSA kekal amaran amber",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/12/nacsa-maintains-amber-alert-amid-cyberattack-security-breach-claims"
+    },
+    {
+     "name": "Lowyat.NET (16 Nov 2026): insiden siber KKM",
+     "url": "https://www.lowyat.net/2026/409823/moh-cybersecurity-incident/"
+    },
+    {
+     "name": "NST: NACSA rekod 5,110 insiden siber",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1574088/nacsa-records-5110-cybersecurity-incidents-first-nine-months"
+    }
+   ],
+   "title": "Tahap ancaman siber negara naik ke 'Sederhana': apa kita perlu buat",
+   "why": "NACSA naikkan Tahap Ancaman Keselamatan Siber Negara dari Rendah ke Sederhana berkuat kuasa 4 Nov 2026 sebagai langkah berjaga-jaga, selepas PM beritahu Parlimen pada 3 Nov bahawa Malaysia boleh jadi sasaran serangan siber (Lowyat.NET). Pada 12 Nov, Menteri Komunikasi Fahmi Fadzil kata NACSA kekalkan amaran 'amber' dan dakwaan serangan yang tular di media sosial belum disahkan, dengan NACSA sebagai sumber maklumat rasmi (The Star). Pada 16 Nov, KKM sahkan akses tanpa izin ke satu platform simpanan fail di sebuah fasilitinya (dikesan 12 Nov); KKM set semula kata laluan, wajibkan pengesahan pelbagai faktor (MFA) dan kata perkhidmatan pesakit berjalan seperti biasa (Lowyat.NET).",
+   "score": 75,
+   "prev_score": null,
    "status": "naik"
   },
   {
@@ -927,8 +1071,8 @@
    ],
    "title": "Tak bayar ansuran CP500? Bukan sebab kena sekat ke luar negara",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong sahkan (The Star, 11 Nov 2026) ansuran CP500 yang tertunggak tidak boleh menyebabkan sekatan perjalanan ke luar negara. RinggitPlus (17 Nov) terangkan sekatan hanya untuk baki cukai yang masih terhutang selepas taksiran akhir, biasanya jika tidak dibayar enam bulan dan pembayar cukai tidak membalas LHDN. CP500 ialah bayaran cukai pendahuluan dalam enam ansuran untuk yang tiada PCB seperti freelancer, pekerja gig dan tuan rumah sewa.",
-   "score": 74,
-   "prev_score": 77,
+   "score": 73,
+   "prev_score": 74,
    "status": "naik"
   },
   {
@@ -974,7 +1118,7 @@
     "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
     "Akaun CDS: Cara Buka Sebelum Mohon IPO"
    ],
-   "prev_score": 76,
+   "prev_score": 74,
    "quiz": [
     {
      "a": 1,
@@ -1004,7 +1148,7 @@
      "q": "Akaun apa wajib ada untuk mohon saham IPO?"
     }
    ],
-   "score": 74,
+   "score": 73,
    "seo": {
     "hashtags": [
      "#mysaham",
@@ -1207,8 +1351,8 @@
    ],
    "title": "Harga emas jatuh bawah US$3,900: peluang atau perangkap?",
    "why": "Harga emas fizikal ditetapkan pada US$3,870.20 setroy auns di LBMA pada 12 Nov 2026, turun dari US$4,014.00 sehari sebelumnya, dan kontrak niaga hadapan emas November di Bursa Malaysia Derivatives jatuh dari US$4,087.60 ke US$3,900.60 dalam seminggu (Bernama, 13–14 Nov). Pada Isnin 16 Nov, kontrak bulan semasa ditutup lebih rendah lagi pada US$3,864.40; Stephen Innes dari SPI Asset Management kata emas tersepit antara kadar faedah AS yang tinggi lebih lama dan peranannya sebagai aset selamat (Bernama).",
-   "score": 73,
-   "prev_score": 75,
+   "score": 72,
+   "prev_score": 73,
    "status": "naik"
   },
   {
@@ -1231,8 +1375,8 @@
     "5 Tanda Telefon Korang Dah Kena Malware",
     "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
    ],
-   "prev_score": 75,
-   "score": 73,
+   "prev_score": 73,
+   "score": 72,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -1368,8 +1512,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 73,
-   "score": 72,
+   "prev_score": 72,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1627,8 +1771,8 @@
    ],
    "title": "Minyak masak botol 5kg kekal RM30.90: tanpa insentif boleh jadi RM34",
    "why": "Pada 11 Nov 2026, Menteri KPDN Armizan Mohd Ali umum kerajaan bayar insentif kira-kira RM15 juta sebulan terus kepada pengilang supaya minyak masak sawit botol kekal pada harga siling: 1kg RM6.90, 2kg RM13.30, 3kg RM19.60 dan 5kg RM30.90 (RinggitPlus, 12 Nov). Tanpa campur tangan ini, botol 5kg boleh mencecah RM34 berdasarkan harga purata minyak sawit mentah pada Oktober, RM4,400 setan, iaitu kira-kira RM37.20 lebih setahun jika beli sebotol sebulan. Kedai yang jual lebih dari harga siling boleh dilapor ke KPDN melalui WhatsApp 019-848 8000 atau 1-800-886-800.",
-   "score": 72,
-   "prev_score": null,
+   "score": 71,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1759,156 +1903,9 @@
    ],
    "title": "Kad Public Bank kini boleh guna Apple Pay + cashback RM30",
    "why": "Sejak 17 Nov 2026, kad debit dan kredit Visa serta Mastercard Public Bank (PB) dan Public Islamic Bank (PIB) boleh ditambah ke Apple Pay melalui app MyPB atau Apple Wallet, kecuali empat kad seperti PB-AIA Visa Gold dan PB UnionPay Lifestyle Debit (Lowyat.NET). Ada cashback RM10 untuk setiap tiga transaksi sekurang-kurangnya RM50 dengan kad PB yang baru ditambah, had RM30 seorang, hingga 16 Disember 2026.",
-   "score": 71,
-   "prev_score": 72,
+   "score": 70,
+   "prev_score": 71,
    "status": "naik"
-  },
-  {
-   "angle": "Tutorial skrin penuh dari isi borang hingga bayar, plus kira jimat: pasport 10 tahun RM350 berbanding dua pasport 5 tahun RM400. Sebut yang bawah 18 tahun cuma boleh 5 tahun, dan bawa MyKad asal, pasport lama dan resit masa ambil.",
-   "app": {
-    "name": "Jabatan Imigresen Malaysia",
-    "url": "https://www.imi.gov.my"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "17 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang dijumpai masih tutorial renew online umum (versi 5 tahun lama); belum jumpa tutorial BM khusus pilih tempoh 10 tahun di MyOnline Passport sejak 2 Nov."
-   },
-   "icon": "passport",
-   "id": "pasport-10-tahun-online",
-   "ideas": [
-    "Cara Renew Pasport 10 Tahun ONLINE (Step by Step)",
-    "Pasport 5 vs 10 Tahun: Mana Lagi Jimat?",
-    "Gambar Pasport Online Kena Reject? Buat Macam Ni",
-    "Renew Pasport Guna Telefon Je? Saya Cuba Sendiri",
-    "Pasport Nak Tamat? 5 Benda Kena Tahu Sebelum Renew"
-   ],
-   "prev_score": 74,
-   "score": 72,
-   "script": {
-    "cta": "Kalau video ni membantu, share dengan family yang pasport dah nak tamat, dan subscribe untuk tutorial urusan kerajaan yang lain.",
-    "hook": "Pasport korang nak tamat? Sekarang korang boleh renew pasport 10 tahun terus dari telefon, dan jimat RM50 berbanding renew dua kali.",
-    "points": [
-     "Mulai 2 November 2026, MyOnline Passport buka pilihan 5 atau 10 tahun secara online.",
-     "Kos: RM350 untuk 10 tahun, berbanding RM200 untuk 5 tahun. Dua kali renew 5 tahun jadi RM400.",
-     "Bawah 18 tahun masih 5 tahun sahaja.",
-     "Tunjuk skrin demi skrin: isi borang, muat naik gambar, bayar.",
-     "Masa ambil pasport, bawa MyKad asal, pasport lama dan resit."
-    ]
-   },
-   "seo": {
-    "hashtags": [
-     "#pasport10tahun",
-     "#renewpasport",
-     "#imigresen",
-     "#tipsmalaysia",
-     "#tutorialmalaysia"
-    ],
-    "keywords": [
-     "cara renew pasport online 2026",
-     "pasport 10 tahun online",
-     "myonline passport 10 tahun",
-     "harga pasport 10 tahun",
-     "renew passport malaysia online"
-    ],
-    "tags": [
-     "renew pasport",
-     "pasport 10 tahun",
-     "myonline passport",
-     "imigresen malaysia",
-     "passport malaysia",
-     "tutorial pasport",
-     "pasport online",
-     "rm350"
-    ],
-    "thumbs": [
-     "PASPORT 10 TAHUN",
-     "RENEW GUNA PHONE",
-     "JIMAT RM50"
-    ]
-   },
-   "sources": [
-    {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/10-year-passport-can-be-renewed-online-from-2-november.html"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129065/malaysians-can-now-apply-online-for-10-year-passports"
-    }
-   ],
-   "status": "stabil",
-   "title": "Renew pasport 10 tahun kini boleh online",
-   "why": "Mulai 2 November 2026, pasport boleh diperbaharui secara online untuk tempoh 5 atau 10 tahun melalui MyOnline Passport. Sebelum ini pasport 10 tahun hanya boleh dimohon di kaunter imigresen.",
-   "shorts": [
-    {
-     "title": "Pasport 10 Tahun Kini Boleh Online!",
-     "hook": "Dulu kena pergi kaunter. Sekarang pasport 10 tahun boleh renew dari phone.",
-     "beat": "Sejak 2 Nov, MyOnline Passport bagi pilihan 5 atau 10 tahun. Tunjuk skrin pilihan tempoh."
-    },
-    {
-     "title": "Jimat RM50 Dengan Pasport 10 Tahun",
-     "hook": "RM350 atau RM400? Ni kira cepat sebelum korang renew.",
-     "beat": "10 tahun RM350, dua kali 5 tahun RM400. Bawah 18 tahun masih 5 tahun sahaja."
-    },
-    {
-     "title": "3 Benda Wajib Bawa Masa Ambil Pasport",
-     "hook": "Dah renew online, tapi lupa bawa benda ni? Kena datang balik.",
-     "beat": "MyKad asal, pasport lama dan resit. Tunjuk ketiga-tiganya atas meja."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Betul ke pasport 10 tahun boleh renew online?",
-     "a": "Ya, mulai 2 November 2026 melalui MyOnline Passport, dengan pilihan 5 atau 10 tahun."
-    },
-    {
-     "q": "Berapa harga pasport 10 tahun?",
-     "a": "RM350, berbanding RM200 untuk 5 tahun."
-    },
-    {
-     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?",
-     "a": "Tidak, bawah 18 tahun masih 5 tahun sahaja."
-    },
-    {
-     "q": "Kena bawa apa masa ambil pasport?",
-     "a": "MyKad asal, pasport lama dan resit bayaran."
-    },
-    {
-     "q": "Sebelum ni macam mana nak buat pasport 10 tahun?",
-     "a": "Sebelum 2 Nov, pasport 10 tahun hanya boleh dimohon di kaunter imigresen."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa harga pasport 10 tahun?",
-     "o": [
-      "RM300",
-      "RM350",
-      "RM400"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Mulai bila pasport 10 tahun boleh renew online?",
-     "o": [
-      "2 November 2026",
-      "1 Januari 2026",
-      "1 Disember 2026"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Umur bawah 18 tahun boleh ambil pasport…",
-     "o": [
-      "10 tahun",
-      "5 tahun sahaja",
-      "Tak boleh renew"
-     ],
-     "a": 1
-    }
-   ]
   },
   {
    "angle": "Tutorial skrin telefon: daftar eGUMIS, semak nama sendiri dan ahli keluarga, dan cara hantar tuntutan. Selitkan amaran JANM tak pernah hantar e-mel pemakluman dan jangan bayar 'ejen' untuk tuntut.",
@@ -1931,8 +1928,8 @@
     "Ejen Tuntut WTD Minta Bayaran? Jangan Tertipu",
     "Akaun Bank Lama Dorman? Duit Tu Ada Di JANM"
    ],
-   "prev_score": 72,
-   "score": 71,
+   "prev_score": 71,
+   "score": 70,
    "seo": {
     "hashtags": [
      "#wangtakdituntut",
@@ -2072,8 +2069,8 @@
     "Cashback RM5 Buka ASNB: Cara Claim Sebelum Habis",
     "Top Up ASB Bulanan Dalam MAE: Tips Disiplin"
    ],
-   "prev_score": 70,
-   "score": 69,
+   "prev_score": 69,
+   "score": 68,
    "seo": {
     "hashtags": [
      "#asnb",
