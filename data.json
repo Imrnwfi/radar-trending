@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "updated_label": "20 Nov 2026, 7 pagi",
+ "updated_label": "20 Nov 2026, 7 petang",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -24,7 +24,7 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 93,
+   "prev_score": 94,
    "score": 94,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
@@ -210,8 +210,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 90,
-   "score": 91,
+   "prev_score": 91,
+   "score": 92,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -366,7 +366,7 @@
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
    "prev_score": 78,
-   "score": 78,
+   "score": 76,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -624,7 +624,175 @@
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion.",
    "score": 84,
-   "prev_score": null,
+   "prev_score": 84,
+   "status": "naik"
+  },
+  {
+   "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'polis/BNM' yang minta tinggalkan kad ATM) dan kenapa 24 jam pertama paling penting untuk lapor ke NSRC 997. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "17 Nov 2026",
+    "level": "tinggi",
+    "note": "Video MyBayar yang ada semua tutorial bayar saman. Video 'ghost tapping'/NFC yang ada dalam bahasa Inggeris dan Indonesia; belum jumpa video BM tentang app 'BNM Mobile Security' palsu."
+   },
+   "faq": [
+    {
+     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP.",
+     "q": "SMS saman PDRM RM150 tu betul ke?"
+    },
+    {
+     "a": "App palsu itu baca data kad melalui NFC dan hantar kepada scammer untuk buat transaksi atau keluar duit di ATM.",
+     "q": "Kenapa scammer suruh tap kad bank pada telefon?"
+    },
+    {
+     "a": "Tidak, MyCERT kata itu app palsu dan saluran rasmi BNM tidak mengedarkannya.",
+     "q": "BNM ada app 'BNM Mobile Security' ke?"
+    },
+    {
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997, sebaiknya dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan.",
+     "q": "Dah terisi maklumat kad, nak buat apa?"
+    },
+    {
+     "a": "Itu taktik scam biasa; dua mangsa rugi lebih RM1.18 juta selepas 'polis' palsu suruh serah kad ATM, dan polis atau BNM tidak akan minta kad atau duit korang.",
+     "q": "Ada 'polis' call kata akaun saya terlibat kes, betul ke?"
+    }
+   ],
+   "icon": "shield",
+   "id": "scam-saman-pdrm-mybayar",
+   "ideas": [
+    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
+    "App 'BNM' Palsu Suruh Tap Kad? Ini Scam NFC",
+    "Cara Semak Link Palsu Dalam 10 Saat",
+    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
+    "'Polis' Suruh Tinggal Kad ATM? Ini Scam RM1 Juta"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM50",
+      "RM150",
+      "RM300"
+     ],
+     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Scam cinta",
+      "Pelaburan palsu",
+      "E-dagang"
+     ],
+     "q": "Ikut KDN, jenis scam mana paling banyak rugi sejak 2023?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Dalam 7 hari",
+      "Dalam 24 jam pertama",
+      "Selepas 1 bulan"
+     ],
+     "q": "Ikut KDN, bila waktu terbaik lapor scam kepada NSRC 997?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#scammalaysia",
+     "#awasscam",
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
+    ],
+    "keywords": [
+     "sms saman pdrm scam",
+     "app bnm palsu",
+     "scam tap kad nfc",
+     "mybayar palsu",
+     "scam polis minta kad atm"
+    ],
+    "tags": [
+     "scam malaysia",
+     "saman pdrm",
+     "app bnm palsu",
+     "nfc scam",
+     "mybayar",
+     "mycert",
+     "sms palsu",
+     "scam polis palsu"
+    ],
+    "thumbs": [
+     "JANGAN TAP KAD!",
+     "SAMAN PALSU RM150",
+     "SCAM TERBARU"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS.",
+     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
+     "title": "SMS Saman RM150 Ni SCAM"
+    },
+    {
+     "beat": "MyCERT amaran 4 Nov: app 'BNM Mobile Security' palsu baca kad melalui NFC dan hantar data ke scammer. BNM dan bank tak pernah minta PIN kad.",
+     "hook": "Orang 'BNM' call suruh install app dan tap kad? Itu scam.",
+     "title": "Jangan Tap Kad Pada Telefon!"
+    },
+    {
+     "beat": "Hubungi bank dan NSRC 997 segera, idealnya dalam 24 jam pertama supaya dana sempat dibekukan (KDN). Sekat kad dan tukar kata laluan.",
+     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
+     "title": "Dah Terklik Link Scam? Buat Ni"
+    }
+   ],
+   "sources": [
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+    },
+    {
+     "name": "The Star (5 Nov 2026)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
+    },
+    {
+     "name": "The Star (6 Nov 2026)",
+     "url": "https://thestar.com.my/business/business-news/2026/11/06/scammers-using-fake-website-malicious-apps-to-impersonate-bank-negara"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    },
+    {
+     "name": "The Star (12 Nov 2026)",
+     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2634106"
+    },
+    {
+     "name": "RinggitPlus (12 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/check-whos-collecting-before-you-pay-rm5-for-parking.html"
+    },
+    {
+     "name": "Bernama (17 Nov 2026): statistik NSRC & KDN",
+     "url": "https://bernama.com/bm/am/news.php?id=2635450"
+    },
+    {
+     "name": "The Star (17 Nov 2026): RM6.95 bilion sejak 2023",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/17/online-scams-cost-malaysians-rm695bil-since-2023-fake-investments-biggest-drain"
+    },
+    {
+     "name": "Bernama (17 Nov 2026): RM1.18 juta, 'polis' palsu",
+     "url": "https://bernama.com/en/crime_courts/news.php?id=2635726"
+    }
+   ],
+   "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
+   "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
+   "score": 80,
+   "prev_score": 77,
    "status": "naik"
   },
   {
@@ -645,8 +813,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
    ],
-   "prev_score": 80,
-   "score": 79,
+   "prev_score": 79,
+   "score": 78,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -769,163 +937,291 @@
    ]
   },
   {
-   "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'pegawai MCMC') dan kenapa 24 jam pertama paling penting untuk lapor ke NSRC 997. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
+   "angle": "Tutorial langkah demi langkah: semak baki dan tunggakan dalam app myPTPTN, kira bayaran 20% atau RM1,000, dan beza penstrukturan semula dengan tukar ke Ujrah. Ingatkan penangguhan 2027 belum ada garis panduan rasmi dan ujrah mungkin terus terkumpul.",
    "app": {
-    "name": "BNM Sahkan",
-    "url": "https://www.bnm.gov.my/sahkan"
+    "name": "myPTPTN"
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "17 Nov 2026",
-    "level": "tinggi",
-    "note": "Video MyBayar yang ada semua tutorial bayar saman. Video 'ghost tapping'/NFC yang ada dalam bahasa Inggeris dan Indonesia; belum jumpa video BM tentang app 'BNM Mobile Security' palsu."
+    "checked": "20 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video berita TV tentang penstrukturan semula PTPTN dan Shorts cara bayar balik, tapi belum jumpa tutorial BM yang kira bayaran 20%/RM1,000 BMP 2026 langkah demi langkah."
    },
+   "deadline": "BMP: hingga 15 Dis 2026",
    "faq": [
     {
-     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP.",
-     "q": "SMS saman PDRM RM150 tu betul ke?"
+     "a": "BMP 2026 berlangsung dari 1 November hingga 15 Disember 2026.",
+     "q": "Bulan Mesra Peminjam PTPTN sampai bila?"
     },
     {
-     "a": "App palsu itu baca data kad melalui NFC dan hantar kepada scammer untuk buat transaksi atau keluar duit di ATM.",
-     "q": "Kenapa scammer suruh tap kad bank pada telefon?"
+     "a": "Serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi.",
+     "q": "Kena bayar berapa nak susun semula tunggakan?"
     },
     {
-     "a": "Tidak, MyCERT kata itu app palsu dan saluran rasmi BNM tidak mengedarkannya.",
-     "q": "BNM ada app 'BNM Mobile Security' ke?"
+     "a": "Kaunter negeri dan cawangan terpilih dibuka 9 pagi hingga 5 petang pada 5 dan 12 Disember, tetapi kaunter di Terengganu, Kedah, Kelantan dan Sabah beroperasi Ahad hingga Khamis sahaja.",
+     "q": "Kaunter PTPTN buka hujung minggu ke?"
     },
     {
-     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997, sebaiknya dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan.",
-     "q": "Dah terisi maklumat kad, nak buat apa?"
+     "a": "Belanjawan 2027 umum penangguhan bayaran balik pada 2027 untuk pendapatan sehingga RM2,500 sebulan, tetapi garis panduan dan cara memohon belum diumumkan.",
+     "q": "Betul ke gaji bawah RM2,500 tak payah bayar PTPTN?"
     },
     {
-     "a": "Polis tahan 61 orang di Selangor yang menyamar pegawai MCMC, jadi sahkan dulu melalui saluran rasmi MCMC sebelum beri maklumat atau bayar.",
-     "q": "Ada orang call mengaku pegawai MCMC, betul ke?"
+     "a": "Untuk 2027 belum dinyatakan; bagi penangguhan sedia ada ujrah tetap terkumpul, jadi baki boleh bertambah.",
+     "q": "Kalau tangguh, hutang PTPTN bertambah tak?"
     }
    ],
-   "icon": "shield",
-   "id": "scam-saman-pdrm-mybayar",
+   "icon": "learn",
+   "id": "ptptn-bulan-mesra-peminjam",
    "ideas": [
-    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
-    "App 'BNM' Palsu Suruh Tap Kad? Ini Scam NFC",
-    "Cara Semak Link Palsu Dalam 10 Saat",
-    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
-    "Call Dari 'Pegawai MCMC'? 61 Orang Dah Ditahan"
+    "Tunggak PTPTN? Susun Semula Sebelum 15 Dis",
+    "Cara Semak Tunggakan PTPTN Dalam App myPTPTN",
+    "Gaji Bawah RM2,500 Tak Payah Bayar PTPTN 2027?",
+    "20% atau RM1,000: Kira Bayaran Mula PTPTN",
+    "Penstrukturan vs Ujrah PTPTN: Mana Sesuai?"
    ],
    "quiz": [
     {
      "a": 1,
      "o": [
-      "RM50",
-      "RM150",
-      "RM300"
+      "30 Nov 2026",
+      "15 Dis 2026",
+      "31 Dis 2026"
      ],
-     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?"
+     "q": "Bulan Mesra Peminjam PTPTN 2026 tamat bila?"
     },
     {
      "a": 0,
      "o": [
-      "MyCERT",
-      "JPJ",
-      "LHDN"
+      "20% atau RM1,000",
+      "5% atau RM100",
+      "50% tunggakan"
      ],
-     "q": "Agensi mana keluarkan amaran scam ni pada 6 Nov?"
+     "q": "Bayaran minimum untuk susun semula tunggakan dalam BMP?"
     },
     {
-     "a": 1,
+     "a": 2,
      "o": [
-      "Dalam 7 hari",
-      "Dalam 24 jam pertama",
-      "Selepas 1 bulan"
+      "RM1,800",
+      "RM3,000",
+      "RM2,500"
      ],
-     "q": "Ikut KDN, bila waktu terbaik lapor scam kepada NSRC 997?"
+     "q": "Bajet 2027: gaji sehingga berapa tak perlu bayar PTPTN pada 2027?"
     }
    ],
    "seo": {
     "hashtags": [
-     "#scammalaysia",
-     "#awasscam",
-     "#samanpdrm",
-     "#penipuanonline",
-     "#mybayar"
+     "#PTPTN",
+     "#BulanMesraPeminjam",
+     "#TunggakanPTPTN",
+     "#TipsKewangan",
+     "#ImranWafi"
     ],
     "keywords": [
-     "sms saman pdrm scam",
-     "app bnm palsu",
-     "scam tap kad nfc",
-     "mybayar palsu",
-     "scam pegawai mcmc"
+     "ptptn bulan mesra peminjam 2026",
+     "cara susun semula pinjaman ptptn",
+     "tunggakan ptptn",
+     "ptptn tangguh bayaran 2027",
+     "semak baki ptptn"
     ],
     "tags": [
-     "scam malaysia",
-     "saman pdrm",
-     "app bnm palsu",
-     "nfc scam",
-     "mybayar",
-     "mycert",
-     "sms palsu",
-     "scam mcmc"
+     "ptptn",
+     "bulan mesra peminjam",
+     "penstrukturan semula ptptn",
+     "tunggakan ptptn",
+     "myptptn",
+     "bajet 2027",
+     "pinjaman pendidikan",
+     "tips kewangan"
     ],
     "thumbs": [
-     "JANGAN TAP KAD!",
-     "SAMAN PALSU RM150",
-     "SCAM TERBARU"
+     "TUNGGAK PTPTN?",
+     "SEBELUM 15 DIS!",
+     "BAYAR 20% SAHAJA"
     ]
    },
    "shorts": [
     {
-     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS.",
-     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
-     "title": "SMS Saman RM150 Ni SCAM"
+     "beat": "BMP 1 Nov–15 Dis: susun semula, gabung pinjaman atau tukar ke Ujrah dengan bayaran serendah 20% atau RM1,000 tunggakan, ikut mana lebih tinggi.",
+     "hook": "Kalau korang ada tunggakan PTPTN, tarikh 15 Disember ni penting.",
+     "title": "Tunggak PTPTN? Ada Tawaran Sampai 15 Dis"
     },
     {
-     "beat": "MyCERT amaran 4 Nov: app 'BNM Mobile Security' palsu baca kad melalui NFC dan hantar data ke scammer. BNM dan bank tak pernah minta PIN kad.",
-     "hook": "Orang 'BNM' call suruh install app dan tap kad? Itu scam.",
-     "title": "Jangan Tap Kad Pada Telefon!"
+     "beat": "Contoh kira: 20% daripada RM8,000 ialah RM1,600, lebih tinggi dari RM1,000, jadi RM1,600. Tunggakan RM3,000 pula: 20% cuma RM600, jadi bayar RM1,000.",
+     "hook": "Tunggakan RM8,000, kena bayar berapa untuk mula susun semula?",
+     "title": "Kira Bayaran Mula PTPTN Dalam 30 Saat"
     },
     {
-     "beat": "Hubungi bank dan NSRC 997 segera, idealnya dalam 24 jam pertama supaya dana sempat dibekukan (KDN). Sekat kad dan tukar kata laluan.",
-     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
-     "title": "Dah Terklik Link Scam? Buat Ni"
+     "beat": "Belanjawan 2027 cuma tangguh bayaran balik pada 2027, bukan hapus hutang; gaji RM2,500–RM3,000 bayar minimum RM50. Cara mohon belum diumumkan.",
+     "hook": "Ramai ingat PTPTN hapus kalau gaji bawah RM2,500. Salah.",
+     "title": "Mitos: Gaji Bawah RM2,500 Hapus PTPTN"
     }
    ],
    "sources": [
     {
-     "name": "ProductNation",
-     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/bm/am/news.php?id=2635635"
     },
     {
-     "name": "The Star (5 Nov 2026)",
-     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
+     "name": "RinggitPlus (9 Okt 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/belanjawan-2027-bayaran-balik-ptptn-ditangguh-bagi-pendapatan-sehingga-rm2500.html"
+    }
+   ],
+   "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
+   "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
+   "score": 76,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
+   "angle": "Terangkan kenapa emas turun (dolar AS kuat, jangkaan kadar faedah Fed) dan cara semak harga emas per gram serta caj upah sebelum beli. Ingatkan harga emas boleh terus turun atau naik, jangan guna duit kecemasan atau berhutang untuk beli, dan ini bukan nasihat pelaburan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "18 Nov 2026",
+    "level": "tinggi",
+    "note": "Video 'harga emas turun' Nov 2026 yang dijumpai hampir semua dari Indonesia (emas Antam). Belum jumpa video BM Malaysia yang terangkan kejatuhan minggu ini dan kesannya pada harga per gram di kedai."
+   },
+   "faq": [
+    {
+     "a": "Penganalisis SPI Asset Management kata data ekonomi AS yang kukuh kuatkan jangkaan Fed terus ketatkan dasar, jadi dolar AS kuat dan emas tertekan.",
+     "q": "Kenapa harga emas turun sekarang?"
     },
     {
-     "name": "The Star (6 Nov 2026)",
-     "url": "https://thestar.com.my/business/business-news/2026/11/06/scammers-using-fake-website-malicious-apps-to-impersonate-bank-negara"
+     "a": "Kontrak emas bulan semasa di Bursa Malaysia Derivatives ditutup US$3,731.30 seauns pada 19 Nov 2026; harga per gram di kedai berbeza ikut kedai dan caj upah.",
+     "q": "Harga emas sekarang berapa?"
     },
     {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+     "a": "Tiada siapa boleh pastikan; harga dah jatuh tiga hari berturut-turut setakat 19 Nov, tapi arah seterusnya bergantung pada dolar AS dan kadar faedah.",
+     "q": "Emas akan turun lagi ke?"
     },
     {
-     "name": "The Star (12 Nov 2026)",
-     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
+     "a": "Itu bergantung pada matlamat dan kewangan korang; harga boleh turun lagi, jadi jangan guna duit kecemasan atau berhutang.",
+     "q": "Patut beli emas sekarang?"
+    },
+    {
+     "a": "Kontrak bulan semasa turun dari US$3,868.60 (17 Nov) ke US$3,731.30 (19 Nov), iaitu kira-kira US$137 dalam dua hari dagangan.",
+     "q": "Berapa banyak harga emas jatuh minggu ni?"
+    }
+   ],
+   "icon": "gold",
+   "id": "harga-emas-jatuh-nov",
+   "ideas": [
+    "Harga Emas Jatuh! Patut Beli Sekarang Ke?",
+    "Kenapa Harga Emas Turun Bila Dolar Kuat?",
+    "Cara Semak Harga Emas Sebenar Sebelum Beli",
+    "Emas Fizikal vs Akaun Emas: Mana Sesuai?",
+    "5 Silap Orang Buat Bila Beli Emas Masa Turun"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "US$4,014.00",
+      "US$3,870.20",
+      "US$4,087.60"
+     ],
+     "q": "Harga fix emas LBMA pada 12 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Jangkaan kenaikan kadar faedah Fed",
+      "Harga minyak naik",
+      "Ringgit lemah"
+     ],
+     "q": "Apa faktor utama yang menekan harga emas minggu ini?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "US$3,900.60",
+      "US$4,014.00",
+      "US$3,731.30"
+     ],
+     "q": "Kontrak emas bulan semasa ditutup berapa pada 19 Nov 2026?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#HargaEmas",
+     "#EmasTurun",
+     "#PelaburanEmas",
+     "#TipsKewangan",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "harga emas hari ini",
+     "harga emas turun",
+     "harga emas per gram malaysia",
+     "patut beli emas sekarang",
+     "harga emas november 2026"
+    ],
+    "tags": [
+     "harga emas",
+     "emas turun",
+     "pelaburan emas",
+     "emas fizikal",
+     "akaun emas",
+     "harga emas malaysia",
+     "kadar faedah fed",
+     "tips kewangan"
+    ],
+    "thumbs": [
+     "EMAS JATUH!",
+     "BELI ATAU TUNGGU?",
+     "US$3,731 SEAUNS"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk angka LBMA: US$4,014.00 pada 11 Nov jadi US$3,870.20 pada 12 Nov. Terangkan ringkas kaitan dolar AS dan kadar faedah Fed.",
+     "hook": "Harga emas baru jatuh lebih US$140 seauns dalam sehari. Ni apa jadi.",
+     "title": "Emas Jatuh US$140 Dalam Sehari"
+    },
+    {
+     "beat": "Mitos vs fakta: harga dah turun lagi ke US$3,731.30 pada 19 Nov, maksudnya 'murah' boleh jadi lebih murah. Ingatkan jangan guna duit kecemasan atau berhutang.",
+     "hook": "Emas turun, semua orang kata 'beli sekarang'. Betul ke?",
+     "title": "Mitos: Emas Turun = Wajib Beli"
+    },
+    {
+     "beat": "Tutorial skrin telefon: bandingkan harga per gram, tanya caj upah dan harga jual balik. Harga US$ seauns tak sama terus dengan harga di kedai.",
+     "hook": "Sebelum korang beli emas masa harga turun, semak 3 benda ni dulu.",
+     "title": "Semak Ni Sebelum Beli Emas"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (12 Nov 2026)",
+     "url": "https://bernama.com/en/market/news.php?id=2633450"
+    },
+    {
+     "name": "Bernama (13 Nov 2026)",
+     "url": "https://www.bernama.com/tv/news.php?id=2633933"
     },
     {
      "name": "Bernama (14 Nov 2026)",
-     "url": "https://bernama.com/en/news.php?id=2634106"
+     "url": "https://bernama.com/bm/news.php?id=2634152"
     },
     {
-     "name": "RinggitPlus (12 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/check-whos-collecting-before-you-pay-rm5-for-parking.html"
+     "name": "Bernama (16 Nov 2026)",
+     "url": "https://bernama.com/en/market/news.php?id=2635273"
     },
     {
-     "name": "Bernama (17 Nov 2026): statistik NSRC & KDN",
-     "url": "https://bernama.com/bm/am/news.php?id=2635450"
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/en/market/news.php?id=2635745"
+    },
+    {
+     "name": "Bernama (18 Nov 2026)",
+     "url": "https://bernama.com/en/market/news.php?id=2636344"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://www.bernama.com/bm/pasaran/news.php?id=2636852"
     }
    ],
-   "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & penyamar pegawai MCMC",
-   "why": "MyCERT beri amaran pada 6 Nov tentang SMS 'PDRM' yang bawa ke laman MyBayar palsu dengan saman RM150 untuk curi butiran kad dan OTP, dan pada 4 Nov tentang app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (The Star, 5 Nov). Pada 14 Nov, MCMC beri amaran selepas polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC, dan Bukit Aman umum Ops Magpie (19–31 Okt) lumpuhkan 112 sindiket dan tahan 932 orang. Jawapan bertulis KDN di Parlimen (Bernama, 17 Nov) pula dedahkan NSRC terima 159,728 panggilan berkaitan scam dari Januari hingga Ogos 2026 dengan kerugian dilaporkan RM250.35 juta, dan mangsa digesa hubungi 997 dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan. RinggitPlus (12 Nov) pula ingatkan pemandu di MRT Maluri supaya semak nama pada kod QR sebelum bayar 'parkir RM5'.",
-   "score": 77,
-   "prev_score": 78,
+   "title": "Harga emas jatuh bawah US$3,750: peluang atau perangkap?",
+   "why": "Kontrak niaga hadapan emas bulan semasa di Bursa Malaysia Derivatives terus jatuh, daripada US$3,868.60 seauns pada 17 Nov ke US$3,782.90 pada 18 Nov dan US$3,731.30 pada 19 Nov 2026, selepas harga fix LBMA turun ke US$3,870.20 pada 12 Nov dari US$4,014.00 sehari sebelumnya (Bernama). Stephen Innes dari SPI Asset Management kata data ekonomi AS yang kukuh menguatkan jangkaan Fed terus mengetatkan dasar, sekali gus menguatkan dolar, dan ada pelabur jual emas untuk dapatkan tunai selepas saham berkaitan AI dijual (Bernama, 18 Nov).",
+   "score": 75,
+   "prev_score": 71,
    "status": "naik"
   },
   {
@@ -1063,8 +1359,8 @@
    ],
    "title": "App TuJu tembus 1 juta pengguna, kini guna pautan Google Maps",
    "why": "Timbalan Menteri Kerja Raya Ahmad Maslan beritahu Dewan Rakyat (Bernama, 16 Nov 2026) app navigasi tempatan TuJu kini melebihi sejuta pengguna, melonjak dari kira-kira 200,000 dalam tujuh bulan kepada lebih sejuta dalam beberapa hari selepas penjawat awam dilarang guna Waze untuk urusan rasmi. Lonjakan itu membebankan sistem sehingga Prosignal terpaksa bayar RM300,000 dalam sehari, dan sejak 6 Nov navigasi TuJu dialihkan melalui pautan Google Maps untuk kurangkan kos operasi.",
-   "score": 74,
-   "prev_score": null,
+   "score": 72,
+   "prev_score": 74,
    "status": "naik"
   },
   {
@@ -1207,8 +1503,8 @@
    ],
    "title": "Tahap ancaman siber negara naik ke 'Sederhana': apa kita perlu buat",
    "why": "NACSA naikkan Tahap Ancaman Keselamatan Siber Negara dari Rendah ke Sederhana berkuat kuasa 4 Nov 2026 sebagai langkah berjaga-jaga, selepas PM beritahu Parlimen pada 3 Nov bahawa Malaysia boleh jadi sasaran serangan siber (Lowyat.NET). Pada 12 Nov, Menteri Komunikasi Fahmi Fadzil kata NACSA kekalkan amaran 'amber' dan dakwaan serangan yang tular di media sosial belum disahkan, dengan NACSA sebagai sumber maklumat rasmi (The Star). Pada 16 Nov, KKM sahkan akses tanpa izin ke satu platform simpanan fail di sebuah fasilitinya (dikesan 12 Nov); KKM set semula kata laluan, wajibkan pengesahan pelbagai faktor (MFA) dan kata perkhidmatan pesakit berjalan seperti biasa (Lowyat.NET).",
-   "score": 73,
-   "prev_score": 75,
+   "score": 71,
+   "prev_score": 73,
    "status": "naik"
   },
   {
@@ -1254,7 +1550,7 @@
     "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
     "Akaun CDS: Cara Buka Sebelum Mohon IPO"
    ],
-   "prev_score": 73,
+   "prev_score": 72,
    "quiz": [
     {
      "a": 1,
@@ -1284,7 +1580,7 @@
      "q": "Akaun apa wajib ada untuk mohon saham IPO?"
     }
    ],
-   "score": 72,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#mysaham",
@@ -1372,7 +1668,7 @@
     "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
    ],
    "prev_score": 72,
-   "score": 72,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -1489,146 +1785,6 @@
      "a": 0
     }
    ]
-  },
-  {
-   "angle": "Terangkan kenapa emas turun (dolar AS kuat, jangkaan kadar faedah Fed) dan cara semak harga emas per gram serta caj upah sebelum beli. Ingatkan harga emas boleh terus turun atau naik, jangan guna duit kecemasan atau berhutang untuk beli, dan ini bukan nasihat pelaburan.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "18 Nov 2026",
-    "level": "tinggi",
-    "note": "Video 'harga emas turun' Nov 2026 yang dijumpai hampir semua dari Indonesia (emas Antam). Belum jumpa video BM Malaysia yang terangkan kejatuhan minggu ini dan kesannya pada harga per gram di kedai."
-   },
-   "faq": [
-    {
-     "a": "Menurut penganalisis Bank Muamalat, jangkaan kenaikan kadar faedah Fed menyokong dolar AS dan menekan harga emas.",
-     "q": "Kenapa harga emas turun sekarang?"
-    },
-    {
-     "a": "Harga emas fizikal ditetapkan US$3,870.20 seauns di LBMA pada 12 Nov 2026; harga per gram di kedai berbeza ikut kedai dan caj upah.",
-     "q": "Harga emas sekarang berapa?"
-    },
-    {
-     "a": "Tiada siapa boleh pastikan; penganalisis kata arah seterusnya bergantung pada dolar AS dan sentimen risiko, dan pada 16 Nov kontrak emas ditutup US$3,864.40.",
-     "q": "Emas akan turun lagi ke?"
-    },
-    {
-     "a": "Itu bergantung pada matlamat dan kewangan korang; harga boleh turun lagi, jadi jangan guna duit kecemasan atau berhutang.",
-     "q": "Patut beli emas sekarang?"
-    },
-    {
-     "a": "Kontrak niaga hadapan emas November di Bursa Malaysia Derivatives jatuh dari US$4,087.60 ke US$3,900.60 dalam seminggu.",
-     "q": "Berapa banyak harga emas jatuh minggu lepas?"
-    }
-   ],
-   "icon": "gold",
-   "id": "harga-emas-jatuh-nov",
-   "ideas": [
-    "Harga Emas Jatuh! Patut Beli Sekarang Ke?",
-    "Kenapa Harga Emas Turun Bila Dolar Kuat?",
-    "Cara Semak Harga Emas Sebenar Sebelum Beli",
-    "Emas Fizikal vs Akaun Emas: Mana Sesuai?",
-    "5 Silap Orang Buat Bila Beli Emas Masa Turun"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "US$4,014.00",
-      "US$3,870.20",
-      "US$4,087.60"
-     ],
-     "q": "Harga fix emas LBMA pada 12 Nov 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Jangkaan kenaikan kadar faedah Fed",
-      "Harga minyak naik",
-      "Ringgit lemah"
-     ],
-     "q": "Apa faktor utama yang menekan harga emas minggu ini?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "US$4,100–4,200",
-      "US$3,500–3,600",
-      "US$3,800–3,900"
-     ],
-     "q": "Julat jangkaan harga emas minggu ini (Bank Muamalat)?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#HargaEmas",
-     "#EmasTurun",
-     "#PelaburanEmas",
-     "#TipsKewangan",
-     "#ImranWafi"
-    ],
-    "keywords": [
-     "harga emas hari ini",
-     "harga emas turun",
-     "harga emas per gram malaysia",
-     "patut beli emas sekarang",
-     "harga emas november 2026"
-    ],
-    "tags": [
-     "harga emas",
-     "emas turun",
-     "pelaburan emas",
-     "emas fizikal",
-     "akaun emas",
-     "harga emas malaysia",
-     "kadar faedah fed",
-     "tips kewangan"
-    ],
-    "thumbs": [
-     "EMAS JATUH!",
-     "BELI ATAU TUNGGU?",
-     "US$3,870 SEAUNS"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Tunjuk angka LBMA: US$4,014.00 pada 11 Nov jadi US$3,870.20 pada 12 Nov. Terangkan ringkas kaitan dolar AS dan kadar faedah Fed.",
-     "hook": "Harga emas baru jatuh lebih US$140 seauns dalam sehari. Ni apa jadi.",
-     "title": "Emas Jatuh US$140 Dalam Sehari"
-    },
-    {
-     "beat": "Mitos vs fakta: penganalisis Bank Muamalat jangka julat US$3,800–3,900 minggu ini, maksudnya harga masih boleh bergerak. Ingatkan jangan guna duit kecemasan.",
-     "hook": "Emas turun, semua orang kata 'beli sekarang'. Betul ke?",
-     "title": "Mitos: Emas Turun = Wajib Beli"
-    },
-    {
-     "beat": "Tutorial skrin telefon: bandingkan harga per gram, tanya caj upah dan harga jual balik. Harga US$ seauns tak sama terus dengan harga di kedai.",
-     "hook": "Sebelum korang beli emas masa harga turun, semak 3 benda ni dulu.",
-     "title": "Semak Ni Sebelum Beli Emas"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Bernama (12 Nov 2026)",
-     "url": "https://bernama.com/en/market/news.php?id=2633450"
-    },
-    {
-     "name": "Bernama (13 Nov 2026)",
-     "url": "https://www.bernama.com/tv/news.php?id=2633933"
-    },
-    {
-     "name": "Bernama (14 Nov 2026)",
-     "url": "https://bernama.com/bm/news.php?id=2634152"
-    },
-    {
-     "name": "Bernama (16 Nov 2026)",
-     "url": "https://bernama.com/en/market/news.php?id=2635273"
-    }
-   ],
-   "title": "Harga emas jatuh bawah US$3,900: peluang atau perangkap?",
-   "why": "Harga emas fizikal ditetapkan pada US$3,870.20 setroy auns di LBMA pada 12 Nov 2026, turun dari US$4,014.00 sehari sebelumnya, dan kontrak niaga hadapan emas November di Bursa Malaysia Derivatives jatuh dari US$4,087.60 ke US$3,900.60 dalam seminggu (Bernama, 13–14 Nov). Pada Isnin 16 Nov, kontrak bulan semasa ditutup lebih rendah lagi pada US$3,864.40; Stephen Innes dari SPI Asset Management kata emas tersepit antara kadar faedah AS yang tinggi lebih lama dan peranannya sebagai aset selamat (Bernama).",
-   "score": 71,
-   "prev_score": 72,
-   "status": "naik"
   },
   {
    "angle": "Terangkan maksud laporan 9 bulan KWSP dan cara kira anggaran dividen sendiri tanpa menjanjikan kadar. Ingatkan dividen bergantung pada prestasi pelaburan dan boleh lebih rendah dari jangkaan.",
@@ -1767,7 +1923,7 @@
    "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
    "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion) (The Star, 17 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik kerana saham berkaitan AI tidak menentu, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan.",
    "score": 71,
-   "prev_score": null,
+   "prev_score": 71,
    "status": "naik"
   },
   {
@@ -1788,8 +1944,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 71,
-   "score": 70,
+   "prev_score": 70,
+   "score": 69,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1910,146 +2066,6 @@
      "a": 0
     }
    ]
-  },
-  {
-   "angle": "Video tips belanja: senarai harga siling semua saiz, cara kenal kedai caj lebih, dan cara lapor ke KPDN. Sesuai digabung dengan tips jimat barang dapur hujung tahun.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "19 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang ada kebanyakannya infografik atau berita lama tentang harga siling sebelum ini; tiada video jelas tentang insentif RM15 juta sebulan dan cara lapor kedai caj lebih."
-   },
-   "faq": [
-    {
-     "a": "Harga siling minyak sawit tulen botol 5kg ialah RM30.90.",
-     "q": "Harga minyak masak botol 5kg berapa sekarang?"
-    },
-    {
-     "a": "Tanpa insentif kerajaan ia boleh mencecah RM34, tetapi harga siling kekal RM30.90 kerana kerajaan bayar insentif kepada pengilang.",
-     "q": "Betul ke harga minyak masak nak naik RM34?"
-    },
-    {
-     "a": "Tidak, insentif dibayar terus kepada pengilang jadi pengguna hanya beli pada harga siling.",
-     "q": "Kena mohon apa-apa ke untuk dapat harga ni?"
-    },
-    {
-     "a": "Tempoh insentif belum dinyatakan dalam sumber yang disemak.",
-     "q": "Sampai bila harga ni kekal?"
-    },
-    {
-     "a": "Lapor ke KPDN melalui WhatsApp 019-848 8000 atau talian 1-800-886-800.",
-     "q": "Macam mana nak lapor kedai jual mahal?"
-    }
-   ],
-   "icon": "cart",
-   "id": "minyak-masak-botol-siling",
-   "ideas": [
-    "Harga Siling Minyak Masak Botol: Jangan Bayar Lebih!",
-    "Kedai Caj Lebih? Cara Lapor KPDN Dalam 1 Minit",
-    "Minyak Masak RM34? Ni Kenapa Harga Kekal RM30.90",
-    "1kg vs 5kg: Saiz Minyak Masak Mana Paling Jimat?",
-    "Tips Jimat Barang Dapur Hujung Tahun 2026"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "RM34.00",
-      "RM30.90",
-      "RM27.50"
-     ],
-     "q": "Harga siling minyak masak botol 5kg?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Kira-kira RM15 juta",
-      "Kira-kira RM1.5 juta",
-      "Kira-kira RM150 juta"
-     ],
-     "q": "Berapa insentif kerajaan sebulan kepada pengilang?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "RM5.90",
-      "RM7.90",
-      "RM6.90"
-     ],
-     "q": "Harga siling minyak masak botol 1kg?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#minyakmasak",
-     "#hargasiling",
-     "#kpdn",
-     "#tipsjimat",
-     "#kossarahidup"
-    ],
-    "keywords": [
-     "harga minyak masak botol 5kg",
-     "harga siling minyak masak",
-     "minyak masak rm30.90",
-     "cara lapor kpdn harga",
-     "harga minyak masak terkini"
-    ],
-    "tags": [
-     "minyak masak",
-     "harga siling",
-     "kpdn",
-     "harga barang",
-     "tips jimat",
-     "kos sara hidup",
-     "minyak sawit",
-     "barang dapur"
-    ],
-    "thumbs": [
-     "JANGAN BAYAR LEBIH!",
-     "5KG RM30.90",
-     "LAPOR KPDN"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Tunjuk senarai: 1kg RM6.90, 2kg RM13.30, 3kg RM19.60, 5kg RM30.90 untuk minyak sawit tulen botol.",
-     "hook": "Kalau korang beli minyak masak 5kg lebih RM30.90, korang kena caj lebih.",
-     "title": "Harga Siling Minyak Masak Semua Saiz"
-    },
-    {
-     "beat": "Tanpa insentif memang boleh RM34, tapi kerajaan bayar kira-kira RM15 juta sebulan kepada pengilang supaya harga kekal RM30.90.",
-     "hook": "Ramai kata minyak masak botol nak naik RM34. Betul ke?",
-     "title": "Mitos: Harga Minyak Masak Akan Naik?"
-    },
-    {
-     "beat": "Ambil gambar harga dan resit, lapor ke KPDN melalui WhatsApp 019-848 8000 atau 1-800-886-800; KPDN sasar siasat dalam 24 jam.",
-     "hook": "Jumpa kedai jual minyak masak lebih harga siling? Jangan diam.",
-     "title": "Kedai Caj Lebih? Lapor Macam Ni"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (12 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/5kg-cooking-oil-could-cost-rm34-without-government-incentive.html"
-    },
-    {
-     "name": "RTM (12 Nov 2026)",
-     "url": "https://berita.rtm.gov.my/?p=724859"
-    },
-    {
-     "name": "Malay Mail (11 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/11/government-steps-in-with-rm15m-monthly-subsidy-as-palm-oil-costs-rise/242884"
-    },
-    {
-     "name": "The Star (12 Nov 2026)",
-     "url": "https://www.thestar.com.my/news/nation/2026/11/12/subsidy-savings-used-to-keep-bottled-cooking-oil-affordable-says-armizan"
-    }
-   ],
-   "title": "Minyak masak botol 5kg kekal RM30.90: tanpa insentif boleh jadi RM34",
-   "why": "Pada 11 Nov 2026, Menteri KPDN Armizan Mohd Ali umum kerajaan bayar insentif kira-kira RM15 juta sebulan terus kepada pengilang supaya minyak masak sawit botol kekal pada harga siling: 1kg RM6.90, 2kg RM13.30, 3kg RM19.60 dan 5kg RM30.90 (RinggitPlus, 12 Nov). Tanpa campur tangan ini, botol 5kg boleh mencecah RM34 berdasarkan harga purata minyak sawit mentah pada Oktober, RM4,400 setan, iaitu kira-kira RM37.20 lebih setahun jika beli sebotol sebulan. Kedai yang jual lebih dari harga siling boleh dilapor ke KPDN melalui WhatsApp 019-848 8000 atau 1-800-886-800.",
-   "score": 69,
-   "prev_score": 71,
-   "status": "stabil"
   },
   {
    "angle": "Tutorial skrin iPhone tambah kad PB ke Apple Pay dalam app MyPB dan Apple Wallet, cara bayar guna iPhone/Apple Watch, dan cara kumpul cashback RM30 tanpa belanja lebih dari biasa.",
@@ -2179,8 +2195,8 @@
    ],
    "title": "Kad Public Bank kini boleh guna Apple Pay + cashback RM30",
    "why": "Sejak 17 Nov 2026, kad debit dan kredit Visa serta Mastercard Public Bank (PB) dan Public Islamic Bank (PIB) boleh ditambah ke Apple Pay melalui app MyPB atau Apple Wallet, kecuali empat kad seperti PB-AIA Visa Gold dan PB UnionPay Lifestyle Debit (Lowyat.NET). Ada cashback RM10 untuk setiap tiga transaksi sekurang-kurangnya RM50 dengan kad PB yang baru ditambah, had RM30 seorang, hingga 16 Disember 2026.",
-   "score": 69,
-   "prev_score": 70,
+   "score": 68,
+   "prev_score": 69,
    "status": "stabil"
   }
  ],
@@ -2219,6 +2235,14 @@
    "when": "2026-12-12"
   },
   {
+   "date": "15 Dis 2026",
+   "label": "Bulan Mesra Peminjam PTPTN tamat",
+   "lead": 7,
+   "note": "Susun semula tunggakan dari 20% atau RM1,000; kaunter terpilih buka 5 & 12 Dis.",
+   "topic": "ptptn-bulan-mesra-peminjam",
+   "when": "2026-12-15"
+  },
+  {
    "date": "16 Dis 2026",
    "label": "Kempen cashback Apple Pay Public Bank tamat",
    "lead": 7,
@@ -2242,13 +2266,6 @@
    "note": "Senarai syarikat insurans/takaful dan premium muktamad akan diumumkan menjelang pelancaran.",
    "topic": "mediasas-2027",
    "when": "2027-01-25"
-  },
-  {
-   "date": "31 Jan 2027",
-   "label": "Promosi cashback buka akaun ASNB dalam MAE tamat",
-   "lead": 10,
-   "note": "Terhad 15,000 pelabur baharu terawal.",
-   "when": "2027-01-31"
   }
  ],
  "apps": [
@@ -2695,7 +2712,7 @@
    "ideas": [
     "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
     "Agihan TH 3.50%: Berapa Korang Dapat?",
-    "Akta Tabung Haji Dipinda: Apa Kesan Pada Simpanan?"
+    "TH Kaji Panel Khas Pelaburan: Apa Kesannya?"
    ],
    "name": "THiJARI (Tabung Haji)",
    "seg": "syariah",
@@ -2711,10 +2728,14 @@
     {
      "name": "MWM",
      "url": "https://mwm.ai/ja/apps/tabung-haji/1497670808"
+    },
+    {
+     "name": "Berita RTM (18 Nov 2026)",
+     "url": "https://berita.rtm.gov.my/?p=727506"
     }
    ],
    "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
-   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. Pada 4 Nov 2026, kerajaan maklumkan di Dewan Rakyat bahawa pindaan Akta Tabung Haji 1995 akan dibentang tahun depan (antaranya larang ahli politik aktif dilantik ke lembaga), dan aset TH naik ke RM98.58 bilion setakat hujung 2025 dengan agihan 3.50% bagi 2025, tertinggi dalam 8 tahun. Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. TH beri agihan 3.50% bagi 2025 (tertinggi dalam 8 tahun) dengan aset RM98.58 bilion, dan pada 18 Nov 2026 Timbalan Menteri JPM (Hal Ehwal Agama) Marhamah Rosli kata TH akan teliti cadangan wujudkan panel khas strategi pelaburan; pindaan Akta Tabung Haji 1995 pula dijangka dibentang tahun depan. Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
   },
   {
    "id": "luno",
