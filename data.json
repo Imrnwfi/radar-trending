@@ -1,6 +1,6 @@
 {
- "date": "2026-11-21",
- "updated_label": "21 Nov 2026, 7 petang",
+ "date": "2026-11-22",
+ "updated_label": "22 Nov 2026, 7 pagi",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -25,7 +25,7 @@
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
    "prev_score": 93,
-   "score": 93,
+   "score": 94,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -165,166 +165,6 @@
      "a": 1
     }
    ]
-  },
-  {
-   "angle": "Tutorial langkah demi langkah aktifkan dan beli pas dalam app KTM Mobile, dengan kiraan jimat ikut laluan sebenar. Tunjuk juga pilihan kiosk stesen untuk yang nak lulus serta-merta.",
-   "app": {
-    "name": "KTM Mobile (KTMB)",
-    "url": "https://www.ktmb.com.my"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "tinggi",
-    "note": "Masih cuma jumpa Shorts berita Bajet dan satu video penerangan Bahasa Inggeris; belum ada tutorial BM langkah demi langkah aktifkan MyKomuter50 dalam app KTM Mobile."
-   },
-   "deadline": "Pengaktifan dibuka 16 Nov; pas sah mulai 1 Dis 2026",
-   "faq": [
-    {
-     "a": "Pengaktifan dibuka 16 November 2026 dan pas berkuat kuasa mulai 1 Disember 2026.",
-     "q": "MyKomuter50 boleh mula guna bila?"
-    },
-    {
-     "a": "RM50 untuk 30 hari, naik tanpa had dalam kategori laluan yang dipilih.",
-     "q": "Berapa harga dan berapa lama sah?"
-    },
-    {
-     "a": "Warganegara Malaysia 7 tahun ke atas dengan MyKad atau MyKid, yang tidak memegang pas MyRailLife.",
-     "q": "Siapa boleh mohon?"
-    },
-    {
-     "a": "Tak semestinya; boleh muat naik MyKad dalam app KTM Mobile atau KITS Style (sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
-     "q": "Kena pergi stesen ke?"
-    },
-    {
-     "a": "Selangor umum SEL 30 (RM30 sebulan untuk tren dan bas) mulai 2027, tapi syarat dan cara daftar belum diumumkan.",
-     "q": "Ada bantuan lain untuk tambang tren di Selangor?"
-    }
-   ],
-   "icon": "card",
-   "id": "mykomuter50-ktm",
-   "ideas": [
-    "Cara Aktifkan Pas MyKomuter50 dalam App KTM Mobile",
-    "RM416 Jadi RM50? Kira Jimat Pas MyKomuter50",
-    "MyKomuter50 vs My50: Mana Sesuai Untuk Korang?",
-    "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
-    "5 Kesilapan Bila Daftar Pas MyKomuter50"
-   ],
-   "prev_score": 92,
-   "score": 91,
-   "script": {
-    "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
-    "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
-    "points": [
-     "Apa itu MyKomuter50: pas 30 hari pada harga RM50, naik tanpa had untuk perkhidmatan Komuter terpilih, sah mulai 1 Disember 2026.",
-     "Tiga kategori laluan, setiap satu RM50: Utara, Lembah Klang dan Shuttle Selatan.",
-     "Siapa layak: warganegara 7 tahun ke atas dengan MyKad atau MyKid, yang belum ada pas MyRailLife.",
-     "Cara aktifkan: muat naik MyKad dalam KTM Mobile atau KITS Style (kelulusan sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
-     "Contoh jimat: Tanjung Malim–KL Sentral kira-kira RM416 sebulan jadi RM50; KTMB sarankan sahkan, aktifkan dan beli pada hari yang sama."
-    ]
-   },
-   "seo": {
-    "hashtags": [
-     "#MyKomuter50",
-     "#KTMKomuter",
-     "#TipsJimat",
-     "#PasRM50",
-     "#ImranWafi"
-    ],
-    "keywords": [
-     "mykomuter50 cara aktifkan",
-     "pas komuter rm50",
-     "ktm mobile mykomuter50",
-     "mykomuter50 daftar",
-     "pas bulanan ktm komuter"
-    ],
-    "tags": [
-     "mykomuter50",
-     "ktm komuter",
-     "pas rm50",
-     "ktmb",
-     "ktm mobile",
-     "kits style",
-     "tips jimat",
-     "pengangkutan awam"
-    ],
-    "thumbs": [
-     "KOMUTER RM50 SEBULAN",
-     "JIMAT RM366?",
-     "CARA AKTIFKAN"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Tunjuk kiraan tambang sebulan berbanding pas RM50, dan sebut penjimatan sehingga 88% bergantung laluan.",
-     "hook": "Kalau korang ulang-alik Tanjung Malim–KL Sentral, korang mungkin bayar RM416 sebulan.",
-     "title": "RM416 Jadi RM50? Kira Jimat Komuter"
-    },
-    {
-     "beat": "Rakaman skrin KTM Mobile: muat naik MyKad, tunggu kelulusan sehingga 3 hari bekerja, kemudian beli pas 30 hari.",
-     "hook": "Tak payah beratur kat kaunter, korang boleh buat dalam app.",
-     "title": "Aktifkan MyKomuter50 Guna Phone"
-    },
-    {
-     "beat": "Ingatkan kelulusan dalam app boleh ambil 3 hari bekerja; kalau nak segera, imbas MyKad di kiosk stesen. Pemegang pas MyRailLife pula tak layak.",
-     "hook": "Nak guna pas 1 Disember? Jangan buat silap ni.",
-     "title": "Silap Ni Buat Pas Korang Lambat"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa harga pas MyKomuter50 untuk 30 hari?",
-     "o": [
-      "RM30",
-      "RM50",
-      "RM100"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Pas MyKomuter50 mula berkuat kuasa bila?",
-     "o": [
-      "16 November 2026",
-      "1 Disember 2026",
-      "1 Januari 2027"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Siapa TAK layak mohon MyKomuter50?",
-     "o": [
-      "Pemegang pas MyRailLife",
-      "Pelajar 7 tahun ke atas",
-      "Pekerja yang ulang-alik"
-     ],
-     "a": 0
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/naik-komuter-tanpa-had-dengan-rm50-mykomuter50-dibuka-16-november-ini.html"
-    },
-    {
-     "name": "Lowyat.NET (12 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409695/ktmb-mykomuter50-pass/"
-    },
-    {
-     "name": "RinggitPlus",
-     "url": "https://ringgitplus.com/en/blog/budget-2027/budget-2027-my50-stays-new-mykomuter50-pass-for-ktm-komuter-riders.html"
-    },
-    {
-     "name": "Malay Mail",
-     "url": "https://www.malaymail.com/news/malaysia/2026/10/12/mykomuter50-pass-for-unlimited-ktm-rides-could-land-by-dec-1-loke-says/238786"
-    },
-    {
-     "name": "RinggitPlus (16 Nov 2026) – SEL 30",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-commuters-could-get-rm30-a-month-toward-trains-and-buses-in-2027.html"
-    }
-   ],
-   "status": "panas",
-   "title": "Pas MyKomuter50: RM50 sebulan naik KTM Komuter tanpa had",
-   "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen. Untuk penduduk Selangor, Bajet Selangor 2027 (dibentang 13 Nov) umum subsidi SEL 30, iaitu RM30 sebulan untuk tambang tren dan bas mulai 2027 dengan peruntukan RM5 juta untuk kira-kira 13,000 komuter; syarat dan cara daftar belum diumumkan (RinggitPlus, 16 Nov)."
   },
   {
    "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan di iPhone, Android dan Huawei, plus terangkan beza pop-up EWS dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
@@ -485,9 +325,169 @@
    ],
    "title": "Ujian amaran kecemasan di telefon 29 Nov: update phone korang dulu",
    "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
-   "score": 90,
-   "prev_score": null,
+   "score": 92,
+   "prev_score": 90,
    "status": "panas"
+  },
+  {
+   "angle": "Tutorial langkah demi langkah aktifkan dan beli pas dalam app KTM Mobile, dengan kiraan jimat ikut laluan sebenar. Tunjuk juga pilihan kiosk stesen untuk yang nak lulus serta-merta.",
+   "app": {
+    "name": "KTM Mobile (KTMB)",
+    "url": "https://www.ktmb.com.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "20 Nov 2026",
+    "level": "tinggi",
+    "note": "Masih cuma jumpa Shorts berita Bajet dan satu video penerangan Bahasa Inggeris; belum ada tutorial BM langkah demi langkah aktifkan MyKomuter50 dalam app KTM Mobile."
+   },
+   "deadline": "Pengaktifan dibuka 16 Nov; pas sah mulai 1 Dis 2026",
+   "faq": [
+    {
+     "a": "Pengaktifan dibuka 16 November 2026 dan pas berkuat kuasa mulai 1 Disember 2026.",
+     "q": "MyKomuter50 boleh mula guna bila?"
+    },
+    {
+     "a": "RM50 untuk 30 hari, naik tanpa had dalam kategori laluan yang dipilih.",
+     "q": "Berapa harga dan berapa lama sah?"
+    },
+    {
+     "a": "Warganegara Malaysia 7 tahun ke atas dengan MyKad atau MyKid, yang tidak memegang pas MyRailLife.",
+     "q": "Siapa boleh mohon?"
+    },
+    {
+     "a": "Tak semestinya; boleh muat naik MyKad dalam app KTM Mobile atau KITS Style (sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "q": "Kena pergi stesen ke?"
+    },
+    {
+     "a": "Selangor umum SEL 30 (RM30 sebulan untuk tren dan bas) mulai 2027, tapi syarat dan cara daftar belum diumumkan.",
+     "q": "Ada bantuan lain untuk tambang tren di Selangor?"
+    }
+   ],
+   "icon": "card",
+   "id": "mykomuter50-ktm",
+   "ideas": [
+    "Cara Aktifkan Pas MyKomuter50 dalam App KTM Mobile",
+    "RM416 Jadi RM50? Kira Jimat Pas MyKomuter50",
+    "MyKomuter50 vs My50: Mana Sesuai Untuk Korang?",
+    "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
+    "5 Kesilapan Bila Daftar Pas MyKomuter50"
+   ],
+   "prev_score": 91,
+   "score": 91,
+   "script": {
+    "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
+    "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
+    "points": [
+     "Apa itu MyKomuter50: pas 30 hari pada harga RM50, naik tanpa had untuk perkhidmatan Komuter terpilih, sah mulai 1 Disember 2026.",
+     "Tiga kategori laluan, setiap satu RM50: Utara, Lembah Klang dan Shuttle Selatan.",
+     "Siapa layak: warganegara 7 tahun ke atas dengan MyKad atau MyKid, yang belum ada pas MyRailLife.",
+     "Cara aktifkan: muat naik MyKad dalam KTM Mobile atau KITS Style (kelulusan sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "Contoh jimat: Tanjung Malim–KL Sentral kira-kira RM416 sebulan jadi RM50; KTMB sarankan sahkan, aktifkan dan beli pada hari yang sama."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#MyKomuter50",
+     "#KTMKomuter",
+     "#TipsJimat",
+     "#PasRM50",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "mykomuter50 cara aktifkan",
+     "pas komuter rm50",
+     "ktm mobile mykomuter50",
+     "mykomuter50 daftar",
+     "pas bulanan ktm komuter"
+    ],
+    "tags": [
+     "mykomuter50",
+     "ktm komuter",
+     "pas rm50",
+     "ktmb",
+     "ktm mobile",
+     "kits style",
+     "tips jimat",
+     "pengangkutan awam"
+    ],
+    "thumbs": [
+     "KOMUTER RM50 SEBULAN",
+     "JIMAT RM366?",
+     "CARA AKTIFKAN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk kiraan tambang sebulan berbanding pas RM50, dan sebut penjimatan sehingga 88% bergantung laluan.",
+     "hook": "Kalau korang ulang-alik Tanjung Malim–KL Sentral, korang mungkin bayar RM416 sebulan.",
+     "title": "RM416 Jadi RM50? Kira Jimat Komuter"
+    },
+    {
+     "beat": "Rakaman skrin KTM Mobile: muat naik MyKad, tunggu kelulusan sehingga 3 hari bekerja, kemudian beli pas 30 hari.",
+     "hook": "Tak payah beratur kat kaunter, korang boleh buat dalam app.",
+     "title": "Aktifkan MyKomuter50 Guna Phone"
+    },
+    {
+     "beat": "Ingatkan kelulusan dalam app boleh ambil 3 hari bekerja; kalau nak segera, imbas MyKad di kiosk stesen. Pemegang pas MyRailLife pula tak layak.",
+     "hook": "Nak guna pas 1 Disember? Jangan buat silap ni.",
+     "title": "Silap Ni Buat Pas Korang Lambat"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa harga pas MyKomuter50 untuk 30 hari?",
+     "o": [
+      "RM30",
+      "RM50",
+      "RM100"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Pas MyKomuter50 mula berkuat kuasa bila?",
+     "o": [
+      "16 November 2026",
+      "1 Disember 2026",
+      "1 Januari 2027"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Siapa TAK layak mohon MyKomuter50?",
+     "o": [
+      "Pemegang pas MyRailLife",
+      "Pelajar 7 tahun ke atas",
+      "Pekerja yang ulang-alik"
+     ],
+     "a": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (16 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/naik-komuter-tanpa-had-dengan-rm50-mykomuter50-dibuka-16-november-ini.html"
+    },
+    {
+     "name": "Lowyat.NET (12 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409695/ktmb-mykomuter50-pass/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/budget-2027/budget-2027-my50-stays-new-mykomuter50-pass-for-ktm-komuter-riders.html"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/10/12/mykomuter50-pass-for-unlimited-ktm-rides-could-land-by-dec-1-loke-says/238786"
+    },
+    {
+     "name": "RinggitPlus (16 Nov 2026) – SEL 30",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-commuters-could-get-rm30-a-month-toward-trains-and-buses-in-2027.html"
+    }
+   ],
+   "status": "panas",
+   "title": "Pas MyKomuter50: RM50 sebulan naik KTM Komuter tanpa had",
+   "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen. Untuk penduduk Selangor, Bajet Selangor 2027 (dibentang 13 Nov) umum subsidi SEL 30, iaitu RM30 sebulan untuk tambang tren dan bas mulai 2027 dengan peruntukan RM5 juta untuk kira-kira 13,000 komuter; syarat dan cara daftar belum diumumkan (RinggitPlus, 16 Nov)."
   },
   {
    "angle": "Video peringatan praktikal: semak baki SARA dalam MyKad sekarang dan rancang belanja barang keperluan sebelum kredit hangus 31 Disember. Sertakan sedikit konteks peruntukan SARA 2027.",
@@ -623,7 +623,7 @@
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion. RinggitPlus (19 Nov) ingatkan baki boleh disemak di portal SARA (sara.gov.my), app MyKasih atau resit belian, dengan lebih 14,000 kedai SARA dan barangan asas dalam 15 kategori; tahun lalu kira-kira RM150 juta kredit sekali beri yang tak digunakan disalurkan kepada golongan memerlukan.",
    "score": 86,
-   "prev_score": 85,
+   "prev_score": 86,
    "status": "panas",
    "script": {
     "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
@@ -801,8 +801,8 @@
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
    "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
-   "score": 80,
-   "prev_score": 81,
+   "score": 79,
+   "prev_score": 80,
    "status": "naik"
   },
   {
@@ -844,7 +844,7 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 74,
+   "prev_score": 75,
    "score": 75,
    "seo": {
     "hashtags": [
@@ -989,9 +989,9 @@
    "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun.",
    "cat": "kewangan",
    "competition": {
-    "checked": "18 Nov 2026",
+    "checked": "22 Nov 2026",
     "level": "sederhana",
-    "note": "Ada klip berita BM harga minyak mingguan (Bernama TV, Astro Awani) tapi kebanyakannya bacaan berita. Sudut kira penjimatan BUDI95 ikut gaya hidup dan kemas kini mingguan santai masih kosong."
+    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
    },
    "deadline": "Harga 19–25 Nov; harga baharu dijangka diumum 25 Nov",
    "icon": "chart",
@@ -1003,8 +1003,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
    ],
-   "prev_score": 76,
-   "score": 74,
+   "prev_score": 74,
+   "score": 75,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -1258,8 +1258,140 @@
    ],
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
-   "score": 74,
-   "prev_score": 75,
+   "score": 73,
+   "prev_score": 74,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial semak wang tak dituntut arwah di eGUMIS, terangkan beza pusaka ringkas, kecil dan besar serta siapa yang urus, kemudian kenapa wasiat atau hibah penting. Ingatkan penonton rujuk peguam syarie atau Amanah Raya untuk kes sebenar.",
+   "app": {
+    "name": "eGUMIS (JANM)",
+    "url": "https://egumis.anm.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM tentang pusaka yang dijumpai kebanyakannya ceramah dan podcast umum atau tutorial lama. Belum jumpa video yang kupas angka RM90 bilion atau tunjuk cara semak eGUMIS langkah demi langkah."
+   },
+   "faq": [
+    {
+     "a": "Itu anggaran CEO CIMB Islamic pada 17 Nov 2026; RinggitPlus nota tiada data rasmi kerajaan yang menyokong angka itu.",
+     "q": "Betul ke RM90 bilion harta pusaka tak dituntut?"
+    },
+    {
+     "a": "Semak percuma di portal eGUMIS (egumis.anm.gov.my) milik Jabatan Akauntan Negara.",
+     "q": "Macam mana nak tahu arwah ada duit tak dituntut?"
+    },
+    {
+     "a": "Pusaka kecil hingga RM5 juta diurus JKPTG atau Amanah Raya, dan boleh dimohon online melalui portal MyLAND.",
+     "q": "Pusaka bawah RM5 juta nak urus kat mana?"
+    },
+    {
+     "a": "Harta alih sahaja hingga RM600,000 dikira pusaka ringkas dan diurus Amanah Raya Berhad.",
+     "q": "Kalau arwah cuma ada duit bank, KWSP dan ASNB?"
+    },
+    {
+     "a": "Tidak, penama KWSP bukan benefisiari mutlak dan perlu mengagihkan wang itu ikut faraid.",
+     "q": "Penama KWSP boleh ambil semua ke?"
+    }
+   ],
+   "icon": "learn",
+   "id": "harta-pusaka-rm90-bilion",
+   "ideas": [
+    "RM90 Bilion Harta Pusaka Tak Dituntut: Kenapa?",
+    "Cara Semak Duit Arwah Tak Dituntut di eGUMIS",
+    "Pusaka Ringkas, Kecil atau Besar: Mana Satu?",
+    "Cara Mohon Pusaka Kecil Online Guna MyLAND",
+    "Penama KWSP Bukan Pewaris Mutlak: Ramai Salah Faham"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM9 bilion",
+      "RM90 bilion",
+      "RM900 bilion"
+     ],
+     "q": "Berapa anggaran harta pusaka orang Islam belum dituntut (17 Nov 2026)?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "MySTR",
+      "MyJPJ",
+      "eGUMIS"
+     ],
+     "q": "Portal mana untuk semak wang tidak dituntut arwah?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM5 juta",
+      "RM2 juta",
+      "RM600,000"
+     ],
+     "q": "Had baharu nilai pusaka kecil ialah…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#hartapusaka",
+     "#egumis",
+     "#faraid",
+     "#kewanganislam",
+     "#tipskewangan"
+    ],
+    "keywords": [
+     "harta pusaka tak dituntut",
+     "cara semak wang tak dituntut arwah",
+     "egumis semak wang tidak dituntut",
+     "cara tuntut pusaka kecil online",
+     "beza wasiat dan hibah"
+    ],
+    "tags": [
+     "harta pusaka",
+     "pusaka kecil",
+     "egumis",
+     "wang tidak dituntut",
+     "amanah raya",
+     "faraid",
+     "hibah",
+     "wasiat"
+    ],
+    "thumbs": [
+     "RM90 BILION TAK DITUNTUT",
+     "DUIT ARWAH TERSANGKUT?",
+     "SEMAK SEKARANG!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terangkan angka CEO CIMB Islamic (17 Nov), naik 135% sejak 2009, dan nota bahawa tiada data rasmi kerajaan menyokongnya. Tambah fakta 46,000 kes pusaka kecil belum selesai.",
+     "hook": "Ada anggaran RM90 bilion harta pusaka orang Islam masih belum dituntut.",
+     "title": "RM90 Bilion Pusaka Tak Dituntut?!"
+    },
+    {
+     "beat": "Rakam skrin portal egumis.anm.gov.my dan cara membuat carian. Ingatkan tuntutan biasanya perlukan surat kuasa mentadbir.",
+     "hook": "Korang boleh semak duit tak dituntut arwah keluarga secara percuma.",
+     "title": "Semak Duit Arwah di eGUMIS"
+    },
+    {
+     "beat": "Terangkan penama KWSP bukan benefisiari mutlak dan perlu agih ikut faraid. Cadangkan wasiat atau hibah, dan rujuk peguam syarie atau ARB dulu.",
+     "hook": "Ramai ingat penama KWSP boleh ambil semua duit. Salah!",
+     "title": "Penama KWSP Bukan Pewaris Mutlak"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (19 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/anggaran-rm90-bilion-harta-pusaka-orang-islam-belum-dituntut.html"
+    }
+   ],
+   "title": "RM90 bilion harta pusaka orang Islam belum dituntut: cara semak & tuntut",
+   "why": "CEO CIMB Islamic Ahmad Shahriman Mohd Sharif (17 Nov 2026) menganggarkan harta pusaka orang Islam yang belum dituntut kira-kira RM90 bilion, naik 135% sejak 2009, walaupun RinggitPlus (19 Nov) nota tiada data rasmi kerajaan yang menyokong angka itu. Lebih 46,000 kes pusaka kecil masih belum selesai setakat 31 Dis 2025, dan JANM rekod lebih RM14 bilion wang tidak dituntut setakat 30 Sept 2026. Had pusaka kecil kini RM5 juta (dulu RM2 juta) dan permohonan boleh dibuat online melalui portal MyLAND.",
+   "score": 72,
+   "prev_score": null,
    "status": "naik"
   },
   {
@@ -1406,17 +1538,438 @@
    ],
    "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
    "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan. The Star (18 Nov) lapor pendapatan suku ketiga RM25.8 bilion itu turun kira-kira 13% berbanding suku sebelumnya, dan bertanya sama ada dividen 2026 mampu menyamai 6.15% bagi 2025.",
-   "score": 73,
-   "prev_score": 72,
+   "score": 71,
+   "prev_score": 73,
    "status": "naik"
+  },
+  {
+   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
+   "app": {
+    "name": "WhatsApp (Tetapan > Storan dan data)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "tinggi",
+    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang gabungkan amaran MCCA, cadangan pengesahan identiti dan backup awan baharu WhatsApp."
+   },
+   "icon": "shield",
+   "id": "whatsapp-malware-apk",
+   "ideas": [
+    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
+    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
+    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
+    "5 Tanda Telefon Korang Dah Kena Malware",
+    "Google Sekat APK Tak Sah 2027: Apa Berubah?"
+   ],
+   "prev_score": 71,
+   "score": 70,
+   "seo": {
+    "hashtags": [
+     "#whatsapp",
+     "#awasscam",
+     "#scamapk",
+     "#keselamatansiber",
+     "#tipswhatsapp"
+    ],
+    "keywords": [
+     "malware whatsapp",
+     "cara elak whatsapp kena hack",
+     "matikan muat turun automatik whatsapp",
+     "fail apk whatsapp scam",
+     "whatsapp pengesahan identiti malaysia"
+    ],
+    "tags": [
+     "whatsapp",
+     "malware",
+     "scam apk",
+     "keselamatan telefon",
+     "whatsapp hack",
+     "tips whatsapp",
+     "scam malaysia",
+     "otp"
+    ],
+    "thumbs": [
+     "JANGAN BUKA FAIL NI",
+     "WHATSAPP KENA HACK?",
+     "OFF SETTING NI!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "SoyaCincau (15 Nov 2026)",
+     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
+    },
+    {
+     "name": "The Vibes (8 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
+    },
+    {
+     "name": "Lowyat.NET (16 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409783/ministry-whatsapp-acc-verification/"
+    },
+    {
+     "name": "Lowyat.NET (20 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410137/google-android-sideloading-restrictions/"
+    },
+    {
+     "name": "Lowyat.NET (18 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409927/whatsapps-free-cloud-backup-beta/"
+    }
+   ],
+   "status": "naik",
+   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
+   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau). Pada 20 Nov, Google umum peraturan pengesahan pembangun untuk app di luar Play Store akan diperluas ke seluruh dunia mulai Januari 2027; app dari pembangun tidak disahkan masih boleh dipasang tetapi perlu buka pilihan pembangun dan tunggu 24 jam (Lowyat.NET). Pada 18 Nov, WhatsApp mula uji backup awan sendiri percuma 2GB untuk sebahagian pengguna beta Android, dengan penyulitan hujung ke hujung wajib (passkey atau kunci 64 digit); tarikh untuk semua pengguna belum diumumkan (Lowyat.NET).",
+   "shorts": [
+    {
+     "title": "Off Setting WhatsApp Ni SEKARANG",
+     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
+     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
+    },
+    {
+     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
+     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
+     "title": "WhatsApp Kena Verify Identiti?"
+    },
+    {
+     "title": "On Pengesahan 2 Langkah WhatsApp",
+     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
+     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke WhatsApp boleh kena malware?",
+     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+    },
+    {
+     "q": "Apa malware ni boleh buat?",
+     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+    },
+    {
+     "q": "Setting apa nak tutup?",
+     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+    },
+    {
+     "q": "Macam mana nak lindungi akaun?",
+     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
+    },
+    {
+     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
+     "q": "Betul ke WhatsApp nanti kena daftar IC?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "o": [
+      "Dokumen",
+      "Lagu",
+      "Sticker"
+     ],
+     "a": 0
+    },
+    {
+     "a": 1,
+     "o": [
+      "Menteri Kewangan",
+      "Menteri Komunikasi Fahmi Fadzil",
+      "Gabenor BNM"
+     ],
+     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
+    },
+    {
+     "q": "Cara terbaik kunci akaun WhatsApp?",
+     "o": [
+      "Pengesahan dua langkah",
+      "Tukar gambar profil",
+      "Padam chat lama"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "angle": "Video kira mudah 'berapa duit korang hilang sebab inflasi' ikut tahap belanja, kemudian tips jimat elektrik supaya kekal bawah 800 kWh dan guna kuota BUDI95. Tunjuk kenapa simpanan 1% setahun kalah dengan inflasi, tapi ingatkan setiap pelaburan ada risiko.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "tinggi",
+    "note": "Carian YouTube hanya jumpa video inflasi negara lain (Indonesia, UK, Amerika Latin). Belum jumpa video BM Malaysia tentang data inflasi Oktober 2026 atau kiraan RM57 sebulan."
+   },
+   "deadline": "Pengecualian AFA/SST elektrik 800 kWh: hingga 31 Dis 2026",
+   "faq": [
+    {
+     "a": "1.9% setahun, naik sedikit daripada 1.8% pada September (DOSM, 19 Nov 2026).",
+     "q": "Inflasi Oktober 2026 berapa?"
+    },
+    {
+     "a": "Pengangkutan naik 4.2% manakala elektrik, gas dan bahan api naik 4.7%.",
+     "q": "Barang apa naik paling banyak?"
+    },
+    {
+     "a": "Ada pelarasan AFA untuk pengguna domestik Semenanjung yang guna lebih 800 kWh sebulan.",
+     "q": "Kenapa bil elektrik rumah aku naik?"
+    },
+    {
+     "a": "Untuk tempoh 1 Sept hingga 31 Dis 2026; sebarang lanjutan belum diumumkan secara rasmi.",
+     "q": "Pengecualian 800 kWh tu sampai bila?"
+    },
+    {
+     "a": "Pemandu dalam had BUDI95 300 liter sebulan masih bayar RM1.99 seliter, sama seperti setahun lalu.",
+     "q": "Kalau isi BUDI95, kena inflasi minyak tak?"
+    }
+   ],
+   "icon": "chart",
+   "id": "inflasi-oktober-2026",
+   "ideas": [
+    "Inflasi 1.9%: Berapa Duit Korang Hilang Sebulan?",
+    "Kenapa Bil Elektrik Naik? AFA 800 kWh Diterangkan",
+    "Nasi Lemak Naik 2.8%: Harga Makan Luar 2026",
+    "Simpan Duit 1% Setahun? Korang Sebenarnya Rugi",
+    "5 Cara Jimat Bil Elektrik Bawah 800 kWh"
+   ],
+   "quiz": [
+    {
+     "a": 0,
+     "o": [
+      "1.9%",
+      "2.9%",
+      "0.9%"
+     ],
+     "q": "Kadar inflasi Malaysia Oktober 2026?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Selangor",
+      "Kedah",
+      "Negeri Sembilan"
+     ],
+     "q": "Negeri dengan inflasi tertinggi Oktober 2026?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "600 kWh",
+      "800 kWh",
+      "1,000 kWh"
+     ],
+     "q": "Pengecualian AFA/SST elektrik kini pada had berapa kWh sebulan?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#inflasi",
+     "#kossarahidup",
+     "#bilelektrik",
+     "#tipsjimat",
+     "#kewanganperibadi"
+    ],
+    "keywords": [
+     "inflasi malaysia oktober 2026",
+     "kos sara hidup naik",
+     "kenapa bil elektrik naik",
+     "afa elektrik 800 kwh",
+     "cara jimat bil elektrik"
+    ],
+    "tags": [
+     "inflasi",
+     "kos sara hidup",
+     "bil elektrik",
+     "afa tnb",
+     "dosm",
+     "harga makanan",
+     "tips jimat",
+     "kewangan peribadi"
+    ],
+    "thumbs": [
+     "RM57 HILANG SEBULAN?",
+     "BIL ELEKTRIK NAIK!",
+     "INFLASI 1.9%"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk jadual kiraan RinggitPlus: belanja RM2,000 → RM38 lebih, RM3,000 → RM57, RM5,000 → RM95, berdasarkan inflasi Oktober 1.9%.",
+     "hook": "Belanja RM3,000 sebulan? Korang kini bayar kira-kira RM57 lebih untuk barang yang sama.",
+     "title": "Inflasi Curi RM57 Sebulan?"
+    },
+    {
+     "beat": "Terangkan pelarasan AFA untuk pengguna Semenanjung yang guna lebih 800 kWh, dan pengecualian pada had 800 kWh hanya hingga 31 Dis 2026.",
+     "hook": "Indeks elektrik, gas dan bahan api lompat dari 0.1% ke 4.7% dalam sebulan.",
+     "title": "Kenapa Bil Elektrik Naik?"
+    },
+    {
+     "beat": "Kira depan kamera: jadi RM10,100, tapi barang bernilai RM10,000 setahun lalu kini kira-kira RM10,190. Ingatkan pelaburan ada risiko.",
+     "hook": "RM10,000 dalam akaun 1% setahun sebenarnya hilang kuasa beli.",
+     "title": "Simpan 1% Setahun = Rugi?"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (20 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/inflasi-oktober-1-9-belanja-rm3000-sebulan-bayar-kira-kira-rm57-lebih.html"
+    }
+   ],
+   "title": "Inflasi Oktober 1.9%: belanja RM3,000 sebulan, bayar kira-kira RM57 lebih",
+   "why": "DOSM lapor (19 Nov 2026) inflasi Oktober naik ke 1.9% daripada 1.8% pada September, didorong pengangkutan (4.2%) serta elektrik, gas dan bahan api (4.7%, berbanding 0.1% pada September) selepas pelarasan AFA bagi pengguna domestik Semenanjung yang guna lebih 800 kWh. Kiraan RinggitPlus (20 Nov): isi rumah yang belanja RM3,000 sebulan kini bayar kira-kira RM57 lebih berbanding setahun lalu, dan di Negeri Sembilan (inflasi tertinggi 2.6%) kira-kira RM78. Pengecualian AFA, caj runcit dan SST elektrik pada had 800 kWh sebulan hanya untuk 1 Sept–31 Dis 2026.",
+   "score": 70,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
+   "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2–3 klip berita BM tentang MediAsas, kebanyakannya liputan pengumuman. Sudut 'siapa sesuai beli' dan syarat penyakit sedia ada masih kosong."
+   },
+   "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
+   "icon": "shield",
+   "id": "mediasas-2027",
+   "ideas": [
+    "MediAsas: Insurans Perubatan Murah Untuk Semua?",
+    "Bayar Premium Guna KWSP? Ini Cara MediAsas",
+    "MediAsas vs Kad Medikal Biasa: Mana Lebih Baik?",
+    "Tiada Insurans? Tunggu MediAsas Januari 2027",
+    "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
+   ],
+   "prev_score": 69,
+   "score": 67,
+   "seo": {
+    "hashtags": [
+     "#mediasas",
+     "#insuransperubatan",
+     "#takaful",
+     "#bajet2027",
+     "#kewanganperibadi"
+    ],
+    "keywords": [
+     "mediasas apa itu",
+     "insurans perubatan asas",
+     "mediasas premium",
+     "takaful perubatan murah",
+     "mediasas kwsp"
+    ],
+    "tags": [
+     "mediasas",
+     "insurans perubatan",
+     "takaful",
+     "bnm",
+     "kwsp akaun sejahtera",
+     "bajet 2027",
+     "kad medikal",
+     "insurans murah"
+    ],
+    "thumbs": [
+     "INSURANS MURAH?",
+     "BAYAR GUNA KWSP",
+     "MULA JAN 2027"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Malay Mail (13 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/13/mediasas-what-malaysians-need-to-know-about-the-new-basic-medical-insurance-plan/242126"
+    },
+    {
+     "name": "MOF: rintis MediAsas",
+     "url": "https://mof.gov.my/portal/ms/berita/akhbar/jbmkks-lancar-program-rintis-mediasas-akhir-julai-peringkat-nasional-pada-2027"
+    },
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/apa-yang-dilindungi-mediasas-dan-siapa-yang-sesuai-memilihnya.html"
+    },
+    {
+     "name": "RinggitPlus BM (13 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mediasas-mungkin-kenakan-ko-insurans-20-di-hospital-yang-tidak-patuhi-syarat.html"
+    },
+    {
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/people-with-existing-health-conditions-may-still-apply-for-mediasas.html"
+    }
+   ],
+   "status": "naik",
+   "title": "MediAsas: insurans/takaful perubatan asas mampu milik",
+   "why": "MediAsas ialah pelan insurans dan takaful perubatan asas sukarela dengan had tahunan RM100,000 (Standard) atau RM300,000 (Standard-Plus) dan deductible RM500 (bawah 60 tahun), boleh dibeli hingga umur 70, dan dilancar seluruh negara hujung Januari 2027. Pada 11 Nov, Timbalan Menteri Kewangan Liew Chin Tong kata caj ko-insurans tambahan 20% di hospital luar rangkaian (had RM3,000 setiap penyakit) masih dikaji semasa rintis. Menteri Kesihatan sebut premium asas mungkin bermula sekitar RM65 sebulan, bergantung pada produk (RinggitPlus, 13 Nov). Timbalan Gabenor BNM Aznan Abdul Aziz (The Edge, 16 Nov) kata mereka yang ada penyakit sedia ada yang stabil dan terkawal masih boleh memohon, walaupun premium mungkin lebih tinggi atau rawatan penyakit itu dikecualikan (RinggitPlus, 17 Nov).",
+   "shorts": [
+    {
+     "title": "MediAsas: Insurans Perubatan Murah?",
+     "hook": "Tak ada insurans perubatan? Tahun depan ada pilihan baru.",
+     "beat": "Had tahunan RM100,000 atau RM300,000, deductible RM500, dilancar hujung Jan 2027. Premium muktamad belum diumum."
+    },
+    {
+     "title": "Bayar Premium Guna KWSP?",
+     "hook": "Premium MediAsas boleh dibayar guna duit KWSP. Ni syaratnya.",
+     "beat": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera. Tekankan bukan produk pelaburan."
+    },
+    {
+     "title": "Deductible RM500 Tu Apa?",
+     "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
+     "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Apa itu MediAsas?",
+     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
+    },
+    {
+     "q": "Berapa had perlindungan?",
+     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
+    },
+    {
+     "q": "Berapa premium?",
+     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
+    },
+    {
+     "q": "Boleh bayar guna KWSP?",
+     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
+    },
+    {
+     "a": "BNM kata boleh jika penyakit itu stabil dan terkawal, tapi premium mungkin lebih tinggi atau rawatannya dikecualikan.",
+     "q": "Ada penyakit sedia ada, boleh mohon tak?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Had tahunan pelan MediAsas Standard?",
+     "o": [
+      "RM50,000",
+      "RM100,000",
+      "RM300,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Deductible MediAsas untuk bawah 60 tahun?",
+     "o": [
+      "RM100",
+      "RM500",
+      "RM1,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Bila MediAsas dilancar seluruh negara?",
+     "o": [
+      "Hujung Jan 2027",
+      "Jun 2027",
+      "Sudah dilancar"
+     ],
+     "a": 0
+    }
+   ]
   },
   {
    "angle": "Terangkan kenapa emas turun (dolar AS kuat, jangkaan kadar faedah Fed) dan cara semak harga emas per gram serta caj upah sebelum beli. Ingatkan harga emas boleh terus turun atau naik, jangan guna duit kecemasan atau berhutang untuk beli, dan ini bukan nasihat pelaburan.",
    "cat": "kewangan",
    "competition": {
-    "checked": "18 Nov 2026",
+    "checked": "22 Nov 2026",
     "level": "tinggi",
-    "note": "Video 'harga emas turun' Nov 2026 yang dijumpai hampir semua dari Indonesia (emas Antam). Belum jumpa video BM Malaysia yang terangkan kejatuhan minggu ini dan kesannya pada harga per gram di kedai."
+    "note": "Hasil carian didominasi video harga emas Antam Indonesia. Belum jumpa video BM Malaysia terkini yang kupas kejatuhan emas di Bursa Malaysia Derivatives."
    },
    "faq": [
     {
@@ -1558,152 +2111,9 @@
    ],
    "title": "Harga emas jatuh bawah US$3,750: peluang atau perangkap?",
    "why": "Kontrak niaga hadapan emas bulan semasa di Bursa Malaysia Derivatives terus jatuh, daripada US$3,868.60 seauns pada 17 Nov ke US$3,782.90 pada 18 Nov dan US$3,731.30 pada 19 Nov 2026, selepas harga fix LBMA turun ke US$3,870.20 pada 12 Nov dari US$4,014.00 sehari sebelumnya (Bernama). Stephen Innes dari SPI Asset Management kata data ekonomi AS yang kukuh menguatkan jangkaan Fed terus mengetatkan dasar, sekali gus menguatkan dolar, dan ada pelabur jual emas untuk dapatkan tunai selepas saham berkaitan AI dijual (Bernama, 18 Nov).",
-   "score": 71,
-   "prev_score": 73,
+   "score": 66,
+   "prev_score": 71,
    "status": "naik"
-  },
-  {
-   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
-   "app": {
-    "name": "WhatsApp (Tetapan > Storan dan data)"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "18 Nov 2026",
-    "level": "tinggi",
-    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang kupas amaran MCCA dan cadangan pengesahan identiti WhatsApp."
-   },
-   "icon": "shield",
-   "id": "whatsapp-malware-apk",
-   "ideas": [
-    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
-    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
-    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
-    "5 Tanda Telefon Korang Dah Kena Malware",
-    "Google Sekat APK Tak Sah 2027: Apa Berubah?"
-   ],
-   "prev_score": 69,
-   "score": 71,
-   "seo": {
-    "hashtags": [
-     "#whatsapp",
-     "#awasscam",
-     "#scamapk",
-     "#keselamatansiber",
-     "#tipswhatsapp"
-    ],
-    "keywords": [
-     "malware whatsapp",
-     "cara elak whatsapp kena hack",
-     "matikan muat turun automatik whatsapp",
-     "fail apk whatsapp scam",
-     "whatsapp pengesahan identiti malaysia"
-    ],
-    "tags": [
-     "whatsapp",
-     "malware",
-     "scam apk",
-     "keselamatan telefon",
-     "whatsapp hack",
-     "tips whatsapp",
-     "scam malaysia",
-     "otp"
-    ],
-    "thumbs": [
-     "JANGAN BUKA FAIL NI",
-     "WHATSAPP KENA HACK?",
-     "OFF SETTING NI!"
-    ]
-   },
-   "sources": [
-    {
-     "name": "SoyaCincau (15 Nov 2026)",
-     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
-    },
-    {
-     "name": "The Vibes (8 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
-    },
-    {
-     "name": "Lowyat.NET (16 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409783/ministry-whatsapp-acc-verification/"
-    },
-    {
-     "name": "Lowyat.NET (20 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/410137/google-android-sideloading-restrictions/"
-    }
-   ],
-   "status": "naik",
-   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
-   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau). Pada 20 Nov, Google umum peraturan pengesahan pembangun untuk app di luar Play Store akan diperluas ke seluruh dunia mulai Januari 2027; app dari pembangun tidak disahkan masih boleh dipasang tetapi perlu buka pilihan pembangun dan tunggu 24 jam (Lowyat.NET).",
-   "shorts": [
-    {
-     "title": "Off Setting WhatsApp Ni SEKARANG",
-     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
-     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
-    },
-    {
-     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
-     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
-     "title": "WhatsApp Kena Verify Identiti?"
-    },
-    {
-     "title": "On Pengesahan 2 Langkah WhatsApp",
-     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
-     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Betul ke WhatsApp boleh kena malware?",
-     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
-    },
-    {
-     "q": "Apa malware ni boleh buat?",
-     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
-    },
-    {
-     "q": "Setting apa nak tutup?",
-     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
-    },
-    {
-     "q": "Macam mana nak lindungi akaun?",
-     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
-    },
-    {
-     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
-     "q": "Betul ke WhatsApp nanti kena daftar IC?"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
-     "o": [
-      "Dokumen",
-      "Lagu",
-      "Sticker"
-     ],
-     "a": 0
-    },
-    {
-     "a": 1,
-     "o": [
-      "Menteri Kewangan",
-      "Menteri Komunikasi Fahmi Fadzil",
-      "Gabenor BNM"
-     ],
-     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
-    },
-    {
-     "q": "Cara terbaik kunci akaun WhatsApp?",
-     "o": [
-      "Pengesahan dua langkah",
-      "Tukar gambar profil",
-      "Padam chat lama"
-     ],
-     "a": 0
-    }
-   ]
   },
   {
    "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
@@ -1748,7 +2158,7 @@
     "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
     "Akaun CDS: Cara Buka Sebelum Mohon IPO"
    ],
-   "prev_score": 70,
+   "prev_score": 69,
    "quiz": [
     {
      "a": 1,
@@ -1778,7 +2188,7 @@
      "q": "Akaun apa wajib ada untuk mohon saham IPO?"
     }
    ],
-   "score": 69,
+   "score": 66,
    "seo": {
     "hashtags": [
      "#mysaham",
@@ -1844,422 +2254,6 @@
    "status": "naik",
    "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
    "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
-  },
-  {
-   "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "18 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada 2–3 klip berita BM tentang MediAsas (pelan asas bermula sekitar RM80 dan program rintis). Belum ada penerangan santai tentang deductible RM500, ko-insurans 20% dan siapa patut ambil."
-   },
-   "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
-   "icon": "shield",
-   "id": "mediasas-2027",
-   "ideas": [
-    "MediAsas: Insurans Perubatan Murah Untuk Semua?",
-    "Bayar Premium Guna KWSP? Ini Cara MediAsas",
-    "MediAsas vs Kad Medikal Biasa: Mana Lebih Baik?",
-    "Tiada Insurans? Tunggu MediAsas Januari 2027",
-    "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
-   ],
-   "prev_score": 68,
-   "score": 69,
-   "seo": {
-    "hashtags": [
-     "#mediasas",
-     "#insuransperubatan",
-     "#takaful",
-     "#bajet2027",
-     "#kewanganperibadi"
-    ],
-    "keywords": [
-     "mediasas apa itu",
-     "insurans perubatan asas",
-     "mediasas premium",
-     "takaful perubatan murah",
-     "mediasas kwsp"
-    ],
-    "tags": [
-     "mediasas",
-     "insurans perubatan",
-     "takaful",
-     "bnm",
-     "kwsp akaun sejahtera",
-     "bajet 2027",
-     "kad medikal",
-     "insurans murah"
-    ],
-    "thumbs": [
-     "INSURANS MURAH?",
-     "BAYAR GUNA KWSP",
-     "MULA JAN 2027"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Malay Mail (13 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/13/mediasas-what-malaysians-need-to-know-about-the-new-basic-medical-insurance-plan/242126"
-    },
-    {
-     "name": "MOF: rintis MediAsas",
-     "url": "https://mof.gov.my/portal/ms/berita/akhbar/jbmkks-lancar-program-rintis-mediasas-akhir-julai-peringkat-nasional-pada-2027"
-    },
-    {
-     "name": "RinggitPlus (BM)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/apa-yang-dilindungi-mediasas-dan-siapa-yang-sesuai-memilihnya.html"
-    },
-    {
-     "name": "RinggitPlus BM (13 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mediasas-mungkin-kenakan-ko-insurans-20-di-hospital-yang-tidak-patuhi-syarat.html"
-    },
-    {
-     "name": "RinggitPlus (17 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/people-with-existing-health-conditions-may-still-apply-for-mediasas.html"
-    }
-   ],
-   "status": "naik",
-   "title": "MediAsas: insurans/takaful perubatan asas mampu milik",
-   "why": "MediAsas ialah pelan insurans dan takaful perubatan asas sukarela dengan had tahunan RM100,000 (Standard) atau RM300,000 (Standard-Plus) dan deductible RM500 (bawah 60 tahun), boleh dibeli hingga umur 70, dan dilancar seluruh negara hujung Januari 2027. Pada 11 Nov, Timbalan Menteri Kewangan Liew Chin Tong kata caj ko-insurans tambahan 20% di hospital luar rangkaian (had RM3,000 setiap penyakit) masih dikaji semasa rintis. Menteri Kesihatan sebut premium asas mungkin bermula sekitar RM65 sebulan, bergantung pada produk (RinggitPlus, 13 Nov). Timbalan Gabenor BNM Aznan Abdul Aziz (The Edge, 16 Nov) kata mereka yang ada penyakit sedia ada yang stabil dan terkawal masih boleh memohon, walaupun premium mungkin lebih tinggi atau rawatan penyakit itu dikecualikan (RinggitPlus, 17 Nov).",
-   "shorts": [
-    {
-     "title": "MediAsas: Insurans Perubatan Murah?",
-     "hook": "Tak ada insurans perubatan? Tahun depan ada pilihan baru.",
-     "beat": "Had tahunan RM100,000 atau RM300,000, deductible RM500, dilancar hujung Jan 2027. Premium muktamad belum diumum."
-    },
-    {
-     "title": "Bayar Premium Guna KWSP?",
-     "hook": "Premium MediAsas boleh dibayar guna duit KWSP. Ni syaratnya.",
-     "beat": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera. Tekankan bukan produk pelaburan."
-    },
-    {
-     "title": "Deductible RM500 Tu Apa?",
-     "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
-     "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Apa itu MediAsas?",
-     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
-    },
-    {
-     "q": "Berapa had perlindungan?",
-     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
-    },
-    {
-     "q": "Berapa premium?",
-     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
-    },
-    {
-     "q": "Boleh bayar guna KWSP?",
-     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
-    },
-    {
-     "a": "BNM kata boleh jika penyakit itu stabil dan terkawal, tapi premium mungkin lebih tinggi atau rawatannya dikecualikan.",
-     "q": "Ada penyakit sedia ada, boleh mohon tak?"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Had tahunan pelan MediAsas Standard?",
-     "o": [
-      "RM50,000",
-      "RM100,000",
-      "RM300,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Deductible MediAsas untuk bawah 60 tahun?",
-     "o": [
-      "RM100",
-      "RM500",
-      "RM1,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Bila MediAsas dilancar seluruh negara?",
-     "o": [
-      "Hujung Jan 2027",
-      "Jun 2027",
-      "Sudah dilancar"
-     ],
-     "a": 0
-    }
-   ]
-  },
-  {
-   "angle": "Tutorial jujur cara guna TuJu selepas perubahan 6 Nov (cari destinasi, kemudian ia buka Google Maps), dan bandingkan dengan Waze/Google Maps tanpa hype. Sesuai untuk penjawat awam dan yang ingin tahu.",
-   "app": {
-    "name": "TuJu"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa video BM cara guna TuJu dan liputan berita TV, tapi banyak liputan terkini dalam bahasa Cina; video BM yang terangkan perubahan ke pautan Google Maps sejak 6 Nov masih sedikit."
-   },
-   "faq": [
-    {
-     "a": "App navigasi tempatan yang dipromosi kerajaan sebagai alternatif kepada Waze.",
-     "q": "TuJu ni app apa?"
-    },
-    {
-     "a": "Lebih sejuta pengguna, menurut Timbalan Menteri Kerja Raya pada 16 November 2026.",
-     "q": "Berapa ramai dah guna TuJu?"
-    },
-    {
-     "a": "Sejak 6 November, TuJu alihkan navigasi melalui pautan Google Maps untuk kurangkan kos operasi selepas lonjakan pengguna.",
-     "q": "Kenapa TuJu buka Google Maps bila nak navigasi?"
-    },
-    {
-     "a": "Tidak; larangan Waze yang dilaporkan adalah untuk penjawat awam semasa urusan rasmi.",
-     "q": "Orang awam wajib guna TuJu ke?"
-    },
-    {
-     "a": "Muat turun melonjak selepas penjawat awam dilarang guna Waze untuk urusan rasmi.",
-     "q": "Kenapa ramai tiba-tiba download TuJu?"
-    }
-   ],
-   "icon": "map",
-   "id": "tuju-app-navigasi",
-   "ideas": [
-    "Cara Guna App TuJu Lepas Update 6 Nov",
-    "TuJu vs Waze vs Google Maps: Mana Ok?",
-    "Kenapa TuJu Sekarang Buka Google Maps?",
-    "1 Juta Download TuJu: Patut Install Ke?",
-    "Penjawat Awam Tak Boleh Guna Waze? Fakta"
-   ],
-   "quiz": [
-    {
-     "a": 0,
-     "o": [
-      "Lebih 1 juta",
-      "Sekitar 200,000",
-      "Lebih 10 juta"
-     ],
-     "q": "Berapa pengguna TuJu menurut kenyataan 16 Nov 2026?"
-    },
-    {
-     "a": 1,
-     "o": [
-      "Waze",
-      "Google Maps",
-      "Apple Maps"
-     ],
-     "q": "Sejak 6 Nov, navigasi TuJu dialihkan melalui pautan app apa?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "RM30,000",
-      "RM3 juta",
-      "RM300,000"
-     ],
-     "q": "Berapa Prosignal bayar dalam sehari akibat lonjakan pengguna?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#TuJu",
-     "#AppMalaysia",
-     "#Navigasi",
-     "#TutorialApp",
-     "#ImranWafi"
-    ],
-    "keywords": [
-     "app tuju cara guna",
-     "tuju navigation malaysia",
-     "tuju vs waze",
-     "tuju google maps",
-     "aplikasi tuju 1 juta"
-    ],
-    "tags": [
-     "tuju",
-     "aplikasi tuju",
-     "waze",
-     "google maps",
-     "navigasi",
-     "lembaga lebuhraya malaysia",
-     "app malaysia",
-     "tutorial app"
-    ],
-    "thumbs": [
-     "TUJU 1 JUTA USER",
-     "KENAPA BUKA GOOGLE MAPS?",
-     "TUJU VS WAZE"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Terangkan sejak 6 Nov TuJu alihkan navigasi melalui pautan Google Maps untuk kurangkan kos selepas lonjakan pengguna.",
-     "hook": "Korang tekan navigasi dalam TuJu, tiba-tiba keluar Google Maps.",
-     "title": "TuJu Sekarang Buka Google Maps?"
-    },
-    {
-     "beat": "Rakaman skrin: cari destinasi dalam TuJu dan tunjuk bagaimana ia membuka Google Maps untuk navigasi.",
-     "hook": "Nak cuba app navigasi tempatan? Ini caranya.",
-     "title": "Cara Guna TuJu Dalam 30 Saat"
-    },
-    {
-     "beat": "Kira angka: lonjakan selepas larangan Waze untuk urusan rasmi, sampai Prosignal bayar RM300,000 dalam sehari.",
-     "hook": "App ni naik dari 200 ribu ke sejuta pengguna dalam beberapa hari je.",
-     "title": "200 Ribu Jadi 1 Juta Dalam Beberapa Hari"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Bernama (16 Nov 2026)",
-     "url": "https://www.bernama.com/en/news.php?id=2635187"
-    },
-    {
-     "name": "The Star (23 Okt 2026)",
-     "url": "https://www.thestar.com.my/news/nation/2026/10/23/700000-msians-driven-towards-tuju-app"
-    },
-    {
-     "name": "SAYS",
-     "url": "https://says.com/my/tech/tech-news/tuju-redirects-to-google-maps"
-    }
-   ],
-   "title": "App TuJu tembus 1 juta pengguna, kini guna pautan Google Maps",
-   "why": "Timbalan Menteri Kerja Raya Ahmad Maslan beritahu Dewan Rakyat (Bernama, 16 Nov 2026) app navigasi tempatan TuJu kini melebihi sejuta pengguna, melonjak dari kira-kira 200,000 dalam tujuh bulan kepada lebih sejuta dalam beberapa hari selepas penjawat awam dilarang guna Waze untuk urusan rasmi. Lonjakan itu membebankan sistem sehingga Prosignal terpaksa bayar RM300,000 dalam sehari, dan sejak 6 Nov navigasi TuJu dialihkan melalui pautan Google Maps untuk kurangkan kos operasi.",
-   "score": 68,
-   "prev_score": 70,
-   "status": "naik"
-  },
-  {
-   "angle": "Video penerangan untuk freelancer dan pekerja gig: apa itu CP500, beza dengan cukai tertunggak sebenar, cara semak baki di MyTax dan status perjalanan di laman Imigresen sebelum bercuti hujung tahun.",
-   "app": {
-    "name": "MyTax (LHDN)",
-    "url": "https://mytax.hasil.gov.my"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "21 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa klip berita BM tentang sekatan perjalanan LHDN dan notis CP500, tetapi belum jumpa video yang kupas penjelasan terbaru bahawa CP500 tertunggak tidak mencetuskan sekatan."
-   },
-   "faq": [
-    {
-     "a": "Tidak, Timbalan Menteri Kewangan sahkan CP500 tertunggak tidak boleh menyebabkan sekatan perjalanan.",
-     "q": "Tak bayar CP500 boleh kena sekat keluar negara ke?"
-    },
-    {
-     "a": "Untuk pembayar cukai tanpa potongan PCB bulanan seperti freelancer, pekerja gig dan tuan rumah.",
-     "q": "CP500 ni untuk siapa?"
-    },
-    {
-     "a": "Enam ansuran setiap dua bulan: Mac, Mei, Julai, September, November dan Januari tahun berikutnya.",
-     "q": "Bila kena bayar CP500?"
-    },
-    {
-     "a": "Boleh, mohon semakan ansuran guna borang CP502 sebelum tarikh akhir yang ditetapkan.",
-     "q": "Pendapatan aku turun, boleh kurangkan CP500?"
-    },
-    {
-     "a": "Semak baki cukai di MyTax dan status perjalanan di laman Imigresen sspi.imi.gov.my.",
-     "q": "Macam mana nak semak kalau aku kena sekat?"
-    }
-   ],
-   "icon": "tax",
-   "id": "cp500-tiada-sekatan-perjalanan",
-   "ideas": [
-    "Tak Bayar CP500, Boleh Kena Sekat Ke Luar Negara?",
-    "Apa Itu CP500? Penerangan Untuk Freelancer",
-    "Cara Semak Sekatan Perjalanan Sebelum Bercuti",
-    "Cara Ubah Ansuran CP500 Guna Borang CP502",
-    "5 Sebab Orang Kena Sekat Keluar Negara"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "4",
-      "6",
-      "12"
-     ],
-     "q": "CP500 berapa kali ansuran setahun?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "CP502",
-      "BE",
-      "EA"
-     ],
-     "q": "Borang untuk ubah ansuran CP500 ialah…"
-    },
-    {
-     "a": 1,
-     "o": [
-      "Lewat bayar CP500 sekali",
-      "Cukai tertunggak selepas taksiran muktamad",
-      "Tak isi borang SSPN"
-     ],
-     "q": "Sekatan perjalanan cukai biasanya berlaku bila…"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#cp500",
-     "#lhdn",
-     "#cukai",
-     "#freelancermalaysia",
-     "#tipskewangan"
-    ],
-    "keywords": [
-     "cp500 sekatan perjalanan",
-     "apa itu cp500",
-     "semak sekatan ke luar negara",
-     "cara bayar cp500",
-     "cp502 ubah ansuran"
-    ],
-    "tags": [
-     "cp500",
-     "lhdn",
-     "cukai pendapatan",
-     "sekatan perjalanan",
-     "freelancer",
-     "mytax",
-     "imigresen",
-     "tips cukai"
-    ],
-    "thumbs": [
-     "CP500 = KENA SEKAT?",
-     "JANGAN TAKUT!",
-     "SEMAK SEBELUM TERBANG"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Mitos vs fakta: Liew Chin Tong sahkan CP500 tertunggak tak cetuskan sekatan; sekatan hanya selepas taksiran muktamad dan cukai tertunggak.",
-     "hook": "Ramai freelancer takut tak boleh keluar negara sebab CP500.",
-     "title": "CP500 Tak Bayar = Kena Sekat? MITOS"
-    },
-    {
-     "beat": "Rakam skrin: semak baki cukai di MyTax dan status perjalanan di sspi.imi.gov.my.",
-     "hook": "Sebelum beli tiket cuti, semak benda ni dulu.",
-     "title": "Semak Status Sekatan Dalam 30 Saat"
-    },
-    {
-     "beat": "Terangkan CP500 = bayaran awal cukai anggaran, 6 ansuran setiap 2 bulan, boleh ubah guna CP502 sebelum tarikh akhir.",
-     "hook": "Kerja sendiri? Surat CP500 ni untuk korang.",
-     "title": "Apa Itu CP500? Versi 30 Saat"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (17 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/a-missed-cp500-payment-wont-get-you-barred-from-travelling.html"
-    }
-   ],
-   "title": "Tak bayar CP500 tak akan kena sekat ke luar negara: ini faktanya",
-   "why": "Timbalan Menteri Kewangan Liew Chin Tong sahkan ansuran CP500 yang belum dibayar tidak boleh menyebabkan sekatan perjalanan ke luar negara (The Star 11 Nov, RinggitPlus 17 Nov 2026). CP500 ialah bayaran awal cukai anggaran untuk mereka tanpa potongan PCB seperti freelancer, pekerja gig dan tuan rumah, dibayar enam ansuran setiap dua bulan; sekatan hanya boleh berlaku selepas taksiran dimuktamadkan dan cukai masih tertunggak, biasanya selepas enam bulan tanpa respons kepada LHDN.",
-   "score": 66,
-   "prev_score": null,
-   "status": "naik"
   }
  ],
  "upcoming": [
@@ -2276,7 +2270,7 @@
    "date": "29 Nov 2026",
    "label": "Ujian amaran kecemasan EWS seluruh negara (10–10.30 pagi)",
    "lead": 5,
-   "note": "Simulasi berhampiran Parlimen 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar awal minggu.",
+   "note": "Simulasi berhampiran Parlimen 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar hari ini atau esok.",
    "topic": "ujian-amaran-kecemasan-ews",
    "when": "2026-11-29"
   },
@@ -2316,7 +2310,7 @@
    "date": "31 Dis 2026",
    "label": "Baki SARA 2026 (bulanan & SARA Untuk Semua) luput; promosi TNG di Shopee tamat",
    "lead": 10,
-   "note": "Video 'guna baki SARA sebelum hangus'.",
+   "note": "Video 'guna baki SARA sebelum hangus'. Pengecualian AFA, caj runcit dan SST elektrik pada had 800 kWh juga hanya untuk 1 Sept–31 Dis 2026.",
    "topic": "sara-guna-sebelum-31-dis",
    "when": "2026-12-31"
   },
