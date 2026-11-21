@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_label": "21 Nov 2026, 7 pagi",
+ "updated_label": "21 Nov 2026, 7 petang",
  "items": [
   {
    "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
@@ -24,7 +24,7 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 94,
+   "prev_score": 93,
    "score": 93,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
@@ -211,7 +211,7 @@
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
    "prev_score": 92,
-   "score": 92,
+   "score": 91,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -327,176 +327,167 @@
    "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen. Untuk penduduk Selangor, Bajet Selangor 2027 (dibentang 13 Nov) umum subsidi SEL 30, iaitu RM30 sebulan untuk tambang tren dan bas mulai 2027 dengan peruntukan RM5 juta untuk kira-kira 13,000 komuter; syarat dan cara daftar belum diumumkan (RinggitPlus, 16 Nov)."
   },
   {
-   "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa video dan Shorts BM tentang BWI RM1,000 dan daftar di PPS; sudut bantuan khas RM2,500 Selangor dan moratorium bank untuk mangsa banjir masih kurang diterangkan."
+   "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan di iPhone, Android dan Huawei, plus terangkan beza pop-up EWS dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
+   "app": {
+    "name": "Tetapan telefon > Amaran kecemasan (Wireless emergency alerts)"
    },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "21 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2 video BM berkaitan (klip berita MCMC suruh kemas kini telefon dan video beza SMS NADMA dengan sistem baharu). Tutorial skrin langkah demi langkah ikut jenama telefon masih kosong."
+   },
+   "deadline": "Ujian seluruh negara: 29 Nov 2026, 10–10.30 pagi",
    "faq": [
     {
-     "a": "BWI ialah RM1,000 bagi setiap ketua isi rumah yang layak untuk setiap kejadian bencana, melalui NADMA.",
-     "q": "Berapa bantuan banjir dari kerajaan?"
+     "a": "Ujian seluruh negara pada 29 Nov 2026 jam 10 hingga 10.30 pagi, selepas simulasi dekat Parlimen pada 23 Nov.",
+     "q": "Bila ujian amaran kecemasan ni?"
     },
     {
-     "a": "Daftar dalam sistem MyIBJKM, contohnya dengan imbas kod QR di pusat pemindahan sementara.",
-     "q": "Macam mana nak daftar?"
+     "a": "Tak perlu, amaran dihantar terus ke telefon serasi melalui Cell Broadcast.",
+     "q": "Kena download app ke?"
     },
     {
-     "a": "Menurut Bernama (14 Nov), ketua isi rumah mangsa banjir di Selangor yang berdaftar terima RM2,500 manakala yang tidak berdaftar terima RM1,250.",
-     "q": "Siapa layak bantuan khas RM2,500?"
+     "a": "Telefon lama akan terus terima amaran melalui SMS, manakala telefon baharu dapat pop-up.",
+     "q": "Phone aku lama, boleh dapat tak?"
     },
     {
-     "a": "Ada, contohnya Alliance Bank tawar moratorium sehingga 6 bulan untuk pelanggan terjejas banjir, mohon hingga 31 Mac 2027 dan tertakluk kelulusan bank.",
-     "q": "Bank ada bagi tangguh bayar pinjaman tak?"
+     "a": "MCMC sebut iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas, dan syarat ini boleh berubah.",
+     "q": "Versi phone apa yang perlu?"
     },
     {
-     "a": "Boleh; BWI dibayar bagi setiap kejadian berasingan, sehingga empat kali setahun menurut RinggitPlus, tertakluk syarat NADMA.",
-     "q": "Kalau banjir dua kali, dapat dua kali ke?"
+     "a": "Belum ada tarikh rasmi; operasi penuh bergantung pada kesediaan sistem selepas ujian akhir.",
+     "q": "Bila sistem ni guna betul-betul?"
     }
    ],
-   "icon": "aid",
-   "id": "bantuan-banjir-mtl-2026",
+   "icon": "shield",
+   "id": "ujian-amaran-kecemasan-ews",
    "ideas": [
-    "Rumah Kena Banjir? Cara Dapat Bantuan RM1,000",
-    "MyIBJKM: Cara Daftar Mangsa Banjir di PPS",
-    "Bantuan Banjir Selangor RM3,000: Siapa Layak?",
-    "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
-    "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
+    "Phone Korang Akan Berbunyi 29 Nov! Ini Sebabnya",
+    "Cara On Amaran Kecemasan iPhone & Android",
+    "Tak Dapat Amaran EWS? Semak 3 Benda Ni",
+    "EWS vs SMS NADMA: Apa Bezanya?",
+    "Amaran Banjir Palsu WhatsApp: Cara Kenal Pasti"
    ],
-   "prev_score": 76,
-   "score": 74,
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "19 Nov",
+      "29 Nov",
+      "1 Dis"
+     ],
+     "q": "Ujian EWS seluruh negara diadakan pada…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Mesej WhatsApp",
+      "Panggilan suara",
+      "Pop-up dengan bunyi khas"
+     ],
+     "q": "Amaran EWS dihantar ke telefon dalam bentuk…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Update OS telefon",
+      "Download app MCMC",
+      "Daftar di laman web"
+     ],
+     "q": "Nak terima amaran EWS, perlu buat apa?"
+    }
+   ],
+   "script": {
+    "cta": "Share video ni dalam group keluarga supaya mak ayah tak terkejut 29 Nov nanti, dan subscribe untuk tips telefon lain.",
+    "hook": "Pada 29 November ni, jam 10 pagi, phone korang mungkin tiba-tiba berbunyi kuat dengan mesej amaran. Jangan panik, itu ujian sistem amaran kecemasan baharu MCMC. Tapi kalau phone korang tak di-update, korang mungkin tak dapat langsung.",
+    "points": [
+     "Apa itu EWS: sistem amaran awal guna Cell Broadcast yang hantar pop-up terus ke telefon dalam kawasan terjejas, tak perlu download app.",
+     "Tarikh: simulasi berhampiran Parlimen 23 Nov, ujian seluruh negara 29 Nov 2026 jam 10 hingga 10.30 pagi.",
+     "Syarat telefon: iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas; telefon lama masih dapat SMS.",
+     "Tunjuk cara update OS, restart, dan hidupkan tetapan amaran kecemasan di iPhone dan Android.",
+     "Ingat: amaran EWS keluar sebagai pop-up, bukan WhatsApp; mesej banjir yang tular di WhatsApp bukan dari sistem ni."
+    ]
+   },
    "seo": {
     "hashtags": [
-     "#BantuanBanjir",
-     "#BWI",
-     "#MyIBJKM",
-     "#MusimBanjir",
-     "#ImranWafi"
+     "#amarankecemasan",
+     "#mcmc",
+     "#ews",
+     "#amaranbanjir",
+     "#tipstelefon"
     ],
     "keywords": [
-     "bantuan banjir rm1000",
-     "bantuan wang ihsan 2026",
-     "myibjkm daftar",
-     "bantuan banjir selangor rm2500",
-     "moratorium pinjaman banjir"
+     "ujian amaran kecemasan 29 november",
+     "cara on emergency alert iphone",
+     "mcmc early warning system",
+     "amaran banjir telefon malaysia",
+     "cell broadcast malaysia"
     ],
     "tags": [
-     "bantuan banjir",
-     "bwi",
-     "nadma",
-     "myibjkm",
-     "banjir selangor",
-     "monsun timur laut",
-     "bantuan kerajaan",
-     "moratorium banjir"
+     "ews mcmc",
+     "amaran kecemasan",
+     "emergency alert",
+     "cell broadcast",
+     "amaran banjir",
+     "tips telefon",
+     "iphone",
+     "android"
     ],
     "thumbs": [
-     "BANJIR? DAPAT RM1,000",
-     "SELANGOR RM3,000",
-     "DAFTAR MYIBJKM"
+     "PHONE AKAN BERBUNYI!",
+     "29 NOV JANGAN PANIK",
+     "ON SETTING NI"
     ]
    },
    "shorts": [
     {
-     "beat": "Terangkan BWI RM1,000 untuk ketua isi rumah yang rumahnya dilanda banjir, dan pendaftaran melalui MyIBJKM, termasuk imbas kod QR di pusat pemindahan.",
-     "hook": "Rumah kena banjir, tapi tak tahu nak dapat bantuan kat mana?",
-     "title": "Rumah Banjir? Ni Bantuan RM1,000"
+     "beat": "Terangkan ia ujian EWS MCMC 10–10.30 pagi, pop-up dengan bunyi khas, bukan kecemasan sebenar.",
+     "hook": "29 Nov jam 10 pagi, phone satu Malaysia akan berbunyi.",
+     "title": "Phone Berbunyi 29 Nov? Jangan Panik"
     },
     {
-     "beat": "Kira BWI RM1,000, bantuan khas persekutuan RM2,500 dan tambahan negeri RM500; ingatkan bantuan khas untuk yang terjejas teruk dan kriterianya diumumkan agensi pelaksana.",
-     "hook": "Mangsa banjir Selangor boleh dapat lebih dari satu bantuan. Jom kira.",
-     "title": "RM1,000 + RM2,500 + RM500 = ?"
+     "beat": "Rakam skrin: update OS, restart, buka tetapan amaran kecemasan dan hidupkan. Tunjuk iPhone dan Android.",
+     "hook": "Kalau setting ni off, korang tak dapat amaran banjir.",
+     "title": "On Amaran Kecemasan Dalam 20 Saat"
     },
     {
-     "beat": "Ingatkan daftar awal di MyIBJKM dan pastikan maklumat lengkap; BWI dibayar terus ke akaun bank, dan yang tiada akaun boleh tunai di BSN.",
-     "hook": "Ramai mangsa banjir lambat dapat bantuan sebab satu benda ni.",
-     "title": "Silap Ni Buat Bantuan Banjir Lambat"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Berapa Bantuan Wang Ihsan (BWI) untuk setiap ketua isi rumah mangsa banjir?",
-     "o": [
-      "RM500",
-      "RM1,000",
-      "RM2,500"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Sistem untuk daftar mangsa banjir ialah…",
-     "o": [
-      "MyIBJKM",
-      "MySTR",
-      "MyGOV"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Jumlah bantuan khas sekali bayar untuk mangsa terjejas teruk di Selangor?",
-     "o": [
-      "RM2,500",
-      "RM3,000",
-      "RM3,500"
-     ],
-     "a": 1
+     "beat": "Fahmi kata EWS guna pop-up, bukan SMS atau WhatsApp. Tunjuk beza rupa pop-up dan mesej forward.",
+     "hook": "Mesej amaran banjir dalam WhatsApp tu bukan dari kerajaan.",
+     "title": "Amaran Banjir WhatsApp = Palsu?"
     }
    ],
    "sources": [
     {
-     "name": "Bernama (9 Nov 2026)",
-     "url": "https://bernama.com/bm/am/news.php?id=2631985"
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2636688"
     },
     {
-     "name": "RinggitPlus (10 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-flood-aid-reaches-rm3000-with-state-top-up.html"
+     "name": "Lowyat.NET (20 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410102/mcmc-public-test-early-warning-system/"
     },
     {
-     "name": "Bernama (9 Nov 2026)",
-     "url": "https://bernama.com/en/news.php?id=2632004"
+     "name": "The Star (19 Nov 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/19/update-phones-now-to-receive-emergency-alerts-public-urged"
     },
     {
-     "name": "Malay Mail",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/09/anwar-announces-rm2500-cash-aid-for-eligible-selangor-flood-victims/242601"
+     "name": "Malay Mail (19 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/19/update-your-phones-to-receive-malaysias-new-emergency-alerts-mcmc-tells-public/243909"
     },
     {
-     "name": "Sinar Harian",
-     "url": "https://www.sinarharian.com.my/article/755869/berita/nasional/mtl-bantuan-wang-ihsan-bencana-disalur-setiap-tiga-bulan"
+     "name": "NST (19 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580873/mcmc-clarifies-nov-19-disaster-alert-system-test"
     },
     {
-     "name": "Bernama (14 Nov 2026)",
-     "url": "https://bernama.com/bm/news.php?id=2634330"
-    },
-    {
-     "name": "RinggitPlus (17 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/bank-news/six-months-of-loan-relief-for-alliance-bank-customers-affected-by-floods.html"
-    },
-    {
-     "name": "Bernama (14 Nov 2026)",
-     "url": "https://www.bernama.com/en/news.php?id=2634341"
-    },
-    {
-     "name": "Bernama (17 Nov 2026)",
-     "url": "https://bernama.com/en/news.php?id=2635490"
+     "name": "SCMP",
+     "url": "https://www.scmp.com/week-asia/health-environment/article/3374998/malaysians-question-slow-response-over-false-mobile-flood-warning-trial"
     }
    ],
-   "status": "naik",
-   "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
-   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan bernilai hampir RM1 juta. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov). Menteri Nancy Shukri beritahu Dewan Rakyat (17 Nov) 8,180 PPS sedia dibuka dengan kapasiti 1.86 juta mangsa, dan mangsa yang tumpang di hotel atau rumah saudara tetap boleh mohon BWI jika berdaftar secara rasmi.",
-   "deadline": "Moratorium Alliance Bank: mohon hingga 31 Mac 2027",
-   "script": {
-    "cta": "Share video ni kepada keluarga di kawasan banjir, dan subscribe untuk kemas kini bantuan terkini.",
-    "hook": "Rumah korang atau keluarga kena banjir? Jangan tunggu je. Ada bantuan RM1,000 dari NADMA, bantuan khas sampai RM3,000 di Selangor, dan bank pun boleh bagi tangguh bayar pinjaman. Jom tengok satu per satu.",
-    "points": [
-     "BWI RM1,000 untuk setiap ketua isi rumah yang rumahnya dilanda banjir, melalui NADMA; daftar dalam sistem MyIBJKM, contohnya imbas kod QR di PPS.",
-     "Selangor: bantuan khas persekutuan RM2,500 untuk mangsa terjejas teruk, ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS.",
-     "Bernama 14 Nov: ketua isi rumah di Selangor yang tak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan hampir RM1 juta.",
-     "Pinjaman bank: Alliance Bank tawar moratorium sehingga 6 bulan dan kecualikan caj lewat; mohon melalui khidmat pelanggan atau cawangan hingga 31 Mac 2027, tertakluk kelulusan.",
-     "Tips: simpan dokumen penting dalam beg kalis air dan salinan digital, dan tanya bank sama ada faedah masih dikira semasa moratorium."
-    ]
-   }
+   "title": "Ujian amaran kecemasan di telefon 29 Nov: update phone korang dulu",
+   "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
+   "score": 90,
+   "prev_score": null,
+   "status": "panas"
   },
   {
    "angle": "Video peringatan praktikal: semak baki SARA dalam MyKad sekarang dan rancang belanja barang keperluan sebelum kredit hangus 31 Disember. Sertakan sedikit konteks peruntukan SARA 2027.",
@@ -623,12 +614,16 @@
     {
      "name": "Business Today (17 Nov 2026)",
      "url": "https://www.businesstoday.com.my/2026/11/17/less-than-5-of-sara-assistance-remains-unused-says-deputy-minister/"
+    },
+    {
+     "name": "RinggitPlus (19 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/use-your-sara-credit-before-it-expires-on-31-december.html"
     }
    ],
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
-   "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion.",
-   "score": 85,
-   "prev_score": 84,
+   "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion. RinggitPlus (19 Nov) ingatkan baki boleh disemak di portal SARA (sara.gov.my), app MyKasih atau resit belian, dengan lebih 14,000 kedai SARA dan barangan asas dalam 15 kategori; tahun lalu kira-kira RM150 juta kredit sekali beri yang tak digunakan disalurkan kepada golongan memerlukan.",
+   "score": 86,
+   "prev_score": 85,
    "status": "panas",
    "script": {
     "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
@@ -806,9 +801,189 @@
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
    "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
-   "score": 81,
-   "prev_score": 80,
+   "score": 80,
+   "prev_score": 81,
    "status": "naik"
+  },
+  {
+   "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "20 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video dan Shorts BM tentang BWI RM1,000 dan daftar di PPS; sudut bantuan khas RM2,500 Selangor dan moratorium bank untuk mangsa banjir masih kurang diterangkan."
+   },
+   "faq": [
+    {
+     "a": "BWI ialah RM1,000 bagi setiap ketua isi rumah yang layak untuk setiap kejadian bencana, melalui NADMA.",
+     "q": "Berapa bantuan banjir dari kerajaan?"
+    },
+    {
+     "a": "Daftar dalam sistem MyIBJKM, contohnya dengan imbas kod QR di pusat pemindahan sementara.",
+     "q": "Macam mana nak daftar?"
+    },
+    {
+     "a": "Menurut Bernama (14 Nov), ketua isi rumah mangsa banjir di Selangor yang berdaftar terima RM2,500 manakala yang tidak berdaftar terima RM1,250.",
+     "q": "Siapa layak bantuan khas RM2,500?"
+    },
+    {
+     "a": "Ada, contohnya Alliance Bank tawar moratorium sehingga 6 bulan untuk pelanggan terjejas banjir, mohon hingga 31 Mac 2027 dan tertakluk kelulusan bank.",
+     "q": "Bank ada bagi tangguh bayar pinjaman tak?"
+    },
+    {
+     "a": "Boleh; BWI dibayar bagi setiap kejadian berasingan, sehingga empat kali setahun menurut RinggitPlus, tertakluk syarat NADMA.",
+     "q": "Kalau banjir dua kali, dapat dua kali ke?"
+    }
+   ],
+   "icon": "aid",
+   "id": "bantuan-banjir-mtl-2026",
+   "ideas": [
+    "Rumah Kena Banjir? Cara Dapat Bantuan RM1,000",
+    "MyIBJKM: Cara Daftar Mangsa Banjir di PPS",
+    "Bantuan Banjir Selangor RM3,000: Siapa Layak?",
+    "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
+    "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
+   ],
+   "prev_score": 74,
+   "score": 75,
+   "seo": {
+    "hashtags": [
+     "#BantuanBanjir",
+     "#BWI",
+     "#MyIBJKM",
+     "#MusimBanjir",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "bantuan banjir rm1000",
+     "bantuan wang ihsan 2026",
+     "myibjkm daftar",
+     "bantuan banjir selangor rm2500",
+     "moratorium pinjaman banjir"
+    ],
+    "tags": [
+     "bantuan banjir",
+     "bwi",
+     "nadma",
+     "myibjkm",
+     "banjir selangor",
+     "monsun timur laut",
+     "bantuan kerajaan",
+     "moratorium banjir"
+    ],
+    "thumbs": [
+     "BANJIR? DAPAT RM1,000",
+     "SELANGOR RM3,000",
+     "DAFTAR MYIBJKM"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terangkan BWI RM1,000 untuk ketua isi rumah yang rumahnya dilanda banjir, dan pendaftaran melalui MyIBJKM, termasuk imbas kod QR di pusat pemindahan.",
+     "hook": "Rumah kena banjir, tapi tak tahu nak dapat bantuan kat mana?",
+     "title": "Rumah Banjir? Ni Bantuan RM1,000"
+    },
+    {
+     "beat": "Kira BWI RM1,000, bantuan khas persekutuan RM2,500 dan tambahan negeri RM500; ingatkan bantuan khas untuk yang terjejas teruk dan kriterianya diumumkan agensi pelaksana.",
+     "hook": "Mangsa banjir Selangor boleh dapat lebih dari satu bantuan. Jom kira.",
+     "title": "RM1,000 + RM2,500 + RM500 = ?"
+    },
+    {
+     "beat": "Ingatkan daftar awal di MyIBJKM dan pastikan maklumat lengkap; BWI dibayar terus ke akaun bank, dan yang tiada akaun boleh tunai di BSN.",
+     "hook": "Ramai mangsa banjir lambat dapat bantuan sebab satu benda ni.",
+     "title": "Silap Ni Buat Bantuan Banjir Lambat"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa Bantuan Wang Ihsan (BWI) untuk setiap ketua isi rumah mangsa banjir?",
+     "o": [
+      "RM500",
+      "RM1,000",
+      "RM2,500"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Sistem untuk daftar mangsa banjir ialah…",
+     "o": [
+      "MyIBJKM",
+      "MySTR",
+      "MyGOV"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Jumlah bantuan khas sekali bayar untuk mangsa terjejas teruk di Selangor?",
+     "o": [
+      "RM2,500",
+      "RM3,000",
+      "RM3,500"
+     ],
+     "a": 1
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/bm/am/news.php?id=2631985"
+    },
+    {
+     "name": "RinggitPlus (10 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-flood-aid-reaches-rm3000-with-state-top-up.html"
+    },
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2632004"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/09/anwar-announces-rm2500-cash-aid-for-eligible-selangor-flood-victims/242601"
+    },
+    {
+     "name": "Sinar Harian",
+     "url": "https://www.sinarharian.com.my/article/755869/berita/nasional/mtl-bantuan-wang-ihsan-bencana-disalur-setiap-tiga-bulan"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2634330"
+    },
+    {
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/bank-news/six-months-of-loan-relief-for-alliance-bank-customers-affected-by-floods.html"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://www.bernama.com/en/news.php?id=2634341"
+    },
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2635490"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636505"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580181/2553-flood-victims-sheltering-26-relief-centres-five-states"
+    }
+   ],
+   "status": "naik",
+   "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
+   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan bernilai hampir RM1 juta. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov). Menteri Nancy Shukri beritahu Dewan Rakyat (17 Nov) 8,180 PPS sedia dibuka dengan kapasiti 1.86 juta mangsa, dan mangsa yang tumpang di hotel atau rumah saudara tetap boleh mohon BWI jika berdaftar secara rasmi. Pada 19 Nov, TPM Ahmad Zahid Hamidi beritahu Dewan Rakyat lebih 100,000 anggota, hampir 2,500 bot dan 28 pesawat disiagakan, dengan 3,045 kawasan panas banjir dikenal pasti; mangsa di luar PPS tetap boleh dapat BWI jika mendaftar di pusat pendaftaran mangsa banjir, manakala cadangan bantuan untuk peniaga kecil masih dirujuk (Bernama).",
+   "deadline": "Moratorium Alliance Bank: mohon hingga 31 Mac 2027",
+   "script": {
+    "cta": "Share video ni kepada keluarga di kawasan banjir, dan subscribe untuk kemas kini bantuan terkini.",
+    "hook": "Rumah korang atau keluarga kena banjir? Jangan tunggu je. Ada bantuan RM1,000 dari NADMA, bantuan khas sampai RM3,000 di Selangor, dan bank pun boleh bagi tangguh bayar pinjaman. Jom tengok satu per satu.",
+    "points": [
+     "BWI RM1,000 untuk setiap ketua isi rumah yang rumahnya dilanda banjir, melalui NADMA; daftar dalam sistem MyIBJKM, contohnya imbas kod QR di PPS.",
+     "Selangor: bantuan khas persekutuan RM2,500 untuk mangsa terjejas teruk, ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS.",
+     "Bernama 14 Nov: ketua isi rumah di Selangor yang tak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan hampir RM1 juta.",
+     "Pinjaman bank: Alliance Bank tawar moratorium sehingga 6 bulan dan kecualikan caj lewat; mohon melalui khidmat pelanggan atau cawangan hingga 31 Mac 2027, tertakluk kelulusan.",
+     "Tips: simpan dokumen penting dalam beg kalis air dan salinan digital, dan tanya bank sama ada faedah masih dikira semasa moratorium."
+    ]
+   }
   },
   {
    "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun.",
@@ -828,8 +1003,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
    ],
-   "prev_score": 78,
-   "score": 76,
+   "prev_score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -1083,8 +1258,156 @@
    ],
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
-   "score": 75,
-   "prev_score": 76,
+   "score": 74,
+   "prev_score": 75,
+   "status": "naik"
+  },
+  {
+   "angle": "Terangkan maksud laporan 9 bulan KWSP dan cara kira anggaran dividen sendiri tanpa menjanjikan kadar. Ingatkan dividen bergantung pada prestasi pelaburan dan boleh lebih rendah dari jangkaan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "20 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video BM ramalan kadar dividen KWSP; sudut terangkan laporan 9 bulan dengan jujur dan cara kira sendiri masih kurang."
+   },
+   "faq": [
+    {
+     "a": "Tarikh pengumuman belum dinyatakan secara rasmi.",
+     "q": "Bila KWSP umum dividen 2026?"
+    },
+    {
+     "a": "RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding tempoh sama tahun lepas.",
+     "q": "Berapa pendapatan KWSP tahun ni?"
+    },
+    {
+     "a": "Tidak, penganalisis kata tiada jaminan dan ada yang jangka prestasi 2026 setanding 2025.",
+     "q": "Maksudnya dividen confirm naik?"
+    },
+    {
+     "a": "Pertumbuhan suku ketiga hanya 3% (RM25.82 bilion), dan penganalisis sebut saham berkaitan AI yang tidak menentu sebagai risiko.",
+     "q": "Kenapa suku ketiga perlahan?"
+    },
+    {
+     "a": "Caruman sukarela KWSP setakat ini mencecah RM18.27 bilion.",
+     "q": "Ramai ke yang buat caruman sukarela?"
+    }
+   ],
+   "icon": "salary",
+   "id": "kwsp-dividen-2026",
+   "ideas": [
+    "Pendapatan KWSP Naik 30%: Dividen Naik Ke?",
+    "Cara Kira Dividen KWSP Korang Sendiri",
+    "Kenapa Suku Ketiga KWSP Cuma Naik 3%?",
+    "KWSP RM1.55 Trilion: Duit Kita Kat Mana?",
+    "Caruman Sukarela KWSP: Berbaloi Top Up?"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM63.99 bilion",
+      "RM83.32 bilion",
+      "RM155 bilion"
+     ],
+     "q": "Berapa pendapatan pelaburan KWSP bagi 9 bulan pertama 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "30%",
+      "3%",
+      "13%"
+     ],
+     "q": "Pendapatan pelaburan KWSP naik berapa peratus berbanding tahun lepas?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "RM1.2 trilion",
+      "RM2 trilion",
+      "RM1.55 trilion"
+     ],
+     "q": "Berapa nilai aset pelaburan KWSP terkini?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#KWSP",
+     "#DividenKWSP",
+     "#EPF",
+     "#KewanganPeribadi",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "dividen kwsp 2026",
+     "pendapatan pelaburan kwsp",
+     "cara kira dividen kwsp",
+     "kwsp suku ketiga 2026",
+     "jangkaan dividen kwsp"
+    ],
+    "tags": [
+     "kwsp",
+     "epf",
+     "dividen kwsp",
+     "dividen 2026",
+     "simpanan persaraan",
+     "pelaburan",
+     "kewangan peribadi",
+     "caruman sukarela"
+    ],
+    "thumbs": [
+     "KWSP NAIK 30%!",
+     "DIVIDEN NAIK?",
+     "KIRA SENDIRI"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Banding dengan RM63.99 bilion tahun lepas (naik 30%), tapi sebut suku ketiga cuma naik 3%.",
+     "hook": "Dalam 9 bulan, KWSP buat pendapatan pelaburan RM83.32 bilion.",
+     "title": "KWSP Buat RM83 Bilion?"
+    },
+    {
+     "beat": "Mitos vs fakta: penganalisis kata tiada jaminan, dan ada yang jangka prestasi 2026 setanding 2025.",
+     "hook": "Pendapatan naik 30% tak semestinya dividen naik 30%.",
+     "title": "Mitos: Untung Naik = Dividen Naik"
+    },
+    {
+     "beat": "Tunjuk kiraan contoh guna baki simpanan dan kadar andaian, dan tekankan kadar sebenar belum diumumkan.",
+     "hook": "Nak tahu anggaran dividen korang? Ambil phone sekarang.",
+     "title": "Kira Dividen KWSP Guna Kalkulator"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (16 Nov 2026)",
+     "url": "https://www.bernama.com/en/news.php?id=2635114"
+    },
+    {
+     "name": "The Star (17 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/17/epftreads-cautiously-towards-higher-dividends"
+    },
+    {
+     "name": "Malay Mail (16 Nov 2026)",
+     "url": "https://www.malaymail.com/news/money/2026/11/16/epf-investment-income-rises-30pc-to-rm8332b-in-first-nine-months-of-2026/243505"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/business/129643/epf-investment-assets-hit-rm1.55-trillion-as-nine-month-income-climbs-30"
+    },
+    {
+     "name": "Berita RTM",
+     "url": "https://berita.rtm.gov.my/?p=726663"
+    },
+    {
+     "name": "The Star (18 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/18/epf-investment-income-falls-rm4bil-in-3q-are-dividends-at-risk"
+    }
+   ],
+   "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
+   "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan. The Star (18 Nov) lapor pendapatan suku ketiga RM25.8 bilion itu turun kira-kira 13% berbanding suku sebelumnya, dan bertanya sama ada dividen 2026 mampu menyamai 6.15% bagi 2025.",
+   "score": 73,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1235,9 +1558,437 @@
    ],
    "title": "Harga emas jatuh bawah US$3,750: peluang atau perangkap?",
    "why": "Kontrak niaga hadapan emas bulan semasa di Bursa Malaysia Derivatives terus jatuh, daripada US$3,868.60 seauns pada 17 Nov ke US$3,782.90 pada 18 Nov dan US$3,731.30 pada 19 Nov 2026, selepas harga fix LBMA turun ke US$3,870.20 pada 12 Nov dari US$4,014.00 sehari sebelumnya (Bernama). Stephen Innes dari SPI Asset Management kata data ekonomi AS yang kukuh menguatkan jangkaan Fed terus mengetatkan dasar, sekali gus menguatkan dolar, dan ada pelabur jual emas untuk dapatkan tunai selepas saham berkaitan AI dijual (Bernama, 18 Nov).",
-   "score": 73,
-   "prev_score": 75,
+   "score": 71,
+   "prev_score": 73,
    "status": "naik"
+  },
+  {
+   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
+   "app": {
+    "name": "WhatsApp (Tetapan > Storan dan data)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "18 Nov 2026",
+    "level": "tinggi",
+    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang kupas amaran MCCA dan cadangan pengesahan identiti WhatsApp."
+   },
+   "icon": "shield",
+   "id": "whatsapp-malware-apk",
+   "ideas": [
+    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
+    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
+    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
+    "5 Tanda Telefon Korang Dah Kena Malware",
+    "Google Sekat APK Tak Sah 2027: Apa Berubah?"
+   ],
+   "prev_score": 69,
+   "score": 71,
+   "seo": {
+    "hashtags": [
+     "#whatsapp",
+     "#awasscam",
+     "#scamapk",
+     "#keselamatansiber",
+     "#tipswhatsapp"
+    ],
+    "keywords": [
+     "malware whatsapp",
+     "cara elak whatsapp kena hack",
+     "matikan muat turun automatik whatsapp",
+     "fail apk whatsapp scam",
+     "whatsapp pengesahan identiti malaysia"
+    ],
+    "tags": [
+     "whatsapp",
+     "malware",
+     "scam apk",
+     "keselamatan telefon",
+     "whatsapp hack",
+     "tips whatsapp",
+     "scam malaysia",
+     "otp"
+    ],
+    "thumbs": [
+     "JANGAN BUKA FAIL NI",
+     "WHATSAPP KENA HACK?",
+     "OFF SETTING NI!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "SoyaCincau (15 Nov 2026)",
+     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
+    },
+    {
+     "name": "The Vibes (8 Nov 2026)",
+     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
+    },
+    {
+     "name": "Lowyat.NET (16 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409783/ministry-whatsapp-acc-verification/"
+    },
+    {
+     "name": "Lowyat.NET (20 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410137/google-android-sideloading-restrictions/"
+    }
+   ],
+   "status": "naik",
+   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
+   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau). Pada 20 Nov, Google umum peraturan pengesahan pembangun untuk app di luar Play Store akan diperluas ke seluruh dunia mulai Januari 2027; app dari pembangun tidak disahkan masih boleh dipasang tetapi perlu buka pilihan pembangun dan tunggu 24 jam (Lowyat.NET).",
+   "shorts": [
+    {
+     "title": "Off Setting WhatsApp Ni SEKARANG",
+     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
+     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
+    },
+    {
+     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
+     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
+     "title": "WhatsApp Kena Verify Identiti?"
+    },
+    {
+     "title": "On Pengesahan 2 Langkah WhatsApp",
+     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
+     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Betul ke WhatsApp boleh kena malware?",
+     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+    },
+    {
+     "q": "Apa malware ni boleh buat?",
+     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+    },
+    {
+     "q": "Setting apa nak tutup?",
+     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+    },
+    {
+     "q": "Macam mana nak lindungi akaun?",
+     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
+    },
+    {
+     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
+     "q": "Betul ke WhatsApp nanti kena daftar IC?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "o": [
+      "Dokumen",
+      "Lagu",
+      "Sticker"
+     ],
+     "a": 0
+    },
+    {
+     "a": 1,
+     "o": [
+      "Menteri Kewangan",
+      "Menteri Komunikasi Fahmi Fadzil",
+      "Gabenor BNM"
+     ],
+     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
+    },
+    {
+     "q": "Cara terbaik kunci akaun WhatsApp?",
+     "o": [
+      "Pengesahan dua langkah",
+      "Tukar gambar profil",
+      "Padam chat lama"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
+   "app": {
+    "name": "MySaham MITI / portal SahamOnline",
+    "url": "https://sahamonline.miti.gov.my/"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "20 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang ada kebanyakannya tutorial portal web MITI yang lama; belum jumpa tutorial BM khusus untuk app MySaham MITI yang dilancar 12 Nov."
+   },
+   "faq": [
+    {
+     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
+     "q": "MySaham MITI ni app apa?"
+    },
+    {
+     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
+     "q": "Siapa boleh mohon SKB?"
+    },
+    {
+     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
+     "q": "Perlu ada apa sebelum mohon?"
+    },
+    {
+     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
+     "q": "Berapa minimum nak labur?"
+    },
+    {
+     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
+     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
+    }
+   ],
+   "icon": "chart",
+   "id": "mysaham-miti-skb",
+   "ideas": [
+    "Cara Daftar App MySaham MITI (Langkah Penuh)",
+    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
+    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
+    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
+    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
+   ],
+   "prev_score": 70,
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "1 Okt 2026",
+      "12 Nov 2026",
+      "1 Jan 2027"
+     ],
+     "q": "Bila app MySaham MITI dilancarkan?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "30 hari",
+      "90 hari",
+      "180 hari"
+     ],
+     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Akaun CDS",
+      "Akaun KWSP",
+      "Akaun Tabung Haji"
+     ],
+     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
+    }
+   ],
+   "score": 69,
+   "seo": {
+    "hashtags": [
+     "#mysaham",
+     "#sahamipo",
+     "#miti",
+     "#sahambumiputera",
+     "#belajarsaham"
+    ],
+    "keywords": [
+     "mysaham miti",
+     "cara mohon saham ipo bumiputera",
+     "saham khas bumiputera miti",
+     "daftar sahamonline miti",
+     "app mysaham"
+    ],
+    "tags": [
+     "mysaham",
+     "miti",
+     "saham ipo",
+     "saham bumiputera",
+     "skb",
+     "akaun cds",
+     "pelaburan saham",
+     "tutorial saham"
+    ],
+    "thumbs": [
+     "IPO DALAM TELEFON",
+     "SAHAM BUMIPUTERA",
+     "BOLEH RUGI JUGA!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
+     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
+     "title": "App Baru MITI Untuk Saham IPO"
+    },
+    {
+     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
+     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
+     "title": "Mitos: Saham IPO Confirm Untung"
+    },
+    {
+     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
+     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
+     "title": "Kesilapan Ni Kena Ban 180 Hari"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (16 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
+    },
+    {
+     "name": "NST (Sept 2026): eSaham 2.0",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
+    },
+    {
+     "name": "Portal SahamOnline MITI",
+     "url": "https://sahamonline.miti.gov.my/"
+    }
+   ],
+   "status": "naik",
+   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
+   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
+  },
+  {
+   "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "18 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2–3 klip berita BM tentang MediAsas (pelan asas bermula sekitar RM80 dan program rintis). Belum ada penerangan santai tentang deductible RM500, ko-insurans 20% dan siapa patut ambil."
+   },
+   "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
+   "icon": "shield",
+   "id": "mediasas-2027",
+   "ideas": [
+    "MediAsas: Insurans Perubatan Murah Untuk Semua?",
+    "Bayar Premium Guna KWSP? Ini Cara MediAsas",
+    "MediAsas vs Kad Medikal Biasa: Mana Lebih Baik?",
+    "Tiada Insurans? Tunggu MediAsas Januari 2027",
+    "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
+   ],
+   "prev_score": 68,
+   "score": 69,
+   "seo": {
+    "hashtags": [
+     "#mediasas",
+     "#insuransperubatan",
+     "#takaful",
+     "#bajet2027",
+     "#kewanganperibadi"
+    ],
+    "keywords": [
+     "mediasas apa itu",
+     "insurans perubatan asas",
+     "mediasas premium",
+     "takaful perubatan murah",
+     "mediasas kwsp"
+    ],
+    "tags": [
+     "mediasas",
+     "insurans perubatan",
+     "takaful",
+     "bnm",
+     "kwsp akaun sejahtera",
+     "bajet 2027",
+     "kad medikal",
+     "insurans murah"
+    ],
+    "thumbs": [
+     "INSURANS MURAH?",
+     "BAYAR GUNA KWSP",
+     "MULA JAN 2027"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Malay Mail (13 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/13/mediasas-what-malaysians-need-to-know-about-the-new-basic-medical-insurance-plan/242126"
+    },
+    {
+     "name": "MOF: rintis MediAsas",
+     "url": "https://mof.gov.my/portal/ms/berita/akhbar/jbmkks-lancar-program-rintis-mediasas-akhir-julai-peringkat-nasional-pada-2027"
+    },
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/apa-yang-dilindungi-mediasas-dan-siapa-yang-sesuai-memilihnya.html"
+    },
+    {
+     "name": "RinggitPlus BM (13 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mediasas-mungkin-kenakan-ko-insurans-20-di-hospital-yang-tidak-patuhi-syarat.html"
+    },
+    {
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/people-with-existing-health-conditions-may-still-apply-for-mediasas.html"
+    }
+   ],
+   "status": "naik",
+   "title": "MediAsas: insurans/takaful perubatan asas mampu milik",
+   "why": "MediAsas ialah pelan insurans dan takaful perubatan asas sukarela dengan had tahunan RM100,000 (Standard) atau RM300,000 (Standard-Plus) dan deductible RM500 (bawah 60 tahun), boleh dibeli hingga umur 70, dan dilancar seluruh negara hujung Januari 2027. Pada 11 Nov, Timbalan Menteri Kewangan Liew Chin Tong kata caj ko-insurans tambahan 20% di hospital luar rangkaian (had RM3,000 setiap penyakit) masih dikaji semasa rintis. Menteri Kesihatan sebut premium asas mungkin bermula sekitar RM65 sebulan, bergantung pada produk (RinggitPlus, 13 Nov). Timbalan Gabenor BNM Aznan Abdul Aziz (The Edge, 16 Nov) kata mereka yang ada penyakit sedia ada yang stabil dan terkawal masih boleh memohon, walaupun premium mungkin lebih tinggi atau rawatan penyakit itu dikecualikan (RinggitPlus, 17 Nov).",
+   "shorts": [
+    {
+     "title": "MediAsas: Insurans Perubatan Murah?",
+     "hook": "Tak ada insurans perubatan? Tahun depan ada pilihan baru.",
+     "beat": "Had tahunan RM100,000 atau RM300,000, deductible RM500, dilancar hujung Jan 2027. Premium muktamad belum diumum."
+    },
+    {
+     "title": "Bayar Premium Guna KWSP?",
+     "hook": "Premium MediAsas boleh dibayar guna duit KWSP. Ni syaratnya.",
+     "beat": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera. Tekankan bukan produk pelaburan."
+    },
+    {
+     "title": "Deductible RM500 Tu Apa?",
+     "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
+     "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Apa itu MediAsas?",
+     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
+    },
+    {
+     "q": "Berapa had perlindungan?",
+     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
+    },
+    {
+     "q": "Berapa premium?",
+     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
+    },
+    {
+     "q": "Boleh bayar guna KWSP?",
+     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
+    },
+    {
+     "a": "BNM kata boleh jika penyakit itu stabil dan terkawal, tapi premium mungkin lebih tinggi atau rawatannya dikecualikan.",
+     "q": "Ada penyakit sedia ada, boleh mohon tak?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Had tahunan pelan MediAsas Standard?",
+     "o": [
+      "RM50,000",
+      "RM100,000",
+      "RM300,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Deductible MediAsas untuk bawah 60 tahun?",
+     "o": [
+      "RM100",
+      "RM500",
+      "RM1,000"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Bila MediAsas dilancar seluruh negara?",
+     "o": [
+      "Hujung Jan 2027",
+      "Jun 2027",
+      "Sudah dilancar"
+     ],
+     "a": 0
+    }
+   ]
   },
   {
    "angle": "Tutorial jujur cara guna TuJu selepas perubahan 6 Nov (cari destinasi, kemudian ia buka Google Maps), dan bandingkan dengan Waze/Google Maps tanpa hype. Sesuai untuk penjawat awam dan yang ingin tahu.",
@@ -1374,849 +2125,141 @@
    ],
    "title": "App TuJu tembus 1 juta pengguna, kini guna pautan Google Maps",
    "why": "Timbalan Menteri Kerja Raya Ahmad Maslan beritahu Dewan Rakyat (Bernama, 16 Nov 2026) app navigasi tempatan TuJu kini melebihi sejuta pengguna, melonjak dari kira-kira 200,000 dalam tujuh bulan kepada lebih sejuta dalam beberapa hari selepas penjawat awam dilarang guna Waze untuk urusan rasmi. Lonjakan itu membebankan sistem sehingga Prosignal terpaksa bayar RM300,000 dalam sehari, dan sejak 6 Nov navigasi TuJu dialihkan melalui pautan Google Maps untuk kurangkan kos operasi.",
-   "score": 70,
-   "prev_score": 72,
-   "status": "naik"
-  },
-  {
-   "angle": "Video tenang, bukan menakutkan: maksud 'tahap Sederhana', kenapa jangan percaya dakwaan godam yang belum disahkan, dan 5 minit amankan akaun sendiri (aktifkan 2FA/MFA, tukar kata laluan yang sama di banyak app). Ingatkan KKM kata jangan muat turun atau sebar dokumen kerajaan yang bocor kerana ia satu kesalahan.",
-   "app": {
-    "name": "NACSA (portal rasmi)",
-    "url": "https://www.nacsa.gov.my"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "19 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada 2–3 klip berita BM (kenyataan PM tentang Malaysia jadi sasaran, dakwaan kebocoran data). Belum jumpa video BM santai yang terangkan tahap 'Sederhana' dan langkah praktikal amankan akaun peribadi."
-   },
-   "faq": [
-    {
-     "a": "NACSA naikkan ke tahap Sederhana berkuat kuasa 4 Nov 2026 sebagai langkah berjaga-jaga.",
-     "q": "Tahap ancaman siber negara sekarang apa?"
-    },
-    {
-     "a": "Pada 12 Nov, Fahmi kata dakwaan yang tular belum disahkan oleh NACSA dan tiada laporan yang membimbangkan setakat itu.",
-     "q": "Betul ke Malaysia kena godam besar-besaran?"
-    },
-    {
-     "a": "KKM sahkan akses tanpa izin ke satu platform simpanan fail di sebuah fasiliti, tetapi belum nyatakan data apa yang terlibat.",
-     "q": "Data pesakit KKM bocor ke?"
-    },
-    {
-     "a": "Ya, KKM kata perkhidmatan rawatan pesakit berjalan seperti biasa dan temujanji diteruskan.",
-     "q": "Masih boleh pergi klinik atau hospital kerajaan?"
-    },
-    {
-     "a": "Kerajaan kata sumber rasmi ialah NACSA, jadi semak kenyataan rasmi sebelum percaya atau kongsi.",
-     "q": "Kat mana nak dapat maklumat sahih?"
-    }
-   ],
-   "icon": "shield",
-   "id": "ancaman-siber-tahap-sederhana",
-   "ideas": [
-    "Tahap Ancaman Siber 'Sederhana': Apa Maksudnya?",
-    "Aktifkan 2FA Semua Akaun Dalam 5 Minit",
-    "Data KKM Bocor? Ini Fakta Sebenar",
-    "Jangan Sebar Dokumen Bocor: Ni Sebabnya",
-    "Cara Semak Akaun Korang Pernah Bocor"
-   ],
-   "quiz": [
-    {
-     "a": 2,
-     "o": [
-      "Tinggi",
-      "Kritikal",
-      "Sederhana"
-     ],
-     "q": "Tahap ancaman siber negara dinaikkan ke tahap apa pada 4 Nov 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "NACSA",
-      "JPJ",
-      "KPDN"
-     ],
-     "q": "Agensi mana sumber rasmi maklumat serangan siber?"
-    },
-    {
-     "a": 1,
-     "o": [
-      "Tukar telefon",
-      "Pengesahan pelbagai faktor (MFA)",
-      "Tutup hospital"
-     ],
-     "q": "Selepas insiden 12 Nov, KKM wajibkan apa di fasiliti terlibat?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#keselamatansiber",
-     "#nacsa",
-     "#serangansiber",
-     "#2fa",
-     "#tipsonline"
-    ],
-    "keywords": [
-     "tahap ancaman siber malaysia",
-     "nacsa amaran siber",
-     "kkm data bocor",
-     "cara aktifkan 2fa",
-     "serangan siber malaysia 2026"
-    ],
-    "tags": [
-     "keselamatan siber",
-     "nacsa",
-     "serangan siber",
-     "data bocor",
-     "2fa",
-     "kata laluan",
-     "kkm",
-     "tips keselamatan online"
-    ],
-    "thumbs": [
-     "AMARAN SIBER NAIK",
-     "AKAUN KORANG SELAMAT?",
-     "BUAT INI SEKARANG"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Terang NACSA naikkan tahap dari Rendah ke Sederhana mulai 4 Nov sebagai langkah berjaga-jaga, dan sumber rasmi ialah NACSA, bukan post tular.",
-     "hook": "Malaysia naikkan tahap ancaman siber. Perlu panik? Tak, tapi buat satu benda ni.",
-     "title": "Tahap Siber Naik: Panik Ke?"
-    },
-    {
-     "beat": "Rakam skrin telefon aktifkan pengesahan dua langkah dalam satu app popular, dan sebut KKM wajibkan MFA selepas insiden 12 Nov.",
-     "hook": "KKM pun wajibkan benda ni lepas kena ceroboh. Korang dah on belum?",
-     "title": "Aktifkan 2FA Dalam 30 Saat"
-    },
-    {
-     "beat": "KKM kata muat turun, simpan atau sebar dokumen kerajaan yang diperoleh secara haram ialah kesalahan serius. Padam dan jangan forward.",
-     "hook": "Ada orang share dokumen kerajaan bocor dalam group? Korang pun boleh kena.",
-     "title": "Dapat Fail 'Bocor'? Jangan Share"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Lowyat.NET (5 Nov 2026): NACSA naikkan tahap ancaman",
-     "url": "https://www.lowyat.net/2026/409217/nacsa-malaysia-cybersecurity-level/"
-    },
-    {
-     "name": "The Star (12 Nov 2026): NACSA kekal amaran amber",
-     "url": "https://www.thestar.com.my/news/nation/2026/11/12/nacsa-maintains-amber-alert-amid-cyberattack-security-breach-claims"
-    },
-    {
-     "name": "Lowyat.NET (16 Nov 2026): insiden siber KKM",
-     "url": "https://www.lowyat.net/2026/409823/moh-cybersecurity-incident/"
-    },
-    {
-     "name": "NST: NACSA rekod 5,110 insiden siber",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1574088/nacsa-records-5110-cybersecurity-incidents-first-nine-months"
-    }
-   ],
-   "title": "Tahap ancaman siber negara naik ke 'Sederhana': apa kita perlu buat",
-   "why": "NACSA naikkan Tahap Ancaman Keselamatan Siber Negara dari Rendah ke Sederhana berkuat kuasa 4 Nov 2026 sebagai langkah berjaga-jaga, selepas PM beritahu Parlimen pada 3 Nov bahawa Malaysia boleh jadi sasaran serangan siber (Lowyat.NET). Pada 12 Nov, Menteri Komunikasi Fahmi Fadzil kata NACSA kekalkan amaran 'amber' dan dakwaan serangan yang tular di media sosial belum disahkan, dengan NACSA sebagai sumber maklumat rasmi (The Star). Pada 16 Nov, KKM sahkan akses tanpa izin ke satu platform simpanan fail di sebuah fasilitinya (dikesan 12 Nov); KKM set semula kata laluan, wajibkan pengesahan pelbagai faktor (MFA) dan kata perkhidmatan pesakit berjalan seperti biasa (Lowyat.NET).",
-   "score": 69,
-   "prev_score": 71,
-   "status": "naik"
-  },
-  {
-   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
-   "app": {
-    "name": "MySaham MITI / portal SahamOnline",
-    "url": "https://sahamonline.miti.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang ada kebanyakannya tutorial portal web MITI yang lama; belum jumpa tutorial BM khusus untuk app MySaham MITI yang dilancar 12 Nov."
-   },
-   "faq": [
-    {
-     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
-     "q": "MySaham MITI ni app apa?"
-    },
-    {
-     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
-     "q": "Siapa boleh mohon SKB?"
-    },
-    {
-     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
-     "q": "Perlu ada apa sebelum mohon?"
-    },
-    {
-     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
-     "q": "Berapa minimum nak labur?"
-    },
-    {
-     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
-     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
-    }
-   ],
-   "icon": "chart",
-   "id": "mysaham-miti-skb",
-   "ideas": [
-    "Cara Daftar App MySaham MITI (Langkah Penuh)",
-    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
-    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
-    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
-    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
-   ],
-   "prev_score": 71,
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "1 Okt 2026",
-      "12 Nov 2026",
-      "1 Jan 2027"
-     ],
-     "q": "Bila app MySaham MITI dilancarkan?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "30 hari",
-      "90 hari",
-      "180 hari"
-     ],
-     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Akaun CDS",
-      "Akaun KWSP",
-      "Akaun Tabung Haji"
-     ],
-     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
-    }
-   ],
-   "score": 70,
-   "seo": {
-    "hashtags": [
-     "#mysaham",
-     "#sahamipo",
-     "#miti",
-     "#sahambumiputera",
-     "#belajarsaham"
-    ],
-    "keywords": [
-     "mysaham miti",
-     "cara mohon saham ipo bumiputera",
-     "saham khas bumiputera miti",
-     "daftar sahamonline miti",
-     "app mysaham"
-    ],
-    "tags": [
-     "mysaham",
-     "miti",
-     "saham ipo",
-     "saham bumiputera",
-     "skb",
-     "akaun cds",
-     "pelaburan saham",
-     "tutorial saham"
-    ],
-    "thumbs": [
-     "IPO DALAM TELEFON",
-     "SAHAM BUMIPUTERA",
-     "BOLEH RUGI JUGA!"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
-     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
-     "title": "App Baru MITI Untuk Saham IPO"
-    },
-    {
-     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
-     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
-     "title": "Mitos: Saham IPO Confirm Untung"
-    },
-    {
-     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
-     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
-     "title": "Kesilapan Ni Kena Ban 180 Hari"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
-    },
-    {
-     "name": "NST (Sept 2026): eSaham 2.0",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
-    },
-    {
-     "name": "Portal SahamOnline MITI",
-     "url": "https://sahamonline.miti.gov.my/"
-    }
-   ],
-   "status": "naik",
-   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
-   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
-  },
-  {
-   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
-   "app": {
-    "name": "WhatsApp (Tetapan > Storan dan data)"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "18 Nov 2026",
-    "level": "tinggi",
-    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang kupas amaran MCCA dan cadangan pengesahan identiti WhatsApp."
-   },
-   "icon": "shield",
-   "id": "whatsapp-malware-apk",
-   "ideas": [
-    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
-    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
-    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
-    "5 Tanda Telefon Korang Dah Kena Malware",
-    "WhatsApp Kena Verify Identiti? Ini Yang Kita Tahu"
-   ],
-   "prev_score": 71,
-   "score": 69,
-   "seo": {
-    "hashtags": [
-     "#whatsapp",
-     "#awasscam",
-     "#scamapk",
-     "#keselamatansiber",
-     "#tipswhatsapp"
-    ],
-    "keywords": [
-     "malware whatsapp",
-     "cara elak whatsapp kena hack",
-     "matikan muat turun automatik whatsapp",
-     "fail apk whatsapp scam",
-     "whatsapp pengesahan identiti malaysia"
-    ],
-    "tags": [
-     "whatsapp",
-     "malware",
-     "scam apk",
-     "keselamatan telefon",
-     "whatsapp hack",
-     "tips whatsapp",
-     "scam malaysia",
-     "otp"
-    ],
-    "thumbs": [
-     "JANGAN BUKA FAIL NI",
-     "WHATSAPP KENA HACK?",
-     "OFF SETTING NI!"
-    ]
-   },
-   "sources": [
-    {
-     "name": "SoyaCincau (15 Nov 2026)",
-     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
-    },
-    {
-     "name": "The Vibes (8 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
-    },
-    {
-     "name": "Lowyat.NET (16 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409783/ministry-whatsapp-acc-verification/"
-    }
-   ],
-   "status": "naik",
-   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
-   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau).",
-   "shorts": [
-    {
-     "title": "Off Setting WhatsApp Ni SEKARANG",
-     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
-     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
-    },
-    {
-     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
-     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
-     "title": "WhatsApp Kena Verify Identiti?"
-    },
-    {
-     "title": "On Pengesahan 2 Langkah WhatsApp",
-     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
-     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Betul ke WhatsApp boleh kena malware?",
-     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
-    },
-    {
-     "q": "Apa malware ni boleh buat?",
-     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
-    },
-    {
-     "q": "Setting apa nak tutup?",
-     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
-    },
-    {
-     "q": "Macam mana nak lindungi akaun?",
-     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
-    },
-    {
-     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
-     "q": "Betul ke WhatsApp nanti kena daftar IC?"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
-     "o": [
-      "Dokumen",
-      "Lagu",
-      "Sticker"
-     ],
-     "a": 0
-    },
-    {
-     "a": 1,
-     "o": [
-      "Menteri Kewangan",
-      "Menteri Komunikasi Fahmi Fadzil",
-      "Gabenor BNM"
-     ],
-     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
-    },
-    {
-     "q": "Cara terbaik kunci akaun WhatsApp?",
-     "o": [
-      "Pengesahan dua langkah",
-      "Tukar gambar profil",
-      "Padam chat lama"
-     ],
-     "a": 0
-    }
-   ]
-  },
-  {
-   "angle": "Terangkan maksud laporan 9 bulan KWSP dan cara kira anggaran dividen sendiri tanpa menjanjikan kadar. Ingatkan dividen bergantung pada prestasi pelaburan dan boleh lebih rendah dari jangkaan.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa video BM ramalan kadar dividen KWSP; sudut terangkan laporan 9 bulan dengan jujur dan cara kira sendiri masih kurang."
-   },
-   "faq": [
-    {
-     "a": "Tarikh pengumuman belum dinyatakan secara rasmi.",
-     "q": "Bila KWSP umum dividen 2026?"
-    },
-    {
-     "a": "RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding tempoh sama tahun lepas.",
-     "q": "Berapa pendapatan KWSP tahun ni?"
-    },
-    {
-     "a": "Tidak, penganalisis kata tiada jaminan dan ada yang jangka prestasi 2026 setanding 2025.",
-     "q": "Maksudnya dividen confirm naik?"
-    },
-    {
-     "a": "Pertumbuhan suku ketiga hanya 3% (RM25.82 bilion), dan penganalisis sebut saham berkaitan AI yang tidak menentu sebagai risiko.",
-     "q": "Kenapa suku ketiga perlahan?"
-    },
-    {
-     "a": "Caruman sukarela KWSP setakat ini mencecah RM18.27 bilion.",
-     "q": "Ramai ke yang buat caruman sukarela?"
-    }
-   ],
-   "icon": "salary",
-   "id": "kwsp-dividen-2026",
-   "ideas": [
-    "Pendapatan KWSP Naik 30%: Dividen Naik Ke?",
-    "Cara Kira Dividen KWSP Korang Sendiri",
-    "Kenapa Suku Ketiga KWSP Cuma Naik 3%?",
-    "KWSP RM1.55 Trilion: Duit Kita Kat Mana?",
-    "Caruman Sukarela KWSP: Berbaloi Top Up?"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "RM63.99 bilion",
-      "RM83.32 bilion",
-      "RM155 bilion"
-     ],
-     "q": "Berapa pendapatan pelaburan KWSP bagi 9 bulan pertama 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "30%",
-      "3%",
-      "13%"
-     ],
-     "q": "Pendapatan pelaburan KWSP naik berapa peratus berbanding tahun lepas?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "RM1.2 trilion",
-      "RM2 trilion",
-      "RM1.55 trilion"
-     ],
-     "q": "Berapa nilai aset pelaburan KWSP terkini?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#KWSP",
-     "#DividenKWSP",
-     "#EPF",
-     "#KewanganPeribadi",
-     "#ImranWafi"
-    ],
-    "keywords": [
-     "dividen kwsp 2026",
-     "pendapatan pelaburan kwsp",
-     "cara kira dividen kwsp",
-     "kwsp suku ketiga 2026",
-     "jangkaan dividen kwsp"
-    ],
-    "tags": [
-     "kwsp",
-     "epf",
-     "dividen kwsp",
-     "dividen 2026",
-     "simpanan persaraan",
-     "pelaburan",
-     "kewangan peribadi",
-     "caruman sukarela"
-    ],
-    "thumbs": [
-     "KWSP NAIK 30%!",
-     "DIVIDEN NAIK?",
-     "KIRA SENDIRI"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Banding dengan RM63.99 bilion tahun lepas (naik 30%), tapi sebut suku ketiga cuma naik 3%.",
-     "hook": "Dalam 9 bulan, KWSP buat pendapatan pelaburan RM83.32 bilion.",
-     "title": "KWSP Buat RM83 Bilion?"
-    },
-    {
-     "beat": "Mitos vs fakta: penganalisis kata tiada jaminan, dan ada yang jangka prestasi 2026 setanding 2025.",
-     "hook": "Pendapatan naik 30% tak semestinya dividen naik 30%.",
-     "title": "Mitos: Untung Naik = Dividen Naik"
-    },
-    {
-     "beat": "Tunjuk kiraan contoh guna baki simpanan dan kadar andaian, dan tekankan kadar sebenar belum diumumkan.",
-     "hook": "Nak tahu anggaran dividen korang? Ambil phone sekarang.",
-     "title": "Kira Dividen KWSP Guna Kalkulator"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Bernama (16 Nov 2026)",
-     "url": "https://www.bernama.com/en/news.php?id=2635114"
-    },
-    {
-     "name": "The Star (17 Nov 2026)",
-     "url": "https://www.thestar.com.my/business/business-news/2026/11/17/epftreads-cautiously-towards-higher-dividends"
-    },
-    {
-     "name": "Malay Mail (16 Nov 2026)",
-     "url": "https://www.malaymail.com/news/money/2026/11/16/epf-investment-income-rises-30pc-to-rm8332b-in-first-nine-months-of-2026/243505"
-    },
-    {
-     "name": "The Vibes",
-     "url": "https://www.thevibes.com/articles/business/129643/epf-investment-assets-hit-rm1.55-trillion-as-nine-month-income-climbs-30"
-    },
-    {
-     "name": "Berita RTM",
-     "url": "https://berita.rtm.gov.my/?p=726663"
-    }
-   ],
-   "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
-   "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan.",
-   "score": 72,
-   "prev_score": 71,
-   "status": "naik"
-  },
-  {
-   "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "18 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada 2–3 klip berita BM tentang MediAsas (pelan asas bermula sekitar RM80 dan program rintis). Belum ada penerangan santai tentang deductible RM500, ko-insurans 20% dan siapa patut ambil."
-   },
-   "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
-   "icon": "shield",
-   "id": "mediasas-2027",
-   "ideas": [
-    "MediAsas: Insurans Perubatan Murah Untuk Semua?",
-    "Bayar Premium Guna KWSP? Ini Cara MediAsas",
-    "MediAsas vs Kad Medikal Biasa: Mana Lebih Baik?",
-    "Tiada Insurans? Tunggu MediAsas Januari 2027",
-    "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
-   ],
-   "prev_score": 69,
    "score": 68,
-   "seo": {
-    "hashtags": [
-     "#mediasas",
-     "#insuransperubatan",
-     "#takaful",
-     "#bajet2027",
-     "#kewanganperibadi"
-    ],
-    "keywords": [
-     "mediasas apa itu",
-     "insurans perubatan asas",
-     "mediasas premium",
-     "takaful perubatan murah",
-     "mediasas kwsp"
-    ],
-    "tags": [
-     "mediasas",
-     "insurans perubatan",
-     "takaful",
-     "bnm",
-     "kwsp akaun sejahtera",
-     "bajet 2027",
-     "kad medikal",
-     "insurans murah"
-    ],
-    "thumbs": [
-     "INSURANS MURAH?",
-     "BAYAR GUNA KWSP",
-     "MULA JAN 2027"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Malay Mail (13 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/13/mediasas-what-malaysians-need-to-know-about-the-new-basic-medical-insurance-plan/242126"
-    },
-    {
-     "name": "MOF: rintis MediAsas",
-     "url": "https://mof.gov.my/portal/ms/berita/akhbar/jbmkks-lancar-program-rintis-mediasas-akhir-julai-peringkat-nasional-pada-2027"
-    },
-    {
-     "name": "RinggitPlus (BM)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/apa-yang-dilindungi-mediasas-dan-siapa-yang-sesuai-memilihnya.html"
-    },
-    {
-     "name": "RinggitPlus BM (13 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mediasas-mungkin-kenakan-ko-insurans-20-di-hospital-yang-tidak-patuhi-syarat.html"
-    }
-   ],
-   "status": "naik",
-   "title": "MediAsas: insurans/takaful perubatan asas mampu milik",
-   "why": "MediAsas ialah pelan insurans dan takaful perubatan asas sukarela dengan had tahunan RM100,000 (Standard) atau RM300,000 (Standard-Plus) dan deductible RM500 (bawah 60 tahun), boleh dibeli hingga umur 70, dan dilancar seluruh negara hujung Januari 2027. Pada 11 Nov, Timbalan Menteri Kewangan Liew Chin Tong kata caj ko-insurans tambahan 20% di hospital luar rangkaian (had RM3,000 setiap penyakit) masih dikaji semasa rintis. Menteri Kesihatan sebut premium asas mungkin bermula sekitar RM65 sebulan, bergantung pada produk (RinggitPlus, 13 Nov).",
-   "shorts": [
-    {
-     "title": "MediAsas: Insurans Perubatan Murah?",
-     "hook": "Tak ada insurans perubatan? Tahun depan ada pilihan baru.",
-     "beat": "Had tahunan RM100,000 atau RM300,000, deductible RM500, dilancar hujung Jan 2027. Premium muktamad belum diumum."
-    },
-    {
-     "title": "Bayar Premium Guna KWSP?",
-     "hook": "Premium MediAsas boleh dibayar guna duit KWSP. Ni syaratnya.",
-     "beat": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera. Tekankan bukan produk pelaburan."
-    },
-    {
-     "title": "Deductible RM500 Tu Apa?",
-     "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
-     "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Apa itu MediAsas?",
-     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
-    },
-    {
-     "q": "Berapa had perlindungan?",
-     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
-    },
-    {
-     "q": "Berapa premium?",
-     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
-    },
-    {
-     "q": "Boleh bayar guna KWSP?",
-     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
-    },
-    {
-     "q": "Bila boleh beli?",
-     "a": "Dilancar seluruh negara hujung Januari 2027."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Had tahunan pelan MediAsas Standard?",
-     "o": [
-      "RM50,000",
-      "RM100,000",
-      "RM300,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Deductible MediAsas untuk bawah 60 tahun?",
-     "o": [
-      "RM100",
-      "RM500",
-      "RM1,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Bila MediAsas dilancar seluruh negara?",
-     "o": [
-      "Hujung Jan 2027",
-      "Jun 2027",
-      "Sudah dilancar"
-     ],
-     "a": 0
-    }
-   ]
+   "prev_score": 70,
+   "status": "naik"
   },
   {
-   "angle": "Tutorial skrin iPhone tambah kad PB ke Apple Pay dalam app MyPB dan Apple Wallet, cara bayar guna iPhone/Apple Watch, dan cara kumpul cashback RM30 tanpa belanja lebih dari biasa.",
+   "angle": "Video penerangan untuk freelancer dan pekerja gig: apa itu CP500, beza dengan cukai tertunggak sebenar, cara semak baki di MyTax dan status perjalanan di laman Imigresen sebelum bercuti hujung tahun.",
    "app": {
-    "name": "MyPB (Public Bank)"
+    "name": "MyTax (LHDN)",
+    "url": "https://mytax.hasil.gov.my"
    },
-   "cat": "tutorial",
+   "cat": "kewangan",
    "competition": {
-    "checked": "18 Nov 2026",
-    "level": "tinggi",
-    "note": "Cuma jumpa satu video berita Bahasa Inggeris tentang Apple Pay Public Bank; belum ada tutorial BM langkah demi langkah untuk kad PB."
+    "checked": "21 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa klip berita BM tentang sekatan perjalanan LHDN dan notis CP500, tetapi belum jumpa video yang kupas penjelasan terbaru bahawa CP500 tertunggak tidak mencetuskan sekatan."
    },
-   "deadline": "Cashback sehingga RM30: hingga 16 Dis 2026",
    "faq": [
     {
-     "a": "Ya, sejak 17 Nov 2026 kad debit dan kredit Visa serta Mastercard PB dan PIB boleh ditambah ke Apple Pay.",
-     "q": "Kad Public Bank dah boleh guna Apple Pay ke?"
+     "a": "Tidak, Timbalan Menteri Kewangan sahkan CP500 tertunggak tidak boleh menyebabkan sekatan perjalanan.",
+     "q": "Tak bayar CP500 boleh kena sekat keluar negara ke?"
     },
     {
-     "a": "Tekan ikon Apple Pay dalam app MyPB, atau tekan + dalam Apple Wallet dan imbas kad.",
-     "q": "Macam mana nak tambah kad?"
+     "a": "Untuk pembayar cukai tanpa potongan PCB bulanan seperti freelancer, pekerja gig dan tuan rumah.",
+     "q": "CP500 ni untuk siapa?"
     },
     {
-     "a": "Ada empat: PB-AIA Visa Gold Credit, PB Visa Commercial, PB Visa Business dan PB UnionPay Lifestyle Debit.",
-     "q": "Ada kad yang tak boleh?"
+     "a": "Enam ansuran setiap dua bulan: Mac, Mei, Julai, September, November dan Januari tahun berikutnya.",
+     "q": "Bila kena bayar CP500?"
     },
     {
-     "a": "RM10 untuk setiap tiga transaksi minimum RM50, had RM30 seorang, hingga 16 Disember 2026.",
-     "q": "Cashback berapa dan sampai bila?"
+     "a": "Boleh, mohon semakan ansuran guna borang CP502 sebelum tarikh akhir yang ditetapkan.",
+     "q": "Pendapatan aku turun, boleh kurangkan CP500?"
     },
     {
-     "a": "iPhone atau Apple Watch, disahkan dengan Face ID, Touch ID atau kod laluan peranti.",
-     "q": "Bayar guna apa?"
+     "a": "Semak baki cukai di MyTax dan status perjalanan di laman Imigresen sspi.imi.gov.my.",
+     "q": "Macam mana nak semak kalau aku kena sekat?"
     }
    ],
-   "icon": "card",
-   "id": "apple-pay-public-bank",
+   "icon": "tax",
+   "id": "cp500-tiada-sekatan-perjalanan",
    "ideas": [
-    "Cara Tambah Kad Public Bank ke Apple Pay",
-    "Cashback RM30 Apple Pay PB: Cara Layak",
-    "Apple Pay vs Tap Kad: Mana Lebih Selamat?",
-    "Kad PB Tak Boleh Masuk Apple Pay? Ini Sebabnya",
-    "Cara Bayar Guna Apple Watch di Malaysia"
+    "Tak Bayar CP500, Boleh Kena Sekat Ke Luar Negara?",
+    "Apa Itu CP500? Penerangan Untuk Freelancer",
+    "Cara Semak Sekatan Perjalanan Sebelum Bercuti",
+    "Cara Ubah Ansuran CP500 Guna Borang CP502",
+    "5 Sebab Orang Kena Sekat Keluar Negara"
    ],
    "quiz": [
     {
-     "a": 2,
+     "a": 1,
      "o": [
-      "RM10",
-      "RM50",
-      "RM30"
+      "4",
+      "6",
+      "12"
      ],
-     "q": "Had cashback Apple Pay Public Bank seorang?"
+     "q": "CP500 berapa kali ansuran setahun?"
     },
     {
      "a": 0,
      "o": [
-      "16 Dis 2026",
-      "31 Dis 2026",
-      "17 Nov 2026"
+      "CP502",
+      "BE",
+      "EA"
      ],
-     "q": "Kempen cashback Apple Pay PB tamat bila?"
+     "q": "Borang untuk ubah ansuran CP500 ialah…"
     },
     {
      "a": 1,
      "o": [
-      "RM10",
-      "RM50",
-      "RM100"
+      "Lewat bayar CP500 sekali",
+      "Cukai tertunggak selepas taksiran muktamad",
+      "Tak isi borang SSPN"
      ],
-     "q": "Minimum setiap transaksi untuk layak cashback?"
+     "q": "Sekatan perjalanan cukai biasanya berlaku bila…"
     }
    ],
    "seo": {
     "hashtags": [
-     "#ApplePay",
-     "#PublicBank",
-     "#TipsIphone",
-     "#Cashback",
-     "#ImranWafi"
+     "#cp500",
+     "#lhdn",
+     "#cukai",
+     "#freelancermalaysia",
+     "#tipskewangan"
     ],
     "keywords": [
-     "apple pay public bank",
-     "cara tambah kad public bank apple pay",
-     "mypb apple pay",
-     "apple pay cashback public bank",
-     "apple pay malaysia bank"
+     "cp500 sekatan perjalanan",
+     "apa itu cp500",
+     "semak sekatan ke luar negara",
+     "cara bayar cp500",
+     "cp502 ubah ansuran"
     ],
     "tags": [
-     "apple pay",
-     "public bank",
-     "mypb",
-     "apple wallet",
-     "iphone",
-     "cashback",
-     "kad debit",
-     "tutorial iphone"
+     "cp500",
+     "lhdn",
+     "cukai pendapatan",
+     "sekatan perjalanan",
+     "freelancer",
+     "mytax",
+     "imigresen",
+     "tips cukai"
     ],
     "thumbs": [
-     "PB DAH ADA APPLE PAY",
-     "CASHBACK RM30",
-     "CARA SETUP"
+     "CP500 = KENA SEKAT?",
+     "JANGAN TAKUT!",
+     "SEMAK SEBELUM TERBANG"
     ]
    },
    "shorts": [
     {
-     "beat": "Rakam skrin app MyPB: tekan ikon Apple Pay di laman utama, ikut arahan dan terima terma. Tunjuk juga cara alternatif melalui butang + dalam Apple Wallet.",
-     "hook": "Pengguna Public Bank, korang dah boleh tap iPhone untuk bayar.",
-     "title": "Kad PB Masuk Apple Pay Dalam 30 Saat"
+     "beat": "Mitos vs fakta: Liew Chin Tong sahkan CP500 tertunggak tak cetuskan sekatan; sekatan hanya selepas taksiran muktamad dan cukai tertunggak.",
+     "hook": "Ramai freelancer takut tak boleh keluar negara sebab CP500.",
+     "title": "CP500 Tak Bayar = Kena Sekat? MITOS"
     },
     {
-     "beat": "Kira angka: RM10 untuk setiap tiga transaksi sekurang-kurangnya RM50 dengan kad PB yang baru ditambah, had RM30 seorang, hingga 16 Dis 2026.",
-     "hook": "Tiga kali bayar, dapat RM10. Ni syaratnya.",
-     "title": "Cara Dapat Cashback RM30 Apple Pay"
+     "beat": "Rakam skrin: semak baki cukai di MyTax dan status perjalanan di sspi.imi.gov.my.",
+     "hook": "Sebelum beli tiket cuti, semak benda ni dulu.",
+     "title": "Semak Status Sekatan Dalam 30 Saat"
     },
     {
-     "beat": "Senarai empat kad yang dikecualikan: PB-AIA Visa Gold Credit, PB Visa Commercial, PB Visa Business dan PB UnionPay Lifestyle Debit.",
-     "hook": "Cuba tambah kad tapi gagal? Mungkin kad korang dalam senarai ni.",
-     "title": "Kad PB Ni TAK Boleh Apple Pay"
+     "beat": "Terangkan CP500 = bayaran awal cukai anggaran, 6 ansuran setiap 2 bulan, boleh ubah guna CP502 sebelum tarikh akhir.",
+     "hook": "Kerja sendiri? Surat CP500 ni untuk korang.",
+     "title": "Apa Itu CP500? Versi 30 Saat"
     }
    ],
    "sources": [
     {
-     "name": "Lowyat.NET (17 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409912/apple-pay-public-bank-pb-and-pib-cards/"
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/a-missed-cp500-payment-wont-get-you-barred-from-travelling.html"
     }
    ],
-   "title": "Kad Public Bank kini boleh guna Apple Pay + cashback RM30",
-   "why": "Sejak 17 Nov 2026, kad debit dan kredit Visa serta Mastercard Public Bank (PB) dan Public Islamic Bank (PIB) boleh ditambah ke Apple Pay melalui app MyPB atau Apple Wallet, kecuali empat kad seperti PB-AIA Visa Gold dan PB UnionPay Lifestyle Debit (Lowyat.NET). Ada cashback RM10 untuk setiap tiga transaksi sekurang-kurangnya RM50 dengan kad PB yang baru ditambah, had RM30 seorang, hingga 16 Disember 2026.",
-   "score": 67,
-   "prev_score": 68,
-   "status": "stabil"
+   "title": "Tak bayar CP500 tak akan kena sekat ke luar negara: ini faktanya",
+   "why": "Timbalan Menteri Kewangan Liew Chin Tong sahkan ansuran CP500 yang belum dibayar tidak boleh menyebabkan sekatan perjalanan ke luar negara (The Star 11 Nov, RinggitPlus 17 Nov 2026). CP500 ialah bayaran awal cukai anggaran untuk mereka tanpa potongan PCB seperti freelancer, pekerja gig dan tuan rumah, dibayar enam ansuran setiap dua bulan; sekatan hanya boleh berlaku selepas taksiran dimuktamadkan dan cukai masih tertunggak, biasanya selepas enam bulan tanpa respons kepada LHDN.",
+   "score": 66,
+   "prev_score": null,
+   "status": "naik"
   }
  ],
  "upcoming": [
@@ -2228,6 +2271,14 @@
    "note": "Harga 19–25 Nov: RON97 RM4.00, RON95 tanpa subsidi RM3.72, diesel tanpa subsidi RM4.72, BUDI95 RM1.99. MOF biasanya umum harga baharu hari Rabu.",
    "topic": "harga-minyak-turun-nov",
    "when": "2026-11-25"
+  },
+  {
+   "date": "29 Nov 2026",
+   "label": "Ujian amaran kecemasan EWS seluruh negara (10–10.30 pagi)",
+   "lead": 5,
+   "note": "Simulasi berhampiran Parlimen 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar awal minggu.",
+   "topic": "ujian-amaran-kecemasan-ews",
+   "when": "2026-11-29"
   },
   {
    "approx": true,
@@ -2260,14 +2311,6 @@
    "note": "Susun semula tunggakan dari 20% atau RM1,000; kaunter terpilih buka 5 & 12 Dis.",
    "topic": "ptptn-bulan-mesra-peminjam",
    "when": "2026-12-15"
-  },
-  {
-   "date": "16 Dis 2026",
-   "label": "Kempen cashback Apple Pay Public Bank tamat",
-   "lead": 7,
-   "note": "RM10 setiap 3 transaksi min. RM50, had RM30.",
-   "topic": "apple-pay-public-bank",
-   "when": "2026-12-16"
   },
   {
    "date": "31 Dis 2026",
@@ -2516,11 +2559,15 @@
    "ideas": [
     "ShopeePay Money+ 5% Setahun: Berbaloi Simpan?",
     "Cara Susun Baucar ShopeePay Untuk 12.12",
-    "Bayar QR ShopeePay Guna Samsung Wallet: Apa Kita Tahu"
+    "Cara Mohon SPayLater Motorcycle Dalam ShopeePay"
    ],
    "name": "ShopeePay",
    "seg": "ewallet",
    "sources": [
+    {
+     "name": "Lowyat.NET (19 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410003/shopeepay-spaylater-motorcycle-malaysia/"
+    },
     {
      "name": "Lowyat.NET (16 Nov 2026)",
      "url": "https://www.lowyat.net/2026/409812/samsung-wallet-shopeepay-qr-payments/"
@@ -2543,7 +2590,7 @@
     }
    ],
    "what": "E-wallet dalam app Shopee, sesuai untuk susun baucar dan Shopee Coins.",
-   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000 dengan kadar promosi pulangan harian sehingga 5% setahun (kadar promosi, boleh berubah). Ia juga pilihan utama untuk susun baucar menjelang jualan 12.12. Pada 16 Nov 2026, Samsung umum bayaran QR melalui Samsung Wallet guna akaun ShopeePay akan tiba di Malaysia 'dalam beberapa bulan akan datang' (tarikh belum diumumkan), dengan Shopee Coins untuk pembelian layak (Lowyat.NET)."
+   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000 dengan kadar promosi pulangan harian sehingga 5% setahun (kadar promosi, boleh berubah). Ia juga pilihan utama untuk susun baucar menjelang jualan 12.12. Pada 16 Nov 2026, Samsung umum bayaran QR melalui Samsung Wallet guna akaun ShopeePay akan tiba di Malaysia 'dalam beberapa bulan akan datang' (tarikh belum diumumkan), dengan Shopee Coins untuk pembelian layak (Lowyat.NET). Pada 19 Nov 2026, pembiayaan motosikal SPayLater Motorcycle (patuh Syariah, diperakui Amanie Advisors) diperluas ke seluruh negara, dengan had sehingga RM20,000 dan tempoh sehingga 60 bulan (Lowyat.NET)."
   },
   {
    "id": "boost",
@@ -2580,6 +2627,10 @@
     {
      "name": "The Star (18 Nov 2026)",
      "url": "https://www.thestar.com.my/business/business-news/2026/11/18/merchantrade-raises-e-wallet-limit-to-rm30000-ahead-of-year-end-travel-season"
+    },
+    {
+     "name": "RinggitPlus (20 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/merchantrade-money-raises-wallet-limit-from-rm20000-to-rm30000.html"
     }
    ],
    "url": "https://www.merchantrade.com",
