@@ -1,171 +1,7 @@
 {
  "date": "2026-11-22",
- "updated_label": "22 Nov 2026, 7 pagi",
+ "updated_label": "22 Nov 2026, 7 petang",
  "items": [
-  {
-   "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
-   "app": {
-    "name": "Portal MySTR (HASiL)",
-    "url": "https://bantuantunai.hasil.gov.my"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "21 Nov 2026",
-    "level": "sesak",
-    "note": "Sekurang-kurangnya 5 video BM baharu tentang cara kemas kini STR 2027 dan maksud status permohonan. Sudut yang masih kosong: apa jadi kalau terlepas tempoh Fasa 1 dan cara semak status selepas tarikh tutup."
-   },
-   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
-   "icon": "aid",
-   "id": "str-2027-kemas-kini",
-   "ideas": [
-    "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
-    "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
-    "Status STR Tak Lulus? Ini Cara Buat Rayuan",
-    "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
-    "Cara Semak Status STR 2027 Dalam 2 Minit"
-   ],
-   "prev_score": 93,
-   "score": 94,
-   "script": {
-    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
-    "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
-    "points": [
-     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
-     "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
-     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
-     "Info semasa: STR 2026 Fasa 4 (RM1.1 bilion, kira-kira 5.4 juta penerima) dibayar mulai 4 Nov, dan penerima baharu atau rayuan lulus dapat bayaran mulai 16 Nov 2026.",
-     "Tunjuk langkah di bantuantunai.hasil.gov.my, dan ingat: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
-    ]
-   },
-   "seo": {
-    "hashtags": [
-     "#str2027",
-     "#bantuankerajaan",
-     "#sumbangantunairahmah",
-     "#mystr",
-     "#bantuantunai"
-    ],
-    "keywords": [
-     "cara kemaskini str 2027",
-     "str 2027 fasa 1",
-     "mystr login",
-     "semak status str 2027",
-     "rayuan str 2027"
-    ],
-    "tags": [
-     "str 2027",
-     "sumbangan tunai rahmah",
-     "mystr",
-     "kemaskini str",
-     "bantuan kerajaan",
-     "str fasa 1",
-     "hasil",
-     "bantuan tunai"
-    ],
-    "thumbs": [
-     "STR TAK LULUS?",
-     "WAJIB KEMAS KINI",
-     "SEBELUM TUTUP!"
-    ]
-   },
-   "sources": [
-    {
-     "name": "MOF: Siaran media STR Fasa 4 (4 Nov 2026)",
-     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/penyaluran-sumbangan-tunai-rahmah-fasa-4-kepada-5-4-juta-penerima-mulai-4-november-2026"
-    },
-    {
-     "name": "RTM: penerima baharu & rayuan lulus mulai 16 Nov",
-     "url": "https://berita.rtm.gov.my/?p=720978"
-    },
-    {
-     "name": "RinggitPlus (BM)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
-    },
-    {
-     "name": "RinggitPlus (EN)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
-    },
-    {
-     "name": "Malay Mail (4 Nov 2026)",
-     "url": "https://malaymail.com/news/malaysia/2026/11/04/over-five-million-malaysians-to-receive-rm11b-str-aid-from-today-says-anwar/242001"
-    },
-    {
-     "name": "Citizens Journal (11 Nov 2026)",
-     "url": "https://cj.my/161047/str-phase-four-pays-new-recipients-from-16-nov"
-    }
-   ],
-   "status": "panas",
-   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
-   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150), dan yang tiada akaun bank boleh tunai di BSN. Sejak Isnin, 16 November, bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
-   "shorts": [
-    {
-     "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN.",
-     "hook": "Sejak 16 November, duit STR dah mula masuk untuk satu kumpulan ni. Korang termasuk tak?",
-     "title": "STR Dah Masuk? Ni Siapa Yang Layak"
-    },
-    {
-     "title": "Kemas Kini STR 2027 Dalam 60 Saat",
-     "hook": "Jangan tunggu Fasa 1 tutup. Ni cara kemas kini STR guna phone.",
-     "beat": "Rakam skrin MySTR: log masuk, semak maklumat isi rumah, hantar. Ingatkan tempoh Fasa 1 dijangka hingga November."
-    },
-    {
-     "title": "Link STR Dalam WhatsApp? JANGAN Klik",
-     "hook": "Dapat link 'semak STR' dalam WhatsApp? Itu bukan cara rasmi.",
-     "beat": "Tunjuk alamat portal rasmi bantuantunai.hasil.gov.my dan beza dengan link pelik. Ajak share kepada family."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Bila bayaran STR untuk penerima baharu masuk?",
-     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November 2026."
-    },
-    {
-     "q": "Siapa wajib kemas kini STR 2027?",
-     "a": "Yang tak pernah kemas kini sepanjang STR 2024 hingga 2026, atau yang maklumat isi rumahnya berubah."
-    },
-    {
-     "q": "Sampai bila boleh kemas kini untuk Fasa 1?",
-     "a": "Tempoh kemas kini Fasa 1 dijangka hingga November 2026, tertakluk pindaan LHDN."
-    },
-    {
-     "q": "Tak ada akaun bank, macam mana nak dapat duit STR?",
-     "a": "Penerima tanpa akaun bank boleh tunaikan bayaran di BSN."
-    },
-    {
-     "q": "Kat mana nak kemas kini atau semak status?",
-     "a": "Di portal rasmi MySTR, bantuantunai.hasil.gov.my. Jangan guna link dari WhatsApp atau SMS."
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Bila bayaran STR untuk penerima baharu & rayuan lulus bermula?",
-     "o": [
-      "4 November",
-      "16 November",
-      "30 November"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Portal rasmi untuk kemas kini STR ialah…",
-     "o": [
-      "MySTR (HASiL)",
-      "MyEG",
-      "Link dalam WhatsApp"
-     ],
-     "a": 0
-    },
-    {
-     "q": "Penerima tanpa akaun bank boleh tunaikan STR di…",
-     "o": [
-      "Pejabat pos",
-      "BSN",
-      "Mana-mana ATM"
-     ],
-     "a": 1
-    }
-   ]
-  },
   {
    "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan di iPhone, Android dan Huawei, plus terangkan beza pop-up EWS dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
    "app": {
@@ -321,13 +157,181 @@
     {
      "name": "SCMP",
      "url": "https://www.scmp.com/week-asia/health-environment/article/3374998/malaysians-question-slow-response-over-false-mobile-flood-warning-trial"
+    },
+    {
+     "name": "SoyaCincau (19 Nov 2026)",
+     "url": "https://soyacincau.com/?p=454551"
     }
    ],
    "title": "Ujian amaran kecemasan di telefon 29 Nov: update phone korang dulu",
-   "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
-   "score": 92,
-   "prev_score": 90,
+   "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. SoyaCincau (19 Nov) lapor ujian dibuat dalam tiga fasa (ujian teknikal 19 Nov, simulasi Parlimen 23 Nov, ujian awam 29 Nov) dan sistem mungkin beroperasi penuh menjelang hujung 2026 jika ujian berjalan lancar; untuk iPhone, syarat awal ialah iPhone 11 ke atas. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
+   "score": 95,
+   "prev_score": 92,
    "status": "panas"
+  },
+  {
+   "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
+   "app": {
+    "name": "Portal MySTR (HASiL)",
+    "url": "https://bantuantunai.hasil.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "21 Nov 2026",
+    "level": "sesak",
+    "note": "Sekurang-kurangnya 5 video BM baharu tentang cara kemas kini STR 2027 dan maksud status permohonan. Sudut yang masih kosong: apa jadi kalau terlepas tempoh Fasa 1 dan cara semak status selepas tarikh tutup."
+   },
+   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
+   "icon": "aid",
+   "id": "str-2027-kemas-kini",
+   "ideas": [
+    "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
+    "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
+    "Status STR Tak Lulus? Ini Cara Buat Rayuan",
+    "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
+    "Cara Semak Status STR 2027 Dalam 2 Minit"
+   ],
+   "prev_score": 94,
+   "score": 94,
+   "script": {
+    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
+    "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
+    "points": [
+     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
+     "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
+     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
+     "Info semasa: STR 2026 Fasa 4 (RM1.1 bilion, kira-kira 5.4 juta penerima) dibayar mulai 4 Nov, dan penerima baharu atau rayuan lulus dapat bayaran mulai 16 Nov 2026.",
+     "Tunjuk langkah di bantuantunai.hasil.gov.my, dan ingat: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#str2027",
+     "#bantuankerajaan",
+     "#sumbangantunairahmah",
+     "#mystr",
+     "#bantuantunai"
+    ],
+    "keywords": [
+     "cara kemaskini str 2027",
+     "str 2027 fasa 1",
+     "mystr login",
+     "semak status str 2027",
+     "rayuan str 2027"
+    ],
+    "tags": [
+     "str 2027",
+     "sumbangan tunai rahmah",
+     "mystr",
+     "kemaskini str",
+     "bantuan kerajaan",
+     "str fasa 1",
+     "hasil",
+     "bantuan tunai"
+    ],
+    "thumbs": [
+     "STR TAK LULUS?",
+     "WAJIB KEMAS KINI",
+     "SEBELUM TUTUP!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "MOF: Siaran media STR Fasa 4 (4 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/penyaluran-sumbangan-tunai-rahmah-fasa-4-kepada-5-4-juta-penerima-mulai-4-november-2026"
+    },
+    {
+     "name": "RTM: penerima baharu & rayuan lulus mulai 16 Nov",
+     "url": "https://berita.rtm.gov.my/?p=720978"
+    },
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    },
+    {
+     "name": "RinggitPlus (EN)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
+    },
+    {
+     "name": "Malay Mail (4 Nov 2026)",
+     "url": "https://malaymail.com/news/malaysia/2026/11/04/over-five-million-malaysians-to-receive-rm11b-str-aid-from-today-says-anwar/242001"
+    },
+    {
+     "name": "Citizens Journal (11 Nov 2026)",
+     "url": "https://cj.my/161047/str-phase-four-pays-new-recipients-from-16-nov"
+    }
+   ],
+   "status": "panas",
+   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
+   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150), dan yang tiada akaun bank boleh tunai di BSN. Sejak Isnin, 16 November, bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
+   "shorts": [
+    {
+     "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN.",
+     "hook": "Sejak 16 November, duit STR dah mula masuk untuk satu kumpulan ni. Korang termasuk tak?",
+     "title": "STR Dah Masuk? Ni Siapa Yang Layak"
+    },
+    {
+     "title": "Kemas Kini STR 2027 Dalam 60 Saat",
+     "hook": "Jangan tunggu Fasa 1 tutup. Ni cara kemas kini STR guna phone.",
+     "beat": "Rakam skrin MySTR: log masuk, semak maklumat isi rumah, hantar. Ingatkan tempoh Fasa 1 dijangka hingga November."
+    },
+    {
+     "title": "Link STR Dalam WhatsApp? JANGAN Klik",
+     "hook": "Dapat link 'semak STR' dalam WhatsApp? Itu bukan cara rasmi.",
+     "beat": "Tunjuk alamat portal rasmi bantuantunai.hasil.gov.my dan beza dengan link pelik. Ajak share kepada family."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu masuk?",
+     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November 2026."
+    },
+    {
+     "q": "Siapa wajib kemas kini STR 2027?",
+     "a": "Yang tak pernah kemas kini sepanjang STR 2024 hingga 2026, atau yang maklumat isi rumahnya berubah."
+    },
+    {
+     "q": "Sampai bila boleh kemas kini untuk Fasa 1?",
+     "a": "Tempoh kemas kini Fasa 1 dijangka hingga November 2026, tertakluk pindaan LHDN."
+    },
+    {
+     "q": "Tak ada akaun bank, macam mana nak dapat duit STR?",
+     "a": "Penerima tanpa akaun bank boleh tunaikan bayaran di BSN."
+    },
+    {
+     "q": "Kat mana nak kemas kini atau semak status?",
+     "a": "Di portal rasmi MySTR, bantuantunai.hasil.gov.my. Jangan guna link dari WhatsApp atau SMS."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu & rayuan lulus bermula?",
+     "o": [
+      "4 November",
+      "16 November",
+      "30 November"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal rasmi untuk kemas kini STR ialah…",
+     "o": [
+      "MySTR (HASiL)",
+      "MyEG",
+      "Link dalam WhatsApp"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Penerima tanpa akaun bank boleh tunaikan STR di…",
+     "o": [
+      "Pejabat pos",
+      "BSN",
+      "Mana-mana ATM"
+     ],
+     "a": 1
+    }
+   ]
   },
   {
    "angle": "Tutorial langkah demi langkah aktifkan dan beli pas dalam app KTM Mobile, dengan kiraan jimat ikut laluan sebenar. Tunjuk juga pilihan kiosk stesen untuk yang nak lulus serta-merta.",
@@ -374,7 +378,7 @@
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
    "prev_score": 91,
-   "score": 91,
+   "score": 90,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -801,8 +805,8 @@
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
    "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
-   "score": 79,
-   "prev_score": 80,
+   "score": 78,
+   "prev_score": 79,
    "status": "naik"
   },
   {
@@ -845,7 +849,7 @@
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
    "prev_score": 75,
-   "score": 75,
+   "score": 76,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -967,11 +971,15 @@
     {
      "name": "NST (18 Nov 2026)",
      "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580181/2553-flood-victims-sheltering-26-relief-centres-five-states"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636714"
     }
    ],
    "status": "naik",
    "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
-   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan bernilai hampir RM1 juta. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov). Menteri Nancy Shukri beritahu Dewan Rakyat (17 Nov) 8,180 PPS sedia dibuka dengan kapasiti 1.86 juta mangsa, dan mangsa yang tumpang di hotel atau rumah saudara tetap boleh mohon BWI jika berdaftar secara rasmi. Pada 19 Nov, TPM Ahmad Zahid Hamidi beritahu Dewan Rakyat lebih 100,000 anggota, hampir 2,500 bot dan 28 pesawat disiagakan, dengan 3,045 kawasan panas banjir dikenal pasti; mangsa di luar PPS tetap boleh dapat BWI jika mendaftar di pusat pendaftaran mangsa banjir, manakala cadangan bantuan untuk peniaga kecil masih dirujuk (Bernama).",
+   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov). Menteri Nancy Shukri beritahu Dewan Rakyat (17 Nov) 8,180 PPS sedia dibuka dengan kapasiti 1.86 juta mangsa, dan mangsa yang tumpang di hotel atau rumah saudara tetap boleh mohon BWI jika berdaftar secara rasmi. Pada 19 Nov, TPM Ahmad Zahid Hamidi beritahu Dewan Rakyat lebih 100,000 anggota, hampir 2,500 bot dan 28 pesawat disiagakan, dengan 3,045 kawasan panas banjir dikenal pasti; mangsa di luar PPS tetap boleh dapat BWI jika mendaftar di pusat pendaftaran mangsa banjir, manakala cadangan bantuan untuk peniaga kecil masih dirujuk (Bernama). Setakat petang 19 Nov, mangsa di PPS Selangor naik ke 1,665 orang (444 keluarga) di 11 PPS, dan Pahang buka PPS baharu di Bentong untuk 163 mangsa (Bernama).",
    "deadline": "Moratorium Alliance Bank: mohon hingga 31 Mac 2027",
    "script": {
     "cta": "Share video ni kepada keluarga di kawasan banjir, dan subscribe untuk kemas kini bantuan terkini.",
@@ -1003,8 +1011,8 @@
     "Cara Isi Minyak Harga BUDI95 Guna MyKad",
     "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
    ],
-   "prev_score": 74,
-   "score": 75,
+   "prev_score": 75,
+   "score": 76,
    "seo": {
     "hashtags": [
      "#hargaminyak",
@@ -1258,8 +1266,8 @@
    ],
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
-   "score": 73,
-   "prev_score": 74,
+   "score": 72,
+   "prev_score": 73,
    "status": "naik"
   },
   {
@@ -1390,8 +1398,8 @@
    ],
    "title": "RM90 bilion harta pusaka orang Islam belum dituntut: cara semak & tuntut",
    "why": "CEO CIMB Islamic Ahmad Shahriman Mohd Sharif (17 Nov 2026) menganggarkan harta pusaka orang Islam yang belum dituntut kira-kira RM90 bilion, naik 135% sejak 2009, walaupun RinggitPlus (19 Nov) nota tiada data rasmi kerajaan yang menyokong angka itu. Lebih 46,000 kes pusaka kecil masih belum selesai setakat 31 Dis 2025, dan JANM rekod lebih RM14 bilion wang tidak dituntut setakat 30 Sept 2026. Had pusaka kecil kini RM5 juta (dulu RM2 juta) dan permohonan boleh dibuat online melalui portal MyLAND.",
-   "score": 72,
-   "prev_score": null,
+   "score": 70,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1538,8 +1546,8 @@
    ],
    "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
    "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan. The Star (18 Nov) lapor pendapatan suku ketiga RM25.8 bilion itu turun kira-kira 13% berbanding suku sebelumnya, dan bertanya sama ada dividen 2026 mampu menyamai 6.15% bagi 2025.",
-   "score": 71,
-   "prev_score": 73,
+   "score": 70,
+   "prev_score": 71,
    "status": "naik"
   },
   {
@@ -1562,8 +1570,8 @@
     "5 Tanda Telefon Korang Dah Kena Malware",
     "Google Sekat APK Tak Sah 2027: Apa Berubah?"
    ],
-   "prev_score": 71,
-   "score": 70,
+   "prev_score": 70,
+   "score": 69,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -1814,8 +1822,8 @@
    ],
    "title": "Inflasi Oktober 1.9%: belanja RM3,000 sebulan, bayar kira-kira RM57 lebih",
    "why": "DOSM lapor (19 Nov 2026) inflasi Oktober naik ke 1.9% daripada 1.8% pada September, didorong pengangkutan (4.2%) serta elektrik, gas dan bahan api (4.7%, berbanding 0.1% pada September) selepas pelarasan AFA bagi pengguna domestik Semenanjung yang guna lebih 800 kWh. Kiraan RinggitPlus (20 Nov): isi rumah yang belanja RM3,000 sebulan kini bayar kira-kira RM57 lebih berbanding setahun lalu, dan di Negeri Sembilan (inflasi tertinggi 2.6%) kira-kira RM78. Pengecualian AFA, caj runcit dan SST elektrik pada had 800 kWh sebulan hanya untuk 1 Sept–31 Dis 2026.",
-   "score": 70,
-   "prev_score": null,
+   "score": 68,
+   "prev_score": 70,
    "status": "naik"
   },
   {
@@ -1836,8 +1844,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 69,
-   "score": 67,
+   "prev_score": 67,
+   "score": 66,
    "seo": {
     "hashtags": [
      "#mediasas",
@@ -1962,6 +1970,138 @@
      "a": 0
     }
    ]
+  },
+  {
+   "angle": "Bandingkan dengan jujur simpan duit di TH vs akaun simpanan bank ikut tujuan (simpanan haji, simpanan kecemasan), dan tunjuk ke mana duit TH dilabur. Ingatkan agihan tahun lepas bukan jaminan untuk tahun depan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM tentang TH yang dijumpai kebanyakannya klip pengumuman agihan lama dan satu video kronologi isu TH. Belum jumpa video yang terangkan jawapan Parlimen 18 Nov atau bandingkan TH dengan akaun simpanan bank."
+   },
+   "faq": [
+    {
+     "a": "3.5% selepas zakat, tertinggi dalam lapan tahun.",
+     "q": "Berapa agihan Tabung Haji untuk 2025?"
+    },
+    {
+     "a": "Belum diumumkan secara rasmi; agihan 2025 diumumkan pada bulan Mac.",
+     "q": "Bila TH umum agihan untuk 2026?"
+    },
+    {
+     "a": "Untuk 2025, agihan TH 3.5% berbanding bawah 1% bagi akaun semasa/simpanan bank, tetapi kadar akan datang tidak dijamin.",
+     "q": "Betul ke simpan dalam TH lebih untung dari bank?"
+    },
+    {
+     "a": "Kira-kira 90% dalam negara dan 10% luar negara, kebanyakannya pendapatan tetap (54%) dan ekuiti (29%).",
+     "q": "Duit TH dilabur kat mana?"
+    },
+    {
+     "a": "Ahli Parlimen cadang TH ada panel strategi pelaburan seperti KWSP; TH kata akan kaji, dan butirannya belum diumumkan.",
+     "q": "Apa cerita panel pelaburan khas TH ni?"
+    }
+   ],
+   "icon": "chart",
+   "id": "tabung-haji-agihan-3-5",
+   "ideas": [
+    "TH 3.5% vs Bank Bawah 1%: Simpan Duit Di Mana?",
+    "Kenapa TH Tak Patut Dibanding Dengan KWSP?",
+    "Duit TH Dilabur Ke Mana? 90% Dalam Negara",
+    "Cara Semak Baki & Agihan TH Dalam THiJARI",
+    "Simpan RM10k Dalam TH: Agihan 2025 Bagi Berapa?"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "3.25%",
+      "3.5%",
+      "5.0%"
+     ],
+     "q": "Berapa agihan Tabung Haji bagi tahun 2025?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Akaun simpanan bank (CASA)",
+      "KWSP",
+      "Dana PNB"
+     ],
+     "q": "Menurut Timbalan Menteri, TH patut dibanding dengan apa?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "50%",
+      "70%",
+      "90%"
+     ],
+     "q": "Berapa peratus aset pelaburan TH berada dalam negara?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#TabungHaji",
+     "#AgihanTH",
+     "#KewanganIslam",
+     "#TipsSimpan",
+     "#DuitMalaysia"
+    ],
+    "keywords": [
+     "agihan tabung haji 2025",
+     "tabung haji vs akaun simpanan",
+     "tabung haji vs asb",
+     "pelaburan tabung haji",
+     "semak baki thijari"
+    ],
+    "tags": [
+     "tabung haji",
+     "agihan th",
+     "th 3.5 peratus",
+     "simpanan patuh syariah",
+     "thijari",
+     "kewangan islam",
+     "simpanan haji",
+     "tips simpan duit"
+    ],
+    "thumbs": [
+     "TH 3.5% VS BANK",
+     "SIMPAN DI MANA?",
+     "DUIT TH KE MANA?"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Kira 3.5% = RM350 setahun berbanding bawah 1% (kurang RM100) di akaun simpanan biasa; ingatkan kadar berubah setiap tahun dan tidak dijamin.",
+     "hook": "Kalau korang simpan RM10,000 dalam TH, agihan 2025 bagi berapa?",
+     "title": "RM10k dalam TH: dapat berapa?"
+    },
+    {
+     "beat": "Terangkan kata Timbalan Menteri pada 18 Nov: TH patut dibanding dengan akaun simpanan bank (CASA) sebab mandat berbeza; tunjuk angka 3.5% vs bawah 1%.",
+     "hook": "Ramai kata TH kalah dengan KWSP. Tapi perbandingan tu betul ke?",
+     "title": "Mitos: TH kena lawan KWSP"
+    },
+    {
+     "beat": "Tunjuk pecahan 54% pendapatan tetap, 29% ekuiti, 12% hartanah dan baki pasaran wang, dengan kira-kira 90% dalam negara.",
+     "hook": "Duit simpanan haji korang sebenarnya dilabur ke mana?",
+     "title": "Duit TH dilabur ke mana?"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580367/tabung-haji-keeps-90pct-investments-domestic-market-says-marhamah"
+    },
+    {
+     "name": "Bernama (18 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2636088"
+    }
+   ],
+   "title": "Tabung Haji 3.5% vs akaun simpanan bank: isu TH dibawa ke Parlimen",
+   "why": "Pada 18 Nov 2026, Timbalan Menteri JPM (Hal Ehwal Agama) Marhamah Rosli beritahu Dewan Rakyat agihan TH 2025 ialah 3.5% selepas zakat (tertinggi dalam lapan tahun) dan TH patut dibanding dengan akaun semasa/simpanan bank (CASA) yang beri bawah 1%, bukan dengan KWSP atau PNB kerana mandat berbeza. TH akan kaji cadangan wujudkan panel strategi pelaburan khas; kira-kira 90% aset dilabur dalam negara, dengan 54% pendapatan tetap, 29% ekuiti dan 12% hartanah. Dana kelolaan TH naik dari RM75.8 bilion (2018) ke RM96.4 bilion (2025) (NST, Bernama).",
+   "score": 64,
+   "prev_score": null,
+   "status": "naik"
   },
   {
    "angle": "Terangkan kenapa emas turun (dolar AS kuat, jangkaan kadar faedah Fed) dan cara semak harga emas per gram serta caj upah sebelum beli. Ingatkan harga emas boleh terus turun atau naik, jangan guna duit kecemasan atau berhutang untuk beli, dan ini bukan nasihat pelaburan.",
@@ -2111,149 +2251,9 @@
    ],
    "title": "Harga emas jatuh bawah US$3,750: peluang atau perangkap?",
    "why": "Kontrak niaga hadapan emas bulan semasa di Bursa Malaysia Derivatives terus jatuh, daripada US$3,868.60 seauns pada 17 Nov ke US$3,782.90 pada 18 Nov dan US$3,731.30 pada 19 Nov 2026, selepas harga fix LBMA turun ke US$3,870.20 pada 12 Nov dari US$4,014.00 sehari sebelumnya (Bernama). Stephen Innes dari SPI Asset Management kata data ekonomi AS yang kukuh menguatkan jangkaan Fed terus mengetatkan dasar, sekali gus menguatkan dolar, dan ada pelabur jual emas untuk dapatkan tunai selepas saham berkaitan AI dijual (Bernama, 18 Nov).",
-   "score": 66,
-   "prev_score": 71,
+   "score": 63,
+   "prev_score": 66,
    "status": "naik"
-  },
-  {
-   "angle": "Tutorial langkah demi langkah daftar di SahamOnline dan guna app MySaham, plus terangkan risiko: harga boleh jatuh bawah harga IPO (contoh Wasco Greenergy RM1.00 ditutup RM0.88 hari pertama) dan sekatan 180 hari jika tak bayar peruntukan. Bukan nasihat pelaburan; guna duit lebihan sahaja.",
-   "app": {
-    "name": "MySaham MITI / portal SahamOnline",
-    "url": "https://sahamonline.miti.gov.my/"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "20 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang ada kebanyakannya tutorial portal web MITI yang lama; belum jumpa tutorial BM khusus untuk app MySaham MITI yang dilancar 12 Nov."
-   },
-   "faq": [
-    {
-     "a": "App MITI yang dilancar 12 Nov 2026 untuk daftar, mohon Saham Khas Bumiputera dan semak keputusan peruntukan.",
-     "q": "MySaham MITI ni app apa?"
-    },
-    {
-     "a": "Warganegara Bumiputera 18 tahun ke atas yang mampu bayar saham dimohon; pelajar sepenuh masa tidak layak.",
-     "q": "Siapa boleh mohon SKB?"
-    },
-    {
-     "a": "MyKad, akaun CDS, alamat dan butiran bank, serta daftar dulu di portal SahamOnline MITI.",
-     "q": "Perlu ada apa sebelum mohon?"
-    },
-    {
-     "a": "Jumlah minimum tidak dinyatakan; ia bergantung pada setiap tawaran IPO.",
-     "q": "Berapa minimum nak labur?"
-    },
-    {
-     "a": "Korang tak boleh mohon mana-mana SKB selama 180 hari.",
-     "q": "Kalau dapat saham tapi tak bayar, apa jadi?"
-    }
-   ],
-   "icon": "chart",
-   "id": "mysaham-miti-skb",
-   "ideas": [
-    "Cara Daftar App MySaham MITI (Langkah Penuh)",
-    "Saham Khas Bumiputera: Apa Tu & Siapa Layak?",
-    "Dapat Saham IPO MITI? Ini Yang Perlu Buat",
-    "SKB Boleh Rugi? Kisah Harga Jatuh Hari Pertama",
-    "Akaun CDS: Cara Buka Sebelum Mohon IPO"
-   ],
-   "prev_score": 69,
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "1 Okt 2026",
-      "12 Nov 2026",
-      "1 Jan 2027"
-     ],
-     "q": "Bila app MySaham MITI dilancarkan?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "30 hari",
-      "90 hari",
-      "180 hari"
-     ],
-     "q": "Berapa lama sekatan jika tak bayar peruntukan SKB?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "Akaun CDS",
-      "Akaun KWSP",
-      "Akaun Tabung Haji"
-     ],
-     "q": "Akaun apa wajib ada untuk mohon saham IPO?"
-    }
-   ],
-   "score": 66,
-   "seo": {
-    "hashtags": [
-     "#mysaham",
-     "#sahamipo",
-     "#miti",
-     "#sahambumiputera",
-     "#belajarsaham"
-    ],
-    "keywords": [
-     "mysaham miti",
-     "cara mohon saham ipo bumiputera",
-     "saham khas bumiputera miti",
-     "daftar sahamonline miti",
-     "app mysaham"
-    ],
-    "tags": [
-     "mysaham",
-     "miti",
-     "saham ipo",
-     "saham bumiputera",
-     "skb",
-     "akaun cds",
-     "pelaburan saham",
-     "tutorial saham"
-    ],
-    "thumbs": [
-     "IPO DALAM TELEFON",
-     "SAHAM BUMIPUTERA",
-     "BOLEH RUGI JUGA!"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "MITI lancar MySaham 12 Nov: daftar, mohon SKB, semak keputusan dan dapat notifikasi tawaran baharu.",
-     "hook": "Sekarang mohon saham IPO Bumiputera boleh dari telefon je.",
-     "title": "App Baru MITI Untuk Saham IPO"
-    },
-    {
-     "beat": "Contoh Wasco Greenergy: IPO RM1.00, tutup RM0.88 hari pertama. Ada juga yang naik, macam Sunway Healthcare.",
-     "hook": "Ramai ingat dapat saham IPO terus kaya. Salah!",
-     "title": "Mitos: Saham IPO Confirm Untung"
-    },
-    {
-     "beat": "Tak bayar atau tak langgan penuh peruntukan SKB = tak boleh mohon SKB selama 180 hari. Sediakan duit dulu.",
-     "hook": "Dapat peruntukan saham tapi tak bayar? Ini padahnya.",
-     "title": "Kesilapan Ni Kena Ban 180 Hari"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
-    },
-    {
-     "name": "NST (Sept 2026): eSaham 2.0",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/09/1529734/miti-launches-esaham-20-streamline-bumiputera-ipo-share-allocation"
-    },
-    {
-     "name": "Portal SahamOnline MITI",
-     "url": "https://sahamonline.miti.gov.my/"
-    }
-   ],
-   "status": "naik",
-   "title": "App MySaham MITI: mohon Saham Khas Bumiputera (IPO) terus dari telefon",
-   "why": "MITI lancar app MySaham MITI pada 12 November 2026, membolehkan pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (SKB) dan semak keputusan peruntukan dalam telefon, dengan notifikasi bila tawaran baharu dibuka. SKB biasanya kira-kira 12.5% saham IPO untuk pelabur Bumiputera; layak untuk warganegara Bumiputera 18 tahun ke atas yang ada akaun CDS (pelajar sepenuh masa tidak layak) (RinggitPlus, 16 Nov). Sistem peruntukan dalam talian eSaham 2.0 diperkenal pada Sept 2026."
   }
  ],
  "upcoming": [
@@ -2794,8 +2794,8 @@
    "id": "thijari",
    "ideas": [
     "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
-    "Agihan TH 3.50%: Berapa Korang Dapat?",
-    "TH Kaji Panel Khas Pelaburan: Apa Kesannya?"
+    "TH 3.5% vs Akaun Bank: Mana Lebih Berbaloi?",
+    "Duit TH Dilabur Ke Mana? Ini Pecahannya"
    ],
    "name": "THiJARI (Tabung Haji)",
    "seg": "syariah",
@@ -2815,10 +2815,14 @@
     {
      "name": "Berita RTM (18 Nov 2026)",
      "url": "https://berita.rtm.gov.my/?p=727506"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580367/tabung-haji-keeps-90pct-investments-domestic-market-says-marhamah"
     }
    ],
    "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
-   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. TH beri agihan 3.50% bagi 2025 (tertinggi dalam 8 tahun) dengan aset RM98.58 bilion, dan pada 18 Nov 2026 Timbalan Menteri JPM (Hal Ehwal Agama) Marhamah Rosli kata TH akan teliti cadangan wujudkan panel khas strategi pelaburan; pindaan Akta Tabung Haji 1995 pula dijangka dibentang tahun depan. Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. TH beri agihan 3.50% bagi 2025 (tertinggi dalam 8 tahun), dan pada 18 Nov 2026 Timbalan Menteri JPM (Hal Ehwal Agama) Marhamah Rosli beritahu Dewan Rakyat kira-kira 90% aset TH dilabur dalam negara (54% pendapatan tetap, 29% ekuiti, 12% hartanah) dan TH akan teliti cadangan panel khas strategi pelaburan (NST). Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
   },
   {
    "id": "luno",
