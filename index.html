@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 <script>
-  try{ const t = localStorage.getItem("rt-theme"); if(t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); }catch(e){}
+  try{ const t = localStorage.getItem("rt-theme"); if(t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); if(localStorage.getItem("rt-hc") === "1") document.documentElement.setAttribute("data-hc", "1"); }catch(e){}
 </script>
 <style>
 /* Layout: app shell — sticky header on top, one scrolling column, fixed 4-button nav at the bottom. */
@@ -516,6 +516,55 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 .confetti{position:fixed;inset:0;width:100vw;height:100vh;z-index:119;pointer-events:none}
 @media (prefers-reduced-motion: reduce){.chkpop,.confetti{display:none}}
 .xseg button{display:flex;align-items:center;justify-content:center;gap:6px}.xseg svg{width:16px;height:16px}
+
+/* UX round 5 */
+.nbox{display:flex;flex-direction:column;gap:6px}
+.nlb{display:flex;justify-content:space-between;gap:8px;align-items:baseline}.nst{font-weight:400;font-size:12px;color:var(--muted);text-transform:none;letter-spacing:0}
+.ntxt{width:100%;min-height:76px;resize:vertical;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--paper);color:var(--ink);font:inherit;font-size:15px;line-height:1.45}
+.ntxt:focus{outline:2px solid var(--accent);outline-offset:1px;background:var(--panel)}
+.nchip{font-size:12px;font-weight:700;color:var(--ink-a);background:var(--tint-a);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.tacts .btn{display:inline-flex;align-items:center;gap:6px}.tacts svg,.sech svg,.dprow .btn svg{width:16px;height:16px}
+.sech{display:flex;align-items:baseline;justify-content:space-between;gap:10px}.sech .linkbtn{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.cmpbar{position:sticky;top:calc(var(--toph, 110px) + 6px);z-index:15;display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--accent);color:var(--accent-ink);border-radius:12px;padding:10px 12px;margin:8px 0;font-size:14px;box-shadow:0 6px 18px rgba(0,0,0,.16)}
+.cmpbar .btn{border-color:currentColor;color:inherit;flex:0 0 auto}
+.item.cmpa{outline:2px solid var(--accent);outline-offset:-2px;border-radius:12px}
+.cmpc{max-height:88vh;overflow:auto}
+.cmpg{display:grid;grid-template-columns:minmax(84px,.8fr) 1fr 1fr;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+.cmpg>div{padding:8px 10px;border-top:1px solid var(--line)}
+.cmpg>div:nth-child(-n+3){border-top:0}
+.cmph{background:var(--paper)}.cmph span{display:inline-block;font-size:11px;font-weight:800;color:var(--accent-ink);background:var(--accent);border-radius:6px;padding:0 6px;margin-bottom:4px}.cmph p{margin:0!important;color:var(--ink)!important;font-weight:700;font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cmpl{color:var(--muted);font-size:12.5px;background:var(--paper)}
+.cmpv{font-weight:600}.cmpv.win{background:color-mix(in srgb,var(--steady) 16%,transparent);color:var(--ink)}.cmpv.win::after{content:" ✓";color:var(--steady);font-weight:800}
+.cmpvd{display:flex;flex-direction:column;gap:2px;background:color-mix(in srgb,var(--accent) 10%,var(--panel));border-radius:12px;padding:10px 12px}.cmpvd span{color:var(--muted);font-size:13px}
+.chg{background:color-mix(in srgb,var(--accent) 8%,var(--panel));border:1px solid color-mix(in srgb,var(--accent) 28%,var(--line));border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.chh{display:flex;align-items:flex-start;gap:8px}.chh>div{flex:1;min-width:0}.chh b{display:flex;align-items:center;gap:6px}.chh span{display:block;color:var(--muted);font-size:13px}
+.chx{border:0;background:transparent;font-size:22px;line-height:1;color:var(--muted);padding:0 4px;margin-left:auto}
+.chs{display:flex;flex-wrap:wrap;gap:6px}.cs{font-size:13px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--panel);border:1px solid var(--line)}
+.cs.new{color:var(--accent)}.cs.up{color:var(--steady)}.cs.dn{color:var(--hot)}.cs.gone{color:var(--muted)}
+.chd summary{cursor:pointer;font-size:14px;font-weight:700;color:var(--accent);list-style:none}.chd summary::-webkit-details-marker{display:none}.chd summary::after{content:" ▾"}.chd[open] summary::after{content:" ▴"}
+.chgr{display:flex;flex-direction:column;gap:2px;margin-top:8px}.chgi{display:block;text-align:left;border:0;background:transparent;padding:4px 0;font-size:14px;color:var(--ink)}button.chgi{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.chgi b.up{color:var(--steady)}.chgi b.dn{color:var(--hot)}.chgi.gone{color:var(--muted);text-decoration:line-through}
+.age{white-space:nowrap}.age i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--steady);margin-right:4px;vertical-align:1px}.age.old{color:var(--rise)}.age.old i{background:var(--rise)}
+.stale{font-size:14px;background:color-mix(in srgb,var(--rise) 14%,var(--panel));border:1px solid color-mix(in srgb,var(--rise) 40%,var(--line));border-radius:12px;padding:10px 12px}
+.offl{position:sticky;top:calc(var(--toph, 110px) + 6px);z-index:16;margin:8px 0;font-size:13px;background:var(--ink);color:var(--paper);border-radius:12px;padding:9px 12px}
+.inst .insh{display:flex;gap:12px;align-items:flex-start}.insh b{display:block}.insh span{color:var(--muted);font-size:14px}
+.insi{flex:0 0 auto;width:40px;height:40px;border-radius:12px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);display:grid;place-items:center}.insi svg{width:22px;height:22px}
+.iosl{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.dprow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line)}.dprow>div:first-child{display:flex;flex-direction:column;min-width:0}.dprow span{color:var(--muted);font-size:13px}
+.dprow .btn{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto}
+.fzctl{display:flex;gap:6px}.fzctl .btn{min-width:48px;font-size:16px}.fzctl .btn:disabled{opacity:.4}
+.fzprev{font-size:calc(15px * var(--fz, 1))!important;color:var(--ink)!important;background:var(--paper);border-radius:10px;padding:8px 10px}
+.sw2{flex:0 0 auto;width:52px;height:30px;border-radius:999px;border:1px solid var(--line);background:var(--line);position:relative;padding:0}
+.sw2 i{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:left .18s}
+.sw2[aria-checked="true"]{background:var(--accent);border-color:var(--accent)}.sw2[aria-checked="true"] i{left:25px}
+/* Kontras tinggi */
+:root[data-hc="1"]{--paper:#ffffff;--panel:#ffffff;--ink:#000000;--muted:#2b2f36;--line:#5f6573;--accent:#0b2fa8;--accent-ink:#ffffff;--hot:#a3170c;--rise:#7a4a00;--steady:#0b5c4e;--ink-k:#0b4d42;--ink-t:#0b2fa8;--ink-a:#6b3b00}
+:root[data-hc="1"][data-theme="dark"]{--paper:#000000;--panel:#0b0c0f;--ink:#ffffff;--muted:#d6dae2;--line:#8b92a1;--accent:#b4c3ff;--accent-ink:#000000;--hot:#ff8f84;--rise:#ffcc5c;--steady:#8be3d1;--ink-k:#a5ecdc;--ink-t:#c7d2ff;--ink-a:#ffd09a}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"])[data-hc="1"]{--paper:#000000;--panel:#0b0c0f;--ink:#ffffff;--muted:#d6dae2;--line:#8b92a1;--accent:#b4c3ff;--accent-ink:#000000;--hot:#ff8f84;--rise:#ffcc5c;--steady:#8be3d1;--ink-k:#a5ecdc;--ink-t:#c7d2ff;--ink-a:#ffd09a}}
+:root[data-hc="1"] .card,:root[data-hc="1"] .item,:root[data-hc="1"] .btn,:root[data-hc="1"] .iconbtn,:root[data-hc="1"] .chip,:root[data-hc="1"] .tab{border-width:1.5px}
+:root[data-hc="1"] a{text-decoration:underline;text-underline-offset:2px}
+:root[data-hc="1"] :focus-visible{outline-width:3px}
+:root[data-hc="1"] .top{background:var(--paper)}
 </style>
 </head>
 <body>
@@ -524,7 +573,7 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
     <div class="brand">
       <svg class="logo" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#16181d"/><circle cx="18" cy="18" r="11" fill="none" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="18" cy="18" r="7" fill="none" stroke="#8aa0ff" stroke-opacity=".5" stroke-width="1.4"/><path d="M18 18 L18 7 A11 11 0 0 1 27 12 Z" fill="#8aa0ff" fill-opacity=".3"/><line x1="18" y1="18" x2="27" y2="12" stroke="#8aa0ff" stroke-width="1.6"/><circle cx="22" cy="11.5" r="1.8" fill="#ff6f62"/><circle cx="18" cy="18" r="1.3" fill="#8aa0ff"/></svg>
       <div class="bt"><b>Radar Trending</b><span id="meta">Imran Wafi · Tutorial &amp; Kewangan</span></div>
-      <button class="iconbtn fzbtn" id="fzBtn" aria-label="Tukar saiz tulisan">Aa</button>
+      <button class="iconbtn fzbtn" id="fzBtn" aria-label="Paparan: saiz tulisan, kontras, pasang app">Aa</button>
       <button class="iconbtn" id="searchBtn" aria-label="Cari topik atau app" aria-pressed="false"></button>
       <button class="iconbtn" id="themeBtn" aria-label="Tukar mod gelap atau terang"></button>
     </div>
@@ -535,8 +584,8 @@ body.sheet-open .toast{bottom:calc(env(safe-area-inset-bottom) + 18px)}
 
 <main>
   <div class="banner" id="banner"></div>
+  <div class="offl" id="offline" role="status" hidden>Tiada internet. Anda sedang lihat senarai terakhir yang disimpan.</div>
   <div id="view"></div>
-  <div class="note" id="offline" hidden>Tiada internet. Anda sedang lihat senarai terakhir yang disimpan.</div>
 </main>
 <footer>Dikemas kini automatik pagi dan petang. Skor ialah anggaran Claude berdasarkan berapa baru isu itu, berapa ramai terkesan dan kesesuaian dengan niche. Semak fakta di sumber rasmi sebelum rakam.</footer>
 
@@ -953,6 +1002,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
         ${trendBig(i.id)}
         ${appChip(i)}
         ${srcs ? `<div class="src">Sumber: ${srcs}</div>` : ""}
+        ${noteHtml(i)}
+        <div class="acts tacts"><button class="btn" data-card="${id}">${svg("share")} Kad imej</button><button class="btn" data-cmp="${id}">${svg("grid")} Banding</button></div>
         ${state.viewing === "latest" ? linkCtl(i) : ""}`;
   }
   const DTABS = [["ringkas","Ringkasan"],["idea","Idea"],["seo","SEO"],["promo","Promosi"]];
@@ -974,12 +1025,12 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   function itemHtml(i){
     const st = i.status in statusLabel ? i.status : "stabil";
     const done = !!state.done[i.id], id = esc(i.id);
-    const swipe = state.viewing === "latest" && !i._last && state.view !== "cari";
-    return `<div class="item${done ? " done" : ""}${state.sheet === i.id ? " sel" : ""}" id="it-${id}"${swipe ? ' data-sw="1"' : ""}>
+    const swipe = state.viewing === "latest" && !i._last && state.view !== "cari" && !state.cmp;
+    return `<div class="item${done ? " done" : ""}${state.sheet === i.id ? " sel" : ""}${state.cmp && state.cmp.a === i.id ? " cmpa" : ""}" id="it-${id}"${swipe ? ' data-sw="1"' : ""}>
       ${swipe ? `<div class="swl" aria-hidden="true">Plan esok</div><div class="swr" aria-hidden="true">${done ? "Buang tanda" : "Dah upload ✓"}</div>` : ""}
       <button class="row" data-open="${id}" aria-haspopup="dialog">
         <span class="ico ${i.cat === "tutorial" ? "tutorial" : ""}">${svg(i.icon)}<i class="dot ${st}" aria-label="${statusLabel[st]}"></i></span>
-        <span class="t">${isNew(i) ? `<i class="newdot" aria-label="Baru sejak kali terakhir"></i>` : ""}${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)}</span>` : ""}</span>
+        <span class="t">${isNew(i) ? `<i class="newdot" aria-label="Baru sejak kali terakhir"></i>` : ""}${st === "panas" ? FIRE : ""}${esc(i.title)}${("prev_score" in i) && i.prev_score === null ? `<span class="newb">BARU</span>` : ""}${(oppChip(i) || planTag(i) || i._last || noteChip(i)) ? `<span class="sub">${i._last ? `<span class="arch">Arkib · terakhir ${esc(String(i._last).replace(/ \d{4},/, ","))}</span> ` : ""}${oppChip(i)} ${planTag(i)} ${noteChip(i)}</span>` : ""}</span>
         <span class="s">${ringHtml(i.score)}${deltaHtml(i)}${sparkSmall(i.id)}</span>
         <i class="chev" aria-hidden="true"></i>
       </button>
@@ -1013,6 +1064,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(Array.isArray(s.tags)) L.push("", "TAG", s.tags.join(", "));
     if(Array.isArray(s.hashtags)) L.push("", "HASHTAG", s.hashtags.join(" "));
     if(Array.isArray(s.thumbs)) L.push("", "TEKS THUMBNAIL", ...s.thumbs);
+    if(noteOf(i.id)) L.push("", "NOTA AKU", noteOf(i.id).t.trim());
     const src = (Array.isArray(i.sources) ? i.sources : []).filter(x => safeUrl(x.url));
     if(src.length) L.push("", "SUMBER", ...src.map(x => `• ${x.name}: ${x.url}`));
     return L.join("\n");
@@ -1062,7 +1114,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(state.hideDone) list = list.filter(i => !state.done[i.id]);
     const pickHtml = state.viewing === "latest" && list.length ? `<div class="swhint">Tip: leret topik ke kanan untuk rancang esok, ke kiri untuk tanda dah upload.</div>` : "";
     const head = { kewangan:"Topik kewangan", tutorial:"Topik tutorial", emas:"Peluang emas" }[state.filter] || "Semua topik";
-    return `${exploreSeg()}<h2 class="sec">${head}</h2>${pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.${qi("emas")}</div>` : ""}
+    return `${exploreSeg()}${cmpBar()}<div class="sech"><h2 class="sec">${head}</h2>${!state.cmp && list.length > 1 ? `<button class="linkbtn" data-cmpstart="1">${svg("grid")} Banding 2 topik</button>` : ""}</div>${state.cmp ? "" : pickHtml}${state.filter === "emas" ? `<div class="note">Skor tinggi tapi saingan YouTube Bahasa Melayu masih sikit. Disusun ikut skor, paling atas paling berbaloi.${qi("emas")}</div>` : ""}
       <div class="list">${list.length ? list.map(itemHtml).join("") : `<div class="empty">Tiada topik untuk tapisan ini.</div>`}</div>
       <div class="legend"><span>${FIRE}Panas (paling atas)</span><span><i class="dot naik"></i>Naik</span><span><i class="dot"></i>Stabil</span><span>Bulatan = skor potensi${qi("skor")}</span></div>
       <div class="more"><label><input type="checkbox" id="hideDone"${state.hideDone ? " checked" : ""}> Sembunyi yang dah buat</label>
@@ -1180,8 +1232,9 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const picks = items().filter(i => !state.done[i.id] && !state.plan[i.id]).slice(0, 3);
     const up = ((state.latest && state.latest.upcoming) || []).map(u => ({ u, w: parseD(u.when) })).filter(x => x.w && days(t, x.w) >= 0 && days(t, x.w) <= 7).sort((a, b) => a.w - b.w);
     const pending = today.filter(([id]) => !state.done[id]).length;
-    return `<div class="hello"><b>${greet}, Imran</b><span>${dayLabel(t)} ${t.getUTCFullYear()}${state.latest && state.latest.updated_label ? " · data " + esc(state.latest.updated_label) : ""}</span></div>
-      ${nn && !state.topikSeen ? `<button class="newbar" data-view="topik"><span><i class="newdot"></i>${nn} topik baru sejak kali terakhir kau buka</span><span>Lihat →</span></button>` : ""}
+    return `<div class="hello"><b>${greet}, Imran</b><span>${dayLabel(t)} ${t.getUTCFullYear()}${state.latest && state.latest.updated_label ? " · data " + esc(state.latest.updated_label) + ageHtml() : ""}</span></div>
+      ${staleHtml()}
+      ${chgHtml() || (nn && !state.topikSeen ? `<button class="newbar" data-view="topik"><span><i class="newdot"></i>${nn} topik baru sejak kali terakhir kau buka</span><span>Lihat →</span></button>` : "")}
       ${weekSummary()}
       <h2 class="sec">Video hari ini</h2>
       <div class="card${pending ? " hl" : ""}">${today.length ? today.map(([id]) => planRow(id)).join("") + (pending ? `<div class="acts">${today.filter(([id]) => !state.done[id] && findItem(id)).slice(0, 1).map(([id]) => `<button class="btn" data-pick="${esc(id)}">Buka skrip & Shorts</button><button class="btn" data-promo="${esc(id)}">Bahan promosi</button>`).join("")}</div>` : `<div class="note">Semua video hari ni dah siap. Mantap!</div>`)
@@ -1189,6 +1242,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       ${schedRows(tIso) ? `<div class="card"><div class="lbl">Posting hari ini</div>${schedRows(tIso)}</div>` : ""}
       ${late.length ? `<div class="card"><div class="lbl">Tertunggak (${late.length})</div>${late.map(([id]) => planRow(id)).join("")}</div>` : ""}
       ${targetHtml(st)}
+      ${installCard()}
       ${picks.length ? `<h2 class="sec">Pilihan hari ini</h2>
       <div class="picks">${picks.map((i,n) => `<button class="pick" data-pick="${esc(i.id)}">
         <span class="pn">#${n+1}${i.status === "panas" ? " · HANGAT" : ""}</span>
@@ -1286,15 +1340,17 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     const mon = isoOf(t).slice(0,7);
     return { week: cnt[isoOf(ws)] || 0, month: doneList.filter(x => String(x.d || "").slice(0,7) === mon).length, streak, weeks, max: Math.max(1, ...weeks.map(w => w.n)) };
   }
-  function backupData(){ return JSON.stringify({ app:"radar-trending", v:1, saved: isoOf(todayMY()), done: state.done, plan: state.plan, target: state.target }); }
+  function backupData(){ return JSON.stringify({ app:"radar-trending", v:1, saved: isoOf(todayMY()), done: state.done, plan: state.plan, target: state.target, notes }); }
   function restore(text){
     let b; try{ b = JSON.parse(String(text || "").trim()); }catch(e){ b = null; }
     if(!b || b.app !== "radar-trending" || typeof b.done !== "object"){ state.bmsg = { t:"Kod atau fail ni bukan backup Radar Trending.", err:true }; render(); return; }
     const nd = Object.keys(b.done || {}).length, np = Object.keys(b.plan || {}).length;
     Object.assign(state.done, b.done || {}); Object.assign(state.plan, b.plan || {});
     if(Number(b.target) >= 1) state.target = Math.min(14, Math.round(b.target));
+    const nn2 = b.notes && typeof b.notes === "object" ? Object.keys(b.notes).filter(k => b.notes[k] && typeof b.notes[k].t === "string").length : 0;
+    if(nn2){ Object.keys(b.notes).forEach(k => { const v = b.notes[k]; if(v && typeof v.t === "string") notes[k] = { t: v.t.slice(0, 4000), at: String(v.at || "") }; }); saveNotes(); }
     saveDone(); savePlan(); saveTarget();
-    state.bmsg = { t:`Dipulihkan: ${nd} video dan ${np} plan.` }; render();
+    state.bmsg = { t:`Dipulihkan: ${nd} video, ${np} plan${nn2 ? " dan " + nn2 + " nota" : ""}.` }; render();
   }
   function saveTarget(){ try{ localStorage.setItem("rt-target", String(state.target)); }catch(e){} }
   function viewLinks(){
@@ -1939,6 +1995,209 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     requestAnimationFrame(fr);
   }
 
+  /* ===== UX round 5 ===== */
+  /* Nota peribadi setiap topik */
+  let notes = {}; try{ const n = JSON.parse(localStorage.getItem("rt-notes") || "{}"); if(n && typeof n === "object") notes = n; }catch(e){}
+  function saveNotes(){ try{ localStorage.setItem("rt-notes", JSON.stringify(notes)); }catch(e){} }
+  function noteOf(id){ const n = notes[id]; return n && n.t ? n : null; }
+  function noteChip(i){ return noteOf(i.id) ? `<span class="nchip" aria-label="Ada nota">📝 Nota</span>` : ""; }
+  function hhmm(){ return new Date().toLocaleTimeString("en-GB", { timeZone:"Asia/Kuala_Lumpur", hour:"2-digit", minute:"2-digit" }); }
+  function noteHtml(i){
+    const n = noteOf(i.id), id = esc(i.id);
+    return `<div class="nbox"><div class="lbl nlb"><span>Nota aku</span><span class="nst" id="nst-${id}">${n ? "Disimpan " + esc(n.at) : "Disimpan dalam telefon ni sahaja"}</span></div>
+      <textarea class="ntxt" data-note="${id}" rows="3" maxlength="4000" aria-label="Nota untuk topik ini" placeholder="Idea sendiri, link rujukan, sudut lain, soalan penonton…">${n ? esc(n.t) : ""}</textarea></div>`;
+  }
+  let noteT = null;
+  document.addEventListener("input", ev => {
+    const el = ev.target; if(!el || !el.dataset || !el.dataset.note) return;
+    const id = el.dataset.note, st = $("nst-" + id); if(st) st.textContent = "Menyimpan…";
+    clearTimeout(noteT); noteT = setTimeout(() => {
+      const v = el.value.trim(); if(v) notes[id] = { t: el.value, at: dayLabel(todayMY(), true) + ", " + hhmm() }; else delete notes[id];
+      saveNotes(); const s2 = $("nst-" + id); if(s2) s2.textContent = v ? "Disimpan ✓" : "Nota dibuang";
+    }, 500);
+  });
+
+  /* Kad imej topik */
+  async function saveTopicCard(id, btn){
+    const i = findItem(id); if(!i) return; const old = btn ? btn.textContent : ""; if(btn) btn.textContent = "Menjana…";
+    try{ if(document.fonts && document.fonts.ready) await document.fonts.ready; }catch(e){}
+    const W = 1080, H = 1350, c = document.createElement("canvas"); c.width = W; c.height = H; const x = c.getContext("2d");
+    const F = 'system-ui, -apple-system, "Segoe UI", sans-serif', L = 80, CW = W - 160;
+    const rr = (bx, by, bw, bh, r) => { x.beginPath(); if(x.roundRect) x.roundRect(bx, by, bw, bh, r); else x.rect(bx, by, bw, bh); };
+    x.fillStyle = "#16181d"; x.fillRect(0, 0, W, H);
+    x.fillStyle = "#8aa0ff"; x.font = `700 32px ${F}`; x.fillText("RADAR TRENDING · IMRAN WAFI", L, 116);
+    x.fillStyle = "#ff6f62"; x.beginPath(); x.arc(W - 96, 105, 14, 0, Math.PI * 2); x.fill();
+    const st = i.status in statusLabel ? i.status : "stabil", stCol = { panas:"#ff6f62", naik:"#f0b440", stabil:"#6cc4b3" }[st];
+    const pill = (txt, px, py, col) => { x.font = `700 28px ${F}`; const w = x.measureText(txt).width + 44; rr(px, py, w, 52, 26); x.fillStyle = col + "33"; x.fill(); x.fillStyle = col; x.fillText(txt, px + 22, py + 36); return px + w + 14; };
+    let px = pill((st === "panas" ? "🔥 " : "") + statusLabel[st].toUpperCase(), L, 160, stCol);
+    px = pill(i.cat === "kewangan" ? "KEWANGAN" : "TUTORIAL", px, 160, "#9fb1ff");
+    const c2 = i.competition && OPP[i.competition.level]; if(c2 && px < W - 360) pill(c2.toUpperCase(), px, 160, i.competition.level === "tinggi" ? "#7fd0be" : i.competition.level === "sesak" ? "#9097a4" : "#f1b877");
+    let z = 80, tl; do { z -= 4; x.font = `800 ${z}px ${F}`; tl = wrapText(x, i.title, CW); } while(tl.length > 3 && z > 50);
+    if(tl.length > 3){ tl = tl.slice(0, 3); tl[2] = tl[2].replace(/\s+\S*$/, "") + "…"; }
+    let y = 236 + z; x.fillStyle = "#ffffff"; tl.forEach(l => { x.fillText(l, L, y); y += z + 12; }); y += 4;
+    const sc = Math.max(0, Math.min(100, Number(i.score) || 0)), cx = L + 70, cy = y + 70, sCol = sc >= 85 ? "#7fd0be" : sc >= 70 ? "#f0b440" : "#9097a4";
+    x.lineWidth = 14; x.strokeStyle = "#2a2e38"; x.beginPath(); x.arc(cx, cy, 60, 0, Math.PI * 2); x.stroke();
+    x.strokeStyle = sCol; x.lineCap = "round"; x.beginPath(); x.arc(cx, cy, 60, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * sc / 100); x.stroke();
+    x.fillStyle = "#ffffff"; x.font = `800 48px ${F}`; x.textAlign = "center"; x.fillText(String(sc), cx, cy + 17); x.textAlign = "left";
+    x.fillStyle = "#9097a4"; x.font = `600 28px ${F}`; x.fillText("Skor potensi", cx + 100, cy - 12);
+    x.fillStyle = "#e9ebef"; x.font = `700 32px ${F}`; const dl = i.deadline ? "⏰ " + i.deadline : (typeof i.prev_score === "number" && i.score !== i.prev_score ? (i.score > i.prev_score ? "↑ naik " : "↓ turun ") + Math.abs(i.score - i.prev_score) + " mata" : "Topik tutorial & kewangan");
+    wrapText(x, dl, CW - 200).slice(0, 2).forEach((l, n) => x.fillText(l, cx + 100, cy + 30 + n * 40));
+    y = cy + 140;
+    const head = t => { x.fillStyle = "#8aa0ff"; x.font = `700 28px ${F}`; x.fillText(t, L, y); y += 50; };
+    const sents = String(i.why || "").split(/(?<=[.!?])\s+/).slice(0, 2).join(" ");
+    head("KENAPA TRENDING"); x.fillStyle = "#e9ebef"; x.font = `500 34px ${F}`;
+    let wl = wrapText(x, sents, CW); if(wl.length > 4){ wl = wl.slice(0, 4); wl[3] = wl[3].replace(/\s+\S*$/, "") + "…"; }
+    wl.forEach(l => { x.fillText(l, L, y); y += 46; }); y += 26;
+    const ideas = (Array.isArray(i.ideas) ? i.ideas : []).slice(0, 3);
+    if(ideas.length && y < H - 300){ head("IDEA VIDEO");
+      ideas.forEach((t, n) => { if(y > H - 200) return; x.fillStyle = "#8aa0ff"; x.font = `800 34px ${F}`; x.fillText(String(n + 1), L, y); x.fillStyle = "#ffffff"; x.font = `600 34px ${F}`;
+        wrapText(x, t, CW - 56).slice(0, 2).forEach((l, k) => { x.fillText(l, L + 56, y); y += 44; }); y += 14; }); }
+    x.fillStyle = "#2a2e38"; x.fillRect(L, H - 150, CW, 2); x.fillStyle = "#9097a4"; x.font = `500 28px ${F}`;
+    x.fillText("imrnwfi.github.io/radar-trending", L, H - 90);
+    const lb = state.latest && state.latest.updated_label ? state.latest.updated_label : ""; if(lb){ x.textAlign = "right"; x.fillText(lb, W - L, H - 90); x.textAlign = "left"; }
+    const blob = await new Promise(res => c.toBlob(res, "image/png")); if(!blob){ if(btn) btn.textContent = old; return; }
+    const name = "topik-" + i.id + ".png", file = new File([blob], name, { type: "image/png" });
+    try{ if(navigator.canShare && navigator.canShare({ files: [file] })){ await navigator.share({ files: [file], title: i.title }); if(btn) btn.textContent = old; return; } }catch(e){ if(e && e.name === "AbortError"){ if(btn) btn.textContent = old; return; } }
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    if(btn){ btn.textContent = "Disimpan ✓"; setTimeout(() => btn.textContent = old, 1500); } buzz();
+  }
+
+  /* Banding 2 topik */
+  const OPPR = { tinggi:3, sederhana:2, sesak:1 };
+  function upDays(i){ const t = todayMY(), u = ((state.latest && state.latest.upcoming) || []).filter(x => x.topic === i.id).map(x => parseD(x.when)).filter(Boolean).map(d => days(t, d)).filter(n => n >= 0).sort((a, b) => a - b); return u.length ? u[0] : null; }
+  function matCount(i){ return (i.script ? 1 : 0) + (Array.isArray(i.shorts) ? i.shorts.length : 0) + (Array.isArray(i.faq) ? i.faq.length : 0) + (Array.isArray(i.ideas) ? i.ideas.length : 0); }
+  function myStat(i){ return state.done[i.id] ? "✓ Dah upload" : state.plan[i.id] ? "Dalam plan" : "Belum"; }
+  function cmpRows(a, b){
+    const dl = i => typeof i.prev_score === "number" ? Math.round((Number(i.score) || 0) - i.prev_score) : null;
+    const dtx = n => n === null ? "Baru" : n > 0 ? "↑ " + n : n < 0 ? "↓ " + Math.abs(n) : "Sama";
+    const lv = i => i.competition && i.competition.level, ud = upDays;
+    return [
+      ["Skor potensi", String(a.score || 0), String(b.score || 0), (a.score || 0) - (b.score || 0)],
+      ["Trend skor", dtx(dl(a)), dtx(dl(b)), (dl(a) ?? 0) - (dl(b) ?? 0)],
+      ["Status", statusLabel[a.status] || "Stabil", statusLabel[b.status] || "Stabil", (RANK[b.status] ?? 2) - (RANK[a.status] ?? 2)],
+      ["Saingan YouTube BM", OPP[lv(a)] || "–", OPP[lv(b)] || "–", (OPPR[lv(a)] || 0) - (OPPR[lv(b)] || 0)],
+      ["Tarikh penting", ud(a) !== null ? cdText(ud(a)) : (a.deadline ? "Ada" : "–"), ud(b) !== null ? cdText(ud(b)) : (b.deadline ? "Ada" : "–"), 0],
+      ["Bahan siap", matCount(a) + " bahan", matCount(b) + " bahan", matCount(a) - matCount(b)],
+      ["Kategori", a.cat === "kewangan" ? "Kewangan" : "Tutorial", b.cat === "kewangan" ? "Kewangan" : "Tutorial", 0],
+      ["Status kau", myStat(a), myStat(b), 0]
+    ];
+  }
+  function showCmp(aid, bid){
+    const a = findItem(aid), b = findItem(bid); if(!a || !b) return;
+    const rows = cmpRows(a, b), wa = rows.filter(r => r[3] > 0).length, wb = rows.filter(r => r[3] < 0).length;
+    const tie = wa === wb, win = tie ? ((a.score || 0) === (b.score || 0) ? null : (a.score || 0) > (b.score || 0) ? a : b) : wa > wb ? a : b, wn = Math.max(wa, wb), tot = rows.filter(r => r[3] !== 0).length;
+    $("infoWrap").innerHTML = `<div class="infob" data-infobg="1" role="dialog" aria-modal="true" aria-label="Banding topik"><div class="ocard cmpc">
+      <h3>Banding topik</h3>
+      <div class="cmpg"><div class="cmpl"></div><div class="cmph"><span>A</span><p>${esc(a.title)}</p></div><div class="cmph"><span>B</span><p>${esc(b.title)}</p></div>
+      ${rows.map(r => `<div class="cmpl">${esc(r[0])}</div><div class="cmpv${r[3] > 0 ? " win" : ""}">${esc(r[1])}</div><div class="cmpv${r[3] < 0 ? " win" : ""}">${esc(r[2])}</div>`).join("")}</div>
+      <div class="cmpvd">${win && !tie ? `<b>Cadangan: ${esc(win.title)}</b><span>Menang ${wn} daripada ${tot} kriteria. Skor & saingan paling penting, semak juga tarikh penting.</span>` : win ? `<b>Hampir seri, condong ke ${win === a ? "A" : "B"}</b><span>Seri ${wa}–${wb} dalam kriteria, tapi skor ${win === a ? "A" : "B"} lebih tinggi (${win.score || 0}). Kalau tarikh penting lebih dekat untuk yang satu lagi, buat yang itu dulu.</span>` : `<b>Seri</b><span>Dua-dua setanding. Pilih ikut minat penonton kau atau tarikh penting.</span>`}</div>
+      <div class="acts" style="margin:0"><button class="btn" data-cmpopen="${esc(a.id)}">Buka A</button><button class="btn" data-cmpopen="${esc(b.id)}">Buka B</button><button class="btn pri" data-infoclose="1">Tutup</button></div>
+    </div></div>`;
+  }
+  function cmpPick(id){
+    const c = state.cmp; if(!c) return;
+    if(!c.a){ c.a = id; render(); toast("Sekarang pilih topik kedua"); buzz(8); return; }
+    if(c.a === id){ toast("Pilih topik lain untuk dibanding"); return; }
+    const a = c.a; state.cmp = null; render(); showCmp(a, id); buzz(10);
+  }
+  function cmpBar(){
+    const c = state.cmp; if(!c) return "";
+    const a = c.a ? findItem(c.a) : null;
+    return `<div class="cmpbar" role="status"><span>${a ? `Banding dengan <b>${esc(a.title)}</b>. Pilih topik kedua.` : "Pilih topik pertama untuk dibanding."}</span><button class="btn" data-cmpx="1">Batal</button></div>`;
+  }
+
+  /* Apa berubah sejak kali terakhir */
+  let chg = null, chgHide = false;
+  function snapOf(d){ const it = (d && d.items) || []; return { ids: it.map(i => i.id), at: d && d.updated_label, sc: Object.fromEntries(it.map(i => [i.id, Number(i.score) || 0])), tt: Object.fromEntries(it.map(i => [i.id, i.title])) }; }
+  function diffSnap(prev, d){
+    if(!prev || !Array.isArray(prev.ids) || !d) return null;
+    const it = d.items || [], cur = new Set(it.map(i => i.id)), was = new Set(prev.ids);
+    const neu = it.filter(i => !was.has(i.id)).map(i => ({ id: i.id, t: i.title }));
+    const gone = prev.ids.filter(id => !cur.has(id)).map(id => ({ id, t: (prev.tt && prev.tt[id]) || id.replace(/-/g, " ") }));
+    const mv = prev.sc ? it.filter(i => was.has(i.id) && typeof prev.sc[i.id] === "number").map(i => ({ id: i.id, t: i.title, d: Math.round((Number(i.score) || 0) - prev.sc[i.id]) })) : [];
+    const up = mv.filter(x => x.d >= 2).sort((a, b) => b.d - a.d), down = mv.filter(x => x.d <= -2).sort((a, b) => a.d - b.d);
+    return (neu.length || gone.length || up.length || down.length) ? { neu, gone, up, down, at: prev.at } : null;
+  }
+  function chgHtml(){
+    if(!chg || chgHide || state.viewing !== "latest") return "";
+    const c = chg, li = (arr, f) => arr.slice(0, 6).map(f).join("");
+    const go = x => findItem(x.id) ? `<button class="chgi" data-goto="${esc(x.id)}">${esc(x.t)}</button>` : `<span class="chgi">${esc(x.t)}</span>`;
+    return `<div class="chg"><div class="chh"><div><b><i class="newdot"></i>Apa berubah</b>${c.at ? `<span>sejak data ${esc(c.at)}</span>` : ""}</div><button class="chx" data-chgx="1" aria-label="Tutup">×</button></div>
+      <div class="chs">${c.neu.length ? `<span class="cs new">${c.neu.length} baru</span>` : ""}${c.gone.length ? `<span class="cs gone">${c.gone.length} keluar</span>` : ""}${c.up.length ? `<span class="cs up">${c.up.length} naik</span>` : ""}${c.down.length ? `<span class="cs dn">${c.down.length} turun</span>` : ""}</div>
+      <details class="chd"><summary>Lihat butiran</summary>
+        ${c.neu.length ? `<div class="chgr"><div class="lbl">Topik baru</div>${li(c.neu, go)}</div>` : ""}
+        ${c.up.length ? `<div class="chgr"><div class="lbl">Skor naik</div>${li(c.up, x => `<button class="chgi" data-goto="${esc(x.id)}">${esc(x.t)} <b class="up">↑${x.d}</b></button>`)}</div>` : ""}
+        ${c.down.length ? `<div class="chgr"><div class="lbl">Skor turun</div>${li(c.down, x => `<button class="chgi" data-goto="${esc(x.id)}">${esc(x.t)} <b class="dn">↓${-x.d}</b></button>`)}</div>` : ""}
+        ${c.gone.length ? `<div class="chgr"><div class="lbl">Keluar senarai (masih dalam Cari → arkib)</div>${li(c.gone, x => `<span class="chgi gone">${esc(x.t)}</span>`)}</div>` : ""}
+      </details></div>`;
+  }
+
+  /* Umur data & status */
+  function dataTime(d){
+    const m = d && /^(\d{4})-(\d{2})-(\d{2})$/.exec(d.date || ""); if(!m) return null;
+    const h = /(\d{1,2})(?:[.:](\d{2}))?\s*(pagi|tengah hari|petang|malam)/i.exec(String(d.updated_label || "")); let hr = 7, mi = 0;
+    if(h){ hr = +h[1]; mi = +(h[2] || 0); const p = h[3].toLowerCase(); if((p === "petang" || p === "malam") && hr < 12) hr += 12; if(p === "tengah hari" && hr < 11) hr += 12; }
+    return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], hr - 8, mi));
+  }
+  function ageMs(){ const t = dataTime(state.latest); return t ? Date.now() - t.getTime() : null; }
+  function ageText(ms){ const m = Math.max(0, Math.round(ms / 60000)); if(m < 2) return "baru sahaja"; if(m < 60) return m + " minit lalu"; const h = Math.round(m / 60); if(h < 24) return h + " jam lalu"; return Math.round(h / 24) + " hari lalu"; }
+  function ageHtml(){ const a = ageMs(); if(a === null) return ""; const stale = a > 14 * 36e5; return ` · <span class="age${stale ? " old" : ""}"><i></i>${ageText(a)}</span>`; }
+  function staleHtml(){ const a = ageMs(); if(a === null || a <= 14 * 36e5 || !navigator.onLine) return ""; return `<div class="stale">Data dah ${ageText(a).replace(" lalu", "")} tak dikemas kini. <button class="linkbtn" data-refresh="1">Semak data baru</button></div>`; }
+  function netPaint(){ const el = $("offline"); el.hidden = navigator.onLine; if(!navigator.onLine){ const a = ageMs(); el.innerHTML = `<b>Luar talian</b> · Senarai terakhir disimpan${a !== null ? " (data " + ageText(a) + ")" : ""}. Data baru dimuat bila internet kembali.`; } }
+  document.addEventListener("visibilitychange", () => { if(document.visibilityState === "visible" && state.data && state.view === "hari" && !state.sheet) render(); });
+
+  /* Pasang app */
+  let instEv = null;
+  const isStandalone = () => { try{ return matchMedia("(display-mode: standalone)").matches || navigator.standalone === true; }catch(e){ return false; } };
+  const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); instEv = e; if(state.data && state.view === "hari") render(); });
+  window.addEventListener("appinstalled", () => { instEv = null; try{ localStorage.setItem("rt-instdis", "1"); }catch(e){} toast("Radar Trending dah dipasang ✓"); if(state.data) render(); });
+  function canInstall(){ return !isStandalone() && (!!instEv || isIOS()); }
+  function instDismissed(){ try{ return !!localStorage.getItem("rt-instdis"); }catch(e){ return false; } }
+  function installCard(){
+    if(!canInstall() || instDismissed()) return "";
+    return `<div class="card inst"><div class="insh"><span class="insi">${svg("plus")}</span><div><b>Pasang Radar Trending</b><span>Buka terus dari home screen macam app biasa, laju dan boleh guna luar talian.</span></div></div>
+      <div class="acts" style="margin:0"><button class="btn pri" data-install="1">Pasang</button><button class="btn" data-instdis="1">Nanti</button></div></div>`;
+  }
+  async function doInstall(){
+    if(instEv){ const e = instEv; instEv = null; try{ e.prompt(); const r = await e.userChoice; if(r && r.outcome === "accepted") toast("Memasang…"); }catch(err){} if(state.data) render(); if($("dispPanel")) showDisplay(); return; }
+    if(isIOS()){ $("infoWrap").innerHTML = `<div class="infob" data-infobg="1" role="dialog" aria-modal="true" aria-label="Pasang di iPhone"><div class="ocard"><h3>Pasang di iPhone / iPad</h3>
+      <ol class="iosl"><li>Buka laman ini dalam <b>Safari</b>.</li><li>Tekan butang <b>Share</b> (kotak dengan anak panah ke atas).</li><li>Skrol dan pilih <b>Add to Home Screen</b>.</li><li>Tekan <b>Add</b>. Ikon Radar akan muncul di home screen.</li></ol>
+      <div class="acts" style="justify-content:flex-end;margin:0"><button class="btn pri" data-infoclose="1">Faham</button></div></div></div>`; return; }
+    toast("Buka menu browser (⋮) dan pilih \"Install app\" atau \"Add to Home screen\".");
+  }
+
+  /* Paparan: saiz tulisan, kontras, pasang */
+  function hcOn(){ return document.documentElement.getAttribute("data-hc") === "1"; }
+  function showDisplay(){
+    const inst = isStandalone() ? `<span class="note">✓ Dah dipasang di peranti ini</span>` : `<button class="btn" data-install="1">${svg("plus")} Pasang ke home screen</button>`;
+    $("infoWrap").innerHTML = `<div class="infob" data-infobg="1" role="dialog" aria-modal="true" aria-label="Paparan"><div class="ocard" id="dispPanel">
+      <h3>Paparan</h3>
+      <div class="dprow"><div><b>Saiz tulisan</b><span>${esc(FZ[fzI][1])}</span></div><div class="fzctl"><button class="btn" data-fzs="-1" aria-label="Kecilkan tulisan"${fzI === 0 ? " disabled" : ""}>A−</button><button class="btn" data-fzs="1" aria-label="Besarkan tulisan"${fzI === FZ.length - 1 ? " disabled" : ""}>A+</button></div></div>
+      <p class="fzprev">Contoh: STR 2027 dah dibuka. Semak status di portal rasmi sahaja.</p>
+      <div class="dprow"><div><b>Kontras tinggi</b><span>Teks lebih gelap & garis lebih jelas, senang baca bawah matahari</span></div><button class="sw2" role="switch" data-hc="1" aria-checked="${hcOn()}" aria-label="Kontras tinggi"><i></i></button></div>
+      <div class="dprow"><div><b>App</b><span>Pasang supaya boleh buka terus dari home screen</span></div>${inst}</div>
+      <div class="acts" style="justify-content:space-between;margin:0"><button class="linkbtn" data-onb="show">Lihat panduan ringkas</button><button class="btn pri" data-infoclose="1">Siap</button></div>
+    </div></div>`;
+  }
+  function setFz(n){ fzI = Math.max(0, Math.min(FZ.length - 1, n)); applyFz(); try{ localStorage.setItem("rt-fz", String(fzI)); }catch(e){} }
+  function setHc(on){ if(on) document.documentElement.setAttribute("data-hc", "1"); else document.documentElement.removeAttribute("data-hc"); try{ localStorage.setItem("rt-hc", on ? "1" : "0"); }catch(e){} }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest && ev.target.closest("button"); if(!b) return; const d = b.dataset;
+    if(d.fzs){ setFz(fzI + Number(d.fzs)); showDisplay(); buzz(6); }
+    else if(d.hc){ setHc(!hcOn()); showDisplay(); buzz(8); }
+    else if(d.install){ doInstall(); }
+    else if(d.instdis){ try{ localStorage.setItem("rt-instdis", "1"); }catch(e){} render(); toast("Boleh pasang bila-bila dari butang Aa"); }
+    else if(d.card){ saveTopicCard(d.card, b); }
+    else if(d.cmp){ state.cmp = { a: d.cmp }; closeSheet(); setView("topik"); toast("Pilih topik kedua untuk dibanding"); }
+    else if(d.cmpstart){ state.cmp = { a: null }; render(); window.scrollTo(0, 0); }
+    else if(d.cmpx){ state.cmp = null; render(); }
+    else if(d.cmpopen){ $("infoWrap").innerHTML = ""; openSheet(d.cmpopen, "ringkas"); }
+    else if(d.chgx){ chgHide = true; render(); }
+    else if(d.refresh){ refreshData(); }
+    else if(d.onb === "show"){ $("infoWrap").innerHTML = ""; }
+  });
+
   function render(){
     renderNav(); renderHeader(); document.documentElement.style.setProperty("--toph", ((document.querySelector(".top") || {}).offsetHeight || 110) + "px");
     if(!state.data){ $("view").innerHTML = `<div class="sk h"><i></i></div>` + Array.from({length:5}, () => `<div class="sk"><i class="a"></i><div class="b"><i></i><i></i></div><i class="c"></i></div>`).join(""); return; }
@@ -1968,7 +2227,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   let seenPrev = null;
   function initSeen(){
     try{ const s = JSON.parse(localStorage.getItem("rt-seen") || "null"); if(s && Array.isArray(s.ids)) seenPrev = new Set(s.ids); }catch(e){}
-    try{ localStorage.setItem("rt-seen", JSON.stringify({ ids: (state.latest.items || []).map(i => i.id), at: state.latest.updated_label })); }catch(e){}
+    try{ const s = JSON.parse(localStorage.getItem("rt-seen") || "null"); chg = diffSnap(s, state.latest); }catch(e){}
+    try{ localStorage.setItem("rt-seen", JSON.stringify(snapOf(state.latest))); }catch(e){}
   }
   function isNew(i){ return !!(seenPrev && state.viewing === "latest" && !i._last && !seenPrev.has(i.id)); }
   function newCount(){ return seenPrev && state.latest ? (state.latest.items || []).filter(i => !seenPrev.has(i.id)).length : 0; }
@@ -1976,7 +2236,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   const FZ = [[0.9,"Kecil"],[1,"Biasa"],[1.15,"Besar"],[1.3,"Sangat besar"]];
   let fzI = 1;
   function applyFz(){ document.documentElement.style.setProperty("--fz", FZ[fzI][0]); }
-  $("fzBtn").addEventListener("click", () => { fzI = (fzI + 1) % FZ.length; applyFz(); try{ localStorage.setItem("rt-fz", String(fzI)); }catch(e){} toast("Saiz tulisan: " + FZ[fzI][1]); });
+  $("fzBtn").addEventListener("click", () => showDisplay());
   /* Swipe */
   function tomorrowIso(){ return isoOf(new Date(todayMY().getTime() + 86400000)); }
   function swipePlan(id){
@@ -2032,7 +2292,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     if(refreshing) return; refreshing = true; ptrShow(64, "Memuat semula…");
     try{
       const d = await getJson("data.json"), changed = !state.latest || d.updated_label !== state.latest.updated_label;
-      state.latest = d; if(state.viewing === "latest") state.data = d;
+      if(changed && state.latest){ const c2 = diffSnap(snapOf(state.latest), d); if(c2){ chg = c2; chgHide = false; } try{ localStorage.setItem("rt-seen", JSON.stringify(snapOf(d))); }catch(e){} }
+      state.latest = d; if(state.viewing === "latest") state.data = d; netPaint();
       getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
       render(); toast(changed ? "Data baru: " + (d.updated_label || d.date) : "Dah paling terkini (" + (d.updated_label || d.date) + ")"); buzz();
     }catch(e){ toast("Tak dapat muat semula. Semak internet."); }
@@ -2066,8 +2327,8 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   /* Panduan kali pertama */
   const ONB = [
     ["flame", "Topik trending setiap hari", "Senarai topik tutorial & kewangan yang tengah naik di Malaysia, dikemas kini pagi dan petang.", ["🔥 Topik panas di atas, nombor = skor potensi", "Peluang emas = skor tinggi, saingan sikit", "Titik biru = topik baru sejak kali terakhir kau buka"]],
-    ["learn", "Semua bahan video siap", "Tekan mana-mana topik untuk buka halaman penuh dengan 4 tab:", ["Ringkasan: kenapa trending, sumber, rancang upload", "Idea: skrip, Shorts, soalan lazim, tajuk", "SEO & Promosi: deskripsi, tag, post, kuiz, balasan komen"]],
-    ["plan", "Rancang & jejak prestasi", "Mula setiap hari di tab Hari ini.", ["Leret topik ke kanan = plan esok, ke kiri = dah upload", "Tab Plan: jadual minggu, prestasi, laporan, backup", "Tarik skrin ke bawah untuk muat semula · Aa = saiz tulisan"]]
+    ["learn", "Semua bahan video siap", "Tekan mana-mana topik untuk buka halaman penuh dengan 4 tab:", ["Ringkasan: kenapa trending, sumber, rancang upload", "Idea: skrip, Shorts, soalan lazim, tajuk", "SEO & Promosi: deskripsi, tag, post, kuiz, balasan komen", "Ringkasan juga ada Nota aku, Kad imej dan Banding 2 topik"]],
+    ["plan", "Rancang & jejak prestasi", "Mula setiap hari di tab Hari ini.", ["Leret topik ke kanan = plan esok, ke kiri = dah upload", "Tab Plan: jadual minggu, prestasi, laporan, backup", "Tarik skrin ke bawah untuk muat semula · Aa = saiz tulisan, kontras & pasang app"]]
   ];
   let onbI = 0;
   function renderOnb(){
@@ -2113,7 +2374,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
       state.done[id] = Object.assign({}, info, { t: info.t || planTitle(id), d: info.d || isoOf(pub), g: info.g || groupOf(findItem(id)), u });
       if(r.v.views != null && r.age >= 7 && typeof info.v !== "number") state.done[id].v = r.v.views;
       saveDone(); toast("Disimpan ke Prestasi ✓"); buzz(); render(); popCheck(); }
-    else if(d.open){ openSheet(d.open); }
+    else if(d.open){ if(state.cmp) cmpPick(d.open); else openSheet(d.open); }
     else if(d.close){ closeSheet(); }
     else if(d.onb){ if(d.onb === "next"){ onbI++; renderOnb(); } else if(d.onb === "show"){ onbI = 0; renderOnb(); } else endOnb(); }
     else if(d.ptab){ state.ptab = d.ptab; state.bmsg = null; render(); window.scrollTo(0, 0); }
@@ -2187,7 +2448,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
   }
 
   if("serviceWorker" in navigator){ window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); }); }
-  const net = () => { $("offline").hidden = navigator.onLine; };
+  const net = () => { netPaint(); if(state.data && !state.sheet && state.view === "hari") render(); };
   window.addEventListener("online", net); window.addEventListener("offline", net); net();
 
   (async function start(){
@@ -2204,7 +2465,7 @@ Tulis pakej video dalam Bahasa Melayu. Guna hanya fakta di atas; jangan reka ang
     render();
     try{ state.latest = state.data = await getJson("data.json"); }
     catch(e){ $("view").innerHTML = `<div class="empty">Senarai tak dapat dimuatkan. Muat semula halaman ini.</div>`; return; }
-    initSeen();
+    initSeen(); netPaint();
     if(shared){ anaRun(state.ana.url); }
     if(startView === "cari"){ render(); setView("cari"); }
     getJson("history/scores.json").then(sc => { state.scores = sc; render(); }).catch(() => {});
