@@ -1,9 +1,9 @@
 {
- "date": "2026-11-24",
- "updated_label": "24 Nov 2026, 7 petang",
+ "date": "2026-11-25",
+ "updated_label": "25 Nov 2026, 7 pagi",
  "items": [
   {
-   "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan di iPhone, Android dan Huawei, plus terangkan beza pop-up EWS dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
+   "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan MySiren di iPhone, Android dan Huawei, plus terangkan beza pop-up MySiren dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
    "app": {
     "name": "Tetapan telefon > Amaran kecemasan (Wireless emergency alerts)"
    },
@@ -16,24 +16,24 @@
    "deadline": "Ujian seluruh negara: 29 Nov 2026, 10–10.30 pagi",
    "faq": [
     {
-     "a": "Ujian seluruh negara pada 29 Nov 2026 jam 10 hingga 10.30 pagi, selepas simulasi dekat Parlimen pada 23 Nov.",
+     "a": "Ujian seluruh negara pada 29 Nov 2026 dalam tempoh 10–10.30 pagi; Lowyat.NET lapor notifikasi ujian bermula 10.10 pagi.",
      "q": "Bila ujian amaran kecemasan ni?"
     },
     {
-     "a": "Tak perlu, amaran dihantar terus ke telefon serasi melalui Cell Broadcast.",
+     "a": "Tak perlu, MySiren dihantar terus ke telefon serasi melalui Cell Broadcast tanpa daftar atau data mudah alih.",
      "q": "Kena download app ke?"
     },
     {
-     "a": "Telefon lama akan terus terima amaran melalui SMS, manakala telefon baharu dapat pop-up.",
+     "a": "Telefon lama atau tidak serasi akan terus terima amaran bencana melalui SMS.",
      "q": "Phone aku lama, boleh dapat tak?"
     },
     {
-     "a": "MCMC sebut iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas, dan syarat ini boleh berubah.",
+     "a": "iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau Huawei EMUI 16 ke atas.",
      "q": "Versi phone apa yang perlu?"
     },
     {
-     "a": "Belum ada tarikh rasmi; operasi penuh bergantung pada kesediaan sistem selepas ujian akhir.",
-     "q": "Bila sistem ni guna betul-betul?"
+     "a": "Ada lapan jenis amaran dan hanya amaran Kebangsaan dan Ekstrem yang tidak boleh dimatikan.",
+     "q": "Boleh off ke amaran ni?"
     }
    ],
    "icon": "shield",
@@ -41,8 +41,8 @@
    "ideas": [
     "Phone Korang Akan Berbunyi 29 Nov! Ini Sebabnya",
     "Cara On Amaran Kecemasan iPhone & Android",
-    "Tak Dapat Amaran EWS? Semak 3 Benda Ni",
-    "EWS vs SMS NADMA: Apa Bezanya?",
+    "MySiren: 5 Benda Wajib Tahu Sebelum 29 Nov",
+    "MySiren vs SMS NADMA: Apa Bezanya?",
     "Amaran Banjir Palsu WhatsApp: Cara Kenal Pasti"
    ],
    "quiz": [
@@ -53,7 +53,7 @@
       "29 Nov",
       "1 Dis"
      ],
-     "q": "Ujian EWS seluruh negara diadakan pada…"
+     "q": "Ujian MySiren seluruh negara diadakan pada…"
     },
     {
      "a": 2,
@@ -62,52 +62,52 @@
       "Panggilan suara",
       "Pop-up dengan bunyi khas"
      ],
-     "q": "Amaran EWS dihantar ke telefon dalam bentuk…"
+     "q": "Amaran MySiren dihantar ke telefon dalam bentuk…"
     },
     {
      "a": 0,
      "o": [
-      "Update OS telefon",
-      "Download app MCMC",
-      "Daftar di laman web"
+      "MySiren",
+      "MyAlert",
+      "MyBanjir"
      ],
-     "q": "Nak terima amaran EWS, perlu buat apa?"
+     "q": "Apakah nama rasmi sistem amaran awal Malaysia?"
     }
    ],
    "script": {
     "cta": "Share video ni dalam group keluarga supaya mak ayah tak terkejut 29 Nov nanti, dan subscribe untuk tips telefon lain.",
-    "hook": "Pada 29 November ni, jam 10 pagi, phone korang mungkin tiba-tiba berbunyi kuat dengan mesej amaran. Jangan panik, itu ujian sistem amaran kecemasan baharu MCMC. Tapi kalau phone korang tak di-update, korang mungkin tak dapat langsung.",
+    "hook": "Sabtu ni, 29 November, pagi-pagi lagi phone korang mungkin berbunyi kuat dengan mesej amaran. Jangan panik, itu ujian MySiren, sistem amaran kecemasan baharu negara. Tapi kalau phone tak di-update, korang mungkin tak dapat langsung.",
     "points": [
-     "Apa itu EWS: sistem amaran awal guna Cell Broadcast yang hantar pop-up terus ke telefon dalam kawasan terjejas, tak perlu download app.",
-     "Tarikh: simulasi berhampiran Parlimen 23 Nov, ujian seluruh negara 29 Nov 2026 jam 10 hingga 10.30 pagi.",
-     "Syarat telefon: iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas; telefon lama masih dapat SMS.",
-     "Tunjuk cara update OS, restart, dan hidupkan tetapan amaran kecemasan di iPhone dan Android.",
-     "Ingat: amaran EWS keluar sebagai pop-up, bukan WhatsApp; mesej banjir yang tular di WhatsApp bukan dari sistem ni."
+     "Apa itu MySiren: nama rasmi Sistem Amaran Awal yang diumumkan Fahmi Fadzil pada 23 Nov, guna Cell Broadcast untuk hantar pop-up terus ke telefon dalam kawasan terjejas.",
+     "Tarikh: ujian seluruh negara 29 Nov 2026 dalam tempoh 10–10.30 pagi, dikawal dari pusat NADMA.",
+     "Syarat telefon: iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau EMUI 16 ke atas; telefon lama masih dapat SMS.",
+     "Tunjuk cara update OS, restart, dan hidupkan tetapan amaran kecemasan di iPhone dan Android; ada lapan jenis amaran, hanya Kebangsaan dan Ekstrem tak boleh dimatikan.",
+     "Ingat: MySiren keluar sebagai pop-up, percuma dan tak kumpul data peribadi; mesej banjir yang tular di WhatsApp bukan dari sistem ni."
     ]
    },
    "seo": {
     "hashtags": [
+     "#MySiren",
      "#amarankecemasan",
      "#mcmc",
-     "#ews",
      "#amaranbanjir",
      "#tipstelefon"
     ],
     "keywords": [
-     "ujian amaran kecemasan 29 november",
+     "mysiren ujian 29 november",
      "cara on emergency alert iphone",
      "mcmc early warning system",
      "amaran banjir telefon malaysia",
      "cell broadcast malaysia"
     ],
     "tags": [
+     "mysiren",
      "ews mcmc",
      "amaran kecemasan",
      "emergency alert",
      "cell broadcast",
      "amaran banjir",
      "tips telefon",
-     "iphone",
      "android"
     ],
     "thumbs": [
@@ -118,8 +118,8 @@
    },
    "shorts": [
     {
-     "beat": "Terangkan ia ujian EWS MCMC 10–10.30 pagi, pop-up dengan bunyi khas, bukan kecemasan sebenar.",
-     "hook": "29 Nov jam 10 pagi, phone satu Malaysia akan berbunyi.",
+     "beat": "Terangkan ia ujian MySiren dalam tempoh 10–10.30 pagi, pop-up dengan bunyi khas, bukan kecemasan sebenar dan tak perlu app.",
+     "hook": "29 Nov pagi, phone satu Malaysia akan berbunyi.",
      "title": "Phone Berbunyi 29 Nov? Jangan Panik"
     },
     {
@@ -128,12 +128,16 @@
      "title": "On Amaran Kecemasan Dalam 20 Saat"
     },
     {
-     "beat": "Fahmi kata EWS guna pop-up, bukan SMS atau WhatsApp. Tunjuk beza rupa pop-up dan mesej forward.",
-     "hook": "Mesej amaran banjir dalam WhatsApp tu bukan dari kerajaan.",
+     "beat": "MySiren guna pop-up Cell Broadcast, bukan WhatsApp. Tunjuk beza rupa pop-up rasmi dan mesej forward yang tular.",
+     "hook": "Mesej amaran banjir dalam WhatsApp tu bukan dari MySiren.",
      "title": "Amaran Banjir WhatsApp = Palsu?"
     }
    ],
    "sources": [
+    {
+     "name": "Lowyat.NET (23 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410217/malaysia-ews-called-mysiren/"
+    },
     {
      "name": "Bernama (19 Nov 2026)",
      "url": "https://bernama.com/en/news.php?id=2636688"
@@ -167,10 +171,10 @@
      "url": "https://bernama.com/bm/news.php?id=2636627"
     }
    ],
-   "title": "Ujian amaran kecemasan di telefon 29 Nov: update phone korang dulu",
-   "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. SoyaCincau (19 Nov) lapor ujian dibuat dalam tiga fasa (ujian teknikal 19 Nov, simulasi Parlimen 23 Nov, ujian awam 29 Nov) dan sistem mungkin beroperasi penuh menjelang hujung 2026 jika ujian berjalan lancar; untuk iPhone, syarat awal ialah iPhone 11 ke atas. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
-   "score": 98,
-   "prev_score": 97,
+   "title": "Ujian MySiren 29 Nov: phone akan berbunyi, update dulu",
+   "why": "Sistem Amaran Awal (EWS) berasaskan Cell Broadcast kini dinamakan secara rasmi 'MySiren', diumumkan Menteri Komunikasi Fahmi Fadzil pada 23 Nov 2026, dan ujian serentak seluruh negara dibuat pada 29 Nov 2026 dalam tempoh 10–10.30 pagi (Lowyat.NET lapor notifikasi ujian bermula 10.10 pagi) dari pusat kawalan NADMA. Telefon serasi (iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau Huawei EMUI 16 ke atas) akan terima pop-up dengan bunyi khas tanpa perlu daftar, muat turun app atau data mudah alih, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 23 Nov). Sistem bernilai kira-kira RM200 juta ini dikendalikan MCMC, tidak mengumpul data peribadi, dan ada lapan jenis amaran di mana hanya amaran Kebangsaan dan Ekstrem tidak boleh dimatikan. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan sebagai latihan dalaman (NST).",
+   "score": 99,
+   "prev_score": 98,
    "status": "panas"
   },
   {
@@ -195,8 +199,8 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 93,
-   "score": 92,
+   "prev_score": 92,
+   "score": 91,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -381,8 +385,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 90,
-   "score": 91,
+   "prev_score": 91,
+   "score": 90,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -498,7 +502,7 @@
    "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen. Untuk penduduk Selangor, Bajet Selangor 2027 (dibentang 13 Nov) umum subsidi SEL 30, iaitu RM30 sebulan untuk tambang tren dan bas mulai 2027 dengan peruntukan RM5 juta untuk kira-kira 13,000 komuter; syarat dan cara daftar belum diumumkan (RinggitPlus, 16 Nov)."
   },
   {
-   "angle": "Video peringatan praktikal: semak baki SARA dalam MyKad sekarang dan rancang belanja barang keperluan sebelum kredit hangus 31 Disember. Sertakan sedikit konteks peruntukan SARA 2027.",
+   "angle": "Video peringatan praktikal: semak baki SARA dalam MyKad sekarang, cari kedai SARA terdekat (termasuk kedai runcit kampung) dalam app MyKasih, dan rancang belanja barang keperluan sebelum kredit hangus 31 Disember.",
    "cat": "kewangan",
    "competition": {
     "checked": "24 Nov 2026",
@@ -520,12 +524,12 @@
      "q": "Ramai ke yang dah guna SARA?"
     },
     {
-     "a": "Ada, peruntukan SARA 2027 dinaikkan kepada RM10 bilion, tetapi butiran dan tarikh kredit 2027 belum diumumkan sepenuhnya.",
+     "a": "Ada, Belanjawan 2027 umum penerima STR dapat SARA sehingga RM150 sebulan, tetapi itu jumlah maksimum dan bergantung kategori.",
      "q": "Tahun depan ada SARA lagi tak?"
     },
     {
-     "a": "Tarikh akhir 31 Disember makin dekat dan penggunaan di sesetengah negeri seperti Sarawak baru sekitar 93%.",
-     "q": "Kenapa kerajaan ingatkan sekarang?"
+     "a": "Boleh, mana-mana peruncit boleh mohon terminal SARA daripada MOF, jadi tanya tuan kedai sama ada terminal sudah dipasang.",
+     "q": "Kedai runcit kampung boleh terima SARA ke?"
     }
    ],
    "icon": "aid",
@@ -535,7 +539,7 @@
     "Nak Beli Apa Dengan Baki SARA Korang?",
     "SARA Untuk Semua RM100: Dah Guna Belum?",
     "5 Silap Guna SARA Yang Buat Kredit Hangus",
-    "SARA 2027 Naik Ke RM10 Bilion: Apa Maksudnya?"
+    "SARA Kini Di Kedai Runcit Kampung: Cara Semak"
    ],
    "quiz": [
     {
@@ -609,9 +613,9 @@
      "title": "95% Dah Guna, Korang Pula?"
     },
     {
-     "beat": "Mitos vs fakta: baki 2026 tak boleh dibawa ke 2027; peruntukan SARA 2027 naik ke RM10 bilion, tapi itu kredit baharu.",
-     "hook": "Ramai ingat baki SARA akan sambung tahun depan. Salah.",
-     "title": "Mitos: Baki SARA Boleh Simpan?"
+     "beat": "Terangkan kenyataan Dewan Rakyat 23 Nov: peruncit mohon terminal dari MOF, ada 15,000 premis rakan SARA; tunjuk cara cari kedai dalam app MyKasih.",
+     "hook": "Tak ada pasar raya dekat rumah? Kedai runcit kampung pun boleh terima SARA.",
+     "title": "Kedai Runcit Kampung Pun Boleh SARA"
     }
    ],
    "sources": [
@@ -626,11 +630,15 @@
     {
      "name": "RinggitPlus (19 Nov 2026)",
      "url": "https://ringgitplus.com/en/blog/personal-finance-news/use-your-sara-credit-before-it-expires-on-31-december.html"
+    },
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/kredit-sara-anda-kini-boleh-digunakan-di-kedai-runcit-kampung.html"
     }
    ],
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
-   "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion. RinggitPlus (19 Nov) ingatkan baki boleh disemak di portal SARA (sara.gov.my), app MyKasih atau resit belian, dengan lebih 14,000 kedai SARA dan barangan asas dalam 15 kategori; tahun lalu kira-kira RM150 juta kredit sekali beri yang tak digunakan disalurkan kepada golongan memerlukan.",
-   "score": 86,
+   "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov); di Sarawak penggunaan baru 93%. Pada 23 Nov, Timbalan Menteri KPDN Fuziah Salleh beritahu Dewan Rakyat kedai runcit kampung boleh sertai SARA dengan memohon terminal bayaran daripada MOF; kini ada kira-kira 15,000 premis rakan SARA termasuk 6,800 kedai runcit kecil dan koperasi, dengan sasaran 10,000 kedai runcit kecil menjelang hujung 2026 (RinggitPlus, 24 Nov). Baki boleh disemak di portal SARA (sara.gov.my) atau app MyKasih, dan untuk 2027 penerima STR akan dapat SARA sehingga RM150 sebulan, dengan peruntukan SARA naik dari RM8 bilion ke RM10 bilion.",
+   "score": 88,
    "prev_score": 86,
    "status": "panas",
    "script": {
@@ -646,6 +654,432 @@
    }
   },
   {
+   "angle": "Tutorial skrin renew pasport dalam app MyGOV (update app, log masuk MyDigital ID, bayar, pilih pejabat) dan bandingkan dengan MyOnline Passport, kemudian kira jujur bila 10 tahun berbaloi. Ingatkan pengambilan melalui MyGOV buat masa ini hanya di Putrajaya.",
+   "app": {
+    "name": "MyGOV Malaysia / MyOnline Passport",
+    "url": "https://www.mygov.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa tutorial BM renew pasport melalui laman MyOnline Passport, tetapi belum jumpa video BM tentang renew pasport terus dalam app MyGOV (fungsi baharu 24 Nov)."
+   },
+   "deadline": "Renew dalam app MyGOV dibuka sejak 24 Nov 2026",
+   "faq": [
+    {
+     "a": "Boleh, melalui MyOnline Passport sejak 2 Nov 2026 dan terus dalam app MyGOV Malaysia sejak 24 Nov 2026.",
+     "q": "Boleh ke renew pasport secara online?"
+    },
+    {
+     "a": "RM350 untuk umur 18–59 tahun, RM175 untuk warga emas 60 tahun ke atas, dan percuma untuk OKU berdaftar.",
+     "q": "Berapa harga pasport 10 tahun?"
+    },
+    {
+     "a": "Tidak, umur 13–17 tahun hanya boleh pasport 5 tahun dan penjaga sah perlu mohon serta hadir ketika ambil.",
+     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?"
+    },
+    {
+     "a": "Ya, pasport mesti diambil sendiri, dan untuk permohonan melalui app MyGOV buat masa ini hanya di Pejabat Imigresen Shaftsbury, Putrajaya.",
+     "q": "Kena pergi pejabat imigresen juga ke?"
+    },
+    {
+     "a": "Untuk pasport 10 tahun tidak, baki tempoh lama tidak dibawa ke pasport baharu.",
+     "q": "Baki tempoh pasport lama dapat disambung tak?"
+    }
+   ],
+   "icon": "passport",
+   "id": "pasport-10-tahun-online",
+   "ideas": [
+    "Renew Pasport Guna App MyGOV: Step by Step",
+    "Pasport 5 vs 10 Tahun: Mana Lebih Jimat?",
+    "MyGOV vs MyOnline Passport: Mana Lebih Senang?",
+    "RM350 Pasport 10 Tahun: Baki Lama Hangus?",
+    "5 Kesilapan Gambar Pasport Online"
+   ],
+   "quiz": [
+    {
+     "a": 0,
+     "o": [
+      "Shaftsbury, Putrajaya",
+      "UTC Pudu Sentral",
+      "Mana-mana pejabat"
+     ],
+     "q": "Renew pasport melalui app MyGOV, pejabat ambil buat masa ini ialah…"
+    },
+    {
+     "a": 1,
+     "o": [
+      "RM200",
+      "RM350",
+      "RM400"
+     ],
+     "q": "Berapakah yuran pasport 10 tahun untuk dewasa 18–59 tahun?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Warga emas 60+",
+      "OKU berdaftar",
+      "Remaja 13–17 tahun"
+     ],
+     "q": "Siapa yang hanya boleh dapat pasport 5 tahun?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#renewpasport",
+     "#MyGOV",
+     "#pasport10tahun",
+     "#imigresen",
+     "#tutorialonline"
+    ],
+    "keywords": [
+     "renew pasport app mygov",
+     "renew pasport online 10 tahun",
+     "pasport 10 tahun harga",
+     "pasport 5 tahun atau 10 tahun",
+     "myonline passport cara"
+    ],
+    "tags": [
+     "renew pasport",
+     "mygov malaysia",
+     "pasport 10 tahun",
+     "myonline passport",
+     "imigresen malaysia",
+     "pasport malaysia",
+     "tutorial online",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "RENEW DALAM MYGOV",
+     "PASPORT 10 TAHUN RM350",
+     "5 ATAU 10 TAHUN?"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Kira atas skrin: dua kali 5 tahun RM400 vs sekali 10 tahun RM350, jimat RM50, tapi hanya berbaloi kalau guna sekurang-kurangnya 8 tahun 9 bulan.",
+     "hook": "Pasport 10 tahun RM350, tapi belum tentu korang untung.",
+     "title": "Pasport 10 Tahun: Untung RM50 Je?"
+    },
+    {
+     "beat": "Rakam skrin: update MyGOV ke versi 2.1.4, pilih renew pasport, bayar dan pilih pejabat ambil; ingatkan buat masa ini hanya Shaftsbury Putrajaya.",
+     "hook": "Renew pasport sekarang boleh terus dalam app MyGOV.",
+     "title": "Renew Pasport Dalam App MyGOV"
+    },
+    {
+     "beat": "Terangkan baki tempoh pasport lama tak dibawa ke pasport 10 tahun, jadi rancang renew dekat tarikh tamat tapi semak syarat 6 bulan negara destinasi.",
+     "hook": "Renew awal, baki pasport lama korang boleh hangus.",
+     "title": "Jangan Renew Awal Sangat!"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/malaysians-can-now-renew-passports-through-mygov-malaysia-app/244598"
+    },
+    {
+     "name": "Malay Mail (1 Nov 2026)",
+     "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/01/online-renewal-for-10-year-malaysian-passports-starts-tomorrow/241623"
+    },
+    {
+     "name": "RinggitPlus (2 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/pasport-10-tahun-kini-boleh-diperbaharui-secara-dalam-talian.html"
+    },
+    {
+     "name": "NST",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1568608/malaysians-can-choose-5-or-10-year-passport-validity-nov-2"
+    },
+    {
+     "name": "Bernama",
+     "url": "https://www.bernama.com/en/general/news.php?id=2628638"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/408922/malaysia-10-year-passport-apply-online/"
+    }
+   ],
+   "title": "Renew pasport online: kini terus dalam app MyGOV",
+   "why": "Pada 24 Nov 2026, Kementerian Digital umum app MyGOV Malaysia versi 2.1.4 kini membolehkan permohonan renew pasport dan bayaran online terus dalam app, termasuk pilih pejabat Imigresen untuk ambil pasport; buat masa ini pengambilan hanya di Pejabat Imigresen Shaftsbury, Putrajaya, dan lokasi lain akan ditambah berperingkat (Malay Mail). Sejak 2 Nov 2026 pula, rakyat boleh pilih tempoh 5 atau 10 tahun melalui MyOnline Passport; pasport 10 tahun untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun (RinggitPlus, 2 Nov). Baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
+   "score": 80,
+   "prev_score": 71,
+   "status": "naik"
+  },
+  {
+   "angle": "Video 'mula dari RM0': kira sasaran dana kecemasan ikut belanja wajib sendiri, cara asingkan akaun dan auto-transfer hari gaji, dan kenapa kad kredit (caj sehingga 18% setahun) atau Akaun Fleksibel KWSP bukan pilihan pertama. Guna contoh angka, bukan janji pulangan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video BM evergreen tentang tabung kecemasan dan simpan duit gaji kecil, tetapi kebanyakannya bukan baharu. Sudut kosong: kupas data BNM 61% terbaru dan kira sasaran guna belanja wajib sebenar."
+   },
+   "faq": [
+    {
+     "a": "Ya, itu data BNM 2024 yang dipetik TPM Fadillah pada 22 Nov 2026, naik dari 47% pada 2021.",
+     "q": "Betul ke 61% rakyat tak ada RM1,000?"
+    },
+    {
+     "a": "RinggitPlus syorkan 3 hingga 6 bulan perbelanjaan wajib, dan PIDM syorkan 6 bulan.",
+     "q": "Berapa banyak dana kecemasan patut ada?"
+    },
+    {
+     "a": "Mula dengan sasaran RM1,000 dulu, contohnya RM250 sebulan dah capai RM1,000 dalam 4 bulan.",
+     "q": "Gaji kecil, nak mula macam mana?"
+    },
+    {
+     "a": "Dalam akaun simpanan berasingan dari akaun gaji, dan deposit layak dilindungi PIDM sehingga RM250,000 setiap pendeposit bagi setiap bank ahli.",
+     "q": "Simpan dekat mana yang selamat?"
+    },
+    {
+     "a": "Boleh dikeluarkan bagi yang bawah 55 tahun, tetapi RinggitPlus nasihat ia jadi pilihan terakhir.",
+     "q": "Boleh guna Akaun Fleksibel KWSP?"
+    }
+   ],
+   "icon": "salary",
+   "id": "dana-kecemasan-rm1000",
+   "ideas": [
+    "61% Rakyat Tak Ada RM1,000: Korang Macam Mana?",
+    "Cara Kumpul RM1,000 Dalam 4 Bulan",
+    "Dana Kecemasan: Berapa Korang Patut Ada?",
+    "Simpan Dana Kecemasan Di Mana Yang Selamat?",
+    "5 Silap Guna Kad Kredit Sebagai Dana Kecemasan"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "47%",
+      "61%",
+      "37%"
+     ],
+     "q": "Berapa % rakyat sukar kumpul RM1,000 ketika kecemasan (BNM 2024)?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "3–6 bulan belanja wajib",
+      "1 bulan gaji",
+      "RM500 sahaja"
+     ],
+     "q": "Sasaran dana kecemasan yang disyorkan ialah…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "10 bulan",
+      "2 bulan",
+      "4 bulan"
+     ],
+     "q": "Simpan RM250 sebulan, berapa lama capai RM1,000?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#DanaKecemasan",
+     "#SimpanDuit",
+     "#KewanganPeribadi",
+     "#TipsJimat",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "dana kecemasan berapa perlu",
+     "cara simpan duit kecemasan",
+     "simpanan kecemasan rm1000",
+     "tabung kecemasan gaji kecil",
+     "61 peratus tiada simpanan"
+    ],
+    "tags": [
+     "dana kecemasan",
+     "tabung kecemasan",
+     "simpan duit",
+     "tips kewangan",
+     "kewangan peribadi",
+     "gaji kecil",
+     "bnm",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "61% TAK ADA RM1,000",
+     "RM250 SEBULAN CUKUP?",
+     "DANA KECEMASAN KORANG?"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Kongsi data BNM 2024 yang dipetik Fadillah pada 22 Nov: 61% sukar kumpul RM1,000, naik dari 47% pada 2021.",
+     "hook": "Kalau kereta rosak esok, korang ada RM1,000 tak?",
+     "title": "6 Dari 10 Orang Tak Ada RM1,000"
+    },
+    {
+     "beat": "Tunjuk kalkulator: RM250 x 4 = RM1,000, RM250 x 12 = RM3,000; kemudian sasaran akhir 3–6 bulan belanja wajib.",
+     "hook": "Simpan RM250 sebulan, dalam 4 bulan korang dah ada RM1,000.",
+     "title": "RM1,000 Dalam 4 Bulan, Boleh?"
+    },
+    {
+     "beat": "Baki kad kredit tak dijelas penuh boleh kena caj sehingga 18% setahun; simpan dana dalam akaun berasingan yang dilindungi PIDM sehingga RM250,000.",
+     "hook": "Ramai anggap kad kredit tu dana kecemasan. Itu silap.",
+     "title": "Jangan Guna Kad Kredit Untuk Kecemasan"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/61-rakyat-malaysia-tiada-simpanan-kecemasan-rm1000-kata-fadillah.html"
+    },
+    {
+     "name": "RinggitPlus (23 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/6-in-10-malaysians-dont-have-rm1000-ready-for-an-emergency.html"
+    }
+   ],
+   "title": "61% rakyat tiada RM1,000 simpanan kecemasan: cara mula bina dana",
+   "why": "TPM Fadillah Yusof pada 22 Nov 2026 (majlis ASNB di Kuching) memetik laporan BNM 2024 bahawa 61% rakyat Malaysia sukar mengumpul RM1,000 ketika kecemasan, naik dari 47% pada 2021, dan hanya 37% mampu tampung belanja lebih tiga bulan jika hilang pendapatan (RinggitPlus, 23–24 Nov). Tinjauan RMFLS 2026 tajaan GXBank (3,005 responden dalam talian, Sept–Okt 2026) pula dapati 57% kata simpanan cukup tiga bulan atau kurang, dan 22% kurang sebulan. RinggitPlus syorkan sasaran 3–6 bulan belanja wajib dan mula dengan RM1,000; contohnya RM250 sebulan capai RM1,000 dalam 4 bulan.",
+   "score": 78,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
+   "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun. Buat versi susulan sebaik MOF umum harga 26 Nov–2 Dis.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
+   },
+   "deadline": "Harga 19–25 Nov; harga baharu dijangka diumum petang 25 Nov",
+   "icon": "chart",
+   "id": "harga-minyak-turun-nov",
+   "ideas": [
+    "Harga Minyak Turun Lagi! RON97 Kini RM4.00",
+    "BUDI95: Korang Jimat Berapa Sebulan Sebenarnya?",
+    "3 Minggu Turun, Kenapa BUDI95 Kekal RM1.99?",
+    "Cara Isi Minyak Harga BUDI95 Guna MyKad",
+    "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
+   ],
+   "prev_score": 77,
+   "score": 76,
+   "seo": {
+    "hashtags": [
+     "#hargaminyak",
+     "#budi95",
+     "#ron97",
+     "#ron95",
+     "#subsidiminyak"
+    ],
+    "keywords": [
+     "harga minyak minggu ini",
+     "harga ron97 terkini",
+     "budi95 harga",
+     "ron95 tanpa subsidi",
+     "harga diesel terkini"
+    ],
+    "tags": [
+     "harga minyak",
+     "ron97",
+     "ron95",
+     "budi95",
+     "diesel",
+     "subsidi minyak",
+     "mof",
+     "harga petrol malaysia"
+    ],
+    "thumbs": [
+     "MINYAK TURUN LAGI!",
+     "RON97 RM4.00",
+     "JIMAT BERAPA?"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Siaran Media MOF (18 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
+    },
+    {
+     "name": "NST (11 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
+    },
+    {
+     "name": "Siaran Media MOF (11 Nov 2026)",
+     "url": "https://mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+    },
+    {
+     "name": "RinggitPlus – harga minyak live",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/petrol-price-malaysia-live-updates-ron95-ron97-diesel.html"
+    }
+   ],
+   "status": "naik",
+   "title": "Harga minyak turun lagi: RON97 RM4.00, BUDI95 kekal RM1.99",
+   "why": "MOF umum pada 18 Nov 2026 bahawa untuk 19–25 November, RON97 turun 20 sen ke RM4.00 seliter, RON95 tanpa subsidi turun 15 sen ke RM3.72 dan diesel tanpa subsidi turun 15 sen ke RM4.72, iaitu minggu ketiga berturut-turut harga tanpa subsidi turun. BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10; kerajaan tanggung subsidi RM1.73 seliter untuk RON95 (kira-kira 47%) dan RM2.62 seliter untuk diesel (kira-kira 56%). MOF kata hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan, dan harga dunia dijangka terus turun naik kerana risiko geopolitik.",
+   "shorts": [
+    {
+     "beat": "RON97 RM4.00, RON95 tanpa subsidi RM3.72, diesel tanpa subsidi RM4.72. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
+     "hook": "Minggu ketiga harga minyak turun. Ni harga penuh.",
+     "title": "Harga Minyak Minggu Ni (19–25 Nov)"
+    },
+    {
+     "beat": "Subsidi RM1.73 seliter (kira-kira 47%). Kira contoh isi 40 liter: beza harga BUDI95 RM1.99 dengan tanpa subsidi RM3.72.",
+     "hook": "Korang tahu kerajaan tanggung berapa untuk setiap liter RON95 korang?",
+     "title": "BUDI95 Jimat Berapa Sebenarnya?"
+    },
+    {
+     "beat": "Yang turun ialah harga tanpa subsidi; BUDI95 harga tetap, jadi bila harga pasaran turun, yang berkurang ialah subsidi kerajaan (dari RM1.88 ke RM1.73 seliter).",
+     "hook": "Harga minyak dah turun 3 minggu. Tapi BUDI95 masih RM1.99. Kenapa?",
+     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
+    }
+   ],
+   "faq": [
+    {
+     "a": "RM4.00 seliter untuk 19–25 November, turun 20 sen.",
+     "q": "Harga RON97 minggu ni berapa?"
+    },
+    {
+     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi RM3.72.",
+     "q": "Harga RON95 berapa?"
+    },
+    {
+     "a": "Diesel tanpa subsidi RM4.72; BUDI Diesel RM2.10.",
+     "q": "Harga diesel berapa?"
+    },
+    {
+     "a": "RM1.73 seliter, kira-kira 47% harga tanpa subsidi.",
+     "q": "Berapa subsidi RON95 seliter sekarang?"
+    },
+    {
+     "a": "MOF biasanya umum harga mingguan pada hari Rabu; harga untuk 26 Nov–2 Dis dijangka diumumkan 25 Nov.",
+     "q": "Bila harga baru diumumkan?"
+    }
+   ],
+   "quiz": [
+    {
+     "a": 2,
+     "o": [
+      "RM4.20",
+      "RM3.72",
+      "RM4.00"
+     ],
+     "q": "Harga RON97 untuk 19–25 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM1.99",
+      "RM2.05",
+      "RM3.72"
+     ],
+     "q": "Harga BUDI95 seliter?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "RM1.88",
+      "RM1.73",
+      "RM2.62"
+     ],
+     "q": "Berapa subsidi RON95 seliter minggu ini?"
+    }
+   ]
+  },
+  {
    "angle": "Video amaran pendek: 3 taktik scam minggu ini (SMS saman palsu, 'tap kad pada telefon', panggilan 'polis/BNM' yang minta tinggalkan kad ATM) dan kenapa 24 jam pertama paling penting untuk lapor ke NSRC 997. Kandungan amaran scam mudah dikongsi di WhatsApp keluarga.",
    "app": {
     "name": "BNM Sahkan",
@@ -653,9 +1087,9 @@
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "21 Nov 2026",
+    "checked": "25 Nov 2026",
     "level": "tinggi",
-    "note": "Video BM yang ada kebanyakannya tutorial bayar saman MyBayar dan Semak Mule, bukan amaran terbaru. Belum jumpa video BM baharu tentang taktik \"polis\" palsu suruh tinggal kad ATM."
+    "note": "Video BM yang muncul kebanyakannya klip lama Op Pancing PDRM dan tutorial Semak Mule. Masih belum jumpa video BM baharu tentang 'polis' palsu suruh tinggal kad ATM atau app 'BNM' palsu."
    },
    "faq": [
     {
@@ -805,154 +1239,17 @@
     {
      "name": "Bernama (17 Nov 2026): RM1.18 juta, 'polis' palsu",
      "url": "https://bernama.com/en/crime_courts/news.php?id=2635726"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1580449/bank-negara-warns-cyber-attacks-and-banking-disruptions-will"
     }
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
-   "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
-   "score": 77,
-   "prev_score": 78,
+   "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'. Gabenor BNM Abdul Rasheed Ghaffour (18 Nov) pula jangka insiden siber dan gangguan perbankan akan lebih kerap, dan syorkan pendekatan 3S, iaitu Spot, Stop dan Share, bila terima maklumat mencurigakan (NST).",
+   "score": 75,
+   "prev_score": 77,
    "status": "naik"
-  },
-  {
-   "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun. Buat versi susulan sebaik MOF umum harga 26 Nov–2 Dis.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "22 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
-   },
-   "deadline": "Harga 19–25 Nov; harga baharu dijangka diumum 25 Nov",
-   "icon": "chart",
-   "id": "harga-minyak-turun-nov",
-   "ideas": [
-    "Harga Minyak Turun Lagi! RON97 Kini RM4.00",
-    "BUDI95: Korang Jimat Berapa Sebulan Sebenarnya?",
-    "3 Minggu Turun, Kenapa BUDI95 Kekal RM1.99?",
-    "Cara Isi Minyak Harga BUDI95 Guna MyKad",
-    "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
-   ],
-   "prev_score": 75,
-   "score": 77,
-   "seo": {
-    "hashtags": [
-     "#hargaminyak",
-     "#budi95",
-     "#ron97",
-     "#ron95",
-     "#subsidiminyak"
-    ],
-    "keywords": [
-     "harga minyak minggu ini",
-     "harga ron97 terkini",
-     "budi95 harga",
-     "ron95 tanpa subsidi",
-     "harga diesel terkini"
-    ],
-    "tags": [
-     "harga minyak",
-     "ron97",
-     "ron95",
-     "budi95",
-     "diesel",
-     "subsidi minyak",
-     "mof",
-     "harga petrol malaysia"
-    ],
-    "thumbs": [
-     "MINYAK TURUN LAGI!",
-     "RON97 RM4.00",
-     "JIMAT BERAPA?"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Siaran Media MOF (18 Nov 2026)",
-     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
-    },
-    {
-     "name": "NST (11 Nov 2026)",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
-    },
-    {
-     "name": "Siaran Media MOF (11 Nov 2026)",
-     "url": "https://mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
-    },
-    {
-     "name": "RinggitPlus – harga minyak live",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/petrol-price-malaysia-live-updates-ron95-ron97-diesel.html"
-    }
-   ],
-   "status": "naik",
-   "title": "Harga minyak turun lagi: RON97 RM4.00, BUDI95 kekal RM1.99",
-   "why": "MOF umum pada 18 Nov 2026 bahawa untuk 19–25 November, RON97 turun 20 sen ke RM4.00 seliter, RON95 tanpa subsidi turun 15 sen ke RM3.72 dan diesel tanpa subsidi turun 15 sen ke RM4.72, iaitu minggu ketiga berturut-turut harga tanpa subsidi turun. BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10; kerajaan tanggung subsidi RM1.73 seliter untuk RON95 (kira-kira 47%) dan RM2.62 seliter untuk diesel (kira-kira 56%). MOF kata hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan, dan harga dunia dijangka terus turun naik kerana risiko geopolitik.",
-   "shorts": [
-    {
-     "beat": "RON97 RM4.00, RON95 tanpa subsidi RM3.72, diesel tanpa subsidi RM4.72. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
-     "hook": "Minggu ketiga harga minyak turun. Ni harga penuh.",
-     "title": "Harga Minyak Minggu Ni (19–25 Nov)"
-    },
-    {
-     "beat": "Subsidi RM1.73 seliter (kira-kira 47%). Kira contoh isi 40 liter: beza harga BUDI95 RM1.99 dengan tanpa subsidi RM3.72.",
-     "hook": "Korang tahu kerajaan tanggung berapa untuk setiap liter RON95 korang?",
-     "title": "BUDI95 Jimat Berapa Sebenarnya?"
-    },
-    {
-     "beat": "Yang turun ialah harga tanpa subsidi; BUDI95 harga tetap, jadi bila harga pasaran turun, yang berkurang ialah subsidi kerajaan (dari RM1.88 ke RM1.73 seliter).",
-     "hook": "Harga minyak dah turun 3 minggu. Tapi BUDI95 masih RM1.99. Kenapa?",
-     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
-    }
-   ],
-   "faq": [
-    {
-     "a": "RM4.00 seliter untuk 19–25 November, turun 20 sen.",
-     "q": "Harga RON97 minggu ni berapa?"
-    },
-    {
-     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi RM3.72.",
-     "q": "Harga RON95 berapa?"
-    },
-    {
-     "a": "Diesel tanpa subsidi RM4.72; BUDI Diesel RM2.10.",
-     "q": "Harga diesel berapa?"
-    },
-    {
-     "a": "RM1.73 seliter, kira-kira 47% harga tanpa subsidi.",
-     "q": "Berapa subsidi RON95 seliter sekarang?"
-    },
-    {
-     "a": "MOF biasanya umum harga mingguan pada hari Rabu; harga untuk 26 Nov–2 Dis dijangka diumumkan 25 Nov.",
-     "q": "Bila harga baru diumumkan?"
-    }
-   ],
-   "quiz": [
-    {
-     "a": 2,
-     "o": [
-      "RM4.20",
-      "RM3.72",
-      "RM4.00"
-     ],
-     "q": "Harga RON97 untuk 19–25 Nov 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "RM1.99",
-      "RM2.05",
-      "RM3.72"
-     ],
-     "q": "Harga BUDI95 seliter?"
-    },
-    {
-     "a": 1,
-     "o": [
-      "RM1.88",
-      "RM1.73",
-      "RM2.62"
-     ],
-     "q": "Berapa subsidi RON95 seliter minggu ini?"
-    }
-   ]
   },
   {
    "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
@@ -994,7 +1291,7 @@
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
    "prev_score": 76,
-   "score": 76,
+   "score": 74,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -1139,6 +1436,135 @@
    }
   },
   {
+   "angle": "Tutorial praktikal: beza TP1, TP2 dan TP3, cara isi TP1 dengan resit yang ada, dan bila hantar kepada HR supaya sempat gaji Disember. Ingatkan tuntut yang benar sahaja, simpan resit 7 tahun, dan e-Filing tetap wajib.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang muncul kebanyakannya tutorial e-Filing dan kira pelepasan cukai tahunan; belum jumpa video BM khusus cara isi borang TP1 untuk kurangkan PCB sebelum hujung tahun."
+   },
+   "deadline": "Ikut tarikh cut-off gaji Disember majikan",
+   "faq": [
+    {
+     "a": "Hantar kepada HR atau bahagian gaji majikan, bukan kepada LHDN.",
+     "q": "TP1 tu hantar dekat siapa?"
+    },
+    {
+     "a": "Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, jadi tanya HR.",
+     "q": "Ada tarikh akhir hantar TP1?"
+    },
+    {
+     "a": "Contohnya gaya hidup sehingga RM2,500, sukan RM1,000, perubatan diri/pasangan/anak sehingga RM10,000 dan perubatan ibu bapa RM8,000.",
+     "q": "Pelepasan apa yang boleh dituntut?"
+    },
+    {
+     "a": "Perlu, TP1 tidak menggantikan e-Filing dan pelepasan yang sama mesti diisi semula di sana.",
+     "q": "Dah hantar TP1, perlu e-Filing lagi tak?"
+    },
+    {
+     "a": "Tak perlu lampir dengan TP1, tetapi simpan resit asal selama 7 tahun untuk audit LHDN.",
+     "q": "Kena lampir resit ke?"
+    }
+   ],
+   "icon": "tax",
+   "id": "tp1-pcb-hujung-tahun",
+   "ideas": [
+    "Borang TP1: Cara Dapat Gaji Lebih Sebelum Dis",
+    "PCB Tinggi? Isi TP1 Ni Sebelum Hujung Tahun",
+    "TP1 vs TP3: Bila Kena Hantar?",
+    "Beli Phone & Laptop, Boleh Kurangkan PCB?",
+    "5 Silap Isi TP1 Yang Buat Kena Bayar Cukai"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "LHDN",
+      "HR/majikan",
+      "Bank"
+     ],
+     "q": "Borang TP1 diserahkan kepada…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM2,500",
+      "RM1,000",
+      "RM10,000"
+     ],
+     "q": "Had pelepasan gaya hidup dalam contoh TP1 ialah…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "TP2",
+      "TP1",
+      "TP3"
+     ],
+     "q": "Borang untuk pekerja yang tukar kerja pertengahan tahun ialah…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#PCB",
+     "#BorangTP1",
+     "#CukaiPendapatan",
+     "#LHDN",
+     "#TipsJimat"
+    ],
+    "keywords": [
+     "borang tp1 pcb",
+     "cara kurangkan pcb",
+     "tp1 lhdn 2026",
+     "pelepasan cukai gaya hidup 2026",
+     "tp3 tukar kerja"
+    ],
+    "tags": [
+     "tp1",
+     "pcb",
+     "potongan cukai bulanan",
+     "lhdn",
+     "pelepasan cukai",
+     "e-filing",
+     "cukai pendapatan",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "GAJI NAIK GUNA TP1?",
+     "PCB TURUN RM70",
+     "ISI SEBELUM DIS"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Contoh RinggitPlus: gaji RM5,000, tuntut RM3,500 pelepasan melalui TP1, PCB turun dari RM110 ke RM40 sebulan, jimat RM210 Okt–Dis.",
+     "hook": "Satu borang ni boleh turunkan potongan cukai gaji korang.",
+     "title": "Jimat RM210 Dengan Satu Borang"
+    },
+    {
+     "beat": "Tunjuk ruangan TP1: isi jumlah pelepasan gaya hidup, sukan dan perubatan, serah kepada HR (bukan LHDN), simpan resit asal 7 tahun.",
+     "hook": "Ada resit beli laptop atau gym? Jangan simpan je.",
+     "title": "Cara Isi TP1 Dalam 30 Saat"
+    },
+    {
+     "beat": "TP1 cuma laraskan PCB bulanan; pelepasan sama mesti diisi dalam e-Filing, dan tuntutan berlebihan akan jadi baki cukai yang perlu dibayar.",
+     "hook": "Dah hantar TP1, boleh skip e-Filing? Salah.",
+     "title": "Mitos: Dah Isi TP1, Tak Payah e-Filing"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/cukai-pendapatan/cara-kemas-kini-pcb-dengan-majikan-menggunakan-borang-tp1-dan-tp3.html"
+    }
+   ],
+   "title": "Borang TP1: kurangkan PCB bulanan sebelum 2026 tamat",
+   "why": "RinggitPlus (24 Nov 2026) ingatkan pekerja boleh hantar borang TP1 kepada HR atau bahagian gaji (bukan LHDN) untuk tuntut pelepasan yang belum dikira dalam gaji, seperti gaya hidup sehingga RM2,500, sukan RM1,000 dan perubatan diri/keluarga sehingga RM10,000, supaya potongan PCB baki bulan tahun ini lebih rendah. Dalam contoh artikel, pekerja bergaji RM5,000 yang tuntut RM3,500 pelepasan melalui TP1 jimat RM210 dari Okt hingga Dis (PCB turun dari RM110 ke RM40 sebulan). Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, dan pelepasan yang sama masih perlu diisi dalam e-Filing.",
+   "score": 72,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
    "angle": "Video 'semak kumpulan korang': senaraikan kumpulan dan jumlah ikut jadual, tarikh bayaran yang dah diumumkan, dan apa yang belum jelas (perlu mohon atau automatik). Ingatkan jangan klik pautan yang minta butiran bank.",
    "app": {
     "name": "Portal Bantuan Kasih Johor",
@@ -1267,154 +1693,6 @@
    ],
    "title": "Bantuan Kasih Johor 2027: RM200 hingga RM2,000 untuk lebih 820,000 penerima",
    "why": "Bajet Johor 2027 bernilai RM3.07 bilion yang dibentang pada 19 Nov 2026 umum Bantuan Kasih Johor (BKJ) RM200 hingga RM2,000 seorang untuk lebih 820,000 penerima, dengan kebanyakan bayaran pada Disember 2026 dan Februari 2027 (RinggitPlus, 23 Nov). Contohnya, pemandu teksi, e-hailing dan p-hailing berdaftar (45,056 orang) dapat RM400, suri rumah tidak bekerja (193,166 orang) RM200, dan penjawat awam persekutuan di Johor RM500 (RM300 Dis, RM200 Feb). Ada juga bantuan rumah pertama RM5,000 dan sewa RM2,500, tapi syarat dan cara mohon belum diumumkan.",
-   "score": 72,
-   "prev_score": 73,
-   "status": "naik"
-  },
-  {
-   "angle": "Tutorial skrin MyOnline Passport langkah demi langkah (gambar, bayaran FPX/kad, pilih pejabat), kemudian kira jujur bila 10 tahun berbaloi dan bila 5 tahun lebih masuk akal. Ingatkan siapa yang masih wajib ke kaunter.",
-   "app": {
-    "name": "MyOnline Passport (Jabatan Imigresen)"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "23 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa tutorial BM umum cara renew pasport online dan satu Short berita pasport 10 tahun. Sudut kiraan 5 vs 10 tahun dan baki tempoh yang hangus masih kosong."
-   },
-   "deadline": "Dibuka sejak 2 Nov 2026",
-   "faq": [
-    {
-     "a": "Boleh, sejak 2 Nov 2026 melalui MyOnline Passport bagi pemegang e-pasport berumur 18 tahun ke atas.",
-     "q": "Boleh ke renew pasport 10 tahun secara online?"
-    },
-    {
-     "a": "RM350 untuk umur 18–59 tahun, RM175 untuk warga emas 60 tahun ke atas, dan percuma untuk OKU berdaftar.",
-     "q": "Berapa harga pasport 10 tahun?"
-    },
-    {
-     "a": "Tidak, umur 13–17 tahun hanya boleh pasport 5 tahun dan penjaga sah perlu mohon serta hadir ketika ambil.",
-     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?"
-    },
-    {
-     "a": "Ya, pasport mesti diambil sendiri di pejabat yang dipilih dengan bawa MyKad, pasport lama dan resit; wakil tidak dibenarkan.",
-     "q": "Kena pergi pejabat imigresen juga ke?"
-    },
-    {
-     "a": "Untuk pasport 10 tahun tidak, baki tempoh lama tidak dibawa ke pasport baharu.",
-     "q": "Baki tempoh pasport lama dapat disambung tak?"
-    }
-   ],
-   "icon": "passport",
-   "id": "pasport-10-tahun-online",
-   "ideas": [
-    "Cara Renew Pasport 10 Tahun Online (Step by Step)",
-    "Pasport 5 vs 10 Tahun: Mana Lebih Jimat?",
-    "RM350 Pasport 10 Tahun: Baki Lama Hangus?",
-    "5 Kesilapan Gambar Pasport Online",
-    "Siapa Tak Boleh Renew Pasport Online?"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "1 Okt 2026",
-      "2 Nov 2026",
-      "1 Dis 2026"
-     ],
-     "q": "Bilakah renew pasport 10 tahun secara online mula dibuka?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "RM350",
-      "RM200",
-      "RM400"
-     ],
-     "q": "Berapakah yuran pasport 10 tahun untuk dewasa 18–59 tahun?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "Warga emas 60+",
-      "OKU berdaftar",
-      "Remaja 13–17 tahun"
-     ],
-     "q": "Siapa yang hanya boleh dapat pasport 5 tahun?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#pasport10tahun",
-     "#renewpasport",
-     "#imigresen",
-     "#tipsjimat",
-     "#tutorialonline"
-    ],
-    "keywords": [
-     "renew pasport online 10 tahun",
-     "pasport 10 tahun harga",
-     "myonline passport cara",
-     "pasport 5 tahun atau 10 tahun",
-     "renew passport malaysia online 2026"
-    ],
-    "tags": [
-     "pasport 10 tahun",
-     "renew pasport",
-     "myonline passport",
-     "imigresen malaysia",
-     "pasport malaysia",
-     "tutorial online",
-     "tips jimat",
-     "cuti luar negara"
-    ],
-    "thumbs": [
-     "PASPORT 10 TAHUN RM350",
-     "RENEW DARI RUMAH",
-     "5 ATAU 10 TAHUN?"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Kira atas skrin: dua kali 5 tahun RM400 vs sekali 10 tahun RM350, jimat RM50, tapi hanya berbaloi kalau guna sekurang-kurangnya 8 tahun 9 bulan.",
-     "hook": "Pasport 10 tahun RM350, tapi belum tentu korang untung.",
-     "title": "Pasport 10 Tahun: Untung RM50 Je?"
-    },
-    {
-     "beat": "Rakam skrin MyOnline Passport: setuju syarat, muat naik gambar, bayar FPX atau kad, pilih pejabat dan tarikh ambil.",
-     "hook": "Tak payah beratur, renew pasport boleh dari phone.",
-     "title": "Renew Pasport Online Dalam 30 Saat"
-    },
-    {
-     "beat": "Terangkan baki tempoh pasport lama tak dibawa ke pasport 10 tahun, jadi rancang renew dekat tarikh tamat tapi semak syarat 6 bulan negara destinasi.",
-     "hook": "Renew awal, baki pasport lama korang boleh hangus.",
-     "title": "Jangan Renew Awal Sangat!"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Malay Mail (1 Nov 2026)",
-     "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/01/online-renewal-for-10-year-malaysian-passports-starts-tomorrow/241623"
-    },
-    {
-     "name": "RinggitPlus (2 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/pasport-10-tahun-kini-boleh-diperbaharui-secara-dalam-talian.html"
-    },
-    {
-     "name": "NST",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1568608/malaysians-can-choose-5-or-10-year-passport-validity-nov-2"
-    },
-    {
-     "name": "Bernama",
-     "url": "https://www.bernama.com/en/general/news.php?id=2628638"
-    },
-    {
-     "name": "Lowyat.NET",
-     "url": "https://www.lowyat.net/2026/408922/malaysia-10-year-passport-apply-online/"
-    }
-   ],
-   "title": "Renew pasport 10 tahun secara online",
-   "why": "Sejak 2 November 2026, rakyat Malaysia boleh pilih tempoh sah 5 atau 10 tahun ketika memperbaharui pasport melalui sistem MyOnline Passport, menurut Jabatan Imigresen (Malay Mail, NST, Bernama). Pasport 10 tahun hanya untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun; pembaharuan online untuk pemegang e-pasport berumur 13 tahun ke atas dan pasport mesti diambil sendiri di pejabat yang dipilih (RinggitPlus, 2 Nov). RinggitPlus juga nota baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50 berbanding dua kali 5 tahun) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
    "score": 71,
    "prev_score": 72,
    "status": "naik"
@@ -1551,8 +1829,8 @@
    ],
    "title": "SPayLater Motorcycle dibuka seluruh negara: beli motor ansuran sehingga RM20,000",
    "why": "Pada 19 Nov 2026, ShopeePay luaskan SPayLater Motorcycle ke seluruh negara, dengan had sehingga RM20,000 (berasingan dari had SPayLater biasa), tempoh 12–60 bulan dan kadar keuntungan 0.92% sebulan; produk ini diperakui patuh Syariah oleh Amanie Advisors (Lowyat.NET). Kiraan RinggitPlus (23 Nov) tunjuk kadar efektif kira-kira 18.9%–19.9% setahun, contohnya motor RM8,000 tanpa deposit untuk 60 bulan jadi RM206.67 sebulan dengan jumlah keuntungan RM4,400. Halaman bantuan Shopee masih sebut ia untuk pengguna terpilih, dan caj lewat RM10 dikenakan untuk bil tertunggak.",
-   "score": 71,
-   "prev_score": 72,
+   "score": 69,
+   "prev_score": 71,
    "status": "naik"
   },
   {
@@ -1687,7 +1965,7 @@
    ],
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
-   "score": 70,
+   "score": 69,
    "prev_score": 70,
    "status": "naik"
   },
@@ -1835,8 +2113,8 @@
    ],
    "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
    "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan. The Star (18 Nov) lapor pendapatan suku ketiga RM25.8 bilion itu turun kira-kira 13% berbanding suku sebelumnya, dan bertanya sama ada dividen 2026 mampu menyamai 6.15% bagi 2025.",
-   "score": 68,
-   "prev_score": 69,
+   "score": 66,
+   "prev_score": 68,
    "status": "naik"
   },
   {
@@ -1859,8 +2137,8 @@
     "5 Tanda Telefon Korang Dah Kena Malware",
     "Google Sekat APK Tak Sah 2027: Apa Berubah?"
    ],
-   "prev_score": 66,
-   "score": 65,
+   "prev_score": 65,
+   "score": 63,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -1985,283 +2263,6 @@
      "a": 0
     }
    ]
-  },
-  {
-   "angle": "Tutorial semak wang tak dituntut arwah di eGUMIS, terangkan beza pusaka ringkas, kecil dan besar serta siapa yang urus, kemudian kenapa wasiat atau hibah penting. Ingatkan penonton rujuk peguam syarie atau Amanah Raya untuk kes sebenar.",
-   "app": {
-    "name": "eGUMIS (JANM)",
-    "url": "https://egumis.anm.gov.my"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "22 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM tentang pusaka yang dijumpai kebanyakannya ceramah dan podcast umum atau tutorial lama. Belum jumpa video yang kupas angka RM90 bilion atau tunjuk cara semak eGUMIS langkah demi langkah."
-   },
-   "faq": [
-    {
-     "a": "Itu anggaran CEO CIMB Islamic pada 17 Nov 2026; RinggitPlus nota tiada data rasmi kerajaan yang menyokong angka itu.",
-     "q": "Betul ke RM90 bilion harta pusaka tak dituntut?"
-    },
-    {
-     "a": "Semak percuma di portal eGUMIS (egumis.anm.gov.my) milik Jabatan Akauntan Negara.",
-     "q": "Macam mana nak tahu arwah ada duit tak dituntut?"
-    },
-    {
-     "a": "Pusaka kecil hingga RM5 juta diurus JKPTG atau Amanah Raya, dan boleh dimohon online melalui portal MyLAND.",
-     "q": "Pusaka bawah RM5 juta nak urus kat mana?"
-    },
-    {
-     "a": "Harta alih sahaja hingga RM600,000 dikira pusaka ringkas dan diurus Amanah Raya Berhad.",
-     "q": "Kalau arwah cuma ada duit bank, KWSP dan ASNB?"
-    },
-    {
-     "a": "Tidak, penama KWSP bukan benefisiari mutlak dan perlu mengagihkan wang itu ikut faraid.",
-     "q": "Penama KWSP boleh ambil semua ke?"
-    }
-   ],
-   "icon": "learn",
-   "id": "harta-pusaka-rm90-bilion",
-   "ideas": [
-    "RM90 Bilion Harta Pusaka Tak Dituntut: Kenapa?",
-    "Cara Semak Duit Arwah Tak Dituntut di eGUMIS",
-    "Pusaka Ringkas, Kecil atau Besar: Mana Satu?",
-    "Cara Mohon Pusaka Kecil Online Guna MyLAND",
-    "Penama KWSP Bukan Pewaris Mutlak: Ramai Salah Faham"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "RM9 bilion",
-      "RM90 bilion",
-      "RM900 bilion"
-     ],
-     "q": "Berapa anggaran harta pusaka orang Islam belum dituntut (17 Nov 2026)?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "MySTR",
-      "MyJPJ",
-      "eGUMIS"
-     ],
-     "q": "Portal mana untuk semak wang tidak dituntut arwah?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "RM5 juta",
-      "RM2 juta",
-      "RM600,000"
-     ],
-     "q": "Had baharu nilai pusaka kecil ialah…"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#hartapusaka",
-     "#egumis",
-     "#faraid",
-     "#kewanganislam",
-     "#tipskewangan"
-    ],
-    "keywords": [
-     "harta pusaka tak dituntut",
-     "cara semak wang tak dituntut arwah",
-     "egumis semak wang tidak dituntut",
-     "cara tuntut pusaka kecil online",
-     "beza wasiat dan hibah"
-    ],
-    "tags": [
-     "harta pusaka",
-     "pusaka kecil",
-     "egumis",
-     "wang tidak dituntut",
-     "amanah raya",
-     "faraid",
-     "hibah",
-     "wasiat"
-    ],
-    "thumbs": [
-     "RM90 BILION TAK DITUNTUT",
-     "DUIT ARWAH TERSANGKUT?",
-     "SEMAK SEKARANG!"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Terangkan angka CEO CIMB Islamic (17 Nov), naik 135% sejak 2009, dan nota bahawa tiada data rasmi kerajaan menyokongnya. Tambah fakta 46,000 kes pusaka kecil belum selesai.",
-     "hook": "Ada anggaran RM90 bilion harta pusaka orang Islam masih belum dituntut.",
-     "title": "RM90 Bilion Pusaka Tak Dituntut?!"
-    },
-    {
-     "beat": "Rakam skrin portal egumis.anm.gov.my dan cara membuat carian. Ingatkan tuntutan biasanya perlukan surat kuasa mentadbir.",
-     "hook": "Korang boleh semak duit tak dituntut arwah keluarga secara percuma.",
-     "title": "Semak Duit Arwah di eGUMIS"
-    },
-    {
-     "beat": "Terangkan penama KWSP bukan benefisiari mutlak dan perlu agih ikut faraid. Cadangkan wasiat atau hibah, dan rujuk peguam syarie atau ARB dulu.",
-     "hook": "Ramai ingat penama KWSP boleh ambil semua duit. Salah!",
-     "title": "Penama KWSP Bukan Pewaris Mutlak"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (19 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/anggaran-rm90-bilion-harta-pusaka-orang-islam-belum-dituntut.html"
-    }
-   ],
-   "title": "RM90 bilion harta pusaka orang Islam belum dituntut: cara semak & tuntut",
-   "why": "CEO CIMB Islamic Ahmad Shahriman Mohd Sharif (17 Nov 2026) menganggarkan harta pusaka orang Islam yang belum dituntut kira-kira RM90 bilion, naik 135% sejak 2009, walaupun RinggitPlus (19 Nov) nota tiada data rasmi kerajaan yang menyokong angka itu. Lebih 46,000 kes pusaka kecil masih belum selesai setakat 31 Dis 2025, dan JANM rekod lebih RM14 bilion wang tidak dituntut setakat 30 Sept 2026. Had pusaka kecil kini RM5 juta (dulu RM2 juta) dan permohonan boleh dibuat online melalui portal MyLAND.",
-   "score": 63,
-   "prev_score": 65,
-   "status": "stabil"
-  },
-  {
-   "angle": "Video 'MediAsas untuk orang biasa': apa yang dilindungi, siapa sesuai, dan beza dengan kad medikal sedia ada. Tekankan premium sebenar belum diumumkan dan ini bukan produk pelaburan.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "22 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada 2–3 klip berita BM tentang MediAsas, kebanyakannya liputan pengumuman. Sudut 'siapa sesuai beli' dan syarat penyakit sedia ada masih kosong."
-   },
-   "deadline": "Pelancaran seluruh negara: hujung Jan 2027",
-   "icon": "shield",
-   "id": "mediasas-2027",
-   "ideas": [
-    "MediAsas: Insurans Perubatan Murah Untuk Semua?",
-    "Bayar Premium Guna KWSP? Ini Cara MediAsas",
-    "MediAsas vs Kad Medikal Biasa: Mana Lebih Baik?",
-    "Tiada Insurans? Tunggu MediAsas Januari 2027",
-    "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
-   ],
-   "prev_score": 63,
-   "score": 62,
-   "seo": {
-    "hashtags": [
-     "#mediasas",
-     "#insuransperubatan",
-     "#takaful",
-     "#bajet2027",
-     "#kewanganperibadi"
-    ],
-    "keywords": [
-     "mediasas apa itu",
-     "insurans perubatan asas",
-     "mediasas premium",
-     "takaful perubatan murah",
-     "mediasas kwsp"
-    ],
-    "tags": [
-     "mediasas",
-     "insurans perubatan",
-     "takaful",
-     "bnm",
-     "kwsp akaun sejahtera",
-     "bajet 2027",
-     "kad medikal",
-     "insurans murah"
-    ],
-    "thumbs": [
-     "INSURANS MURAH?",
-     "BAYAR GUNA KWSP",
-     "MULA JAN 2027"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Malay Mail (13 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/13/mediasas-what-malaysians-need-to-know-about-the-new-basic-medical-insurance-plan/242126"
-    },
-    {
-     "name": "MOF: rintis MediAsas",
-     "url": "https://mof.gov.my/portal/ms/berita/akhbar/jbmkks-lancar-program-rintis-mediasas-akhir-julai-peringkat-nasional-pada-2027"
-    },
-    {
-     "name": "RinggitPlus (BM)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/apa-yang-dilindungi-mediasas-dan-siapa-yang-sesuai-memilihnya.html"
-    },
-    {
-     "name": "RinggitPlus BM (13 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mediasas-mungkin-kenakan-ko-insurans-20-di-hospital-yang-tidak-patuhi-syarat.html"
-    },
-    {
-     "name": "RinggitPlus (17 Nov 2026)",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/people-with-existing-health-conditions-may-still-apply-for-mediasas.html"
-    }
-   ],
-   "status": "stabil",
-   "title": "MediAsas: insurans/takaful perubatan asas mampu milik",
-   "why": "MediAsas ialah pelan insurans dan takaful perubatan asas sukarela dengan had tahunan RM100,000 (Standard) atau RM300,000 (Standard-Plus) dan deductible RM500 (bawah 60 tahun), boleh dibeli hingga umur 70, dan dilancar seluruh negara hujung Januari 2027. Pada 11 Nov, Timbalan Menteri Kewangan Liew Chin Tong kata caj ko-insurans tambahan 20% di hospital luar rangkaian (had RM3,000 setiap penyakit) masih dikaji semasa rintis. Menteri Kesihatan sebut premium asas mungkin bermula sekitar RM65 sebulan, bergantung pada produk (RinggitPlus, 13 Nov). Timbalan Gabenor BNM Aznan Abdul Aziz (The Edge, 16 Nov) kata mereka yang ada penyakit sedia ada yang stabil dan terkawal masih boleh memohon, walaupun premium mungkin lebih tinggi atau rawatan penyakit itu dikecualikan (RinggitPlus, 17 Nov).",
-   "shorts": [
-    {
-     "title": "MediAsas: Insurans Perubatan Murah?",
-     "hook": "Tak ada insurans perubatan? Tahun depan ada pilihan baru.",
-     "beat": "Had tahunan RM100,000 atau RM300,000, deductible RM500, dilancar hujung Jan 2027. Premium muktamad belum diumum."
-    },
-    {
-     "title": "Bayar Premium Guna KWSP?",
-     "hook": "Premium MediAsas boleh dibayar guna duit KWSP. Ni syaratnya.",
-     "beat": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera. Tekankan bukan produk pelaburan."
-    },
-    {
-     "title": "Deductible RM500 Tu Apa?",
-     "hook": "Ramai salah faham perkataan 'deductible'. Ni penerangan 20 saat.",
-     "beat": "Contoh mudah: bil RM2,000, korang tanggung RM500 dulu. Sebut caj ko-insurans 20% di hospital luar rangkaian masih dikaji."
-    }
-   ],
-   "faq": [
-    {
-     "q": "Apa itu MediAsas?",
-     "a": "Pelan insurans dan takaful perubatan asas sukarela dengan manfaat seragam."
-    },
-    {
-     "q": "Berapa had perlindungan?",
-     "a": "RM100,000 setahun (Standard) atau RM300,000 (Standard-Plus)."
-    },
-    {
-     "q": "Berapa premium?",
-     "a": "Belum muktamad; Menteri Kesihatan sebut mungkin bermula sekitar RM65 sebulan, bergantung produk."
-    },
-    {
-     "q": "Boleh bayar guna KWSP?",
-     "a": "Bajet 2027 benarkan ahli bawah 55 tahun guna Akaun Sejahtera."
-    },
-    {
-     "a": "BNM kata boleh jika penyakit itu stabil dan terkawal, tapi premium mungkin lebih tinggi atau rawatannya dikecualikan.",
-     "q": "Ada penyakit sedia ada, boleh mohon tak?"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "Had tahunan pelan MediAsas Standard?",
-     "o": [
-      "RM50,000",
-      "RM100,000",
-      "RM300,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Deductible MediAsas untuk bawah 60 tahun?",
-     "o": [
-      "RM100",
-      "RM500",
-      "RM1,000"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Bila MediAsas dilancar seluruh negara?",
-     "o": [
-      "Hujung Jan 2027",
-      "Jun 2027",
-      "Sudah dilancar"
-     ],
-     "a": 0
-    }
-   ]
   }
  ],
  "upcoming": [
@@ -2276,9 +2277,9 @@
   },
   {
    "date": "29 Nov 2026",
-   "label": "Ujian amaran kecemasan EWS seluruh negara (10–10.30 pagi)",
+   "label": "Ujian MySiren (amaran kecemasan) seluruh negara, 10–10.30 pagi",
    "lead": 5,
-   "note": "Simulasi berhampiran Parlimen 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar hari ini atau esok.",
+   "note": "Nama rasmi 'MySiren' diumumkan 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar hari ini atau esok.",
    "topic": "ujian-amaran-kecemasan-ews",
    "when": "2026-11-29"
   },
@@ -2300,6 +2301,15 @@
    "when": "2026-12-01"
   },
   {
+   "approx": true,
+   "date": "Awal Dis 2026",
+   "label": "Gaji Disember: peluang akhir hantar TP1 untuk kurangkan PCB 2026",
+   "lead": 7,
+   "note": "Tarikh cut-off payroll berbeza ikut majikan; tanya HR.",
+   "topic": "tp1-pcb-hujung-tahun",
+   "when": "2026-12-01"
+  },
+  {
    "date": "12 Dis 2026",
    "label": "Jualan 12.12",
    "lead": 5,
@@ -2312,15 +2322,6 @@
    "lead": 7,
    "note": "Susun semula tunggakan dari 20% atau RM1,000; kaunter terpilih buka 5 & 12 Dis.",
    "topic": "ptptn-bulan-mesra-peminjam",
-   "when": "2026-12-15"
-  },
-  {
-   "approx": true,
-   "date": "Dis 2026",
-   "label": "Bayaran pertama Bantuan Kasih Johor 2027",
-   "lead": 10,
-   "note": "Kebanyakan kumpulan dibayar Dis 2026 dan Feb 2027; tarikh tepat belum diumumkan.",
-   "topic": "bantuan-kasih-johor-2027",
    "when": "2026-12-15"
   },
   {
@@ -2463,13 +2464,17 @@
   {
    "id": "mygov",
    "ideas": [
-    "App MyGOV: Semua Fungsi Dalam 10 Minit",
-    "Cara Ganti IC Hilang Guna MyGOV",
-    "62 Servis Kerajaan Dalam 1 App: Yang Berguna"
+    "Renew Pasport Guna App MyGOV: Step by Step",
+    "MyGOV 2.1.4: 4 Fungsi Baharu Yang Berguna",
+    "Cara Ganti IC Hilang Guna MyGOV"
    ],
    "name": "MyGOV Malaysia",
    "seg": "kerajaan",
    "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/malaysians-can-now-renew-passports-through-mygov-malaysia-app/244598"
+    },
     {
      "name": "The Star (23 Okt 2026)",
      "url": "https://www.thestar.com.my/news/nation/2026/10/23/more-services-to-be-added-to-mygov-app"
@@ -2485,7 +2490,7 @@
    ],
    "url": "https://www.mygov.gov.my",
    "what": "Satu app untuk banyak urusan kerajaan, log masuk guna MyDigital ID.",
-   "why": "Setakat 8 Okt 2026, app MyGOV ada 3.2 juta muat turun, 3 juta pengguna aktif dan 62 perkhidmatan dari 22 agensi (The Star, 23 Okt). Kerajaan rancang tambah TanyaKerajaan (bantuan AI), MyAppointment dan MyPersona, dan app ini kini boleh mohon ganti MyKad."
+   "why": "Pada 24 Nov 2026, MyGOV versi 2.1.4 tambah fungsi renew pasport dan bayar terus dalam app (ambil buat masa ini di Pejabat Imigresen Shaftsbury, Putrajaya), notifikasi MyNotifikasi yang lebih tepat dan pencari pusat NADI terdekat (Malay Mail). Setakat 8 Okt 2026, app ini ada 3.2 juta muat turun, 3 juta pengguna aktif dan 62 perkhidmatan dari 22 agensi, termasuk mohon ganti MyKad (The Star, 23 Okt)."
   },
   {
    "id": "mystr",
@@ -2507,23 +2512,22 @@
    "why": "Permohonan dan kemas kini STR 2027 dibuka online sejak 15 Okt 2026, dan tempoh kemas kini untuk Fasa 1 ialah hingga November 2026."
   },
   {
-   "id": "mysaham-miti",
+   "id": "mysejahtera",
    "ideas": [
-    "Cara Guna App MySaham MITI Dari A-Z",
-    "Mohon IPO Bumiputera Dalam 5 Minit",
-    "Semak Keputusan Saham MITI Dalam App"
+    "Cara Semak Ubat & Rekod Kesihatan Dalam MySejahtera",
+    "Tempah Klinik Kesihatan Guna MySejahtera",
+    "Kongsi Rekod Kesihatan Dengan Klinik Swasta"
    ],
-   "name": "MySaham MITI",
+   "name": "MySejahtera",
    "seg": "kerajaan",
    "sources": [
     {
-     "name": "RinggitPlus (16 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/mysaham-miti-dilancarkan-pelabur-bumiputera-kini-boleh-mohon-skb-melalui-aplikasi.html"
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/no-more-white-round-pills-mysejahteras-second-life-as-malaysias-digital-health-hub/243784"
     }
    ],
-   "url": "https://sahamonline.miti.gov.my/",
-   "what": "App MITI untuk pelabur Bumiputera daftar, mohon Saham Khas Bumiputera (IPO) dan semak keputusan peruntukan.",
-   "why": "Dilancar 12 Nov 2026 di Kuala Lumpur; app ini beri notifikasi tawaran SKB baharu, status permohonan dan portfolio (RinggitPlus, 16 Nov). Perlu daftar di portal SahamOnline dengan MyKad dan akaun CDS dahulu. Harga saham boleh jatuh bawah harga IPO."
+   "what": "App KKM untuk rekod kesihatan, preskripsi ubat dan temujanji klinik kesihatan awam.",
+   "why": "Malay Mail (24 Nov 2026) lapor MySejahtera kini ada 12–15 juta pengguna aktif bulanan, dan lebih 15 juta orang boleh lihat preskripsi dan rekod kesihatan termasuk keputusan makmal. Pengguna boleh tempah klinik kesihatan dan pergigian awam serta kongsi rekod dengan lebih 50 hospital swasta dan 3,000 klinik melalui kod QR berkata laluan; integrasi ambulans 999 masih dalam perancangan tanpa tarikh."
   },
   {
    "id": "tng",
@@ -2796,11 +2800,15 @@
     {
      "name": "Lowyat.NET (4 Nov 2026)",
      "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
+    },
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/61-rakyat-malaysia-tiada-simpanan-kecemasan-rm1000-kata-fadillah.html"
     }
    ],
    "url": "https://www.myasnb.com.my",
    "what": "App rasmi ASNB untuk melabur dalam ASB, ASM dan dana lain dari kira-kira RM10.",
-   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar, dan sejak 4 Nov akaun ASNB juga boleh dibuka melalui MAE. Semak status Syariah setiap dana di laman ASNB, dan ingat nilai pelaburan boleh turun."
+   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar, dan sejak 4 Nov akaun ASNB juga boleh dibuka melalui MAE. Pada 22 Nov 2026, ASNB lancar kempen 'Juh, Melabur Menang Mas' untuk pemegang unit Sarawak yang layak (1 Nov–31 Dis), di mana setiap RM5,000 pelaburan bersih beri satu penyertaan cabutan bertuah (RinggitPlus, 24 Nov). Semak status Syariah setiap dana di laman ASNB, dan ingat nilai pelaburan boleh turun."
   },
   {
    "id": "thijari",
