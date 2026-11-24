@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated_label": "24 Nov 2026, 7 pagi",
+ "updated_label": "24 Nov 2026, 7 petang",
  "items": [
   {
    "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan di iPhone, Android dan Huawei, plus terangkan beza pop-up EWS dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
@@ -9,9 +9,9 @@
    },
    "cat": "tutorial",
    "competition": {
-    "checked": "21 Nov 2026",
+    "checked": "24 Nov 2026",
     "level": "sederhana",
-    "note": "Ada 2 video BM berkaitan (klip berita MCMC suruh kemas kini telefon dan video beza SMS NADMA dengan sistem baharu). Tutorial skrin langkah demi langkah ikut jenama telefon masih kosong."
+    "note": "Masih cuma 2 video BM berkaitan (klip berita MCMC suruh kemas kini telefon dan video beza SMS NADMA dengan sistem baharu). Tutorial skrin langkah demi langkah ikut jenama telefon sebelum 29 Nov masih kosong."
    },
    "deadline": "Ujian seluruh negara: 29 Nov 2026, 10–10.30 pagi",
    "faq": [
@@ -161,12 +161,16 @@
     {
      "name": "SoyaCincau (19 Nov 2026)",
      "url": "https://soyacincau.com/?p=454551"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636627"
     }
    ],
    "title": "Ujian amaran kecemasan di telefon 29 Nov: update phone korang dulu",
    "why": "MCMC akan uji Sistem Amaran Awal (EWS) berasaskan Cell Broadcast secara serentak seluruh negara pada 29 Nov 2026 jam 10–10.30 pagi, selepas simulasi berhampiran Parlimen pada 23 Nov; telefon serasi akan terima pop-up dengan bunyi khas tanpa perlu muat turun app, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 20 Nov). Orang ramai digesa kemas kini telefon ke iOS 27.2 ke atas, Android 12 ke atas atau EMUI 16 ke atas dan hidupkan tetapan amaran kecemasan. SoyaCincau (19 Nov) lapor ujian dibuat dalam tiga fasa (ujian teknikal 19 Nov, simulasi Parlimen 23 Nov, ujian awam 29 Nov) dan sistem mungkin beroperasi penuh menjelang hujung 2026 jika ujian berjalan lancar; untuk iPhone, syarat awal ialah iPhone 11 ke atas. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan pada saat akhir sebagai latihan dalaman sahaja (NST, SCMP).",
-   "score": 97,
-   "prev_score": 96,
+   "score": 98,
+   "prev_score": 97,
    "status": "panas"
   },
   {
@@ -177,9 +181,9 @@
    },
    "cat": "kewangan",
    "competition": {
-    "checked": "21 Nov 2026",
+    "checked": "24 Nov 2026",
     "level": "sesak",
-    "note": "Sekurang-kurangnya 5 video BM baharu tentang cara kemas kini STR 2027 dan maksud status permohonan. Sudut yang masih kosong: apa jadi kalau terlepas tempoh Fasa 1 dan cara semak status selepas tarikh tutup."
+    "note": "Sekurang-kurangnya 6 video BM tentang cara kemas kini STR 2027 dan maksud status permohonan. Sudut yang masih kosong: apa jadi kalau terlepas tempoh Fasa 1 dan cara semak status selepas tarikh tutup."
    },
    "deadline": "Fasa 1: kemas kini hingga Nov 2026",
    "icon": "aid",
@@ -192,7 +196,7 @@
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
    "prev_score": 93,
-   "score": 93,
+   "score": 92,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -377,8 +381,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 89,
-   "score": 90,
+   "prev_score": 90,
+   "score": 91,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -627,7 +631,7 @@
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov). Di Sarawak penggunaan baru 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta. Peruntukan STR dan SARA naik ke RM16 bilion pada 2027, dengan SARA sahaja naik dari RM8 bilion ke RM10 bilion. RinggitPlus (19 Nov) ingatkan baki boleh disemak di portal SARA (sara.gov.my), app MyKasih atau resit belian, dengan lebih 14,000 kedai SARA dan barangan asas dalam 15 kategori; tahun lalu kira-kira RM150 juta kredit sekali beri yang tak digunakan disalurkan kepada golongan memerlukan.",
    "score": 86,
-   "prev_score": 87,
+   "prev_score": 86,
    "status": "panas",
    "script": {
     "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
@@ -805,9 +809,150 @@
    ],
    "title": "Amaran scam: saman PDRM palsu, app 'BNM' palsu & 'polis' minta kad ATM",
    "why": "MyCERT beri amaran tentang SMS 'saman PDRM' RM150 yang bawa ke laman MyBayar palsu (6 Nov) dan app palsu 'BNM Mobile Security' yang suruh mangsa tap kad bank pada telefon supaya data kad dihantar melalui NFC kepada scammer (4 Nov), manakala polis tahan 61 orang di Selangor yang disyaki menyamar pegawai MCMC (14 Nov). Jawapan bertulis KDN di Parlimen (16 Nov) dedahkan rakyat Malaysia rugi RM6.95 bilion akibat scam dalam talian dari 2023 hingga Ogos 2026, dengan pelaburan palsu paling besar (RM3.28 bilion) dan RM1.18 bilion bagi Jan–Ogos 2026 sahaja; NSRC terima 159,728 panggilan dalam tempoh itu dan mangsa digesa hubungi 997 dalam 24 jam pertama. Pada 17 Nov, Bernama lapor seorang guru di Batu Pahat dan seorang pesara di Kuala Terengganu rugi lebih RM1.18 juta selepas ditipu 'pegawai polis' yang suruh mereka serahkan kad ATM untuk kononnya 'siasatan BNM'.",
-   "score": 78,
-   "prev_score": 79,
+   "score": 77,
+   "prev_score": 78,
    "status": "naik"
+  },
+  {
+   "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun. Buat versi susulan sebaik MOF umum harga 26 Nov–2 Dis.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "22 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
+   },
+   "deadline": "Harga 19–25 Nov; harga baharu dijangka diumum 25 Nov",
+   "icon": "chart",
+   "id": "harga-minyak-turun-nov",
+   "ideas": [
+    "Harga Minyak Turun Lagi! RON97 Kini RM4.00",
+    "BUDI95: Korang Jimat Berapa Sebulan Sebenarnya?",
+    "3 Minggu Turun, Kenapa BUDI95 Kekal RM1.99?",
+    "Cara Isi Minyak Harga BUDI95 Guna MyKad",
+    "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
+   ],
+   "prev_score": 75,
+   "score": 77,
+   "seo": {
+    "hashtags": [
+     "#hargaminyak",
+     "#budi95",
+     "#ron97",
+     "#ron95",
+     "#subsidiminyak"
+    ],
+    "keywords": [
+     "harga minyak minggu ini",
+     "harga ron97 terkini",
+     "budi95 harga",
+     "ron95 tanpa subsidi",
+     "harga diesel terkini"
+    ],
+    "tags": [
+     "harga minyak",
+     "ron97",
+     "ron95",
+     "budi95",
+     "diesel",
+     "subsidi minyak",
+     "mof",
+     "harga petrol malaysia"
+    ],
+    "thumbs": [
+     "MINYAK TURUN LAGI!",
+     "RON97 RM4.00",
+     "JIMAT BERAPA?"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Siaran Media MOF (18 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
+    },
+    {
+     "name": "NST (11 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
+    },
+    {
+     "name": "Siaran Media MOF (11 Nov 2026)",
+     "url": "https://mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+    },
+    {
+     "name": "RinggitPlus – harga minyak live",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/petrol-price-malaysia-live-updates-ron95-ron97-diesel.html"
+    }
+   ],
+   "status": "naik",
+   "title": "Harga minyak turun lagi: RON97 RM4.00, BUDI95 kekal RM1.99",
+   "why": "MOF umum pada 18 Nov 2026 bahawa untuk 19–25 November, RON97 turun 20 sen ke RM4.00 seliter, RON95 tanpa subsidi turun 15 sen ke RM3.72 dan diesel tanpa subsidi turun 15 sen ke RM4.72, iaitu minggu ketiga berturut-turut harga tanpa subsidi turun. BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10; kerajaan tanggung subsidi RM1.73 seliter untuk RON95 (kira-kira 47%) dan RM2.62 seliter untuk diesel (kira-kira 56%). MOF kata hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan, dan harga dunia dijangka terus turun naik kerana risiko geopolitik.",
+   "shorts": [
+    {
+     "beat": "RON97 RM4.00, RON95 tanpa subsidi RM3.72, diesel tanpa subsidi RM4.72. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
+     "hook": "Minggu ketiga harga minyak turun. Ni harga penuh.",
+     "title": "Harga Minyak Minggu Ni (19–25 Nov)"
+    },
+    {
+     "beat": "Subsidi RM1.73 seliter (kira-kira 47%). Kira contoh isi 40 liter: beza harga BUDI95 RM1.99 dengan tanpa subsidi RM3.72.",
+     "hook": "Korang tahu kerajaan tanggung berapa untuk setiap liter RON95 korang?",
+     "title": "BUDI95 Jimat Berapa Sebenarnya?"
+    },
+    {
+     "beat": "Yang turun ialah harga tanpa subsidi; BUDI95 harga tetap, jadi bila harga pasaran turun, yang berkurang ialah subsidi kerajaan (dari RM1.88 ke RM1.73 seliter).",
+     "hook": "Harga minyak dah turun 3 minggu. Tapi BUDI95 masih RM1.99. Kenapa?",
+     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
+    }
+   ],
+   "faq": [
+    {
+     "a": "RM4.00 seliter untuk 19–25 November, turun 20 sen.",
+     "q": "Harga RON97 minggu ni berapa?"
+    },
+    {
+     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi RM3.72.",
+     "q": "Harga RON95 berapa?"
+    },
+    {
+     "a": "Diesel tanpa subsidi RM4.72; BUDI Diesel RM2.10.",
+     "q": "Harga diesel berapa?"
+    },
+    {
+     "a": "RM1.73 seliter, kira-kira 47% harga tanpa subsidi.",
+     "q": "Berapa subsidi RON95 seliter sekarang?"
+    },
+    {
+     "a": "MOF biasanya umum harga mingguan pada hari Rabu; harga untuk 26 Nov–2 Dis dijangka diumumkan 25 Nov.",
+     "q": "Bila harga baru diumumkan?"
+    }
+   ],
+   "quiz": [
+    {
+     "a": 2,
+     "o": [
+      "RM4.20",
+      "RM3.72",
+      "RM4.00"
+     ],
+     "q": "Harga RON97 untuk 19–25 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM1.99",
+      "RM2.05",
+      "RM3.72"
+     ],
+     "q": "Harga BUDI95 seliter?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "RM1.88",
+      "RM1.73",
+      "RM2.62"
+     ],
+     "q": "Berapa subsidi RON95 seliter minggu ini?"
+    }
+   ]
   },
   {
    "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
@@ -848,7 +993,7 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 77,
+   "prev_score": 76,
    "score": 76,
    "seo": {
     "hashtags": [
@@ -994,147 +1139,6 @@
    }
   },
   {
-   "angle": "Terangkan beza harga subsidi vs tanpa subsidi, siapa layak BUDI95 guna MyKad, dan kira berapa korang jimat sebulan. Sudut segar: 3 minggu berturut-turut turun, tapi kenapa harga BUDI95 tak ikut turun.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "22 Nov 2026",
-    "level": "sederhana",
-    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
-   },
-   "deadline": "Harga 19–25 Nov; harga baharu dijangka diumum 25 Nov",
-   "icon": "chart",
-   "id": "harga-minyak-turun-nov",
-   "ideas": [
-    "Harga Minyak Turun Lagi! RON97 Kini RM4.00",
-    "BUDI95: Korang Jimat Berapa Sebulan Sebenarnya?",
-    "3 Minggu Turun, Kenapa BUDI95 Kekal RM1.99?",
-    "Cara Isi Minyak Harga BUDI95 Guna MyKad",
-    "Subsidi Minyak RM40 Bilion: Apa Maksud Untuk Kita?"
-   ],
-   "prev_score": 74,
-   "score": 75,
-   "seo": {
-    "hashtags": [
-     "#hargaminyak",
-     "#budi95",
-     "#ron97",
-     "#ron95",
-     "#subsidiminyak"
-    ],
-    "keywords": [
-     "harga minyak minggu ini",
-     "harga ron97 terkini",
-     "budi95 harga",
-     "ron95 tanpa subsidi",
-     "harga diesel terkini"
-    ],
-    "tags": [
-     "harga minyak",
-     "ron97",
-     "ron95",
-     "budi95",
-     "diesel",
-     "subsidi minyak",
-     "mof",
-     "harga petrol malaysia"
-    ],
-    "thumbs": [
-     "MINYAK TURUN LAGI!",
-     "RON97 RM4.00",
-     "JIMAT BERAPA?"
-    ]
-   },
-   "sources": [
-    {
-     "name": "Siaran Media MOF (18 Nov 2026)",
-     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
-    },
-    {
-     "name": "NST (11 Nov 2026)",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1575694/ron97-drops-50-sen-unsubsidised-ron95-down-40-sen-diesel-25-sen"
-    },
-    {
-     "name": "Siaran Media MOF (11 Nov 2026)",
-     "url": "https://mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
-    },
-    {
-     "name": "RinggitPlus – harga minyak live",
-     "url": "https://ringgitplus.com/en/blog/personal-finance-news/petrol-price-malaysia-live-updates-ron95-ron97-diesel.html"
-    }
-   ],
-   "status": "naik",
-   "title": "Harga minyak turun lagi: RON97 RM4.00, BUDI95 kekal RM1.99",
-   "why": "MOF umum pada 18 Nov 2026 bahawa untuk 19–25 November, RON97 turun 20 sen ke RM4.00 seliter, RON95 tanpa subsidi turun 15 sen ke RM3.72 dan diesel tanpa subsidi turun 15 sen ke RM4.72, iaitu minggu ketiga berturut-turut harga tanpa subsidi turun. BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10; kerajaan tanggung subsidi RM1.73 seliter untuk RON95 (kira-kira 47%) dan RM2.62 seliter untuk diesel (kira-kira 56%). MOF kata hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan, dan harga dunia dijangka terus turun naik kerana risiko geopolitik.",
-   "shorts": [
-    {
-     "beat": "RON97 RM4.00, RON95 tanpa subsidi RM3.72, diesel tanpa subsidi RM4.72. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
-     "hook": "Minggu ketiga harga minyak turun. Ni harga penuh.",
-     "title": "Harga Minyak Minggu Ni (19–25 Nov)"
-    },
-    {
-     "beat": "Subsidi RM1.73 seliter (kira-kira 47%). Kira contoh isi 40 liter: beza harga BUDI95 RM1.99 dengan tanpa subsidi RM3.72.",
-     "hook": "Korang tahu kerajaan tanggung berapa untuk setiap liter RON95 korang?",
-     "title": "BUDI95 Jimat Berapa Sebenarnya?"
-    },
-    {
-     "beat": "Yang turun ialah harga tanpa subsidi; BUDI95 harga tetap, jadi bila harga pasaran turun, yang berkurang ialah subsidi kerajaan (dari RM1.88 ke RM1.73 seliter).",
-     "hook": "Harga minyak dah turun 3 minggu. Tapi BUDI95 masih RM1.99. Kenapa?",
-     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
-    }
-   ],
-   "faq": [
-    {
-     "a": "RM4.00 seliter untuk 19–25 November, turun 20 sen.",
-     "q": "Harga RON97 minggu ni berapa?"
-    },
-    {
-     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi RM3.72.",
-     "q": "Harga RON95 berapa?"
-    },
-    {
-     "a": "Diesel tanpa subsidi RM4.72; BUDI Diesel RM2.10.",
-     "q": "Harga diesel berapa?"
-    },
-    {
-     "a": "RM1.73 seliter, kira-kira 47% harga tanpa subsidi.",
-     "q": "Berapa subsidi RON95 seliter sekarang?"
-    },
-    {
-     "a": "MOF biasanya umum harga mingguan pada hari Rabu; harga untuk 26 Nov–2 Dis dijangka diumumkan 25 Nov.",
-     "q": "Bila harga baru diumumkan?"
-    }
-   ],
-   "quiz": [
-    {
-     "a": 2,
-     "o": [
-      "RM4.20",
-      "RM3.72",
-      "RM4.00"
-     ],
-     "q": "Harga RON97 untuk 19–25 Nov 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "RM1.99",
-      "RM2.05",
-      "RM3.72"
-     ],
-     "q": "Harga BUDI95 seliter?"
-    },
-    {
-     "a": 1,
-     "o": [
-      "RM1.88",
-      "RM1.73",
-      "RM2.62"
-     ],
-     "q": "Berapa subsidi RON95 seliter minggu ini?"
-    }
-   ]
-  },
-  {
    "angle": "Video 'semak kumpulan korang': senaraikan kumpulan dan jumlah ikut jadual, tarikh bayaran yang dah diumumkan, dan apa yang belum jelas (perlu mohon atau automatik). Ingatkan jangan klik pautan yang minta butiran bank.",
    "app": {
     "name": "Portal Bantuan Kasih Johor",
@@ -1263,8 +1267,8 @@
    ],
    "title": "Bantuan Kasih Johor 2027: RM200 hingga RM2,000 untuk lebih 820,000 penerima",
    "why": "Bajet Johor 2027 bernilai RM3.07 bilion yang dibentang pada 19 Nov 2026 umum Bantuan Kasih Johor (BKJ) RM200 hingga RM2,000 seorang untuk lebih 820,000 penerima, dengan kebanyakan bayaran pada Disember 2026 dan Februari 2027 (RinggitPlus, 23 Nov). Contohnya, pemandu teksi, e-hailing dan p-hailing berdaftar (45,056 orang) dapat RM400, suri rumah tidak bekerja (193,166 orang) RM200, dan penjawat awam persekutuan di Johor RM500 (RM300 Dis, RM200 Feb). Ada juga bantuan rumah pertama RM5,000 dan sewa RM2,500, tapi syarat dan cara mohon belum diumumkan.",
-   "score": 73,
-   "prev_score": null,
+   "score": 72,
+   "prev_score": 73,
    "status": "naik"
   },
   {
@@ -1411,8 +1415,8 @@
    ],
    "title": "Renew pasport 10 tahun secara online",
    "why": "Sejak 2 November 2026, rakyat Malaysia boleh pilih tempoh sah 5 atau 10 tahun ketika memperbaharui pasport melalui sistem MyOnline Passport, menurut Jabatan Imigresen (Malay Mail, NST, Bernama). Pasport 10 tahun hanya untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun; pembaharuan online untuk pemegang e-pasport berumur 13 tahun ke atas dan pasport mesti diambil sendiri di pejabat yang dipilih (RinggitPlus, 2 Nov). RinggitPlus juga nota baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50 berbanding dua kali 5 tahun) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
-   "score": 72,
-   "prev_score": 74,
+   "score": 71,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1547,8 +1551,8 @@
    ],
    "title": "SPayLater Motorcycle dibuka seluruh negara: beli motor ansuran sehingga RM20,000",
    "why": "Pada 19 Nov 2026, ShopeePay luaskan SPayLater Motorcycle ke seluruh negara, dengan had sehingga RM20,000 (berasingan dari had SPayLater biasa), tempoh 12–60 bulan dan kadar keuntungan 0.92% sebulan; produk ini diperakui patuh Syariah oleh Amanie Advisors (Lowyat.NET). Kiraan RinggitPlus (23 Nov) tunjuk kadar efektif kira-kira 18.9%–19.9% setahun, contohnya motor RM8,000 tanpa deposit untuk 60 bulan jadi RM206.67 sebulan dengan jumlah keuntungan RM4,400. Halaman bantuan Shopee masih sebut ia untuk pengguna terpilih, dan caj lewat RM10 dikenakan untuk bil tertunggak.",
-   "score": 72,
-   "prev_score": null,
+   "score": 71,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1684,7 +1688,7 @@
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
    "score": 70,
-   "prev_score": 71,
+   "prev_score": 70,
    "status": "naik"
   },
   {
@@ -1831,8 +1835,8 @@
    ],
    "title": "Pendapatan KWSP naik 30%: dividen 2026 lebih tinggi?",
    "why": "KWSP lapor pendapatan pelaburan RM83.32 bilion bagi sembilan bulan pertama 2026, naik 30% berbanding RM63.99 bilion setahun sebelumnya, tetapi pertumbuhan suku ketiga perlahan kepada 3% (RM25.82 bilion), dan Ketua Pegawai Eksekutif KWSP jangka trend perlahan ini berterusan pada suku keempat akibat pasaran saham global lemah dan hasil bon meningkat (Bernama, 16 Nov). Penganalisis kata tiada jaminan prestasi setahun penuh lebih baik, dan ada yang jangka prestasi 2026 setanding 2025. Aset pelaburan KWSP kini RM1.55 trilion; tarikh pengumuman dividen belum dinyatakan. The Star (18 Nov) lapor pendapatan suku ketiga RM25.8 bilion itu turun kira-kira 13% berbanding suku sebelumnya, dan bertanya sama ada dividen 2026 mampu menyamai 6.15% bagi 2025.",
-   "score": 69,
-   "prev_score": 71,
+   "score": 68,
+   "prev_score": 69,
    "status": "naik"
   },
   {
@@ -1855,8 +1859,8 @@
     "5 Tanda Telefon Korang Dah Kena Malware",
     "Google Sekat APK Tak Sah 2027: Apa Berubah?"
    ],
-   "prev_score": 67,
-   "score": 66,
+   "prev_score": 66,
+   "score": 65,
    "seo": {
     "hashtags": [
      "#whatsapp",
@@ -2110,8 +2114,8 @@
    ],
    "title": "RM90 bilion harta pusaka orang Islam belum dituntut: cara semak & tuntut",
    "why": "CEO CIMB Islamic Ahmad Shahriman Mohd Sharif (17 Nov 2026) menganggarkan harta pusaka orang Islam yang belum dituntut kira-kira RM90 bilion, naik 135% sejak 2009, walaupun RinggitPlus (19 Nov) nota tiada data rasmi kerajaan yang menyokong angka itu. Lebih 46,000 kes pusaka kecil masih belum selesai setakat 31 Dis 2025, dan JANM rekod lebih RM14 bilion wang tidak dituntut setakat 30 Sept 2026. Had pusaka kecil kini RM5 juta (dulu RM2 juta) dan permohonan boleh dibuat online melalui portal MyLAND.",
-   "score": 65,
-   "prev_score": 68,
+   "score": 63,
+   "prev_score": 65,
    "status": "stabil"
   },
   {
@@ -2132,8 +2136,8 @@
     "Tiada Insurans? Tunggu MediAsas Januari 2027",
     "Ko-Insurans 20% MediAsas: Bila Kena Bayar?"
    ],
-   "prev_score": 65,
-   "score": 63,
+   "prev_score": 63,
+   "score": 62,
    "seo": {
     "hashtags": [
      "#mediasas",
