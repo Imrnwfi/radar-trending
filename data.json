@@ -1,6 +1,6 @@
 {
- "date": "2026-11-25",
- "updated_label": "25 Nov 2026, 7 petang",
+ "date": "2026-11-26",
+ "updated_label": "26 Nov 2026, 7 pagi",
  "items": [
   {
    "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan MySiren di iPhone, Android dan Huawei, plus terangkan beza pop-up MySiren dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
@@ -13,7 +13,7 @@
     "level": "sederhana",
     "note": "Masih cuma 2 video BM berkaitan (klip berita MCMC suruh kemas kini telefon dan video beza SMS NADMA dengan sistem baharu). Tutorial skrin langkah demi langkah ikut jenama telefon sebelum 29 Nov masih kosong."
    },
-   "deadline": "Ujian seluruh negara: 29 Nov 2026, 10–10.30 pagi",
+   "deadline": "Ujian seluruh negara: Ahad, 29 Nov 2026, 10–10.30 pagi",
    "faq": [
     {
      "a": "Ujian seluruh negara pada 29 Nov 2026 dalam tempoh 10–10.30 pagi; Lowyat.NET lapor notifikasi ujian bermula 10.10 pagi.",
@@ -225,8 +225,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 90,
-   "score": 91,
+   "prev_score": 91,
+   "score": 92,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -363,8 +363,8 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 91,
-   "score": 90,
+   "prev_score": 90,
+   "score": 91,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -643,7 +643,7 @@
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov); di Sarawak penggunaan baru 93%. Pada 23 Nov, Timbalan Menteri KPDN Fuziah Salleh beritahu Dewan Rakyat kedai runcit kampung boleh sertai SARA dengan memohon terminal bayaran daripada MOF; kini ada kira-kira 15,000 premis rakan SARA termasuk 6,800 kedai runcit kecil dan koperasi, dengan sasaran 10,000 kedai runcit kecil menjelang hujung 2026 (RinggitPlus, 24 Nov). Baki boleh disemak di portal SARA (sara.gov.my) atau app MyKasih, dan untuk 2027 penerima STR akan dapat SARA sehingga RM150 sebulan, dengan peruntukan SARA naik dari RM8 bilion ke RM10 bilion.",
    "score": 89,
-   "prev_score": 88,
+   "prev_score": 89,
    "status": "panas",
    "script": {
     "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
@@ -661,9 +661,9 @@
    "angle": "Video 'harga minyak minggu ni' yang kira jimat sebenar: berapa beza isi penuh RON97 berbanding bulan lepas, dan terangkan kenapa BUDI95 tak ikut turun (yang turun ialah subsidi kerajaan). Sudut segar: 4 minggu berturut-turut turun, RON97 kini bawah RM4.",
    "cat": "kewangan",
    "competition": {
-    "checked": "22 Nov 2026",
+    "checked": "26 Nov 2026",
     "level": "sederhana",
-    "note": "Ada beberapa klip berita BM tentang harga minyak mingguan, kebanyakannya bacaan berita ringkas. Sudut kira jimat ikut kuota BUDI95 dan beza harga tanpa subsidi masih kurang diterokai."
+    "note": "Saluran berita (Bernama, Astro) terus muat naik Shorts harga minyak mingguan BM, kebanyakannya bacaan berita ringkas. Sudut kira jimat sebenar ikut kuota BUDI95 dan trend empat minggu turun masih kurang diterokai."
    },
    "deadline": "Harga 26 Nov–2 Dis 2026; harga baharu dijangka diumum 2 Dis",
    "faq": [
@@ -798,8 +798,8 @@
    ],
    "title": "Harga minyak turun 25 sen: RON97 RM3.75, BUDI95 kekal RM1.99",
    "why": "Pada 25 Nov 2026, MOF umum harga untuk 26 Nov–2 Dis: RON97 turun 25 sen ke RM3.75 seliter, RON95 tanpa subsidi turun 25 sen ke RM3.47 dan diesel tanpa subsidi turun 25 sen ke RM4.47, iaitu minggu keempat berturut-turut harga tanpa subsidi turun (Malay Mail, FMT). BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10, jadi subsidi kerajaan kini RM1.48 seliter untuk RON95 (43%) dan RM2.37 seliter untuk diesel (53%); SKPS RM2.05 dan SKDS RM2.15 tidak berubah. MOF kata penurunan didorong harga produk bertapis serantau yang sederhana dan bekalan minyak mentah dunia yang lebih tinggi, tetapi harga dijangka terus turun naik kerana risiko geopolitik, dengan hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan.",
-   "score": 84,
-   "prev_score": 76,
+   "score": 80,
+   "prev_score": 84,
    "status": "naik"
   },
   {
@@ -951,8 +951,8 @@
    ],
    "title": "Renew pasport online: kini terus dalam app MyGOV",
    "why": "Pada 24 Nov 2026, Kementerian Digital umum app MyGOV Malaysia versi 2.1.4 kini membolehkan permohonan renew pasport dan bayaran online terus dalam app, termasuk pilih pejabat Imigresen untuk ambil pasport; buat masa ini pengambilan hanya di Pejabat Imigresen Shaftsbury, Putrajaya, dan lokasi lain akan ditambah berperingkat (Malay Mail). Sejak 2 Nov 2026 pula, rakyat boleh pilih tempoh 5 atau 10 tahun melalui MyOnline Passport; pasport 10 tahun untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun (RinggitPlus, 2 Nov). Baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
-   "score": 79,
-   "prev_score": 80,
+   "score": 78,
+   "prev_score": 79,
    "status": "naik"
   },
   {
@@ -1119,8 +1119,8 @@
    ],
    "title": "Amaran scam: rugi RM7.33 bilion, saman PDRM palsu & 'polis' minta kad ATM",
    "why": "Menteri Dalam Negeri Saifuddin Nasution beritahu Dewan Rakyat pada 25 Nov 2026 rakyat Malaysia rugi RM7.33 bilion akibat scam dalam talian sejak 2023 (192,869 kes), termasuk RM1.56 bilion dalam 10 bulan pertama 2026, dengan pelaburan palsu paling besar (RM3.4 bilion) dan 254,546 akaun keldai dikesan (Malay Mail). Taktik semasa termasuk SMS 'saman PDRM' RM150 ke laman MyBayar palsu (MyCERT, 6 Nov), app palsu 'BNM Mobile Security' yang curi data kad melalui NFC (4 Nov), dan 'polis' palsu yang suruh mangsa tinggalkan kad ATM, menyebabkan seorang guru dan seorang pesara rugi lebih RM1.18 juta (Bernama, 17 Nov). Gabenor BNM (18 Nov) syorkan pendekatan 3S (Spot, Stop, Share), manakala persidangan NEXSEC2026 anjuran MCMC (25–26 Nov) beri amaran scam guna deepfake dan suara klon AI makin menjadi-jadi.",
-   "score": 77,
-   "prev_score": 75,
+   "score": 76,
+   "prev_score": 77,
    "status": "naik"
   },
   {
@@ -1251,8 +1251,137 @@
    ],
    "title": "61% rakyat tiada RM1,000 simpanan kecemasan: cara mula bina dana",
    "why": "TPM Fadillah Yusof pada 22 Nov 2026 (majlis ASNB di Kuching) memetik laporan BNM 2024 bahawa 61% rakyat Malaysia sukar mengumpul RM1,000 ketika kecemasan, naik dari 47% pada 2021, dan hanya 37% mampu tampung belanja lebih tiga bulan jika hilang pendapatan (RinggitPlus, 23–24 Nov). Tinjauan RMFLS 2026 tajaan GXBank (3,005 responden dalam talian, Sept–Okt 2026) pula dapati 57% kata simpanan cukup tiga bulan atau kurang, dan 22% kurang sebulan. RinggitPlus syorkan sasaran 3–6 bulan belanja wajib dan mula dengan RM1,000; contohnya RM250 sebulan capai RM1,000 dalam 4 bulan.",
-   "score": 76,
-   "prev_score": 78,
+   "score": 73,
+   "prev_score": 76,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial praktikal: beza TP1, TP2 dan TP3, cara isi TP1 dengan resit yang ada, dan bila hantar kepada HR supaya sempat gaji Disember. Ingatkan tuntut yang benar sahaja, simpan resit 7 tahun, dan e-Filing tetap wajib.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang muncul kebanyakannya tutorial e-Filing dan kira pelepasan cukai tahunan; belum jumpa video BM khusus cara isi borang TP1 untuk kurangkan PCB sebelum hujung tahun."
+   },
+   "deadline": "Ikut tarikh cut-off gaji Disember majikan",
+   "faq": [
+    {
+     "a": "Hantar kepada HR atau bahagian gaji majikan, bukan kepada LHDN.",
+     "q": "TP1 tu hantar dekat siapa?"
+    },
+    {
+     "a": "Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, jadi tanya HR.",
+     "q": "Ada tarikh akhir hantar TP1?"
+    },
+    {
+     "a": "Contohnya gaya hidup sehingga RM2,500, sukan RM1,000, perubatan diri/pasangan/anak sehingga RM10,000 dan perubatan ibu bapa RM8,000.",
+     "q": "Pelepasan apa yang boleh dituntut?"
+    },
+    {
+     "a": "Perlu, TP1 tidak menggantikan e-Filing dan pelepasan yang sama mesti diisi semula di sana.",
+     "q": "Dah hantar TP1, perlu e-Filing lagi tak?"
+    },
+    {
+     "a": "Tak perlu lampir dengan TP1, tetapi simpan resit asal selama 7 tahun untuk audit LHDN.",
+     "q": "Kena lampir resit ke?"
+    }
+   ],
+   "icon": "tax",
+   "id": "tp1-pcb-hujung-tahun",
+   "ideas": [
+    "Borang TP1: Cara Dapat Gaji Lebih Sebelum Dis",
+    "PCB Tinggi? Isi TP1 Ni Sebelum Hujung Tahun",
+    "TP1 vs TP3: Bila Kena Hantar?",
+    "Beli Phone & Laptop, Boleh Kurangkan PCB?",
+    "5 Silap Isi TP1 Yang Buat Kena Bayar Cukai"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "LHDN",
+      "HR/majikan",
+      "Bank"
+     ],
+     "q": "Borang TP1 diserahkan kepada…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM2,500",
+      "RM1,000",
+      "RM10,000"
+     ],
+     "q": "Had pelepasan gaya hidup dalam contoh TP1 ialah…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "TP2",
+      "TP1",
+      "TP3"
+     ],
+     "q": "Borang untuk pekerja yang tukar kerja pertengahan tahun ialah…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#PCB",
+     "#BorangTP1",
+     "#CukaiPendapatan",
+     "#LHDN",
+     "#TipsJimat"
+    ],
+    "keywords": [
+     "borang tp1 pcb",
+     "cara kurangkan pcb",
+     "tp1 lhdn 2026",
+     "pelepasan cukai gaya hidup 2026",
+     "tp3 tukar kerja"
+    ],
+    "tags": [
+     "tp1",
+     "pcb",
+     "potongan cukai bulanan",
+     "lhdn",
+     "pelepasan cukai",
+     "e-filing",
+     "cukai pendapatan",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "GAJI NAIK GUNA TP1?",
+     "PCB TURUN RM70",
+     "ISI SEBELUM DIS"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Contoh RinggitPlus: gaji RM5,000, tuntut RM3,500 pelepasan melalui TP1, PCB turun dari RM110 ke RM40 sebulan, jimat RM210 Okt–Dis.",
+     "hook": "Satu borang ni boleh turunkan potongan cukai gaji korang.",
+     "title": "Jimat RM210 Dengan Satu Borang"
+    },
+    {
+     "beat": "Tunjuk ruangan TP1: isi jumlah pelepasan gaya hidup, sukan dan perubatan, serah kepada HR (bukan LHDN), simpan resit asal 7 tahun.",
+     "hook": "Ada resit beli laptop atau gym? Jangan simpan je.",
+     "title": "Cara Isi TP1 Dalam 30 Saat"
+    },
+    {
+     "beat": "TP1 cuma laraskan PCB bulanan; pelepasan sama mesti diisi dalam e-Filing, dan tuntutan berlebihan akan jadi baki cukai yang perlu dibayar.",
+     "hook": "Dah hantar TP1, boleh skip e-Filing? Salah.",
+     "title": "Mitos: Dah Isi TP1, Tak Payah e-Filing"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/cukai-pendapatan/cara-kemas-kini-pcb-dengan-majikan-menggunakan-borang-tp1-dan-tp3.html"
+    }
+   ],
+   "title": "Borang TP1: kurangkan PCB bulanan sebelum 2026 tamat",
+   "why": "RinggitPlus (24 Nov 2026) ingatkan pekerja boleh hantar borang TP1 kepada HR atau bahagian gaji (bukan LHDN) untuk tuntut pelepasan yang belum dikira dalam gaji, seperti gaya hidup sehingga RM2,500, sukan RM1,000 dan perubatan diri/keluarga sehingga RM10,000, supaya potongan PCB baki bulan tahun ini lebih rendah. Dalam contoh artikel, pekerja bergaji RM5,000 yang tuntut RM3,500 pelepasan melalui TP1 jimat RM210 dari Okt hingga Dis (PCB turun dari RM110 ke RM40 sebulan). Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, dan pelepasan yang sama masih perlu diisi dalam e-Filing.",
+   "score": 73,
+   "prev_score": 72,
    "status": "naik"
   },
   {
@@ -1294,8 +1423,8 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 74,
-   "score": 72,
+   "prev_score": 72,
+   "score": 71,
    "seo": {
     "hashtags": [
      "#BantuanBanjir",
@@ -1440,135 +1569,6 @@
    }
   },
   {
-   "angle": "Tutorial praktikal: beza TP1, TP2 dan TP3, cara isi TP1 dengan resit yang ada, dan bila hantar kepada HR supaya sempat gaji Disember. Ingatkan tuntut yang benar sahaja, simpan resit 7 tahun, dan e-Filing tetap wajib.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "25 Nov 2026",
-    "level": "tinggi",
-    "note": "Video BM yang muncul kebanyakannya tutorial e-Filing dan kira pelepasan cukai tahunan; belum jumpa video BM khusus cara isi borang TP1 untuk kurangkan PCB sebelum hujung tahun."
-   },
-   "deadline": "Ikut tarikh cut-off gaji Disember majikan",
-   "faq": [
-    {
-     "a": "Hantar kepada HR atau bahagian gaji majikan, bukan kepada LHDN.",
-     "q": "TP1 tu hantar dekat siapa?"
-    },
-    {
-     "a": "Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, jadi tanya HR.",
-     "q": "Ada tarikh akhir hantar TP1?"
-    },
-    {
-     "a": "Contohnya gaya hidup sehingga RM2,500, sukan RM1,000, perubatan diri/pasangan/anak sehingga RM10,000 dan perubatan ibu bapa RM8,000.",
-     "q": "Pelepasan apa yang boleh dituntut?"
-    },
-    {
-     "a": "Perlu, TP1 tidak menggantikan e-Filing dan pelepasan yang sama mesti diisi semula di sana.",
-     "q": "Dah hantar TP1, perlu e-Filing lagi tak?"
-    },
-    {
-     "a": "Tak perlu lampir dengan TP1, tetapi simpan resit asal selama 7 tahun untuk audit LHDN.",
-     "q": "Kena lampir resit ke?"
-    }
-   ],
-   "icon": "tax",
-   "id": "tp1-pcb-hujung-tahun",
-   "ideas": [
-    "Borang TP1: Cara Dapat Gaji Lebih Sebelum Dis",
-    "PCB Tinggi? Isi TP1 Ni Sebelum Hujung Tahun",
-    "TP1 vs TP3: Bila Kena Hantar?",
-    "Beli Phone & Laptop, Boleh Kurangkan PCB?",
-    "5 Silap Isi TP1 Yang Buat Kena Bayar Cukai"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "LHDN",
-      "HR/majikan",
-      "Bank"
-     ],
-     "q": "Borang TP1 diserahkan kepada…"
-    },
-    {
-     "a": 0,
-     "o": [
-      "RM2,500",
-      "RM1,000",
-      "RM10,000"
-     ],
-     "q": "Had pelepasan gaya hidup dalam contoh TP1 ialah…"
-    },
-    {
-     "a": 2,
-     "o": [
-      "TP2",
-      "TP1",
-      "TP3"
-     ],
-     "q": "Borang untuk pekerja yang tukar kerja pertengahan tahun ialah…"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#PCB",
-     "#BorangTP1",
-     "#CukaiPendapatan",
-     "#LHDN",
-     "#TipsJimat"
-    ],
-    "keywords": [
-     "borang tp1 pcb",
-     "cara kurangkan pcb",
-     "tp1 lhdn 2026",
-     "pelepasan cukai gaya hidup 2026",
-     "tp3 tukar kerja"
-    ],
-    "tags": [
-     "tp1",
-     "pcb",
-     "potongan cukai bulanan",
-     "lhdn",
-     "pelepasan cukai",
-     "e-filing",
-     "cukai pendapatan",
-     "tips jimat"
-    ],
-    "thumbs": [
-     "GAJI NAIK GUNA TP1?",
-     "PCB TURUN RM70",
-     "ISI SEBELUM DIS"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Contoh RinggitPlus: gaji RM5,000, tuntut RM3,500 pelepasan melalui TP1, PCB turun dari RM110 ke RM40 sebulan, jimat RM210 Okt–Dis.",
-     "hook": "Satu borang ni boleh turunkan potongan cukai gaji korang.",
-     "title": "Jimat RM210 Dengan Satu Borang"
-    },
-    {
-     "beat": "Tunjuk ruangan TP1: isi jumlah pelepasan gaya hidup, sukan dan perubatan, serah kepada HR (bukan LHDN), simpan resit asal 7 tahun.",
-     "hook": "Ada resit beli laptop atau gym? Jangan simpan je.",
-     "title": "Cara Isi TP1 Dalam 30 Saat"
-    },
-    {
-     "beat": "TP1 cuma laraskan PCB bulanan; pelepasan sama mesti diisi dalam e-Filing, dan tuntutan berlebihan akan jadi baki cukai yang perlu dibayar.",
-     "hook": "Dah hantar TP1, boleh skip e-Filing? Salah.",
-     "title": "Mitos: Dah Isi TP1, Tak Payah e-Filing"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (24 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/cukai-pendapatan/cara-kemas-kini-pcb-dengan-majikan-menggunakan-borang-tp1-dan-tp3.html"
-    }
-   ],
-   "title": "Borang TP1: kurangkan PCB bulanan sebelum 2026 tamat",
-   "why": "RinggitPlus (24 Nov 2026) ingatkan pekerja boleh hantar borang TP1 kepada HR atau bahagian gaji (bukan LHDN) untuk tuntut pelepasan yang belum dikira dalam gaji, seperti gaya hidup sehingga RM2,500, sukan RM1,000 dan perubatan diri/keluarga sehingga RM10,000, supaya potongan PCB baki bulan tahun ini lebih rendah. Dalam contoh artikel, pekerja bergaji RM5,000 yang tuntut RM3,500 pelepasan melalui TP1 jimat RM210 dari Okt hingga Dis (PCB turun dari RM110 ke RM40 sebulan). Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, dan pelepasan yang sama masih perlu diisi dalam e-Filing.",
-   "score": 72,
-   "prev_score": 72,
-   "status": "naik"
-  },
-  {
    "angle": "Video 'semak kumpulan korang': senaraikan kumpulan dan jumlah ikut jadual, tarikh bayaran yang dah diumumkan, dan apa yang belum jelas (perlu mohon atau automatik). Ingatkan jangan klik pautan yang minta butiran bank.",
    "app": {
     "name": "Portal Bantuan Kasih Johor",
@@ -1698,7 +1698,7 @@
    "title": "Bantuan Kasih Johor 2027: RM200 hingga RM2,000 untuk lebih 820,000 penerima",
    "why": "Bajet Johor 2027 bernilai RM3.07 bilion yang dibentang pada 19 Nov 2026 umum Bantuan Kasih Johor (BKJ) RM200 hingga RM2,000 seorang untuk lebih 820,000 penerima, dengan kebanyakan bayaran pada Disember 2026 dan Februari 2027 (RinggitPlus, 23 Nov). Contohnya, pemandu teksi, e-hailing dan p-hailing berdaftar (45,056 orang) dapat RM400, suri rumah tidak bekerja (193,166 orang) RM200, dan penjawat awam persekutuan di Johor RM500 (RM300 Dis, RM200 Feb). Ada juga bantuan rumah pertama RM5,000 dan sewa RM2,500, tapi syarat dan cara mohon belum diumumkan.",
    "score": 70,
-   "prev_score": 71,
+   "prev_score": 70,
    "status": "naik"
   },
   {
@@ -1841,144 +1841,8 @@
    ],
    "title": "Cuti hujung tahun: bayar di luar negara guna e-wallet & app bank",
    "why": "Menjelang musim cuti, Wise naikkan had e-wallet untuk pengguna Malaysia kepada RM50,000 secara automatik pada 24 Nov 2026, dengan kempen cuti 16 Nov–5 Jan 2027 yang tawar hadiah tunai sehingga RM10,000 untuk pembelian luar negara layak (Lowyat.NET), manakala Merchantrade Money naikkan had dari RM20,000 ke RM30,000 pada 18 Nov (The Star). Sejak 28 Okt, pengguna app Maybank, CIMB dan Hong Leong Bank boleh imbas DuitNow QR di kedai berlogo Alipay+ di China, Hong Kong, Korea Selatan, Filipina dan Laos tanpa app tambahan, dan sejak 5 Nov TNG eWallet boleh tempah e-hailing di 47 negara (Lowyat.NET).",
-   "score": 70,
-   "prev_score": null,
-   "status": "naik"
-  },
-  {
-   "angle": "Video kira kos sebenar: bandingkan 36 vs 60 bulan, tunjuk di mana nak mohon dalam app, dokumen yang perlu, dan ingatkan ini hutang BNPL dengan kadar efektif hampir 20% setahun, jadi bandingkan dengan pinjaman bank atau beli tunai dulu.",
-   "app": {
-    "name": "ShopeePay / Shopee (SPayLater)"
-   },
-   "cat": "kewangan",
-   "competition": {
-    "checked": "24 Nov 2026",
-    "level": "tinggi",
-    "note": "Cuma jumpa satu video BM lama tentang beli motor guna SPayLater; selebihnya video Indonesia. Belum ada video BM yang kira kos selepas pelancaran seluruh negara 19 Nov."
-   },
-   "deadline": "Penyedia BNPL sedia ada mesti mohon lesen SKP sebelum 30 Nov 2026",
-   "faq": [
-    {
-     "a": "Sehingga RM20,000, berasingan dari had SPayLater biasa.",
-     "q": "Berapa had SPayLater Motorcycle?"
-    },
-    {
-     "a": "Antara 12 hingga 60 bulan, dengan kadar keuntungan 0.92% sebulan untuk semua tempoh.",
-     "q": "Boleh ansur berapa lama?"
-    },
-    {
-     "a": "Ya, produk ini diperakui patuh Syariah oleh Amanie Advisors menurut Shopee.",
-     "q": "Patuh Syariah ke?"
-    },
-    {
-     "a": "Sesetengah pengguna mungkin layak tanpa deposit, bergantung pada dokumen yang dihantar.",
-     "q": "Kena bayar deposit tak?"
-    },
-    {
-     "a": "Ia dibuka seluruh negara, tapi halaman bantuan Shopee masih sebut untuk pengguna terpilih, jadi semak sama ada pilihan itu muncul dalam app korang.",
-     "q": "Semua orang boleh mohon ke?"
-    }
-   ],
-   "icon": "card",
-   "id": "spaylater-motorcycle-seluruh-negara",
-   "ideas": [
-    "Beli Motor Guna SPayLater: Kos Sebenar Dia",
-    "SPayLater Motorcycle: 36 vs 60 Bulan, Mana Jimat?",
-    "Cara Mohon SPayLater Motorcycle Dalam App",
-    "Motor RM8,000 Jadi RM12,400? Ini Kiraannya",
-    "5 Benda Wajib Tahu Sebelum Ansur Motor Online"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "RM10,000",
-      "RM20,000",
-      "RM50,000"
-     ],
-     "q": "Had maksimum SPayLater Motorcycle ialah…"
-    },
-    {
-     "a": 0,
-     "o": [
-      "60 bulan",
-      "24 bulan",
-      "84 bulan"
-     ],
-     "q": "Tempoh ansuran paling lama SPayLater Motorcycle?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "5% setahun",
-      "10% setahun",
-      "19% setahun"
-     ],
-     "q": "Kadar efektif tahunan SPayLater Motorcycle lebih kurang…"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#spaylater",
-     "#belimotor",
-     "#shopeepay",
-     "#bnpl",
-     "#tipskewangan"
-    ],
-    "keywords": [
-     "spaylater motorcycle",
-     "beli motor shopee ansuran",
-     "spaylater motor seluruh malaysia",
-     "kadar spaylater motorcycle",
-     "cara mohon spaylater motorcycle"
-    ],
-    "tags": [
-     "spaylater",
-     "shopeepay",
-     "beli motor",
-     "ansuran motor",
-     "bnpl",
-     "shopee",
-     "tips kewangan",
-     "pembiayaan motor"
-    ],
-    "thumbs": [
-     "MOTOR RM8K JADI RM12K?",
-     "ANSUR MOTOR DI SHOPEE",
-     "KIRA DULU SEBELUM TEKAN"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Tunjuk kiraan RinggitPlus: 36 bulan RM295.56 sebulan vs 60 bulan RM206.67 sebulan, dan jumlah keuntungan RM2,640 vs RM4,400.",
-     "hook": "Ansur motor 60 bulan dalam Shopee, korang bayar RM4,400 lebih.",
-     "title": "Motor RM8,000 Jadi RM12,400?"
-    },
-    {
-     "beat": "Rakam skrin: ShopeePay > perkhidmatan kewangan atau Shopee > SPayLater, senarai dokumen (KWSP, slip gaji, penyata bank) dan imbasan muka.",
-     "hook": "Butang ni ada dalam app ShopeePay korang, tapi bukan semua orang nampak.",
-     "title": "Mana Nak Mohon SPayLater Motor"
-    },
-    {
-     "beat": "Terangkan beza kadar sebulan dan kadar efektif tahunan 18.9%–19.9%, plus caj lewat RM10 dan risiko akaun SPayLater dibekukan.",
-     "hook": "0.92% sebulan bunyi kecil, tapi kadar efektifnya hampir 20% setahun.",
-     "title": "Bukan 0.92% Je Tau!"
-    }
-   ],
-   "sources": [
-    {
-     "name": "RinggitPlus (23 Nov 2026)",
-     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/spaylater-motorcycle-dibuka-ke-seluruh-negara-semak-kosnya-dahulu.html"
-    },
-    {
-     "name": "Lowyat.NET (19 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/410003/shopeepay-spaylater-motorcycle-malaysia/"
-    }
-   ],
-   "title": "SPayLater Motorcycle dibuka seluruh negara: beli motor ansuran sehingga RM20,000",
-   "why": "Pada 19 Nov 2026, ShopeePay luaskan SPayLater Motorcycle ke seluruh negara, dengan had sehingga RM20,000 (berasingan dari had SPayLater biasa), tempoh 12–60 bulan dan kadar keuntungan 0.92% sebulan; produk ini diperakui patuh Syariah oleh Amanie Advisors (Lowyat.NET). Kiraan RinggitPlus (23 Nov) tunjuk kadar efektif kira-kira 18.9%–19.9% setahun, contohnya motor RM8,000 tanpa deposit untuk 60 bulan jadi RM206.67 sebulan dengan jumlah keuntungan RM4,400. Halaman bantuan Shopee masih sebut ia untuk pengguna terpilih, dan caj lewat RM10 dikenakan untuk bil tertunggak.",
-   "score": 68,
-   "prev_score": 69,
+   "score": 69,
+   "prev_score": 70,
    "status": "naik"
   },
   {
@@ -2114,163 +1978,291 @@
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
    "score": 68,
-   "prev_score": 69,
+   "prev_score": 68,
    "status": "naik"
   },
   {
-   "angle": "Tutorial praktikal tetapan keselamatan WhatsApp (matikan muat turun automatik, pengesahan dua langkah, semak peranti dipautkan) plus terangkan apa maksud cadangan pengesahan identiti baharu. Sesuai dikongsi dalam group keluarga.",
+   "angle": "Video kira kos sebenar: bandingkan 36 vs 60 bulan, tunjuk di mana nak mohon dalam app, dokumen yang perlu, dan ingatkan ini hutang BNPL dengan kadar efektif hampir 20% setahun, jadi bandingkan dengan pinjaman bank atau beli tunai dulu.",
    "app": {
-    "name": "WhatsApp (Tetapan > Storan dan data)"
+    "name": "ShopeePay / Shopee (SPayLater)"
    },
-   "cat": "tutorial",
+   "cat": "kewangan",
    "competition": {
-    "checked": "22 Nov 2026",
+    "checked": "24 Nov 2026",
     "level": "tinggi",
-    "note": "Video tentang APK WhatsApp palsu yang dijumpai kebanyakannya Bahasa Indonesia, Inggeris dan Hindi. Belum jumpa video BM Malaysia yang gabungkan amaran MCCA, cadangan pengesahan identiti dan backup awan baharu WhatsApp."
+    "note": "Cuma jumpa satu video BM lama tentang beli motor guna SPayLater; selebihnya video Indonesia. Belum ada video BM yang kira kos selepas pelancaran seluruh negara 19 Nov."
    },
-   "icon": "shield",
-   "id": "whatsapp-malware-apk",
-   "ideas": [
-    "Matikan Setting WhatsApp Ni SEKARANG (Elak Malware)",
-    "Dapat Fail APK Dalam WhatsApp? Jangan Buka!",
-    "Cara On Pengesahan 2 Langkah WhatsApp (2026)",
-    "5 Tanda Telefon Korang Dah Kena Malware",
-    "Google Sekat APK Tak Sah 2027: Apa Berubah?"
-   ],
-   "prev_score": 63,
-   "score": 61,
-   "seo": {
-    "hashtags": [
-     "#whatsapp",
-     "#awasscam",
-     "#scamapk",
-     "#keselamatansiber",
-     "#tipswhatsapp"
-    ],
-    "keywords": [
-     "malware whatsapp",
-     "cara elak whatsapp kena hack",
-     "matikan muat turun automatik whatsapp",
-     "fail apk whatsapp scam",
-     "whatsapp pengesahan identiti malaysia"
-    ],
-    "tags": [
-     "whatsapp",
-     "malware",
-     "scam apk",
-     "keselamatan telefon",
-     "whatsapp hack",
-     "tips whatsapp",
-     "scam malaysia",
-     "otp"
-    ],
-    "thumbs": [
-     "JANGAN BUKA FAIL NI",
-     "WHATSAPP KENA HACK?",
-     "OFF SETTING NI!"
-    ]
-   },
-   "sources": [
-    {
-     "name": "SoyaCincau (15 Nov 2026)",
-     "url": "https://soyacincau.com/2026/11/15/whatsapp-stricter-verification-mcmc-scam-calls-impersonation/"
-    },
-    {
-     "name": "The Vibes (8 Nov 2026)",
-     "url": "https://www.thevibes.com/articles/news/129292/32.3-million-whatsapp-users-in-malaysia-face-malware-threat"
-    },
-    {
-     "name": "Lowyat.NET (16 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409783/ministry-whatsapp-acc-verification/"
-    },
-    {
-     "name": "Lowyat.NET (20 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/410137/google-android-sideloading-restrictions/"
-    },
-    {
-     "name": "Lowyat.NET (18 Nov 2026)",
-     "url": "https://www.lowyat.net/2026/409927/whatsapps-free-cloud-backup-beta/"
-    }
-   ],
-   "status": "stabil",
-   "title": "Amaran WhatsApp: APK palsu curi OTP, kerajaan kaji pengesahan identiti lebih ketat",
-   "why": "Pada 8 November 2026, Persatuan Pengguna Siber Malaysia (MCCA) beri amaran kira-kira 32.3 juta pengguna WhatsApp di Malaysia terdedah kepada fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware yang boleh curi OTP/TAC dan ambil alih akaun. Pada 15 Nov, Menteri Komunikasi Fahmi Fadzil kata kerajaan sedang menimbang pengesahan identiti dan nombor telefon yang lebih ketat untuk akaun WhatsApp kerana scammer beralih ke aplikasi pesanan; butiran dan tarikh belum diumumkan (SoyaCincau). Pada 20 Nov, Google umum peraturan pengesahan pembangun untuk app di luar Play Store akan diperluas ke seluruh dunia mulai Januari 2027; app dari pembangun tidak disahkan masih boleh dipasang tetapi perlu buka pilihan pembangun dan tunggu 24 jam (Lowyat.NET). Pada 18 Nov, WhatsApp mula uji backup awan sendiri percuma 2GB untuk sebahagian pengguna beta Android, dengan penyulitan hujung ke hujung wajib (passkey atau kunci 64 digit); tarikh untuk semua pengguna belum diumumkan (Lowyat.NET).",
-   "shorts": [
-    {
-     "title": "Off Setting WhatsApp Ni SEKARANG",
-     "hook": "Satu setting WhatsApp ni boleh selamatkan akaun bank korang.",
-     "beat": "Matikan muat turun media automatik: Tetapan > Storan dan data. Rakam skrin langkah."
-    },
-    {
-     "beat": "Fahmi kata 15 Nov: pengesahan identiti & nombor lebih ketat sedang ditimbang, belum ada tarikh. Sementara tu, on 2 langkah.",
-     "hook": "Kerajaan tengah kaji cara baru daftar akaun WhatsApp.",
-     "title": "WhatsApp Kena Verify Identiti?"
-    },
-    {
-     "title": "On Pengesahan 2 Langkah WhatsApp",
-     "hook": "30 saat je untuk kunci akaun WhatsApp korang.",
-     "beat": "Tunjuk cara aktifkan pengesahan dua langkah dan passkey dalam tetapan akaun."
-    }
-   ],
+   "deadline": "Penyedia BNPL sedia ada mesti mohon lesen SKP sebelum 30 Nov 2026",
    "faq": [
     {
-     "q": "Betul ke WhatsApp boleh kena malware?",
-     "a": "MCCA beri amaran 8 Nov tentang fail menyamar dokumen yang sebenarnya APK, Trojan atau spyware."
+     "a": "Sehingga RM20,000, berasingan dari had SPayLater biasa.",
+     "q": "Berapa had SPayLater Motorcycle?"
     },
     {
-     "q": "Apa malware ni boleh buat?",
-     "a": "Curi OTP/TAC, ambil alih WhatsApp untuk tipu kenalan, dan akses akaun kewangan."
+     "a": "Antara 12 hingga 60 bulan, dengan kadar keuntungan 0.92% sebulan untuk semua tempoh.",
+     "q": "Boleh ansur berapa lama?"
     },
     {
-     "q": "Setting apa nak tutup?",
-     "a": "Matikan muat turun media automatik dalam Tetapan > Storan dan data."
+     "a": "Ya, produk ini diperakui patuh Syariah oleh Amanie Advisors menurut Shopee.",
+     "q": "Patuh Syariah ke?"
     },
     {
-     "q": "Macam mana nak lindungi akaun?",
-     "a": "Aktifkan pengesahan dua langkah dan semak senarai peranti dipautkan secara berkala."
+     "a": "Sesetengah pengguna mungkin layak tanpa deposit, bergantung pada dokumen yang dihantar.",
+     "q": "Kena bayar deposit tak?"
     },
     {
-     "a": "Kerajaan baru menimbang pengesahan identiti lebih ketat pada 15 Nov; cara dan tarikhnya belum diumumkan.",
-     "q": "Betul ke WhatsApp nanti kena daftar IC?"
+     "a": "Ia dibuka seluruh negara, tapi halaman bantuan Shopee masih sebut untuk pengguna terpilih, jadi semak sama ada pilihan itu muncul dalam app korang.",
+     "q": "Semua orang boleh mohon ke?"
     }
+   ],
+   "icon": "card",
+   "id": "spaylater-motorcycle-seluruh-negara",
+   "ideas": [
+    "Beli Motor Guna SPayLater: Kos Sebenar Dia",
+    "SPayLater Motorcycle: 36 vs 60 Bulan, Mana Jimat?",
+    "Cara Mohon SPayLater Motorcycle Dalam App",
+    "Motor RM8,000 Jadi RM12,400? Ini Kiraannya",
+    "5 Benda Wajib Tahu Sebelum Ansur Motor Online"
    ],
    "quiz": [
     {
-     "q": "Fail malware dalam WhatsApp biasanya menyamar sebagai…",
+     "a": 1,
      "o": [
-      "Dokumen",
-      "Lagu",
-      "Sticker"
+      "RM10,000",
+      "RM20,000",
+      "RM50,000"
      ],
-     "a": 0
+     "q": "Had maksimum SPayLater Motorcycle ialah…"
     },
+    {
+     "a": 0,
+     "o": [
+      "60 bulan",
+      "24 bulan",
+      "84 bulan"
+     ],
+     "q": "Tempoh ansuran paling lama SPayLater Motorcycle?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "5% setahun",
+      "10% setahun",
+      "19% setahun"
+     ],
+     "q": "Kadar efektif tahunan SPayLater Motorcycle lebih kurang…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#spaylater",
+     "#belimotor",
+     "#shopeepay",
+     "#bnpl",
+     "#tipskewangan"
+    ],
+    "keywords": [
+     "spaylater motorcycle",
+     "beli motor shopee ansuran",
+     "spaylater motor seluruh malaysia",
+     "kadar spaylater motorcycle",
+     "cara mohon spaylater motorcycle"
+    ],
+    "tags": [
+     "spaylater",
+     "shopeepay",
+     "beli motor",
+     "ansuran motor",
+     "bnpl",
+     "shopee",
+     "tips kewangan",
+     "pembiayaan motor"
+    ],
+    "thumbs": [
+     "MOTOR RM8K JADI RM12K?",
+     "ANSUR MOTOR DI SHOPEE",
+     "KIRA DULU SEBELUM TEKAN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk kiraan RinggitPlus: 36 bulan RM295.56 sebulan vs 60 bulan RM206.67 sebulan, dan jumlah keuntungan RM2,640 vs RM4,400.",
+     "hook": "Ansur motor 60 bulan dalam Shopee, korang bayar RM4,400 lebih.",
+     "title": "Motor RM8,000 Jadi RM12,400?"
+    },
+    {
+     "beat": "Rakam skrin: ShopeePay > perkhidmatan kewangan atau Shopee > SPayLater, senarai dokumen (KWSP, slip gaji, penyata bank) dan imbasan muka.",
+     "hook": "Butang ni ada dalam app ShopeePay korang, tapi bukan semua orang nampak.",
+     "title": "Mana Nak Mohon SPayLater Motor"
+    },
+    {
+     "beat": "Terangkan beza kadar sebulan dan kadar efektif tahunan 18.9%–19.9%, plus caj lewat RM10 dan risiko akaun SPayLater dibekukan.",
+     "hook": "0.92% sebulan bunyi kecil, tapi kadar efektifnya hampir 20% setahun.",
+     "title": "Bukan 0.92% Je Tau!"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (23 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/spaylater-motorcycle-dibuka-ke-seluruh-negara-semak-kosnya-dahulu.html"
+    },
+    {
+     "name": "Lowyat.NET (19 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410003/shopeepay-spaylater-motorcycle-malaysia/"
+    }
+   ],
+   "title": "SPayLater Motorcycle dibuka seluruh negara: beli motor ansuran sehingga RM20,000",
+   "why": "Pada 19 Nov 2026, ShopeePay luaskan SPayLater Motorcycle ke seluruh negara, dengan had sehingga RM20,000 (berasingan dari had SPayLater biasa), tempoh 12–60 bulan dan kadar keuntungan 0.92% sebulan; produk ini diperakui patuh Syariah oleh Amanie Advisors (Lowyat.NET). Kiraan RinggitPlus (23 Nov) tunjuk kadar efektif kira-kira 18.9%–19.9% setahun, contohnya motor RM8,000 tanpa deposit untuk 60 bulan jadi RM206.67 sebulan dengan jumlah keuntungan RM4,400. Halaman bantuan Shopee masih sebut ia untuk pengguna terpilih, dan caj lewat RM10 dikenakan untuk bil tertunggak.",
+   "score": 66,
+   "prev_score": 68,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial skrin telefon langkah demi langkah kemas kini maklumat dalam MyJPJ (termasuk log masuk MyDigital ID), sambil ingatkan penonton semak tarikh tamat road tax dan lesen dalam app yang sama.",
+   "app": {
+    "name": "MyJPJ / Portal JPJ"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "26 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa tutorial BM MyJPJ (daftar guna MyDigital ID, tukar e-mel), tetapi belum jumpa video yang khusus tentang gesaan JPJ 23 Nov untuk kemas kini alamat dan nombor telefon."
+   },
+   "faq": [
+    {
+     "a": "JPJ menggesa orang ramai kemas kini alamat, e-mel dan nombor telefon, tetapi tiada tarikh akhir diumumkan.",
+     "q": "Kena update maklumat JPJ ke? Ada tarikh akhir tak?"
+    },
+    {
+     "a": "Melalui app MyJPJ, portal awam JPJ atau di kaunter JPJ.",
+     "q": "Boleh update kat mana?"
+    },
+    {
+     "a": "JPJ kata maklumat tepat diperlukan supaya ciri perkhidmatan digital baharu dapat dilancarkan dengan lancar dan selamat; ciri apa belum dinyatakan.",
+     "q": "Kenapa JPJ nak maklumat terkini?"
+    },
+    {
+     "a": "Sejak 1 Mei 2026, pengguna 18 tahun ke atas mesti log masuk MyJPJ menggunakan MyDigital ID.",
+     "q": "Macam mana nak login MyJPJ sekarang?"
+    },
+    {
+     "a": "Penguat kuasa boleh semak status road tax secara digital melalui sistem JPJ, dan JPJ telah sita 35,555 kenderaan sejak 2023 kerana road tax tamat.",
+     "q": "Road tax tak payah tampal lagi, macam mana polis tahu dah tamat?"
+    }
+   ],
+   "icon": "id",
+   "id": "myjpj-kemas-kini-maklumat",
+   "ideas": [
+    "Cara Kemas Kini Alamat & No Telefon Dalam MyJPJ",
+    "JPJ Minta Update Maklumat: Ini Sebabnya",
+    "MyJPJ Tak Boleh Login? Guna MyDigital ID",
+    "Semak Road Tax & Lesen Dalam MyJPJ (2 Minit)",
+    "35,555 Kenderaan Disita: Jangan Lupa Road Tax"
+   ],
+   "quiz": [
     {
      "a": 1,
      "o": [
-      "Menteri Kewangan",
-      "Menteri Komunikasi Fahmi Fadzil",
-      "Gabenor BNM"
+      "1 Mei 2026",
+      "23 Nov 2026",
+      "10 Feb 2023"
      ],
-     "q": "Siapa sebut kerajaan kaji pengesahan WhatsApp lebih ketat (15 Nov)?"
+     "q": "Bila JPJ minta orang ramai kemas kini maklumat peribadi?"
     },
     {
-     "q": "Cara terbaik kunci akaun WhatsApp?",
+     "a": 0,
      "o": [
-      "Pengesahan dua langkah",
-      "Tukar gambar profil",
-      "Padam chat lama"
+      "MyDigital ID",
+      "Nombor plat",
+      "Kata laluan SMS"
      ],
-     "a": 0
+     "q": "Log masuk MyJPJ (18 tahun ke atas) kini guna apa?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "3,555",
+      "135,000",
+      "35,555"
+     ],
+     "q": "Berapa kenderaan disita JPJ sejak 2023 kerana road tax tamat?"
     }
-   ]
+   ],
+   "seo": {
+    "hashtags": [
+     "#MyJPJ",
+     "#JPJ",
+     "#MyDigitalID",
+     "#roadtax",
+     "#tutorialapp"
+    ],
+    "keywords": [
+     "cara kemas kini alamat myjpj",
+     "update no telefon jpj",
+     "myjpj login mydigital id",
+     "semak road tax myjpj",
+     "jpj kemas kini maklumat peribadi"
+    ],
+    "tags": [
+     "myjpj",
+     "jpj",
+     "kemas kini alamat",
+     "mydigital id",
+     "road tax",
+     "lesen memandu",
+     "tutorial app",
+     "tutorial online"
+    ],
+    "thumbs": [
+     "UPDATE MYJPJ SEKARANG",
+     "JPJ MINTA KEMAS KINI",
+     "ALAMAT LAMA? BAHAYA"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Rakam skrin: log masuk MyJPJ guna MyDigital ID, masuk profil, kemas kini alamat, e-mel dan nombor telefon, kemudian simpan.",
+     "hook": "JPJ minta korang update alamat dan nombor telefon, ini caranya.",
+     "title": "Update Alamat Dalam MyJPJ (30 Saat)"
+    },
+    {
+     "beat": "Terangkan JPJ (23 Nov) kata maklumat tepat perlu untuk ciri digital baharu, boleh buat di app, portal atau kaunter, dan tiada tarikh akhir; ingatkan jangan tekan pautan SMS yang mengaku JPJ.",
+     "hook": "Bukan scam, JPJ memang minta korang buat ni.",
+     "title": "Kenapa JPJ Suruh Update Maklumat?"
+    },
+    {
+     "beat": "Tunjuk angka 35,555 kenderaan disita dan 1.6 juta notis P22 sejak 2023, kemudian tunjuk cara semak tarikh tamat road tax dalam MyJPJ.",
+     "hook": "Road tax tak nampak lagi kat cermin, sebab tu ramai terlupa.",
+     "title": "Road Tax Tamat? 35,555 Kereta Disita"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Lowyat.NET (23 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410221/jpj-urges-public-update-personal-info/"
+    },
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://www.bernama.com/en/general/news.php?id=2635456"
+    },
+    {
+     "name": "The Star (29 Apr 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/04/29/mydigital-id-required-for-myjpj-login-starting-may-1"
+    }
+   ],
+   "title": "JPJ minta kemas kini alamat, e-mel & no telefon: cara buat dalam MyJPJ",
+   "why": "Pada 23 Nov 2026, JPJ minta orang ramai kemas kini alamat kediaman, alamat e-mel dan nombor telefon dalam pangkalan data JPJ supaya ciri perkhidmatan digital baharu boleh dilancarkan dengan lancar; ia boleh dibuat melalui app MyJPJ, portal awam JPJ atau kaunter JPJ, dan tiada tarikh akhir diberi (Lowyat.NET). Log masuk MyJPJ untuk umur 18 tahun ke atas kini wajib guna MyDigital ID sejak 1 Mei 2026 (The Star). Isu ini penting kerana JPJ telah sita 35,555 kenderaan dan keluarkan 1,608,238 notis P22 sejak 2023 kerana cukai jalan tamat tempoh, sejak pelekat road tax tidak lagi perlu dipamer mulai 10 Feb 2023 (Bernama, 17 Nov).",
+   "score": 66,
+   "prev_score": null,
+   "status": "naik"
   }
  ],
  "upcoming": [
   {
    "date": "29 Nov 2026",
-   "label": "Ujian MySiren (amaran kecemasan) seluruh negara, 10–10.30 pagi",
+   "label": "Ujian MySiren (amaran kecemasan) seluruh negara, Ahad 10–10.30 pagi",
    "lead": 5,
-   "note": "Nama rasmi 'MySiren' diumumkan 23 Nov. Video 'update phone sebelum 29 Nov' patut keluar hari ini atau esok.",
+   "note": "Tinggal 3 hari. Video/Shorts 'update phone sebelum 29 Nov' patut keluar hari ini.",
    "topic": "ujian-amaran-kecemasan-ews",
    "when": "2026-11-29"
   },
