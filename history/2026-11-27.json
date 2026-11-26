@@ -1,0 +1,2899 @@
+{
+ "date": "2026-11-27",
+ "updated_label": "27 Nov 2026, 7 pagi",
+ "items": [
+  {
+   "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan MySiren di iPhone, Android dan Huawei, plus terangkan beza pop-up MySiren dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
+   "app": {
+    "name": "Tetapan telefon > Amaran kecemasan (Wireless emergency alerts)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "sederhana",
+    "note": "Masih cuma 2 video BM berkaitan (klip berita MCMC suruh kemas kini telefon dan video beza SMS NADMA dengan sistem baharu). Tutorial skrin langkah demi langkah ikut jenama telefon sebelum 29 Nov masih kosong."
+   },
+   "deadline": "Ujian seluruh negara: Ahad, 29 Nov 2026, 10–10.30 pagi",
+   "faq": [
+    {
+     "a": "Ujian seluruh negara pada 29 Nov 2026 dalam tempoh 10–10.30 pagi; Lowyat.NET lapor notifikasi ujian bermula 10.10 pagi.",
+     "q": "Bila ujian amaran kecemasan ni?"
+    },
+    {
+     "a": "Tak perlu, MySiren dihantar terus ke telefon serasi melalui Cell Broadcast tanpa daftar atau data mudah alih.",
+     "q": "Kena download app ke?"
+    },
+    {
+     "a": "Telefon lama atau tidak serasi akan terus terima amaran bencana melalui SMS.",
+     "q": "Phone aku lama, boleh dapat tak?"
+    },
+    {
+     "a": "iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau Huawei EMUI 16 ke atas.",
+     "q": "Versi phone apa yang perlu?"
+    },
+    {
+     "a": "Ada lapan jenis amaran dan hanya amaran Kebangsaan dan Ekstrem yang tidak boleh dimatikan.",
+     "q": "Boleh off ke amaran ni?"
+    }
+   ],
+   "icon": "shield",
+   "id": "ujian-amaran-kecemasan-ews",
+   "ideas": [
+    "Phone Korang Akan Berbunyi 29 Nov! Ini Sebabnya",
+    "Cara On Amaran Kecemasan iPhone & Android",
+    "MySiren: 5 Benda Wajib Tahu Sebelum 29 Nov",
+    "MySiren vs SMS NADMA: Apa Bezanya?",
+    "Amaran Banjir Palsu WhatsApp: Cara Kenal Pasti"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "19 Nov",
+      "29 Nov",
+      "1 Dis"
+     ],
+     "q": "Ujian MySiren seluruh negara diadakan pada…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Mesej WhatsApp",
+      "Panggilan suara",
+      "Pop-up dengan bunyi khas"
+     ],
+     "q": "Amaran MySiren dihantar ke telefon dalam bentuk…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "MySiren",
+      "MyAlert",
+      "MyBanjir"
+     ],
+     "q": "Apakah nama rasmi sistem amaran awal Malaysia?"
+    }
+   ],
+   "script": {
+    "cta": "Share video ni dalam group keluarga supaya mak ayah tak terkejut 29 Nov nanti, dan subscribe untuk tips telefon lain.",
+    "hook": "Ahad ni, 29 November, pagi-pagi lagi phone korang mungkin berbunyi kuat dengan mesej amaran. Jangan panik, itu ujian MySiren, sistem amaran kecemasan baharu negara. Tapi kalau phone tak di-update, korang mungkin tak dapat langsung.",
+    "points": [
+     "Apa itu MySiren: nama rasmi Sistem Amaran Awal yang diumumkan Fahmi Fadzil pada 23 Nov, guna Cell Broadcast untuk hantar pop-up terus ke telefon dalam kawasan terjejas.",
+     "Tarikh: ujian seluruh negara 29 Nov 2026 dalam tempoh 10–10.30 pagi, dikawal dari pusat NADMA.",
+     "Syarat telefon: iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau EMUI 16 ke atas; telefon lama masih dapat SMS.",
+     "Tunjuk cara update OS, restart, dan hidupkan tetapan amaran kecemasan di iPhone dan Android; ada lapan jenis amaran, hanya Kebangsaan dan Ekstrem tak boleh dimatikan.",
+     "Ingat: MySiren keluar sebagai pop-up, percuma dan tak kumpul data peribadi; mesej banjir yang tular di WhatsApp bukan dari sistem ni."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#MySiren",
+     "#amarankecemasan",
+     "#mcmc",
+     "#amaranbanjir",
+     "#tipstelefon"
+    ],
+    "keywords": [
+     "mysiren ujian 29 november",
+     "cara on emergency alert iphone",
+     "mcmc early warning system",
+     "amaran banjir telefon malaysia",
+     "cell broadcast malaysia"
+    ],
+    "tags": [
+     "mysiren",
+     "ews mcmc",
+     "amaran kecemasan",
+     "emergency alert",
+     "cell broadcast",
+     "amaran banjir",
+     "tips telefon",
+     "android"
+    ],
+    "thumbs": [
+     "PHONE AKAN BERBUNYI!",
+     "29 NOV JANGAN PANIK",
+     "ON SETTING NI"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terangkan ia ujian MySiren dalam tempoh 10–10.30 pagi, pop-up dengan bunyi khas, bukan kecemasan sebenar dan tak perlu app.",
+     "hook": "29 Nov pagi, phone satu Malaysia akan berbunyi.",
+     "title": "Phone Berbunyi 29 Nov? Jangan Panik"
+    },
+    {
+     "beat": "Rakam skrin: update OS, restart, buka tetapan amaran kecemasan dan hidupkan. Tunjuk iPhone dan Android.",
+     "hook": "Kalau setting ni off, korang tak dapat amaran banjir.",
+     "title": "On Amaran Kecemasan Dalam 20 Saat"
+    },
+    {
+     "beat": "MySiren guna pop-up Cell Broadcast, bukan WhatsApp. Tunjuk beza rupa pop-up rasmi dan mesej forward yang tular.",
+     "hook": "Mesej amaran banjir dalam WhatsApp tu bukan dari MySiren.",
+     "title": "Amaran Banjir WhatsApp = Palsu?"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/malaysias-mysiren-to-warn-mobile-users-of-floods-disasters-without-apps-or-subscriptions-mcmc-says/244483"
+    },
+    {
+     "name": "Lowyat.NET (23 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410217/malaysia-ews-called-mysiren/"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2636688"
+    },
+    {
+     "name": "Lowyat.NET (20 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410102/mcmc-public-test-early-warning-system/"
+    },
+    {
+     "name": "The Star (19 Nov 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/11/19/update-phones-now-to-receive-emergency-alerts-public-urged"
+    },
+    {
+     "name": "Malay Mail (19 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/19/update-your-phones-to-receive-malaysias-new-emergency-alerts-mcmc-tells-public/243909"
+    },
+    {
+     "name": "NST (19 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580873/mcmc-clarifies-nov-19-disaster-alert-system-test"
+    },
+    {
+     "name": "SCMP",
+     "url": "https://www.scmp.com/week-asia/health-environment/article/3374998/malaysians-question-slow-response-over-false-mobile-flood-warning-trial"
+    },
+    {
+     "name": "SoyaCincau (19 Nov 2026)",
+     "url": "https://soyacincau.com/?p=454551"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636627"
+    }
+   ],
+   "title": "Ujian MySiren 29 Nov: phone akan berbunyi, update dulu",
+   "why": "Sistem Amaran Awal (EWS) berasaskan Cell Broadcast kini dinamakan secara rasmi 'MySiren', diumumkan Menteri Komunikasi Fahmi Fadzil pada 23 Nov 2026, dan ujian serentak seluruh negara dibuat pada 29 Nov 2026 dalam tempoh 10–10.30 pagi (Lowyat.NET lapor notifikasi ujian bermula 10.10 pagi) dari pusat kawalan NADMA. Telefon serasi (iPhone 11 ke atas dengan iOS 27.2, Android 12 ke atas atau Huawei EMUI 16 ke atas) akan terima pop-up dengan bunyi khas tanpa perlu daftar, muat turun app atau data mudah alih, manakala telefon lama terus terima SMS (Bernama 19 Nov, Lowyat.NET 23 Nov). Sistem bernilai kira-kira RM200 juta ini dikendalikan MCMC, tidak mengumpul data peribadi, dan ada lapan jenis amaran di mana hanya amaran Kebangsaan dan Ekstrem tidak boleh dimatikan. Topik ini hangat selepas kekeliruan ujian 19 Nov yang MCMC jelaskan sebagai latihan dalaman (NST).",
+   "score": 99,
+   "prev_score": 99,
+   "status": "panas"
+  },
+  {
+   "angle": "Tutorial langkah demi langkah aktifkan dan beli pas dalam app KTM Mobile, dengan kiraan jimat ikut laluan sebenar. Tunjuk juga pilihan kiosk stesen untuk yang nak lulus serta-merta.",
+   "app": {
+    "name": "KTM Mobile (KTMB)",
+    "url": "https://www.ktmb.com.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "tinggi",
+    "note": "Carian YouTube masih cuma jumpa satu video penerangan Bahasa Inggeris tentang penjimatan MyKomuter50; tutorial BM aktifkan pas dalam app KTM Mobile sebelum 1 Dis masih kosong."
+   },
+   "deadline": "Pengaktifan dibuka 16 Nov; pas sah mulai 1 Dis 2026",
+   "faq": [
+    {
+     "a": "Pengaktifan dibuka 16 November 2026 dan pas berkuat kuasa mulai 1 Disember 2026.",
+     "q": "MyKomuter50 boleh mula guna bila?"
+    },
+    {
+     "a": "RM50 untuk 30 hari, naik tanpa had dalam kategori laluan yang dipilih.",
+     "q": "Berapa harga dan berapa lama sah?"
+    },
+    {
+     "a": "Warganegara Malaysia 7 tahun ke atas dengan MyKad atau MyKid, yang tidak memegang pas MyRailLife.",
+     "q": "Siapa boleh mohon?"
+    },
+    {
+     "a": "Tak semestinya; boleh muat naik MyKad dalam app KTM Mobile atau KITS Style (sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "q": "Kena pergi stesen ke?"
+    },
+    {
+     "a": "Selangor umum SEL 30 (RM30 sebulan untuk tren dan bas) mulai 2027, tapi syarat dan cara daftar belum diumumkan.",
+     "q": "Ada bantuan lain untuk tambang tren di Selangor?"
+    }
+   ],
+   "icon": "card",
+   "id": "mykomuter50-ktm",
+   "ideas": [
+    "Cara Aktifkan Pas MyKomuter50 dalam App KTM Mobile",
+    "RM416 Jadi RM50? Kira Jimat Pas MyKomuter50",
+    "MyKomuter50 vs My50: Mana Sesuai Untuk Korang?",
+    "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
+    "5 Kesilapan Bila Daftar Pas MyKomuter50"
+   ],
+   "prev_score": 93,
+   "score": 94,
+   "script": {
+    "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
+    "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
+    "points": [
+     "Apa itu MyKomuter50: pas 30 hari pada harga RM50, naik tanpa had untuk perkhidmatan Komuter terpilih, sah mulai 1 Disember 2026.",
+     "Tiga kategori laluan, setiap satu RM50: Utara, Lembah Klang dan Shuttle Selatan.",
+     "Siapa layak: warganegara 7 tahun ke atas dengan MyKad atau MyKid, yang belum ada pas MyRailLife.",
+     "Cara aktifkan: muat naik MyKad dalam KTM Mobile atau KITS Style (kelulusan sehingga 3 hari bekerja), atau imbas MyKad di kiosk stesen untuk lulus segera.",
+     "Contoh jimat: Tanjung Malim–KL Sentral kira-kira RM416 sebulan jadi RM50; KTMB sarankan sahkan, aktifkan dan beli pada hari yang sama."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#MyKomuter50",
+     "#KTMKomuter",
+     "#TipsJimat",
+     "#PasRM50",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "mykomuter50 cara aktifkan",
+     "pas komuter rm50",
+     "ktm mobile mykomuter50",
+     "mykomuter50 daftar",
+     "pas bulanan ktm komuter"
+    ],
+    "tags": [
+     "mykomuter50",
+     "ktm komuter",
+     "pas rm50",
+     "ktmb",
+     "ktm mobile",
+     "kits style",
+     "tips jimat",
+     "pengangkutan awam"
+    ],
+    "thumbs": [
+     "KOMUTER RM50 SEBULAN",
+     "JIMAT RM366?",
+     "CARA AKTIFKAN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk kiraan tambang sebulan berbanding pas RM50, dan sebut penjimatan sehingga 88% bergantung laluan.",
+     "hook": "Kalau korang ulang-alik Tanjung Malim–KL Sentral, korang mungkin bayar RM416 sebulan.",
+     "title": "RM416 Jadi RM50? Kira Jimat Komuter"
+    },
+    {
+     "beat": "Rakaman skrin KTM Mobile: muat naik MyKad, tunggu kelulusan sehingga 3 hari bekerja, kemudian beli pas 30 hari.",
+     "hook": "Tak payah beratur kat kaunter, korang boleh buat dalam app.",
+     "title": "Aktifkan MyKomuter50 Guna Phone"
+    },
+    {
+     "beat": "Ingatkan kelulusan dalam app boleh ambil 3 hari bekerja; kalau nak segera, imbas MyKad di kiosk stesen. Pemegang pas MyRailLife pula tak layak.",
+     "hook": "Nak guna pas 1 Disember? Jangan buat silap ni.",
+     "title": "Silap Ni Buat Pas Korang Lambat"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa harga pas MyKomuter50 untuk 30 hari?",
+     "o": [
+      "RM30",
+      "RM50",
+      "RM100"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Pas MyKomuter50 mula berkuat kuasa bila?",
+     "o": [
+      "16 November 2026",
+      "1 Disember 2026",
+      "1 Januari 2027"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Siapa TAK layak mohon MyKomuter50?",
+     "o": [
+      "Pemegang pas MyRailLife",
+      "Pelajar 7 tahun ke atas",
+      "Pekerja yang ulang-alik"
+     ],
+     "a": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (16 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/naik-komuter-tanpa-had-dengan-rm50-mykomuter50-dibuka-16-november-ini.html"
+    },
+    {
+     "name": "Lowyat.NET (12 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409695/ktmb-mykomuter50-pass/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/budget-2027/budget-2027-my50-stays-new-mykomuter50-pass-for-ktm-komuter-riders.html"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/10/12/mykomuter50-pass-for-unlimited-ktm-rides-could-land-by-dec-1-loke-says/238786"
+    },
+    {
+     "name": "RinggitPlus (16 Nov 2026) – SEL 30",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-commuters-could-get-rm30-a-month-toward-trains-and-buses-in-2027.html"
+    }
+   ],
+   "status": "panas",
+   "title": "Pas MyKomuter50: RM50 sebulan naik KTM Komuter tanpa had",
+   "why": "Pengaktifan pas MyKomuter50 dibuka sejak 16 November 2026, dan pas RM50 untuk 30 hari tanpa had ini berkuat kuasa 1 Disember. Penjimatan sehingga 88% bergantung laluan, contohnya Tanjung Malim–KL Sentral daripada kira-kira RM416 sebulan kepada RM50 (Lowyat.NET, 12 Nov). Layak untuk warganegara 7 tahun ke atas yang tiada pas MyRailLife; pengesahan dalam app KTM Mobile/KITS Style ambil sehingga 3 hari bekerja, atau segera di kiosk stesen. Untuk penduduk Selangor, Bajet Selangor 2027 (dibentang 13 Nov) umum subsidi SEL 30, iaitu RM30 sebulan untuk tambang tren dan bas mulai 2027 dengan peruntukan RM5 juta untuk kira-kira 13,000 komuter; syarat dan cara daftar belum diumumkan (RinggitPlus, 16 Nov)."
+  },
+  {
+   "angle": "Tutorial MySTR langkah demi langkah, siapa wajib kemas kini, dan cara kenal laman STR palsu. Sesuai untuk video panjang + Shorts peringatan tarikh.",
+   "app": {
+    "name": "Portal MySTR (HASiL)",
+    "url": "https://bantuantunai.hasil.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "sesak",
+    "note": "Sekurang-kurangnya 6 video BM tentang cara kemas kini STR 2027 dan maksud status permohonan. Sudut yang masih kosong: apa jadi kalau terlepas tempoh Fasa 1 dan cara semak status selepas tarikh tutup."
+   },
+   "deadline": "Fasa 1: kemas kini hingga Nov 2026",
+   "icon": "aid",
+   "id": "str-2027-kemas-kini",
+   "ideas": [
+    "Cara Kemas Kini STR 2027 (Sebelum Fasa 1 Tutup)",
+    "STR 2027: Siapa WAJIB Kemas Kini? Jangan Terlepas",
+    "Status STR Tak Lulus? Ini Cara Buat Rayuan",
+    "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
+    "Cara Semak Status STR 2027 Dalam 2 Minit"
+   ],
+   "prev_score": 90,
+   "score": 91,
+   "script": {
+    "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
+    "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
+    "points": [
+     "Permohonan dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026.",
+     "Tempoh kemas kini untuk Fasa 1 ialah hingga November 2026, tertakluk pindaan.",
+     "Siapa wajib kemas kini: yang tak pernah kemas kini sepanjang STR 2024, 2025 dan 2026, atau yang maklumatnya berubah.",
+     "Info semasa: STR 2026 Fasa 4 (RM1.1 bilion, kira-kira 5.4 juta penerima) dibayar mulai 4 Nov, dan penerima baharu atau rayuan lulus dapat bayaran mulai 16 Nov 2026.",
+     "Tunjuk langkah di bantuantunai.hasil.gov.my, dan ingat: guna portal rasmi sahaja, jangan klik pautan STR dari WhatsApp atau SMS."
+    ]
+   },
+   "seo": {
+    "hashtags": [
+     "#str2027",
+     "#bantuankerajaan",
+     "#sumbangantunairahmah",
+     "#mystr",
+     "#bantuantunai"
+    ],
+    "keywords": [
+     "cara kemaskini str 2027",
+     "str 2027 fasa 1",
+     "mystr login",
+     "semak status str 2027",
+     "rayuan str 2027"
+    ],
+    "tags": [
+     "str 2027",
+     "sumbangan tunai rahmah",
+     "mystr",
+     "kemaskini str",
+     "bantuan kerajaan",
+     "str fasa 1",
+     "hasil",
+     "bantuan tunai"
+    ],
+    "thumbs": [
+     "STR TAK LULUS?",
+     "WAJIB KEMAS KINI",
+     "SEBELUM TUTUP!"
+    ]
+   },
+   "sources": [
+    {
+     "name": "MOF: Siaran media STR Fasa 4 (4 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/penyaluran-sumbangan-tunai-rahmah-fasa-4-kepada-5-4-juta-penerima-mulai-4-november-2026"
+    },
+    {
+     "name": "RTM: penerima baharu & rayuan lulus mulai 16 Nov",
+     "url": "https://berita.rtm.gov.my/?p=720978"
+    },
+    {
+     "name": "RinggitPlus (BM)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    },
+    {
+     "name": "RinggitPlus (EN)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
+    },
+    {
+     "name": "Malay Mail (4 Nov 2026)",
+     "url": "https://malaymail.com/news/malaysia/2026/11/04/over-five-million-malaysians-to-receive-rm11b-str-aid-from-today-says-anwar/242001"
+    },
+    {
+     "name": "Citizens Journal (11 Nov 2026)",
+     "url": "https://cj.my/161047/str-phase-four-pays-new-recipients-from-16-nov"
+    }
+   ],
+   "status": "panas",
+   "title": "STR 2027: kemas kini permohonan Fasa 1 sebelum hujung November",
+   "why": "Permohonan baharu dan kemas kini STR 2027 dibuka online di MySTR sejak 15 Oktober 2026, dan tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026 (tertakluk pindaan), walaupun HASiL kata permohonan STR 2027 dibuka sepanjang tahun (RinggitPlus). STR 2026 Fasa 4 bernilai RM1.1 bilion untuk lebih 5 juta penerima (isi rumah sehingga RM500, warga emas tanpa pasangan RM150), dan yang tiada akaun bank boleh tunai di BSN. Sejak Isnin, 16 November, bayaran Fasa 4 mula masuk untuk penerima baharu dan rayuan yang lulus (RTM).",
+   "shorts": [
+    {
+     "beat": "Terang penerima baharu dan rayuan yang lulus dibayar mulai 16 Nov, dan yang tiada akaun bank boleh tunai di BSN.",
+     "hook": "Sejak 16 November, duit STR dah mula masuk untuk satu kumpulan ni. Korang termasuk tak?",
+     "title": "STR Dah Masuk? Ni Siapa Yang Layak"
+    },
+    {
+     "title": "Kemas Kini STR 2027 Dalam 60 Saat",
+     "hook": "Jangan tunggu Fasa 1 tutup. Ni cara kemas kini STR guna phone.",
+     "beat": "Rakam skrin MySTR: log masuk, semak maklumat isi rumah, hantar. Ingatkan tempoh Fasa 1 dijangka hingga November."
+    },
+    {
+     "title": "Link STR Dalam WhatsApp? JANGAN Klik",
+     "hook": "Dapat link 'semak STR' dalam WhatsApp? Itu bukan cara rasmi.",
+     "beat": "Tunjuk alamat portal rasmi bantuantunai.hasil.gov.my dan beza dengan link pelik. Ajak share kepada family."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu masuk?",
+     "a": "Penerima baharu dan rayuan yang lulus dibayar mulai Isnin, 16 November 2026."
+    },
+    {
+     "q": "Siapa wajib kemas kini STR 2027?",
+     "a": "Yang tak pernah kemas kini sepanjang STR 2024 hingga 2026, atau yang maklumat isi rumahnya berubah."
+    },
+    {
+     "q": "Sampai bila boleh kemas kini untuk Fasa 1?",
+     "a": "Tempoh kemas kini Fasa 1 dijangka hingga November 2026, tertakluk pindaan LHDN."
+    },
+    {
+     "q": "Tak ada akaun bank, macam mana nak dapat duit STR?",
+     "a": "Penerima tanpa akaun bank boleh tunaikan bayaran di BSN."
+    },
+    {
+     "q": "Kat mana nak kemas kini atau semak status?",
+     "a": "Di portal rasmi MySTR, bantuantunai.hasil.gov.my. Jangan guna link dari WhatsApp atau SMS."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Bila bayaran STR untuk penerima baharu & rayuan lulus bermula?",
+     "o": [
+      "4 November",
+      "16 November",
+      "30 November"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Portal rasmi untuk kemas kini STR ialah…",
+     "o": [
+      "MySTR (HASiL)",
+      "MyEG",
+      "Link dalam WhatsApp"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Penerima tanpa akaun bank boleh tunaikan STR di…",
+     "o": [
+      "Pejabat pos",
+      "BSN",
+      "Mana-mana ATM"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "angle": "Video peringatan praktikal: semak baki SARA dalam MyKad sekarang, cari kedai SARA terdekat (termasuk kedai runcit kampung) dalam app MyKasih, dan rancang belanja barang keperluan sebelum kredit hangus 31 Disember.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang jumpa ialah tutorial semak SARA/MyKasih umum dari awal tahun; belum ada video baharu yang ingatkan baki luput 31 Disember dan tunjuk cara semak baki."
+   },
+   "deadline": "Baki kredit SARA 2026 luput 31 Dis 2026",
+   "faq": [
+    {
+     "a": "Baki kredit SARA bulanan dan SARA Untuk Semua 2026 perlu digunakan sebelum 31 Disember 2026.",
+     "q": "Baki SARA saya boleh guna sampai bila?"
+    },
+    {
+     "a": "Tidak, Kementerian Kewangan kata baki yang tidak digunakan tidak boleh dibawa ke tahun depan.",
+     "q": "Kalau tak habis, baki tu dibawa ke tahun depan ke?"
+    },
+    {
+     "a": "Setakat 15 November 2026, lebih 95% kredit SARA seluruh negara sudah digunakan.",
+     "q": "Ramai ke yang dah guna SARA?"
+    },
+    {
+     "a": "Ada, Belanjawan 2027 umum penerima STR dapat SARA sehingga RM150 sebulan, tetapi itu jumlah maksimum dan bergantung kategori.",
+     "q": "Tahun depan ada SARA lagi tak?"
+    },
+    {
+     "a": "Boleh, mana-mana peruncit boleh mohon terminal SARA daripada MOF, jadi tanya tuan kedai sama ada terminal sudah dipasang.",
+     "q": "Kedai runcit kampung boleh terima SARA ke?"
+    }
+   ],
+   "icon": "aid",
+   "id": "sara-guna-sebelum-31-dis",
+   "ideas": [
+    "Baki SARA Hangus 31 Dis! Semak Sekarang",
+    "Nak Beli Apa Dengan Baki SARA Korang?",
+    "SARA Untuk Semua RM100: Dah Guna Belum?",
+    "5 Silap Guna SARA Yang Buat Kredit Hangus",
+    "SARA Kini Di Kedai Runcit Kampung: Cara Semak"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "30 November 2026",
+      "31 Disember 2026",
+      "31 Januari 2027"
+     ],
+     "q": "Bila tarikh akhir guna baki kredit SARA 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Lebih 95%",
+      "Sekitar 50%",
+      "Bawah 70%"
+     ],
+     "q": "Berapa peratus kredit SARA dah digunakan seluruh negara (15 Nov)?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "RM8 bilion",
+      "RM12 bilion",
+      "RM10 bilion"
+     ],
+     "q": "Peruntukan SARA 2027 naik kepada berapa?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#SARA",
+     "#SumbanganAsasRahmah",
+     "#BantuanKerajaan",
+     "#TipsJimat",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "semak baki sara mykad",
+     "sara luput 31 disember",
+     "sara untuk semua rm100",
+     "cara guna sara mykad",
+     "baki sara 2026"
+    ],
+    "tags": [
+     "sara",
+     "sumbangan asas rahmah",
+     "sara untuk semua",
+     "baki sara",
+     "mykad",
+     "bantuan kerajaan",
+     "str 2027",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "SARA HANGUS 31 DIS!",
+     "SEMAK BAKI SEKARANG",
+     "JANGAN RUGI RM100"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terangkan baki SARA bulanan dan SARA Untuk Semua mesti dibelanjakan sebelum 31 Disember, kemudian ajak penonton semak baki hari ini.",
+     "hook": "Kredit SARA dalam MyKad korang tak boleh bawa ke tahun depan.",
+     "title": "Baki SARA Korang Hangus 31 Dis?"
+    },
+    {
+     "beat": "Kongsi angka rasmi setakat 15 Nov, termasuk Sarawak yang baru 93%, dan ingatkan tarikh akhir 31 Disember.",
+     "hook": "Lebih 95% kredit SARA dah dibelanja. Korang dalam 5% yang belum?",
+     "title": "95% Dah Guna, Korang Pula?"
+    },
+    {
+     "beat": "Terangkan kenyataan Dewan Rakyat 23 Nov: peruncit mohon terminal dari MOF, ada 15,000 premis rakan SARA; tunjuk cara cari kedai dalam app MyKasih.",
+     "hook": "Tak ada pasar raya dekat rumah? Kedai runcit kampung pun boleh terima SARA.",
+     "title": "Kedai Runcit Kampung Pun Boleh SARA"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://www.bernama.com/bm/am/news.php?id=2635503"
+    },
+    {
+     "name": "Business Today (17 Nov 2026)",
+     "url": "https://www.businesstoday.com.my/2026/11/17/less-than-5-of-sara-assistance-remains-unused-says-deputy-minister/"
+    },
+    {
+     "name": "RinggitPlus (19 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/use-your-sara-credit-before-it-expires-on-31-december.html"
+    },
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/kredit-sara-anda-kini-boleh-digunakan-di-kedai-runcit-kampung.html"
+    }
+   ],
+   "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
+   "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov); di Sarawak penggunaan baru 93%. Pada 23 Nov, Timbalan Menteri KPDN Fuziah Salleh beritahu Dewan Rakyat kedai runcit kampung boleh sertai SARA dengan memohon terminal bayaran daripada MOF; kini ada kira-kira 15,000 premis rakan SARA termasuk 6,800 kedai runcit kecil dan koperasi, dengan sasaran 10,000 kedai runcit kecil menjelang hujung 2026 (RinggitPlus, 24 Nov). Baki boleh disemak di portal SARA (sara.gov.my) atau app MyKasih, dan untuk 2027 penerima STR akan dapat SARA sehingga RM150 sebulan, dengan peruntukan SARA naik dari RM8 bilion ke RM10 bilion.",
+   "score": 88,
+   "prev_score": 89,
+   "status": "panas",
+   "script": {
+    "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
+    "hook": "Korang tahu tak, kredit SARA dalam MyKad korang tak boleh dibawa ke tahun depan? Lebih 95% rakyat dah guna, tapi kalau korang masih ada baki, ia hangus 31 Disember ni. Jom semak sekarang.",
+    "points": [
+     "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan.",
+     "Baki SARA bulanan dan SARA Untuk Semua 2026 mesti dibelanjakan sebelum 31 Disember 2026, dan tidak boleh dibawa ke 2027.",
+     "Sesetengah negeri masih ketinggalan: penggunaan di Sarawak baru sekitar 93%, dengan 1.9 juta penerima SARA Untuk Semua di sana belanja lebih RM182 juta.",
+     "Tunjuk cara semak baki SARA dan rancang senarai barang keperluan supaya baki tak terbiar.",
+     "Info tahun depan: peruntukan SARA naik dari RM8 bilion ke RM10 bilion pada 2027, tapi itu kredit baharu dan butirannya belum diumumkan sepenuhnya."
+    ]
+   }
+  },
+  {
+   "angle": "Tutorial skrin semak status di SSPI Imigresen, kemudian terangkan langkah tarik sekatan ikut agensi (MyTax untuk cukai, app myPTPTN untuk PTPTN). Tekankan semak sebelum bayar tiket tak boleh refund.",
+   "app": {
+    "name": "SSPI Imigresen",
+    "url": "https://sspi.imi.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "27 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa tutorial BM semak status SSPI dan sekatan LHDN, tetapi kebanyakannya kelihatan lama. Sudut kosong: angka 404,848 terbaharu dan cara tarik sekatan ikut agensi sebelum cuti Disember."
+   },
+   "deadline": "Semak sebelum beli tiket cuti Disember",
+   "faq": [
+    {
+     "a": "Semak melalui sistem Semakan Status Perjalanan Imigresen di sspi.imi.gov.my sebelum membuat tempahan.",
+     "q": "Macam mana nak tahu aku kena sekat ke luar negara?"
+    },
+    {
+     "a": "Antara sebabnya cukai LHDN tertunggak, tunggakan PTPTN, caruman KWSP, perintah mahkamah, kebankrapan dan isu kastam.",
+     "q": "Kenapa orang boleh kena sekat?"
+    },
+    {
+     "a": "Tidak, Imigresen tidak kutip bayaran untuk agensi lain, jadi perlu selesaikan dengan agensi yang mengenakan sekatan.",
+     "q": "Boleh ke bayar terus di kaunter airport?"
+    },
+    {
+     "a": "Bayar penuh dan mohon pembatalan sekatan melalui MyTax, atau hubungi cawangan HASiL fail cukai korang untuk susun ansuran.",
+     "q": "Kena sekat sebab cukai, macam mana nak tarik?"
+    },
+    {
+     "a": "Tidak, sekatan untuk peminjam berpendapatan lebih RM6,000 sebulan dengan tunggakan lebih lima tahun atau yang bekerja di luar negara tanpa membayar.",
+     "q": "Semua peminjam PTPTN kena sekat ke?"
+    }
+   ],
+   "icon": "passport",
+   "id": "sekatan-perjalanan-semak-status",
+   "ideas": [
+    "Cara Semak Kena Sekat Ke Luar Negara (SSPI)",
+    "404,848 Orang Kena Sekat: Korang Salah Seorang?",
+    "Kena Sekat Sebab Cukai? Cara Tarik Guna MyTax",
+    "PTPTN Boleh Sekat Ke Luar Negara? Ini Syaratnya",
+    "5 Sebab Korang Boleh Ditahan di Airport"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "40,484",
+      "404,848",
+      "4.04 juta"
+     ],
+     "q": "Berapa rakyat Malaysia dikenakan sekatan perjalanan sejak 2024?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "mysejahtera.gov.my",
+      "mystr.hasil.gov.my",
+      "sspi.imi.gov.my"
+     ],
+     "q": "Laman untuk semak status perjalanan Imigresen ialah…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "MyTax",
+      "MyJPJ",
+      "MySTR"
+     ],
+     "q": "Sekatan sebab cukai boleh dimohon batal melalui…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#sekatanperjalanan",
+     "#imigresen",
+     "#tipscuti",
+     "#LHDN",
+     "#PTPTN"
+    ],
+    "keywords": [
+     "cara semak sekatan perjalanan",
+     "semak status perjalanan imigresen",
+     "sspi imigresen semak",
+     "sekatan perjalanan lhdn",
+     "ptptn sekatan luar negara"
+    ],
+    "tags": [
+     "sekatan perjalanan",
+     "sspi imigresen",
+     "imigresen malaysia",
+     "lhdn",
+     "ptptn",
+     "mytax",
+     "tips cuti",
+     "tutorial online"
+    ],
+    "thumbs": [
+     "KORANG KENA SEKAT?",
+     "SEMAK SEBELUM TERBANG",
+     "404,848 ORANG!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Rakam skrin buka sspi.imi.gov.my, masuk butiran dan tunjuk keputusan status. Ingatkan semak sebelum bayar tiket atau hotel yang tak boleh refund.",
+     "hook": "Sebelum beli tiket cuti, semak dulu nama korang kena sekat ke tak.",
+     "title": "Semak Kena Sekat Dalam 30 Saat"
+    },
+    {
+     "beat": "Fakta: Imigresen tak kutip bayaran untuk agensi lain, jadi kena selesaikan dengan LHDN, PTPTN atau agensi berkaitan dan beri masa status dikemas kini.",
+     "hook": "Ramai ingat boleh bayar hutang di kaunter airport dan terus terbang.",
+     "title": "Mitos: Bayar di Airport Terus Lepas"
+    },
+    {
+     "beat": "Senaraikan pantas: cukai LHDN, PTPTN, caruman KWSP, perintah mahkamah, bankrap dan kastam. Tutup dengan ajak semak di SSPI.",
+     "hook": "404,848 rakyat Malaysia kena sekat sejak 2024. Ini sebabnya.",
+     "title": "6 Sebab Korang Boleh Disekat"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (25 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/travel/over-400000-people-have-faced-travel-restrictions-since-2024.html"
+    },
+    {
+     "name": "RinggitPlus – tinjauan Versa (25 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/travel/savings-fund-year-end-trips-for-64-of-travellers.html"
+    }
+   ],
+   "title": "404,848 rakyat kena sekat ke luar negara: semak status sebelum cuti",
+   "why": "Ketua Pengarah Imigresen Datuk Zakaria Shaaban dilaporkan berkata 404,848 rakyat Malaysia telah dikenakan sekatan perjalanan sejak 2024, atas sebab seperti cukai LHDN tertunggak, tunggakan PTPTN, caruman KWSP, perintah mahkamah, kebankrapan dan isu kastam (RinggitPlus, 25 Nov 2026, memetik The Star). Bayar di pintu sempadan tidak terus menarik sekatan kerana Imigresen tidak kutip bayaran untuk agensi lain, jadi status perlu disemak di sspi.imi.gov.my dan diselesaikan dengan agensi terlibat lebih awal. Ia hangat kerana 59% responden tinjauan Versa (24 Nov) merancang bercuti Disember ini.",
+   "score": 79,
+   "prev_score": null,
+   "status": "naik"
+  },
+  {
+   "angle": "Video amaran pendek: angka rugi RM7.33 bilion sebagai hook, kemudian 3 taktik scam terkini (SMS saman palsu, 'tap kad pada telefon', 'polis' minta tinggal kad ATM) dan kenapa 24 jam pertama penting untuk lapor ke NSRC 997. Mudah dikongsi di WhatsApp keluarga.",
+   "app": {
+    "name": "BNM Sahkan",
+    "url": "https://www.bnm.gov.my/sahkan"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang muncul kebanyakannya klip lama Op Pancing PDRM dan tutorial Semak Mule. Masih belum jumpa video BM baharu tentang 'polis' palsu suruh tinggal kad ATM atau app 'BNM' palsu."
+   },
+   "faq": [
+    {
+     "a": "MyCERT kata itu scam yang bawa ke laman MyBayar palsu untuk curi butiran kad dan OTP.",
+     "q": "SMS saman PDRM RM150 tu betul ke?"
+    },
+    {
+     "a": "App palsu itu baca data kad melalui NFC dan hantar kepada scammer untuk buat transaksi atau keluar duit di ATM.",
+     "q": "Kenapa scammer suruh tap kad bank pada telefon?"
+    },
+    {
+     "a": "Tidak, MyCERT kata itu app palsu dan saluran rasmi BNM tidak mengedarkannya.",
+     "q": "BNM ada app 'BNM Mobile Security' ke?"
+    },
+    {
+     "a": "Hubungi bank segera untuk sekat kad dan telefon NSRC 997, sebaiknya dalam 24 jam pertama supaya dana sempat dikesan dan dibekukan.",
+     "q": "Dah terisi maklumat kad, nak buat apa?"
+    },
+    {
+     "a": "Itu taktik scam biasa; dua mangsa rugi lebih RM1.18 juta selepas 'polis' palsu suruh serah kad ATM, dan polis atau BNM tidak akan minta kad atau duit korang.",
+     "q": "Ada 'polis' call kata akaun saya terlibat kes, betul ke?"
+    }
+   ],
+   "icon": "shield",
+   "id": "scam-saman-pdrm-mybayar",
+   "ideas": [
+    "SMS Saman PDRM RM150? JANGAN Klik, Ini Scam",
+    "App 'BNM' Palsu Suruh Tap Kad? Ini Scam NFC",
+    "Rugi RM7.33 Bilion: 3 Scam Paling Banyak Mangsa",
+    "Dah Terklik Link Scam? Buat 4 Benda Ni Segera",
+    "'Polis' Suruh Tinggal Kad ATM? Ini Scam RM1 Juta"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM50",
+      "RM150",
+      "RM300"
+     ],
+     "q": "SMS scam 'saman PDRM' biasanya minta bayar berapa?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "RM1.56 bilion",
+      "RM7.33 bilion",
+      "RM3.4 bilion"
+     ],
+     "q": "Ikut KDN (25 Nov), berapa rugi akibat scam dalam talian sejak 2023?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Dalam 7 hari",
+      "Dalam 24 jam pertama",
+      "Selepas 1 bulan"
+     ],
+     "q": "Ikut KDN, bila waktu terbaik lapor scam kepada NSRC 997?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#scammalaysia",
+     "#awasscam",
+     "#samanpdrm",
+     "#penipuanonline",
+     "#mybayar"
+    ],
+    "keywords": [
+     "sms saman pdrm scam",
+     "app bnm palsu",
+     "scam tap kad nfc",
+     "mybayar palsu",
+     "scam rm7.33 bilion"
+    ],
+    "tags": [
+     "scam malaysia",
+     "saman pdrm",
+     "app bnm palsu",
+     "nfc scam",
+     "mybayar",
+     "mycert",
+     "sms palsu",
+     "scam polis palsu"
+    ],
+    "thumbs": [
+     "RUGI RM7.33 BILION",
+     "JANGAN TAP KAD!",
+     "SCAM TERBARU"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "MyCERT amaran 6 Nov: link bawa ke MyBayar palsu untuk curi kad dan OTP. Tunjuk contoh rupa SMS.",
+     "hook": "Dapat SMS saman PDRM RM150? Jangan bayar dulu.",
+     "title": "SMS Saman RM150 Ni SCAM"
+    },
+    {
+     "beat": "MyCERT amaran 4 Nov: app 'BNM Mobile Security' palsu baca kad melalui NFC dan hantar data ke scammer. BNM dan bank tak pernah minta PIN kad.",
+     "hook": "Orang 'BNM' call suruh install app dan tap kad? Itu scam.",
+     "title": "Jangan Tap Kad Pada Telefon!"
+    },
+    {
+     "beat": "Hubungi bank dan NSRC 997 segera, idealnya dalam 24 jam pertama supaya dana sempat dibekukan (KDN). Sekat kad dan tukar kata laluan.",
+     "hook": "Terklik dan dah isi kad? Masa sangat penting.",
+     "title": "Dah Terklik Link Scam? Buat Ni"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (25 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysians-lost-rm733b-to-online-scams-since-2023-dewan-rakyat-told/244720"
+    },
+    {
+     "name": "Malay Mail – NEXSEC2026 (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/life/2026/11/24/deepfakes-cloned-voices-and-smarter-scams-nexsec2026-puts-ai-driven-cyber-threats-in-the-spotlight/244514"
+    },
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/en/crime_courts/news.php?id=2635726"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1580449/bank-negara-warns-cyber-attacks-and-banking-disruptions-will"
+    },
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28941/sms-saman-pdrm-palsu-mybayar-scam-mycert-bmw0/"
+    },
+    {
+     "name": "The Star (5 Nov 2026)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/05/mycert-flags-fake-039bnm-mobile-security039-app-that-relays-bank-card-data-via-nfc"
+    },
+    {
+     "name": "The Star (6 Nov 2026)",
+     "url": "https://thestar.com.my/business/business-news/2026/11/06/scammers-using-fake-website-malicious-apps-to-impersonate-bank-negara"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/articles/news/129275/bnm-warns-of-scammers-posing-as-others-using-fake-websites-and-malicious-apps"
+    },
+    {
+     "name": "The Star (12 Nov 2026)",
+     "url": "https://thestar.com.my/news/nation/2026/11/12/bukit-aman-foils-112-online-scam-syndicates-arrests-932-in-october"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2634106"
+    }
+   ],
+   "title": "Amaran scam: rugi RM7.33 bilion, saman PDRM palsu & 'polis' minta kad ATM",
+   "why": "Menteri Dalam Negeri Saifuddin Nasution beritahu Dewan Rakyat pada 25 Nov 2026 rakyat Malaysia rugi RM7.33 bilion akibat scam dalam talian sejak 2023 (192,869 kes), termasuk RM1.56 bilion dalam 10 bulan pertama 2026, dengan pelaburan palsu paling besar (RM3.4 bilion) dan 254,546 akaun keldai dikesan (Malay Mail). Taktik semasa termasuk SMS 'saman PDRM' RM150 ke laman MyBayar palsu (MyCERT, 6 Nov), app palsu 'BNM Mobile Security' yang curi data kad melalui NFC (4 Nov), dan 'polis' palsu yang suruh mangsa tinggalkan kad ATM, menyebabkan seorang guru dan seorang pesara rugi lebih RM1.18 juta (Bernama, 17 Nov). Gabenor BNM (18 Nov) syorkan pendekatan 3S (Spot, Stop, Share), manakala persidangan NEXSEC2026 anjuran MCMC (25–26 Nov) beri amaran scam guna deepfake dan suara klon AI makin menjadi-jadi.",
+   "score": 77,
+   "prev_score": 77,
+   "status": "naik"
+  },
+  {
+   "angle": "Video 'harga minyak minggu ni' yang kira jimat sebenar: berapa beza isi penuh RON97 berbanding bulan lepas, dan terangkan kenapa BUDI95 tak ikut turun (yang turun ialah subsidi kerajaan). Sudut segar: 4 minggu berturut-turut turun, RON97 kini bawah RM4.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "26 Nov 2026",
+    "level": "sederhana",
+    "note": "Saluran berita (Bernama, Astro) terus muat naik Shorts harga minyak mingguan BM, kebanyakannya bacaan berita ringkas. Sudut kira jimat sebenar ikut kuota BUDI95 dan trend empat minggu turun masih kurang diterokai."
+   },
+   "deadline": "Harga 26 Nov–2 Dis 2026; harga baharu dijangka diumum 2 Dis",
+   "faq": [
+    {
+     "a": "RM3.75 seliter untuk 26 Nov–2 Dis 2026, turun 25 sen.",
+     "q": "Harga RON97 minggu ni berapa?"
+    },
+    {
+     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi turun ke RM3.47.",
+     "q": "Harga RON95 berapa?"
+    },
+    {
+     "a": "Diesel tanpa subsidi RM4.47; BUDI Diesel kekal RM2.10.",
+     "q": "Harga diesel berapa?"
+    },
+    {
+     "a": "RM1.48 seliter, kira-kira 43% daripada harga tanpa subsidi.",
+     "q": "Berapa subsidi RON95 seliter sekarang?"
+    },
+    {
+     "a": "MOF biasanya umum harga mingguan pada hari Rabu, jadi harga seterusnya dijangka pada 2 Disember.",
+     "q": "Bila harga baru diumumkan?"
+    }
+   ],
+   "icon": "chart",
+   "id": "harga-minyak-turun-nov",
+   "ideas": [
+    "RON97 Turun Bawah RM4! Harga 26 Nov–2 Dis",
+    "Minyak Turun 4 Minggu: Isi Penuh Jimat Berapa?",
+    "Kenapa BUDI95 Tak Turun Walaupun Minyak Murah?",
+    "RON97 vs BUDI95: Beza Harga Kini RM1.76",
+    "Subsidi RM40 Bilion: Apa Maksud Untuk Kita?"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM4.00",
+      "RM3.75",
+      "RM3.47"
+     ],
+     "q": "Harga RON97 untuk 26 Nov–2 Dis 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "25 sen",
+      "15 sen",
+      "50 sen"
+     ],
+     "q": "Berapa sen harga tanpa subsidi turun minggu ini?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "RM2.15",
+      "RM4.47",
+      "RM2.10"
+     ],
+     "q": "Harga BUDI Diesel seliter?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#hargaminyak",
+     "#budi95",
+     "#ron97",
+     "#ron95",
+     "#subsidiminyak"
+    ],
+    "keywords": [
+     "harga minyak minggu ini",
+     "harga ron97 terkini",
+     "harga minyak 26 november",
+     "ron95 tanpa subsidi",
+     "harga diesel terkini"
+    ],
+    "tags": [
+     "harga minyak",
+     "ron97",
+     "ron95",
+     "budi95",
+     "diesel",
+     "subsidi minyak",
+     "mof",
+     "harga petrol malaysia"
+    ],
+    "thumbs": [
+     "RON97 BAWAH RM4!",
+     "TURUN 25 SEN",
+     "4 MINGGU TURUN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "RON97 RM3.75, RON95 tanpa subsidi RM3.47, diesel tanpa subsidi RM4.47. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
+     "hook": "Semua turun 25 sen minggu ni. Ni harga penuh.",
+     "title": "Harga Minyak 26 Nov–2 Dis"
+    },
+    {
+     "beat": "Kira contoh isi 40 liter: turun 25 sen seliter bermaksud RM10 lebih murah berbanding minggu lepas (RM4.00). Tunjuk kiraan atas skrin.",
+     "hook": "RON97 sekarang RM3.75. Bulan lepas jauh lebih mahal.",
+     "title": "RON97 Isi Penuh Jimat Berapa?"
+    },
+    {
+     "beat": "BUDI95 harga tetap; bila harga pasaran turun, yang berkurang ialah subsidi kerajaan, kini RM1.48 seliter (43%) berbanding RM1.73 minggu lepas.",
+     "hook": "Empat minggu harga minyak turun. BUDI95 masih RM1.99. Kenapa?",
+     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (25 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/25/fuel-prices-take-a-dive-ron97-unsubsidised-ron95-and-diesel-all-down-25-sen/244757"
+    },
+    {
+     "name": "Free Malaysia Today (25 Nov 2026)",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/ron97-unsubsidised-ron95-and-diesel-down-25-sen"
+    },
+    {
+     "name": "Business Today (25 Nov 2026)",
+     "url": "https://www.businesstoday.com.my/2026/11/25/petrol-and-diesel-prices-drop-25-sen-per-litre-from-thursday/"
+    },
+    {
+     "name": "Bernama (18 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2636357"
+    },
+    {
+     "name": "Siaran Media MOF (18 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
+    }
+   ],
+   "title": "Harga minyak turun 25 sen: RON97 RM3.75, BUDI95 kekal RM1.99",
+   "why": "Pada 25 Nov 2026, MOF umum harga untuk 26 Nov–2 Dis: RON97 turun 25 sen ke RM3.75 seliter, RON95 tanpa subsidi turun 25 sen ke RM3.47 dan diesel tanpa subsidi turun 25 sen ke RM4.47, iaitu minggu keempat berturut-turut harga tanpa subsidi turun (Malay Mail, FMT). BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10, jadi subsidi kerajaan kini RM1.48 seliter untuk RON95 (43%) dan RM2.37 seliter untuk diesel (53%); SKPS RM2.05 dan SKDS RM2.15 tidak berubah. MOF kata penurunan didorong harga produk bertapis serantau yang sederhana dan bekalan minyak mentah dunia yang lebih tinggi, tetapi harga dijangka terus turun naik kerana risiko geopolitik, dengan hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan.",
+   "score": 76,
+   "prev_score": 78,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial skrin renew pasport dalam app MyGOV (update app, log masuk MyDigital ID, bayar, pilih pejabat) dan bandingkan dengan MyOnline Passport, kemudian kira jujur bila 10 tahun berbaloi. Ingatkan pengambilan melalui MyGOV buat masa ini hanya di Putrajaya.",
+   "app": {
+    "name": "MyGOV Malaysia / MyOnline Passport",
+    "url": "https://www.mygov.gov.my"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa tutorial BM renew pasport melalui laman MyOnline Passport, tetapi belum jumpa video BM tentang renew pasport terus dalam app MyGOV (fungsi baharu 24 Nov)."
+   },
+   "deadline": "Renew dalam app MyGOV dibuka sejak 24 Nov 2026",
+   "faq": [
+    {
+     "a": "Boleh, melalui MyOnline Passport sejak 2 Nov 2026 dan terus dalam app MyGOV Malaysia sejak 24 Nov 2026.",
+     "q": "Boleh ke renew pasport secara online?"
+    },
+    {
+     "a": "RM350 untuk umur 18–59 tahun, RM175 untuk warga emas 60 tahun ke atas, dan percuma untuk OKU berdaftar.",
+     "q": "Berapa harga pasport 10 tahun?"
+    },
+    {
+     "a": "Tidak, umur 13–17 tahun hanya boleh pasport 5 tahun dan penjaga sah perlu mohon serta hadir ketika ambil.",
+     "q": "Anak bawah 18 tahun boleh ambil 10 tahun?"
+    },
+    {
+     "a": "Ya, pasport mesti diambil sendiri, dan untuk permohonan melalui app MyGOV buat masa ini hanya di Pejabat Imigresen Shaftsbury, Putrajaya.",
+     "q": "Kena pergi pejabat imigresen juga ke?"
+    },
+    {
+     "a": "Untuk pasport 10 tahun tidak, baki tempoh lama tidak dibawa ke pasport baharu.",
+     "q": "Baki tempoh pasport lama dapat disambung tak?"
+    }
+   ],
+   "icon": "passport",
+   "id": "pasport-10-tahun-online",
+   "ideas": [
+    "Renew Pasport Guna App MyGOV: Step by Step",
+    "Pasport 5 vs 10 Tahun: Mana Lebih Jimat?",
+    "MyGOV vs MyOnline Passport: Mana Lebih Senang?",
+    "RM350 Pasport 10 Tahun: Baki Lama Hangus?",
+    "5 Kesilapan Gambar Pasport Online"
+   ],
+   "quiz": [
+    {
+     "a": 0,
+     "o": [
+      "Shaftsbury, Putrajaya",
+      "UTC Pudu Sentral",
+      "Mana-mana pejabat"
+     ],
+     "q": "Renew pasport melalui app MyGOV, pejabat ambil buat masa ini ialah…"
+    },
+    {
+     "a": 1,
+     "o": [
+      "RM200",
+      "RM350",
+      "RM400"
+     ],
+     "q": "Berapakah yuran pasport 10 tahun untuk dewasa 18–59 tahun?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Warga emas 60+",
+      "OKU berdaftar",
+      "Remaja 13–17 tahun"
+     ],
+     "q": "Siapa yang hanya boleh dapat pasport 5 tahun?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#renewpasport",
+     "#MyGOV",
+     "#pasport10tahun",
+     "#imigresen",
+     "#tutorialonline"
+    ],
+    "keywords": [
+     "renew pasport app mygov",
+     "renew pasport online 10 tahun",
+     "pasport 10 tahun harga",
+     "pasport 5 tahun atau 10 tahun",
+     "myonline passport cara"
+    ],
+    "tags": [
+     "renew pasport",
+     "mygov malaysia",
+     "pasport 10 tahun",
+     "myonline passport",
+     "imigresen malaysia",
+     "pasport malaysia",
+     "tutorial online",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "RENEW DALAM MYGOV",
+     "PASPORT 10 TAHUN RM350",
+     "5 ATAU 10 TAHUN?"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Kira atas skrin: dua kali 5 tahun RM400 vs sekali 10 tahun RM350, jimat RM50, tapi hanya berbaloi kalau guna sekurang-kurangnya 8 tahun 9 bulan.",
+     "hook": "Pasport 10 tahun RM350, tapi belum tentu korang untung.",
+     "title": "Pasport 10 Tahun: Untung RM50 Je?"
+    },
+    {
+     "beat": "Rakam skrin: update MyGOV ke versi 2.1.4, pilih renew pasport, bayar dan pilih pejabat ambil; ingatkan buat masa ini hanya Shaftsbury Putrajaya.",
+     "hook": "Renew pasport sekarang boleh terus dalam app MyGOV.",
+     "title": "Renew Pasport Dalam App MyGOV"
+    },
+    {
+     "beat": "Terangkan baki tempoh pasport lama tak dibawa ke pasport 10 tahun, jadi rancang renew dekat tarikh tamat tapi semak syarat 6 bulan negara destinasi.",
+     "hook": "Renew awal, baki pasport lama korang boleh hangus.",
+     "title": "Jangan Renew Awal Sangat!"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/malaysians-can-now-renew-passports-through-mygov-malaysia-app/244598"
+    },
+    {
+     "name": "Malay Mail (1 Nov 2026)",
+     "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/01/online-renewal-for-10-year-malaysian-passports-starts-tomorrow/241623"
+    },
+    {
+     "name": "RinggitPlus (2 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/pasport-10-tahun-kini-boleh-diperbaharui-secara-dalam-talian.html"
+    },
+    {
+     "name": "NST",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1568608/malaysians-can-choose-5-or-10-year-passport-validity-nov-2"
+    },
+    {
+     "name": "Bernama",
+     "url": "https://www.bernama.com/en/general/news.php?id=2628638"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/408922/malaysia-10-year-passport-apply-online/"
+    }
+   ],
+   "title": "Renew pasport online: kini terus dalam app MyGOV",
+   "why": "Pada 24 Nov 2026, Kementerian Digital umum app MyGOV Malaysia versi 2.1.4 kini membolehkan permohonan renew pasport dan bayaran online terus dalam app, termasuk pilih pejabat Imigresen untuk ambil pasport; buat masa ini pengambilan hanya di Pejabat Imigresen Shaftsbury, Putrajaya, dan lokasi lain akan ditambah berperingkat (Malay Mail). Sejak 2 Nov 2026 pula, rakyat boleh pilih tempoh 5 atau 10 tahun melalui MyOnline Passport; pasport 10 tahun untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun (RinggitPlus, 2 Nov). Baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
+   "score": 76,
+   "prev_score": 77,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial praktikal: beza TP1, TP2 dan TP3, cara isi TP1 dengan resit yang ada, dan bila hantar kepada HR supaya sempat gaji Disember. Ingatkan tuntut yang benar sahaja, simpan resit 7 tahun, dan e-Filing tetap wajib.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang muncul kebanyakannya tutorial e-Filing dan kira pelepasan cukai tahunan; belum jumpa video BM khusus cara isi borang TP1 untuk kurangkan PCB sebelum hujung tahun."
+   },
+   "deadline": "Ikut tarikh cut-off gaji Disember majikan",
+   "faq": [
+    {
+     "a": "Hantar kepada HR atau bahagian gaji majikan, bukan kepada LHDN.",
+     "q": "TP1 tu hantar dekat siapa?"
+    },
+    {
+     "a": "Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, jadi tanya HR.",
+     "q": "Ada tarikh akhir hantar TP1?"
+    },
+    {
+     "a": "Contohnya gaya hidup sehingga RM2,500, sukan RM1,000, perubatan diri/pasangan/anak sehingga RM10,000 dan perubatan ibu bapa RM8,000.",
+     "q": "Pelepasan apa yang boleh dituntut?"
+    },
+    {
+     "a": "Perlu, TP1 tidak menggantikan e-Filing dan pelepasan yang sama mesti diisi semula di sana.",
+     "q": "Dah hantar TP1, perlu e-Filing lagi tak?"
+    },
+    {
+     "a": "Tak perlu lampir dengan TP1, tetapi simpan resit asal selama 7 tahun untuk audit LHDN.",
+     "q": "Kena lampir resit ke?"
+    }
+   ],
+   "icon": "tax",
+   "id": "tp1-pcb-hujung-tahun",
+   "ideas": [
+    "Borang TP1: Cara Dapat Gaji Lebih Sebelum Dis",
+    "PCB Tinggi? Isi TP1 Ni Sebelum Hujung Tahun",
+    "TP1 vs TP3: Bila Kena Hantar?",
+    "Beli Phone & Laptop, Boleh Kurangkan PCB?",
+    "5 Silap Isi TP1 Yang Buat Kena Bayar Cukai"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "LHDN",
+      "HR/majikan",
+      "Bank"
+     ],
+     "q": "Borang TP1 diserahkan kepada…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM2,500",
+      "RM1,000",
+      "RM10,000"
+     ],
+     "q": "Had pelepasan gaya hidup dalam contoh TP1 ialah…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "TP2",
+      "TP1",
+      "TP3"
+     ],
+     "q": "Borang untuk pekerja yang tukar kerja pertengahan tahun ialah…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#PCB",
+     "#BorangTP1",
+     "#CukaiPendapatan",
+     "#LHDN",
+     "#TipsJimat"
+    ],
+    "keywords": [
+     "borang tp1 pcb",
+     "cara kurangkan pcb",
+     "tp1 lhdn 2026",
+     "pelepasan cukai gaya hidup 2026",
+     "tp3 tukar kerja"
+    ],
+    "tags": [
+     "tp1",
+     "pcb",
+     "potongan cukai bulanan",
+     "lhdn",
+     "pelepasan cukai",
+     "e-filing",
+     "cukai pendapatan",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "GAJI NAIK GUNA TP1?",
+     "PCB TURUN RM70",
+     "ISI SEBELUM DIS"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Contoh RinggitPlus: gaji RM5,000, tuntut RM3,500 pelepasan melalui TP1, PCB turun dari RM110 ke RM40 sebulan, jimat RM210 Okt–Dis.",
+     "hook": "Satu borang ni boleh turunkan potongan cukai gaji korang.",
+     "title": "Jimat RM210 Dengan Satu Borang"
+    },
+    {
+     "beat": "Tunjuk ruangan TP1: isi jumlah pelepasan gaya hidup, sukan dan perubatan, serah kepada HR (bukan LHDN), simpan resit asal 7 tahun.",
+     "hook": "Ada resit beli laptop atau gym? Jangan simpan je.",
+     "title": "Cara Isi TP1 Dalam 30 Saat"
+    },
+    {
+     "beat": "TP1 cuma laraskan PCB bulanan; pelepasan sama mesti diisi dalam e-Filing, dan tuntutan berlebihan akan jadi baki cukai yang perlu dibayar.",
+     "hook": "Dah hantar TP1, boleh skip e-Filing? Salah.",
+     "title": "Mitos: Dah Isi TP1, Tak Payah e-Filing"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/cukai-pendapatan/cara-kemas-kini-pcb-dengan-majikan-menggunakan-borang-tp1-dan-tp3.html"
+    }
+   ],
+   "title": "Borang TP1: kurangkan PCB bulanan sebelum 2026 tamat",
+   "why": "RinggitPlus (24 Nov 2026) ingatkan pekerja boleh hantar borang TP1 kepada HR atau bahagian gaji (bukan LHDN) untuk tuntut pelepasan yang belum dikira dalam gaji, seperti gaya hidup sehingga RM2,500, sukan RM1,000 dan perubatan diri/keluarga sehingga RM10,000, supaya potongan PCB baki bulan tahun ini lebih rendah. Dalam contoh artikel, pekerja bergaji RM5,000 yang tuntut RM3,500 pelepasan melalui TP1 jimat RM210 dari Okt hingga Dis (PCB turun dari RM110 ke RM40 sebulan). Tiada tarikh akhir tetap, tetapi borang yang sampai selepas cut-off payroll hanya berkuat kuasa bulan berikutnya, dan pelepasan yang sama masih perlu diisi dalam e-Filing.",
+   "score": 74,
+   "prev_score": 74,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial perbandingan praktikal: pilihan bayar di luar negara (kad multi-mata wang, e-wallet, DuitNow QR app bank) dan cara semak kadar tukaran serta caj sebelum bayar. Ingatkan jangan simpan semua duit dalam satu e-wallet dan semak syarat kempen sebelum sertai.",
+   "app": {
+    "name": "Wise / Merchantrade Money / app bank (DuitNow QR)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang dijumpai hanya tutorial DuitNow QR dalam negara dan satu video Inggeris lama tentang TNG di China. Belum ada video BM yang bandingkan pilihan bayar luar negara selepas kemas kini had Wise dan Merchantrade."
+   },
+   "deadline": "Kempen cuti Wise: 16 Nov 2026–5 Jan 2027",
+   "faq": [
+    {
+     "a": "Boleh, pengguna Maybank, CIMB dan Hong Leong Bank boleh imbas DuitNow QR di kedai berlogo Alipay+ di China, Hong Kong, Korea Selatan, Filipina dan Laos sejak 28 Okt 2026.",
+     "q": "Boleh ke guna app bank Malaysia untuk scan QR di luar negara?"
+    },
+    {
+     "a": "Bank Islam dijangka menyertai, tetapi tarikhnya belum diumumkan.",
+     "q": "Bank Islam ada sekali tak?"
+    },
+    {
+     "a": "RM50,000 untuk semua pelanggan berdaftar di Malaysia, terpakai secara automatik mulai 24 Nov 2026.",
+     "q": "Had e-wallet Wise sekarang berapa?"
+    },
+    {
+     "a": "Had dinaikkan dari RM20,000 ke RM30,000 pada 18 Nov 2026, dan pengguna layak dinaik taraf automatik tanpa caj.",
+     "q": "Merchantrade Money had berapa?"
+    },
+    {
+     "a": "Laporan yang ada tidak nyatakan caj atau kadar tukaran, jadi semak paparan kadar dalam app sebelum sahkan bayaran.",
+     "q": "Ada caj ke bila scan QR di luar negara?"
+    }
+   ],
+   "icon": "card",
+   "id": "bayar-luar-negara-cuti-hujung-tahun",
+   "ideas": [
+    "5 Cara Bayar di Luar Negara Tanpa Tukar Duit",
+    "Scan QR di China Guna App Maybank? Ni Caranya",
+    "Wise vs Merchantrade: Mana Jimat Untuk Bercuti?",
+    "Had E-Wallet RM50,000: Selamat Ke Simpan Banyak?",
+    "Tempah Grab Luar Negara Guna TNG: Tutorial"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM30,000",
+      "RM50,000",
+      "RM20,000"
+     ],
+     "q": "Berapa had baharu e-wallet Wise di Malaysia?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "Alipay+",
+      "UnionPay",
+      "PayNow"
+     ],
+     "q": "Logo apa perlu ada di kedai untuk scan DuitNow QR di luar negara?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "12 negara",
+      "30 negara",
+      "47 negara"
+     ],
+     "q": "TNG eWallet kini boleh tempah e-hailing di berapa negara?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#tipscuti",
+     "#ewallet",
+     "#duitnowqr",
+     "#bayarluarnegara",
+     "#jimatbercuti"
+    ],
+    "keywords": [
+     "cara bayar di luar negara guna ewallet",
+     "duitnow qr luar negara",
+     "wise malaysia had rm50000",
+     "merchantrade money luar negara",
+     "tng ewallet luar negara"
+    ],
+    "tags": [
+     "bayar luar negara",
+     "ewallet",
+     "duitnow qr",
+     "alipay+",
+     "wise malaysia",
+     "merchantrade",
+     "tng ewallet",
+     "tips cuti"
+    ],
+    "thumbs": [
+     "BAYAR LUAR NEGARA",
+     "TAK PAYAH TUKAR DUIT",
+     "SCAN QR JE!"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Sejak 28 Okt, app Maybank, CIMB dan Hong Leong Bank boleh imbas QR di kedai berlogo Alipay+ di 5 destinasi. Tunjuk cara cari logo Alipay+ dan imbas dalam app.",
+     "hook": "Pergi China hujung tahun ni? Tak perlu download Alipay.",
+     "title": "Scan QR di China Guna App Bank"
+    },
+    {
+     "beat": "Wise naik ke RM50,000 (24 Nov) secara automatik; Merchantrade Money naik ke RM30,000 (18 Nov). Bandingkan untuk siapa sesuai dan ingatkan semak caj tukaran.",
+     "hook": "Dua e-wallet ni baru naikkan had. Mana satu untuk korang?",
+     "title": "Wise RM50K vs Merchantrade RM30K"
+    },
+    {
+     "beat": "Tak semak kadar tukaran sebelum bayar, simpan semua duit dalam satu app, dan sertai kempen tanpa baca syarat. Akhiri dengan tip semak logo Alipay+ sebelum imbas.",
+     "hook": "Ramai rugi duit tukaran masa bercuti sebab 3 benda ni.",
+     "title": "3 Silap Bayar Masa Bercuti"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Lowyat.NET – Wise RM50,000 (24 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410326/wise-raise-e-wallet-limit-malaysia/"
+    },
+    {
+     "name": "The Star – Merchantrade (18 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/18/merchantrade-raises-e-wallet-limit-to-rm30000-ahead-of-year-end-travel-season"
+    },
+    {
+     "name": "Lowyat.NET – DuitNow QR luar negara (28 Okt 2026)",
+     "url": "https://www.lowyat.net/2026/408603/duitnow-qr-payments-overseas/"
+    },
+    {
+     "name": "Lowyat.NET – TNG e-hailing luar negara (5 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
+    },
+    {
+     "name": "RinggitPlus – tinjauan Versa (25 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/travel/savings-fund-year-end-trips-for-64-of-travellers.html"
+    }
+   ],
+   "title": "Cuti hujung tahun: bayar di luar negara guna e-wallet & app bank",
+   "why": "Menjelang musim cuti, Wise naikkan had e-wallet untuk pengguna Malaysia kepada RM50,000 secara automatik pada 24 Nov 2026, dengan kempen cuti 16 Nov–5 Jan 2027 yang tawar hadiah tunai sehingga RM10,000 untuk pembelian luar negara layak (Lowyat.NET), manakala Merchantrade Money naikkan had dari RM20,000 ke RM30,000 pada 18 Nov (The Star). Sejak 28 Okt, pengguna app Maybank, CIMB dan Hong Leong Bank boleh imbas DuitNow QR di kedai berlogo Alipay+ di China, Hong Kong, Korea Selatan, Filipina dan Laos tanpa app tambahan, dan sejak 5 Nov TNG eWallet boleh tempah e-hailing di 47 negara (Lowyat.NET). Tinjauan Versa (24 Nov 2026, 2,000 pengguna app) pula dapati 59% responden akan bercuti Disember ini dan 88% kata sekurang-kurangnya satu kos utama cuti lebih mahal berbanding sebelum ini (RinggitPlus, 25 Nov).",
+   "score": 72,
+   "prev_score": 70,
+   "status": "naik"
+  },
+  {
+   "angle": "Panduan lengkap bila rumah dilanda banjir: daftar MyIBJKM, cara BWI masuk akaun, beza BWI RM1,000 dengan bantuan khas Selangor, dan cara minta tangguh bayar pinjaman dengan bank. Ingatkan kelulusan moratorium tertakluk bank dan tanya sama ada faedah/keuntungan masih dikira.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada 2–3 video dan Shorts BM tentang BWI RM1,000 dan syarat daftar di PPS. Sudut moratorium bank untuk mangsa banjir dan bantuan RM2,500 Selangor masih kurang diterangkan."
+   },
+   "faq": [
+    {
+     "a": "BWI ialah RM1,000 bagi setiap ketua isi rumah yang layak untuk setiap kejadian bencana, melalui NADMA.",
+     "q": "Berapa bantuan banjir dari kerajaan?"
+    },
+    {
+     "a": "Daftar dalam sistem MyIBJKM, contohnya dengan imbas kod QR di pusat pemindahan sementara.",
+     "q": "Macam mana nak daftar?"
+    },
+    {
+     "a": "Menurut Bernama (14 Nov), ketua isi rumah mangsa banjir di Selangor yang berdaftar terima RM2,500 manakala yang tidak berdaftar terima RM1,250.",
+     "q": "Siapa layak bantuan khas RM2,500?"
+    },
+    {
+     "a": "Ada, contohnya Alliance Bank tawar moratorium sehingga 6 bulan untuk pelanggan terjejas banjir, mohon hingga 31 Mac 2027 dan tertakluk kelulusan bank.",
+     "q": "Bank ada bagi tangguh bayar pinjaman tak?"
+    },
+    {
+     "a": "Boleh; BWI dibayar bagi setiap kejadian berasingan, sehingga empat kali setahun menurut RinggitPlus, tertakluk syarat NADMA.",
+     "q": "Kalau banjir dua kali, dapat dua kali ke?"
+    }
+   ],
+   "icon": "aid",
+   "id": "bantuan-banjir-mtl-2026",
+   "ideas": [
+    "Rumah Kena Banjir? Cara Dapat Bantuan RM1,000",
+    "MyIBJKM: Cara Daftar Mangsa Banjir di PPS",
+    "Bantuan Banjir Selangor RM3,000: Siapa Layak?",
+    "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
+    "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
+   ],
+   "prev_score": 73,
+   "score": 70,
+   "seo": {
+    "hashtags": [
+     "#BantuanBanjir",
+     "#BWI",
+     "#MyIBJKM",
+     "#MusimBanjir",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "bantuan banjir rm1000",
+     "bantuan wang ihsan 2026",
+     "myibjkm daftar",
+     "bantuan banjir selangor rm2500",
+     "moratorium pinjaman banjir"
+    ],
+    "tags": [
+     "bantuan banjir",
+     "bwi",
+     "nadma",
+     "myibjkm",
+     "banjir selangor",
+     "monsun timur laut",
+     "bantuan kerajaan",
+     "moratorium banjir"
+    ],
+    "thumbs": [
+     "BANJIR? DAPAT RM1,000",
+     "SELANGOR RM3,000",
+     "DAFTAR MYIBJKM"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Terangkan BWI RM1,000 untuk ketua isi rumah yang rumahnya dilanda banjir, dan pendaftaran melalui MyIBJKM, termasuk imbas kod QR di pusat pemindahan.",
+     "hook": "Rumah kena banjir, tapi tak tahu nak dapat bantuan kat mana?",
+     "title": "Rumah Banjir? Ni Bantuan RM1,000"
+    },
+    {
+     "beat": "Kira BWI RM1,000, bantuan khas persekutuan RM2,500 dan tambahan negeri RM500; ingatkan bantuan khas untuk yang terjejas teruk dan kriterianya diumumkan agensi pelaksana.",
+     "hook": "Mangsa banjir Selangor boleh dapat lebih dari satu bantuan. Jom kira.",
+     "title": "RM1,000 + RM2,500 + RM500 = ?"
+    },
+    {
+     "beat": "Ingatkan daftar awal di MyIBJKM dan pastikan maklumat lengkap; BWI dibayar terus ke akaun bank, dan yang tiada akaun boleh tunai di BSN.",
+     "hook": "Ramai mangsa banjir lambat dapat bantuan sebab satu benda ni.",
+     "title": "Silap Ni Buat Bantuan Banjir Lambat"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Berapa Bantuan Wang Ihsan (BWI) untuk setiap ketua isi rumah mangsa banjir?",
+     "o": [
+      "RM500",
+      "RM1,000",
+      "RM2,500"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Sistem untuk daftar mangsa banjir ialah…",
+     "o": [
+      "MyIBJKM",
+      "MySTR",
+      "MyGOV"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Jumlah bantuan khas sekali bayar untuk mangsa terjejas teruk di Selangor?",
+     "o": [
+      "RM2,500",
+      "RM3,000",
+      "RM3,500"
+     ],
+     "a": 1
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/bm/am/news.php?id=2631985"
+    },
+    {
+     "name": "RinggitPlus (10 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/selangor-flood-aid-reaches-rm3000-with-state-top-up.html"
+    },
+    {
+     "name": "Bernama (9 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2632004"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/09/anwar-announces-rm2500-cash-aid-for-eligible-selangor-flood-victims/242601"
+    },
+    {
+     "name": "Sinar Harian",
+     "url": "https://www.sinarharian.com.my/article/755869/berita/nasional/mtl-bantuan-wang-ihsan-bencana-disalur-setiap-tiga-bulan"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2634330"
+    },
+    {
+     "name": "RinggitPlus (17 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/bank-news/six-months-of-loan-relief-for-alliance-bank-customers-affected-by-floods.html"
+    },
+    {
+     "name": "Bernama (14 Nov 2026)",
+     "url": "https://www.bernama.com/en/news.php?id=2634341"
+    },
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2635490"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636505"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580181/2553-flood-victims-sheltering-26-relief-centres-five-states"
+    },
+    {
+     "name": "Bernama (19 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2636714"
+    },
+    {
+     "name": "Malay Mail (26 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/26/johor-sets-aside-rm2073m-to-reduce-flood-risks-in-2027/244885"
+    }
+   ],
+   "status": "naik",
+   "title": "Bantuan banjir: BWI RM1,000 + bantuan khas RM2,500 Selangor",
+   "why": "Musim Monsun Timur Laut 2026/2027 bermula dengan banjir di Selangor dan Perak; ketua isi rumah yang rumahnya dilanda banjir layak Bantuan Wang Ihsan (BWI) RM1,000 melalui NADMA dengan daftar di MyIBJKM, dan PM umum bantuan khas RM2,500 untuk mangsa terjejas teruk di Selangor ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS (Bernama 9 Nov, RinggitPlus 10 Nov). Pada 14 Nov, Bernama lapor ketua isi rumah di Selangor yang tidak berdaftar untuk bantuan RM2,500 akan terima RM1,250. Bank juga mula bantu: Alliance Bank tawar moratorium pinjaman sehingga 6 bulan dan kecualikan caj lewat untuk pelanggan terjejas banjir, dengan permohonan dibuka hingga 31 Mac 2027 (RinggitPlus, 17 Nov). Menteri Nancy Shukri beritahu Dewan Rakyat (17 Nov) 8,180 PPS sedia dibuka dengan kapasiti 1.86 juta mangsa, dan mangsa yang tumpang di hotel atau rumah saudara tetap boleh mohon BWI jika berdaftar secara rasmi. Pada 19 Nov, TPM Ahmad Zahid Hamidi beritahu Dewan Rakyat lebih 100,000 anggota, hampir 2,500 bot dan 28 pesawat disiagakan, dengan 3,045 kawasan panas banjir dikenal pasti; mangsa di luar PPS tetap boleh dapat BWI jika mendaftar di pusat pendaftaran mangsa banjir, manakala cadangan bantuan untuk peniaga kecil masih dirujuk (Bernama). Setakat petang 19 Nov, mangsa di PPS Selangor naik ke 1,665 orang (444 keluarga) di 11 PPS, dan Pahang buka PPS baharu di Bentong untuk 163 mangsa (Bernama). Pada 26 Nov, kerajaan Johor umum peruntukan RM20.73 juta untuk mengurangkan risiko banjir pada 2027 (Malay Mail).",
+   "deadline": "Moratorium Alliance Bank: mohon hingga 31 Mac 2027",
+   "script": {
+    "cta": "Share video ni kepada keluarga di kawasan banjir, dan subscribe untuk kemas kini bantuan terkini.",
+    "hook": "Rumah korang atau keluarga kena banjir? Jangan tunggu je. Ada bantuan RM1,000 dari NADMA, bantuan khas sampai RM3,000 di Selangor, dan bank pun boleh bagi tangguh bayar pinjaman. Jom tengok satu per satu.",
+    "points": [
+     "BWI RM1,000 untuk setiap ketua isi rumah yang rumahnya dilanda banjir, melalui NADMA; daftar dalam sistem MyIBJKM, contohnya imbas kod QR di PPS.",
+     "Selangor: bantuan khas persekutuan RM2,500 untuk mangsa terjejas teruk, ditambah RM500 dari kerajaan negeri bagi yang daftar di PPS.",
+     "Bernama 14 Nov: ketua isi rumah di Selangor yang tak berdaftar untuk bantuan RM2,500 akan terima RM1,250, dan 1,500 keluarga di Sungai Buloh terima barangan keperluan hampir RM1 juta.",
+     "Pinjaman bank: Alliance Bank tawar moratorium sehingga 6 bulan dan kecualikan caj lewat; mohon melalui khidmat pelanggan atau cawangan hingga 31 Mac 2027, tertakluk kelulusan.",
+     "Tips: simpan dokumen penting dalam beg kalis air dan salinan digital, dan tanya bank sama ada faedah masih dikira semasa moratorium."
+    ]
+   }
+  },
+  {
+   "angle": "Video 'mula dari RM0': kira sasaran dana kecemasan ikut belanja wajib sendiri, cara asingkan akaun dan auto-transfer hari gaji, dan kenapa kad kredit (caj sehingga 18% setahun) atau Akaun Fleksibel KWSP bukan pilihan pertama. Guna contoh angka, bukan janji pulangan.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "25 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa video BM evergreen tentang tabung kecemasan dan simpan duit gaji kecil, tetapi kebanyakannya bukan baharu. Sudut kosong: kupas data BNM 61% terbaru dan kira sasaran guna belanja wajib sebenar."
+   },
+   "faq": [
+    {
+     "a": "Ya, itu data BNM 2024 yang dipetik TPM Fadillah pada 22 Nov 2026, naik dari 47% pada 2021.",
+     "q": "Betul ke 61% rakyat tak ada RM1,000?"
+    },
+    {
+     "a": "RinggitPlus syorkan 3 hingga 6 bulan perbelanjaan wajib, dan PIDM syorkan 6 bulan.",
+     "q": "Berapa banyak dana kecemasan patut ada?"
+    },
+    {
+     "a": "Mula dengan sasaran RM1,000 dulu, contohnya RM250 sebulan dah capai RM1,000 dalam 4 bulan.",
+     "q": "Gaji kecil, nak mula macam mana?"
+    },
+    {
+     "a": "Dalam akaun simpanan berasingan dari akaun gaji, dan deposit layak dilindungi PIDM sehingga RM250,000 setiap pendeposit bagi setiap bank ahli.",
+     "q": "Simpan dekat mana yang selamat?"
+    },
+    {
+     "a": "Boleh dikeluarkan bagi yang bawah 55 tahun, tetapi RinggitPlus nasihat ia jadi pilihan terakhir.",
+     "q": "Boleh guna Akaun Fleksibel KWSP?"
+    }
+   ],
+   "icon": "salary",
+   "id": "dana-kecemasan-rm1000",
+   "ideas": [
+    "61% Rakyat Tak Ada RM1,000: Korang Macam Mana?",
+    "Cara Kumpul RM1,000 Dalam 4 Bulan",
+    "Dana Kecemasan: Berapa Korang Patut Ada?",
+    "Simpan Dana Kecemasan Di Mana Yang Selamat?",
+    "5 Silap Guna Kad Kredit Sebagai Dana Kecemasan"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "47%",
+      "61%",
+      "37%"
+     ],
+     "q": "Berapa % rakyat sukar kumpul RM1,000 ketika kecemasan (BNM 2024)?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "3–6 bulan belanja wajib",
+      "1 bulan gaji",
+      "RM500 sahaja"
+     ],
+     "q": "Sasaran dana kecemasan yang disyorkan ialah…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "10 bulan",
+      "2 bulan",
+      "4 bulan"
+     ],
+     "q": "Simpan RM250 sebulan, berapa lama capai RM1,000?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#DanaKecemasan",
+     "#SimpanDuit",
+     "#KewanganPeribadi",
+     "#TipsJimat",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "dana kecemasan berapa perlu",
+     "cara simpan duit kecemasan",
+     "simpanan kecemasan rm1000",
+     "tabung kecemasan gaji kecil",
+     "61 peratus tiada simpanan"
+    ],
+    "tags": [
+     "dana kecemasan",
+     "tabung kecemasan",
+     "simpan duit",
+     "tips kewangan",
+     "kewangan peribadi",
+     "gaji kecil",
+     "bnm",
+     "tips jimat"
+    ],
+    "thumbs": [
+     "61% TAK ADA RM1,000",
+     "RM250 SEBULAN CUKUP?",
+     "DANA KECEMASAN KORANG?"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Kongsi data BNM 2024 yang dipetik Fadillah pada 22 Nov: 61% sukar kumpul RM1,000, naik dari 47% pada 2021.",
+     "hook": "Kalau kereta rosak esok, korang ada RM1,000 tak?",
+     "title": "6 Dari 10 Orang Tak Ada RM1,000"
+    },
+    {
+     "beat": "Tunjuk kalkulator: RM250 x 4 = RM1,000, RM250 x 12 = RM3,000; kemudian sasaran akhir 3–6 bulan belanja wajib.",
+     "hook": "Simpan RM250 sebulan, dalam 4 bulan korang dah ada RM1,000.",
+     "title": "RM1,000 Dalam 4 Bulan, Boleh?"
+    },
+    {
+     "beat": "Baki kad kredit tak dijelas penuh boleh kena caj sehingga 18% setahun; simpan dana dalam akaun berasingan yang dilindungi PIDM sehingga RM250,000.",
+     "hook": "Ramai anggap kad kredit tu dana kecemasan. Itu silap.",
+     "title": "Jangan Guna Kad Kredit Untuk Kecemasan"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/61-rakyat-malaysia-tiada-simpanan-kecemasan-rm1000-kata-fadillah.html"
+    },
+    {
+     "name": "RinggitPlus (23 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/6-in-10-malaysians-dont-have-rm1000-ready-for-an-emergency.html"
+    }
+   ],
+   "title": "61% rakyat tiada RM1,000 simpanan kecemasan: cara mula bina dana",
+   "why": "TPM Fadillah Yusof pada 22 Nov 2026 (majlis ASNB di Kuching) memetik laporan BNM 2024 bahawa 61% rakyat Malaysia sukar mengumpul RM1,000 ketika kecemasan, naik dari 47% pada 2021, dan hanya 37% mampu tampung belanja lebih tiga bulan jika hilang pendapatan (RinggitPlus, 23–24 Nov). Tinjauan RMFLS 2026 tajaan GXBank (3,005 responden dalam talian, Sept–Okt 2026) pula dapati 57% kata simpanan cukup tiga bulan atau kurang, dan 22% kurang sebulan. RinggitPlus syorkan sasaran 3–6 bulan belanja wajib dan mula dengan RM1,000; contohnya RM250 sebulan capai RM1,000 dalam 4 bulan.",
+   "score": 70,
+   "prev_score": 71,
+   "status": "naik"
+  },
+  {
+   "angle": "Video 'semak kumpulan korang': senaraikan kumpulan dan jumlah ikut jadual, tarikh bayaran yang dah diumumkan, dan apa yang belum jelas (perlu mohon atau automatik). Ingatkan jangan klik pautan yang minta butiran bank.",
+   "app": {
+    "name": "Portal Bantuan Kasih Johor",
+    "url": "https://bkj.johor.gov.my"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "tinggi",
+    "note": "Video BM yang dijumpai tentang BKJ semuanya fasa lama dan klip berita umum; belum ada video yang pecahkan kumpulan dan jumlah BKJ 2027 selepas Bajet Johor 19 Nov."
+   },
+   "deadline": "Bayaran: Dis 2026 & Feb 2027 (ikut kumpulan)",
+   "faq": [
+    {
+     "a": "Antara RM200 hingga RM2,000 seorang, ikut kumpulan penerima.",
+     "q": "Berapa jumlah Bantuan Kasih Johor 2027?"
+    },
+    {
+     "a": "Kebanyakan bayaran pada Disember 2026 dan Februari 2027, bergantung pada kumpulan.",
+     "q": "Bila duit BKJ masuk?"
+    },
+    {
+     "a": "Ya, suri rumah tidak bekerja disenaraikan untuk RM200 seorang.",
+     "q": "Suri rumah dapat ke?"
+    },
+    {
+     "a": "Belum dinyatakan secara rasmi; pantau bkj.johor.gov.my dan pengumuman kerajaan negeri.",
+     "q": "Kena mohon ke atau automatik?"
+    },
+    {
+     "a": "Syarat kelayakan dan cara mohon belum diumumkan, jadi jangan bayar apa-apa yuran tempahan dulu.",
+     "q": "Bantuan rumah pertama RM5,000 tu macam mana nak mohon?"
+    }
+   ],
+   "icon": "aid",
+   "id": "bantuan-kasih-johor-2027",
+   "ideas": [
+    "BKJ 2027: Semak Korang Dapat RM200 Atau RM2,000",
+    "Bila Duit Bantuan Kasih Johor Masuk?",
+    "Bajet Johor 2027: 7 Bantuan Untuk Rakyat",
+    "Suri Rumah & Pemandu E-hailing Johor Dapat Berapa?",
+    "Bantuan Rumah Pertama RM5,000 Johor: Apa Kita Tahu"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "9 Okt 2026",
+      "19 Nov 2026",
+      "1 Dis 2026"
+     ],
+     "q": "Bajet Johor 2027 dibentang pada…"
+    },
+    {
+     "a": 0,
+     "o": [
+      "RM400",
+      "RM200",
+      "RM1,000"
+     ],
+     "q": "Pemandu e-hailing berdaftar di Johor dapat BKJ…"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Jan & Mac",
+      "Nov & Jan",
+      "Dis & Feb"
+     ],
+     "q": "Bayaran BKJ 2027 kebanyakannya pada bulan…"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#bantuankasihjohor",
+     "#bkj2027",
+     "#bajetjohor",
+     "#bantuankerajaan",
+     "#johor"
+    ],
+    "keywords": [
+     "bantuan kasih johor 2027",
+     "bkj 2027 tarikh bayaran",
+     "bajet johor 2027",
+     "semakan bkj",
+     "bantuan johor rm2000"
+    ],
+    "tags": [
+     "bantuan kasih johor",
+     "bkj",
+     "bajet johor 2027",
+     "bantuan kerajaan",
+     "johor",
+     "bantuan tunai",
+     "suri rumah",
+     "e-hailing"
+    ],
+    "thumbs": [
+     "ORANG JOHOR DAPAT RM2,000?",
+     "SEMAK KUMPULAN KORANG",
+     "DUIT MASUK DISEMBER"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Tunjuk jadual ringkas: RM2,000, RM1,000, RM500, RM400 dan RM200 ikut kumpulan, dengan contoh suri rumah dan pemandu e-hailing.",
+     "hook": "Lebih 820,000 orang Johor akan dapat duit ni, korang dalam senarai tak?",
+     "title": "Orang Johor, Korang Dapat Berapa?"
+    },
+    {
+     "beat": "Terangkan bayaran Disember 2026 dan Februari 2027, contoh penjawat awam persekutuan RM300 + RM200, dan kumpulan yang tarikhnya belum diumum.",
+     "hook": "Duit BKJ bukan masuk sekali gus, ada dua pusingan.",
+     "title": "BKJ Masuk Bila? Ini Tarikhnya"
+    },
+    {
+     "beat": "Ingatkan semak di bkj.johor.gov.my dan pengumuman rasmi negeri, kemas kini nombor telefon dan akaun bank dengan agensi berkaitan sahaja.",
+     "hook": "Kalau ada link minta nombor akaun bank untuk BKJ, jangan tekan.",
+     "title": "Awas Link BKJ Palsu!"
+    }
+   ],
+   "sources": [
+    {
+     "name": "RinggitPlus (23 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/bantuan-kasih-johor-2027-hingga-rm2000-semak-kumpulan-anda-dan-tarikh-bayaran.html"
+    }
+   ],
+   "title": "Bantuan Kasih Johor 2027: RM200 hingga RM2,000 untuk lebih 820,000 penerima",
+   "why": "Bajet Johor 2027 bernilai RM3.07 bilion yang dibentang pada 19 Nov 2026 umum Bantuan Kasih Johor (BKJ) RM200 hingga RM2,000 seorang untuk lebih 820,000 penerima, dengan kebanyakan bayaran pada Disember 2026 dan Februari 2027 (RinggitPlus, 23 Nov). Contohnya, pemandu teksi, e-hailing dan p-hailing berdaftar (45,056 orang) dapat RM400, suri rumah tidak bekerja (193,166 orang) RM200, dan penjawat awam persekutuan di Johor RM500 (RM300 Dis, RM200 Feb). Ada juga bantuan rumah pertama RM5,000 dan sewa RM2,500, tapi syarat dan cara mohon belum diumumkan.",
+   "score": 69,
+   "prev_score": 70,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial langkah demi langkah: semak baki dan tunggakan dalam app myPTPTN, kira bayaran 20% atau RM1,000, dan beza penstrukturan semula dengan tukar ke Ujrah. Ingatkan penangguhan 2027 belum ada garis panduan rasmi dan ujrah mungkin terus terkumpul.",
+   "app": {
+    "name": "myPTPTN"
+   },
+   "cat": "kewangan",
+   "competition": {
+    "checked": "24 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada Shorts tentang Bulan Mesra lanjut dan tip kurangkan tunggakan, tapi belum ada tutorial BM yang kira bayaran 20% atau RM1,000 BMP 2026 langkah demi langkah."
+   },
+   "deadline": "BMP: hingga 15 Dis 2026",
+   "faq": [
+    {
+     "a": "BMP 2026 berlangsung dari 1 November hingga 15 Disember 2026.",
+     "q": "Bulan Mesra Peminjam PTPTN sampai bila?"
+    },
+    {
+     "a": "Serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi.",
+     "q": "Kena bayar berapa nak susun semula tunggakan?"
+    },
+    {
+     "a": "Kaunter negeri dan cawangan terpilih dibuka 9 pagi hingga 5 petang pada 5 dan 12 Disember, tetapi kaunter di Terengganu, Kedah, Kelantan dan Sabah beroperasi Ahad hingga Khamis sahaja.",
+     "q": "Kaunter PTPTN buka hujung minggu ke?"
+    },
+    {
+     "a": "Belanjawan 2027 umum penangguhan bayaran balik pada 2027 untuk pendapatan sehingga RM2,500 sebulan, tetapi garis panduan dan cara memohon belum diumumkan.",
+     "q": "Betul ke gaji bawah RM2,500 tak payah bayar PTPTN?"
+    },
+    {
+     "a": "Untuk 2027 belum dinyatakan; bagi penangguhan sedia ada ujrah tetap terkumpul, jadi baki boleh bertambah.",
+     "q": "Kalau tangguh, hutang PTPTN bertambah tak?"
+    }
+   ],
+   "icon": "learn",
+   "id": "ptptn-bulan-mesra-peminjam",
+   "ideas": [
+    "Tunggak PTPTN? Susun Semula Sebelum 15 Dis",
+    "Cara Semak Tunggakan PTPTN Dalam App myPTPTN",
+    "Gaji Bawah RM2,500 Tak Payah Bayar PTPTN 2027?",
+    "20% atau RM1,000: Kira Bayaran Mula PTPTN",
+    "Penstrukturan vs Ujrah PTPTN: Mana Sesuai?"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "30 Nov 2026",
+      "15 Dis 2026",
+      "31 Dis 2026"
+     ],
+     "q": "Bulan Mesra Peminjam PTPTN 2026 tamat bila?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "20% atau RM1,000",
+      "5% atau RM100",
+      "50% tunggakan"
+     ],
+     "q": "Bayaran minimum untuk susun semula tunggakan dalam BMP?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "RM1,800",
+      "RM3,000",
+      "RM2,500"
+     ],
+     "q": "Bajet 2027: gaji sehingga berapa tak perlu bayar PTPTN pada 2027?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#PTPTN",
+     "#BulanMesraPeminjam",
+     "#TunggakanPTPTN",
+     "#TipsKewangan",
+     "#ImranWafi"
+    ],
+    "keywords": [
+     "ptptn bulan mesra peminjam 2026",
+     "cara susun semula pinjaman ptptn",
+     "tunggakan ptptn",
+     "ptptn tangguh bayaran 2027",
+     "semak baki ptptn"
+    ],
+    "tags": [
+     "ptptn",
+     "bulan mesra peminjam",
+     "penstrukturan semula ptptn",
+     "tunggakan ptptn",
+     "myptptn",
+     "bajet 2027",
+     "pinjaman pendidikan",
+     "tips kewangan"
+    ],
+    "thumbs": [
+     "TUNGGAK PTPTN?",
+     "SEBELUM 15 DIS!",
+     "BAYAR 20% SAHAJA"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "BMP 1 Nov–15 Dis: susun semula, gabung pinjaman atau tukar ke Ujrah dengan bayaran serendah 20% atau RM1,000 tunggakan, ikut mana lebih tinggi.",
+     "hook": "Kalau korang ada tunggakan PTPTN, tarikh 15 Disember ni penting.",
+     "title": "Tunggak PTPTN? Ada Tawaran Sampai 15 Dis"
+    },
+    {
+     "beat": "Contoh kira: 20% daripada RM8,000 ialah RM1,600, lebih tinggi dari RM1,000, jadi RM1,600. Tunggakan RM3,000 pula: 20% cuma RM600, jadi bayar RM1,000.",
+     "hook": "Tunggakan RM8,000, kena bayar berapa untuk mula susun semula?",
+     "title": "Kira Bayaran Mula PTPTN Dalam 30 Saat"
+    },
+    {
+     "beat": "Belanjawan 2027 cuma tangguh bayaran balik pada 2027, bukan hapus hutang; gaji RM2,500–RM3,000 bayar minimum RM50. Cara mohon belum diumumkan.",
+     "hook": "Ramai ingat PTPTN hapus kalau gaji bawah RM2,500. Salah.",
+     "title": "Mitos: Gaji Bawah RM2,500 Hapus PTPTN"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (17 Nov 2026)",
+     "url": "https://bernama.com/bm/am/news.php?id=2635635"
+    },
+    {
+     "name": "RinggitPlus (9 Okt 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/belanjawan-2027-bayaran-balik-ptptn-ditangguh-bagi-pendapatan-sehingga-rm2500.html"
+    }
+   ],
+   "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
+   "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
+   "score": 68,
+   "prev_score": 68,
+   "status": "naik"
+  },
+  {
+   "angle": "Tutorial jujur skrin telefon: cara pasang dan guna TuJu (navigasi, CCTV lebuh raya, R&R, bantuan kecemasan), dan bandingkan apa yang ia boleh dan belum boleh buat berbanding app navigasi lain, tanpa politik.",
+   "app": {
+    "name": "TuJu (Lembaga Lebuhraya Malaysia)"
+   },
+   "cat": "tutorial",
+   "competition": {
+    "checked": "26 Nov 2026",
+    "level": "tinggi",
+    "note": "Hanya jumpa satu tutorial BM 'cara guna TuJu'; selebihnya video berita, ulasan Bahasa Inggeris dan Cina. Sudut kosong: tutorial versi terkini selepas TuJu guna Google Maps dan tips cuti sekolah/balik kampung."
+   },
+   "faq": [
+    {
+     "a": "TuJu ialah app Lembaga Lebuhraya Malaysia untuk maklumat trafik lebuh raya masa nyata, CCTV, R&R, bantuan kecemasan dan navigasi.",
+     "q": "TuJu ni app apa sebenarnya?"
+    },
+    {
+     "a": "Tidak, larangan yang diumumkan pada 21 Okt 2026 hanya untuk penjawat awam bagi urusan rasmi.",
+     "q": "Orang biasa kena tukar dari Waze ke TuJu ke?"
+    },
+    {
+     "a": "Menurut Ahmad Maslan pada 16 Nov 2026, TuJu sudah melepasi 1 juta pengguna.",
+     "q": "Berapa ramai dah guna TuJu?"
+    },
+    {
+     "a": "Lonjakan muat turun membebankan sistem, dan sejak 6 Nov navigasinya disambung ke Google Maps untuk kurangkan kos dan pulihkan servis.",
+     "q": "Kenapa TuJu pernah tak boleh guna?"
+    },
+    {
+     "a": "Ya, perkhidmatan utama TuJu kini ada di iOS dan Android.",
+     "q": "TuJu ada untuk iPhone dan Android?"
+    }
+   ],
+   "icon": "map",
+   "id": "tuju-app-navigasi",
+   "ideas": [
+    "Cara Guna App TuJu: Navigasi, CCTV & R&R",
+    "TuJu vs Waze: Mana Lebih Berguna Balik Kampung?",
+    "5 Fungsi TuJu Yang Ramai Tak Tahu",
+    "Kenapa TuJu Tiba-tiba 1 Juta Pengguna?",
+    "Tengok CCTV Lebuh Raya Live Guna TuJu"
+   ],
+   "quiz": [
+    {
+     "a": 0,
+     "o": [
+      "Lembaga Lebuhraya Malaysia",
+      "JPJ",
+      "MCMC"
+     ],
+     "q": "Siapa pemilik app navigasi TuJu?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Waze",
+      "Apple Maps",
+      "Google Maps"
+     ],
+     "q": "Sejak 6 Nov 2026, navigasi TuJu disambung kepada apa?"
+    },
+    {
+     "a": 1,
+     "o": [
+      "Lebih 100,000",
+      "Lebih 1 juta",
+      "Lebih 10 juta"
+     ],
+     "q": "Berapa pengguna TuJu menurut Ahmad Maslan (16 Nov)?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#TuJu",
+     "#AppTuju",
+     "#LLM",
+     "#tutorialapp",
+     "#balikkampung"
+    ],
+    "keywords": [
+     "cara guna app tuju",
+     "tuju app llm",
+     "tuju ganti waze",
+     "cctv lebuh raya live",
+     "app navigasi malaysia"
+    ],
+    "tags": [
+     "tuju",
+     "app tuju",
+     "lembaga lebuhraya malaysia",
+     "waze",
+     "navigasi",
+     "cctv lebuh raya",
+     "tutorial app",
+     "balik kampung"
+    ],
+    "thumbs": [
+     "GANTI WAZE?",
+     "TUJU 1 JUTA USER",
+     "CARA GUNA TUJU",
+     "CCTV LIVE PERCUMA"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "Rakam skrin: muat turun TuJu, masukkan destinasi, tunjuk navigasi (kini guna Google Maps), kemudian buka butang CCTV dan R&R.",
+     "hook": "App navigasi kerajaan ni dah ada 1 juta pengguna, ini cara gunanya.",
+     "title": "Cara Guna TuJu Dalam 30 Saat"
+    },
+    {
+     "beat": "Terangkan larangan 21 Okt hanya untuk penjawat awam bagi urusan rasmi, TuJu milik LLM melepasi 1 juta pengguna, dan navigasinya disambung ke Google Maps sejak 6 Nov.",
+     "hook": "Betul ke semua orang dah tak boleh guna Waze?",
+     "title": "TuJu: Mitos vs Fakta"
+    },
+    {
+     "beat": "Tunjuk fungsi CCTV langsung dan trafik masa nyata TuJu, serta butang bantuan kecemasan untuk perjalanan cuti hujung tahun.",
+     "hook": "Nak tahu jam ke tak sebelum keluar rumah? Tengok ni.",
+     "title": "Tengok CCTV Lebuh Raya Sebelum Gerak"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Bernama (16 Nov 2026)",
+     "url": "https://www.bernama.com/en/news.php?id=2635187"
+    },
+    {
+     "name": "SoyaCincau (21 Okt 2026)",
+     "url": "https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/"
+    },
+    {
+     "name": "NST (Okt 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/10/1561137/tuju-goes-offline-day-after-being-promoted-waze-alternative-watch"
+    }
+   ],
+   "title": "App TuJu tembus 1 juta pengguna: cara guna navigasi tempatan ganti Waze",
+   "why": "Selepas kerajaan larang penjawat awam guna Waze untuk urusan rasmi atas alasan keselamatan data (21 Okt 2026), muat turun app TuJu milik Lembaga Lebuhraya Malaysia (LLM) melonjak dari kira-kira 800,000 kepada lebih 1 juta pengguna dalam beberapa hari, kata Timbalan Menteri Kerja Raya Ahmad Maslan di Dewan Rakyat pada 16 Nov (Bernama). Lonjakan itu sempat buat sistem tergendala, dan sejak 6 Nov fungsi navigasi TuJu disambung kepada Google Maps untuk kurangkan kos; app ini juga ada carian R&R, bantuan kecemasan, CCTV langsung dan trafik lebuh raya masa nyata. TuJu dilancarkan pada 26 Nov 2025, jadi hari ini genap setahun.",
+   "score": 66,
+   "prev_score": 68,
+   "status": "naik"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "29 Nov 2026",
+   "label": "Ujian MySiren (amaran kecemasan) seluruh negara, Ahad 10–10.30 pagi",
+   "lead": 5,
+   "note": "Tinggal 2 hari (Ahad). Video/Shorts 'update phone sebelum 29 Nov' patut keluar sekarang.",
+   "topic": "ujian-amaran-kecemasan-ews",
+   "when": "2026-11-29"
+  },
+  {
+   "approx": true,
+   "date": "Hujung Nov 2026",
+   "label": "Tempoh kemas kini STR 2027 Fasa 1 dijangka tamat",
+   "lead": 7,
+   "note": "Tertakluk pindaan LHDN.",
+   "topic": "str-2027-kemas-kini",
+   "when": "2026-11-30"
+  },
+  {
+   "date": "1 Dis 2026",
+   "label": "Pas MyKomuter50 mula berkuat kuasa",
+   "lead": 10,
+   "note": "Pengaktifan dibuka 16 Nov; kelulusan dalam app boleh ambil sehingga 3 hari bekerja.",
+   "topic": "mykomuter50-ktm",
+   "when": "2026-12-01"
+  },
+  {
+   "approx": true,
+   "date": "2 Dis 2026",
+   "label": "Pengumuman harga minyak mingguan (3–9 Dis)",
+   "lead": 5,
+   "note": "Harga 26 Nov–2 Dis: RON97 RM3.75, RON95 tanpa subsidi RM3.47, diesel tanpa subsidi RM4.47, BUDI95 RM1.99. MOF biasanya umum harga baharu hari Rabu.",
+   "topic": "harga-minyak-turun-nov",
+   "when": "2026-12-02"
+  },
+  {
+   "date": "12 Dis 2026",
+   "label": "Jualan 12.12",
+   "lead": 5,
+   "note": "Tips belanja, baucar dan cashback e-wallet.",
+   "when": "2026-12-12"
+  },
+  {
+   "date": "15 Dis 2026",
+   "label": "Bulan Mesra Peminjam PTPTN tamat",
+   "lead": 7,
+   "note": "Susun semula tunggakan dari 20% atau RM1,000; kaunter terpilih buka 5 & 12 Dis.",
+   "topic": "ptptn-bulan-mesra-peminjam",
+   "when": "2026-12-15"
+  },
+  {
+   "approx": true,
+   "date": "Pertengahan Dis 2026",
+   "label": "Pengumuman agihan pendapatan (dividen) ASB 2026 dijangka",
+   "lead": 7,
+   "note": "Anggaran berdasarkan tahun lepas: ASB 2025 diumum 19 Dis 2025 (5.75 sen seunit). Tarikh rasmi belum diumumkan; nilai pelaburan boleh turun naik.",
+   "when": "2026-12-19"
+  },
+  {
+   "date": "31 Dis 2026",
+   "label": "Baki SARA 2026 (bulanan & SARA Untuk Semua) luput; promosi TNG di Shopee tamat",
+   "lead": 10,
+   "note": "Video 'guna baki SARA sebelum hangus'. Pengecualian AFA, caj runcit dan SST elektrik pada had 800 kWh juga hanya untuk 1 Sept–31 Dis 2026.",
+   "topic": "sara-guna-sebelum-31-dis",
+   "when": "2026-12-31"
+  }
+ ],
+ "apps": [
+  {
+   "id": "mae",
+   "ideas": [
+    "Buka Akaun ASNB Dalam MAE: Tutorial Penuh",
+    "Cara Bayar QR Guna MAE di Luar Negara",
+    "10 Fungsi Tersembunyi MAE Yang Ramai Tak Tahu"
+   ],
+   "name": "MAE by Maybank",
+   "seg": "bank",
+   "sources": [
+    {
+     "name": "Lowyat.NET (4 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/54827/digital-banking-news-malaysia/maybank-rm4-trillion-digital-transactions/"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/58467/digital-banking-news-malaysia/gxbank-users/"
+    }
+   ],
+   "url": "https://www.maybank2u.com.my",
+   "what": "App perbankan dan e-wallet Maybank untuk pindahan, bayar QR dan simpanan.",
+   "why": "Maybank kata MAE ada 10.7 juta pengguna dan memegang 48% volum transaksi perbankan mudah alih di Malaysia. Mulai 4 Nov 2026, pelabur baharu boleh buka akaun ASNB terus dalam MAE dari RM10, dengan cashback RM3/RM5 untuk 15,000 terawal hingga 31 Jan 2027."
+  },
+  {
+   "id": "ryt-bank",
+   "ideas": [
+    "Ryt Bank Review Jujur Selepas Setahun",
+    "Bank Digital Terbesar Malaysia: Ryt vs GXBank",
+    "Cara Buka Akaun Ryt Bank Dalam 5 Minit"
+   ],
+   "name": "Ryt Bank",
+   "seg": "bank",
+   "sources": [
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/2026/08/20/ryt-bank-malaysia-largest-digital-bank-1-5-mil-customers/"
+    },
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/en/blog/bank-news/ryt-bank-becomes-malaysias-most-downloaded-app.html"
+    },
+    {
+     "name": "Fintech News Malaysia (13 Nov 2026)",
+     "url": "https://fintechnews.my/62360/digital-banking-news-malaysia/digital-bank-malaysia-2026-profit-losses/"
+    }
+   ],
+   "what": "Bank digital dengan pembantu AI (Ryt AI) dalam app.",
+   "why": "Ryt Bank kini bank digital terbesar dengan lebih 1.5 juta pengguna (Ogos 2026), dan sejak Okt 2026 ia sokong Apple Pay. Fintech News Malaysia (13 Nov 2026) laporkan deposit Ryt RM1.61 bilion pada akhir FY2025, tipis mendahului GXBank, walaupun kerugiannya naik ke RM109 juta."
+  },
+  {
+   "id": "gxbank",
+   "ideas": [
+    "Cara Guna Saving Pockets GXBank Untuk Simpan Duit",
+    "GXBank FlexiCredit: Berbaloi Atau Perangkap Hutang?",
+    "Bank Digital Rugi Juta-Juta: Duit Korang Selamat?"
+   ],
+   "name": "GXBank",
+   "seg": "bank",
+   "sources": [
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/58467/digital-banking-news-malaysia/gxbank-users/"
+    },
+    {
+     "name": "SoyaCincau",
+     "url": "https://soyacincau.com/?p=447370"
+    },
+    {
+     "name": "Fintech News Malaysia (13 Nov 2026)",
+     "url": "https://fintechnews.my/62360/digital-banking-news-malaysia/digital-bank-malaysia-2026-profit-losses/"
+    }
+   ],
+   "what": "Bank digital dengan Saving Pockets dan pembiayaan FlexiCredit.",
+   "why": "GXBank melepasi 1.4 juta pelanggan pada Mei 2026, dan FlexiCredit kini boleh dimohon terus dalam TNG eWallet. Fintech News Malaysia (13 Nov 2026) laporkan deposit GXBank RM1.60 bilion pada akhir FY2025 dan pinjaman RM1.21 bilion (Jun 2026), dengan sasaran untung pada 2028."
+  },
+  {
+   "id": "mypb",
+   "ideas": [
+    "Cara Tambah Kad PB ke Apple Pay Guna App MyPB",
+    "Cashback RM30 Apple Pay Public Bank: Syarat Penuh",
+    "5 Fungsi App MyPB Yang Ramai Tak Guna"
+   ],
+   "name": "MyPB (Public Bank)",
+   "seg": "bank",
+   "sources": [
+    {
+     "name": "Lowyat.NET (17 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409912/apple-pay-public-bank-pb-and-pib-cards/"
+    }
+   ],
+   "what": "App perbankan mudah alih Public Bank untuk pindahan, bayar bil dan urus kad.",
+   "why": "Mulai 17 Nov 2026, pengguna boleh tambah kad debit dan kredit Visa/Mastercard PB dan PIB ke Apple Pay terus dari ikon Apple Pay dalam app MyPB, dengan cashback sehingga RM30 hingga 16 Dis 2026 (Lowyat.NET)."
+  },
+  {
+   "id": "mydigital-id",
+   "ideas": [
+    "Lupa Password MyDigital ID? Cara Reset Baru",
+    "Tukar Phone Tanpa Hilang MyDigital ID",
+    "Semua App Yang Guna MyDigital ID"
+   ],
+   "name": "MyDigital ID",
+   "seg": "kerajaan",
+   "sources": [
+    {
+     "name": "Lowyat.NET (11 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409572/reset-mydigital-id-password/"
+    },
+    {
+     "name": "The Star (15 Okt 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/10/15/mydigital-id-hits-142-million-registrations-with-over-82-million-logins"
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/news/malaysia/2026/07/08/dpm-zahid-12-million-malaysians-have-signed-up-for-mydigital-id-as-of-june-30-with-114-govt-services-integrated/226817"
+    },
+    {
+     "name": "The Edge",
+     "url": "https://theedgemalaysia.com/node/809844"
+    }
+   ],
+   "what": "Identiti digital rasmi untuk log masuk ke app dan portal kerajaan.",
+   "why": "Setakat 7 Okt 2026, 14.2 juta rakyat Malaysia sudah mendaftar MyDigital ID dengan lebih 82 juta log masuk, dan ia menyokong lebih 200 app dan perkhidmatan (The Star, 15 Okt). Versi 2.11.0 (Lowyat.NET, 11 Nov 2026) bawa pilihan 'Forgot Password' dengan imbasan muka tanpa perlu daftar semula, dan sijil dipindah automatik bila tukar telefon."
+  },
+  {
+   "id": "mygov",
+   "ideas": [
+    "Renew Pasport Guna App MyGOV: Step by Step",
+    "MyGOV 2.1.4: 4 Fungsi Baharu Yang Berguna",
+    "Cara Ganti IC Hilang Guna MyGOV"
+   ],
+   "name": "MyGOV Malaysia",
+   "seg": "kerajaan",
+   "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/malaysians-can-now-renew-passports-through-mygov-malaysia-app/244598"
+    },
+    {
+     "name": "The Star (23 Okt 2026)",
+     "url": "https://www.thestar.com.my/news/nation/2026/10/23/more-services-to-be-added-to-mygov-app"
+    },
+    {
+     "name": "Berita RTM",
+     "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/mygov-catat-2-2-juta-pengguna-bakal-tawar-strim-piala-dunia-2026/"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/407922/malaysians-mykad-replacements-mygov-app/"
+    }
+   ],
+   "url": "https://www.mygov.gov.my",
+   "what": "Satu app untuk banyak urusan kerajaan, log masuk guna MyDigital ID.",
+   "why": "Pada 24 Nov 2026, MyGOV versi 2.1.4 tambah fungsi renew pasport dan bayar terus dalam app (ambil buat masa ini di Pejabat Imigresen Shaftsbury, Putrajaya), notifikasi MyNotifikasi yang lebih tepat dan pencari pusat NADI terdekat (Malay Mail). Setakat 8 Okt 2026, app ini ada 3.2 juta muat turun, 3 juta pengguna aktif dan 62 perkhidmatan dari 22 agensi, termasuk mohon ganti MyKad (The Star, 23 Okt)."
+  },
+  {
+   "id": "mystr",
+   "ideas": [
+    "Cara Kemas Kini STR 2027 Langkah Demi Langkah",
+    "Semak Status STR Dalam 2 Minit",
+    "Kenapa STR Anda Tak Lulus? 5 Sebab Biasa"
+   ],
+   "name": "MySTR (Portal STR)",
+   "seg": "kerajaan",
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/tempoh-kemas-kini-str-2027-untuk-fasa-1-dijangka-hingga-november-2026.html"
+    },
+    {
+     "name": "RinggitPlus (16 Okt 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/str-2027-applications-and-updates-now-open-all-year.html"
+    }
+   ],
+   "url": "https://bantuantunai.hasil.gov.my",
+   "what": "Portal rasmi HASiL untuk mohon, kemas kini dan semak status STR.",
+   "why": "Permohonan dan kemas kini STR 2027 dibuka online sejak 15 Okt 2026, dan HASiL kata permohonan dibuka sepanjang tahun; tempoh kemas kini untuk kelayakan Fasa 1 dijangka hingga November 2026. Untuk 2027, penerima STR layak SARA sehingga RM150 sebulan (RM1,800 setahun), dan tarikh bayaran Fasa 1 belum diumumkan (RinggitPlus)."
+  },
+  {
+   "id": "mysejahtera",
+   "ideas": [
+    "Cara Semak Ubat & Rekod Kesihatan Dalam MySejahtera",
+    "Tempah Klinik Kesihatan Guna MySejahtera",
+    "Kongsi Rekod Kesihatan Dengan Klinik Swasta"
+   ],
+   "name": "MySejahtera",
+   "seg": "kerajaan",
+   "sources": [
+    {
+     "name": "Malay Mail (24 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/24/no-more-white-round-pills-mysejahteras-second-life-as-malaysias-digital-health-hub/243784"
+    }
+   ],
+   "what": "App KKM untuk rekod kesihatan, preskripsi ubat dan temujanji klinik kesihatan awam.",
+   "why": "Malay Mail (24 Nov 2026) lapor MySejahtera kini ada 12–15 juta pengguna aktif bulanan, dan lebih 15 juta orang boleh lihat preskripsi dan rekod kesihatan termasuk keputusan makmal. Pengguna boleh tempah klinik kesihatan dan pergigian awam serta kongsi rekod dengan lebih 50 hospital swasta dan 3,000 klinik melalui kod QR berkata laluan; integrasi ambulans 999 masih dalam perancangan tanpa tarikh."
+  },
+  {
+   "id": "tng",
+   "ideas": [
+    "Kad Bisnes Digital TNG RM49.90: Berbaloi Tak?",
+    "Tempah Teksi Luar Negara Guna TNG: Tutorial",
+    "Fungsi Baru TNG eWallet Yang Ramai Tak Perasan"
+   ],
+   "name": "TNG eWallet",
+   "seg": "ewallet",
+   "sources": [
+    {
+     "name": "Bernama (2 Nov 2026)",
+     "url": "https://bernama.com/en/general/news.php?id=2629056"
+    },
+    {
+     "name": "Lowyat.NET (5 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409262/tng-ewallet-overseas-ride-hailing/"
+    },
+    {
+     "name": "Ipsos",
+     "url": "https://www.ipsos.com/en-my/node/1081286"
+    },
+    {
+     "name": "TechNode Global",
+     "url": "https://technode.global/2026/08/26/tng-digital-gxbank-flexicredit-cashloan/"
+    }
+   ],
+   "url": "https://www.tngdigital.com.my",
+   "what": "E-wallet utama Malaysia untuk tol, parkir, bayar QR, bil dan pelaburan GOfinance.",
+   "why": "Kajian Ipsos 2026 dapati 81% rakyat Malaysia guna e-wallet, dan Touch 'n Go kekal paling dominan dengan lebih 27 juta pengguna disahkan. Pada 2 Nov 2026, TNG lancar kad bisnes digital RM49.90 yang boleh kongsi maklumat melalui NFC/QR dan juga bayar tol serta parkir; pada 5 Nov ia lancar tempahan e-hailing luar negara di 47 negara melalui Alipay+."
+  },
+  {
+   "id": "shopeepay",
+   "ideas": [
+    "ShopeePay Money+ 5% Setahun: Berbaloi Simpan?",
+    "Cara Susun Baucar ShopeePay Untuk 12.12",
+    "Cara Mohon SPayLater Motorcycle Dalam ShopeePay"
+   ],
+   "name": "ShopeePay",
+   "seg": "ewallet",
+   "sources": [
+    {
+     "name": "RinggitPlus (23 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/spaylater-motorcycle-dibuka-ke-seluruh-negara-semak-kosnya-dahulu.html"
+    },
+    {
+     "name": "Lowyat.NET (19 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/410003/shopeepay-spaylater-motorcycle-malaysia/"
+    },
+    {
+     "name": "Lowyat.NET (16 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409812/samsung-wallet-shopeepay-qr-payments/"
+    },
+    {
+     "name": "SoyaCincau (20 Okt 2026)",
+     "url": "https://soyacincau.com/2026/10/20/shopeepay-money-offers-up-to-5-p-a-daily-returns-here-is-what-you-need-to-know/amp/"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/407948/shopeepay-raises-wallet-limit-rm30000/"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/46874/e-wallets-malaysia/shopeepay-ekyc/"
+    },
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/ewallet-guide"
+    }
+   ],
+   "what": "E-wallet dalam app Shopee, sesuai untuk susun baucar dan Shopee Coins.",
+   "why": "Pada 20 Okt 2026, had dompet ShopeePay Money+ dinaikkan kepada RM30,000 dengan kadar promosi pulangan harian sehingga 5% setahun (kadar promosi, boleh berubah). Ia juga pilihan utama untuk susun baucar menjelang jualan 12.12. Pada 16 Nov 2026, Samsung umum bayaran QR melalui Samsung Wallet guna akaun ShopeePay akan tiba di Malaysia 'dalam beberapa bulan akan datang' (tarikh belum diumumkan), dengan Shopee Coins untuk pembelian layak (Lowyat.NET). Pada 19 Nov 2026, pembiayaan motosikal SPayLater Motorcycle (patuh Syariah, diperakui Amanie Advisors) diperluas ke seluruh negara, dengan had sehingga RM20,000 dan tempoh sehingga 60 bulan (Lowyat.NET). RinggitPlus (23 Nov) kira kadar efektif SPayLater Motorcycle sekitar 18.9%–19.9% setahun, jadi bandingkan kos sebelum mohon."
+  },
+  {
+   "id": "boost",
+   "ideas": [
+    "Boost vs TNG: Mana Lebih Banyak Cashback?",
+    "Cara Bayar Bil Guna Boost Supaya Dapat Ganjaran",
+    "Perlu Ke Ada Dua E-Wallet? Ini Jawapannya"
+   ],
+   "name": "Boost",
+   "seg": "ewallet",
+   "sources": [
+    {
+     "name": "ACE Money Transfer",
+     "url": "https://acemoneytransfer.com/blog/best-e-wallets-malaysia"
+    },
+    {
+     "name": "Fintech News Malaysia",
+     "url": "https://fintechnews.my/44893/e-wallets-malaysia/tng-ewallets-new-gofinance-hub-offers-one-stop-shop-for-financial-services/"
+    }
+   ],
+   "what": "E-wallet milik Axiata yang terkenal dengan cashback dan bayar bil.",
+   "why": "Boost dikenali sebagai e-wallet pilihan pemburu cashback dan bayar bil. Pada Sept 2026, Boost bekerjasama dengan Tencent Cloud untuk ciri AI dan rancangan super app."
+  },
+  {
+   "id": "merchantrade",
+   "ideas": [
+    "Merchantrade Money Had RM30K: Siapa Patut Guna?",
+    "Cara Guna E-Wallet Masa Bercuti Luar Negara",
+    "Merchantrade vs TNG: Mana Lebih Jimat Di Luar Negara?"
+   ],
+   "name": "Merchantrade Money",
+   "seg": "ewallet",
+   "sources": [
+    {
+     "name": "The Star (18 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/18/merchantrade-raises-e-wallet-limit-to-rm30000-ahead-of-year-end-travel-season"
+    },
+    {
+     "name": "RinggitPlus (20 Nov 2026)",
+     "url": "https://ringgitplus.com/en/blog/personal-finance-news/merchantrade-money-raises-wallet-limit-from-rm20000-to-rm30000.html"
+    }
+   ],
+   "url": "https://www.merchantrade.com",
+   "what": "E-wallet dan kad multi-mata wang untuk belanja luar negara dan kirim duit.",
+   "why": "Pada 18 Nov 2026, Merchantrade naikkan had simpanan e-wallet Merchantrade Money dari RM20,000 ke RM30,000 menjelang musim cuti hujung tahun; pengguna layak dinaik taraf automatik tanpa caj, manakala yang lain boleh mohon dalam app atau di cawangan (The Star). Ia memetik tinjauan Tourism Malaysia 2025 bahawa 62% rakyat Malaysia melancong ke luar negara."
+  },
+  {
+   "id": "shopee",
+   "ideas": [
+    "Cara Checkout Shopee Paling Murah (12.12)",
+    "Baucar Livestream Shopee: Cara Rebut 60% Off",
+    "10 Trik Shopee Coins Yang Ramai Tak Tahu"
+   ],
+   "name": "Shopee",
+   "seg": "shopping",
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    },
+    {
+     "name": "Malay Mail (2 Nov 2026)",
+     "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/11/02/shopee-1111-big-sale-turns-up-the-excitement-on-shopee-live-with-daily-livestreams-rm11-million-in-vouchers-and-mega-savings/498528"
+    }
+   ],
+   "what": "Platform e-dagang terbesar di Malaysia, siap dengan ShopeePay, SPayLater dan ShopeeFood.",
+   "why": "Kajian Vodus 2026 dapati 83% responden pernah membeli di Shopee, naik dari 74% pada 2025. Jualan 11.11 (2–12 Nov 2026) datang dengan RM11 juta baucar dan livestream harian, dan tumpuan kini beralih ke 12.12."
+  },
+  {
+   "id": "tiktok-shop",
+   "ideas": [
+    "Yuran TikTok Shop Naik? Ni Kesan Pada Peniaga Kecil",
+    "Cara Beli Selamat Masa Live TikTok Shop",
+    "Shopee vs TikTok Shop: Saya Banding Harga Sebenar"
+   ],
+   "name": "TikTok Shop",
+   "seg": "shopping",
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    },
+    {
+     "name": "ProductNation",
+     "url": "https://productnation.co/my-bm/28920/aplikasi-tiktok-shop-malaysia-sI8s/"
+    },
+    {
+     "name": "Bernama (15 Nov 2026)",
+     "url": "https://bernama.com/bm/news.php?id=2634633"
+    }
+   ],
+   "what": "Belanja terus dari video dan live TikTok, kini dengan app sendiri.",
+   "why": "Penggunaan TikTok Shop naik dari 53% ke 64% responden (Vodus 2026), dan app TikTok Shop sendiri keluar pada 27 Okt 2026. Pada 15 Nov 2026, Menteri KUSKOP Steven Sim lancar program TikTok Shop Live Hub x TEKUN di Bukit Mertajam dan minta platform e-dagang turunkan yuran dan komisen untuk peniaga kecil; KPDN sedang draf Rang Undang-Undang E-Dagang yang dijangka dibentang awal tahun depan (Bernama)."
+  },
+  {
+   "id": "lazada",
+   "ideas": [
+    "Bila Patut Beli di Lazada, Bukan Shopee?",
+    "LazMall: Cara Pastikan Barang Original",
+    "Tips Baucar Lazada Untuk Jualan Hujung Tahun"
+   ],
+   "name": "Lazada",
+   "seg": "shopping",
+   "sources": [
+    {
+     "name": "Vodus",
+     "url": "https://vodus.com/article/most-popular-e-commerce-platforms-in-malaysia-2026"
+    }
+   ],
+   "what": "Platform e-dagang dengan LazMall untuk barangan jenama.",
+   "why": "Lazada kekal platform ketiga terbesar dengan 42% responden pernah membeli (naik dari 39%). Ia popular untuk barangan berjenama melalui LazMall."
+  },
+  {
+   "id": "grabfood",
+   "ideas": [
+    "Cara Jimat Order GrabFood Setiap Bulan",
+    "Kedai Viral GrabFood Five Star Eats: Berbaloi?",
+    "GrabFood vs foodpanda vs ShopeeFood: Mana Murah?"
+   ],
+   "name": "GrabFood (app Grab)",
+   "seg": "makanan",
+   "sources": [
+    {
+     "name": "Klikit",
+     "url": "https://klikit.io/en/resources/comparisons/delivery-platforms-comparison-malaysia"
+    },
+    {
+     "name": "Eats365",
+     "url": "https://www.eats365pos.com/my/blog/post/top-food-delivery-malaysia"
+    },
+    {
+     "name": "RTM (9 Nov 2026)",
+     "url": "https://berita.rtm.gov.my/?p=722950"
+    }
+   ],
+   "what": "Penghantaran makanan dalam app Grab, dengan langganan GrabUnlimited.",
+   "why": "GrabFood dianggap peneraju pasaran penghantaran makanan di Malaysia dengan liputan paling luas, termasuk Malaysia Timur, dan ada penapis halal yang jelas. Pada 9 Nov 2026, Grab kata ia sedia bantu jenama makanan tempatan berkembang ke luar negara dan terus guna data pesanan untuk panduan GrabFood Five Star Eats bersama Tourism Malaysia (RTM)."
+  },
+  {
+   "id": "foodpanda",
+   "ideas": [
+    "pandapro Berbaloi Ke Untuk Keluarga?",
+    "Cara Beli Barang Dapur Guna pandamart",
+    "Trik Baucar foodpanda Yang Jarang Orang Guna"
+   ],
+   "name": "foodpanda",
+   "seg": "makanan",
+   "sources": [
+    {
+     "name": "Klikit",
+     "url": "https://klikit.io/en/resources/comparisons/delivery-platforms-comparison-malaysia"
+    }
+   ],
+   "what": "Penghantaran makanan dan barang runcit melalui pandamart.",
+   "why": "foodpanda kekal pilihan kedua dengan pelanggan setia langganan pandapro, dan pandamart untuk barang dapur."
+  },
+  {
+   "id": "zus",
+   "ideas": [
+    "Cara Minum ZUS Paling Murah (Promo Selasa)",
+    "Semua Kod Promo ZUS Yang Masih Boleh Guna",
+    "App Kopi Mana Paling Jimat? Saya Banding"
+   ],
+   "name": "ZUS Coffee",
+   "seg": "makanan",
+   "sources": [
+    {
+     "name": "Malaysia4U",
+     "url": "https://malaysia4u.com/review/zus-coffee"
+    },
+    {
+     "name": "AppGoblin",
+     "url": "https://appgoblin.info/apps/com.coffee.love_coffee"
+    }
+   ],
+   "what": "App rangkaian kopi terbesar Malaysia untuk pickup, delivery dan ganjaran ahli.",
+   "why": "ZUS kini rangkaian kopi terbesar di Malaysia dengan kira-kira 800 cawangan, dan app Android-nya melepasi 4.7 juta pemasangan. Promosi ZUSday Buy 3 Free 1 setiap Selasa hanya melalui app."
+  },
+  {
+   "id": "myasnb",
+   "ideas": [
+    "Cara Semak Dividen ASB Dalam App myASNB",
+    "myASNB Satu Peranti Sahaja: Apa Perlu Buat?",
+    "Cara Pilih Zakat Khultah Untuk ASB"
+   ],
+   "name": "myASNB",
+   "seg": "syariah",
+   "sources": [
+    {
+     "name": "RinggitPlus",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/akaun-asnb-kini-boleh-dibuka-dalam-mae.html"
+    },
+    {
+     "name": "The Vibes",
+     "url": "https://www.thevibes.com/index.php/articles/business/127771/asnb-asm-3-payout-hits-7-year-high-at-5-sen-with-rm1.01b-to-unit-holders"
+    },
+    {
+     "name": "Lowyat.NET (4 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409185/maybank-open-asnb-account-via-mae-app/"
+    },
+    {
+     "name": "RinggitPlus (24 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/61-rakyat-malaysia-tiada-simpanan-kecemasan-rm1000-kata-fadillah.html"
+    }
+   ],
+   "url": "https://www.myasnb.com.my",
+   "what": "App rasmi ASNB untuk melabur dalam ASB, ASM dan dana lain dari kira-kira RM10.",
+   "why": "Dividen ASB biasanya diumumkan hujung Disember dan dikreditkan 1 Januari. Mulai Dis 2026, app myASNB hanya boleh diakses pada satu peranti berdaftar, dan sejak 4 Nov akaun ASNB juga boleh dibuka melalui MAE. Pada 22 Nov 2026, ASNB lancar kempen 'Juh, Melabur Menang Mas' untuk pemegang unit Sarawak yang layak (1 Nov–31 Dis), di mana setiap RM5,000 pelaburan bersih beri satu penyertaan cabutan bertuah (RinggitPlus, 24 Nov). Semak status Syariah setiap dana di laman ASNB, dan ingat nilai pelaburan boleh turun."
+  },
+  {
+   "id": "thijari",
+   "ideas": [
+    "Cara Buka Akaun Tabung Haji Anak Guna THiJARI",
+    "TH 3.5% vs Akaun Bank: Mana Lebih Berbaloi?",
+    "Duit TH Dilabur Ke Mana? Ini Pecahannya"
+   ],
+   "name": "THiJARI (Tabung Haji)",
+   "seg": "syariah",
+   "sources": [
+    {
+     "name": "Bernama (4 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2629867"
+    },
+    {
+     "name": "Malay Mail (5 Okt 2026)",
+     "url": "https://www.malaymail.com/amp/news/malaysia/2026/10/05/record-rm464b-income-highest-payout-in-eight-years-zulkifli-hasan-says-tabung-hajis-governance-now-stronger/237779"
+    },
+    {
+     "name": "MWM",
+     "url": "https://mwm.ai/ja/apps/tabung-haji/1497670808"
+    },
+    {
+     "name": "Berita RTM (18 Nov 2026)",
+     "url": "https://berita.rtm.gov.my/?p=727506"
+    },
+    {
+     "name": "NST (18 Nov 2026)",
+     "url": "https://www.nst.com.my/amp/news/nation/2026/11/1580367/tabung-haji-keeps-90pct-investments-domestic-market-says-marhamah"
+    }
+   ],
+   "what": "App Tabung Haji untuk semak baki, simpan, pindah wang dan buka akaun anak.",
+   "why": "THiJARI membolehkan pendeposit urus akaun TH dan buka akaun amanah untuk bawah 18 tahun. TH beri agihan 3.50% bagi 2025 (tertinggi dalam 8 tahun), dan pada 18 Nov 2026 Timbalan Menteri JPM (Hal Ehwal Agama) Marhamah Rosli beritahu Dewan Rakyat kira-kira 90% aset TH dilabur dalam negara (54% pendapatan tetap, 29% ekuiti, 12% hartanah) dan TH akan teliti cadangan panel khas strategi pelaburan (NST). Kadar agihan tidak dijamin dan boleh berubah setiap tahun."
+  },
+  {
+   "id": "luno",
+   "ideas": [
+    "Staking Kripto Patuh Syariah? Apa Maksudnya",
+    "Luno Staking: Cara Guna & Risiko Sebenar",
+    "Kripto Halal Tak Bermaksud Tak Rugi"
+   ],
+   "name": "Luno (staking patuh Syariah)",
+   "seg": "syariah",
+   "sources": [
+    {
+     "name": "The Star (11 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/11/lunos-entire-staking-suite-large-cap-bundle-obtain-syariah-certification"
+    },
+    {
+     "name": "Lowyat.NET",
+     "url": "https://www.lowyat.net/2026/409585/luno-shariah-compliant/"
+    },
+    {
+     "name": "RinggitPlus (12 Nov 2026)",
+     "url": "https://ringgitplus.com/ms/blog/berita-kewangan-peribadi/staking-tujuh-aset-kripto-di-luno-kini-patuh-syariah.html"
+    }
+   ],
+   "url": "https://www.luno.com/en/my",
+   "what": "Platform aset digital (kripto) dengan dompet staking dan bundle large cap yang diperakui patuh Syariah.",
+   "why": "Pada 11 Nov 2026, The Star lapor keseluruhan suite staking Luno dan bundle large cap diperakui patuh Syariah oleh Sharlife Sdn Bhd (penasihat Syariah berdaftar dengan SC), menambah DOT, AVAX, ATOM dan NEAR kepada ETH, SOL dan ADA (7 dompet staking). Luno kata ia ada lebih 1 juta pelanggan di Malaysia. Patuh Syariah tak bermaksud selamat: harga kripto sangat turun naik dan nilai boleh jatuh banyak."
+  },
+  {
+   "id": "cimb-octo-islamic",
+   "ideas": [
+    "Cara Guna Faraid360: Kira Harta Pusaka Ikut Faraid",
+    "57 Dana Patuh Syariah Dalam CIMB OCTO: Cara Pilih",
+    "Zakat365 Lite: Kira Zakat Simpanan Dalam App"
+   ],
+   "name": "CIMB OCTO (Islamic Wealth Management)",
+   "seg": "syariah",
+   "sources": [
+    {
+     "name": "Lowyat.NET (17 Nov 2026)",
+     "url": "https://www.lowyat.net/2026/409877/cimb-islamic-wealth-management/"
+    }
+   ],
+   "url": "https://www.cimb.com.my/en/personal/islamic-banking/islamic-wealth-management.html",
+   "what": "App CIMB dengan alat pengurusan harta Islam: dana patuh Syariah, kalkulator zakat dan simulator faraid.",
+   "why": "Pada 17 Nov 2026, CIMB Islamic lancar Islamic Wealth Management dengan pemilih MyWealth Shariah untuk 57 dana patuh Syariah dan Zakat365 Lite (tiba Dis 2026) dalam app CIMB OCTO, serta simulator Faraid360 di laman CIMB (Lowyat.NET). Nilai pelaburan dalam dana boleh turun dan naik."
+  }
+ ]
+}
