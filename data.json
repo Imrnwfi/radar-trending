@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "updated_label": "27 Nov 2026, 7 pagi",
+ "updated_label": "27 Nov 2026, 7 petang",
  "items": [
   {
    "angle": "Tutorial skrin telefon: cara semak versi OS dan hidupkan amaran kecemasan MySiren di iPhone, Android dan Huawei, plus terangkan beza pop-up MySiren dengan SMS NADMA dan mesej banjir palsu di WhatsApp. Tekankan ia ujian sahaja, jangan panik.",
@@ -225,8 +225,8 @@
     "Kiosk vs App: Cara Paling Cepat Dapat MyKomuter50",
     "5 Kesilapan Bila Daftar Pas MyKomuter50"
    ],
-   "prev_score": 93,
-   "score": 94,
+   "prev_score": 94,
+   "score": 95,
    "script": {
     "cta": "Tag kawan yang ulang-alik naik Komuter, dan subscribe untuk tips jimat setiap minggu!",
     "hook": "Korang naik KTM Komuter hari-hari? Sejak 16 November korang dah boleh aktifkan pas RM50 untuk naik tanpa had sebulan mulai 1 Disember, dan ada laluan yang jimat sampai ratusan ringgit.",
@@ -363,8 +363,8 @@
     "Mohon STR 2027 Kali Pertama: Tutorial Penuh",
     "Cara Semak Status STR 2027 Dalam 2 Minit"
    ],
-   "prev_score": 90,
-   "score": 91,
+   "prev_score": 91,
+   "score": 92,
    "script": {
     "cta": "Komen kalau STR korang dah lulus, dan subscribe supaya tak terlepas tarikh bayaran Fasa 1.",
     "hook": "Sejak 16 November, bayaran STR untuk penerima baharu dan rayuan yang lulus dah mula masuk. Tapi kalau korang belum kemas kini STR 2027, Fasa 1 tahun depan pun boleh terlepas, dan tempohnya dijangka tamat hujung bulan ni. Jom semak dalam 5 minit.",
@@ -643,7 +643,7 @@
    "title": "Baki SARA luput 31 Disember: guna sebelum hangus",
    "why": "Timbalan Menteri Kewangan Liew Chin Tong kata setakat 15 Nov 2026 lebih 95% kredit SARA seluruh negara sudah digunakan, tetapi baki SARA bulanan dan SARA Untuk Semua tidak boleh dibawa ke tahun depan dan mesti dibelanjakan sebelum 31 Disember (Bernama, 17 Nov); di Sarawak penggunaan baru 93%. Pada 23 Nov, Timbalan Menteri KPDN Fuziah Salleh beritahu Dewan Rakyat kedai runcit kampung boleh sertai SARA dengan memohon terminal bayaran daripada MOF; kini ada kira-kira 15,000 premis rakan SARA termasuk 6,800 kedai runcit kecil dan koperasi, dengan sasaran 10,000 kedai runcit kecil menjelang hujung 2026 (RinggitPlus, 24 Nov). Baki boleh disemak di portal SARA (sara.gov.my) atau app MyKasih, dan untuk 2027 penerima STR akan dapat SARA sehingga RM150 sebulan, dengan peruntukan SARA naik dari RM8 bilion ke RM10 bilion.",
    "score": 88,
-   "prev_score": 89,
+   "prev_score": 88,
    "status": "panas",
    "script": {
     "cta": "Share video ni dekat group WhatsApp keluarga supaya mak ayah tak rugi baki SARA, dan subscribe untuk peringatan bantuan kerajaan seterusnya.",
@@ -790,8 +790,8 @@
    ],
    "title": "404,848 rakyat kena sekat ke luar negara: semak status sebelum cuti",
    "why": "Ketua Pengarah Imigresen Datuk Zakaria Shaaban dilaporkan berkata 404,848 rakyat Malaysia telah dikenakan sekatan perjalanan sejak 2024, atas sebab seperti cukai LHDN tertunggak, tunggakan PTPTN, caruman KWSP, perintah mahkamah, kebankrapan dan isu kastam (RinggitPlus, 25 Nov 2026, memetik The Star). Bayar di pintu sempadan tidak terus menarik sekatan kerana Imigresen tidak kutip bayaran untuk agensi lain, jadi status perlu disemak di sspi.imi.gov.my dan diselesaikan dengan agensi terlibat lebih awal. Ia hangat kerana 59% responden tinjauan Versa (24 Nov) merancang bercuti Disember ini.",
-   "score": 79,
-   "prev_score": null,
+   "score": 78,
+   "prev_score": 79,
    "status": "naik"
   },
   {
@@ -958,153 +958,8 @@
    ],
    "title": "Amaran scam: rugi RM7.33 bilion, saman PDRM palsu & 'polis' minta kad ATM",
    "why": "Menteri Dalam Negeri Saifuddin Nasution beritahu Dewan Rakyat pada 25 Nov 2026 rakyat Malaysia rugi RM7.33 bilion akibat scam dalam talian sejak 2023 (192,869 kes), termasuk RM1.56 bilion dalam 10 bulan pertama 2026, dengan pelaburan palsu paling besar (RM3.4 bilion) dan 254,546 akaun keldai dikesan (Malay Mail). Taktik semasa termasuk SMS 'saman PDRM' RM150 ke laman MyBayar palsu (MyCERT, 6 Nov), app palsu 'BNM Mobile Security' yang curi data kad melalui NFC (4 Nov), dan 'polis' palsu yang suruh mangsa tinggalkan kad ATM, menyebabkan seorang guru dan seorang pesara rugi lebih RM1.18 juta (Bernama, 17 Nov). Gabenor BNM (18 Nov) syorkan pendekatan 3S (Spot, Stop, Share), manakala persidangan NEXSEC2026 anjuran MCMC (25–26 Nov) beri amaran scam guna deepfake dan suara klon AI makin menjadi-jadi.",
-   "score": 77,
-   "prev_score": 77,
-   "status": "naik"
-  },
-  {
-   "angle": "Video 'harga minyak minggu ni' yang kira jimat sebenar: berapa beza isi penuh RON97 berbanding bulan lepas, dan terangkan kenapa BUDI95 tak ikut turun (yang turun ialah subsidi kerajaan). Sudut segar: 4 minggu berturut-turut turun, RON97 kini bawah RM4.",
-   "cat": "kewangan",
-   "competition": {
-    "checked": "26 Nov 2026",
-    "level": "sederhana",
-    "note": "Saluran berita (Bernama, Astro) terus muat naik Shorts harga minyak mingguan BM, kebanyakannya bacaan berita ringkas. Sudut kira jimat sebenar ikut kuota BUDI95 dan trend empat minggu turun masih kurang diterokai."
-   },
-   "deadline": "Harga 26 Nov–2 Dis 2026; harga baharu dijangka diumum 2 Dis",
-   "faq": [
-    {
-     "a": "RM3.75 seliter untuk 26 Nov–2 Dis 2026, turun 25 sen.",
-     "q": "Harga RON97 minggu ni berapa?"
-    },
-    {
-     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi turun ke RM3.47.",
-     "q": "Harga RON95 berapa?"
-    },
-    {
-     "a": "Diesel tanpa subsidi RM4.47; BUDI Diesel kekal RM2.10.",
-     "q": "Harga diesel berapa?"
-    },
-    {
-     "a": "RM1.48 seliter, kira-kira 43% daripada harga tanpa subsidi.",
-     "q": "Berapa subsidi RON95 seliter sekarang?"
-    },
-    {
-     "a": "MOF biasanya umum harga mingguan pada hari Rabu, jadi harga seterusnya dijangka pada 2 Disember.",
-     "q": "Bila harga baru diumumkan?"
-    }
-   ],
-   "icon": "chart",
-   "id": "harga-minyak-turun-nov",
-   "ideas": [
-    "RON97 Turun Bawah RM4! Harga 26 Nov–2 Dis",
-    "Minyak Turun 4 Minggu: Isi Penuh Jimat Berapa?",
-    "Kenapa BUDI95 Tak Turun Walaupun Minyak Murah?",
-    "RON97 vs BUDI95: Beza Harga Kini RM1.76",
-    "Subsidi RM40 Bilion: Apa Maksud Untuk Kita?"
-   ],
-   "quiz": [
-    {
-     "a": 1,
-     "o": [
-      "RM4.00",
-      "RM3.75",
-      "RM3.47"
-     ],
-     "q": "Harga RON97 untuk 26 Nov–2 Dis 2026?"
-    },
-    {
-     "a": 0,
-     "o": [
-      "25 sen",
-      "15 sen",
-      "50 sen"
-     ],
-     "q": "Berapa sen harga tanpa subsidi turun minggu ini?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "RM2.15",
-      "RM4.47",
-      "RM2.10"
-     ],
-     "q": "Harga BUDI Diesel seliter?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#hargaminyak",
-     "#budi95",
-     "#ron97",
-     "#ron95",
-     "#subsidiminyak"
-    ],
-    "keywords": [
-     "harga minyak minggu ini",
-     "harga ron97 terkini",
-     "harga minyak 26 november",
-     "ron95 tanpa subsidi",
-     "harga diesel terkini"
-    ],
-    "tags": [
-     "harga minyak",
-     "ron97",
-     "ron95",
-     "budi95",
-     "diesel",
-     "subsidi minyak",
-     "mof",
-     "harga petrol malaysia"
-    ],
-    "thumbs": [
-     "RON97 BAWAH RM4!",
-     "TURUN 25 SEN",
-     "4 MINGGU TURUN"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "RON97 RM3.75, RON95 tanpa subsidi RM3.47, diesel tanpa subsidi RM4.47. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
-     "hook": "Semua turun 25 sen minggu ni. Ni harga penuh.",
-     "title": "Harga Minyak 26 Nov–2 Dis"
-    },
-    {
-     "beat": "Kira contoh isi 40 liter: turun 25 sen seliter bermaksud RM10 lebih murah berbanding minggu lepas (RM4.00). Tunjuk kiraan atas skrin.",
-     "hook": "RON97 sekarang RM3.75. Bulan lepas jauh lebih mahal.",
-     "title": "RON97 Isi Penuh Jimat Berapa?"
-    },
-    {
-     "beat": "BUDI95 harga tetap; bila harga pasaran turun, yang berkurang ialah subsidi kerajaan, kini RM1.48 seliter (43%) berbanding RM1.73 minggu lepas.",
-     "hook": "Empat minggu harga minyak turun. BUDI95 masih RM1.99. Kenapa?",
-     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Malay Mail (25 Nov 2026)",
-     "url": "https://www.malaymail.com/news/malaysia/2026/11/25/fuel-prices-take-a-dive-ron97-unsubsidised-ron95-and-diesel-all-down-25-sen/244757"
-    },
-    {
-     "name": "Free Malaysia Today (25 Nov 2026)",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/ron97-unsubsidised-ron95-and-diesel-down-25-sen"
-    },
-    {
-     "name": "Business Today (25 Nov 2026)",
-     "url": "https://www.businesstoday.com.my/2026/11/25/petrol-and-diesel-prices-drop-25-sen-per-litre-from-thursday/"
-    },
-    {
-     "name": "Bernama (18 Nov 2026)",
-     "url": "https://bernama.com/en/news.php?id=2636357"
-    },
-    {
-     "name": "Siaran Media MOF (18 Nov 2026)",
-     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
-    }
-   ],
-   "title": "Harga minyak turun 25 sen: RON97 RM3.75, BUDI95 kekal RM1.99",
-   "why": "Pada 25 Nov 2026, MOF umum harga untuk 26 Nov–2 Dis: RON97 turun 25 sen ke RM3.75 seliter, RON95 tanpa subsidi turun 25 sen ke RM3.47 dan diesel tanpa subsidi turun 25 sen ke RM4.47, iaitu minggu keempat berturut-turut harga tanpa subsidi turun (Malay Mail, FMT). BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10, jadi subsidi kerajaan kini RM1.48 seliter untuk RON95 (43%) dan RM2.37 seliter untuk diesel (53%); SKPS RM2.05 dan SKDS RM2.15 tidak berubah. MOF kata penurunan didorong harga produk bertapis serantau yang sederhana dan bekalan minyak mentah dunia yang lebih tinggi, tetapi harga dijangka terus turun naik kerana risiko geopolitik, dengan hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan.",
    "score": 76,
-   "prev_score": 78,
+   "prev_score": 77,
    "status": "naik"
   },
   {
@@ -1257,7 +1112,152 @@
    "title": "Renew pasport online: kini terus dalam app MyGOV",
    "why": "Pada 24 Nov 2026, Kementerian Digital umum app MyGOV Malaysia versi 2.1.4 kini membolehkan permohonan renew pasport dan bayaran online terus dalam app, termasuk pilih pejabat Imigresen untuk ambil pasport; buat masa ini pengambilan hanya di Pejabat Imigresen Shaftsbury, Putrajaya, dan lokasi lain akan ditambah berperingkat (Malay Mail). Sejak 2 Nov 2026 pula, rakyat boleh pilih tempoh 5 atau 10 tahun melalui MyOnline Passport; pasport 10 tahun untuk umur 18 tahun ke atas dengan yuran RM350 (warga emas 60+ RM175, OKU percuma), berbanding RM200 untuk 5 tahun (RinggitPlus, 2 Nov). Baki tempoh pasport lama tidak dibawa ke pasport 10 tahun, dan 10 tahun hanya lebih jimat (RM50) jika digunakan sekurang-kurangnya 8 tahun 9 bulan.",
    "score": 76,
-   "prev_score": 77,
+   "prev_score": 76,
+   "status": "naik"
+  },
+  {
+   "angle": "Video 'harga minyak minggu ni' yang kira jimat sebenar: berapa beza isi penuh RON97 berbanding bulan lepas, dan terangkan kenapa BUDI95 tak ikut turun (yang turun ialah subsidi kerajaan). Sudut segar: 4 minggu berturut-turut turun, RON97 kini bawah RM4.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "26 Nov 2026",
+    "level": "sederhana",
+    "note": "Saluran berita (Bernama, Astro) terus muat naik Shorts harga minyak mingguan BM, kebanyakannya bacaan berita ringkas. Sudut kira jimat sebenar ikut kuota BUDI95 dan trend empat minggu turun masih kurang diterokai."
+   },
+   "deadline": "Harga 26 Nov–2 Dis 2026; harga baharu dijangka diumum 2 Dis",
+   "faq": [
+    {
+     "a": "RM3.75 seliter untuk 26 Nov–2 Dis 2026, turun 25 sen.",
+     "q": "Harga RON97 minggu ni berapa?"
+    },
+    {
+     "a": "BUDI95 kekal RM1.99; RON95 tanpa subsidi turun ke RM3.47.",
+     "q": "Harga RON95 berapa?"
+    },
+    {
+     "a": "Diesel tanpa subsidi RM4.47; BUDI Diesel kekal RM2.10.",
+     "q": "Harga diesel berapa?"
+    },
+    {
+     "a": "RM1.48 seliter, kira-kira 43% daripada harga tanpa subsidi.",
+     "q": "Berapa subsidi RON95 seliter sekarang?"
+    },
+    {
+     "a": "MOF biasanya umum harga mingguan pada hari Rabu, jadi harga seterusnya dijangka pada 2 Disember.",
+     "q": "Bila harga baru diumumkan?"
+    }
+   ],
+   "icon": "chart",
+   "id": "harga-minyak-turun-nov",
+   "ideas": [
+    "RON97 Turun Bawah RM4! Harga 26 Nov–2 Dis",
+    "Minyak Turun 4 Minggu: Isi Penuh Jimat Berapa?",
+    "Kenapa BUDI95 Tak Turun Walaupun Minyak Murah?",
+    "RON97 vs BUDI95: Beza Harga Kini RM1.76",
+    "Subsidi RM40 Bilion: Apa Maksud Untuk Kita?"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "RM4.00",
+      "RM3.75",
+      "RM3.47"
+     ],
+     "q": "Harga RON97 untuk 26 Nov–2 Dis 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "25 sen",
+      "15 sen",
+      "50 sen"
+     ],
+     "q": "Berapa sen harga tanpa subsidi turun minggu ini?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "RM2.15",
+      "RM4.47",
+      "RM2.10"
+     ],
+     "q": "Harga BUDI Diesel seliter?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#hargaminyak",
+     "#budi95",
+     "#ron97",
+     "#ron95",
+     "#subsidiminyak"
+    ],
+    "keywords": [
+     "harga minyak minggu ini",
+     "harga ron97 terkini",
+     "harga minyak 26 november",
+     "ron95 tanpa subsidi",
+     "harga diesel terkini"
+    ],
+    "tags": [
+     "harga minyak",
+     "ron97",
+     "ron95",
+     "budi95",
+     "diesel",
+     "subsidi minyak",
+     "mof",
+     "harga petrol malaysia"
+    ],
+    "thumbs": [
+     "RON97 BAWAH RM4!",
+     "TURUN 25 SEN",
+     "4 MINGGU TURUN"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "RON97 RM3.75, RON95 tanpa subsidi RM3.47, diesel tanpa subsidi RM4.47. BUDI95 kekal RM1.99, BUDI Diesel RM2.10.",
+     "hook": "Semua turun 25 sen minggu ni. Ni harga penuh.",
+     "title": "Harga Minyak 26 Nov–2 Dis"
+    },
+    {
+     "beat": "Kira contoh isi 40 liter: turun 25 sen seliter bermaksud RM10 lebih murah berbanding minggu lepas (RM4.00). Tunjuk kiraan atas skrin.",
+     "hook": "RON97 sekarang RM3.75. Bulan lepas jauh lebih mahal.",
+     "title": "RON97 Isi Penuh Jimat Berapa?"
+    },
+    {
+     "beat": "BUDI95 harga tetap; bila harga pasaran turun, yang berkurang ialah subsidi kerajaan, kini RM1.48 seliter (43%) berbanding RM1.73 minggu lepas.",
+     "hook": "Empat minggu harga minyak turun. BUDI95 masih RM1.99. Kenapa?",
+     "title": "Minyak Turun, Kenapa BUDI95 Tak Turun?"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (25 Nov 2026)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/25/fuel-prices-take-a-dive-ron97-unsubsidised-ron95-and-diesel-all-down-25-sen/244757"
+    },
+    {
+     "name": "Free Malaysia Today (25 Nov 2026)",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/ron97-unsubsidised-ron95-and-diesel-down-25-sen"
+    },
+    {
+     "name": "Business Today (25 Nov 2026)",
+     "url": "https://www.businesstoday.com.my/2026/11/25/petrol-and-diesel-prices-drop-25-sen-per-litre-from-thursday/"
+    },
+    {
+     "name": "Bernama (18 Nov 2026)",
+     "url": "https://bernama.com/en/news.php?id=2636357"
+    },
+    {
+     "name": "Siaran Media MOF (18 Nov 2026)",
+     "url": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-dan-diesel-tanpa-subsidi-terus-menurun-kerajaan-madani-kekal-komited-lindungi-rakyat"
+    }
+   ],
+   "title": "Harga minyak turun 25 sen: RON97 RM3.75, BUDI95 kekal RM1.99",
+   "why": "Pada 25 Nov 2026, MOF umum harga untuk 26 Nov–2 Dis: RON97 turun 25 sen ke RM3.75 seliter, RON95 tanpa subsidi turun 25 sen ke RM3.47 dan diesel tanpa subsidi turun 25 sen ke RM4.47, iaitu minggu keempat berturut-turut harga tanpa subsidi turun (Malay Mail, FMT). BUDI95 kekal RM1.99 dan BUDI Diesel RM2.10, jadi subsidi kerajaan kini RM1.48 seliter untuk RON95 (43%) dan RM2.37 seliter untuk diesel (53%); SKPS RM2.05 dan SKDS RM2.15 tidak berubah. MOF kata penurunan didorong harga produk bertapis serantau yang sederhana dan bekalan minyak mentah dunia yang lebih tinggi, tetapi harga dijangka terus turun naik kerana risiko geopolitik, dengan hampir RM40 bilion diperuntukkan untuk subsidi bahan api tahun depan.",
+   "score": 75,
+   "prev_score": 76,
    "status": "naik"
   },
   {
@@ -1533,8 +1533,149 @@
    ],
    "title": "Cuti hujung tahun: bayar di luar negara guna e-wallet & app bank",
    "why": "Menjelang musim cuti, Wise naikkan had e-wallet untuk pengguna Malaysia kepada RM50,000 secara automatik pada 24 Nov 2026, dengan kempen cuti 16 Nov–5 Jan 2027 yang tawar hadiah tunai sehingga RM10,000 untuk pembelian luar negara layak (Lowyat.NET), manakala Merchantrade Money naikkan had dari RM20,000 ke RM30,000 pada 18 Nov (The Star). Sejak 28 Okt, pengguna app Maybank, CIMB dan Hong Leong Bank boleh imbas DuitNow QR di kedai berlogo Alipay+ di China, Hong Kong, Korea Selatan, Filipina dan Laos tanpa app tambahan, dan sejak 5 Nov TNG eWallet boleh tempah e-hailing di 47 negara (Lowyat.NET). Tinjauan Versa (24 Nov 2026, 2,000 pengguna app) pula dapati 59% responden akan bercuti Disember ini dan 88% kata sekurang-kurangnya satu kos utama cuti lebih mahal berbanding sebelum ini (RinggitPlus, 25 Nov).",
+   "score": 73,
+   "prev_score": 72,
+   "status": "naik"
+  },
+  {
+   "angle": "Terangkan maksud OPR naik 0.25% untuk ansuran rumah dan pinjaman peribadi, beza pinjaman kadar terapung dan tetap, serta peraturan pinjaman baharu 1 Jan 2027. Tekankan ini ramalan penganalisis, bukan keputusan BNM; jangan buat keputusan pelaburan atau pinjaman semata-mata ikut ramalan kerana kadar dan nilai pelaburan boleh berubah.",
+   "cat": "kewangan",
+   "competition": {
+    "checked": "27 Nov 2026",
+    "level": "sederhana",
+    "note": "Ada beberapa klip berita BM (RTM, Awani) tentang OPR dijangka naik, kebanyakannya bacaan berita. Video yang terangkan kesan pada ansuran dengan bahasa mudah dan peraturan pinjaman 1 Jan 2027 masih kurang."
+   },
+   "deadline": "Peraturan pinjaman baharu BNM berkuat kuasa 1 Jan 2027",
+   "faq": [
+    {
+     "a": "2.75%, dikekalkan BNM dalam mesyuarat MPC pada 5 Nov 2026.",
+     "q": "OPR sekarang berapa?"
+    },
+    {
+     "a": "Belum diputuskan; BNM kata ikut data ekonomi dan inflasi, tapi ramai penganalisis jangka naik 0.25% ke 3.0% pada separuh pertama 2027.",
+     "q": "Betul ke OPR naik tahun depan?"
+    },
+    {
+     "a": "Ikut jadual mesyuarat MPC 2027 di laman BNM; TA Research sebut kemungkinan seawal Januari atau Mac 2027.",
+     "q": "Bila BNM akan buat keputusan?"
+    },
+    {
+     "a": "Bergantung jenis pinjaman, jadi semak kontrak sama ada ia kadar terapung atau kadar tetap.",
+     "q": "Ansuran saya confirm naik ke kalau OPR naik?"
+    },
+    {
+     "a": "Mulai 1 Jan 2027, BNM larang kaedah kadar rata dan Rule of 78 untuk pinjaman baharu; bank wajib guna baki berkurangan.",
+     "q": "Apa jadi pada Rule of 78 tahun depan?"
+    }
+   ],
+   "icon": "chart",
+   "id": "opr-naik-2027",
+   "ideas": [
+    "OPR Naik 2027? Ansuran Rumah Korang Naik Ke?",
+    "Pinjaman Kadar Terapung vs Tetap: Mana Selamat?",
+    "5 Benda Patut Buat Sebelum OPR Naik",
+    "Rule of 78 Diharamkan 2027: Apa Maksudnya?",
+    "Pinjam Lebih RM100k? Wajib Modul 15 Minit"
+   ],
+   "quiz": [
+    {
+     "a": 1,
+     "o": [
+      "3.00%",
+      "2.75%",
+      "2.50%"
+     ],
+     "q": "Berapa kadar OPR selepas mesyuarat BNM 5 Nov 2026?"
+    },
+    {
+     "a": 0,
+     "o": [
+      "25 mata asas",
+      "50 mata asas",
+      "100 mata asas"
+     ],
+     "q": "Penganalisis jangka OPR naik berapa pada 2027?"
+    },
+    {
+     "a": 2,
+     "o": [
+      "Rule of 78",
+      "Kadar rata",
+      "Baki berkurangan"
+     ],
+     "q": "Mulai 1 Jan 2027, pinjaman baharu wajib guna kaedah apa?"
+    }
+   ],
+   "seo": {
+    "hashtags": [
+     "#opr",
+     "#banknegara",
+     "#pinjamanrumah",
+     "#kewangan",
+     "#opr2027"
+    ],
+    "keywords": [
+     "opr naik 2027",
+     "kadar opr terkini",
+     "opr naik kesan pinjaman rumah",
+     "opr 2.75 peratus",
+     "rule of 78 diharamkan"
+    ],
+    "tags": [
+     "opr",
+     "bank negara",
+     "kadar faedah",
+     "pinjaman rumah",
+     "pinjaman peribadi",
+     "ansuran bulanan",
+     "kewangan peribadi",
+     "opr 2027"
+    ],
+    "thumbs": [
+     "OPR NAIK 2027?",
+     "ANSURAN NAIK?",
+     "PERATURAN PINJAMAN BARU"
+    ]
+   },
+   "shorts": [
+    {
+     "beat": "BNM kekalkan OPR 2.75% pada 5 Nov. Ramai penganalisis jangka naik 0.25% ke 3% pada separuh pertama 2027, tapi BNM kata ikut data inflasi dulu.",
+     "hook": "Ansuran rumah korang mungkin naik tahun depan.",
+     "title": "OPR 2.75%: Naik Tahun Depan?"
+    },
+    {
+     "beat": "Tunjuk cara semak kontrak pinjaman: kadar terapung biasanya ikut perubahan kadar, kadar tetap tak berubah. Ingat, kenaikan 2027 masih ramalan.",
+     "hook": "OPR naik, semua hutang naik? Tak semestinya.",
+     "title": "Mitos: OPR Naik, Semua Hutang Naik"
+    },
+    {
+     "beat": "Mulai 1 Jan 2027, pinjaman baharu wajib kira faedah ikut baki berkurangan, bukan kadar rata atau Rule of 78. Pinjaman peribadi lebih RM100k perlu siapkan modul 15 minit dulu.",
+     "hook": "Nak pinjam duit tahun depan? Peraturan dah tukar.",
+     "title": "Rule of 78 Diharamkan 1 Jan 2027"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Malay Mail (18 Nov 2026)",
+     "url": "https://www.malaymail.com/amp/news/money/2026/11/18/bnm-economic-inflation-data-will-determine-2027-opr-move/243764"
+    },
+    {
+     "name": "The Star (9 Nov 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/09/bnm-expected-to-raise-rates-in-2027"
+    },
+    {
+     "name": "Bernama (18 Nov 2026)",
+     "url": "https://bernama.com/en/region/news.php?id=2636067"
+    },
+    {
+     "name": "Malay Mail (peraturan pinjaman 2027)",
+     "url": "https://malaymail.com/news/money/2025/11/11/borrowing-over-rm100000-from-jan-2027-bnm-says-youll-need-to-pass-a-15-minute-financial-education-module-first/198021"
+    }
+   ],
+   "title": "OPR dijangka naik 2027: kesan pada ansuran & pinjaman",
+   "why": "BNM kekalkan OPR pada 2.75% dalam mesyuarat MPC terakhir 2026 pada 5 Nov, dan pada 18 Nov Gabenor Abdul Rasheed Ghaffour kata keputusan menaikkan OPR pada 2027 bergantung pada data ekonomi dan inflasi (Malay Mail, Bernama). Penganalisis seperti CGS, HLIB, TA dan Kenanga jangka kenaikan 25 mata asas ke 3.0% pada separuh pertama 2027, dengan TA sebut kemungkinan mesyuarat Januari atau Mac (The Star, 9 Nov). Mulai 1 Jan 2027 juga, BNM larang kaedah kadar rata dan Rule of 78 untuk pinjaman baharu, dan pinjaman peribadi melebihi RM100,000 perlu siapkan modul pendidikan kewangan 15 minit (Malay Mail).",
    "score": 72,
-   "prev_score": 70,
+   "prev_score": null,
    "status": "naik"
   },
   {
@@ -1576,7 +1717,7 @@
     "Tips Pastikan Bantuan Banjir Masuk Akaun Korang",
     "Mangsa Banjir: Cara Minta Tangguh Bayar Pinjaman"
    ],
-   "prev_score": 73,
+   "prev_score": 70,
    "score": 70,
    "seo": {
     "hashtags": [
@@ -1853,8 +1994,8 @@
    ],
    "title": "61% rakyat tiada RM1,000 simpanan kecemasan: cara mula bina dana",
    "why": "TPM Fadillah Yusof pada 22 Nov 2026 (majlis ASNB di Kuching) memetik laporan BNM 2024 bahawa 61% rakyat Malaysia sukar mengumpul RM1,000 ketika kecemasan, naik dari 47% pada 2021, dan hanya 37% mampu tampung belanja lebih tiga bulan jika hilang pendapatan (RinggitPlus, 23–24 Nov). Tinjauan RMFLS 2026 tajaan GXBank (3,005 responden dalam talian, Sept–Okt 2026) pula dapati 57% kata simpanan cukup tiga bulan atau kurang, dan 22% kurang sebulan. RinggitPlus syorkan sasaran 3–6 bulan belanja wajib dan mula dengan RM1,000; contohnya RM250 sebulan capai RM1,000 dalam 4 bulan.",
-   "score": 70,
-   "prev_score": 71,
+   "score": 69,
+   "prev_score": 70,
    "status": "naik"
   },
   {
@@ -1987,7 +2128,7 @@
    "title": "Bantuan Kasih Johor 2027: RM200 hingga RM2,000 untuk lebih 820,000 penerima",
    "why": "Bajet Johor 2027 bernilai RM3.07 bilion yang dibentang pada 19 Nov 2026 umum Bantuan Kasih Johor (BKJ) RM200 hingga RM2,000 seorang untuk lebih 820,000 penerima, dengan kebanyakan bayaran pada Disember 2026 dan Februari 2027 (RinggitPlus, 23 Nov). Contohnya, pemandu teksi, e-hailing dan p-hailing berdaftar (45,056 orang) dapat RM400, suri rumah tidak bekerja (193,166 orang) RM200, dan penjawat awam persekutuan di Johor RM500 (RM300 Dis, RM200 Feb). Ada juga bantuan rumah pertama RM5,000 dan sewa RM2,500, tapi syarat dan cara mohon belum diumumkan.",
    "score": 69,
-   "prev_score": 70,
+   "prev_score": 69,
    "status": "naik"
   },
   {
@@ -2123,146 +2264,6 @@
    "title": "Bulan Mesra Peminjam PTPTN: susun semula tunggakan dari 20% atau RM1,000",
    "why": "PTPTN adakan Bulan Mesra Peminjam (BMP) 2026 dari 1 Nov hingga 15 Dis, di mana peminjam boleh berunding untuk penstrukturan semula, penggabungan pinjaman atau pertukaran ke Ujrah dengan bayaran serendah 20% atau RM1,000 daripada keseluruhan tunggakan, mengikut jumlah yang lebih tinggi (Bernama, 17 Nov). Pada 1–15 Dis, kaunter PTPTN negeri dan cawangan buka 8.30 pagi hingga 6 petang, dan kaunter terpilih juga dibuka 5 dan 12 Dis. Belanjawan 2027 pula umum peminjam berpendapatan sehingga RM2,500 sebulan tidak perlu bayar balik pada 2027 dan yang berpendapatan RM2,500–RM3,000 bayar minimum RM50 sebulan, tetapi cara memohon belum diumumkan (RinggitPlus, 9 Okt).",
    "score": 68,
-   "prev_score": 68,
-   "status": "naik"
-  },
-  {
-   "angle": "Tutorial jujur skrin telefon: cara pasang dan guna TuJu (navigasi, CCTV lebuh raya, R&R, bantuan kecemasan), dan bandingkan apa yang ia boleh dan belum boleh buat berbanding app navigasi lain, tanpa politik.",
-   "app": {
-    "name": "TuJu (Lembaga Lebuhraya Malaysia)"
-   },
-   "cat": "tutorial",
-   "competition": {
-    "checked": "26 Nov 2026",
-    "level": "tinggi",
-    "note": "Hanya jumpa satu tutorial BM 'cara guna TuJu'; selebihnya video berita, ulasan Bahasa Inggeris dan Cina. Sudut kosong: tutorial versi terkini selepas TuJu guna Google Maps dan tips cuti sekolah/balik kampung."
-   },
-   "faq": [
-    {
-     "a": "TuJu ialah app Lembaga Lebuhraya Malaysia untuk maklumat trafik lebuh raya masa nyata, CCTV, R&R, bantuan kecemasan dan navigasi.",
-     "q": "TuJu ni app apa sebenarnya?"
-    },
-    {
-     "a": "Tidak, larangan yang diumumkan pada 21 Okt 2026 hanya untuk penjawat awam bagi urusan rasmi.",
-     "q": "Orang biasa kena tukar dari Waze ke TuJu ke?"
-    },
-    {
-     "a": "Menurut Ahmad Maslan pada 16 Nov 2026, TuJu sudah melepasi 1 juta pengguna.",
-     "q": "Berapa ramai dah guna TuJu?"
-    },
-    {
-     "a": "Lonjakan muat turun membebankan sistem, dan sejak 6 Nov navigasinya disambung ke Google Maps untuk kurangkan kos dan pulihkan servis.",
-     "q": "Kenapa TuJu pernah tak boleh guna?"
-    },
-    {
-     "a": "Ya, perkhidmatan utama TuJu kini ada di iOS dan Android.",
-     "q": "TuJu ada untuk iPhone dan Android?"
-    }
-   ],
-   "icon": "map",
-   "id": "tuju-app-navigasi",
-   "ideas": [
-    "Cara Guna App TuJu: Navigasi, CCTV & R&R",
-    "TuJu vs Waze: Mana Lebih Berguna Balik Kampung?",
-    "5 Fungsi TuJu Yang Ramai Tak Tahu",
-    "Kenapa TuJu Tiba-tiba 1 Juta Pengguna?",
-    "Tengok CCTV Lebuh Raya Live Guna TuJu"
-   ],
-   "quiz": [
-    {
-     "a": 0,
-     "o": [
-      "Lembaga Lebuhraya Malaysia",
-      "JPJ",
-      "MCMC"
-     ],
-     "q": "Siapa pemilik app navigasi TuJu?"
-    },
-    {
-     "a": 2,
-     "o": [
-      "Waze",
-      "Apple Maps",
-      "Google Maps"
-     ],
-     "q": "Sejak 6 Nov 2026, navigasi TuJu disambung kepada apa?"
-    },
-    {
-     "a": 1,
-     "o": [
-      "Lebih 100,000",
-      "Lebih 1 juta",
-      "Lebih 10 juta"
-     ],
-     "q": "Berapa pengguna TuJu menurut Ahmad Maslan (16 Nov)?"
-    }
-   ],
-   "seo": {
-    "hashtags": [
-     "#TuJu",
-     "#AppTuju",
-     "#LLM",
-     "#tutorialapp",
-     "#balikkampung"
-    ],
-    "keywords": [
-     "cara guna app tuju",
-     "tuju app llm",
-     "tuju ganti waze",
-     "cctv lebuh raya live",
-     "app navigasi malaysia"
-    ],
-    "tags": [
-     "tuju",
-     "app tuju",
-     "lembaga lebuhraya malaysia",
-     "waze",
-     "navigasi",
-     "cctv lebuh raya",
-     "tutorial app",
-     "balik kampung"
-    ],
-    "thumbs": [
-     "GANTI WAZE?",
-     "TUJU 1 JUTA USER",
-     "CARA GUNA TUJU",
-     "CCTV LIVE PERCUMA"
-    ]
-   },
-   "shorts": [
-    {
-     "beat": "Rakam skrin: muat turun TuJu, masukkan destinasi, tunjuk navigasi (kini guna Google Maps), kemudian buka butang CCTV dan R&R.",
-     "hook": "App navigasi kerajaan ni dah ada 1 juta pengguna, ini cara gunanya.",
-     "title": "Cara Guna TuJu Dalam 30 Saat"
-    },
-    {
-     "beat": "Terangkan larangan 21 Okt hanya untuk penjawat awam bagi urusan rasmi, TuJu milik LLM melepasi 1 juta pengguna, dan navigasinya disambung ke Google Maps sejak 6 Nov.",
-     "hook": "Betul ke semua orang dah tak boleh guna Waze?",
-     "title": "TuJu: Mitos vs Fakta"
-    },
-    {
-     "beat": "Tunjuk fungsi CCTV langsung dan trafik masa nyata TuJu, serta butang bantuan kecemasan untuk perjalanan cuti hujung tahun.",
-     "hook": "Nak tahu jam ke tak sebelum keluar rumah? Tengok ni.",
-     "title": "Tengok CCTV Lebuh Raya Sebelum Gerak"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Bernama (16 Nov 2026)",
-     "url": "https://www.bernama.com/en/news.php?id=2635187"
-    },
-    {
-     "name": "SoyaCincau (21 Okt 2026)",
-     "url": "https://soyacincau.com/2026/10/21/malaysian-goverment-bans-waze-civil-servants/"
-    },
-    {
-     "name": "NST (Okt 2026)",
-     "url": "https://www.nst.com.my/amp/news/nation/2026/10/1561137/tuju-goes-offline-day-after-being-promoted-waze-alternative-watch"
-    }
-   ],
-   "title": "App TuJu tembus 1 juta pengguna: cara guna navigasi tempatan ganti Waze",
-   "why": "Selepas kerajaan larang penjawat awam guna Waze untuk urusan rasmi atas alasan keselamatan data (21 Okt 2026), muat turun app TuJu milik Lembaga Lebuhraya Malaysia (LLM) melonjak dari kira-kira 800,000 kepada lebih 1 juta pengguna dalam beberapa hari, kata Timbalan Menteri Kerja Raya Ahmad Maslan di Dewan Rakyat pada 16 Nov (Bernama). Lonjakan itu sempat buat sistem tergendala, dan sejak 6 Nov fungsi navigasi TuJu disambung kepada Google Maps untuk kurangkan kos; app ini juga ada carian R&R, bantuan kecemasan, CCTV langsung dan trafik lebuh raya masa nyata. TuJu dilancarkan pada 26 Nov 2025, jadi hari ini genap setahun.",
-   "score": 66,
    "prev_score": 68,
    "status": "naik"
   }
